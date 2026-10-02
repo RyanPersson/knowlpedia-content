@@ -1,0 +1,308 @@
+{
+  "id": "catalog-core-dependencies",
+  "sample_seed": 20260827,
+  "sample_size": 20,
+  "entries": [
+    {
+      "id": "catalog/categories/abelian-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-groups/abelian-group"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/associative-algebras",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "linear-algebra/vector-space",
+        "algebra-modules/bilinear-map"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/complex-lie-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "lie-groups/complex-lie-group"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/fields",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-rings/field"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-groups/group-homomorphism"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/jordan-algebras",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/lie-algebras",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "lie-groups/lie-algebra"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/nonassociative-algebras",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "nonassociative-algebra/nonassociative-algebra"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/real-lie-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "fiber-bundles/lie-group",
+        "algebra-groups/group-homomorphism"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/rings",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-rings/ring"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/sets",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "shared-foundations/function"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/spin8-representations",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "linear-algebra/linear-map",
+        "algebra-groups/group-homomorphism",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/topological-fields",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-rings/field",
+        "topology/continuous-map"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/topological-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "topology/topological-group"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/topological-rings",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-rings/unital-ring",
+        "topology/continuous-map"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/unital-associative-algebras",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "catalog/categories/associative-algebras"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/unital-jordan-algebras-arbitrary-maps",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "catalog/categories/jordan-algebras"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/unital-jordan-algebras-unital-maps",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/unital-rings",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-rings/unital-ring"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/categories/vector-spaces",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "linear-algebra/linear-map"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/vector-spaces",
+        "catalog/categories/associative-algebras",
+        "catalog/categories/unital-associative-algebras"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/fields",
+        "catalog/categories/rings",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/gaussian-field-endomorphisms",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/vector-spaces",
+        "catalog/categories/unital-associative-algebras"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/hom-end-aut-by-category",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/endomorphism-category",
+        "algebra-category-theory/automorphism-category"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/jordan-algebras",
+        "nonassociative-algebra/jordan-idempotent"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/jordan-unit-conventions",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/jordan-algebras",
+        "catalog/categories/unital-jordan-algebras-arbitrary-maps",
+        "catalog/categories/unital-jordan-algebras-unital-maps"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/linear-endomorphisms-of-sl2-complex",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/vector-spaces",
+        "lie-groups/special-linear-lie-algebra"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-commutative/restriction-of-scalars",
+        "catalog/categories/vector-spaces",
+        "catalog/categories/unital-associative-algebras"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    },
+    {
+      "id": "catalog/morphisms/sl2-complex-real-versus-holomorphic-maps",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/categories/real-lie-groups",
+        "catalog/categories/complex-lie-groups"
+      ],
+      "evidence": "Reviewed the complete authored list against the defining objects, morphism axioms or theorem hypotheses. Comparison targets and consequences are ordinary links rather than prerequisites. Prerequisites already implicit in a listed defining structure need not be duplicated."
+    }
+  ]
+}

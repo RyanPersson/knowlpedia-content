@@ -1,0 +1,2250 @@
+{
+  "id": "catalog-lie-groups",
+  "entries": [
+    {
+      "id": "catalog/lie-groups/gl-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0d4955167d940e13a41d932a7327ea4bcdeef57947520f70c5be0955986f9b46",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Multiplicative R*: defining multiplicative-group operations, parameters {'field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "555b4b0a303b6813255cf5e1fe5dfab7d6cae6d3795baf6e0aa0ee849c6cc2f3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(1,R): defining special-linear-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "58677475979165162bcea517b6e6f8b958688e5aecd54245496538caca05d292",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(1,R): defining orthogonal-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a6f625ea6f51e319bfb100a764ca3743da2a2ef94b5200e1d698e0c0ed41a431",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(1,R): defining special-orthogonal-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "038e980ea05703b06ca5fdf096f337234be5c7076c6a8e9f2058137dad86c88b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(1,R): defining projective-general-linear-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4a5a7875be7cb099f48af36c9a66305aef44325805de1d4a13e19ff08d73005b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(1,R): defining projective-special-linear-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a4c033316be8cfa573e50f5947a781661b5e1e2a8c92746d77aadffba13b8616",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(1,R): defining spin-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9544b334e563b4262a4c4a8e77cae8384bb33a1f044d24df683dc2aa8322e2b3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(2,R): defining general-linear-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 4}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "259127b2389a520ddb859d1c3df26c1ba2071afaec1fe0145f60652deb82c220",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(2,R): defining special-linear-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "30ee83f5060b0492471bff6f9a249ca30bec51fbab880502f91c985b7f0afc44",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(2,R): defining orthogonal-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9648e9025ca28b0a8fe02993a8b0588dcb35b998887ce40c5028e256e22e91d1",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(2,R): defining special-orthogonal-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b6d2c652399a06fc3ef405fcbda818a2b2da016fdac86d59c2770ab00e69f6a4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(2,R): defining projective-general-linear-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "da473b8b4e2b645a27ac26af940292cea30c53eb11940b1f3248b3af1148cd41",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(2,R): defining projective-special-linear-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "69d3950f93d8ab9d6451a872f298514aa7a39c7dc165ed1ff8207bd4f215684e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(2,R): defining spin-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f097fa763b9d1798223ed894c7319962bc06a5c1f22bf74e2bb49f8f1a093641",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(3,R): defining general-linear-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 9}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7aee8b2fa6439190b82aceab3f56c60cdcba274d227c05271ecd3e95e69a7669",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(3,R): defining special-linear-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7a59b3ed098c7854b14fde550262ab4ee83d4509351c2af9177a1bb955171d97",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(3,R): defining orthogonal-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "6d529b2ebdd0389dc646f83d0ef5cc4764da6e697b4a446e3b8e50d7a159af01",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(3,R): defining projective-general-linear-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4f45effcb451c56770471ef7ca62e685c771885961fc6883af8e4dc6bfa96275",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(3,R): defining projective-special-linear-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "481f2b43d61cc266d05dd634f4de44e3402ed7fc86e9e3e75d237643d2bdf07f",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(3,R): defining spin-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "56c8b235de86a24c1fc1fde08a2e8f8311a48e73067a5039e238e22e36c43ee1",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(n,R): defining general-linear-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n^2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b65afb53bc8dc5e1191d484cba6fc42e961bfb9ab363e1ce8437ac98785d5836",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(n,R): defining special-linear-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "068c28afc599e351c52ed0af6db9e845a69ef556834923e0e62b97439c564adf",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(n,R): defining orthogonal-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n(n-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "868e2c79e6d8b59452a4f42c2d6cbe84879b402b942e8f0a6af28d40f7823403",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(n,R): defining projective-general-linear-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8297dde27e82c4599037e4954e24bdc61558e804cd8a0a6ad421a79cfadd5997",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(n,R): defining projective-special-linear-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "fc4e138ea585814090c8fa3b7612bafec5254cce10b7c44597f940434fa81eea",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(n,R): defining spin-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n(n-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5d62c415d84235a802e078890c48c70062a92c2df791185de9c4eb54edae4cc0",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Multiplicative C*: defining multiplicative-group operations, parameters {'field': 'C'}, dimension {'real': 2, 'complex': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e6d94f3e90a8d4af049c86ff02c445af3a49bb510d45c4580c45bbfbc3f89f3a",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(1,C): defining special-linear-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 0, 'complex': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "28287f4ca4aeee4e6696196f4b2b07c772151c3380b6f54d2cb46b358406bc4c",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(1,C): defining orthogonal-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 0, 'complex': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "eabb6e5ee91e35dc0219dafc46b865c25d1a054dfc120d5d1d0d1c6ee4e5d633",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(1,C): defining special-orthogonal-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 0, 'complex': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b0f15ebace859935f8ffb68f28e2ba0d03774f490288cd196754922078e3b7d4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(1,C): defining projective-general-linear-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 0, 'complex': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "6eb7e14556c793b3786c271de19980f979871c5d783dd59705a47b9ef724fabf",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(1,C): defining projective-special-linear-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 0, 'complex': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "456e8e8c2b5a22348d424851cd37a51c9a0ad1276841b398241a3e21009c4c4c",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(1,C): defining spin-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 0, 'complex': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2ab3ee239a6d8c55fb0bcbe1d1913a86fb77cfb054decb37bdce79acbca4724e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(2,C): defining general-linear-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 8, 'complex': 4}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "97e733ab5357689d84ac6fabce115baa14c373e4617d3aeec0653025baf2165b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(2,C): defining orthogonal-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 2, 'complex': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "1ac03b41cf7c9d107d00dbf53336e7b3dc56440775ec59479b40da828cb54dbf",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(2,C): defining special-orthogonal-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 2, 'complex': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "620dc299e047262d94affe27f122dbc296f4592b409d76fb817b1b5aa12152e3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(2,C): defining projective-general-linear-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "eb78f8a787e08216504b9ab32a897e7008bc9dc86ec237907787647b282c48d4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(2,C): defining spin-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 2, 'complex': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c6a93558005356d516fe6fcf25037dbb02e71686f9ea63ca20a211695e1ba881",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(3,C): defining general-linear-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 18, 'complex': 9}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "dd8112091383aff6c46ed6811c05a5764e01e66d6da89400a9b12a7cc023a1c3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(3,C): defining special-linear-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 16, 'complex': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e73a46f2870dca62c95db5acad9bf7be94e8cbc0b7ec024ae9c76bfa2d949b40",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(3,C): defining orthogonal-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b7a60abcd45c09905a80f4f69b33717db6d74c4f07a953c4e0b04d6b10f72bed",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(3,C): defining special-orthogonal-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5b84fcbc197b1ea3f26c20b7f1bfcc43e328aedaa606c7742dbc076a632659c4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(3,C): defining projective-general-linear-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 16, 'complex': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "90045f44d357f47d7ac7c5e730293b1e7647c69ae5092cd3a941eb2f4f0caf97",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(3,C): defining projective-special-linear-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 16, 'complex': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "77588af40b7d8b2cc8f367746393deea65f0617918690ebb78d6fe49e9ee4f2a",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(3,C): defining spin-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "934d6894a50093a870d1b5e4b1f57c85a6fd43e32879b94cf08e400ce03310dd",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(n,C): defining general-linear-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n^2)', 'complex': 'n^2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4bfbbe467193fdcd805a46504326b90a3d51e12599f52a791781881c3f31f749",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(n,C): defining special-linear-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n^2-1)', 'complex': 'n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5b53070b10422b55c79a33f7cc89d69d9231189e1273ce246ee8457e2202d1be",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(n,C): defining orthogonal-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n(n-1)/2)', 'complex': 'n(n-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a2c496558eac1b81b706f42b142f809639099c27c51fbfab952b5dade6318fbc",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(n,C): defining special-orthogonal-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n(n-1)/2)', 'complex': 'n(n-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/pgl-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3d0d04293c495f47564aa156fcd56d71ee8a81f5cbea255da88baa2b175a1d11",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PGL(n,C): defining projective-general-linear-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n^2-1)', 'complex': 'n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/psl-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "890fa16ee7ffe9052d9d26589c90e780a49a00443a010f1cc9aea8f5e97d12e2",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked PSL(n,C): defining projective-special-linear-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n^2-1)', 'complex': 'n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "dc6e920da704a6581df5081cc5dabc239ac0020cb1171006ca4f60145c406869",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(n,C): defining spin-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n(n-1)/2)', 'complex': 'n(n-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "aba70d181fff49d7646f5c116c288fa86ec49b49c8c7d978d5a0c0f397e3ca04",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(1): defining special-unitary-group operations, parameters {'n': 1, 'matrix_field': 'C'}, dimension {'real': 0}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "d62c5cc666f013cce77b2a78925f08634363cc6bde443ccdc94743517f845d3b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(1): defining compact-symplectic-group operations, parameters {'n': 1, 'matrix_field': 'H'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/u-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "55fdfc01e733140a3b977a7332c60ba3d5587e37155df5cf98c5d59f60c22099",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked U(2): defining unitary-group operations, parameters {'n': 2, 'matrix_field': 'C'}, dimension {'real': 4}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "1db66d8bcf1ff3b147a0765dba7320bb532d2bd67915b8a7f9dbd07e8e50bdb9",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(2): defining compact-symplectic-group operations, parameters {'n': 2, 'matrix_field': 'H'}, dimension {'real': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/u-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2199da39c7917b06fa976b86aff61717755248cac244225723ef92e8d7c80cdd",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked U(3): defining unitary-group operations, parameters {'n': 3, 'matrix_field': 'C'}, dimension {'real': 9}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3cbe22b841fd0f75939513202db4c65d418293cfbf6558d5e1ca2228837bf9e1",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(3): defining special-unitary-group operations, parameters {'n': 3, 'matrix_field': 'C'}, dimension {'real': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "02942fed751f3f90e79fd8d583a35d0d2374c7ddb32961760cac46e7a392a42e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(3): defining compact-symplectic-group operations, parameters {'n': 3, 'matrix_field': 'H'}, dimension {'real': 21}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ffd75c9d0ac6a2d7d3900240b319e28a9044a01a1a49e2bf0e5ad1d630f19cea",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(4): defining special-unitary-group operations, parameters {'n': 4, 'matrix_field': 'C'}, dimension {'real': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-1-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "aa93d434d391a13a46095b416219fc712f4be607735a6cd258a9eb5c5ddb97c3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(1,H): defining quaternionic-general-linear-group operations, parameters {'n': 1, 'field': 'H'}, dimension {'real': 4}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-1-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2ba2b046a47133dea4cb2dc3fefb7c98997766039774b743b6aceb31b04dfd21",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(1,H): defining quaternionic-special-linear-group operations, parameters {'n': 1, 'field': 'H'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-2-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "71bc5ede2949003bc7e7e53b4bf3dfe60aa145bcf87dbc3e716c63515b439dd3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(2,H): defining quaternionic-general-linear-group operations, parameters {'n': 2, 'field': 'H'}, dimension {'real': 16}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-2-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "03b1e0b33bee70d0f76b557f53d7afe4bd2c2907f1fd94cb0ca2ac09b233cc3b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(2,H): defining quaternionic-special-linear-group operations, parameters {'n': 2, 'field': 'H'}, dimension {'real': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-3-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c1d9c214536fa46d322817ccb3aa3f6a8a230f414dd95eda3a6bf5596b2ef7b7",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(3,H): defining quaternionic-general-linear-group operations, parameters {'n': 3, 'field': 'H'}, dimension {'real': 36}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-3-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ee471d5d70a21852128e92d2d32b632a68c536a130bd79a15b8ad589ee783da0",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(3,H): defining quaternionic-special-linear-group operations, parameters {'n': 3, 'field': 'H'}, dimension {'real': 35}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/gl-n-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c5c9d6086dde61f83205d5efac6473602f7760435e93bba854ad6f9a5b17af0e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked GL(n,H): defining quaternionic-general-linear-group operations, parameters {'n': 'n', 'field': 'H'}, dimension {'real': '4n^2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "26b908078b0c62702ad3f5de4ab6b663911d189a0149a08ae77b056959798501",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(n,H): defining quaternionic-special-linear-group operations, parameters {'n': 'n', 'field': 'H'}, dimension {'real': '4n^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0df0e27fc6f71b4a1c11b2c3fb54f1eb1ab9008615f5185c4cebffe5fa20138c",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(2,R): defining symplectic-group operations, parameters {'n': 1, 'matrix_size': 2, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-4-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e3d1cc73d3b8632076f6b79123f5556e693ea75557946f11a3163be1e14bf27d",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(4,R): defining symplectic-group operations, parameters {'n': 2, 'matrix_size': 4, 'field': 'R'}, dimension {'real': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-6-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "cc7af657773b8407dca5f5e83522a889fbe41202d329ce67b7d36eda48584fba",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(6,R): defining symplectic-group operations, parameters {'n': 3, 'matrix_size': 6, 'field': 'R'}, dimension {'real': 21}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-2n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0beea16712550d1690da545552c141ed8b24fae2e4d0e5f1fe3d3b9d8e3e5500",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(2n,R): defining symplectic-group operations, parameters {'n': 'n', 'matrix_size': '2n', 'field': 'R'}, dimension {'real': 'n(2n+1)'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f1037957c31cfa9f853f506a4a5bb30802260518b0b5d98161d0155e8a7651b5",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(2,C): defining symplectic-group operations, parameters {'n': 1, 'matrix_size': 2, 'field': 'C'}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "42d236fa2b4a9f9de142baab04a228592b0bff761e8dcb7badbffea3f01795e6",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(4,C): defining symplectic-group operations, parameters {'n': 2, 'matrix_size': 4, 'field': 'C'}, dimension {'real': 20, 'complex': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-6-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "859652d2ff82e03075346acf714318e6eff8a945ac81456fbd38cca270f224ca",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(6,C): defining symplectic-group operations, parameters {'n': 3, 'matrix_size': 6, 'field': 'C'}, dimension {'real': 42, 'complex': 21}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-2n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bb1d118e42d4c75a19fc095a3bc125f5f710f4d283180875e3e884abc2304012",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(2n,C): defining symplectic-group operations, parameters {'n': 'n', 'matrix_size': '2n', 'field': 'C'}, dimension {'real': '2*(n(2n+1))', 'complex': 'n(2n+1)'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/additive-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ace34495b1d12b29794a58decebb039cd40bc2d611f5f07d3d60551e86bdb5de",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive R^1: defining additive-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c9147f7fcca08ea35a4cf4bcab6d884c0b76eb37bbedac267807c757943626f4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_3(R): defining heisenberg-group operations, parameters {'n': 1, 'field': 'R', 'dimension_subscript': 3}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "502bde235c12a0009d8b0175707604d1240dee091c3d668301632a6384323064",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(1,R): defining affine-group operations, parameters {'n': 1, 'field': 'R'}, dimension {'real': 2}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "60e279cbe49cece9e16a2a0ef5fbe098cefb3c98135434af362815662838ba6b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive R^2: defining additive-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 2}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c2abca057c8bda47a0532394eefb45e02544508178ea7f21d874535f1a430139",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_5(R): defining heisenberg-group operations, parameters {'n': 2, 'field': 'R', 'dimension_subscript': 5}, dimension {'real': 5}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2789acab317b0eb62a962d140418a0a2ce7238f77a1c96923aa2444b8892e6aa",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(2,R): defining affine-group operations, parameters {'n': 2, 'field': 'R'}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7609845c609c23577b954a7f6785dafe5404113d8e67e82a8a11da6933c6b042",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive R^3: defining additive-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "aeb2c8fb4b58259ce4f8eefb04ca0b368c4b7307bae1dd14921abe0e4f4d5697",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_7(R): defining heisenberg-group operations, parameters {'n': 3, 'field': 'R', 'dimension_subscript': 7}, dimension {'real': 7}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4ed26e720ccd89fd1a4479231f9d98b6d556998ef470d18ce243f56875367853",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(3,R): defining affine-group operations, parameters {'n': 3, 'field': 'R'}, dimension {'real': 12}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a435275d2b7b1dfda32fb373eed5cdb849c96794d8fe70a453a13ec41801bf46",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive R^n: defining additive-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/affine-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "77299ae39d02c35190ced34f69f7a80421c7e191be0f4ff9dfba4b6c8d995d7b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(n,R): defining affine-group operations, parameters {'n': 'n', 'field': 'R'}, dimension {'real': 'n^2+n'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2b783f4105045d5949301482d2a3692597451b88ba2d34b2c0277bd3092861b6",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive C^1: defining additive-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 2, 'complex': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "82560aa8ce3a4281663ec723bdf3f27040447f047df41cfba3667266256d191f",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_3(C): defining heisenberg-group operations, parameters {'n': 1, 'field': 'C', 'dimension_subscript': 3}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5002c96ca5f1390ff26a2a6837dcea14cce0c9ba953faa837b269c7fd5c879fb",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(1,C): defining affine-group operations, parameters {'n': 1, 'field': 'C'}, dimension {'real': 4, 'complex': 2}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "446d75749e8ddc005a4254a4fcb9955835943b736510cd230dedb9495c54cd71",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive C^2: defining additive-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 4, 'complex': 2}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e40460e327dd2a9bf450dcffcd3d529030462e82ce9c4023e994f4b9470ec116",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_5(C): defining heisenberg-group operations, parameters {'n': 2, 'field': 'C', 'dimension_subscript': 5}, dimension {'real': 10, 'complex': 5}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "291135f18bd75e19e9bd64e793763509c18439b0e227bcd7a253684b066cf5bd",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(2,C): defining affine-group operations, parameters {'n': 2, 'field': 'C'}, dimension {'real': 12, 'complex': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "42425d5a91c406eed99ef1024f9e184a1ba9ca0fcc8bd8ba2b3c2d9b9a7564bd",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive C^3: defining additive-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 6, 'complex': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c41271e2d773640d0edaa12a2d8fabc3a8ecbbe4108e81065576627d2cbf034e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_7(C): defining heisenberg-group operations, parameters {'n': 3, 'field': 'C', 'dimension_subscript': 7}, dimension {'real': 14, 'complex': 7}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "02aca6942065cc208141d1d6372cfd82b721385652d250e3e637a08f09f77df7",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(3,C): defining affine-group operations, parameters {'n': 3, 'field': 'C'}, dimension {'real': 24, 'complex': 12}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/additive-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e8f74fed9cd73237cb7b6b565da027e7c36601a575b6cb4fd46b1f726c3c097a",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Additive C^n: defining additive-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n)', 'complex': 'n'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c277fde4cb0141768465f67470f9b12837584c7260808e8766d8cdbfc0b23439",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Heisenberg H_2n+1(C): defining heisenberg-group operations, parameters {'n': 'n', 'field': 'C', 'dimension_subscript': '2n+1'}, dimension {'real': '2*(2n+1)', 'complex': '2n+1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§49.1, Example 49.2, p. 266; general-coordinate associativity and commutator verified directly"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/affine-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f1188309bfb93744314cd5796fc9c4046aec5acb9ceabf9d3c2077e4093a3554",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Aff(n,C): defining affine-group operations, parameters {'n': 'n', 'field': 'C'}, dimension {'real': '2*(n^2+n)', 'complex': 'n^2+n'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/e-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ad4bfc95e3e97eb38f84c1940fe602e705f71f1fae6c7b6acbc16091759e5dba",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E(1): defining euclidean-group operations, parameters {'n': 1}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/se-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0ff13da2d97e862993e35cca2b668a5ecb235a0453e5d49cb703386842d6d11d",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SE(1): defining special-euclidean-group operations, parameters {'n': 1}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/torus-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "346c9afd3c0d0d0cfb76a2ee077f9668ed0188ab583a9d7c9c1388acbd8f19b6",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Torus T^1: defining torus-group operations, parameters {'n': 1}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/e-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "982f3a52a8541f0d33a6db2cc22a6b06699c796fcbd71f42ec51bac9993dc295",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E(2): defining euclidean-group operations, parameters {'n': 2}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/se-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "05807fda0f2bece31bc65535e8207258203908d47093f73c911fcc6f07a16a36",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SE(2): defining special-euclidean-group operations, parameters {'n': 2}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/torus-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "de9b485db178afd4620751efc2e522516663a3766f93253ba479e892474f4fce",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Torus T^2: defining torus-group operations, parameters {'n': 2}, dimension {'real': 2}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/e-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "db9416d14718697bf461abea2f72fed36d75751d70589e1ac8ba1635a3c339ab",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E(3): defining euclidean-group operations, parameters {'n': 3}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/se-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "187b30b1dcd2c0a7f7ba41fa1075ebe41254398cba8a6fd7579acf1b7c2e928f",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SE(3): defining special-euclidean-group operations, parameters {'n': 3}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/torus-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b4660a1916aa5a588ddc7aacea1f45ecc9853d6b059ee3c883cfc608dab767f2",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Torus T^3: defining torus-group operations, parameters {'n': 3}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/e-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4549307f84dafa446dc2e71c82ce297b0a1b2e0b0c9c4b197adb4277a7e120fe",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E(n): defining euclidean-group operations, parameters {'n': 'n'}, dimension {'real': 'n(n+1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/se-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "73ddfac67d8435dd3dbe1adb1f4c8d96696da46f9471392d5836c6cbfce3e504",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SE(n): defining special-euclidean-group operations, parameters {'n': 'n'}, dimension {'real': 'n(n+1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/torus-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "aae05b1854f0e1e0daed39e0259da9308b0278cae6cd0cd928fff9b890bff3e8",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Torus T^n: defining torus-group operations, parameters {'n': 'n'}, dimension {'real': 'n'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/positive-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bf1ec0483b4a506ea1db60f8147fcef5cf440890de507955050fe1d1f1eb12c7",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Positive real multiplicative group: defining positive-multiplicative-group operations, parameters {'field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'abelian-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/o-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "d0a1f4b1110fca01ef68555c2e1c5d49db5b67c8c937ecd1377f1930d3a7d1f8",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(1,1): defining pseudo-orthogonal-group operations, parameters {'p': 1, 'q': 1, 'matrix_field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "21079b8dd8cc65ac1d5d31e2854d93ac0ec9adf789ae5b38c443517d5a54cdac",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(1,1): defining special-pseudo-orthogonal-group operations, parameters {'p': 1, 'q': 1, 'matrix_field': 'R'}, dimension {'real': 1}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/u-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3d0595c4182fe815b40dfa42892066d11267d4424ec76357ff9889a869969268",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked U(1,1): defining pseudo-unitary-group operations, parameters {'p': 1, 'q': 1, 'matrix_field': 'C'}, dimension {'real': 4}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "eaad7a7d3b716b5f5370b5cb24ad4c360eb6679c4852f74a692dbdd6ab509a31",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(1,1): defining special-pseudo-unitary-group operations, parameters {'p': 1, 'q': 1, 'matrix_field': 'C'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "80bc1cee20b1b3f30e579e1c5d934dfdc1d76873a7fc7464f0a70ae60dd6a821",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(1,1): defining pseudo-symplectic-group operations, parameters {'p': 1, 'q': 1, 'matrix_field': 'H'}, dimension {'real': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "caa5760553d588c58628575a9a0b8263c2247ae2abaff2941fc1f28f985343b4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(1,2): defining pseudo-orthogonal-group operations, parameters {'p': 1, 'q': 2, 'matrix_field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b5b7006d33b347a2b65632da7c8ad2ffa16114bdc83ff61c895289eff270d771",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(1,2): defining special-pseudo-orthogonal-group operations, parameters {'p': 1, 'q': 2, 'matrix_field': 'R'}, dimension {'real': 3}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/u-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "af7f11e41130bb86da18fef8093297f4df01f021a79220bf438acf9dab3d31cb",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked U(1,2): defining pseudo-unitary-group operations, parameters {'p': 1, 'q': 2, 'matrix_field': 'C'}, dimension {'real': 9}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "177fb4b99983b2e15d9f3c5fa4b03a0b575d78cbe9b1a7c2bbbf28f5f8c8688b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(1,2): defining special-pseudo-unitary-group operations, parameters {'p': 1, 'q': 2, 'matrix_field': 'C'}, dimension {'real': 8}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2c07ed366a591197c659e1d3c8a649b2634d833e67736346ecd1d96dbb8a74bd",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(1,2): defining pseudo-symplectic-group operations, parameters {'p': 1, 'q': 2, 'matrix_field': 'H'}, dimension {'real': 21}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0cf254631cd5f7f46a322e25b9dd881b9868c4aea86bcdf820ce8f403ebe6521",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(1,3): defining pseudo-orthogonal-group operations, parameters {'p': 1, 'q': 3, 'matrix_field': 'R'}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3dda5257f3b7bc901544d60aab87907d8b4aeb37785d69d0af8153b29d57e258",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(1,3): defining special-pseudo-orthogonal-group operations, parameters {'p': 1, 'q': 3, 'matrix_field': 'R'}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/u-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8f2334a5c0dac3ef5e1f450ee1d26233ddf6ed90cf4fbbbdc81fc8eeb7212ed3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked U(1,3): defining pseudo-unitary-group operations, parameters {'p': 1, 'q': 3, 'matrix_field': 'C'}, dimension {'real': 16}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5e59d2b65c9c2f2b365ed6e5ada924f8da33dcd2d740ec27dd40ba6381711b68",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(1,3): defining special-pseudo-unitary-group operations, parameters {'p': 1, 'q': 3, 'matrix_field': 'C'}, dimension {'real': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0944b13721b6cf24c364158d4a8da0731ffefdc9e9389df7d035f1ab91dcb6e4",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(1,3): defining pseudo-symplectic-group operations, parameters {'p': 1, 'q': 3, 'matrix_field': 'H'}, dimension {'real': 36}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/o-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8afb20602d30606ec478a488849af57110cd95e291d88576a2e5793cb5ed9a55",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked O(p,q): defining pseudo-orthogonal-group operations, parameters {'p': 'p', 'q': 'q', 'matrix_field': 'R'}, dimension {'real': '(p+q)(p+q-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b59678b66b96694cc57b6931f163734674f52c7950a5b49212476a05884c6ef8",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(p,q): defining special-pseudo-orthogonal-group operations, parameters {'p': 'p', 'q': 'q', 'matrix_field': 'R'}, dimension {'real': '(p+q)(p+q-1)/2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/u-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "20d73328a6fbfdeb0aafca9cbd3a4891d7dd8c0bfe5890bb2f1ceeef21cfd458",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked U(p,q): defining pseudo-unitary-group operations, parameters {'p': 'p', 'q': 'q', 'matrix_field': 'C'}, dimension {'real': '(p+q)^2'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f62974ad81d7456dbc135934346171fac273277f474d9cef81912e962fbb7281",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(p,q): defining special-pseudo-unitary-group operations, parameters {'p': 'p', 'q': 'q', 'matrix_field': 'C'}, dimension {'real': '(p+q)^2-1'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.1, pp. 38–39; Proposition 6.3 and Exercise 6.5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sp-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "689f5fd8a61628d7f1bd9254a53f73672050ddfcbf9ac5917d5491318a5dfe6c",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Sp(p,q): defining pseudo-symplectic-group operations, parameters {'p': 'p', 'q': 'q', 'matrix_field': 'H'}, dimension {'real': '(p+q)(2(p+q)+1)'}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§6.2, Proposition 6.7 and Corollary 6.8; §6.3, Lemma 6.10, pp. 40–43"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-4-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "faf5d1a86e409e3f039ab1c2490afbf0107422330c5d40744bcd4291559e9a63",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(4,R): defining special-orthogonal-group operations, parameters {'n': 4, 'field': 'R'}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-4-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ccb7662af64cf90eb24c5f9d1350e53a5ddd70401583219bc0b914f034638555",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(4,R): defining spin-group operations, parameters {'n': 4, 'field': 'R'}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-5-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8908cfacd3dd4899db641ca1106ad9a90c0991f40c3b64793cce156e26bacd5a",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(5,R): defining special-orthogonal-group operations, parameters {'n': 5, 'field': 'R'}, dimension {'real': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-5-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "345357d2be4ee7a4a882b4a8a981a8be367b51f95b3242c875f1e39a512253bd",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(5,R): defining spin-group operations, parameters {'n': 5, 'field': 'R'}, dimension {'real': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-6-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0dcb2aba6d2aa05c2fae7216e3d5d70b51e2883eb63834f50e34815deea8c0aa",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(6,R): defining special-orthogonal-group operations, parameters {'n': 6, 'field': 'R'}, dimension {'real': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-6-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7c95e7823fd6f1e8276ca411f4372e707c0c1b0b1ba29f9ff094d3694f9a0258",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(6,R): defining spin-group operations, parameters {'n': 6, 'field': 'R'}, dimension {'real': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-8-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8b543ed2d061cad0d1dbbea13ff41a2bc885ef595f4774faaec2312e3bb82017",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(8,R): defining special-orthogonal-group operations, parameters {'n': 8, 'field': 'R'}, dimension {'real': 28}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-8-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f97f68b33fb9f0038e0b6f8e702ccce9ea5304e10bc5245aea8b5dee90e811db",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(8,R): defining spin-group operations, parameters {'n': 8, 'field': 'R'}, dimension {'real': 28}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2b4e755d8c31710ac14a4786a3f080e31d4b330aabe5962b97631abc2c386dfc",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(4,C): defining special-orthogonal-group operations, parameters {'n': 4, 'field': 'C'}, dimension {'real': 12, 'complex': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e4f14eb0ab50f437c635cb2c102e9501211185fa2461fbf71e4cfee445ef519b",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(4,C): defining spin-group operations, parameters {'n': 4, 'field': 'C'}, dimension {'real': 12, 'complex': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-5-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "52b0d165943a40baccc52aa973f805266edbfb4cdb4a003476bf2d47240fb437",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(5,C): defining special-orthogonal-group operations, parameters {'n': 5, 'field': 'C'}, dimension {'real': 20, 'complex': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-5-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "dae482e044cdd32361063966a2ed0df9eee9077678ec489c02ac34ed7ea7e973",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(5,C): defining spin-group operations, parameters {'n': 5, 'field': 'C'}, dimension {'real': 20, 'complex': 10}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-6-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0108c65b39dce62a5660da572c9e3cbcbef6260ab4163c52d7a58ed22e42dbe3",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(6,C): defining special-orthogonal-group operations, parameters {'n': 6, 'field': 'C'}, dimension {'real': 30, 'complex': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-6-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "edfc1c84815061b1d4a9cdb7e76946d473edf8273309c79423359b4259a1574e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(6,C): defining spin-group operations, parameters {'n': 6, 'field': 'C'}, dimension {'real': 30, 'complex': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/so-8-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "63ff4967c85c2bbbee82feb0e69971c133eee8472f6f59c94d4d42d67b1539be",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SO(8,C): defining special-orthogonal-group operations, parameters {'n': 8, 'field': 'C'}, dimension {'real': 56, 'complex': 28}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/spin-8-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "73d88180654912a62ffdab3b46764db49a13399ac75dbbc75adb5832cf34046f",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked Spin(8,C): defining spin-group operations, parameters {'n': 8, 'field': 'C'}, dimension {'real': 56, 'complex': 28}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/sl-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "77c7499f5c0661b7e12f5f1ee49d9617dc35be1b025b67a0975f3f15203c820f",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(4,C): defining special-linear-group operations, parameters {'n': 4, 'field': 'C'}, dimension {'real': 30, 'complex': 15}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§31.2, Example 31.3 and Proposition 31.4; §31.3, Example 31.10, pp. 166–168"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/su2-product",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0c43124ce95d149871110a62f4c66a00f40ceaf43f8c6c65acf5a2feb2805949",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SU(2) × SU(2): defining product-group operations, parameters {'factors': ['lg-su-2', 'lg-su-2']}, dimension {'real': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/sl2c-product",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "d9f960a04058504ba58ed1ee8d39b4f46d78550acb989b2eb505a4f5c84dfdc1",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked SL(2,C) × SL(2,C): defining product-group operations, parameters {'factors': ['lg-sl-2-c', 'lg-sl-2-c']}, dimension {'real': 12, 'complex': 6}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups/g2-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "30c35debe37086bd85044a2fa5a026ddc0169eb452e21e3cf7d0d99af46df25e",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked G2 (split, connected adjoint): defining exceptional-group operations, parameters {'type': 'G2', 'form': 'split'}, dimension {'real': 14}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/g2-complex",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5f6b93cf9fe0468ffce79a5d1696c7b28e6d1d1504ac4a8f95d0c9082e54ce66",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked G2 (complex, simply connected): defining exceptional-group operations, parameters {'type': 'G2', 'form': 'complex'}, dimension {'real': 28, 'complex': 14}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/f4-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0270e8f6e49582cb90176d19fcc16db66a62ee699bd05c3a2b3ccfa741a2de97",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked F4 (split, connected adjoint): defining exceptional-group operations, parameters {'type': 'F4', 'form': 'split'}, dimension {'real': 52}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/f4-complex",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "08d61e704f0a0c379aa02f51b53644dd9682b64efc707b10d64a6582fb77212d",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked F4 (complex, simply connected): defining exceptional-group operations, parameters {'type': 'F4', 'form': 'complex'}, dimension {'real': 104, 'complex': 52}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/e6-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "66d0e8fbd8372d270f61f8216d212d776dbad612ec4935821b7611f6c23dcd12",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E6 (split, connected adjoint): defining exceptional-group operations, parameters {'type': 'E6', 'form': 'split'}, dimension {'real': 78}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/e6-complex",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "666f68f9317a91ec210c939322344f414b28acfafa8e7ead924df12d1e38a176",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E6 (complex, simply connected): defining exceptional-group operations, parameters {'type': 'E6', 'form': 'complex'}, dimension {'real': 156, 'complex': 78}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/e7-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f6a62096dfc3f7ff94b903c74d1962692e5993bf6c3090ced6f48d279c6df3e6",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E7 (split, connected adjoint): defining exceptional-group operations, parameters {'type': 'E7', 'form': 'split'}, dimension {'real': 133}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/e7-complex",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "025cba6aed9afe83fd14d15821768de98e85f2b81815c447e7757664fa65245d",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E7 (complex, simply connected): defining exceptional-group operations, parameters {'type': 'E7', 'form': 'complex'}, dimension {'real': 266, 'complex': 133}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/e8-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4429bec482bb26983d31273caf3c4ecdfdffe26f97ed5cc3f59d9b9497e6d64f",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E8 (split, connected adjoint): defining exceptional-group operations, parameters {'type': 'E8', 'form': 'split'}, dimension {'real': 248}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "catalog/lie-groups/e8-complex",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7461b97d58034454d91bfb4d3f9c0e748fdae84f81558d34c41666f70a0108b8",
+      "bounded_scope": "Defining operations, scalar field, dimension, low-size qualifications, and global-form convention; not a full prerequisite-source audit.",
+      "evidence": "Checked E8 (complex, simply connected): defining exceptional-group operations, parameters {'type': 'E8', 'form': 'complex'}, dimension {'real': 496, 'complex': 248}, and category declarations ['sets', 'groups', 'topological-groups', 'real-lie-groups', 'complex-lie-groups']. Low-size and scalar-field exceptions were checked in the family template; these claims do not certify the complete prerequisite source chain.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    }
+  ],
+  "new_knowl_count": 161,
+  "object_count": 179,
+  "relationship_count": 82,
+  "limitations": [
+    "All intermediate and non-split exceptional real forms are not listed in this lane.",
+    "Exhaustive Hom/End/Aut classifications and verified Lean proofs remain future work.",
+    "No false group structure is assigned to nonzero octonions or sedenions."
+  ],
+  "validation": {
+    "knowl_toml": "All 161 new files parsed with tomllib.",
+    "interlink": "542 candidates semantically reviewed; 468 accepted, 74 rejected.",
+    "dependencies": "Complete core prerequisite lists reviewed, with seeded 20-file sample also inspected.",
+    "mathematical_scope": "Targeted review only; no full review or Lean proof claims.",
+    "katex": "All 1,241 math expressions in new knowls and object notations parse without KaTeX errors.",
+    "links": "All new knowl links resolve to existing files; all 82 relationships have compatible endpoint category declarations."
+  }
+}

@@ -1,0 +1,1554 @@
+{
+  "id": "catalog-lie-group-dependencies",
+  "entries": [
+    {
+      "id": "catalog/lie-groups/additive-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/additive-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/affine-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e-n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e6-complex",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra",
+        "topology/simply-connected-space"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e6-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/lie-algebras/e6-split",
+        "fiber-bundles/lie-group",
+        "lie-groups/identity-component-of-a-lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e7-complex",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra",
+        "topology/simply-connected-space"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e7-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/lie-algebras/e7-split",
+        "fiber-bundles/lie-group",
+        "lie-groups/identity-component-of-a-lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e8-complex",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra",
+        "topology/simply-connected-space"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/e8-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/lie-algebras/e8-split",
+        "fiber-bundles/lie-group",
+        "lie-groups/identity-component-of-a-lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/f4-complex",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra",
+        "topology/simply-connected-space"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/f4-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/lie-algebras/f4-split",
+        "fiber-bundles/lie-group",
+        "lie-groups/identity-component-of-a-lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/g2-complex",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra",
+        "topology/simply-connected-space"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/g2-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/lie-algebras/g2-split",
+        "fiber-bundles/lie-group",
+        "lie-groups/identity-component-of-a-lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/simple-lie-algebra"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-1-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/smooth-structure",
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-2-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/smooth-structure",
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-3-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/smooth-structure",
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-n-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/gl-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/smooth-structure",
+        "lie-groups/general-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/heisenberg-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/heisenberg-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/orthogonal-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/o-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/pgl-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-general-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/positive-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/psl-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/projective-special-linear-lie-group",
+        "lie-groups/quotient-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/se-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/se-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/se-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/se-n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/complex-lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-1-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-2-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/complex-lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-3-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/complex-lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/special-linear-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sl2c-product",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/product-lie-group",
+        "lie-groups/sl2-complex-as-real-and-complex-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-4-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-5-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-5-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-6-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-6-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-8-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-8-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/so-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/compact-symplectic-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/compact-symplectic-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-2n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-2n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/compact-symplectic-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-4-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-6-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-6-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/symplectic-group",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/sp-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-4-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-5-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-5-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-6-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-6-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-8-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-8-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/spin-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-unitary-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-unitary-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/special-unitary-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/su2-product",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/example-su2",
+        "lie-groups/product-lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/torus-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/torus-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/torus-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/torus-n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/u-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/u-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/u-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/u-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/unitary-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/u-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "lie-groups/unitary-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    },
+    {
+      "id": "catalog/lie-groups/u-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed the complete definition-core prerequisite list; all links name defining groups, forms, Clifford construction, global group structure, or factors. Consequences and comparisons remain outside the core."
+    }
+  ]
+}

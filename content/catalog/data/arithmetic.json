@@ -1,0 +1,3936 @@
+{
+  "schema_version": 1,
+  "objects": [
+    {
+      "id": "field-q",
+      "name": "Rational numbers",
+      "notation": "\\mathbb Q",
+      "kind": "field",
+      "family": "rational-field",
+      "parameters": {},
+      "knowl": "shared-foundations/rational-numbers",
+      "dimensions": {
+        "rational": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "ring-z",
+      "name": "Integers",
+      "notation": "\\mathbb Z",
+      "kind": "ring",
+      "family": "integer-ring",
+      "parameters": {},
+      "knowl": "shared-foundations/integers",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "commutative": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-qi",
+      "name": "Gaussian rational field",
+      "notation": "\\mathbb Q(i)",
+      "kind": "field",
+      "family": "quadratic-number-field",
+      "parameters": {
+        "radicand": -1
+      },
+      "knowl": "catalog/arithmetic/qi",
+      "dimensions": {
+        "rational": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "commutative": true,
+        "extension_degree": 2
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-qsqrt2",
+      "name": "Real quadratic field Q(sqrt(2))",
+      "notation": "\\mathbb Q(\\sqrt2)",
+      "kind": "field",
+      "family": "quadratic-number-field",
+      "parameters": {
+        "radicand": 2
+      },
+      "knowl": "catalog/arithmetic/qsqrt2",
+      "dimensions": {
+        "rational": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "commutative": true,
+        "extension_degree": 2
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-qsqrt-minus3",
+      "name": "Imaginary quadratic field Q(sqrt(-3))",
+      "notation": "\\mathbb Q(\\sqrt{-3})",
+      "kind": "field",
+      "family": "quadratic-number-field",
+      "parameters": {
+        "radicand": -3
+      },
+      "knowl": "catalog/arithmetic/qsqrt-minus3",
+      "dimensions": {
+        "rational": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "commutative": true,
+        "extension_degree": 2
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 2, Example 2.41, p. 39: integral bases in quadratic fields"
+        }
+      ]
+    },
+    {
+      "id": "field-quadratic-q",
+      "name": "Quadratic number field Q(sqrt(d))",
+      "notation": "\\mathbb Q(\\sqrt d)",
+      "kind": "field",
+      "family": "quadratic-number-field",
+      "parameters": {
+        "d": "squarefree integer other than 0 or 1"
+      },
+      "knowl": "catalog/arithmetic/quadratic-number-field",
+      "dimensions": {
+        "rational": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [
+        "d is a squarefree integer",
+        "d != 0,1"
+      ],
+      "properties": {
+        "characteristic": 0
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "ring-gaussian-integers",
+      "name": "Gaussian integers",
+      "notation": "\\mathbb Z[i]",
+      "kind": "ring",
+      "family": "quadratic-integer-ring",
+      "parameters": {},
+      "knowl": "catalog/arithmetic/gaussian-integers",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "commutative": true,
+        "characteristic": 0,
+        "z_rank": 2
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 2, Example 2.41, p. 39: integral bases in quadratic fields"
+        }
+      ]
+    },
+    {
+      "id": "ring-eisenstein-integers",
+      "name": "Eisenstein integers",
+      "notation": "\\mathbb Z[\\omega]",
+      "kind": "ring",
+      "family": "quadratic-integer-ring",
+      "parameters": {},
+      "knowl": "catalog/arithmetic/eisenstein-integers",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "commutative": true,
+        "characteristic": 0,
+        "z_rank": 2
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 2, Example 2.41, p. 39: integral bases in quadratic fields"
+        }
+      ]
+    },
+    {
+      "id": "field-f2",
+      "name": "Field F_2",
+      "notation": "\\mathbb F_2",
+      "kind": "field",
+      "family": "prime-field",
+      "parameters": {
+        "p": 2
+      },
+      "knowl": "catalog/arithmetic/f2",
+      "dimensions": {
+        "prime_field": 1,
+        "F2": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f2-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "cardinality": 2
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-f3",
+      "name": "Field F_3",
+      "notation": "\\mathbb F_3",
+      "kind": "field",
+      "family": "prime-field",
+      "parameters": {
+        "p": 3
+      },
+      "knowl": "catalog/arithmetic/f3",
+      "dimensions": {
+        "prime_field": 1,
+        "F3": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f3-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "cardinality": 3
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-f5",
+      "name": "Field F_5",
+      "notation": "\\mathbb F_5",
+      "kind": "field",
+      "family": "prime-field",
+      "parameters": {
+        "p": 5
+      },
+      "knowl": "catalog/arithmetic/f5",
+      "dimensions": {
+        "prime_field": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 5,
+        "cardinality": 5
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-fp",
+      "name": "Field F_p",
+      "notation": "\\mathbb F_p",
+      "kind": "field",
+      "family": "prime-field",
+      "parameters": {
+        "p": "p"
+      },
+      "knowl": "catalog/arithmetic/fp",
+      "dimensions": {
+        "prime_field": 1,
+        "Fp": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "fp-vector-spaces"
+      ],
+      "constraints": [
+        "p is prime",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "properties": {
+        "characteristic": "p",
+        "cardinality": "p"
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "field-f4",
+      "name": "Field F_4",
+      "notation": "\\mathbb F_4",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": 2,
+        "k": 2,
+        "polynomial": "x^2+x+1"
+      },
+      "knowl": "catalog/arithmetic/f4",
+      "dimensions": {
+        "prime_field": 2,
+        "F2": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f2-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "cardinality": 4
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    },
+    {
+      "id": "field-f8",
+      "name": "Field F_8",
+      "notation": "\\mathbb F_8",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": 2,
+        "k": 3,
+        "polynomial": "x^3+x+1"
+      },
+      "knowl": "catalog/arithmetic/f8",
+      "dimensions": {
+        "prime_field": 3,
+        "F2": 3
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f2-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "cardinality": 8
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    },
+    {
+      "id": "field-f9",
+      "name": "Field F_9",
+      "notation": "\\mathbb F_9",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": 3,
+        "k": 2,
+        "polynomial": "x^2+1"
+      },
+      "knowl": "catalog/arithmetic/f9",
+      "dimensions": {
+        "prime_field": 2,
+        "F3": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f3-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "cardinality": 9
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    },
+    {
+      "id": "field-fp2",
+      "name": "Finite field F_(p^2)",
+      "notation": "\\mathbb F_{p^2}",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": "p",
+        "k": 2
+      },
+      "knowl": "catalog/arithmetic/fp2",
+      "dimensions": {
+        "prime_field": 2,
+        "Fp": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "fp-vector-spaces"
+      ],
+      "constraints": [
+        "p is prime",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "properties": {
+        "characteristic": "p",
+        "cardinality": "p^2"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    },
+    {
+      "id": "field-fp3",
+      "name": "Finite field F_(p^3)",
+      "notation": "\\mathbb F_{p^3}",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": "p",
+        "k": 3
+      },
+      "knowl": "catalog/arithmetic/fp3",
+      "dimensions": {
+        "prime_field": 3,
+        "Fp": 3
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "fp-vector-spaces"
+      ],
+      "constraints": [
+        "p is prime",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "properties": {
+        "characteristic": "p",
+        "cardinality": "p^3"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    },
+    {
+      "id": "field-fpk",
+      "name": "Finite field F_(p^k)",
+      "notation": "\\mathbb F_{p^k}",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": "p",
+        "k": "k"
+      },
+      "knowl": "catalog/arithmetic/fpk",
+      "dimensions": {
+        "prime_field": "k",
+        "Fp": "k"
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "fp-vector-spaces"
+      ],
+      "constraints": [
+        "p is prime",
+        "k >= 1",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "properties": {
+        "characteristic": "p",
+        "cardinality": "p^k"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    },
+    {
+      "id": "field-q2",
+      "name": "Field Q_2",
+      "notation": "\\mathbb Q_2",
+      "kind": "field",
+      "family": "padic-field",
+      "parameters": {
+        "p": 2
+      },
+      "knowl": "catalog/arithmetic/q2",
+      "dimensions": {
+        "self": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "residue_characteristic": 2,
+        "complete": true,
+        "locally_compact": true,
+        "topology": "p-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-z2",
+      "name": "2-adic integers",
+      "notation": "\\mathbb Z_2",
+      "kind": "ring",
+      "family": "padic-integer-ring",
+      "parameters": {
+        "p": 2
+      },
+      "knowl": "catalog/arithmetic/z2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "compact": true,
+        "topology": "p-adic",
+        "residue_characteristic": 2
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-q3",
+      "name": "Field Q_3",
+      "notation": "\\mathbb Q_3",
+      "kind": "field",
+      "family": "padic-field",
+      "parameters": {
+        "p": 3
+      },
+      "knowl": "catalog/arithmetic/q3",
+      "dimensions": {
+        "self": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "residue_characteristic": 3,
+        "complete": true,
+        "locally_compact": true,
+        "topology": "p-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-z3",
+      "name": "3-adic integers",
+      "notation": "\\mathbb Z_3",
+      "kind": "ring",
+      "family": "padic-integer-ring",
+      "parameters": {
+        "p": 3
+      },
+      "knowl": "catalog/arithmetic/z3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "compact": true,
+        "topology": "p-adic",
+        "residue_characteristic": 3
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-q5",
+      "name": "Field Q_5",
+      "notation": "\\mathbb Q_5",
+      "kind": "field",
+      "family": "padic-field",
+      "parameters": {
+        "p": 5
+      },
+      "knowl": "catalog/arithmetic/q5",
+      "dimensions": {
+        "self": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "residue_characteristic": 5,
+        "complete": true,
+        "locally_compact": true,
+        "topology": "p-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-z5",
+      "name": "5-adic integers",
+      "notation": "\\mathbb Z_5",
+      "kind": "ring",
+      "family": "padic-integer-ring",
+      "parameters": {
+        "p": 5
+      },
+      "knowl": "catalog/arithmetic/z5",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 0,
+        "compact": true,
+        "topology": "p-adic",
+        "residue_characteristic": 5
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-qp",
+      "name": "Field Q_p",
+      "notation": "\\mathbb Q_p",
+      "kind": "field",
+      "family": "padic-field",
+      "parameters": {
+        "p": "p"
+      },
+      "knowl": "catalog/arithmetic/qp",
+      "dimensions": {
+        "self": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "characteristic": 0,
+        "residue_characteristic": "p",
+        "complete": true,
+        "locally_compact": true,
+        "topology": "p-adic"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-zp",
+      "name": "p-adic integers",
+      "notation": "\\mathbb Z_p",
+      "kind": "ring",
+      "family": "padic-integer-ring",
+      "parameters": {
+        "p": "p"
+      },
+      "knowl": "shared-foundations/p-adic-integers",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "characteristic": 0,
+        "compact": true,
+        "residue_characteristic": "p",
+        "topology": "p-adic"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-qp-unramified-2",
+      "name": "Unramified degree 2 extension of Q_p",
+      "notation": "\\mathbb Q_p^{(2),\\mathrm{ur}}",
+      "kind": "field",
+      "family": "unramified-padic-extension",
+      "parameters": {
+        "p": "prime",
+        "degree": 2
+      },
+      "knowl": "catalog/arithmetic/qp-unramified-2",
+      "dimensions": {
+        "Q_p": 2
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "characteristic": 0,
+        "ramification_index": 1,
+        "residue_degree": 2,
+        "complete": true
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+        }
+      ]
+    },
+    {
+      "id": "field-qp-unramified-3",
+      "name": "Unramified degree 3 extension of Q_p",
+      "notation": "\\mathbb Q_p^{(3),\\mathrm{ur}}",
+      "kind": "field",
+      "family": "unramified-padic-extension",
+      "parameters": {
+        "p": "prime",
+        "degree": 3
+      },
+      "knowl": "catalog/arithmetic/qp-unramified-3",
+      "dimensions": {
+        "Q_p": 3
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "characteristic": 0,
+        "ramification_index": 1,
+        "residue_degree": 3,
+        "complete": true
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+        }
+      ]
+    },
+    {
+      "id": "field-qp-unramified-n",
+      "name": "Unramified degree n extension of Q_p",
+      "notation": "\\mathbb Q_p^{(n),\\mathrm{ur}}",
+      "kind": "field",
+      "family": "unramified-padic-extension",
+      "parameters": {
+        "p": "prime",
+        "degree": "n"
+      },
+      "knowl": "catalog/arithmetic/qp-unramified-n",
+      "dimensions": {
+        "Q_p": "n"
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [
+        "p is prime",
+        "n >= 1"
+      ],
+      "properties": {
+        "characteristic": 0,
+        "ramification_index": 1,
+        "residue_degree": "n",
+        "complete": true
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+        }
+      ]
+    },
+    {
+      "id": "field-f2-laurent",
+      "name": "Laurent-series field F_2((t))",
+      "notation": "\\mathbb F_2((t))",
+      "kind": "field",
+      "family": "laurent-series-field",
+      "parameters": {
+        "q": 2
+      },
+      "knowl": "catalog/arithmetic/f2-laurent",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "residue_cardinality": 2,
+        "complete": true,
+        "locally_compact": true,
+        "topology": "t-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-f2-power-series",
+      "name": "Formal power series over F_2",
+      "notation": "\\mathbb F_2[\\![t]\\!]",
+      "kind": "ring",
+      "family": "power-series-ring",
+      "parameters": {
+        "q": 2
+      },
+      "knowl": "catalog/arithmetic/f2-power-series",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "compact": true,
+        "complete": true,
+        "topology": "t-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-f2-rational-functions",
+      "name": "Rational-function field F_2(t)",
+      "notation": "\\mathbb F_2(t)",
+      "kind": "field",
+      "family": "rational-function-field",
+      "parameters": {
+        "q": 2
+      },
+      "knowl": "catalog/arithmetic/f2-rational-functions",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "transcendence_degree": 1,
+        "global_field": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "ring-f2-polynomials",
+      "name": "Polynomial ring F_2[t]",
+      "notation": "\\mathbb F_2[t]",
+      "kind": "ring",
+      "family": "polynomial-ring",
+      "parameters": {
+        "q": 2
+      },
+      "knowl": "catalog/arithmetic/f2-polynomials",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 2,
+        "commutative": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-f3-laurent",
+      "name": "Laurent-series field F_3((t))",
+      "notation": "\\mathbb F_3((t))",
+      "kind": "field",
+      "family": "laurent-series-field",
+      "parameters": {
+        "q": 3
+      },
+      "knowl": "catalog/arithmetic/f3-laurent",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "residue_cardinality": 3,
+        "complete": true,
+        "locally_compact": true,
+        "topology": "t-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-f3-power-series",
+      "name": "Formal power series over F_3",
+      "notation": "\\mathbb F_3[\\![t]\\!]",
+      "kind": "ring",
+      "family": "power-series-ring",
+      "parameters": {
+        "q": 3
+      },
+      "knowl": "catalog/arithmetic/f3-power-series",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "compact": true,
+        "complete": true,
+        "topology": "t-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-f3-rational-functions",
+      "name": "Rational-function field F_3(t)",
+      "notation": "\\mathbb F_3(t)",
+      "kind": "field",
+      "family": "rational-function-field",
+      "parameters": {
+        "q": 3
+      },
+      "knowl": "catalog/arithmetic/f3-rational-functions",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "transcendence_degree": 1,
+        "global_field": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "ring-f3-polynomials",
+      "name": "Polynomial ring F_3[t]",
+      "notation": "\\mathbb F_3[t]",
+      "kind": "ring",
+      "family": "polynomial-ring",
+      "parameters": {
+        "q": 3
+      },
+      "knowl": "catalog/arithmetic/f3-polynomials",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "commutative": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-f5-laurent",
+      "name": "Laurent-series field F_5((t))",
+      "notation": "\\mathbb F_5((t))",
+      "kind": "field",
+      "family": "laurent-series-field",
+      "parameters": {
+        "q": 5
+      },
+      "knowl": "catalog/arithmetic/f5-laurent",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 5,
+        "residue_cardinality": 5,
+        "complete": true,
+        "locally_compact": true,
+        "topology": "t-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-f5-power-series",
+      "name": "Formal power series over F_5",
+      "notation": "\\mathbb F_5[\\![t]\\!]",
+      "kind": "ring",
+      "family": "power-series-ring",
+      "parameters": {
+        "q": 5
+      },
+      "knowl": "catalog/arithmetic/f5-power-series",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 5,
+        "compact": true,
+        "complete": true,
+        "topology": "t-adic"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-f5-rational-functions",
+      "name": "Rational-function field F_5(t)",
+      "notation": "\\mathbb F_5(t)",
+      "kind": "field",
+      "family": "rational-function-field",
+      "parameters": {
+        "q": 5
+      },
+      "knowl": "catalog/arithmetic/f5-rational-functions",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 5,
+        "transcendence_degree": 1,
+        "global_field": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "ring-f5-polynomials",
+      "name": "Polynomial ring F_5[t]",
+      "notation": "\\mathbb F_5[t]",
+      "kind": "ring",
+      "family": "polynomial-ring",
+      "parameters": {
+        "q": 5
+      },
+      "knowl": "catalog/arithmetic/f5-polynomials",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 5,
+        "commutative": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "field-fq-laurent",
+      "name": "Laurent-series field F_q((t))",
+      "notation": "\\mathbb F_q((t))",
+      "kind": "field",
+      "family": "laurent-series-field",
+      "parameters": {
+        "q": "q"
+      },
+      "knowl": "catalog/arithmetic/fq-laurent",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "topological-rings",
+        "topological-fields"
+      ],
+      "constraints": [
+        "q = p^k, p prime, k >= 1"
+      ],
+      "properties": {
+        "characteristic": "p",
+        "residue_cardinality": "q",
+        "complete": true,
+        "locally_compact": true,
+        "topology": "t-adic"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "ring-fq-power-series",
+      "name": "Formal power series over F_q",
+      "notation": "\\mathbb F_q[\\![t]\\!]",
+      "kind": "ring",
+      "family": "power-series-ring",
+      "parameters": {
+        "q": "q"
+      },
+      "knowl": "catalog/arithmetic/fq-power-series",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [
+        "q = p^k, p prime, k >= 1"
+      ],
+      "properties": {
+        "characteristic": "p",
+        "compact": true,
+        "complete": true,
+        "topology": "t-adic"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "title": "J. S. Milne, Algebraic Number Theory",
+          "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+        }
+      ]
+    },
+    {
+      "id": "field-fq-rational-functions",
+      "name": "Rational-function field F_q(t)",
+      "notation": "\\mathbb F_q(t)",
+      "kind": "field",
+      "family": "rational-function-field",
+      "parameters": {
+        "q": "q"
+      },
+      "knowl": "catalog/arithmetic/fq-rational-functions",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields"
+      ],
+      "constraints": [
+        "q = p^k, p prime, k >= 1"
+      ],
+      "properties": {
+        "characteristic": "p",
+        "transcendence_degree": 1,
+        "global_field": true
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "ring-fq-polynomials",
+      "name": "Polynomial ring F_q[t]",
+      "notation": "\\mathbb F_q[t]",
+      "kind": "ring",
+      "family": "polynomial-ring",
+      "parameters": {
+        "q": "q"
+      },
+      "knowl": "catalog/arithmetic/fq-polynomials",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [
+        "q = p^k, p prime, k >= 1"
+      ],
+      "properties": {
+        "characteristic": "p",
+        "commutative": true
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "ring-adeles-q",
+      "name": "Adeles of Q",
+      "notation": "\\mathbb A_{\\mathbb Q}",
+      "kind": "ring",
+      "family": "adele-ring",
+      "parameters": {
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/adeles-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "commutative": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to valuation rings",
+        "field": false
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "group-ideles-q",
+      "name": "Ideles of Q",
+      "notation": "\\mathbb A_{\\mathbb Q}^\\times",
+      "kind": "group",
+      "family": "idele-group",
+      "parameters": {
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/ideles-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "abelian-groups",
+        "topological-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "abelian": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to local unit groups"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "ring-adeles-q-finite",
+      "name": "Finite adeles of Q",
+      "notation": "\\mathbb A_{\\mathbb Q,f}",
+      "kind": "ring",
+      "family": "adele-ring",
+      "parameters": {
+        "scope": "finite"
+      },
+      "knowl": "catalog/arithmetic/adeles-q-finite",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "commutative": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to valuation rings",
+        "field": false
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "group-ideles-q-finite",
+      "name": "Finite ideles of Q",
+      "notation": "\\mathbb A_{\\mathbb Q,f}^\\times",
+      "kind": "group",
+      "family": "idele-group",
+      "parameters": {
+        "scope": "finite"
+      },
+      "knowl": "catalog/arithmetic/ideles-q-finite",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "abelian-groups",
+        "topological-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "abelian": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to local unit groups"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "ring-adeles-number-field",
+      "name": "Adeles of a number field",
+      "notation": "\\mathbb A_{K}",
+      "kind": "ring",
+      "family": "adele-ring",
+      "parameters": {
+        "K": "number field",
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/adeles-number-field",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [
+        "number field"
+      ],
+      "properties": {
+        "commutative": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to valuation rings",
+        "field": false
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "group-ideles-number-field",
+      "name": "Ideles of a number field",
+      "notation": "\\mathbb A_{K}^\\times",
+      "kind": "group",
+      "family": "idele-group",
+      "parameters": {
+        "K": "number field",
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/ideles-number-field",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "abelian-groups",
+        "topological-groups"
+      ],
+      "constraints": [
+        "number field"
+      ],
+      "properties": {
+        "abelian": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to local unit groups"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "ring-adeles-number-field-finite",
+      "name": "Finite adeles of a number field",
+      "notation": "\\mathbb A_{K,f}",
+      "kind": "ring",
+      "family": "adele-ring",
+      "parameters": {
+        "K": "number field",
+        "scope": "finite"
+      },
+      "knowl": "catalog/arithmetic/adeles-number-field-finite",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [
+        "number field"
+      ],
+      "properties": {
+        "commutative": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to valuation rings",
+        "field": false
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "group-ideles-number-field-finite",
+      "name": "Finite ideles of a number field",
+      "notation": "\\mathbb A_{K,f}^\\times",
+      "kind": "group",
+      "family": "idele-group",
+      "parameters": {
+        "K": "number field",
+        "scope": "finite"
+      },
+      "knowl": "catalog/arithmetic/ideles-number-field-finite",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "abelian-groups",
+        "topological-groups"
+      ],
+      "constraints": [
+        "number field"
+      ],
+      "properties": {
+        "abelian": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to local unit groups"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "ring-adeles-fq-t",
+      "name": "Adeles of F_q(t)",
+      "notation": "\\mathbb A_{\\mathbb F_q(t)}",
+      "kind": "ring",
+      "family": "adele-ring",
+      "parameters": {
+        "q": "p^k, p prime, k >= 1",
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/adeles-fq-t",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [
+        "q = p^k, p prime, k >= 1"
+      ],
+      "properties": {
+        "commutative": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to valuation rings",
+        "field": false
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "group-ideles-fq-t",
+      "name": "Ideles of F_q(t)",
+      "notation": "\\mathbb A_{\\mathbb F_q(t)}^\\times",
+      "kind": "group",
+      "family": "idele-group",
+      "parameters": {
+        "q": "p^k, p prime, k >= 1",
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/ideles-fq-t",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "abelian-groups",
+        "topological-groups"
+      ],
+      "constraints": [
+        "q = p^k, p prime, k >= 1"
+      ],
+      "properties": {
+        "abelian": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to local unit groups"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "ring-adeles-function-field",
+      "name": "Adeles of a global function field",
+      "notation": "\\mathbb A_{K}",
+      "kind": "ring",
+      "family": "adele-ring",
+      "parameters": {
+        "K": "global function field",
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/adeles-function-field",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "topological-rings"
+      ],
+      "constraints": [
+        "global function field"
+      ],
+      "properties": {
+        "commutative": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to valuation rings",
+        "field": false
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "group-ideles-function-field",
+      "name": "Ideles of a global function field",
+      "notation": "\\mathbb A_{K}^\\times",
+      "kind": "group",
+      "family": "idele-group",
+      "parameters": {
+        "K": "global function field",
+        "scope": "all places"
+      },
+      "knowl": "catalog/arithmetic/ideles-function-field",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "abelian-groups",
+        "topological-groups"
+      ],
+      "constraints": [
+        "global function field"
+      ],
+      "properties": {
+        "abelian": true,
+        "locally_compact": true,
+        "topology": "restricted product relative to local unit groups"
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "title": "J. S. Milne, Class Field Theory",
+          "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+        }
+      ]
+    },
+    {
+      "id": "algebra-hamilton-q",
+      "name": "Rational Hamilton quaternion algebra",
+      "notation": "(-1,-1)_{\\mathbb Q}",
+      "kind": "associative-algebra",
+      "family": "quaternion-algebra",
+      "parameters": {
+        "field": "Q",
+        "a": -1,
+        "b": -1
+      },
+      "knowl": "catalog/arithmetic/rational-hamilton-quaternions",
+      "dimensions": {
+        "rational": 4
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "associative": true,
+        "commutative": false,
+        "division": true,
+        "characteristic": 0
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+          "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+          "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+        }
+      ]
+    },
+    {
+      "id": "algebra-quaternion-f",
+      "name": "Quaternion algebra (a,b)_F",
+      "notation": "(a,b)_F",
+      "kind": "associative-algebra",
+      "family": "quaternion-algebra",
+      "parameters": {
+        "field": "F",
+        "a": "nonzero element of F",
+        "b": "nonzero element of F"
+      },
+      "knowl": "algebra-rings/quaternion-algebra",
+      "dimensions": {
+        "F": 4
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "f-vector-spaces",
+        "f-associative-algebras",
+        "f-unital-associative-algebras"
+      ],
+      "constraints": [
+        "F is a field of characteristic different from 2",
+        "a,b are nonzero elements of F"
+      ],
+      "properties": {
+        "associative": true,
+        "commutative": false
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "ring-lipschitz",
+      "name": "Lipschitz quaternion order",
+      "notation": "\\mathbb Z\\langle i,j\\rangle",
+      "kind": "ring",
+      "family": "quaternion-order",
+      "parameters": {
+        "ambient": "algebra-hamilton-q"
+      },
+      "knowl": "catalog/arithmetic/lipschitz-order",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "commutative": false,
+        "z_rank": 4,
+        "maximal_order": false,
+        "unit_group_order": 8
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+          "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+          "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+        }
+      ]
+    },
+    {
+      "id": "ring-hurwitz",
+      "name": "Hurwitz quaternion order",
+      "notation": "\\mathcal O_{\\mathrm{Hur}}",
+      "kind": "ring",
+      "family": "quaternion-order",
+      "parameters": {
+        "ambient": "algebra-hamilton-q"
+      },
+      "knowl": "catalog/arithmetic/hurwitz-order",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings"
+      ],
+      "constraints": [],
+      "properties": {
+        "commutative": false,
+        "z_rank": 4,
+        "maximal_order": true,
+        "unit_group_order": 24
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+          "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+          "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+        }
+      ]
+    },
+    {
+      "id": "field-f",
+      "name": "Specified base field F",
+      "notation": "F",
+      "kind": "field",
+      "family": "symbolic-base-field",
+      "parameters": {
+        "field": "F"
+      },
+      "knowl": "catalog/arithmetic/base-field-f",
+      "dimensions": {
+        "F": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f-vector-spaces",
+        "f-associative-algebras",
+        "f-unital-associative-algebras"
+      ],
+      "constraints": [
+        "F is a specified field"
+      ],
+      "properties": {
+        "symbolic": true
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "field-k-over-f",
+      "name": "Specified extension field K/F",
+      "notation": "K/F",
+      "kind": "field",
+      "family": "symbolic-field-extension",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "knowl": "catalog/arithmetic/extension-field-k-over-f",
+      "dimensions": {
+        "K": 1,
+        "F": "[K:F]"
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f-vector-spaces",
+        "k-vector-spaces",
+        "f-associative-algebras",
+        "k-associative-algebras",
+        "f-unital-associative-algebras",
+        "k-unital-associative-algebras"
+      ],
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ],
+      "properties": {
+        "symbolic": true
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "algebra-a-over-k",
+      "name": "Specified associative K-algebra A",
+      "notation": "A/K",
+      "kind": "associative-algebra",
+      "family": "symbolic-algebra-over-extension",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "algebra": "A",
+        "scalar_map": "K->Z(A)"
+      },
+      "knowl": "catalog/arithmetic/associative-algebra-a-over-k",
+      "dimensions": {
+        "K": "dim_K(A)",
+        "F": "[K:F] dim_K(A)"
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "f-vector-spaces",
+        "k-vector-spaces",
+        "f-associative-algebras",
+        "k-associative-algebras",
+        "f-unital-associative-algebras",
+        "k-unital-associative-algebras"
+      ],
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ],
+      "properties": {
+        "associative": true,
+        "unital": true,
+        "symbolic": true
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "assoc-m-1-q",
+      "name": "Rational matrix algebra M_1(Q)",
+      "notation": "M_1(\\mathbb Q)",
+      "kind": "associative-algebra",
+      "family": "matrix-algebra",
+      "parameters": {
+        "n": 1,
+        "field": "Q"
+      },
+      "knowl": "catalog/arithmetic/m-1-q",
+      "dimensions": {
+        "rational": 1
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "associative": true,
+        "unital": true,
+        "commutative": true
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "assoc-m-2-q",
+      "name": "Rational matrix algebra M_2(Q)",
+      "notation": "M_2(\\mathbb Q)",
+      "kind": "associative-algebra",
+      "family": "matrix-algebra",
+      "parameters": {
+        "n": 2,
+        "field": "Q"
+      },
+      "knowl": "catalog/arithmetic/m-2-q",
+      "dimensions": {
+        "rational": 4
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "associative": true,
+        "unital": true,
+        "commutative": false
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "assoc-m-3-q",
+      "name": "Rational matrix algebra M_3(Q)",
+      "notation": "M_3(\\mathbb Q)",
+      "kind": "associative-algebra",
+      "family": "matrix-algebra",
+      "parameters": {
+        "n": 3,
+        "field": "Q"
+      },
+      "knowl": "catalog/arithmetic/m-3-q",
+      "dimensions": {
+        "rational": 9
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "associative": true,
+        "unital": true,
+        "commutative": false
+      },
+      "status": "defined",
+      "references": []
+    },
+    {
+      "id": "assoc-m-n-q",
+      "name": "Rational matrix algebra M_n(Q)",
+      "notation": "M_n(\\mathbb Q)",
+      "kind": "associative-algebra",
+      "family": "matrix-algebra",
+      "parameters": {
+        "n": "n",
+        "field": "Q"
+      },
+      "knowl": "catalog/arithmetic/m-n-q",
+      "dimensions": {
+        "rational": "n^2"
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "rational-vector-spaces",
+        "rational-associative-algebras",
+        "rational-unital-associative-algebras"
+      ],
+      "constraints": [
+        "n >= 1"
+      ],
+      "properties": {
+        "associative": true,
+        "unital": true,
+        "commutative": "if and only if n=1"
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "field-f27",
+      "name": "Field F_27",
+      "notation": "\\mathbb F_{27}",
+      "kind": "field",
+      "family": "finite-field",
+      "parameters": {
+        "p": 3,
+        "k": 3,
+        "polynomial": "x^3-x-1"
+      },
+      "knowl": "catalog/arithmetic/f27",
+      "dimensions": {
+        "prime_field": 3,
+        "F3": 3
+      },
+      "category_ids": [
+        "sets",
+        "rings",
+        "unital-rings",
+        "fields",
+        "f3-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "characteristic": 3,
+        "cardinality": 27
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "title": "J. S. Milne, Fields and Galois Theory",
+          "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+        }
+      ]
+    }
+  ],
+  "categories": [],
+  "views": [
+    {
+      "id": "algebra-quaternion-f@f-vector-spaces",
+      "object_id": "algebra-quaternion-f",
+      "category_id": "f-vector-spaces",
+      "scalar": "F",
+      "parameters": {
+        "field": "F"
+      },
+      "constraints": [
+        "F is a field of characteristic different from 2",
+        "a,b are nonzero elements of F"
+      ]
+    },
+    {
+      "id": "algebra-quaternion-f@f-associative-algebras",
+      "object_id": "algebra-quaternion-f",
+      "category_id": "f-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "field": "F"
+      },
+      "constraints": [
+        "F is a field of characteristic different from 2",
+        "a,b are nonzero elements of F"
+      ]
+    },
+    {
+      "id": "algebra-quaternion-f@f-unital-associative-algebras",
+      "object_id": "algebra-quaternion-f",
+      "category_id": "f-unital-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "field": "F"
+      },
+      "constraints": [
+        "F is a field of characteristic different from 2",
+        "a,b are nonzero elements of F"
+      ]
+    },
+    {
+      "id": "field-f@f-vector-spaces",
+      "object_id": "field-f",
+      "category_id": "f-vector-spaces",
+      "scalar": "F",
+      "parameters": {
+        "field": "F"
+      },
+      "constraints": [
+        "F is a specified field"
+      ]
+    },
+    {
+      "id": "field-f@f-associative-algebras",
+      "object_id": "field-f",
+      "category_id": "f-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "field": "F"
+      },
+      "constraints": [
+        "F is a specified field"
+      ]
+    },
+    {
+      "id": "field-f@f-unital-associative-algebras",
+      "object_id": "field-f",
+      "category_id": "f-unital-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "field": "F"
+      },
+      "constraints": [
+        "F is a specified field"
+      ]
+    },
+    {
+      "id": "field-k-over-f@f-vector-spaces",
+      "object_id": "field-k-over-f",
+      "category_id": "f-vector-spaces",
+      "scalar": "F",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ]
+    },
+    {
+      "id": "field-k-over-f@k-vector-spaces",
+      "object_id": "field-k-over-f",
+      "category_id": "k-vector-spaces",
+      "scalar": "K",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ]
+    },
+    {
+      "id": "field-k-over-f@f-associative-algebras",
+      "object_id": "field-k-over-f",
+      "category_id": "f-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ]
+    },
+    {
+      "id": "field-k-over-f@k-associative-algebras",
+      "object_id": "field-k-over-f",
+      "category_id": "k-associative-algebras",
+      "scalar": "K",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ]
+    },
+    {
+      "id": "field-k-over-f@f-unital-associative-algebras",
+      "object_id": "field-k-over-f",
+      "category_id": "f-unital-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ]
+    },
+    {
+      "id": "field-k-over-f@k-unital-associative-algebras",
+      "object_id": "field-k-over-f",
+      "category_id": "k-unital-associative-algebras",
+      "scalar": "K",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified injective unital homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-a-over-k@f-vector-spaces",
+      "object_id": "algebra-a-over-k",
+      "category_id": "f-vector-spaces",
+      "scalar": "F",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "scalar_map": "K->Z(A)"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ]
+    },
+    {
+      "id": "algebra-a-over-k@k-vector-spaces",
+      "object_id": "algebra-a-over-k",
+      "category_id": "k-vector-spaces",
+      "scalar": "K",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "scalar_map": "K->Z(A)"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ]
+    },
+    {
+      "id": "algebra-a-over-k@f-associative-algebras",
+      "object_id": "algebra-a-over-k",
+      "category_id": "f-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "scalar_map": "K->Z(A)"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ]
+    },
+    {
+      "id": "algebra-a-over-k@k-associative-algebras",
+      "object_id": "algebra-a-over-k",
+      "category_id": "k-associative-algebras",
+      "scalar": "K",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "scalar_map": "K->Z(A)"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ]
+    },
+    {
+      "id": "algebra-a-over-k@f-unital-associative-algebras",
+      "object_id": "algebra-a-over-k",
+      "category_id": "f-unital-associative-algebras",
+      "scalar": "F",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "scalar_map": "K->Z(A)"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ]
+    },
+    {
+      "id": "algebra-a-over-k@k-unital-associative-algebras",
+      "object_id": "algebra-a-over-k",
+      "category_id": "k-unital-associative-algebras",
+      "scalar": "K",
+      "parameters": {
+        "base_field": "F",
+        "extension_field": "K",
+        "embedding": "iota:F->K",
+        "scalar_map": "K->Z(A)"
+      },
+      "constraints": [
+        "F and K are specified fields",
+        "iota:F->K is a specified field embedding",
+        "A is an associative unital K-algebra with specified scalar action"
+      ]
+    },
+    {
+      "id": "field-f2@f2-vector-spaces",
+      "object_id": "field-f2",
+      "category_id": "f2-vector-spaces",
+      "scalar": "F_2",
+      "parameters": {
+        "p": 2,
+        "dimension": 1
+      },
+      "description": "Underlying vector space via the canonical prime-field inclusion."
+    },
+    {
+      "id": "field-f4@f2-vector-spaces",
+      "object_id": "field-f4",
+      "category_id": "f2-vector-spaces",
+      "scalar": "F_2",
+      "parameters": {
+        "p": 2,
+        "dimension": 2
+      },
+      "description": "Underlying vector space via the canonical prime-field inclusion."
+    },
+    {
+      "id": "field-f8@f2-vector-spaces",
+      "object_id": "field-f8",
+      "category_id": "f2-vector-spaces",
+      "scalar": "F_2",
+      "parameters": {
+        "p": 2,
+        "dimension": 3
+      },
+      "description": "Underlying vector space via the canonical prime-field inclusion."
+    },
+    {
+      "id": "field-f3@f3-vector-spaces",
+      "object_id": "field-f3",
+      "category_id": "f3-vector-spaces",
+      "scalar": "F_3",
+      "parameters": {
+        "p": 3,
+        "dimension": 1
+      },
+      "description": "Underlying vector space via the canonical prime-field inclusion."
+    },
+    {
+      "id": "field-f9@f3-vector-spaces",
+      "object_id": "field-f9",
+      "category_id": "f3-vector-spaces",
+      "scalar": "F_3",
+      "parameters": {
+        "p": 3,
+        "dimension": 2
+      },
+      "description": "Underlying vector space via the canonical prime-field inclusion."
+    },
+    {
+      "id": "field-f27@f3-vector-spaces",
+      "object_id": "field-f27",
+      "category_id": "f3-vector-spaces",
+      "scalar": "F_3",
+      "parameters": {
+        "p": 3,
+        "dimension": 3
+      },
+      "description": "Underlying vector space via the canonical prime-field inclusion."
+    },
+    {
+      "id": "field-fp@fp-vector-spaces",
+      "object_id": "field-fp",
+      "category_id": "fp-vector-spaces",
+      "scalar": "F_p",
+      "parameters": {
+        "p": "p",
+        "dimension": 1
+      },
+      "constraints": [
+        "p is a fixed prime shared by both endpoints",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "description": "Symbolic prime-field vector-space view with a fixed common prime parameter."
+    },
+    {
+      "id": "field-fp2@fp-vector-spaces",
+      "object_id": "field-fp2",
+      "category_id": "fp-vector-spaces",
+      "scalar": "F_p",
+      "parameters": {
+        "p": "p",
+        "dimension": 2
+      },
+      "constraints": [
+        "p is a fixed prime shared by both endpoints",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "description": "Symbolic prime-field vector-space view with a fixed common prime parameter."
+    },
+    {
+      "id": "field-fp3@fp-vector-spaces",
+      "object_id": "field-fp3",
+      "category_id": "fp-vector-spaces",
+      "scalar": "F_p",
+      "parameters": {
+        "p": "p",
+        "dimension": 3
+      },
+      "constraints": [
+        "p is a fixed prime shared by both endpoints",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "description": "Symbolic prime-field vector-space view with a fixed common prime parameter."
+    },
+    {
+      "id": "field-fpk@fp-vector-spaces",
+      "object_id": "field-fpk",
+      "category_id": "fp-vector-spaces",
+      "scalar": "F_p",
+      "parameters": {
+        "p": "p",
+        "dimension": "k"
+      },
+      "constraints": [
+        "p is a fixed prime shared by both endpoints",
+        "For F_p-linear comparisons, both endpoints use the same fixed prime p and canonical prime-field scalar action."
+      ],
+      "description": "Symbolic prime-field vector-space view with a fixed common prime parameter."
+    }
+  ],
+  "relationships": [
+    {
+      "id": "arithmetic-units-adeles-q",
+      "source": "ring-adeles-q",
+      "target": "group-ideles-q",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the unit group, equipped with the restricted-product idele topology, not the inherited additive topology.",
+      "knowl": "catalog/arithmetic/ideles-q",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-units-adeles-q-finite",
+      "source": "ring-adeles-q-finite",
+      "target": "group-ideles-q-finite",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the unit group, equipped with the restricted-product idele topology, not the inherited additive topology.",
+      "knowl": "catalog/arithmetic/ideles-q-finite",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-units-adeles-number-field",
+      "source": "ring-adeles-number-field",
+      "target": "group-ideles-number-field",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the unit group, equipped with the restricted-product idele topology, not the inherited additive topology.",
+      "knowl": "catalog/arithmetic/ideles-number-field",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-units-adeles-number-field-finite",
+      "source": "ring-adeles-number-field-finite",
+      "target": "group-ideles-number-field-finite",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the unit group, equipped with the restricted-product idele topology, not the inherited additive topology.",
+      "knowl": "catalog/arithmetic/ideles-number-field-finite",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-units-adeles-fq-t",
+      "source": "ring-adeles-fq-t",
+      "target": "group-ideles-fq-t",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the unit group, equipped with the restricted-product idele topology, not the inherited additive topology.",
+      "knowl": "catalog/arithmetic/ideles-fq-t",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-units-adeles-function-field",
+      "source": "ring-adeles-function-field",
+      "target": "group-ideles-function-field",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the unit group, equipped with the restricted-product idele topology, not the inherited additive topology.",
+      "knowl": "catalog/arithmetic/ideles-function-field",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-z-into-q",
+      "source": "ring-z",
+      "target": "field-q",
+      "kind": "embedding",
+      "category_id": "unital-rings",
+      "statement": "n maps to n/1.",
+      "knowl": "shared-foundations/rational-numbers",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "n maps to n/1.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-field-qi",
+      "source": "field-q",
+      "target": "field-qi",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The constant rational elements embed into the quadratic field.",
+      "knowl": "catalog/arithmetic/qi",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The constant rational elements embed into the quadratic field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-field-qsqrt2",
+      "source": "field-q",
+      "target": "field-qsqrt2",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The constant rational elements embed into the quadratic field.",
+      "knowl": "catalog/arithmetic/qsqrt2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The constant rational elements embed into the quadratic field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-field-qsqrt-minus3",
+      "source": "field-q",
+      "target": "field-qsqrt-minus3",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The constant rational elements embed into the quadratic field.",
+      "knowl": "catalog/arithmetic/qsqrt-minus3",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The constant rational elements embed into the quadratic field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-ring-gaussian-integers-into-field-qi",
+      "source": "ring-gaussian-integers",
+      "target": "field-qi",
+      "kind": "embedding",
+      "category_id": "unital-rings",
+      "statement": "Inclusion of the integral subring into its rational algebra.",
+      "knowl": "catalog/arithmetic/gaussian-integers",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Inclusion of the integral subring into its rational algebra.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-ring-eisenstein-integers-into-field-qsqrt-minus3",
+      "source": "ring-eisenstein-integers",
+      "target": "field-qsqrt-minus3",
+      "kind": "embedding",
+      "category_id": "unital-rings",
+      "statement": "Inclusion of the integral subring into its rational algebra.",
+      "knowl": "catalog/arithmetic/eisenstein-integers",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Inclusion of the integral subring into its rational algebra.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-ring-lipschitz-into-algebra-hamilton-q",
+      "source": "ring-lipschitz",
+      "target": "algebra-hamilton-q",
+      "kind": "embedding",
+      "category_id": "unital-rings",
+      "statement": "Inclusion of the integral subring into its rational algebra.",
+      "knowl": "catalog/arithmetic/lipschitz-order",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Inclusion of the integral subring into its rational algebra.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-ring-hurwitz-into-algebra-hamilton-q",
+      "source": "ring-hurwitz",
+      "target": "algebra-hamilton-q",
+      "kind": "embedding",
+      "category_id": "unital-rings",
+      "statement": "Inclusion of the integral subring into its rational algebra.",
+      "knowl": "catalog/arithmetic/hurwitz-order",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Inclusion of the integral subring into its rational algebra.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-lipschitz-into-hurwitz",
+      "source": "ring-lipschitz",
+      "target": "ring-hurwitz",
+      "kind": "embedding",
+      "category_id": "unital-rings",
+      "statement": "The Lipschitz order embeds in the Hurwitz order with additive index two.",
+      "knowl": "catalog/arithmetic/hurwitz-order",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+            "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+            "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-hamilton-real-extension",
+      "source": "algebra-hamilton-q",
+      "target": "scalar-h",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Tensoring the rational Hamilton quaternion algebra with R yields Hamilton real quaternions.",
+      "knowl": "catalog/arithmetic/rational-hamilton-quaternions",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Tensoring the rational Hamilton quaternion algebra with R yields Hamilton real quaternions.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-q2",
+      "source": "field-q",
+      "target": "field-q2",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The canonical dense inclusion into the p-adic completion.",
+      "knowl": "catalog/arithmetic/q2",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-z2-into-q2",
+      "source": "ring-z2",
+      "target": "field-q2",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "The valuation ring includes continuously as the closed unit ball.",
+      "knowl": "catalog/arithmetic/q2",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-residue-z2",
+      "source": "ring-z2",
+      "target": "field-f2",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Reduction modulo p gives the residue field F_p.",
+      "knowl": "catalog/arithmetic/q2",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-q3",
+      "source": "field-q",
+      "target": "field-q3",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The canonical dense inclusion into the p-adic completion.",
+      "knowl": "catalog/arithmetic/q3",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-z3-into-q3",
+      "source": "ring-z3",
+      "target": "field-q3",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "The valuation ring includes continuously as the closed unit ball.",
+      "knowl": "catalog/arithmetic/q3",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-residue-z3",
+      "source": "ring-z3",
+      "target": "field-f3",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Reduction modulo p gives the residue field F_p.",
+      "knowl": "catalog/arithmetic/q3",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-q5",
+      "source": "field-q",
+      "target": "field-q5",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The canonical dense inclusion into the p-adic completion.",
+      "knowl": "catalog/arithmetic/q5",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-z5-into-q5",
+      "source": "ring-z5",
+      "target": "field-q5",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "The valuation ring includes continuously as the closed unit ball.",
+      "knowl": "catalog/arithmetic/q5",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-residue-z5",
+      "source": "ring-z5",
+      "target": "field-f5",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Reduction modulo p gives the residue field F_p.",
+      "knowl": "catalog/arithmetic/q5",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-q-into-qp",
+      "source": "field-q",
+      "target": "field-qp",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The canonical dense inclusion into the p-adic completion.",
+      "knowl": "catalog/arithmetic/qp",
+      "conditions": [
+        "p is prime"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-zp-into-qp",
+      "source": "ring-zp",
+      "target": "field-qp",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "The valuation ring includes continuously as the closed unit ball.",
+      "knowl": "catalog/arithmetic/qp",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-residue-zp",
+      "source": "ring-zp",
+      "target": "field-fp",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Reduction modulo p gives the residue field F_p.",
+      "knowl": "catalog/arithmetic/qp",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and the cited source.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-into-laurent-2",
+      "source": "ring-f2-power-series",
+      "target": "field-f2-laurent",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "Include the nonnegative-power series into the Laurent-series field.",
+      "knowl": "catalog/arithmetic/f2-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Include the nonnegative-power series into the Laurent-series field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-rational-into-laurent-2",
+      "source": "field-f2-rational-functions",
+      "target": "field-f2-laurent",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Expand a rational function as a Laurent series at t=0.",
+      "knowl": "catalog/arithmetic/f2-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Expand a rational function as a Laurent series at t=0.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-polynomial-completion-2",
+      "source": "ring-f2-polynomials",
+      "target": "ring-f2-power-series",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the t-adic completion of the polynomial ring.",
+      "knowl": "catalog/arithmetic/f2-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the t-adic completion of the polynomial ring.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-residue-2",
+      "source": "ring-f2-power-series",
+      "target": "field-f2",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Take the constant coefficient; the kernel is the ideal (t).",
+      "knowl": "catalog/arithmetic/f2-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the constant coefficient; the kernel is the ideal (t).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-into-laurent-3",
+      "source": "ring-f3-power-series",
+      "target": "field-f3-laurent",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "Include the nonnegative-power series into the Laurent-series field.",
+      "knowl": "catalog/arithmetic/f3-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Include the nonnegative-power series into the Laurent-series field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-rational-into-laurent-3",
+      "source": "field-f3-rational-functions",
+      "target": "field-f3-laurent",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Expand a rational function as a Laurent series at t=0.",
+      "knowl": "catalog/arithmetic/f3-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Expand a rational function as a Laurent series at t=0.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-polynomial-completion-3",
+      "source": "ring-f3-polynomials",
+      "target": "ring-f3-power-series",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the t-adic completion of the polynomial ring.",
+      "knowl": "catalog/arithmetic/f3-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the t-adic completion of the polynomial ring.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-residue-3",
+      "source": "ring-f3-power-series",
+      "target": "field-f3",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Take the constant coefficient; the kernel is the ideal (t).",
+      "knowl": "catalog/arithmetic/f3-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the constant coefficient; the kernel is the ideal (t).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-into-laurent-5",
+      "source": "ring-f5-power-series",
+      "target": "field-f5-laurent",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "Include the nonnegative-power series into the Laurent-series field.",
+      "knowl": "catalog/arithmetic/f5-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Include the nonnegative-power series into the Laurent-series field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-rational-into-laurent-5",
+      "source": "field-f5-rational-functions",
+      "target": "field-f5-laurent",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Expand a rational function as a Laurent series at t=0.",
+      "knowl": "catalog/arithmetic/f5-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Expand a rational function as a Laurent series at t=0.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-polynomial-completion-5",
+      "source": "ring-f5-polynomials",
+      "target": "ring-f5-power-series",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the t-adic completion of the polynomial ring.",
+      "knowl": "catalog/arithmetic/f5-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the t-adic completion of the polynomial ring.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-residue-5",
+      "source": "ring-f5-power-series",
+      "target": "field-f5",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Take the constant coefficient; the kernel is the ideal (t).",
+      "knowl": "catalog/arithmetic/f5-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the constant coefficient; the kernel is the ideal (t).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-into-laurent-q",
+      "source": "ring-fq-power-series",
+      "target": "field-fq-laurent",
+      "kind": "embedding",
+      "category_id": "topological-rings",
+      "statement": "Include the nonnegative-power series into the Laurent-series field.",
+      "knowl": "catalog/arithmetic/fq-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Include the nonnegative-power series into the Laurent-series field.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-rational-into-laurent-q",
+      "source": "field-fq-rational-functions",
+      "target": "field-fq-laurent",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Expand a rational function as a Laurent series at t=0.",
+      "knowl": "catalog/arithmetic/fq-laurent",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Expand a rational function as a Laurent series at t=0.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-polynomial-completion-q",
+      "source": "ring-fq-polynomials",
+      "target": "ring-fq-power-series",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "Take the t-adic completion of the polynomial ring.",
+      "knowl": "catalog/arithmetic/fq-power-series",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the t-adic completion of the polynomial ring.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-series-residue-q",
+      "source": "ring-fq-power-series",
+      "target": "field-fpk",
+      "kind": "quotient",
+      "category_id": "unital-rings",
+      "statement": "Take the constant coefficient; the kernel is the ideal (t).",
+      "knowl": "catalog/arithmetic/fq-power-series",
+      "conditions": [
+        "q=p^k with compatible specified coefficient field"
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Take the constant coefficient; the kernel is the ideal (t).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-f2-into-f4",
+      "source": "field-f2",
+      "target": "field-f4",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Embed the prime subfield as constants in the chosen polynomial presentation.",
+      "knowl": "catalog/arithmetic/f4",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Embed the prime subfield as constants in the chosen polynomial presentation.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-f2-into-f8",
+      "source": "field-f2",
+      "target": "field-f8",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Embed the prime subfield as constants in the chosen polynomial presentation.",
+      "knowl": "catalog/arithmetic/f8",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Embed the prime subfield as constants in the chosen polynomial presentation.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-f3-into-f9",
+      "source": "field-f3",
+      "target": "field-f9",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Embed the prime subfield as constants in the chosen polynomial presentation.",
+      "knowl": "catalog/arithmetic/f9",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Embed the prime subfield as constants in the chosen polynomial presentation.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-f-into-k",
+      "source": "field-f",
+      "target": "field-k-over-f",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "The specified scalar embedding iota:F->K.",
+      "knowl": "catalog/arithmetic/extension-field-k-over-f",
+      "conditions": [
+        "The same specified F and K parameters are used."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The specified scalar embedding iota:F->K.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-m1q-is-q",
+      "source": "assoc-m-1-q",
+      "target": "field-q",
+      "kind": "isomorphism",
+      "category_id": "rational-unital-associative-algebras",
+      "statement": "Identify the one-by-one matrix (a) with the rational scalar a.",
+      "knowl": "catalog/arithmetic/m-1-q",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Identify the one-by-one matrix (a) with the rational scalar a.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-qi-into-m2q",
+      "source": "field-qi",
+      "target": "assoc-m-2-q",
+      "kind": "embedding",
+      "category_id": "rational-unital-associative-algebras",
+      "statement": "Send a+bi to the matrix with rows (a,-b) and (b,a), representing multiplication in the basis (1,i).",
+      "knowl": "catalog/arithmetic/m-2-q",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Send a+bi to the matrix with rows (a,-b) and (b,a), representing multiplication in the basis (1,i).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "arithmetic-f3-into-f27",
+      "source": "field-f3",
+      "target": "field-f27",
+      "kind": "embedding",
+      "category_id": "fields",
+      "statement": "Embed the prime subfield as constants in the irreducible cubic presentation.",
+      "knowl": "catalog/arithmetic/f27",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Embed the prime subfield as constants in the irreducible cubic presentation.",
+        "references": [],
+        "lean": null
+      }
+    }
+  ],
+  "morphism_spaces": [
+    {
+      "id": "arithmetic-linear-end-f4",
+      "source_view": "field-f4@f2-vector-spaces",
+      "target_view": "field-f4@f2-vector-spaces",
+      "operation": "end",
+      "description": "The complete linear endomorphism ring is M_2(F_2), with 16 maps, using the displayed polynomial basis.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Choose a basis; count independent matrix entries and then independent columns.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-linear-aut-f4",
+      "source_view": "field-f4@f2-vector-spaces",
+      "target_view": "field-f4@f2-vector-spaces",
+      "operation": "aut",
+      "description": "The complete linear automorphism group is GL_2(F_2), with 6 elements.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Choose a basis; count independent matrix entries and then independent columns.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-field-end-f4",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f4@fields",
+      "operation": "end",
+      "description": "Exactly 2 maps: the powers x -> x^(p^j), 0 <= j < 2, with p=2. All field endomorphisms are automorphisms.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Finite-field subfield and Frobenius classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-field-aut-f4",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f4@fields",
+      "operation": "aut",
+      "description": "Exactly 2 maps: the powers x -> x^(p^j), 0 <= j < 2, with p=2. All field endomorphisms are automorphisms.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Finite-field subfield and Frobenius classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-linear-end-f8",
+      "source_view": "field-f8@f2-vector-spaces",
+      "target_view": "field-f8@f2-vector-spaces",
+      "operation": "end",
+      "description": "The complete linear endomorphism ring is M_3(F_2), with 512 maps, using the displayed polynomial basis.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Choose a basis; count independent matrix entries and then independent columns.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-linear-aut-f8",
+      "source_view": "field-f8@f2-vector-spaces",
+      "target_view": "field-f8@f2-vector-spaces",
+      "operation": "aut",
+      "description": "The complete linear automorphism group is GL_3(F_2), with 168 elements.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Choose a basis; count independent matrix entries and then independent columns.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-field-end-f8",
+      "source_view": "field-f8@fields",
+      "target_view": "field-f8@fields",
+      "operation": "end",
+      "description": "Exactly 3 maps: the powers x -> x^(p^j), 0 <= j < 3, with p=2. All field endomorphisms are automorphisms.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Finite-field subfield and Frobenius classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-field-aut-f8",
+      "source_view": "field-f8@fields",
+      "target_view": "field-f8@fields",
+      "operation": "aut",
+      "description": "Exactly 3 maps: the powers x -> x^(p^j), 0 <= j < 3, with p=2. All field endomorphisms are automorphisms.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Finite-field subfield and Frobenius classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-linear-end-f9",
+      "source_view": "field-f9@f3-vector-spaces",
+      "target_view": "field-f9@f3-vector-spaces",
+      "operation": "end",
+      "description": "The complete linear endomorphism ring is M_2(F_3), with 81 maps, using the displayed polynomial basis.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Choose a basis; count independent matrix entries and then independent columns.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-linear-aut-f9",
+      "source_view": "field-f9@f3-vector-spaces",
+      "target_view": "field-f9@f3-vector-spaces",
+      "operation": "aut",
+      "description": "The complete linear automorphism group is GL_2(F_3), with 48 elements.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Choose a basis; count independent matrix entries and then independent columns.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-field-end-f9",
+      "source_view": "field-f9@fields",
+      "target_view": "field-f9@fields",
+      "operation": "end",
+      "description": "Exactly 2 maps: the powers x -> x^(p^j), 0 <= j < 2, with p=3. All field endomorphisms are automorphisms.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Finite-field subfield and Frobenius classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-field-aut-f9",
+      "source_view": "field-f9@fields",
+      "target_view": "field-f9@fields",
+      "operation": "aut",
+      "description": "Exactly 2 maps: the powers x -> x^(p^j), 0 <= j < 2, with p=3. All field endomorphisms are automorphisms.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "Finite-field subfield and Frobenius classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-hom-f4-f8-f2-vector-spaces",
+      "source_view": "field-f4@f2-vector-spaces",
+      "target_view": "field-f8@f2-vector-spaces",
+      "operation": "hom",
+      "description": "All 64 F_2-linear maps are 3-by-2 matrices over F_2 in the polynomial bases.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "There are six independently chosen binary matrix entries.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "arithmetic-hom-f4-f8-fields",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f8@fields",
+      "operation": "hom",
+      "description": "The field Hom-set from F_4 to F_8 is empty.",
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "An embedding would force degree 2 to divide degree 3 by the tower formula.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    }
+  ]
+}

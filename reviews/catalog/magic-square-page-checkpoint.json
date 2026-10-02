@@ -1,0 +1,153 @@
+{
+  "catalog/relationships/vinberg-magic-square-construction": {
+    "path": "content/catalog/relationships/vinberg-magic-square-construction.knowl.md",
+    "source_sha256": "2a50bca181fbb7f98bc6951a669e75ae3fc1432897d0fa0a48550fb1c3f6d293",
+    "evidence": "Checked complete Vinberg bracket, tensor derivation rule, trace correction and isomorphism theorem in Barton\u2013Sudbery \u00a74.2. D uses output Y_ji as in equation 4.21; factor inner products are real bilinear, not complex Hermitian.",
+    "prerequisites": [
+      "nonassociative-algebra/composition-algebra",
+      "linear-algebra/linear-map",
+      "lie-groups/lie-algebra"
+    ]
+  },
+  "catalog/relationships/tits-magic-square-decomposition": {
+    "path": "content/catalog/relationships/tits-magic-square-decomposition.knowl.md",
+    "source_sha256": "76a49d885e845ee158e5e17fd1906ecaf70453fcff7da5c98d4b25a07a2beffd",
+    "evidence": "Baez \u00a74.3 identifies Tits decomposition. Derived dimension formula directly from 3 diagonal real entries and 3 free B entries, minus trace. Does not treat all summands as Lie ideals.",
+    "prerequisites": [
+      "catalog/relationships/vinberg-magic-square-construction",
+      "nonassociative-algebra/derivation-of-a-jordan-algebra",
+      "lie-groups/lie-subalgebra"
+    ]
+  },
+  "catalog/relationships/triality-algebra": {
+    "path": "content/catalog/relationships/triality-algebra.knowl.md",
+    "source_sha256": "b9b957d00b50b6f21ee34c295fcb4066508243c758710ae5e0709204f28e9450",
+    "evidence": "Checked Definition 2 and p13 table; explicit slot swap noted. Closure under commutator follows by expanding mixed terms and cancelling. Norm form indefinite allowed; no assertion split algebras are division algebras.",
+    "prerequisites": [
+      "nonassociative-algebra/composition-algebra",
+      "linear-algebra/bilinear-form"
+    ]
+  },
+  "catalog/relationships/triality-magic-square-decomposition": {
+    "path": "content/catalog/relationships/triality-magic-square-decomposition.knowl.md",
+    "source_sha256": "9b96aad0ae4579c7ca791aaf43b194e106e8043c0c3755057e769cd488bdd48f",
+    "evidence": "Checked Theorem 4.4 for vector decomposition and commuting triality subalgebras. Arithmetic verifies dimension formula; no omitted brackets presented as a standalone definition.",
+    "prerequisites": [
+      "catalog/relationships/vinberg-magic-square-construction",
+      "catalog/relationships/triality-algebra",
+      "lie-groups/lie-subalgebra"
+    ]
+  },
+  "catalog/relationships/magic-square-transposition": {
+    "path": "content/catalog/relationships/magic-square-transposition.knowl.md",
+    "source_sha256": "e9d54f646d68d91f2c6945102486559b3b35cf294bd7a6539c881a4ed75f353a",
+    "evidence": "Direct verification of tensor flip against all bracket rules; construction equality does not identify input algebras.",
+    "prerequisites": [
+      "catalog/relationships/vinberg-magic-square-construction",
+      "lie-groups/lie-algebra-isomorphism"
+    ]
+  },
+  "catalog/relationships/magic-square-real-forms": {
+    "path": "content/catalog/relationships/magic-square-real-forms.knowl.md",
+    "source_sha256": "488591c3f3dd0557b382106c9b25c5606aa1f06d9672d66ec5b3894edeab8a98",
+    "evidence": "Checked division/split input distinction and multiple real-square tables in \u00a7\u00a72\u20133. Scalar extension versus restriction is direct definitional distinction. Sedenion exclusion follows required composition property, no larger square claim.",
+    "prerequisites": [
+      "catalog/relationships/vinberg-magic-square-construction"
+    ]
+  },
+  "catalog/relationships/su3-direct-sum-su3": {
+    "path": "content/catalog/relationships/su3-direct-sum-su3.knowl.md",
+    "source_sha256": "b6b6c1296fd3fbb6bb15384caa3fcb8a6b343b9a677dd417c66ea8f694f2babf",
+    "evidence": "Direct sum definition and 8+8 dimension direct; compact square Table5 confirms placement. Not conflated with simple su(6).",
+    "prerequisites": [
+      "lie-groups/direct-sum-of-lie-algebras",
+      "catalog/lie-algebras/su-3"
+    ]
+  },
+  "catalog/relationships/sp1-triple-direct-sum": {
+    "path": "content/catalog/relationships/sp1-triple-direct-sum.knowl.md",
+    "source_sha256": "88e90e12faad5b9403d1a83230da427e5952a9a6459c07b48a239c97d7f48ae1",
+    "evidence": "Direct sum dimension 3+3+3; p13 table identifies Tri(H)=so3^3, combined with existing sp1=so3 real low-dimensional isomorphism.",
+    "prerequisites": [
+      "lie-groups/direct-sum-of-lie-algebras",
+      "catalog/lie-algebras/sp-1"
+    ]
+  },
+  "catalog/relationships/spin8-vector-representation": {
+    "path": "content/catalog/relationships/spin8-vector-representation.knowl.md",
+    "source_sha256": "21ddaa84d176e0b587470584117427a545052493452a4f74e2d0396ef2a0d4f6",
+    "evidence": "Checked Baez \u00a72.4 double cover and real spinor table. Irreducibility of standard SO8 action direct from sphere transitivity; kernel canonical double cover.",
+    "prerequisites": [
+      "lie-groups/spin-group",
+      "lie-groups/defining-representation-of-a-classical-lie-algebra"
+    ]
+  },
+  "catalog/relationships/spin8-positive-half-spin-representation": {
+    "path": "content/catalog/relationships/spin8-positive-half-spin-representation.knowl.md",
+    "source_sha256": "bc7ccf18a6f7f74952d8e50687a3dbefd070a86896635f762f7ea838e9ede733",
+    "evidence": "Baez Table4 gives Cl0(8)=R[8]\u2295R[8] with two real dimension8 irreducibles. Source convention has negative squares; chirality labels need orientation. Schaposnik\u2013Schulz \u00a72.2 gives three different central order-two kernels.",
+    "prerequisites": [
+      "differential-geometry/clifford-algebra",
+      "lie-groups/half-spin-representation"
+    ]
+  },
+  "catalog/relationships/spin8-negative-half-spin-representation": {
+    "path": "content/catalog/relationships/spin8-negative-half-spin-representation.knowl.md",
+    "source_sha256": "0eeff3bcbd5636be854d2df130baa9908420ac48d1442e54d0b8ebeffc70ce10",
+    "evidence": "Baez Table4 gives Cl0(8)=R[8]\u2295R[8] with two real dimension8 irreducibles. Source convention has negative squares; chirality labels need orientation. Schaposnik\u2013Schulz \u00a72.2 gives three different central order-two kernels.",
+    "prerequisites": [
+      "differential-geometry/clifford-algebra",
+      "lie-groups/half-spin-representation"
+    ]
+  },
+  "catalog/relationships/triality-and-central-quotients": {
+    "path": "content/catalog/relationships/triality-and-central-quotients.knowl.md",
+    "source_sha256": "1d7d5cb14a9a2b4568a0d4b18fa989d06694983f1253728667ff761cae3276dd",
+    "evidence": "Checked \u00a72.2 Proposition2.1 and central quotient discussion p5. Descent criterion proved directly from cosets; Out(SO8) not misreported as S3.",
+    "prerequisites": [
+      "lie-groups/spin8-triality",
+      "algebra-groups/outer-automorphism-group"
+    ]
+  },
+  "catalog/relationships/f4-triality-decomposition": {
+    "path": "content/catalog/relationships/f4-triality-decomposition.knowl.md",
+    "source_sha256": "3cb4c6726f1e76e624d5fba7536593825dbeb8383b020473e8bc6f088410c33f",
+    "evidence": "Checked Baez \u00a74.2 vector decomposition of compact f4 and \u00a73.4 Albert decomposition. Explicitly distinguishes module decomposition from Lie algebra direct sum.",
+    "prerequisites": [
+      "catalog/lie-algebras/f4-compact",
+      "nonassociative-algebra/exceptional-jordan-algebra",
+      "lie-groups/spin8-triality",
+      "lie-groups/lie-subalgebra"
+    ]
+  },
+  "catalog/relationships/spin8-intertwiner-spaces": {
+    "path": "content/catalog/relationships/spin8-intertwiner-spaces.knowl.md",
+    "source_sha256": "27f882270613569d58fe1a115ec320a4b0c316f94ac173b6eb4af4159308fb24",
+    "evidence": "Direct proof in text: distinct central characters force cross intertwiners zero; full SO8 image and stabilizer/transitivity imply commutant scalar. Hom=0 represented as singleton zero map, not missing or empty data.",
+    "prerequisites": [
+      "catalog/relationships/spin8-vector-representation",
+      "lie-groups/half-spin-representation",
+      "catalog/relationships/triality-and-central-quotients",
+      "algebra-groups/group-action"
+    ]
+  },
+  "catalog/relationships/hermitian-cubic-derivation-algebras": {
+    "path": "content/catalog/relationships/hermitian-cubic-derivation-algebras.knowl.md",
+    "source_sha256": "f926592a915ca717c6e63d215272b69c9f0bde45a960aea532645711330ba6af",
+    "evidence": "Checked compact first-row table and matrix identifications; normalizing product by 1/2 leaves the derivation space unchanged. Dimensions from classical formulas and f4=52; sp quaternionic size explicit.",
+    "prerequisites": [
+      "nonassociative-algebra/derivation-of-a-jordan-algebra"
+    ]
+  },
+  "catalog/relationships/compact-freudenthal-magic-square": {
+    "path": "content/catalog/relationships/compact-freudenthal-magic-square.knowl.md",
+    "source_sha256": "f074faaa1ff0604eac82f91503b1f72079dea1f4279d4b3eace7a98bca892691",
+    "evidence": "All 16 cells checked against Baez Table5, compact real forms specified. Dimensions also computed independently by triality formula; table output paths reused from algebra reservation manifest.",
+    "prerequisites": [
+      "catalog/relationships/vinberg-magic-square-construction",
+      "lie-groups/lie-algebra",
+      "nonassociative-algebra/composition-algebra",
+      "lie-groups/compact-real-form"
+    ]
+  }
+}

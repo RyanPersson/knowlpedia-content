@@ -1,0 +1,993 @@
+{
+  "candidate_count": 141,
+  "accepted": 80,
+  "decisions": [
+    {
+      "candidate_id": "7d636c747d3e94044e1d",
+      "source_id": "catalog/arithmetic/adeles-fq-t",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "734de20d60d80a316a5c",
+      "source_id": "catalog/arithmetic/adeles-fq-t",
+      "target": "algebra-fields-galois/number-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f79b6a54aa3a985842d2",
+      "source_id": "catalog/arithmetic/adeles-function-field",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "31833e42a370374d5975",
+      "source_id": "catalog/arithmetic/adeles-function-field",
+      "target": "algebra-fields-galois/number-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "d5da25afd9706103f02d",
+      "source_id": "catalog/arithmetic/adeles-number-field-finite",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "457ea2046683ab3b01e9",
+      "source_id": "catalog/arithmetic/adeles-number-field",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "e71d30cb6c925ca51fbc",
+      "source_id": "catalog/arithmetic/adeles-number-field",
+      "target": "algebra-fields-galois/global-function-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "dfe2d3a8aff7f1480762",
+      "source_id": "catalog/arithmetic/adeles-q-finite",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "9b31a932d19f9d80e22f",
+      "source_id": "catalog/arithmetic/adeles-q",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "e9af11785e291502552a",
+      "source_id": "catalog/arithmetic/adeles-q",
+      "target": "algebra-fields-galois/number-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f37499ed6dfbbdff5324",
+      "source_id": "catalog/arithmetic/adeles-q",
+      "target": "algebra-fields-galois/global-function-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "bc76d2306df8334db3c0",
+      "source_id": "catalog/arithmetic/eisenstein-integers",
+      "target": "algebra-groups/abelian-group",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "085e6c5ba075d9311d21",
+      "source_id": "catalog/arithmetic/eisenstein-integers",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "2b19ffba02a64aa818f4",
+      "source_id": "catalog/arithmetic/extension-field-k-over-f",
+      "target": "algebra-fields-galois/field-automorphism",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "b8cfd0318d254378943c",
+      "source_id": "catalog/arithmetic/f2-laurent",
+      "target": "algebra-fields-galois/ring-of-integers",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "3496f618bb366776a8bb",
+      "source_id": "catalog/arithmetic/f2-laurent",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "c5209edbffc6f9d622e5",
+      "source_id": "catalog/arithmetic/f2-laurent",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "037e0f72b27cd80d1727",
+      "source_id": "catalog/arithmetic/f2-polynomials",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "ac04ff2ce7ce61467ff6",
+      "source_id": "catalog/arithmetic/f2-polynomials",
+      "target": "algebra-rings/fraction-field",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "1d1134c8f360ef333b08",
+      "source_id": "catalog/arithmetic/f2-power-series",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "922ff0b72165503c2b3e",
+      "source_id": "catalog/arithmetic/f2-power-series",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "dda82cd55d27e5053b6b",
+      "source_id": "catalog/arithmetic/f2-power-series",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "2cc87a78d0c9a636064f",
+      "source_id": "catalog/arithmetic/f2-power-series",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "0f3f9ca37cbdc45171dc",
+      "source_id": "catalog/arithmetic/f2-power-series",
+      "target": "complex-analysis/rational-function",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "8ca9f87dc6cc2c18c278",
+      "source_id": "catalog/arithmetic/f2-rational-functions",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "15068a5292b47d1d0473",
+      "source_id": "catalog/arithmetic/f2-rational-functions",
+      "target": "algebra-fields-galois/global-function-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "0eaf3fdb35e3eff328af",
+      "source_id": "catalog/arithmetic/f2-rational-functions",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "669bf36049087ae62256",
+      "source_id": "catalog/arithmetic/f3-laurent",
+      "target": "algebra-fields-galois/ring-of-integers",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "19defb73e3791bbfa61a",
+      "source_id": "catalog/arithmetic/f3-laurent",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "0ea2f8f6ba5ffab22cd9",
+      "source_id": "catalog/arithmetic/f3-laurent",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "4fe3cde2c770cc6fdb10",
+      "source_id": "catalog/arithmetic/f3-polynomials",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "5dac27a2dc65ebd9ad13",
+      "source_id": "catalog/arithmetic/f3-polynomials",
+      "target": "algebra-rings/fraction-field",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "4cfd94f5fe9e022b03e7",
+      "source_id": "catalog/arithmetic/f3-power-series",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "b94abc71fdcc41f0b031",
+      "source_id": "catalog/arithmetic/f3-power-series",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "adf9ffd0f726fc558707",
+      "source_id": "catalog/arithmetic/f3-power-series",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "718ae39295f387de0dc7",
+      "source_id": "catalog/arithmetic/f3-power-series",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "1575ef916ef6c3157fe5",
+      "source_id": "catalog/arithmetic/f3-power-series",
+      "target": "complex-analysis/rational-function",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "6cefb5cf717790789b40",
+      "source_id": "catalog/arithmetic/f3-rational-functions",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "e75baaa4871cfc60d893",
+      "source_id": "catalog/arithmetic/f3-rational-functions",
+      "target": "algebra-fields-galois/global-function-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "eed19be9d66363264fe2",
+      "source_id": "catalog/arithmetic/f3-rational-functions",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "89e38811ad1c5d36edf5",
+      "source_id": "catalog/arithmetic/f4",
+      "target": "algebra-fields-galois/field-automorphism",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "85218193f27e8f537d62",
+      "source_id": "catalog/arithmetic/f4",
+      "target": "algebra-groups/automorphism-group",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "2cee7d172f0143ec8f60",
+      "source_id": "catalog/arithmetic/f4",
+      "target": "linear-algebra/linear-map",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "b9e3ff18264de17da6c1",
+      "source_id": "catalog/arithmetic/f5-laurent",
+      "target": "algebra-fields-galois/ring-of-integers",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "2b83c6dc137b84ddeaaf",
+      "source_id": "catalog/arithmetic/f5-laurent",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "0c3b6f745cebfe5ecad1",
+      "source_id": "catalog/arithmetic/f5-laurent",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "c147bc3d9144807a9002",
+      "source_id": "catalog/arithmetic/f5-polynomials",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "67d437bb529afaf94c16",
+      "source_id": "catalog/arithmetic/f5-polynomials",
+      "target": "algebra-rings/fraction-field",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "0e440ef296c6132a18b8",
+      "source_id": "catalog/arithmetic/f5-power-series",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "0b6c5594ceed10505ba8",
+      "source_id": "catalog/arithmetic/f5-power-series",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "c72eb5e407f528ffeb6a",
+      "source_id": "catalog/arithmetic/f5-power-series",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "d40ef58c8e8ab6cc7f7a",
+      "source_id": "catalog/arithmetic/f5-power-series",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "1e1ac775c7dbba0e2613",
+      "source_id": "catalog/arithmetic/f5-power-series",
+      "target": "complex-analysis/rational-function",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "99e0d53aee20cf575e5c",
+      "source_id": "catalog/arithmetic/f5-rational-functions",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "97d0272b6d19d6a2e7b5",
+      "source_id": "catalog/arithmetic/f5-rational-functions",
+      "target": "algebra-fields-galois/global-function-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "037a08fa909765970ad7",
+      "source_id": "catalog/arithmetic/f5-rational-functions",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "940a3557a15c48d59ddd",
+      "source_id": "catalog/arithmetic/f8",
+      "target": "algebra-fields-galois/field-automorphism",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "b70730c39d440412ba05",
+      "source_id": "catalog/arithmetic/f8",
+      "target": "algebra-groups/automorphism-group",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "0138f168690c5c7a95c1",
+      "source_id": "catalog/arithmetic/f8",
+      "target": "linear-algebra/linear-map",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "8cfbc2c221f3207f7a82",
+      "source_id": "catalog/arithmetic/f9",
+      "target": "algebra-fields-galois/field-automorphism",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "85d8e80a494a43f01a7b",
+      "source_id": "catalog/arithmetic/f9",
+      "target": "algebra-groups/automorphism-group",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "d1c245e930118f748bce",
+      "source_id": "catalog/arithmetic/f9",
+      "target": "linear-algebra/linear-map",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "4850cd7fd30600186123",
+      "source_id": "catalog/arithmetic/fp2",
+      "target": "algebra-fields-galois/algebraic-closure",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "6350c52295d14ec4796a",
+      "source_id": "catalog/arithmetic/fp2",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f3b0a1c003634487a48f",
+      "source_id": "catalog/arithmetic/fp2",
+      "target": "algebra-rings/zero-divisor",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "7355a1cab6d56752ce75",
+      "source_id": "catalog/arithmetic/fp3",
+      "target": "algebra-fields-galois/algebraic-closure",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "a44027b8b3e4040ae66c",
+      "source_id": "catalog/arithmetic/fp3",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "988f8a1fdeb7e3588dea",
+      "source_id": "catalog/arithmetic/fp3",
+      "target": "algebra-rings/zero-divisor",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "207aa6f81ac8fd9c35b3",
+      "source_id": "catalog/arithmetic/fpk",
+      "target": "algebra-fields-galois/algebraic-closure",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "a5ebb906038fa3e4de53",
+      "source_id": "catalog/arithmetic/fpk",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "3ff26891c1cf9f9926ea",
+      "source_id": "catalog/arithmetic/fpk",
+      "target": "algebra-rings/zero-divisor",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f7cceac50f4f8d3a86cd",
+      "source_id": "catalog/arithmetic/fq-laurent",
+      "target": "algebra-fields-galois/ring-of-integers",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "e32b8c7751e551301a82",
+      "source_id": "catalog/arithmetic/fq-laurent",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "47b2eeac92080402850a",
+      "source_id": "catalog/arithmetic/fq-laurent",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "3585af2b161183506626",
+      "source_id": "catalog/arithmetic/fq-polynomials",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "766f13c94f9b89e40866",
+      "source_id": "catalog/arithmetic/fq-polynomials",
+      "target": "algebra-rings/fraction-field",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "048ec3fd5511d36ce7cf",
+      "source_id": "catalog/arithmetic/fq-power-series",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "54ccefdb7c4644bf51e6",
+      "source_id": "catalog/arithmetic/fq-power-series",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "a4d9042750b4bc91e9b4",
+      "source_id": "catalog/arithmetic/fq-power-series",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "c44ade1434d4854d0c86",
+      "source_id": "catalog/arithmetic/fq-power-series",
+      "target": "shared-foundations/finite-sum",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "d5630dc0a1f3d93319aa",
+      "source_id": "catalog/arithmetic/fq-power-series",
+      "target": "complex-analysis/rational-function",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "7ff6f188c23c4ad1cce3",
+      "source_id": "catalog/arithmetic/fq-rational-functions",
+      "target": "algebra-rings/polynomial-ring",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "8d7f83b4561933f7b990",
+      "source_id": "catalog/arithmetic/fq-rational-functions",
+      "target": "algebra-fields-galois/global-function-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "2e48d7846566b62e4bcf",
+      "source_id": "catalog/arithmetic/fq-rational-functions",
+      "target": "algebra-rings/irreducible-polynomial",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f0b89dfbd4682c738541",
+      "source_id": "catalog/arithmetic/gaussian-integers",
+      "target": "algebra-groups/abelian-group",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "5ce0abe2021cfbea8970",
+      "source_id": "catalog/arithmetic/gaussian-integers",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "1defbf72e8a8406f0e95",
+      "source_id": "catalog/arithmetic/hurwitz-order",
+      "target": "algebra-rings/quaternion-algebra",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "8b7fae2943612b917ef7",
+      "source_id": "catalog/arithmetic/hurwitz-order",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "b759dfff73f8a00d30cf",
+      "source_id": "catalog/arithmetic/lipschitz-order",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "6c7057a835a7d33f7ca3",
+      "source_id": "catalog/arithmetic/q2",
+      "target": "real-analysis/absolute-value",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "1b59b1840c46b308406b",
+      "source_id": "catalog/arithmetic/q2",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "1ad182c058be8ac38916",
+      "source_id": "catalog/arithmetic/q2",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "142809f5589dccc4d9ec",
+      "source_id": "catalog/arithmetic/q2",
+      "target": "topology/locally-compact-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "961dd2909b9eebcc48c9",
+      "source_id": "catalog/arithmetic/q2",
+      "target": "topology/totally-disconnected-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "36261ee2d853b80f8804",
+      "source_id": "catalog/arithmetic/q3",
+      "target": "real-analysis/absolute-value",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "8fca39780017b7949b7f",
+      "source_id": "catalog/arithmetic/q3",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f2475b897eae725c6eee",
+      "source_id": "catalog/arithmetic/q3",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "90579e4c75eac35f1e47",
+      "source_id": "catalog/arithmetic/q3",
+      "target": "topology/locally-compact-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "386bc0df7584c7bd16b9",
+      "source_id": "catalog/arithmetic/q3",
+      "target": "topology/totally-disconnected-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "a358804e915e26730776",
+      "source_id": "catalog/arithmetic/q5",
+      "target": "real-analysis/absolute-value",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "ec052cf018bf594c00ab",
+      "source_id": "catalog/arithmetic/q5",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "ba8836637b3808cf4919",
+      "source_id": "catalog/arithmetic/q5",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "21b1f24df597af4bbfa7",
+      "source_id": "catalog/arithmetic/q5",
+      "target": "topology/locally-compact-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "8004c3421ff727eb3f8e",
+      "source_id": "catalog/arithmetic/q5",
+      "target": "topology/totally-disconnected-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "2a22d2f37085a3f834f8",
+      "source_id": "catalog/arithmetic/qi",
+      "target": "linear-algebra/linear-map",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "cb6094c12dea51dfd00c",
+      "source_id": "catalog/arithmetic/qp-unramified-2",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "667905f0fbde8ef55284",
+      "source_id": "catalog/arithmetic/qp-unramified-2",
+      "target": "algebra-fields-galois/algebraic-closure",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "1ef316caa92308635546",
+      "source_id": "catalog/arithmetic/qp-unramified-2",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "a8abb0bd2d574bb3cc40",
+      "source_id": "catalog/arithmetic/qp-unramified-3",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "3b54aa4488183f942095",
+      "source_id": "catalog/arithmetic/qp-unramified-3",
+      "target": "algebra-fields-galois/algebraic-closure",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "c7904e1a2d3d838966ee",
+      "source_id": "catalog/arithmetic/qp-unramified-3",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "03f0930535798ec16cb5",
+      "source_id": "catalog/arithmetic/qp-unramified-n",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "8707e003d9c7df378bfb",
+      "source_id": "catalog/arithmetic/qp-unramified-n",
+      "target": "algebra-fields-galois/algebraic-closure",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "5a5aa33cd89a6dbc7a45",
+      "source_id": "catalog/arithmetic/qp-unramified-n",
+      "target": "algebra-fields-galois/local-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "796e80b106e6a75e9c8d",
+      "source_id": "catalog/arithmetic/qp",
+      "target": "real-analysis/absolute-value",
+      "decision": "reject",
+      "reason": "Wrong scope: target is the archimedean/complex/number-field notion, not the arithmetic notion in this sentence."
+    },
+    {
+      "candidate_id": "96afa065851ef91cdb50",
+      "source_id": "catalog/arithmetic/qp",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "93afd958224000a38b8b",
+      "source_id": "catalog/arithmetic/qp",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f355179117ad613cb992",
+      "source_id": "catalog/arithmetic/qp",
+      "target": "topology/locally-compact-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "a08de3706d6319855f7a",
+      "source_id": "catalog/arithmetic/qp",
+      "target": "topology/totally-disconnected-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "b65a42b1d87e1ca00c63",
+      "source_id": "catalog/arithmetic/qsqrt-minus3",
+      "target": "linear-algebra/linear-map",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "9e5edf6fb349d6811a61",
+      "source_id": "catalog/arithmetic/qsqrt2",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "4b3f076f6d3e1008ecd3",
+      "source_id": "catalog/arithmetic/qsqrt2",
+      "target": "linear-algebra/linear-map",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "523c7d41d0f7eb49ee3c",
+      "source_id": "catalog/arithmetic/quadratic-number-field",
+      "target": "shared-foundations/square-free-integer",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "53d474bf79ac4dae3a83",
+      "source_id": "catalog/arithmetic/rational-hamilton-quaternions",
+      "target": "linear-algebra/quaternion-division-algebra",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "2709526713f40a0978a0",
+      "source_id": "catalog/arithmetic/z2",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "95ad9ec65d6e6b1684f5",
+      "source_id": "catalog/arithmetic/z2",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f1d41490b6dcc0f81702",
+      "source_id": "catalog/arithmetic/z2",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "a7f98e65cc81adadd730",
+      "source_id": "catalog/arithmetic/z3",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "265f48575a7c0b625df5",
+      "source_id": "catalog/arithmetic/z3",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "f4cec0377e516f81f074",
+      "source_id": "catalog/arithmetic/z3",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "788ea159c9e8d8dd5cec",
+      "source_id": "catalog/arithmetic/z5",
+      "target": "algebra-rings/maximal-ideal",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "3624b5e426a0de9a5f86",
+      "source_id": "catalog/arithmetic/z5",
+      "target": "algebra-commutative/residue-field",
+      "decision": "accept",
+      "reason": "Correct technical prerequisite or comparison, useful first-use link."
+    },
+    {
+      "candidate_id": "910a930368d88c56b020",
+      "source_id": "catalog/arithmetic/z5",
+      "target": "linear-algebra/vector-space",
+      "decision": "reject",
+      "reason": "Already linked as the specific object, or an optional elementary term omitted to avoid excessive linking."
+    },
+    {
+      "candidate_id": "8a1047d4f2a392194a30",
+      "source_id": "catalog/arithmetic/f27",
+      "target": "algebra-fields-galois/field-automorphism",
+      "decision": "accept",
+      "reason": "Correct prerequisite for matrix-algebra core or finite-field map comparison."
+    },
+    {
+      "candidate_id": "80cdd80fc0ac93a98e0b",
+      "source_id": "catalog/arithmetic/f27",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "Correct prerequisite for matrix-algebra core or finite-field map comparison."
+    },
+    {
+      "candidate_id": "90ef0387003e2ccffb57",
+      "source_id": "catalog/arithmetic/m-1-q",
+      "target": "linear-algebra/vector-space",
+      "decision": "accept",
+      "reason": "Correct prerequisite for matrix-algebra core or finite-field map comparison."
+    },
+    {
+      "candidate_id": "d2bc398c3a2c5f62cb39",
+      "source_id": "catalog/arithmetic/m-2-q",
+      "target": "linear-algebra/vector-space",
+      "decision": "accept",
+      "reason": "Correct prerequisite for matrix-algebra core or finite-field map comparison."
+    },
+    {
+      "candidate_id": "ade4b26f19fef363c0cc",
+      "source_id": "catalog/arithmetic/m-3-q",
+      "target": "linear-algebra/vector-space",
+      "decision": "accept",
+      "reason": "Correct prerequisite for matrix-algebra core or finite-field map comparison."
+    },
+    {
+      "candidate_id": "dfbc2c0e02b029790805",
+      "source_id": "catalog/arithmetic/m-n-q",
+      "target": "linear-algebra/vector-space",
+      "decision": "accept",
+      "reason": "Correct prerequisite for matrix-algebra core or finite-field map comparison."
+    },
+    {
+      "candidate_id": "5e4dca71523289b124ba",
+      "source_id": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "target": "catalog/categories/fields",
+      "decision": "accept",
+      "reason": "Exact categorical convention used in the comparison core."
+    },
+    {
+      "candidate_id": "d9aa3b0a846b1a71f562",
+      "source_id": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "target": "algebra-fields-galois/field-automorphism",
+      "decision": "reject",
+      "reason": "Optional table-header link; map axioms already explicit in core and the finite-field object knowls link the definition."
+    }
+  ]
+}

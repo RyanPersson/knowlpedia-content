@@ -1,0 +1,91 @@
+{
+  "id": "catalog-independent-adversarial-review",
+  "review_date": "2026-10-02",
+  "scope": "Independent targeted mathematical, coverage, and data-semantics review of the catalogue addition; not a full re-review of the existing prerequisite corpus.",
+  "outcome": "No remaining confirmed mathematical or structural blocker in the reviewed catalogue. Rendering integration is tracked separately below.",
+  "reviewed": [
+    "Separate real and complex object identities; low-dimensional and symbolic parameter domains; explicit global forms of exceptional groups.",
+    "Split composition algebras, Cayley-Dickson formulas, sedenion nonassociativity and zero-divisor boundaries, and exclusion of octonionic Hermitian sizes above three from Jordan families.",
+    "Real and complex Heisenberg groups and Lie algebras; quaternionic matrix conventions; selected classical dimensions and low-dimensional isomorphisms.",
+    "Finite fields, p-adic and Laurent-series fields, adeles and ideles, rational quaternion algebras, and Hurwitz/Lipschitz orders as distinct objects.",
+    "All sixteen compact magic-square cells, machine-readable second construction inputs, Vinberg bracket correction, triality modules, and distinction between module isomorphisms and underlying vector-space isomorphisms.",
+    "All 91 root core.json morphism-space claims and all nine root morphism knowls: scalar C and Q(i), Jordan unit conventions and idempotent Hom-sets, finite-field zero-versus-empty distinctions, scalar restriction, and real versus holomorphic SL(2,C) maps.",
+    "The eight added nonunital zero-product Jordan objects and their 24 End/Aut records; finite-prime-field module views and the 14 added arithmetic morphism classifications.",
+    "Structural relationships versus categorical arrows, fixed scalar agreement on views, explicit completeness and conditions, sparse browser indexes, and indexed read-only query paths."
+  ],
+  "source_checks": [
+    {
+      "url": "https://arxiv.org/pdf/math/0203010",
+      "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+      "locator": "Section 4.2, equations (4.19)-(4.21), Theorem 4.3, printed page 19; preceding paragraph on printed page 18",
+      "checked": "The Vinberg tensor product, derivation correction and coefficient ordering match the authored formula. The preceding paragraph explicitly excludes H_n(O) and split-octonion H_n from Jordan algebras for n > 3."
+    },
+    {
+      "url": "https://arxiv.org/html/1810.09979",
+      "title": "Alberto Elduque, Composition algebras",
+      "locator": "Section 1.1, equation (3); Section 1.3, octonion doubling formula and norm/alternativity discussion",
+      "checked": "Quaternion/octonion doubling conventions, the positive division norm, and the associative-versus-alternative distinction used in the catalogue boundary checks."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "type": "schema-hardening",
+      "finding": "The initial validator allowed a construction or structural relationship to carry a morphism category, and allowed an explicit view scalar to disagree with its category.",
+      "resolution": "Validator now requires null categories for structural kinds, a category for isomorphism/embedding/quotient/covering kinds, and agreement with a category's fixed scalar. Existing authored rows were not false morphisms."
+    },
+    {
+      "type": "coverage",
+      "finding": "Missing nonunital Jordan examples made the object distinction between Jord and UJord invisible.",
+      "resolution": "Added separate real and complex zero-product Jordan objects for dimensions 1, 2, 3, and n, excluding them from unital-object categories and supplying exact End/Aut descriptions."
+    },
+    {
+      "type": "coverage",
+      "finding": "Finite-field pages described prime-field linear maps without corresponding explorer views.",
+      "resolution": "Added F2, F3, and explicitly fixed-parameter F_p vector-space categories/views, together with small-field linear and field-map comparisons."
+    },
+    {
+      "type": "coverage",
+      "finding": "Several indefinite Lie groups lacked corresponding Lie-algebra records; the dimension-four direct-sum isomorphisms were not represented by object edges.",
+      "resolution": "Added the indefinite Lie-algebra families and links, plus su(2) direct sum su(2), real sl(2) direct sum real sl(2), and complex sl(2) direct sum complex sl(2), with the appropriate so(4) and so(2,2) isomorphisms."
+    },
+    {
+      "type": "mathematical-terminology",
+      "finding": "Five core descriptions called general matrix endomorphism algebras a 'composition algebra', conflicting with the established quadratic-norm meaning of that term.",
+      "resolution": "Reworded to endomorphism/matrix algebras under composition; verified the misleading phrase was removed from core morphism descriptions."
+    },
+    {
+      "type": "completeness-metadata",
+      "finding": "The 14 arithmetic morphism records initially omitted coverage and would have defaulted to partial despite exact classifications.",
+      "resolution": "Arithmetic author confirmed coverage: complete was added to all 14 records. Their mathematical counts and classifications were independently checked."
+    }
+  ],
+  "validation_snapshot": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/catalog.py validate",
+    "working_repository": "knowlpedia",
+    "status": "valid",
+    "counts": {
+      "objects": 514,
+      "categories": 40,
+      "views": 2740,
+      "relationships": 622,
+      "morphism_spaces": 153,
+      "magic_squares": 1
+    },
+    "note": "This records the independently executed validation at the completed-review snapshot. Root owns final build and browser verification."
+  },
+  "rendering_integration": {
+    "reported_by": "root compiler integration",
+    "finding": "The compiler caught 18 KaTeX error markers associated with a shared closing-display delimiter followed immediately by Its in 12 adele/idele knowls.",
+    "status_at_recording": "Arithmetic author is repairing the shared delimiter formatting; final rendered verification belongs to root.",
+    "classification": "Rendering integration defect, not a mathematical blocker or a claim that the affected formulas were validated in the browser by this reviewer."
+  },
+  "known_limitations": [
+    "This is a substantial initial catalogue, not an exhaustive list of mathematical objects, real/global forms, category memberships, or morphisms.",
+    "SL(2,C) group-map examples and general associative-algebra map examples are deliberately partial; no unproved exhaustive classification is claimed.",
+    "Symbolic families and scalar bindings retain explicit conditions; the catalogue does not execute or universally discharge those conditions.",
+    "Relationship arrows currently use canonical object/category structures. Future arrows between noncanonical named structures will need explicit endpoint-view semantics.",
+    "Missing Hom records mean not catalogued, not empty. No automatic composition or inverse is inferred from absence or from construction relationships.",
+    "No Lean proof was supplied or verified. Evidence remains direct textual reasoning or cited literature, with Lean references unset.",
+    "The separate transcript-definition addition and exhaustive final rendering checks were outside this independent catalogue review."
+  ]
+}

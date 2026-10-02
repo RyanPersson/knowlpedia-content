@@ -1,0 +1,184 @@
+{
+  "reviews": [
+    {
+      "id": "catalog/categories/sets",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "10ccdf194f33c48a823f2c1388a09764a3d0dbcfc2b0ee77f3aad7ad00686e38",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "8680bb24e7c94cd0000002a760ad1c5aa73754d67f0a0820435a7ce616a84625",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/abelian-groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "155edb1865ab255f626455823be1465f366b6ca56faaaac82599eb0a30e5d446",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/rings",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "0991b56b503fe1aedd325d0775233a2c4c8c6852ba8ab5ea54fd214e4c852af5",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/unital-rings",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "ad596bb88d1137bec3ae39231782fab5ecf1fd732d004f4af9442033d93956e8",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/fields",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "71d6b75e50b66ee6f4827e4e29ed9125d14b6b351c0cbd8b6d1bd42c9ebbefc2",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/topological-groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "7a79b704d6f16e6ac5bd6e46ece6893c6b06396d6d35372e5073f90afb7dae3e",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/topological-rings",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "f71890b3aad24b9dd50b19df899fec173d6f19e7b827ad9eb9659fd66e50f856",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/topological-fields",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "1b043aa750ddea50c705ed4192d0916beb716e23a97c18c2a62c036e9023f7c0",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/vector-spaces",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "57ae2f46176f5d089d753dd8020387ef02dd8ac8077a0e3d450e923c632609c1",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/associative-algebras",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "affdfdb86af01a1e47119d181f1ef2e3f7412fd869da70a51425e20d18a51e78",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/unital-associative-algebras",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "3cdffefbd49cbf5d8bef8bcac14f4fa874d1eaa4c62302c58f52eb8deab68f1e",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/nonassociative-algebras",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "54553af1939f9e934b78cb3aa291cad2fc868ab7ea26ffd615b42ee5fba11632",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/lie-algebras",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "764f2c66b22eeefbbb2d2338049de99e4c33d24bea85a3caf48e34dbb1207123",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/real-lie-groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "344514324d399de21a6cba047639ebd4b013291502de099cc55ef4e0caeffc5f",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/complex-lie-groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "69b0e835ccdeffbe2482f4cf1148d567e7052de3d577c0bc24cc6360b2ec4f8d",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/jordan-algebras",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "ab2a6def77bd83bb6de6fd85dadde4df48a55e7845d8b885a10bdb44cacc0ea4",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/unital-jordan-algebras-arbitrary-maps",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "cd2c3f7952f85c25b137d2521ea7203a521a9d02ca60e46e569c7cae4499173c",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/unital-jordan-algebras-unital-maps",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "eeda7a0652e9c9373dc33b46437751ad17f76037bfba2104db60796a36739b43",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/categories/spin8-representations",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked the stated object and morphism axioms, identity maps and closure under composition. This is an explicit catalogue convention, not a claimed classification of its Hom-sets.",
+      "sources": [],
+      "source_sha256": "896489a15f8b66a7d18c00dfc831a820ca504c5f29fee2b0446fd41ee504dae8",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    }
+  ]
+}
