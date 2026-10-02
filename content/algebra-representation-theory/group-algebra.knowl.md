@@ -2,40 +2,45 @@
 id = "algebra-representation-theory/group-algebra"
 title = "Group algebra"
 kind = "knowl"
-summary = "The associative algebra k[G] whose basis is a group G and whose multiplication extends the group law bilinearly."
-aliases = ["group-algebra", "Group algebra"]
+summary = "The finite-support group ring R[G], called the group algebra when R is a field."
+aliases = ["group-algebra", "Group algebra", "group ring", "integral group ring"]
 domains = ["algebra-representation-theory"]
 legacy_source_path = "algebra-representation-theory/group-algebra.md"
-prerequisites = ["algebra-groups/group", "linear-algebra/vector-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+section_mode = "progressive"
+prerequisites = ["algebra-groups/group", "algebra-rings/commutative-ring", "algebra-modules/free-module"]
+dependency_heuristic = "transcript-connections-semantic-v1"
+dependency_review_count = 2
 +++
 
-Let \(G\) be a finite group and \(k\) a field. The **group algebra** \(k[G]\) (also written \(kG\)) is the \(k\)-[[linear-algebra/vector-space|vector space]] with basis \(\{\,\delta_g : g\in G\,\}\) and multiplication determined by
+Let \(G\) be a [[algebra-groups/group|group]] and \(R\) a [[algebra-rings/commutative-ring|commutative ring]] with identity. The **group ring** \(R[G]\) is the [[algebra-modules/free-module|free \(R\)-module]] with basis \(\{\delta_g:g\in G\}\) and multiplication determined by
 \[
 \delta_g\cdot \delta_h = \delta_{gh}\quad (g,h\in G),
 \]
-extended \(k\)-bilinearly. Thus every element has a unique expression
+extended \(R\)-bilinearly. Thus every element has a unique expression
 \[
-x=\sum_{g\in G} a_g\,\delta_g\qquad (a_g\in k),
+x=\sum_{g\in G} a_g\,\delta_g\qquad (a_g\in R),
 \]
-and multiplication is
+with only finitely many nonzero coefficients, and multiplication is
 \[
 \left(\sum_{g} a_g\delta_g\right)\left(\sum_{h} b_h\delta_h\right)=\sum_{g,h} a_g b_h\,\delta_{gh}.
 \]
-The identity element of \(k[G]\) is \(\delta_e\), where \(e\) is the identity of \(G\).
+The identity is \(\delta_e\), where \(e\) is the identity of \(G\). When \(R=k\) is a field, \(k[G]\) is called the **group algebra** (also written \(kG\)). Neither construction requires \(G\) to be finite.
 
 ## Representations as modules
 
-A (finite-dimensional) [[algebra-representation-theory/group-representation|group representation]] \(\rho:G\to \mathrm{GL}(V)\) on a \(k\)-vector space \(V\) extends uniquely to a \(k\)-algebra homomorphism
+Over a field \(k\), a (finite-dimensional) [[algebra-representation-theory/group-representation|group representation]] \(\rho:G\to \mathrm{GL}(V)\) on a \(k\)-vector space \(V\) extends uniquely to a unital \(k\)-algebra homomorphism
 \[
 \widetilde{\rho}:k[G]\to \mathrm{End}_k(V),\qquad
 \widetilde{\rho}\!\left(\sum_g a_g\delta_g\right)=\sum_g a_g\,\rho(g).
 \]
-Equivalently, giving a representation of \(G\) is the same as giving a left \(k[G]\)-module structure on \(V\) (i.e. an action \(k[G]\times V\to V\) that is \(k\)-bilinear and associative). In this correspondence:
+Equivalently, giving a representation of \(G\) is the same as giving a unital left \(k[G]\)-module structure on \(V\) extending its scalar action. In this correspondence:
 - [[algebra-representation-theory/subrepresentation|subrepresentations]] are exactly \(k[G]\)-submodules,
 - [[algebra-representation-theory/irreducible-representation|irreducible representations]] are exactly [[algebra-modules/simple-module|simple modules]] over \(k[G]\),
-- complete reducibility is a statement about \(k[G]\) being semisimple (cf. [[algebra-representation-theory/maschkes-theorem|Maschke’s theorem]] and [[algebra-modules/semisimple-module|semisimple modules]]).
+- for finite \(G\), [[algebra-representation-theory/maschkes-theorem|Maschke’s theorem]] describes when \(k[G]\) is semisimple and its representations are completely reducible.
+
+## Integral orders
+
+For finite \(G\), \(\mathbb Z[G]\) is a [[algebra-rings/order-in-algebra|\(\mathbb Z\)-order]] in \(\mathbb Q[G]\): its basis has \(|G|\) elements, it spans \(\mathbb Q[G]\), and its multiplication has integer structure constants. For infinite \(G\), it is not a finite-rank order in this sense.
 
 ## Examples
 
@@ -65,4 +70,4 @@ z_1=\delta_e,\qquad
 z_2=\sum_{\text{transpositions }\tau}\delta_\tau,\qquad
 z_3=\sum_{\text{3-cycles }\gamma}\delta_\gamma.
 \]
-These “class sums” act as scalars in any irreducible representation (compare [[algebra-representation-theory/schurs-lemma|Schur’s lemma]]).
+Over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], these class sums act as scalars in any finite-dimensional irreducible representation (compare [[algebra-representation-theory/schurs-lemma|Schur’s lemma]]).

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lane": "transcript-connections",
+  "source": "User attachment Pasted text.txt, read in full (22344 characters)",
+  "inventory_search": {
+    "scope": "All content paths, titles, aliases, body terms; read related existing owners",
+    "queries": [
+      "elliptic curve",
+      "supersingular",
+      "Ramanujan graph",
+      "Cayley graph",
+      "Brandt",
+      "theta series",
+      "Fuchsian",
+      "binary quadratic form",
+      "proper equivalence",
+      "binary tetrahedral",
+      "D4 root lattice",
+      "Chevalley basis",
+      "group algebra"
+    ],
+    "reused": [
+      "lie-groups/root-lattice",
+      "lie-groups/chevalley-basis",
+      "algebraic-geometry-foundations/chevalley-lattice-integral-model",
+      "algebra-groups/quaternion-group",
+      "algebra-groups/commensurable-subgroups",
+      "linear-algebra/euclidean-lattice",
+      "langlands/automorphic-form",
+      "langlands/eisenstein-series"
+    ]
+  },
+  "new_ids": [
+    "algebraic-geometry-foundations/elliptic-curve",
+    "algebraic-geometry-foundations/supersingular-elliptic-curve",
+    "discrete-structures/ramanujan-graph",
+    "discrete-structures/cayley-graph",
+    "algebra-representation-theory/brandt-matrix",
+    "complex-analysis/modular-form",
+    "complex-analysis/cusp-form",
+    "linear-algebra/theta-series-of-lattice",
+    "lie-groups/fuchsian-group",
+    "lie-groups/arithmetic-fuchsian-group",
+    "linear-algebra/integral-binary-quadratic-form",
+    "linear-algebra/proper-equivalence-binary-quadratic-forms",
+    "algebra-groups/binary-tetrahedral-group",
+    "lie-groups/d4-root-lattice"
+  ],
+  "modified_ids": [
+    "algebra-representation-theory/group-algebra"
+  ],
+  "deferred_incidental": [
+    "24-cell (geometric illustration, not substantively defined)",
+    "named arithmetic theorems and conjectures beyond the user request for missing definitions"
+  ],
+  "notes": [
+    "Corrections checked: Hurwitz order is D4 dual in standard coordinates, similar to D4 by length scale 1/sqrt(2); supersingular is smooth, endomorphisms must be geometric; all automorphic forms on definite quaternion group are not constants."
+  ]
+}

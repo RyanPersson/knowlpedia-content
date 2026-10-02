@@ -1,0 +1,23 @@
+{
+  "audit": "audit_knowl_scope.py",
+  "reviewed_findings": [
+    {
+      "id": "algebra-rings/order-in-algebra",
+      "decision": "retain",
+      "reason": "Z-order is exactly the R-order definition at R=Z and K=Q, not a second independent concept. The generic owner includes a short explicit specialization and examples. No redirect or duplicate atomic owner is warranted."
+    }
+  ],
+  "interlink": {
+    "candidates_reviewed": 94,
+    "accepted": 53,
+    "rejected": 41,
+    "decisions": "transcript-orders-interlink-decisions.json"
+  },
+  "validation": {
+    "toml_owned_files": 36,
+    "section_preservation_owned_files": 36,
+    "external_reference_placement_owned_files": 36,
+    "complete_corpus_prerequisite_cycles": 0,
+    "pending_parent": "Integrated production build, browser inspection, and main catalog index generation are handled by root."
+  }
+}

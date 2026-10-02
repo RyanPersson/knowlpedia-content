@@ -1,0 +1,869 @@
+{
+  "id": "catalog-transcript-orders",
+  "scope_note": "Targeted mathematical/source review plus separate dependency-list review; does not assert a full baseline-queue review.",
+  "entries": [
+    {
+      "id": "algebra-modules/full-lattice",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight Definition 9.3.1 and Remark 9.3.4 for full-span convention and Theorem 9.3.6 for projectivity without freeness. Tensor map is localization of an embedded torsion-free module; Z example verified directly.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "d0fa158edd21275876551044aecdb1ba472ca8d360462e0eba1d06a5ef31e7de",
+      "path": "content/algebra-modules/full-lattice.knowl.md"
+    },
+    {
+      "id": "algebra-modules/full-lattice",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-modules/full-lattice.knowl.md",
+      "source_sha256": "d0fa158edd21275876551044aecdb1ba472ca8d360462e0eba1d06a5ef31e7de",
+      "reviewed_prerequisites": [
+        "algebra-rings/fraction-field",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/submodule",
+        "linear-algebra/vector-space"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/order-in-algebra",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight 10.2.1 for Noetherian base/unital subring and full module. Matrix/group examples follow explicit bases. Number-field integrality follows Cayley-Hamilton on Z-lattice; finite-index inclusion from equal rank. Sutherland Remark 7.4 verifies broader noncommutative convention.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf",
+        "https://math.mit.edu/classes/18.785/2015fa/LectureNotes7.pdf"
+      ],
+      "source_sha256": "9fe0a7cd306fd5238459dd5aaa067049f0fb2a781430aaebdec031de8bea23e0",
+      "path": "content/algebra-rings/order-in-algebra.knowl.md"
+    },
+    {
+      "id": "algebra-rings/order-in-algebra",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/order-in-algebra.knowl.md",
+      "source_sha256": "9fe0a7cd306fd5238459dd5aaa067049f0fb2a781430aaebdec031de8bea23e0",
+      "reviewed_prerequisites": [
+        "algebra-modules/algebra-over-ring",
+        "algebra-modules/full-lattice",
+        "algebra-commutative/noetherian-ring"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/maximal-order",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight 10.4.1. Number-field uniqueness follows containment in integral closure and finite module property. Explicit matrix-unit argument proves maximality; conjugate order differs because its (2,1) entry can be 1/2. Number-field order dimension/integrality facts checked against Sutherland \u00a77.1.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf",
+        "https://math.mit.edu/classes/18.785/2015fa/LectureNotes7.pdf"
+      ],
+      "source_sha256": "1d8996d95629cec4078475c1b3f8f7ba1f2f6b7ca19ba7c8bcc683794381dde7",
+      "path": "content/algebra-rings/maximal-order.knowl.md"
+    },
+    {
+      "id": "algebra-rings/maximal-order",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/maximal-order.knowl.md",
+      "source_sha256": "1d8996d95629cec4078475c1b3f8f7ba1f2f6b7ca19ba7c8bcc683794381dde7",
+      "reviewed_prerequisites": [
+        "algebra-rings/order-in-algebra"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-modules/lie-order",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Directly multiplied e,f,h to verify all brackets and ef trace. Basis spans establish ranks 3 over Q(i) and 6 over Q after restriction. Defined Lie-order convention explicitly without asserting false general maximality claims.",
+      "sources": [],
+      "source_sha256": "7c71cc3738b1febc48e61b03b300d73e22e48fafa61441d8b09e289dc78da70a",
+      "path": "content/algebra-modules/lie-order.knowl.md"
+    },
+    {
+      "id": "algebra-modules/lie-order",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-modules/lie-order.knowl.md",
+      "source_sha256": "7c71cc3738b1febc48e61b03b300d73e22e48fafa61441d8b09e289dc78da70a",
+      "reviewed_prerequisites": [
+        "lie-groups/lie-algebra",
+        "algebra-modules/full-lattice",
+        "algebra-commutative/noetherian-ring"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-modules/polynomial-module-from-operator",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct polynomial expansion checks existence, uniqueness, all four module axioms, and intertwining characterization. End(V) need not be commutative; only generated subalgebra is. Finite-dimensional annihilator follows Euclidean division by minimal polynomial.",
+      "sources": [],
+      "source_sha256": "d76b9c0bfc66c5e15297f7c82963702f1ff1c659ca998d9023b08e4bc01116fa",
+      "path": "content/algebra-modules/polynomial-module-from-operator.knowl.md"
+    },
+    {
+      "id": "algebra-modules/polynomial-module-from-operator",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-modules/polynomial-module-from-operator.knowl.md",
+      "source_sha256": "d76b9c0bfc66c5e15297f7c82963702f1ff1c659ca998d9023b08e4bc01116fa",
+      "reviewed_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "algebra-rings/polynomial-ring",
+        "algebra-modules/module"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/principal-fractional-ideal",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct check using a=c/d, equality iff unit ratio, and product/inverse formulas. Principal fractional ideals are separated from ordinary principal ideals; domain Picard interpretation linked to separate owner.",
+      "sources": [],
+      "source_sha256": "09f1dac39ba9c12e0894e63a1f6354259f1762b719d48b5cf9314db84ac66596",
+      "path": "content/algebra-commutative/principal-fractional-ideal.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/principal-fractional-ideal",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/principal-fractional-ideal.knowl.md",
+      "source_sha256": "09f1dac39ba9c12e0894e63a1f6354259f1762b719d48b5cf9314db84ac66596",
+      "reviewed_prerequisites": [
+        "algebra-commutative/fractional-ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/product-fractional-ideals",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct denominator clearing proves fractional closure and nonzero condition; expansion proves monoid laws. Explicit rational principal example verified.",
+      "sources": [],
+      "source_sha256": "45ffd273c1454a1874636745c6f113eacd9790d5a66a127a0eddcc98350278ea",
+      "path": "content/algebra-commutative/product-fractional-ideals.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/product-fractional-ideals",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/product-fractional-ideals.knowl.md",
+      "source_sha256": "45ffd273c1454a1874636745c6f113eacd9790d5a66a127a0eddcc98350278ea",
+      "reviewed_prerequisites": [
+        "algebra-commutative/fractional-ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/fractional-ideal-quotient",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "For denominator proof write b=s/t, cI subset R: cs(I:J) subset tR subset R, with cs nonzero. Nonzero element ad found directly. Scalar closure immediate; no finite-generation assumption.",
+      "sources": [],
+      "source_sha256": "df24adb406def0a9a2ba31a402f271a58e13a5fe2063484171ec79583799c49a",
+      "path": "content/algebra-commutative/fractional-ideal-quotient.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/fractional-ideal-quotient",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/fractional-ideal-quotient.knowl.md",
+      "source_sha256": "df24adb406def0a9a2ba31a402f271a58e13a5fe2063484171ec79583799c49a",
+      "reviewed_prerequisites": [
+        "algebra-commutative/fractional-ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/invertible-fractional-ideal",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct expression 1=sum a_j b_j proves colon inverse and finite generation. For s^2=-3, u^2=2u-4, so I\u00b2=2I but coefficient of s in u odd => u notin2R. Dedekind inverse theorem checked Milne 3.20; converse uses all ideals invertible => Noetherian, locally DVR, nonfield.",
+      "sources": [
+        "https://www.jmilne.org/math/CourseNotes/ANTc.pdf"
+      ],
+      "source_sha256": "84f28bc684242c2ee1286c0ecb0685fe7c17293a1ef2bf0869468e35b836e357",
+      "path": "content/algebra-commutative/invertible-fractional-ideal.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/invertible-fractional-ideal",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/invertible-fractional-ideal.knowl.md",
+      "source_sha256": "84f28bc684242c2ee1286c0ecb0685fe7c17293a1ef2bf0869468e35b836e357",
+      "reviewed_prerequisites": [
+        "algebra-commutative/fractional-ideal",
+        "algebra-commutative/product-fractional-ideals"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/multiplier-ring",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Localization of I is K, so every endomorphism is multiplication. I finite over number-field order gives Z lattice; fixed nonzero a bounds multiplier ring and proves order. Example I=2Z[omega] gives exact multiplier ring, not just containment.",
+      "sources": [
+        "https://math.mit.edu/classes/18.783/2019/LectureNotes18.pdf"
+      ],
+      "source_sha256": "b18f8afa7dc76d274b2deb9a0873f926726d983d73b461c0ce1cb6eb85344587",
+      "path": "content/algebra-commutative/multiplier-ring.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/multiplier-ring",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/multiplier-ring.knowl.md",
+      "source_sha256": "b18f8afa7dc76d274b2deb9a0873f926726d983d73b461c0ce1cb6eb85344587",
+      "reviewed_prerequisites": [
+        "algebra-commutative/fractional-ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/proper-ideal-of-order",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Sutherland \u00a718.3 and Theorem18.10 and Voight Exercise16.16 for quadratic case. General invertible=>proper is direct cancellation. Explicitly separated arithmetic properness from strict ideal inclusion.",
+      "sources": [
+        "https://math.mit.edu/classes/18.783/2019/LectureNotes18.pdf",
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "9c492d2f29f77ae805f95d450492425ac7899c1ebce1749fba3e0377d95200f3",
+      "path": "content/algebra-commutative/proper-ideal-of-order.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/proper-ideal-of-order",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/proper-ideal-of-order.knowl.md",
+      "source_sha256": "9c492d2f29f77ae805f95d450492425ac7899c1ebce1749fba3e0377d95200f3",
+      "reviewed_prerequisites": [
+        "algebra-rings/order-in-algebra",
+        "algebra-commutative/fractional-ideal",
+        "algebra-commutative/multiplier-ring"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/conductor-of-order",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Sutherland \u00a77.1 conductor and away-from-conductor properties. Nonzero via index annihilator direct. Quadratic O=Z+fZomega: x=a+fbomega preserving omega forces f|a; gives exactly f O_K. Example f=2 computed.",
+      "sources": [
+        "https://math.mit.edu/classes/18.785/2015fa/LectureNotes7.pdf"
+      ],
+      "source_sha256": "6d8fb291e0bcd1bf20fd97821465852db8d5b2cd13fecb469a121d8f801ca1a7",
+      "path": "content/algebra-commutative/conductor-of-order.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/conductor-of-order",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/conductor-of-order.knowl.md",
+      "source_sha256": "6d8fb291e0bcd1bf20fd97821465852db8d5b2cd13fecb469a121d8f801ca1a7",
+      "reviewed_prerequisites": [
+        "algebra-rings/order-in-algebra",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/ring-of-integers",
+        "algebra-rings/ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-modules/invertible-module",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Stacks 0AFW Lemma15.119.2 for equivalence tensor inverse/finite locally free rank1 and dual inverse. Projective finite local rank1 restatement; no assumption domain for core.",
+      "sources": [
+        "https://stacks.math.columbia.edu/tag/0AFW"
+      ],
+      "source_sha256": "adabcf1125628cb7e0202f22c2d15562936148ad03b4dea17085f6b7dd518b1e",
+      "path": "content/algebra-modules/invertible-module.knowl.md"
+    },
+    {
+      "id": "algebra-modules/invertible-module",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-modules/invertible-module.knowl.md",
+      "source_sha256": "adabcf1125628cb7e0202f22c2d15562936148ad03b4dea17085f6b7dd518b1e",
+      "reviewed_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/picard-group",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Stacks 0AFW tensor group definition and inverse. Domain representation: finite locally free rank1 extends to K, choice of K-basis embeds into K, finitely generated image fractional. Module isomorphisms extend to scalar maps; establishes quotient interpretation.",
+      "sources": [
+        "https://stacks.math.columbia.edu/tag/0AFW"
+      ],
+      "source_sha256": "9829e8f73d6cf6e5653ef9066fb885d0e3fe7ff1a42b10dd5382cb556dd47caf",
+      "path": "content/algebra-commutative/picard-group.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/picard-group",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/picard-group.knowl.md",
+      "source_sha256": "9829e8f73d6cf6e5653ef9066fb885d0e3fe7ff1a42b10dd5382cb556dd47caf",
+      "reviewed_prerequisites": [
+        "algebra-modules/invertible-module",
+        "algebra-modules/tensor-product",
+        "algebra-groups/abelian-group"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/central-simple-algebra",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight \u00a7\u00a77.2,7.5\u20137.6. Matrix-unit proof verifies example and center; proper field extension counterexample direct. Quaternion/extension assertions standard central-simple characterization from checked source.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "78382a0fc4a38b684b0c6698eac9e16a5b9809da167a31f0de86b7756b52c4b9",
+      "path": "content/algebra-rings/central-simple-algebra.knowl.md"
+    },
+    {
+      "id": "algebra-rings/central-simple-algebra",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/central-simple-algebra.knowl.md",
+      "source_sha256": "78382a0fc4a38b684b0c6698eac9e16a5b9809da167a31f0de86b7756b52c4b9",
+      "reviewed_prerequisites": [
+        "algebra-modules/algebra-over-ring",
+        "algebra-rings/center-of-ring",
+        "algebra-rings/simple-ring"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/brauer-group",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight 8.3.1\u20138.3.4 equivalence/group law and central-simple A tensor Aop endomorphism proof. Distinction between Brauer equivalence and isomorphism explicit.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "5f85f5aa24850c154474b5fbe7490c533236d70c57ad7fec9cc255f29bdf89c9",
+      "path": "content/algebra-rings/brauer-group.knowl.md"
+    },
+    {
+      "id": "algebra-rings/brauer-group",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/brauer-group.knowl.md",
+      "source_sha256": "5f85f5aa24850c154474b5fbe7490c533236d70c57ad7fec9cc255f29bdf89c9",
+      "reviewed_prerequisites": [
+        "algebra-rings/central-simple-algebra",
+        "algebra-rings/matrix-ring",
+        "algebra-modules/tensor-product-algebras",
+        "algebra-rings/opposite-ring"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-reduced-trace",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight \u00a73.3. Coordinates give trd=2x0; scalar part of xy symmetric proves cyclic trace, four diagonal entries x0 give regular trace=4x0. Quadratic identity from standard involution.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "17e80f2ee605d1643807088ed67100667c9f3449b8a148760fba33f943640c93",
+      "path": "content/algebra-rings/quaternion-reduced-trace.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-reduced-trace",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-reduced-trace.knowl.md",
+      "source_sha256": "17e80f2ee605d1643807088ed67100667c9f3449b8a148760fba33f943640c93",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-algebra",
+        "algebra-rings/quaternion-conjugation"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/pure-quaternion",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Char\u22602 ensures trace kernel rank3 and splitting x=(trd(x)/2)1+pure. Square identity checked using conjugation, Hamilton formula direct. Commutator trace zero from cyclicity; product counterexample i\u00b2=a.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "8d78752b69d04fc86f788be1697c940d0631a0ae2325effc3d69696181bd5578",
+      "path": "content/algebra-rings/pure-quaternion.knowl.md"
+    },
+    {
+      "id": "algebra-rings/pure-quaternion",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/pure-quaternion.knowl.md",
+      "source_sha256": "8d78752b69d04fc86f788be1697c940d0631a0ae2325effc3d69696181bd5578",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-reduced-trace"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-ramification",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight Def14.5.1, Lem14.5.3, Main Thm14.6.1. Hamilton values: odd-unit formula12.4.12(a), odd Q2 formula12.4.14 at (-1,-1), real negativity criterion. Does not equate finite discriminant alone with full classification over arbitrary number fields.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "62c91f6f3fa13b9aa8f61d0e4e46de3e93160584d6a23b1447772bf9f69c4ced",
+      "path": "content/algebra-rings/quaternion-ramification.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-ramification",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-ramification.knowl.md",
+      "source_sha256": "62c91f6f3fa13b9aa8f61d0e4e46de3e93160584d6a23b1447772bf9f69c4ced",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-algebra",
+        "algebra-fields-galois/place-of-global-field",
+        "algebra-fields-galois/completion-at-place",
+        "algebra-modules/tensor-product-algebras",
+        "algebra-rings/division-ring"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/hilbert-symbol",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight Def12.4.1/Remark12.4.2 sign vs algebra, Lem12.4.6 pairing and formula12.4.14 for odd Q2 parameters. Odd prime unit value from12.4.12(a). Core includes char\u22602.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "5d2c28014ebf025485c5f87cca3b210fc8fadfb8107f886f24787a13437d149e",
+      "path": "content/algebra-rings/hilbert-symbol.knowl.md"
+    },
+    {
+      "id": "algebra-rings/hilbert-symbol",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/hilbert-symbol.knowl.md",
+      "source_sha256": "5d2c28014ebf025485c5f87cca3b210fc8fadfb8107f886f24787a13437d149e",
+      "reviewed_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebra-rings/quaternion-algebra",
+        "algebra-rings/split-quaternion-algebra"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-discriminant",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight14.5.4 and14.5.5 product finite primes, omission infinite places. Hamilton/split examples from verified ramification. Maximal order equality checked15.5.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "3d082bfdb0ecf26b6d3e5b1da51e78f4bb55171dffd00c34e5c12e4bf6c4c5dd",
+      "path": "content/algebra-rings/quaternion-discriminant.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-discriminant",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-discriminant.knowl.md",
+      "source_sha256": "3d082bfdb0ecf26b6d3e5b1da51e78f4bb55171dffd00c34e5c12e4bf6c4c5dd",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-ramification",
+        "algebra-fields-galois/ring-of-integers",
+        "algebra-rings/product-of-ideals"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-order-discriminant",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight reduced discriminant and square determinant identity15.4.4/15.4.7; maximal characterization15.5.5. Integer basis change determinant square proves index law. Lipschitz Gram diag(2,-2,-2,-2) determinant -16; Hurwitz index2 gives 2. Explicit Z/Q scope avoids falsely requiring free basis over arbitrary number ring.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "49e045b210fa39822f34135f6c014bf9cfdfa1b58fae2a797bba2f6570e3f62f",
+      "path": "content/algebra-rings/quaternion-order-discriminant.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-order-discriminant",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-order-discriminant.knowl.md",
+      "source_sha256": "49e045b210fa39822f34135f6c014bf9cfdfa1b58fae2a797bba2f6570e3f62f",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-order",
+        "algebra-rings/quaternion-reduced-trace"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-fractional-ideal",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight16.2.9 and16.2.10 full lattice + side convention. Ring relative integrality explicitly specified since intrinsic lattice integrality can mean I\u00b2 subset I. Matrix E11O nonfull rank2 example direct. Denominator from finitely many coordinates.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "4a949503e4c70e4b86084e443fa3dbe49478bbcf1420fa55c5bab1f0a9ac66d3",
+      "path": "content/algebra-rings/quaternion-fractional-ideal.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-fractional-ideal",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-fractional-ideal.knowl.md",
+      "source_sha256": "4a949503e4c70e4b86084e443fa3dbe49478bbcf1420fa55c5bab1f0a9ac66d3",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-order",
+        "algebra-modules/full-lattice"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/locally-principal-quaternion-ideal",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked Voight Definition 16.2.4 and Corollary 17.2.3, with number-field base explicitly stated. Localization remains embedded in B, so the chosen generator is in B^times; left/right conventions fixed.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "e578edcbc5a43dd1678e25e852249a4abad64ca427275c8e263e7ced14d1ec89",
+      "path": "content/algebra-rings/locally-principal-quaternion-ideal.knowl.md"
+    },
+    {
+      "id": "algebra-rings/locally-principal-quaternion-ideal",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/locally-principal-quaternion-ideal.knowl.md",
+      "source_sha256": "e578edcbc5a43dd1678e25e852249a4abad64ca427275c8e263e7ced14d1ec89",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-fractional-ideal",
+        "algebra-commutative/localization-module",
+        "algebra-commutative/localization-at-prime"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-ideal-class-set",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked17.3.1/17.3.4 and non-group warning17.3.6, finiteness17.7.1. Locally principal right O ideals fix right order O. Module isomorphism characterization direct extension to regular B module. Hurwitz principal-ideal/class-one statement checked ch11.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "62a0e7572d64b869e9e8bf634a1ade4f6fc65130dbcae7e20a175cf2c6f1bd8d",
+      "path": "content/algebra-rings/quaternion-ideal-class-set.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-ideal-class-set",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-ideal-class-set.knowl.md",
+      "source_sha256": "62a0e7572d64b869e9e8bf634a1ade4f6fc65130dbcae7e20a175cf2c6f1bd8d",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-order",
+        "algebra-rings/locally-principal-quaternion-ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-type-number",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked17.4 type set, class-to-type surjection17.4.13 and finiteness17.7.1. Maximal orders one genus; Skolem-Noether makes isomorphism conjugacy. Restricted scope explicitly maximal orders avoids hidden general genus definition.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "254ed4a1621729f9304d7686c60714d8bfedfc16c21249e00ef651de6a0908db",
+      "path": "content/algebra-rings/quaternion-type-number.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-type-number",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-type-number.knowl.md",
+      "source_sha256": "254ed4a1621729f9304d7686c60714d8bfedfc16c21249e00ef651de6a0908db",
+      "reviewed_prerequisites": [
+        "algebra-rings/maximal-order",
+        "algebra-rings/quaternion-algebra"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/definite-quaternion-algebra",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked14.5.7 and14.5.8; excluded vacuous real-place criterion over complex fields. Rational norm from H coordinates direct. Does not make unqualified strong-approximation claims.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "1ee9a390b2dea0664ad6dfef6c7f5e785605ed83e148e6adb4ff8d39eeda96d2",
+      "path": "content/algebra-rings/definite-quaternion-algebra.knowl.md"
+    },
+    {
+      "id": "algebra-rings/definite-quaternion-algebra",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/definite-quaternion-algebra.knowl.md",
+      "source_sha256": "1ee9a390b2dea0664ad6dfef6c7f5e785605ed83e148e6adb4ff8d39eeda96d2",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-real-place-ramification",
+        "algebra-fields-galois/number-field"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/maximal-subfield",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition uses field subalgebras with fixed identity. Quaternion degree-two polynomial plus division makes F[x] quadratic for nonscalar x; maximality follows Corollary 4.4.5 and Proposition 7.7.8 of Voight. Rational examples and split matrix counterexample checked by multiplication.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "558e03d20952621a2108f26bd715eb041792a88c0356d1b93af8690b8ac6412c",
+      "path": "content/algebra-rings/maximal-subfield.knowl.md"
+    },
+    {
+      "id": "algebra-rings/maximal-subfield",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/maximal-subfield.knowl.md",
+      "source_sha256": "558e03d20952621a2108f26bd715eb041792a88c0356d1b93af8690b8ac6412c",
+      "reviewed_prerequisites": [
+        "algebra-modules/algebra-over-ring",
+        "algebra-fields-galois/field-extension"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-local-invariant",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked13.4.3/14.6.10 quaternion inv=0 or1/2 and global sum condition. Complex case Br trivial; real H half. Explicitly quaternion specialization, not pretending to define all higher-degree local invariant normalization.",
+      "sources": [
+        "https://jvoight.github.io/quat-book.pdf"
+      ],
+      "source_sha256": "5866bf9cce5ecf623abd3d947e8d5ee2d3c62a86b6f202a521eacb8226ddcf1f",
+      "path": "content/algebra-rings/quaternion-local-invariant.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-local-invariant",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-local-invariant.knowl.md",
+      "source_sha256": "5866bf9cce5ecf623abd3d947e8d5ee2d3c62a86b6f202a521eacb8226ddcf1f",
+      "reviewed_prerequisites": [
+        "algebra-rings/brauer-group",
+        "algebra-fields-galois/local-field",
+        "algebra-rings/quaternion-algebra"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/fractional-ideal",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "evidence": "Targeted common-denominator characterization: J=cI proves I=c^{-1}J; finite generators clear denominators and Noetherian property gives converse. Z[1/2] has unbounded denominator valuations, so is not fractional. Core submodule link now targets the actual submodule owner. Operations/invertibility linked to new canonical owners.",
+      "sources": [],
+      "source_sha256": "d39f7817e2b2781cc8e61fff2c301b3d6605918b6459ad68012f14d6d6e2e226",
+      "path": "content/algebra-commutative/fractional-ideal.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/fractional-ideal",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/fractional-ideal.knowl.md",
+      "source_sha256": "d39f7817e2b2781cc8e61fff2c301b3d6605918b6459ad68012f14d6d6e2e226",
+      "reviewed_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/fraction-field",
+        "algebra-modules/submodule"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-commutative/dedekind-domain",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "evidence": "Targeted definition and equivalences review: preserved dimension-one convention by explicitly excluding fields, restored Noetherian hypothesis in local-DVR characterization, and excluded fields from Euclidean-domain example. Checked Milne Definition 3.3, Proposition 3.6 plus following convention and warning, Theorem 3.7, Theorem 3.20. Summary updated consistently. Other existing examples retained.",
+      "sources": [
+        "https://www.jmilne.org/math/CourseNotes/ANTc.pdf"
+      ],
+      "source_sha256": "1e4e1ad8b228c123fa169173dd6c8edac1179b48b3f0d15abb75ec9afc319942",
+      "path": "content/algebra-commutative/dedekind-domain.knowl.md"
+    },
+    {
+      "id": "algebra-commutative/dedekind-domain",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-commutative/dedekind-domain.knowl.md",
+      "source_sha256": "1e4e1ad8b228c123fa169173dd6c8edac1179b48b3f0d15abb75ec9afc319942",
+      "reviewed_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/integrally-closed-domain",
+        "algebra-commutative/krull-dimension",
+        "algebra-rings/prime-ideal"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-order",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "evidence": "Targeted integration: general R-order and maximal-order links, separate fractional one-sided ideal/class-set owners, and concrete Lipschitz/Hurwitz examples. Existing quaternion-order scope over ring of integers preserved; no claim of freeness added.",
+      "sources": [],
+      "source_sha256": "e648264b7681468f2b88fcdfb00171ebf17bbff51c9b12af5712ba9e14d4d5e4",
+      "path": "content/algebra-rings/quaternion-order.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-order",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-order.knowl.md",
+      "source_sha256": "e648264b7681468f2b88fcdfb00171ebf17bbff51c9b12af5712ba9e14d4d5e4",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-algebra",
+        "algebra-rings/order-in-algebra",
+        "algebra-fields-galois/ring-of-integers",
+        "algebra-modules/finitely-generated-module"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-modules/rcf-from-structure-theorem",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "evidence": "Targeted construction link only: encoding X.v=T(v) now points to the explicit polynomial-module construction and includes it as prerequisite. No change to rational canonical form theorem or decomposition claims.",
+      "sources": [],
+      "source_sha256": "bbe094d0523d4b0d6b33e829de167ac8bfc0843a75654ec572ecbf10d77c0761",
+      "path": "content/algebra-modules/rcf-from-structure-theorem.knowl.md"
+    },
+    {
+      "id": "algebra-modules/rcf-from-structure-theorem",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-modules/rcf-from-structure-theorem.knowl.md",
+      "source_sha256": "bbe094d0523d4b0d6b33e829de167ac8bfc0843a75654ec572ecbf10d77c0761",
+      "reviewed_prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-modules/polynomial-module-from-operator",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/field",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "algebra-modules/module",
+        "linear-algebra/matrix",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-reduced-norm",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "evidence": "Targeted new trace-zero subsection: trd(x)=x+bar x and trd(x)=0 imply bar x=-x, hence nrd(x)=x bar x=-x\u00b2. Added links to the exact reduced-trace and pure-quaternion definitions.",
+      "sources": [],
+      "source_sha256": "fb3a28642406db8808af008b81e17b71b8bd7413578157ddff87ac9c2bdf8021",
+      "path": "content/algebra-rings/quaternion-reduced-norm.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-reduced-norm",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-reduced-norm.knowl.md",
+      "source_sha256": "fb3a28642406db8808af008b81e17b71b8bd7413578157ddff87ac9c2bdf8021",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-algebra",
+        "algebra-rings/quaternion-conjugation"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "algebra-rings/quaternion-real-place-ramification",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "evidence": "Targeted new relation-to-all-places subsection: real ramification is the real completion case of the general definition; totally definite requires a totally real base. Existing core and unrelated arithmetic-Kleinian discussion preserved.",
+      "sources": [],
+      "source_sha256": "b75a2bba70dcc0c008a5ca6ee99014bc8ab05b27b539e8ba81b47b9f6ba330c9",
+      "path": "content/algebra-rings/quaternion-real-place-ramification.knowl.md"
+    },
+    {
+      "id": "algebra-rings/quaternion-real-place-ramification",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "path": "content/algebra-rings/quaternion-real-place-ramification.knowl.md",
+      "source_sha256": "b75a2bba70dcc0c008a5ca6ee99014bc8ab05b27b539e8ba81b47b9f6ba330c9",
+      "reviewed_prerequisites": [
+        "algebra-rings/quaternion-algebra",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/field-embedding",
+        "algebra-modules/tensor-product-algebras",
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "evidence": "Complete listed prerequisite set inspected against the compact definition and current owner semantics. Indispensable defining structures retained; comparisons, examples, and consequences remain body links. Deterministic generator report reviewed; complete corpus prerequisite graph is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "knowlification/orders-and-fractional-ideals-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Navigation index exhaustively lists 29 core and 14 connection definitions created from transcript, plus existing canonical owner decisions and convention distinctions. Container kind index, no hidden definition owner.",
+      "sources": [],
+      "source_sha256": "3b4afdbf833b748b64a081f04e27d198cb3384c0db8e744418f313bf59cf8d75",
+      "path": "content/knowlification/orders-and-fractional-ideals-index.knowl.md"
+    }
+  ]
+}
