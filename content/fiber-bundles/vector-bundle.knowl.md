@@ -19,6 +19,8 @@ A **smooth \(\mathbb K\)-vector bundle** of rank \(k\), for \(\mathbb K\in\{\mat
 ## Equivalent characterizations
 Equivalently, the [[fiber-bundles/transition-function|transition functions]] of such a bundle take values in \(\mathrm{GL}(k,\mathbb K)\subset \mathrm{Diff}(\mathbb K^k)\). The [[fiber-bundles/tangent-bundle|tangent bundle]] and [[fiber-bundles/cotangent-bundle|cotangent bundle]] are the fundamental real examples; many constructions in differential geometry (e.g. a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]]) are formulated for vector bundles.
 
+With its fiberwise linear trivializations, a vector bundle is a [[fiber-bundles/g-bundle|G-bundle]] for \(G=\mathrm{GL}(k,\mathbb K)\) acting on \(\mathbb K^k\). Its fibers are vector spaces, whereas the fibers of its principal frame bundle are torsors for \(G\).
+
 ## Examples
 1. **Trivial rank-\(k\) bundle:** \(M\times \mathbb{R}^k\to M\) is a vector bundle with the obvious fiberwise linear structure.
 2. **Tangent and cotangent bundles:** for an \(n\)-manifold \(M\), \(TM\to M\) and \(T^*M\to M\) are rank-\(n\) vector bundles.

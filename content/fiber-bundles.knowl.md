@@ -11,6 +11,20 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
+## Bundle foundations
+
+Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local product charts make it a [[fiber-bundles/fiber-bundle|fiber bundle]]; smooth charts give a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. Specifying group-valued transition data gives a [[fiber-bundles/g-bundle|G-bundle]] with a chosen [[fiber-bundles/structure-group|structure group]].
+
+- [[fiber-bundles/fiber-of-a-map|Fiber of a map]]
+- [[fiber-bundles/typical-fiber|Typical fiber]]
+- [[fiber-bundles/local-trivialization|Local trivialization]]
+- [[fiber-bundles/bundle-atlas|Bundle atlas]]
+- [[fiber-bundles/transition-function|Transition function]]
+- [[fiber-bundles/vector-bundle|Vector bundle]]
+- [[fiber-bundles/principal-g-bundle|Principal G-bundle]]
+- [[fiber-bundles/topological-principal-bundle|Topological principal bundle]]
+- [[fiber-bundles/associated-bundle|Associated bundle]]
+
 ## Definitions
 
 - [[fiber-bundles/closed-differential-form|Closed Differential Form]]

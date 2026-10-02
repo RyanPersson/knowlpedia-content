@@ -18,6 +18,8 @@ Let \(G\) be a [[topology/topological-group|topological group]] and \(X\) a topo
 
 The action is therefore free and transitive on each fiber. The topology on the local product is the [[topology/product-topology|product topology]]. A bundle isomorphism is a \(G\)-equivariant homeomorphism over the base.
 
+Forgetting the action leaves a [[fiber-bundles/fiber-bundle|fiber bundle]] with model fiber \(G\). The equivariant charts give it a [[fiber-bundles/g-bundle|G-bundle]] structure with transition functions acting on the fiber by left multiplication.
+
 ## Pullback
 
 For a continuous map \(f:Y\to X\), define \(f^*P=\{(y,p):f(y)=\pi(p)\}\) with the subspace topology from \(Y\times P\), projection \((y,p)\mapsto y\), and right action \((y,p)g=(y,pg)\). Pulling back the local trivializations gives a topological principal \(G\)-bundle over \(Y\).

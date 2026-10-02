@@ -99350,6 +99350,103 @@
           "sources": []
         }
       ]
+    },
+    {
+      "id": "repair-fiber-bundles-foundations",
+      "entries": [
+        {
+          "id": "fiber-bundles/associated-bundle",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Checked the added local-coordinate relation directly: s_j = s_i g_ij implies [s_j,f_j] = [s_i,g_ij f_j], so f_i = g_ij f_j. Existing claims outside this paragraph were not re-reviewed.",
+          "sources": [],
+          "source_sha256": "ff557073a383960f4dce8e2f25465a35818f3ada54fcd39a12260369bff151b4"
+        },
+        {
+          "id": "fiber-bundles/bundle",
+          "scope": "targeted",
+          "outcome": "new",
+          "evidence": "Adopted an explicit broad convention: a continuous surjection, without local triviality. The map t to t squared onto the nonnegative reals has a singleton fiber at zero and two-point fibers elsewhere, so it cannot have a fixed local model near zero.",
+          "sources": [],
+          "source_sha256": "d218b1a8978aa4960f36ae1e649487944a75c523b24219787a8c152db40c105f"
+        },
+        {
+          "id": "fiber-bundles/fiber-bundle",
+          "scope": "targeted",
+          "outcome": "new",
+          "evidence": "Checked the projection-preserving homeomorphisms and fixed nonempty model fiber against Cohen, Chapter 1, Definition 1.1. Connectedness and basepoints are not needed for the local product definition.",
+          "sources": [
+            "https://math.stanford.edu/~ralph/fiber.pdf"
+          ],
+          "source_sha256": "4e2c9e678fbaf688387fb43fe26689ded789eb96bbe252ee4ff4421af579af05"
+        },
+        {
+          "id": "fiber-bundles/g-bundle",
+          "scope": "targeted",
+          "outcome": "new",
+          "evidence": "Checked G-atlas terminology and equivalence against Fiber Bundles notes section 1.2, pages 6–7. Included group-valued cocycles explicitly for nonfaithful actions; on replacing fiber coordinates by h_i, direct substitution gives g_ij new = h_i g_ij h_j inverse. Left multiplication transitions commute with right multiplication on G.",
+          "sources": [
+            "https://people.math.osu.edu/carr.520/files/Lecture_Notes_P1.pdf"
+          ],
+          "source_sha256": "9732a4aaa4c9e5409b308295a8009604175c84e35dcd6b7387da11119b896c10"
+        },
+        {
+          "id": "fiber-bundles/principal-g-bundle",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Checked only the added comparison: an equivariant change of coordinates on G is left multiplication by its value at the identity; it commutes with the principal right action. Existing defining axioms were preserved.",
+          "sources": [],
+          "source_sha256": "4066eb8fd397907028d32cd1c8ebe4006242e36fc9ed0ea392814d837de2a08a"
+        },
+        {
+          "id": "fiber-bundles/smooth-fiber-bundle",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Checked the new general fiber-bundle prerequisite and opening comparison: a diffeomorphic product chart is a homeomorphic product chart after forgetting smoothness. The explicit smooth axioms remain in the core.",
+          "sources": [],
+          "source_sha256": "f707e07108a60ab66db54629f1869967fec4b53bfd097a069bd670fcae5ed976"
+        },
+        {
+          "id": "fiber-bundles/structure-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "evidence": "Checked the role of the specified group against the new G-bundle definition. Orthonormal frames have O(n) transition matrices because a change between orthonormal bases preserves the inner product. Distinguished this group from automorphisms of a whole bundle.",
+          "sources": [],
+          "source_sha256": "5507328b1143397ee7dff60dd3a772f06e2bed26f746d953b08c5b4b4eb30366"
+        },
+        {
+          "id": "fiber-bundles/topological-principal-bundle",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Checked the added comparison: equivariant local product homeomorphisms already satisfy the fiber-bundle axioms, and changes of coordinates commute with right translations.",
+          "sources": [],
+          "source_sha256": "ea9cedafdb1f90632cc6c7b0a949c66dc6013ec74127414510a23a3f1c618ce7"
+        },
+        {
+          "id": "fiber-bundles/transition-function",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Checked only the added comparison: applying the specified action to a G-valued transition produces the existing diffeomorphism-valued transition.",
+          "sources": [],
+          "source_sha256": "0a76e83df0a34870d3867ea54b50ab2e4cc48a566ee2da8f9a1eee6b55adf5f1"
+        },
+        {
+          "id": "fiber-bundles/vector-bundle",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Checked only the added comparison: fiberwise linear trivializations have GL(k,K)-valued transitions; frames form torsors while the original fibers are vector spaces.",
+          "sources": [],
+          "source_sha256": "027f39ca937bb7570ff721c6b4c1631b6cbf189c66c818f047b1e1a9728f3097"
+        },
+        {
+          "id": "fiber-bundles",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "evidence": "Added a navigation sequence through the four new concepts and the existing smooth, vector, principal, and associated-bundle definitions. This is an index update, not a mathematical review of every linked knowl.",
+          "sources": [],
+          "source_sha256": "b5d8d078051b27476171284d90b2d37533636129fd892205096ce93e587ce521"
+        }
+      ]
     }
   ]
 }
