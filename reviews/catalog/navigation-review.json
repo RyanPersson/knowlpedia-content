@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "id": "catalog",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "1d975fe54a8156b7231619401b00cbd8d92ad556578788b8f565e573056a43b4",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    },
+    {
+      "id": "catalog/created-knowls",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bce721a7bef0c89a341c541fa550133f743329cfc419bd8e383239a57d24ddd1",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    },
+    {
+      "id": "catalog/algebras-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4f2554453c09450027198bd6e7657cadff71eb43018feeec0fe2b7c94a1ab976",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    },
+    {
+      "id": "catalog/arithmetic-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "df7addb5ac70d722a52f91a8aae8237374b824dddfafecccb2d763c90353f95a",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    },
+    {
+      "id": "catalog/lie-algebras-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "124953e1506069946d4c28515ab63ceddc715c7ae82b4cd7246cb8d26d8d53c7",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    },
+    {
+      "id": "catalog/lie-groups-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c6aa377803eaa02d405dce5a0c213dd803e49b2c076b72a9a2d167712c04b2b4",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    },
+    {
+      "id": "catalog/magic-square-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2e69b5a1874d00b64ce76995c7fa8891c8252a1a5c43184230391bd45e5b8c08",
+      "sources": [],
+      "evidence": "Checked navigation links, per-lane counts, new-source inventory against baseline d1ad541e, real/complex and category conventions, explicit symbolic-family wording, compact-table restriction and proof-status caveat. Lists regenerate from validated source shards."
+    }
+  ]
+}

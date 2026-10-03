@@ -1,0 +1,17 @@
+{
+  "knowl_count": 29,
+  "math_backend": "katex",
+  "local_core_and_section_rendering": true,
+  "all_links_resolve": true,
+  "all_prerequisites_resolve": true,
+  "reachable_dependency_graph_acyclic": true,
+  "reachable_dependencies_visited": 110,
+  "external_links_only_in_references": true,
+  "object_count": 26,
+  "relationship_count": 12,
+  "all_order_factors_match_exact_decimal_strings": true,
+  "all_embedding_indices_match_order_ratios": true,
+  "catalogue_schema_valid": true,
+  "scope": "Local source/data and compiler fragment checks. Integrated production build/browser are coordinated by root.",
+  "scope_audit_findings": 0
+}

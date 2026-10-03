@@ -1,0 +1,27 @@
+{
+  "id": "finite-lie-type",
+  "object_count": 68,
+  "knowl_count": 71,
+  "relationship_count": 24,
+  "simple_family_count": 16,
+  "notes": [
+    "Exact integer orders computed from the cited formulas, not inferred from isomorphic-order guesses.",
+    "PSL(3,4) and PSL(4,2), and Bn(q)/Cn(q) for odd q and n≥3, are explicitly distinguished.",
+    "Final targeted reviews and dependency reviews have current source hashes; no full source-chain certification or Lean proofs are claimed."
+  ],
+  "validation": {
+    "catalog": "valid",
+    "katex_expressions": 1176,
+    "katex_errors": 0,
+    "missing_links": 0,
+    "concept_scope_findings": 0,
+    "external_reference_placement": "pass",
+    "targeted_reviews": 71,
+    "dependency_reviews": 71,
+    "prerequisite_edges": 200,
+    "interlink_candidates": 176,
+    "interlink_applied": 136,
+    "interlink_rejected": 40
+  },
+  "rendered_browser_review": "Delegated to root integration/browser lane for the complete finite-group table and representative knowls."
+}

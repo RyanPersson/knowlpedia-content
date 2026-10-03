@@ -1,0 +1,123 @@
+{
+  "categories": [
+    {
+      "id": "catalog/categories/sets",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/groups",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/abelian-groups",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/rings",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/unital-rings",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/fields",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/topological-groups",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/topological-rings",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/topological-fields",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/vector-spaces",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/associative-algebras",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/unital-associative-algebras",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/nonassociative-algebras",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/lie-algebras",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/real-lie-groups",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/complex-lie-groups",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/jordan-algebras",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/unital-jordan-algebras-arbitrary-maps",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/unital-jordan-algebras-unital-maps",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    },
+    {
+      "id": "catalog/categories/spin8-representations",
+      "decision": "new",
+      "reason": "No standalone owner found for this category with these explicitly chosen morphism/unit conventions."
+    }
+  ],
+  "reuse": [
+    "algebra-category-theory/category",
+    "algebra-category-theory/automorphism-category",
+    "algebra-category-theory/endomorphism-category",
+    "nonassociative-algebra/jordan-algebra-homomorphism",
+    "algebra-commutative/restriction-of-scalars",
+    "lie-groups/underlying-real-lie-algebra",
+    "lie-groups/underlying-real-lie-group"
+  ],
+  "morphism_knowls": [
+    "hom-end-aut-by-category",
+    "jordan-unit-conventions",
+    "jordan-maps-from-the-scalar-algebra",
+    "complex-numbers-linear-versus-algebra-maps",
+    "linear-endomorphisms-of-sl2-complex",
+    "sl2-complex-real-versus-holomorphic-maps",
+    "restriction-of-scalars-endomorphisms",
+    "gaussian-field-endomorphisms"
+  ]
+}

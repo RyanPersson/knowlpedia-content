@@ -1,0 +1,150 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "9035254599e40c30e3e7",
+      "source_id": "catalog/lie-groups-table-guide",
+      "source_path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "line": 16,
+      "column": 310,
+      "surface": "Heisenberg groups",
+      "target": "lie-groups/heisenberg-group",
+      "origin": "title_plural",
+      "section": "core",
+      "context": "The table compares [[fiber-bundles/lie-group|Lie groups]] through their [[lie-groups/lie-algebra-of-a-lie-group|Lie algebras]], dimensions and global constructions. Select a cell for its precise parameter range, defining group, and recorded relationships. The family view also includes additive groups, tori, Heisenberg groups, affine groups, Euclidean groups and small examples.",
+      "decision": "not-applied",
+      "reason": "The phrase includes real and complex Heisenberg families; this target owns the real family only. The family board and complete index provide precise per-field links."
+    },
+    {
+      "candidate_id": "2aea3dd58824e2460452",
+      "source_id": "catalog/lie-groups-table-guide",
+      "source_path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "line": 20,
+      "column": 269,
+      "surface": "Lie algebras",
+      "target": "lie-groups/lie-algebra",
+      "origin": "alias_plural",
+      "section": "Types and forms",
+      "context": "The comparison uses the nine series in the [[lie-groups/classification-simple-lie-algebras|classification of complex simple Lie algebras]]: \\(A,B,C,D,G_2,F_4,E_6,E_7,E_8\\). For each type it shows a compact real group, a split real group, and a complex group. The real Lie algebras in the first two columns have the complex Lie algebra of the third as their [[lie-groups/complexification-of-a-real-lie-algebra|complexification]]. Other real forms exist; these three columns are a selection.",
+      "decision": "not-applied",
+      "reason": "The concept is already linked nearby or through its defining group; avoid repeated links in the targeted correction/navigation prose."
+    },
+    {
+      "candidate_id": "cc0be2211825db32755a",
+      "source_id": "catalog/lie-groups-table-guide",
+      "source_path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "line": 28,
+      "column": 41,
+      "surface": "connected Lie group",
+      "target": "lie-groups/connected-lie-group",
+      "origin": "title",
+      "section": "Global forms and maps",
+      "context": "A Lie algebra does not specify a unique connected Lie group. A connected group is a quotient of its [[lie-groups/universal-covering-group|simply connected covering group]] by a discrete central subgroup. These [[lie-groups/central-quotient-of-a-lie-group|central quotients]] preserve the Lie algebra while changing global topology.",
+      "decision": "applied",
+      "reason": "Precise structural term helpful for global-form interpretation."
+    },
+    {
+      "candidate_id": "1fbf2d5fcabe162fed5f",
+      "source_id": "catalog/lie-groups-table-guide",
+      "source_path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "line": 30,
+      "column": 40,
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "origin": "alias",
+      "section": "Global forms and maps",
+      "context": "The compact and complex columns choose simply connected groups. In the split column, the classical entries use the indicated matrix groups, taking the [[lie-groups/identity-component-of-a-lie-group|identity component]] \\(\\mathrm{SO}_0(p,q)\\) in the orthogonal cases; the exceptional entries use connected adjoint groups. These split representatives are not all topologically simply connected. A type label therefore never substitutes for the displayed global-form convention.",
+      "decision": "not-applied",
+      "reason": "The concept is already linked nearby or through its defining group; avoid repeated links in the targeted correction/navigation prose."
+    },
+    {
+      "candidate_id": "15e01aff23440141d1df",
+      "source_id": "catalog/lie-groups-table-guide",
+      "source_path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "line": 30,
+      "column": 152,
+      "surface": "identity component",
+      "target": "lie-groups/identity-component-of-a-lie-group",
+      "origin": "alias",
+      "section": "Global forms and maps",
+      "context": "The compact and complex columns choose simply connected groups. In the split column, the classical entries use the indicated matrix groups, taking the identity component \\(\\mathrm{SO}_0(p,q)\\) in the orthogonal cases; the exceptional entries use connected adjoint groups. These split representatives are not all topologically simply connected. A type label therefore never substitutes for the displayed global-form convention.",
+      "decision": "applied",
+      "reason": "Precise structural term helpful for global-form interpretation."
+    },
+    {
+      "candidate_id": "05c1ed893c6232d49a22",
+      "source_id": "catalog/lie-groups-table-guide",
+      "source_path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "line": 36,
+      "column": 267,
+      "surface": "Group isomorphisms",
+      "target": "algebra-groups/group-isomorphism",
+      "origin": "title_plural",
+      "section": "Small ranks and the wider catalogue",
+      "context": "The classical rows start at \\(A_1,B_2,C_3,D_4\\) to avoid repeating complex simple types. The familiar coincidences are \\(B_1=C_1=A_1\\), \\(B_2=C_2\\), and \\(D_3=A_3\\); \\(D_2=A_1\\oplus A_1\\) is semisimple rather than simple. These are Lie-algebra type identifications. Group isomorphisms require matching global forms, as illustrated by \\(\\mathrm{Spin}(3)\\cong\\mathrm{SU}(2)\\) and \\(\\mathrm{Spin}(4)\\cong\\mathrm{SU}(2)\\times\\mathrm{SU}(2)\\).",
+      "decision": "not-applied",
+      "reason": "Here isomorphisms mean smooth Lie-group isomorphisms, not just abstract group isomorphisms."
+    },
+    {
+      "candidate_id": "afc4f78b7fe2fb6592f4",
+      "source_id": "lie-groups/classification-simple-lie-algebras",
+      "source_path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "line": 14,
+      "column": 153,
+      "surface": "Lie algebras",
+      "target": "lie-groups/lie-algebra",
+      "origin": "alias_plural",
+      "section": "core",
+      "context": "**Theorem (classification).** Every finite-dimensional complex [[lie-groups/simple-lie-algebra|simple Lie algebra]] is isomorphic to exactly one of the Lie algebras in the following families:",
+      "decision": "not-applied",
+      "reason": "The concept is already linked nearby or through its defining group; avoid repeated links in the targeted correction/navigation prose."
+    },
+    {
+      "candidate_id": "0d17eaee44ea2f53624a",
+      "source_id": "lie-groups/classification-simple-lie-algebras",
+      "source_path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "line": 33,
+      "column": 21,
+      "surface": "Lie groups",
+      "target": "fiber-bundles/lie-group",
+      "origin": "title_plural",
+      "section": "Remarks",
+      "context": "For selected global Lie groups with these types, see the [Lie-group table](/catalog/lie-groups/table/) and its [[catalog/lie-groups-table-guide|guide to forms and coverings]].",
+      "decision": "not-applied",
+      "reason": "The concept is already linked nearby or through its defining group; avoid repeated links in the targeted correction/navigation prose."
+    },
+    {
+      "candidate_id": "d47ea1e113ed2fc61a5b",
+      "source_id": "lie-groups/compact-symplectic-group",
+      "source_path": "content/lie-groups/compact-symplectic-group.knowl.md",
+      "line": 44,
+      "column": 53,
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "origin": "alias",
+      "section": "Structure and low-rank example",
+      "context": "The group \\(\\operatorname{Sp}(n)\\) is connected and simply connected. Its real",
+      "decision": "not-applied",
+      "reason": "The concept is already linked nearby or through its defining group; avoid repeated links in the targeted correction/navigation prose."
+    },
+    {
+      "candidate_id": "b765f7d0803a4d6a5046",
+      "source_id": "catalog/lie-groups/sl-n-r",
+      "source_path": "content/catalog/lie-groups/sl-n-r.knowl.md",
+      "line": 22,
+      "column": 58,
+      "surface": "invertible matrix",
+      "target": "linear-algebra/matrix-inverse",
+      "origin": "alias",
+      "section": "Dimensions and structure",
+      "context": "The inclusion sends a determinant-one matrix to the same invertible matrix; it is injective and smooth. See [[catalog/lie-groups/gl-n-r|\\(\\operatorname{GL}(n,\\mathbb R)\\)]].",
+      "decision": "not-applied",
+      "reason": "Unchanged old paragraph already links the GL group target; an extra elementary matrix link adds little to this narrow correction."
+    }
+  ],
+  "manual_links": [
+    {
+      "target": "lie-groups/complexification-of-a-real-lie-algebra",
+      "reason": "Exactly identifies the relationship between real columns and complex column."
+    }
+  ]
+}

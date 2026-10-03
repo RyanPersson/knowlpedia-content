@@ -1,0 +1,3153 @@
+{
+  "id": "catalog-lie-algebras",
+  "scope": "targeted",
+  "entries": [
+    {
+      "id": "catalog/lie-algebras/gl-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "2a7a3ab4c1de503eae63c441e9242845a06f07c22abc923340d02c89f3a12778",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7e7456930d8e00db82c64cd6c919775e8cef14dedb66317e5b971bfad83b7a04",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "03b83c7f914f669a74dede289948cd6a470574ea3207faba1b33fc87d109a7a2",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "ad0f5b285a965aeeab320cf29fbd4e3a8ce9cb49b7a3fd8f9abb804b6de0f361",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "5154de0227e9f1d3deb418b691090795652901f0fd8a6d7ac1d46912e3237b83",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "381d47914bb3a707af1b32ccfb1261118965121ba0e19bfbe98e45d3f457bead",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "561b2e678ccaa75a9b8529c4d02463458f4ac910beaa7820cd53d1fe74ba889f",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "61c1afaf61ed763a288f451269508684b6ed7de177e75a871ea7031221a46b11",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "efeefce609078e7b75521107508d751e87147f138e673868233adebdffbf2f64",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "e595f33360a9e9cb3bead2fa80696ca3c6eefb1f053e61355ba5c970db8dd865",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "814fdde2c9147657518db8d0637f10fc5312e09a60f76961b1070981bd87b00a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/orthogonal-lie-algebra",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7457cc08be4e7a7cc26b568576bb16f52f358967447425ae471cd36c6c673420",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "8b4b1a4bde1067d2e6c266e65ca555f27f430a55a6d62fd83182853d5e617ca2",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-5-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "c41c95d462f1ca3d406c0c665e30acd4f0d1cac1ca9382365d464d3621125f32",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-5-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-6-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "482f039be27df6678d4e63d1d64117aedd98bbd6f02c7f8558dc5d38e4d1114d",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-6-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-8-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "cf64c4d957ea3e50ec76e2329b041582fdad66a1f6e85dea72ff9cd977de32ad",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-8-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-12-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f0e5bf088bb28680e02d69bfe929f3c1f62048892bbb339c8d85a88628e1482a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-12-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "3110ee20c91d6fae012f96f46089fe862eacc02371a50a6dc2f80701a045dc09",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/example-heisenberg-algebra",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "40c183b90a12a7e7fc1ee91ae2705f03ecf92353689656bb996d698be11ded48",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "8c74c6981e7ab15cbae3b0561b6ff31e1d63cee406050d19e8308687256ba918",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "fa12c728183c51a8ac8835acfc7ed24f5be710e97023edb9d3990d96dd19f874",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "5507937c8145ca2438c5e9f0aa2963f0796a827725d75a15e9388434545c11dd",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "a618c2cf6876c4f657edcf15a908c21e2b7d2f29118e7a3fef6cf5a58b55cc4d",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "4eaa84db19763466afd5408797f30271b3ab0814b54772ca8200f5f232a2a011",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "00226b2898a0d8295c0534be8d2f5a3decf2ee3eb12b805a4af71643ef55860a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "ef37de6ad059a67b99fc00d321e5211eb0a4bcff02f54ab313d856a66184d7f8",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "bc67c443aab59b65b9c71622578ca50cbbee6c89b15bca9259d41aeb2c2a0b36",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "57680c2553eacce3863206df8dc258dafe8d928c1824ff5e3ee8295bc23ab4a7",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "86f74029b492a08d97c48cc95e39b6e09959e26b0df6b6dd2cc268750f23f642",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "9b50c83a0515a50f8223fb4c92265036f3bf029b8bf5d445c358b86384f2a9cc",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "e543ecccae5fbb2e9ed0db3a72051d9d40b0bd1b898cd844198cdcba5383dfb3",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "ad3383c3bbf736949fee5584b761507c7fe7816274eb4f771a5a5c57f2e333c1",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "fa6468688eb15c1bfc08060f31160a0f3015f8995e20c07bd595498cb806aa58",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "3d3e4e4fccdd5a1559c404fc6f65aefcd58bb802de3a2ec57ce5d112255afd8e",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-4-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "4951b4510a041d78a534245e243249e71c4e3c3a28ecf06488ebb965169173aa",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-4-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-6-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7bdb25246f36f2cb2de8507834d200728cc6417dac3a8f75e4bd5d6df413feed",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-6-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "23c07b55217abc84fc7540ef270197e4218f544f621ec63c5548b779ee772916",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "ee2ae48c30d1559683f4cb8c489656a0b197d0560b5bab737e97283b592e0203",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "241a5cd808697a3c9da3634b7a246d8d03014112f095cbbd8f0148c384c81587",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7583fe6ebbd58b2ebe437c5e9c7789a46857f3507771da1682856284c26df109",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "46e240820459ad6fcf16fe089a53b28682aa590fb06b7b7863b7142d4106705a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "bc21767455c78b9c5185907d101283e9ef147963c7455e6c85f2191f84baac2e",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/example-sl2c",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7c68c1531e7c472812043a080ba226875511d0ef5bbe90b49b58ef8e65b0f2d8",
+      "sources": []
+    },
+    {
+      "id": "lie-groups/complex-lie-algebra-sl3",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "11f7d4b0b52d011e21534471f7487141bcc279a6742d211ab7a29831ca407fbe",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1ffbc8b4819d90166923447ce5b0b0cea4a456e91996c2f0fb80632da73591c1",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "27aa85ca9c30cc183c2c9f16dce5264c309d262de01edc5c554b03ed52679b78",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, lie-groups/general-linear-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "lie-groups/general-linear-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/complex-lie-algebra-sl5",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "25bae4d0a6663c0eddbb45423cdfb805a7b05bd1d94735f5423be1a735cd5948",
+      "sources": []
+    },
+    {
+      "id": "lie-groups/complex-lie-algebra-sl6",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "df2baf8ef8b5c8dcdc564bb87dcd098b650f32a87f0f9c39220cdc461cff0fbd",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "eaf20a0edce3bcab87ad6838309fe67bc64587c4e027c1159ef1af39a725145b",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "07320cb1ac1cfc2fa1a28595441f9b68c667bccf3a9453d186be9413193cb340",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "44302b9a14fe52189ee4720d344bceceb416c62d6164d0b664f7de4a7e447752",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1180eb0186f73949d913509038fafcbf707eda8779d9922ebcf11b6cfb85af82",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "b77f26a748a3aa5760e15bc975af4c1242a3acebff8865a40cdef3ee89e366f4",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-5-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1680037cd114c29fd44268c53d35f653ff1928a00a88c8690e967bb6779ef9d9",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-5-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-6-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "b895d0eb441b34e2f87e29bcb5e6d4939cac09f05cb3dbb53aa4da075b990877",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-6-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-8-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "3db07d392ef19e9506195441c50bf6d916d3162c5d26415db5c74312d4720633",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-8-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/complex-lie-algebra-so10",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "fb72dcc6cfbc13e0ea782f5f06a965ec413349c22d922c3e7d182affeae91476",
+      "sources": []
+    },
+    {
+      "id": "lie-groups/complex-lie-algebra-so12",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "dc41073dcd7d874e40717c8f3627c9e5220405d287ac9a120905692d9c83fb1e",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "ed99b9eb6a800e20717e93630c6e5b41b5272e0acd137f95005eea424bdbfa0f",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "62d44c519f85ccaf98dab88da7390bb0d6b41fa225c816a35c34086a8a0b06ce",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "80dacb846ece212f89bf5bdc501dbc1314174d5f06f2512a6793f0ee62f74f60",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-1-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "dc265044ae9ea8fbd537455bade780f0c3896c63fdee3f600db4c0daaf0129f8",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-1-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f417e2ca67bea3808f3d9363736d442e11e1f5ed5213ceb5b133b6697b2a1a67",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "21ed06d648a0d29a09c6b112672c8586cf54993f157905f2ed750c61b24eeb12",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "a50e2151c667c129a77c930baf25f8bfd882250154585f108afa1374df9dd516",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "754d4d5277ae30c94406e3d44bda89e32f347abda2bc2cabc67079c2ceb91acf",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "4c46f1fc6b5dbdb4295c7ffa1207c005b8f9304f97fbc99c6f0848ec8a9e4144",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "7445625f19bd4b50bf2ab1f15b74270ef16d5084d2fc0cbd35488476d1cd79fc",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "bd189b3fc0e77aba5d1109deae23f65638521f132ca19e9338965e6096ffd4e0",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-3-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "e457d36a282e84ad9821c8b9aac667a449d7ee4c9ad2fc4e7a17a63b53f390cf",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-3-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7728164e2c647556171921312df7a3b7260371aa6fa93198a68afec66c08445e",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/abelian-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/abelian-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked basis brackets, central line and vanishing triple brackets; dimension 2n+1, not n. Reused rank-one real owner agrees exactly.",
+      "source_sha256": "9854c62ea1aadcce64a2b85b81d88b71410a2034a9921b8c97efb600007b14bd",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/heisenberg-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/aff-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "523e9aefc54fc1fc5676f9f30c295266addc21c1acfcdfa926088463c6c66ac6",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/aff-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "5efb86c8d9fcf99f68fd483113e916f76a260c0d1532b39fafd66869ae82b04c",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/strict-upper-n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "cc34e66ea6b5229f057cf1e57ce87da5367c11eadfe1ed9886fa042f33ecb256",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-4-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f4864b7f9b3c9395945f4027ab82565944e1c05b10492e0bace4a7ac388e5663",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-4-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-6-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "a22d272bfd1209574445aa7b8273a08fc544247686820b2ff0e7e321763e7bca",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-6-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2n-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1385349b7ca119c02db3ae93ea9418ccaf7d51e91a46ef01b1b85ac217c3001a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2n-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/symplectic-lie-algebra, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/symplectic-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "b6361d9892eadc34054af948235f9917e61e3d9758888c0328809445cca6cb58",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/u-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "3077fadffa256f1f7b5c0554d345013c31f7988e5a79659acafa507d356e7804",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/u-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "0bea1d0f2888bff1452a6348db42b5ccf42be7c68495f7676536dd2ebbe9b14d",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/u-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "lie-groups/unitary-lie-algebra",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "b1baf157e6968ad09cb4fef3aa0de0b9cd3bbd908917c2a41ba5d842aa092580",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "132f791328f7222d1144fa54da2d84f0a6a8bd9625b45fd1de61a51a7be1da35",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "9c7b76ee8cadcb01b566574fb2a0aef29693aa600bbfea4c3732616064439e7b",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "d92f79bf816158ea028ed7414e8e327db89dd9107f24016b2cba666776f07789",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "lie-groups/special-unitary-lie-algebra",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "3afd3c6606d34b831a7264678ec9492af691bde8718c3aea242f69b645f6c419",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1686361462d669e116e89d9add92cfbb4351737885b06aaa1f52f02f16cc994e",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-6",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "2264facd7a84ae01549c4b75094e8306ca38b53c124feb8f975b8d265f049f83",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-6",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "785520304e7057c5e137b8db080564c84d92cef2a9ddcec6be9a7860ae3d587f",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1a64791dbd45ebf151f2c177462275bd5653994f81698132f2c825aad866d1fb",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "992b385f7def99be9f5125afb0f421ae5ee85ad0bc9d9f2991fe421d0f98be67",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f10c152d483a0ba4d811d0143f12b06e2863b5a413d5574b24fc845fa1a6f15c",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-1-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "68f12ccd19c31f4e089bfcc40d722b757cf6c4b466a09e5f6bf6c7dafadc2307",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-1-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-2-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f300431ab8a80fa0c104006caf28ac6414919838fad95b17fa4e83e76142a8ee",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-2-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-3-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "ec34591547fabdb279f1d08a3b3289b9c47daefdd62dbbfd4a8e4e7d94b9b47b",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-3-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/gl-n-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "5b1c917031172f97999253ba61a28fe2ed0266733a1c3920892c2b025218a7d2",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/gl-n-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-1-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "e6fcef6ff826fc3d026d787faec02f970fcd4436aeba4fdc0f10f25f47234659",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-1-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "021475311bd7f3c9b292f2e510f3cc92df394999ddfd192d7b5ca7539adb99b1",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "b4539fa1bd4d0f39a2ac5f442bc638d83b34d9e36ac425592f1be4bc33d3ac8c",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-h",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "95c8e6595418618b6465d41fee24bd8ff314aebda64cfb9f3696277bf79795a8",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-h",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "38c7d922d3c1eb51929d378aa5f7d52c2b87029c60f26ea062fb52bff5c993f9",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f6df4a9c401b82fccde7e868014ef164c042f00c5d71b6c345dd39572ff523b1",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "cfef792cce81f69bd47433afb568a4f7cb2b61c6a16e14c11f4a2ca85c53178f",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-4-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "82e463e76bb4ab622ea3b3ba60e3b387c7289c131bab54c5e3268c05060d95c2",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-4-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-n-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "2d807d61cc3505cddda2e5e6a4c749edee270a316f8c3ff5c82baf80dc538d5b",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-n-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "fb9777fd13eb8c37af5be607fc79d471c3f4f694dd95f7d074a303c87d22c0a2",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-2-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "21ae95fd43a74e47fabb58b36d9d3cb084f6f35bb59cf213ded87ca09d3a851c",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-3-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "89990c948d53827b80a9fe4809a2c4b400a83cd08c6f6084305a6a998c86819a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/so-4-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/orthogonal-lie-algebra, lie-groups/lie-algebra, linear-algebra/bilinear-form. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/lie-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "6fba579e826bc7a2cafc44e7469e275329b885195b654c56c41c2c67f57edaec",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "08799aa803adc27843582fab0c71e4538af583bf1f33dd550c98e1e67d7faf2d",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "eeeebd86bfa9bcadcc2b1a3a00fe8c7ac7745ebd8d5380b08c9e546e586ca0b7",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "2ddd5c8e9b011b804f0b31104fcd07ee41958800c91310b11e5848a82be70974",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "0906d033b039d1704c4ccda872ea82abbde415da1c121d93ede099660dbce570",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/u-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "5985addcd74eeba8943672440e084e56179b48618682a7511a0933593cd24379",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "a6e241e3538f73b8b4df555be7fbf034ebe672e03a8e842b43b74f4c87264941",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "2b7556267d96d6788d07355e6951e70d7840eb9d5ff50b738e130f14eaa6f73a",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "a2ec625236f308bc71dcdb65d0ee10d793fe9f4925fdbc6e8e15de60f15f4114",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "7be570173ced4f9f81909258b98be9d7d0a75c856cbbacae467a1476731ab83a",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1b8b06a93452cdab4b3a28b9ac9c199b214d079dc582731fefbd00a6c687c4cd",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "6d3e3d2f5cc3bdeaabb4c060b372067df1d83a7b12bef33f15c43d85d3d47e4b",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-1-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-p-q-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "8fbe279d683fc7ebc73ac36e107cce35ae87e36495f2012eff0d18570032bc84",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sp-p-q-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e-1-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "d63012d9182f8a8a809619f9b34711a85b2841aace649aa52f9a73755969bb23",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/e-1-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, catalog/lie-algebras/so-1-r, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "catalog/lie-algebras/so-1-r",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "d79e43b4b9c64bd190abedc158f2db60b6411a7ccb061fe3fce75bf45f5a2243",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/e-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, catalog/lie-algebras/so-2-r, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "catalog/lie-algebras/so-2-r",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e-3-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "1c2d1087884eed6883c3048201c439117c75d9197948c5e5f26a15ccb4652f34",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/e-3-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, catalog/lie-algebras/so-3-r, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "catalog/lie-algebras/so-3-r",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e-n-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "5c84189cc07a32ae43ef1c251248526fb3664bfbd3a3eb5141014f9103cde29a",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/e-n-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, lie-groups/orthogonal-lie-algebra, linear-algebra/vector-space. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/orthogonal-lie-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-c-underlying-real",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "27d0fdd26b3d2a263393c7a5f5c42c93cfba2c33e1216f1bb4ef6c071d7f7a42",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-c-underlying-real",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/underlying-real-lie-algebra, lie-groups/lie-algebra, lie-groups/example-sl2c. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/underlying-real-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/example-sl2c"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-c-underlying-real",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "98dc9be66568a3d4db54478e65c2629e0905fe2a404431b0bd64dd672c56936f",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-c-underlying-real",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/underlying-real-lie-algebra, lie-groups/lie-algebra, lie-groups/complex-lie-algebra-sl3. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/underlying-real-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/complex-lie-algebra-sl3"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-3-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "f4ba7d090a5aff285dc4f2d24ea865add1280aa8d8560f6f69e83bc4fb5b182d",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-3-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, lie-groups/special-unitary-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/special-unitary-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-star-12",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "804415e74bf08942a73e7915aef1a2a1c6c0a66980e1a5bf7c252397e1bd3157",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§2, pp. 5–8, equations (2.19)–(2.27); quaternionic and indefinite matrix conventions"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/so-star-12",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra, linear-algebra/matrix. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/g2-compact",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "548301b63e09466df8e230ee753d74dd729487cdfe7ea74b93cafe7976c6ed3c",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/g2-compact",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/compact-real-form, lie-groups/exceptional-lie-algebra-g2, lie-groups/lie-algebra, lie-groups/killing-form, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/compact-real-form",
+        "lie-groups/exceptional-lie-algebra-g2",
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/g2-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "1c284b8a1b63aec566897253f4b8aa8ec858914c2767c16d559fe10f114dba8c",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/g2-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/chevalley-basis, lie-groups/exceptional-lie-algebra-g2, lie-groups/lie-algebra. Definition-core links match the ambient algebra, defining linear structure or exact input object. The optional real-Cartan reformulation was removed because the existing owner assumes an algebraically closed field.",
+      "prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/exceptional-lie-algebra-g2",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-g2",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "291952fdd59c17c4c576f6e8091fdad6bccd1871199be6c7fec0cd22db02519e",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/f4-compact",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "7814a20605a9536bbccef1584480097e378fb6782d039d2555cc48f89303cdc0",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/f4-compact",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/compact-real-form, lie-groups/exceptional-lie-algebra-f4, lie-groups/lie-algebra, lie-groups/killing-form, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/compact-real-form",
+        "lie-groups/exceptional-lie-algebra-f4",
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/f4-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "4dfa483120331fb45c93a258a82880a47f03a2682044b424c1f8e6c6f248677c",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/f4-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/chevalley-basis, lie-groups/exceptional-lie-algebra-f4, lie-groups/lie-algebra. Definition-core links match the ambient algebra, defining linear structure or exact input object. The optional real-Cartan reformulation was removed because the existing owner assumes an algebraically closed field.",
+      "prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/exceptional-lie-algebra-f4",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-f4",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "3a3fb7564e4fb425567721cf26ae2b12f4383cbfa853eb1539e929239fd780f0",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-compact",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "7d003efcaba0174d1c0e0182bbd3ca4d4ed420e02931dc0693db2b1e10ffc783",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-compact",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/compact-real-form, lie-groups/exceptional-lie-algebra-e6, lie-groups/lie-algebra, lie-groups/killing-form, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/compact-real-form",
+        "lie-groups/exceptional-lie-algebra-e6",
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "a7e0340bdc7433ea878cd75d832526e789a8fc0f7a2acf0c540b0e0b88622a08",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/chevalley-basis, lie-groups/exceptional-lie-algebra-e6, lie-groups/lie-algebra. Definition-core links match the ambient algebra, defining linear structure or exact input object. The optional real-Cartan reformulation was removed because the existing owner assumes an algebraically closed field.",
+      "prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/exceptional-lie-algebra-e6",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e6",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "35af039e4f0af957a3b7a079255aa59325f312725dce3ef491050011e527f968",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-compact",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "357b3fac59b4024df5acb1c599d6d3fe0664bebf101988a41f85da723b2218ee",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-compact",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/compact-real-form, lie-groups/exceptional-lie-algebra-e7, lie-groups/lie-algebra, lie-groups/killing-form, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/compact-real-form",
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "f48f26b0400fecf5c808fb51b7ca7882a57c2653a7385cd72737662676b93c1a",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/chevalley-basis, lie-groups/exceptional-lie-algebra-e7, lie-groups/lie-algebra. Definition-core links match the ambient algebra, defining linear structure or exact input object. The optional real-Cartan reformulation was removed because the existing owner assumes an algebraically closed field.",
+      "prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e7",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "34b084508b206e6625e3871cc9dc05c574cd62f45fc611a9e5b2f0e4bfed78f1",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e8-compact",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "bde39074e71c3ea04e9cd78ac1959a2e4ff8e254a817b519c1212a1ebffdb826",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e8-compact",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/compact-real-form, lie-groups/exceptional-lie-algebra-e8, lie-groups/lie-algebra, lie-groups/killing-form, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/compact-real-form",
+        "lie-groups/exceptional-lie-algebra-e8",
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e8-split",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "6b2977a4d1525a577b7954082a6e854bd17b955f5c3f3b90533610f206580aa1",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ],
+      "assumptions": [
+        "§VI.1, Corollary 6.10 and Theorem 6.11, pp. 352–354; Appendix C.2, pp. 686–692"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e8-split",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/chevalley-basis, lie-groups/exceptional-lie-algebra-e8, lie-groups/lie-algebra. Definition-core links match the ambient algebra, defining linear structure or exact input object. The optional real-Cartan reformulation was removed because the existing owner assumes an algebraically closed field.",
+      "prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/exceptional-lie-algebra-e8",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e8",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Catalogue identity, scalar field and dimensions only: Real/complex identity and dimension checked against root-space dimension (rank plus root count); compact/split constructions checked in Knapp VI.1, Corollary 6.10, Theorem 6.11; Appendix C.2 root systems. No full review claimed for reused complex knowls.",
+      "source_sha256": "7631e57bf3dfb06fa6299a063fec2a8cfe51799dc21b153b21914eb9a1265851",
+      "sources": [
+        "https://www.math.stonybrook.edu/~aknapp/download/Beyond2-clickable.pdf"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-minus26",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Barton–Sudbery §3 pp.11–12 lists maximal compact subalgebras; Theorem 7.2 identifies them. Converted their negative-minus-positive signature to catalogue positive-minus-negative by dimension minus twice maximal compact dimension.",
+      "source_sha256": "c1136633280495487d4e69a844e6164eed37fc18e1ee7e1cde8efb662a541b3c",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§3, pp. 11–12, two magic-square tables and maximal compact subalgebras; Theorem 7.2, p. 32"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-minus26",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/exceptional-lie-algebra-e6, lie-groups/cartan-decomposition-real-reductive-lie-algebra, lie-groups/lie-algebra, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/exceptional-lie-algebra-e6",
+        "lie-groups/cartan-decomposition-real-reductive-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-minus25",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Barton–Sudbery §3 pp.11–12 lists maximal compact subalgebras; Theorem 7.2 identifies them. Converted their negative-minus-positive signature to catalogue positive-minus-negative by dimension minus twice maximal compact dimension.",
+      "source_sha256": "2a8b27bec181c26ce8f8e1fcc7e5ea86971e129a6ea3b21e1f29244f2f536165",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§3, pp. 11–12, two magic-square tables and maximal compact subalgebras; Theorem 7.2, p. 32"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-minus25",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/exceptional-lie-algebra-e7, lie-groups/cartan-decomposition-real-reductive-lie-algebra, lie-groups/lie-algebra, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/cartan-decomposition-real-reductive-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e8-minus24",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Barton–Sudbery §3 pp.11–12 lists maximal compact subalgebras; Theorem 7.2 identifies them. Converted their negative-minus-positive signature to catalogue positive-minus-negative by dimension minus twice maximal compact dimension.",
+      "source_sha256": "da8478e4241153f52842d4967a784c9201fa2a1aa6c8f8a2e0d0ee25ceb7614b",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§3, pp. 11–12, two magic-square tables and maximal compact subalgebras; Theorem 7.2, p. 32"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e8-minus24",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/exceptional-lie-algebra-e8, lie-groups/cartan-decomposition-real-reductive-lie-algebra, lie-groups/lie-algebra, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/exceptional-lie-algebra-e8",
+        "lie-groups/cartan-decomposition-real-reductive-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-plus2",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Barton–Sudbery §3 pp.11–12 lists maximal compact subalgebras; Theorem 7.2 identifies them. Converted their negative-minus-positive signature to catalogue positive-minus-negative by dimension minus twice maximal compact dimension.",
+      "source_sha256": "0bc82996e487530deb33c9399648485726f9156de7452f5b52e33f93a1d82a7e",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§3, pp. 11–12, two magic-square tables and maximal compact subalgebras; Theorem 7.2, p. 32"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e6-plus2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/exceptional-lie-algebra-e6, lie-groups/cartan-decomposition-real-reductive-lie-algebra, lie-groups/lie-algebra, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/exceptional-lie-algebra-e6",
+        "lie-groups/cartan-decomposition-real-reductive-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-minus5",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Barton–Sudbery §3 pp.11–12 lists maximal compact subalgebras; Theorem 7.2 identifies them. Converted their negative-minus-positive signature to catalogue positive-minus-negative by dimension minus twice maximal compact dimension.",
+      "source_sha256": "c6e7126391216b87d91eb83ab761b672c3935b676891451ba6a191be70128a53",
+      "sources": [
+        "https://arxiv.org/pdf/math/0203010"
+      ],
+      "assumptions": [
+        "§3, pp. 11–12, two magic-square tables and maximal compact subalgebras; Theorem 7.2, p. 32"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/e7-minus5",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/exceptional-lie-algebra-e7, lie-groups/cartan-decomposition-real-reductive-lie-algebra, lie-groups/lie-algebra, lie-groups/lie-algebra-isomorphism. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/cartan-decomposition-real-reductive-lie-algebra",
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/su-2-direct-sum-su-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "8d0f324144932d7f6531dbf1f3a826a471a2a2e66f994f5e32d9b5e66864652d",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/su-2-direct-sum-su-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/direct-sum-of-lie-algebras, catalog/lie-algebras/su-2, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/direct-sum-of-lie-algebras",
+        "catalog/lie-algebras/su-2",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-r-direct-sum-sl-2-r",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "c3e5b20bb30927a698000ee138f3c0214d7cfb23e01bea8e5e54e4c140aa8503",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-r-direct-sum-sl-2-r",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/direct-sum-of-lie-algebras, catalog/lie-algebras/sl-2-r, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/direct-sum-of-lie-algebras",
+        "catalog/lie-algebras/sl-2-r",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-c-direct-sum-sl-2-c",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Definition, dimension count, bracket closure and stated low-dimensional qualifications checked directly.",
+      "source_sha256": "2c5c59e001081519271a22ebb98e64c1fa1b8c24ab90d172db9ba28b138510b9",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-c-direct-sum-sl-2-c",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/direct-sum-of-lie-algebras, lie-groups/example-sl2c, lie-groups/lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/direct-sum-of-lie-algebras",
+        "lie-groups/example-sl2c",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/lie-algebras/low-dimensional-isomorphisms",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked explicit matrix, adjoint, exterior-square and quaternionic Hermitian actions; each injectivity and dimension argument is stated. Scope is these algebra identifications, not classification of all low-dimensional coincidences.",
+      "source_sha256": "a198b3c17e1ffef95593d563bba69cd8fcc0008f15a25405963374390c330ebf",
+      "sources": [],
+      "assumptions": []
+    },
+    {
+      "id": "catalog/lie-algebras/low-dimensional-isomorphisms",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "evidence": "Complete direct prerequisites reviewed: lie-groups/lie-algebra-isomorphism, lie-groups/underlying-real-lie-algebra. Definition-core links identify actual defining structures; later comparisons are excluded.",
+      "prerequisites": [
+        "lie-groups/lie-algebra-isomorphism",
+        "lie-groups/underlying-real-lie-algebra"
+      ]
+    }
+  ],
+  "new_paths": [
+    "content/catalog/lie-algebras/gl-1-r.knowl.md",
+    "content/catalog/lie-algebras/gl-2-r.knowl.md",
+    "content/catalog/lie-algebras/gl-3-r.knowl.md",
+    "content/catalog/lie-algebras/gl-n-r.knowl.md",
+    "content/catalog/lie-algebras/sl-1-r.knowl.md",
+    "content/catalog/lie-algebras/sl-2-r.knowl.md",
+    "content/catalog/lie-algebras/sl-3-r.knowl.md",
+    "content/catalog/lie-algebras/sl-n-r.knowl.md",
+    "content/catalog/lie-algebras/so-1-r.knowl.md",
+    "content/catalog/lie-algebras/so-2-r.knowl.md",
+    "content/catalog/lie-algebras/so-3-r.knowl.md",
+    "content/catalog/lie-algebras/so-4-r.knowl.md",
+    "content/catalog/lie-algebras/so-5-r.knowl.md",
+    "content/catalog/lie-algebras/so-6-r.knowl.md",
+    "content/catalog/lie-algebras/so-8-r.knowl.md",
+    "content/catalog/lie-algebras/so-12-r.knowl.md",
+    "content/catalog/lie-algebras/abelian-1-r.knowl.md",
+    "content/catalog/lie-algebras/aff-1-r.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-1-r.knowl.md",
+    "content/catalog/lie-algebras/abelian-2-r.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-2-r.knowl.md",
+    "content/catalog/lie-algebras/aff-2-r.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-2-r.knowl.md",
+    "content/catalog/lie-algebras/abelian-3-r.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-3-r.knowl.md",
+    "content/catalog/lie-algebras/aff-3-r.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-3-r.knowl.md",
+    "content/catalog/lie-algebras/abelian-n-r.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-n-r.knowl.md",
+    "content/catalog/lie-algebras/aff-n-r.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-n-r.knowl.md",
+    "content/catalog/lie-algebras/sp-2-r.knowl.md",
+    "content/catalog/lie-algebras/sp-4-r.knowl.md",
+    "content/catalog/lie-algebras/sp-6-r.knowl.md",
+    "content/catalog/lie-algebras/sp-2n-r.knowl.md",
+    "content/catalog/lie-algebras/gl-1-c.knowl.md",
+    "content/catalog/lie-algebras/gl-2-c.knowl.md",
+    "content/catalog/lie-algebras/gl-3-c.knowl.md",
+    "content/catalog/lie-algebras/gl-n-c.knowl.md",
+    "content/catalog/lie-algebras/sl-1-c.knowl.md",
+    "content/catalog/lie-algebras/sl-n-c.knowl.md",
+    "content/catalog/lie-algebras/sl-4-c.knowl.md",
+    "content/catalog/lie-algebras/so-1-c.knowl.md",
+    "content/catalog/lie-algebras/so-2-c.knowl.md",
+    "content/catalog/lie-algebras/so-3-c.knowl.md",
+    "content/catalog/lie-algebras/so-n-c.knowl.md",
+    "content/catalog/lie-algebras/so-4-c.knowl.md",
+    "content/catalog/lie-algebras/so-5-c.knowl.md",
+    "content/catalog/lie-algebras/so-6-c.knowl.md",
+    "content/catalog/lie-algebras/so-8-c.knowl.md",
+    "content/catalog/lie-algebras/abelian-1-c.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-1-c.knowl.md",
+    "content/catalog/lie-algebras/aff-1-c.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-1-c.knowl.md",
+    "content/catalog/lie-algebras/abelian-2-c.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-2-c.knowl.md",
+    "content/catalog/lie-algebras/aff-2-c.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-2-c.knowl.md",
+    "content/catalog/lie-algebras/abelian-3-c.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-3-c.knowl.md",
+    "content/catalog/lie-algebras/aff-3-c.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-3-c.knowl.md",
+    "content/catalog/lie-algebras/abelian-n-c.knowl.md",
+    "content/catalog/lie-algebras/heisenberg-n-c.knowl.md",
+    "content/catalog/lie-algebras/aff-n-c.knowl.md",
+    "content/catalog/lie-algebras/strict-upper-n-c.knowl.md",
+    "content/catalog/lie-algebras/sp-2-c.knowl.md",
+    "content/catalog/lie-algebras/sp-4-c.knowl.md",
+    "content/catalog/lie-algebras/sp-6-c.knowl.md",
+    "content/catalog/lie-algebras/sp-2n-c.knowl.md",
+    "content/catalog/lie-algebras/u-1.knowl.md",
+    "content/catalog/lie-algebras/u-2.knowl.md",
+    "content/catalog/lie-algebras/u-3.knowl.md",
+    "content/catalog/lie-algebras/su-1.knowl.md",
+    "content/catalog/lie-algebras/su-2.knowl.md",
+    "content/catalog/lie-algebras/su-3.knowl.md",
+    "content/catalog/lie-algebras/su-4.knowl.md",
+    "content/catalog/lie-algebras/su-6.knowl.md",
+    "content/catalog/lie-algebras/sp-1.knowl.md",
+    "content/catalog/lie-algebras/sp-2.knowl.md",
+    "content/catalog/lie-algebras/sp-3.knowl.md",
+    "content/catalog/lie-algebras/sp-n.knowl.md",
+    "content/catalog/lie-algebras/gl-1-h.knowl.md",
+    "content/catalog/lie-algebras/gl-2-h.knowl.md",
+    "content/catalog/lie-algebras/gl-3-h.knowl.md",
+    "content/catalog/lie-algebras/gl-n-h.knowl.md",
+    "content/catalog/lie-algebras/sl-1-h.knowl.md",
+    "content/catalog/lie-algebras/sl-2-h.knowl.md",
+    "content/catalog/lie-algebras/sl-3-h.knowl.md",
+    "content/catalog/lie-algebras/sl-n-h.knowl.md",
+    "content/catalog/lie-algebras/so-1-1-r.knowl.md",
+    "content/catalog/lie-algebras/so-2-2-r.knowl.md",
+    "content/catalog/lie-algebras/so-3-3-r.knowl.md",
+    "content/catalog/lie-algebras/so-4-4-r.knowl.md",
+    "content/catalog/lie-algebras/so-n-n-r.knowl.md",
+    "content/catalog/lie-algebras/so-2-1-r.knowl.md",
+    "content/catalog/lie-algebras/so-3-1-r.knowl.md",
+    "content/catalog/lie-algebras/so-4-1-r.knowl.md",
+    "content/catalog/lie-algebras/so-p-q-r.knowl.md",
+    "content/catalog/lie-algebras/u-1-1-r.knowl.md",
+    "content/catalog/lie-algebras/u-1-2-r.knowl.md",
+    "content/catalog/lie-algebras/u-1-3-r.knowl.md",
+    "content/catalog/lie-algebras/u-p-q-r.knowl.md",
+    "content/catalog/lie-algebras/su-1-1-r.knowl.md",
+    "content/catalog/lie-algebras/su-1-2-r.knowl.md",
+    "content/catalog/lie-algebras/su-1-3-r.knowl.md",
+    "content/catalog/lie-algebras/su-p-q-r.knowl.md",
+    "content/catalog/lie-algebras/sp-1-1-r.knowl.md",
+    "content/catalog/lie-algebras/sp-1-2-r.knowl.md",
+    "content/catalog/lie-algebras/sp-1-3-r.knowl.md",
+    "content/catalog/lie-algebras/sp-p-q-r.knowl.md",
+    "content/catalog/lie-algebras/e-1-r.knowl.md",
+    "content/catalog/lie-algebras/e-2-r.knowl.md",
+    "content/catalog/lie-algebras/e-3-r.knowl.md",
+    "content/catalog/lie-algebras/e-n-r.knowl.md",
+    "content/catalog/lie-algebras/sl-2-c-underlying-real.knowl.md",
+    "content/catalog/lie-algebras/sl-3-c-underlying-real.knowl.md",
+    "content/catalog/lie-algebras/su-3-3.knowl.md",
+    "content/catalog/lie-algebras/so-star-12.knowl.md",
+    "content/catalog/lie-algebras/g2-compact.knowl.md",
+    "content/catalog/lie-algebras/g2-split.knowl.md",
+    "content/catalog/lie-algebras/f4-compact.knowl.md",
+    "content/catalog/lie-algebras/f4-split.knowl.md",
+    "content/catalog/lie-algebras/e6-compact.knowl.md",
+    "content/catalog/lie-algebras/e6-split.knowl.md",
+    "content/catalog/lie-algebras/e7-compact.knowl.md",
+    "content/catalog/lie-algebras/e7-split.knowl.md",
+    "content/catalog/lie-algebras/e8-compact.knowl.md",
+    "content/catalog/lie-algebras/e8-split.knowl.md",
+    "content/catalog/lie-algebras/e6-minus26.knowl.md",
+    "content/catalog/lie-algebras/e7-minus25.knowl.md",
+    "content/catalog/lie-algebras/e8-minus24.knowl.md",
+    "content/catalog/lie-algebras/e6-plus2.knowl.md",
+    "content/catalog/lie-algebras/e7-minus5.knowl.md",
+    "content/catalog/lie-algebras/su-2-direct-sum-su-2.knowl.md",
+    "content/catalog/lie-algebras/sl-2-r-direct-sum-sl-2-r.knowl.md",
+    "content/catalog/lie-algebras/sl-2-c-direct-sum-sl-2-c.knowl.md",
+    "content/catalog/lie-algebras/low-dimensional-isomorphisms.knowl.md"
+  ],
+  "object_count": 152,
+  "relationship_count": 309,
+  "limitations": [
+    "New and reused entries received a bounded mathematical check of definitions, fields, dimensions and stated identifications. This is not a full corpus review or a Lean verification.",
+    "Generic n records are parameterized families with constraints, not a single fixed-dimensional algebra."
+  ],
+  "interlinking": {
+    "accepted": 189,
+    "candidate_count": 220,
+    "manual_ambient_lie_algebra_links": "Definition-core generic Lie algebra occurrences linked explicitly where the report skipped bold terms.",
+    "rejected": 31
+  },
+  "data_sha256": "10179c13f601f3096e082286417412f84c93d74b40bdca9cd5a2f34703f37b3d",
+  "validation": {
+    "toml_and_link_targets": "passed for all 138 new knowls",
+    "katex": "1063 body mathematics and object-notation expressions, zero errors after correcting symbolic matrix-size spacing",
+    "prerequisite_dag": "no cycles involving catalogue Lie-algebra knowls",
+    "schema": "Global scripts/catalog.py validate passed after all 309 Lie-lane relationships: 514 objects, 622 relationships, 2740 views, 40 categories and 153 morphism spaces in the in-progress integrated catalogue.",
+    "source_scope": "four heuristic findings reviewed as false positives: emphasis on real part of quaternionic trace is an essential qualification, not a separate owned definition",
+    "browser": "Root integration must inspect built representative pages and final generated review."
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "id": "finite-lie-type",
+  "baseline_content_ref": "8ce039be",
+  "baseline_application_ref": "f8f46ba",
+  "branch": "catalog",
+  "scope": "16 constrained simple-family tiles, Tits, low-rank slices and selected exact examples.",
+  "reservations": [
+    {
+      "object_id": "fg-psl-n-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-n-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-n-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-n-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-odd-n-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-2n-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-2n-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-plus-2n-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-minus-2n-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-g2-q",
+      "knowl_id": "catalog/finite-groups/lie-type/g2-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-f4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/f4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-e6-q",
+      "knowl_id": "catalog/finite-groups/lie-type/e6-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-e7-q",
+      "knowl_id": "catalog/finite-groups/lie-type/e7-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-e8-q",
+      "knowl_id": "catalog/finite-groups/lie-type/e8-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-sz-q",
+      "knowl_id": "catalog/finite-groups/lie-type/sz-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-g2-q",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-f4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-triality-d4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-twisted-e6-q",
+      "knowl_id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-tits",
+      "knowl_id": "catalog/finite-groups/lie-type/tits",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-1-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-1-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-3-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-3-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-1-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-1-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-2-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-2-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-3-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-3-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-2-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-2-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-6-q",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-6-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-3-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-3-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-5-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-5-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-7-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-7-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-plus-4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-plus-6-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-minus-4-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-omega-minus-6-q",
+      "knowl_id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-q2",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-q2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-2",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-3",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-3",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-4",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-4",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-5",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-5",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-7",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-7",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-8",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-8",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-2-9",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-2-9",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-3-2",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-3-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-3-4",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-3-4",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psl-4-2",
+      "knowl_id": "catalog/finite-groups/lie-type/psl-4-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-3-2",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-3-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-3-3",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-3-3",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psu-4-2",
+      "knowl_id": "catalog/finite-groups/lie-type/psu-4-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-4-2",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-4-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-4-3",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-4-3",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-psp-4-2-derived",
+      "knowl_id": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-g2-2",
+      "knowl_id": "catalog/finite-groups/lie-type/g2-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-g2-2-derived",
+      "knowl_id": "catalog/finite-groups/lie-type/g2-2-derived",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-g2-3",
+      "knowl_id": "catalog/finite-groups/lie-type/g2-3",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-sz-2",
+      "knowl_id": "catalog/finite-groups/lie-type/sz-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-sz-8",
+      "knowl_id": "catalog/finite-groups/lie-type/sz-8",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-g2-3",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-g2-3",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-g2-3-derived",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-g2-27",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-f4-2",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-f4-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-ree-f4-8",
+      "knowl_id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-triality-d4-2",
+      "knowl_id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-twisted-e6-2",
+      "knowl_id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-f4-2",
+      "knowl_id": "catalog/finite-groups/lie-type/f4-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-e6-2",
+      "knowl_id": "catalog/finite-groups/lie-type/e6-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-e7-2",
+      "knowl_id": "catalog/finite-groups/lie-type/e7-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    },
+    {
+      "object_id": "fg-e8-2",
+      "knowl_id": "catalog/finite-groups/lie-type/e8-2",
+      "decision": "new",
+      "reason": "Specific finite-field family, size or exceptional parameter is not owned by the existing arbitrary-field or real/complex knowls."
+    }
+  ],
+  "foundation_knowls": [
+    "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+    "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+    "catalog/finite-groups/lie-type/finite-orthogonal-derived-group"
+  ],
+  "agreed_external_endpoints": [
+    "fg-alt-4",
+    "fg-alt-5",
+    "fg-alt-6",
+    "fg-alt-8",
+    "fg-sym-3",
+    "fg-sym-6"
+  ],
+  "inventory_evidence": [
+    "Searched content paths/titles for finite groups, Chevalley, projective special linear, Suzuki, Ree, and Tits. Existing PSL arbitrary-field definition reused as prerequisite, not duplicate owner for constrained finite simple family.",
+    "Read algebra-groups/projective-special-linear-group, pgl-psl-comparison, simple-group; algebraic-geometry-foundations/chevalley-lattice-integral-model and simply-connected-semisimple-group."
+  ],
+  "deferred": [
+    "No irreducible D1 or twisted D1 family is invented.",
+    "The low-rank even-characteristic orthogonal convention is qualified; the q=2 D2-plus derived subgroup is excluded from its product-family slice.",
+    "No exhaustive subgroup or Hom-space classification.",
+    "No Lean proof status."
+  ]
+}

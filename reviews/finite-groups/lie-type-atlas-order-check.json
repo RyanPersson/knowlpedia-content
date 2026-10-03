@@ -1,0 +1,42 @@
+{
+  "id": "finite-lie-type-atlas-orders",
+  "checks": [
+    {
+      "object_id": "fg-f4-2",
+      "atlas_url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/F42/",
+      "order_decimal": "3311126603366400",
+      "result": "exact match to integer order formula"
+    },
+    {
+      "object_id": "fg-e7-2",
+      "atlas_url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/E72/",
+      "order_decimal": "7997476042075799759100487262680802918400",
+      "result": "exact match to integer order formula"
+    },
+    {
+      "object_id": "fg-e8-2",
+      "atlas_url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/E82/",
+      "order_decimal": "337804753143634806261388190614085595079991692242467651576160959909068800000",
+      "result": "exact match to integer order formula"
+    },
+    {
+      "object_id": "fg-ree-g2-27",
+      "atlas_url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/R27/",
+      "order_decimal": "10073444472",
+      "result": "exact match to integer order formula"
+    },
+    {
+      "object_id": "fg-triality-d4-2",
+      "atlas_url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/TD42/",
+      "order_decimal": "211341312",
+      "result": "exact match to integer order formula"
+    },
+    {
+      "object_id": "fg-twisted-e6-2",
+      "atlas_url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/TE62/",
+      "order_decimal": "76532479683774853939200",
+      "result": "exact match to integer order formula"
+    }
+  ],
+  "note": "E6(2) ATLAS fetch was unavailable; that order is computed from Steinberg Theorem 25 and the stated center, independently tabulated in Akbari Table 2. No successful E6(2) ATLAS inspection is claimed."
+}

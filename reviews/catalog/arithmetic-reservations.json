@@ -1,0 +1,418 @@
+{
+  "lane": "arithmetic",
+  "created_at": "2026-10-02",
+  "objects": [
+    {
+      "id": "field-q",
+      "knowl": "shared-foundations/rational-numbers",
+      "status": "defined"
+    },
+    {
+      "id": "ring-z",
+      "knowl": "shared-foundations/integers",
+      "status": "defined"
+    },
+    {
+      "id": "field-qi",
+      "knowl": "catalog/arithmetic/qi",
+      "status": "defined"
+    },
+    {
+      "id": "field-qsqrt2",
+      "knowl": "catalog/arithmetic/qsqrt2",
+      "status": "defined"
+    },
+    {
+      "id": "field-qsqrt-minus3",
+      "knowl": "catalog/arithmetic/qsqrt-minus3",
+      "status": "defined"
+    },
+    {
+      "id": "field-quadratic-q",
+      "knowl": "catalog/arithmetic/quadratic-number-field",
+      "status": "family"
+    },
+    {
+      "id": "ring-gaussian-integers",
+      "knowl": "catalog/arithmetic/gaussian-integers",
+      "status": "defined"
+    },
+    {
+      "id": "ring-eisenstein-integers",
+      "knowl": "catalog/arithmetic/eisenstein-integers",
+      "status": "defined"
+    },
+    {
+      "id": "field-f2",
+      "knowl": "catalog/arithmetic/f2",
+      "status": "defined"
+    },
+    {
+      "id": "field-f3",
+      "knowl": "catalog/arithmetic/f3",
+      "status": "defined"
+    },
+    {
+      "id": "field-f5",
+      "knowl": "catalog/arithmetic/f5",
+      "status": "defined"
+    },
+    {
+      "id": "field-fp",
+      "knowl": "catalog/arithmetic/fp",
+      "status": "family"
+    },
+    {
+      "id": "field-f4",
+      "knowl": "catalog/arithmetic/f4",
+      "status": "defined"
+    },
+    {
+      "id": "field-f8",
+      "knowl": "catalog/arithmetic/f8",
+      "status": "defined"
+    },
+    {
+      "id": "field-f9",
+      "knowl": "catalog/arithmetic/f9",
+      "status": "defined"
+    },
+    {
+      "id": "field-fp2",
+      "knowl": "catalog/arithmetic/fp2",
+      "status": "family"
+    },
+    {
+      "id": "field-fp3",
+      "knowl": "catalog/arithmetic/fp3",
+      "status": "family"
+    },
+    {
+      "id": "field-fpk",
+      "knowl": "catalog/arithmetic/fpk",
+      "status": "family"
+    },
+    {
+      "id": "field-q2",
+      "knowl": "catalog/arithmetic/q2",
+      "status": "defined"
+    },
+    {
+      "id": "ring-z2",
+      "knowl": "catalog/arithmetic/z2",
+      "status": "defined"
+    },
+    {
+      "id": "field-q3",
+      "knowl": "catalog/arithmetic/q3",
+      "status": "defined"
+    },
+    {
+      "id": "ring-z3",
+      "knowl": "catalog/arithmetic/z3",
+      "status": "defined"
+    },
+    {
+      "id": "field-q5",
+      "knowl": "catalog/arithmetic/q5",
+      "status": "defined"
+    },
+    {
+      "id": "ring-z5",
+      "knowl": "catalog/arithmetic/z5",
+      "status": "defined"
+    },
+    {
+      "id": "field-qp",
+      "knowl": "catalog/arithmetic/qp",
+      "status": "family"
+    },
+    {
+      "id": "ring-zp",
+      "knowl": "shared-foundations/p-adic-integers",
+      "status": "family"
+    },
+    {
+      "id": "field-qp-unramified-2",
+      "knowl": "catalog/arithmetic/qp-unramified-2",
+      "status": "family"
+    },
+    {
+      "id": "field-qp-unramified-3",
+      "knowl": "catalog/arithmetic/qp-unramified-3",
+      "status": "family"
+    },
+    {
+      "id": "field-qp-unramified-n",
+      "knowl": "catalog/arithmetic/qp-unramified-n",
+      "status": "family"
+    },
+    {
+      "id": "field-f2-laurent",
+      "knowl": "catalog/arithmetic/f2-laurent",
+      "status": "defined"
+    },
+    {
+      "id": "ring-f2-power-series",
+      "knowl": "catalog/arithmetic/f2-power-series",
+      "status": "defined"
+    },
+    {
+      "id": "field-f2-rational-functions",
+      "knowl": "catalog/arithmetic/f2-rational-functions",
+      "status": "defined"
+    },
+    {
+      "id": "ring-f2-polynomials",
+      "knowl": "catalog/arithmetic/f2-polynomials",
+      "status": "defined"
+    },
+    {
+      "id": "field-f3-laurent",
+      "knowl": "catalog/arithmetic/f3-laurent",
+      "status": "defined"
+    },
+    {
+      "id": "ring-f3-power-series",
+      "knowl": "catalog/arithmetic/f3-power-series",
+      "status": "defined"
+    },
+    {
+      "id": "field-f3-rational-functions",
+      "knowl": "catalog/arithmetic/f3-rational-functions",
+      "status": "defined"
+    },
+    {
+      "id": "ring-f3-polynomials",
+      "knowl": "catalog/arithmetic/f3-polynomials",
+      "status": "defined"
+    },
+    {
+      "id": "field-f5-laurent",
+      "knowl": "catalog/arithmetic/f5-laurent",
+      "status": "defined"
+    },
+    {
+      "id": "ring-f5-power-series",
+      "knowl": "catalog/arithmetic/f5-power-series",
+      "status": "defined"
+    },
+    {
+      "id": "field-f5-rational-functions",
+      "knowl": "catalog/arithmetic/f5-rational-functions",
+      "status": "defined"
+    },
+    {
+      "id": "ring-f5-polynomials",
+      "knowl": "catalog/arithmetic/f5-polynomials",
+      "status": "defined"
+    },
+    {
+      "id": "field-fq-laurent",
+      "knowl": "catalog/arithmetic/fq-laurent",
+      "status": "family"
+    },
+    {
+      "id": "ring-fq-power-series",
+      "knowl": "catalog/arithmetic/fq-power-series",
+      "status": "family"
+    },
+    {
+      "id": "field-fq-rational-functions",
+      "knowl": "catalog/arithmetic/fq-rational-functions",
+      "status": "family"
+    },
+    {
+      "id": "ring-fq-polynomials",
+      "knowl": "catalog/arithmetic/fq-polynomials",
+      "status": "family"
+    },
+    {
+      "id": "ring-adeles-q",
+      "knowl": "catalog/arithmetic/adeles-q",
+      "status": "defined"
+    },
+    {
+      "id": "group-ideles-q",
+      "knowl": "catalog/arithmetic/ideles-q",
+      "status": "defined"
+    },
+    {
+      "id": "ring-adeles-q-finite",
+      "knowl": "catalog/arithmetic/adeles-q-finite",
+      "status": "defined"
+    },
+    {
+      "id": "group-ideles-q-finite",
+      "knowl": "catalog/arithmetic/ideles-q-finite",
+      "status": "defined"
+    },
+    {
+      "id": "ring-adeles-number-field",
+      "knowl": "catalog/arithmetic/adeles-number-field",
+      "status": "family"
+    },
+    {
+      "id": "group-ideles-number-field",
+      "knowl": "catalog/arithmetic/ideles-number-field",
+      "status": "family"
+    },
+    {
+      "id": "ring-adeles-number-field-finite",
+      "knowl": "catalog/arithmetic/adeles-number-field-finite",
+      "status": "family"
+    },
+    {
+      "id": "group-ideles-number-field-finite",
+      "knowl": "catalog/arithmetic/ideles-number-field-finite",
+      "status": "family"
+    },
+    {
+      "id": "ring-adeles-fq-t",
+      "knowl": "catalog/arithmetic/adeles-fq-t",
+      "status": "family"
+    },
+    {
+      "id": "group-ideles-fq-t",
+      "knowl": "catalog/arithmetic/ideles-fq-t",
+      "status": "family"
+    },
+    {
+      "id": "ring-adeles-function-field",
+      "knowl": "catalog/arithmetic/adeles-function-field",
+      "status": "family"
+    },
+    {
+      "id": "group-ideles-function-field",
+      "knowl": "catalog/arithmetic/ideles-function-field",
+      "status": "family"
+    },
+    {
+      "id": "algebra-hamilton-q",
+      "knowl": "catalog/arithmetic/rational-hamilton-quaternions",
+      "status": "defined"
+    },
+    {
+      "id": "algebra-quaternion-f",
+      "knowl": "algebra-rings/quaternion-algebra",
+      "status": "family"
+    },
+    {
+      "id": "ring-lipschitz",
+      "knowl": "catalog/arithmetic/lipschitz-order",
+      "status": "defined"
+    },
+    {
+      "id": "ring-hurwitz",
+      "knowl": "catalog/arithmetic/hurwitz-order",
+      "status": "defined"
+    },
+    {
+      "id": "field-f",
+      "knowl": "catalog/arithmetic/base-field-f",
+      "status": "family"
+    },
+    {
+      "id": "field-k-over-f",
+      "knowl": "catalog/arithmetic/extension-field-k-over-f",
+      "status": "family"
+    },
+    {
+      "id": "algebra-a-over-k",
+      "knowl": "catalog/arithmetic/associative-algebra-a-over-k",
+      "status": "family"
+    },
+    {
+      "id": "assoc-m-1-q",
+      "knowl": "catalog/arithmetic/m-1-q",
+      "status": "defined"
+    },
+    {
+      "id": "assoc-m-2-q",
+      "knowl": "catalog/arithmetic/m-2-q",
+      "status": "defined"
+    },
+    {
+      "id": "assoc-m-3-q",
+      "knowl": "catalog/arithmetic/m-3-q",
+      "status": "defined"
+    },
+    {
+      "id": "assoc-m-n-q",
+      "knowl": "catalog/arithmetic/m-n-q",
+      "status": "family"
+    },
+    {
+      "id": "field-f27",
+      "knowl": "catalog/arithmetic/f27",
+      "status": "defined"
+    }
+  ],
+  "reused": [
+    {
+      "object_id": "field-q",
+      "knowl": "shared-foundations/rational-numbers",
+      "decision": "reuse",
+      "reason": "Canonical rational-number owner; its fractions carry the catalogue field operations."
+    },
+    {
+      "object_id": "ring-z",
+      "knowl": "shared-foundations/integers",
+      "decision": "reuse",
+      "reason": "Canonical integer owner defines quotient construction and arithmetic."
+    },
+    {
+      "object_id": "ring-zp",
+      "knowl": "shared-foundations/p-adic-integers",
+      "decision": "reuse",
+      "reason": "Existing atomic owner defines this exact object or symbolic family."
+    },
+    {
+      "object_id": "algebra-quaternion-f",
+      "knowl": "algebra-rings/quaternion-algebra",
+      "decision": "reuse",
+      "reason": "Existing atomic owner defines this exact object or symbolic family."
+    }
+  ],
+  "decisions": [
+    "Do not attach additive/multiplicative group memberships to a bare ring or field carrier.",
+    "Finite/full number-field adeles and ideles have separate objects; function fields include all places.",
+    "Rational and integral quaternion objects are distinct; integral orders are not rational vector spaces.",
+    "Symbolic F/K fields, algebras and views keep scalar embeddings explicit."
+  ],
+  "sources_inspected": [
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+      "title": "J. S. Milne, Fields and Galois Theory",
+      "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "title": "J. S. Milne, Algebraic Number Theory",
+      "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "title": "J. S. Milne, Algebraic Number Theory",
+      "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+      "title": "J. S. Milne, Class Field Theory",
+      "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+      "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+      "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+    }
+  ],
+  "additional_knowls": [
+    {
+      "knowl": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "kind": "comparison",
+      "decision": "new",
+      "reason": "Owns the fixed-prime comparison of linear Hom/End/Aut with field Hom/End/Aut; not a new carrier object."
+    }
+  ]
+}

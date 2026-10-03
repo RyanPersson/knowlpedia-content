@@ -6,10 +6,12 @@ summary = "The real scalar extension is Hamilton’s division algebra rather tha
 aliases = ["real ramification of a quaternion algebra"]
 domains = ["algebra-rings"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/quaternion-algebra", "algebra-fields-galois/field-embedding", "algebra-modules/tensor-product-algebras", "linear-algebra/quaternion-division-algebra"]
+prerequisites = ["algebra-rings/quaternion-algebra", "algebra-fields-galois/number-field", "algebra-fields-galois/field-embedding", "algebra-modules/tensor-product-algebras", "linear-algebra/quaternion-division-algebra"]
+dependency_heuristic = "semantic-transcript-review-v1"
+dependency_review_count = 1
 +++
 
-Let \(B\) be a quaternion algebra over a number field \(K\), and \(\sigma:K\hookrightarrow\mathbb R\) a real embedding. Then \(B\) is **ramified at the real place \(\sigma\)** if
+Let \(B\) be a [[algebra-rings/quaternion-algebra|quaternion algebra]] over a number field \(K\), and \(\sigma:K\hookrightarrow\mathbb R\) a real embedding. Then \(B\) is **ramified at the real place \(\sigma\)** if
 \[
 B\otimes_{K,\sigma}\mathbb R\cong\mathbb H,
 \]
@@ -19,9 +21,13 @@ the [[linear-algebra/quaternion-division-algebra|Hamilton division algebra]]. Ot
 
 For \(B=(a,b)_K\), ramification at \(\sigma\) is equivalent to \(\sigma(a)<0\) and \(\sigma(b)<0\). Rescaling the generators reduces that case to \((-1,-1)_{\mathbb R}\). If either parameter is positive, its square root yields a split presentation.
 
+## Relation to all places
+
+This is the real specialization of [[algebra-rings/quaternion-ramification|ramification at a place]]. A quaternion algebra over a totally real field that ramifies at every real place is [[algebra-rings/definite-quaternion-algebra|totally definite]].
+
 ## Arithmetic significance
 
-An imaginary quadratic field has no real embeddings, so “ramified at all real places” is vacuous there. This is why its split quaternion algebra is allowed in the [[lie-groups/arithmetic-kleinian-group|arithmetic Kleinian construction]].
+An [[algebra-fields-galois/imaginary-quadratic-field|imaginary quadratic field]] has no real embeddings, so “ramified at all real places” is vacuous there. This is why its [[algebra-rings/split-quaternion-algebra|split quaternion algebra]] is allowed in the [[lie-groups/arithmetic-kleinian-group|arithmetic Kleinian construction]].
 
 ## References
 

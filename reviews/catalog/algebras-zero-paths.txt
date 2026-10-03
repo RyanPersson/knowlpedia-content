@@ -1,0 +1,8 @@
+content/catalog/algebras/zero-1-r.knowl.md
+content/catalog/algebras/zero-2-r.knowl.md
+content/catalog/algebras/zero-3-r.knowl.md
+content/catalog/algebras/zero-n-r.knowl.md
+content/catalog/algebras/zero-1-c.knowl.md
+content/catalog/algebras/zero-2-c.knowl.md
+content/catalog/algebras/zero-3-c.knowl.md
+content/catalog/algebras/zero-n-c.knowl.md

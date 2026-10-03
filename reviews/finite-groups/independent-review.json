@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "reviewer": "Independent catalogue infrastructure reviewer",
+  "review_kind": "Two completed read-only adversarial passes",
+  "recorded_at": "2026-10-02T22:04:10+00:00",
+  "review_date": "2026-10-02",
+  "scope": "Seven core knowls and their 22 morphism-space records; all 26 sporadic group definitions and the Leech-lattice prerequisite. This is targeted mathematical review, not a full-source or dependency certification.",
+  "hash_policy": "source_sha256 is SHA-256 of the current complete local file when this evidence record was written. The targeted claims identify what was reviewed; these hashes do not expand the pass to later interlinks, metadata or other untargeted prose.",
+  "passes": [
+    {
+      "name": "core-finite-groups",
+      "knowl_count": 7,
+      "manifest": "reviews/finite-groups/core-paths.txt",
+      "result": "No actionable mathematical or category error found in the targeted claims."
+    },
+    {
+      "name": "sporadic-definitions",
+      "knowl_count": 27,
+      "result": "All 26 group definitions and the Leech prerequisite specify actual mathematical constructions. No actionable definition defect found."
+    }
+  ],
+  "findings": [
+    {
+      "severity": "editorial",
+      "status": "resolved-by-author",
+      "finding": "Several draft openings lowercased proper group names.",
+      "resolution": "Reported to the author, who confirmed the capitalization correction; no source changes were made by this reviewer."
+    }
+  ],
+  "direct_tests": [
+    {
+      "id": "core-scoped-render",
+      "date": "2026-10-02",
+      "working_directory": "knowlpedia app checkout",
+      "method": "Parsed the seven core files and their existing direct wiki-link targets, rendered each core and all its sections, and checked for actual KaTeX/math-render error markers.",
+      "result": {
+        "knowls": 7,
+        "katex_error_or_math_render_error": 0
+      },
+      "historical_note": "At execution time, the only unresolved local targets were three not-yet-generated lane indexes and two pending Lie-type construction pages. This records the earlier scoped check, not a new final-site link audit.",
+      "program": "from pathlib import Path\nimport sys\nsys.path.insert(0, 'packages/compiler')\nimport knowl_compile as c\nroot = Path('../knowlpedia-content')\npaths = [root / line for line in (root / 'reviews/finite-groups/core-paths.txt').read_text().splitlines() if line.strip()]\nknowls = [c.parse_single_file(p) for p in paths]\nregistry = {k.id: k for k in knowls}\npending = []\nfor k in knowls:\n    for match in c.WIKILINK_RE.finditer(k.core_markdown + '\\n' + '\\n'.join(s.get('markdown', '') for s in k.sections)):\n        target = match.group(1).split('#')[0]\n        p = root / 'content' / f'{target}.knowl.md'\n        if p.exists() and target not in registry:\n            registry[target] = c.parse_single_file(p)\n        elif not p.exists():\n            pending.append(target)\nfor k in knowls:\n    html = c.render_knowl_core(k, registry) + ''.join(c.render_section(s, registry) for s in k.sections)\n    print(k.id, 'render_error', bool('katex-error' in html or 'math-render-error' in html))\nprint('Pending local targets:', sorted(set(pending)))\n"
+    },
+    {
+      "id": "mathieu-block-orbits",
+      "date": "2026-10-02",
+      "working_directory": "knowlpedia-content checkout",
+      "method": "Standard-library Python parsed cycles from the displayed definitions, generated each seed-block orbit, then counted all t-subsets and asserted count one for every such subset.",
+      "result": [
+        {
+          "group": "M11",
+          "steiner_parameters": [
+            4,
+            5,
+            11
+          ],
+          "seed_block": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "block_count": 66,
+          "subsets_checked": 330,
+          "passed": true
+        },
+        {
+          "group": "M12",
+          "steiner_parameters": [
+            5,
+            6,
+            12
+          ],
+          "seed_block": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9
+          ],
+          "block_count": 132,
+          "subsets_checked": 792,
+          "passed": true
+        },
+        {
+          "group": "M22",
+          "steiner_parameters": [
+            3,
+            6,
+            22
+          ],
+          "seed_block": [
+            1,
+            2,
+            3,
+            10,
+            18,
+            20
+          ],
+          "block_count": 77,
+          "subsets_checked": 1540,
+          "passed": true
+        },
+        {
+          "group": "M23",
+          "steiner_parameters": [
+            4,
+            7,
+            23
+          ],
+          "seed_block": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            11,
+            17
+          ],
+          "block_count": 253,
+          "subsets_checked": 8855,
+          "passed": true
+        },
+        {
+          "group": "M24",
+          "steiner_parameters": [
+            5,
+            8,
+            24
+          ],
+          "seed_block": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            11,
+            17,
+            24
+          ],
+          "block_count": 759,
+          "subsets_checked": 42504,
+          "passed": true
+        }
+      ],
+      "program": "from pathlib import Path\nimport re, itertools, collections, math\nroot = Path('content/catalog/finite-groups/sporadic')\nfor n,t,k,expected,seed in [(11,4,5,66,(1,2,3,4,5)),(12,5,6,132,(1,2,3,4,5,9)),(22,3,6,77,(1,2,3,10,18,20)),(23,4,7,253,(1,2,3,4,5,11,17)),(24,5,8,759,(1,2,3,4,5,11,17,24))]:\n    text = (root / f'm{n}.knowl.md').read_text()\n    display = text.split(r'\\begin{aligned}',1)[1].split(r'\\end{aligned}',1)[0]\n    atext,btext = display.split('b&=')\n    gens = []\n    for part in (atext,btext):\n        p = list(range(n+1))\n        for cycle in re.findall(r'\\(([^()]*)\\)',part):\n            c = list(map(int,re.findall(r'\\d+',cycle)))\n            for x,y in zip(c,c[1:]+c[:1]):\n                p[x] = y\n        gens.append(p)\n    orbit = {seed}\n    todo = [seed]\n    while todo:\n        block = todo.pop()\n        for p in gens:\n            image = tuple(sorted(p[x] for x in block))\n            if image not in orbit:\n                orbit.add(image)\n                todo.append(image)\n    counts = collections.Counter(subset for block in orbit for subset in itertools.combinations(block,t))\n    assert len(orbit) == expected, (n,len(orbit),expected)\n    assert len(counts) == math.comb(n,t) and set(counts.values()) == {1}\n    print(f'M{n}: displayed permutations give all {expected} blocks of S({t},{k},{n}); each {t}-subset appears once')\n",
+      "limitations": "Verifies the displayed Steiner block orbits only; does not independently establish group order or simplicity."
+    }
+  ],
+  "data_reviews": [
+    {
+      "path": "content/catalog/data/finite-core.json",
+      "source_sha256": "f78101b699261d662fb228b749ede2079b547ce558b9dd1e958625aad5eb1f90",
+      "scope": "targeted",
+      "categories_checked": 2,
+      "morphism_spaces_checked": 22,
+      "evidence": "Read the category and morphism records against the seven core pages. Checked cyclic Hom/End/Aut formulas and underlying-set counts; finite-group and abelian-group full-subcategory views retain the same group homomorphisms. Empty conditions on the generic cyclic records are conditional on the fg-cyclic-n object retaining n>=1. No inference of Hom from End or of uncatalogued maps was introduced.",
+      "limitations": "No independent exhaustive Hom enumeration was performed. This supplemental data review is not a claim to have re-reviewed unrelated catalogue shards."
+    }
+  ],
+  "limitations": [
+    "Only the targeted claims are certified as reviewed. The later Mathieu-point-stabilizer and Baby-Monster-subgroup relationship knowls are outside these two passes.",
+    "Source comparisons listed per entry were actually performed; an empty sources list means the record relies on direct reasoning and reading of the local definition, without an independently opened external source in this pass.",
+    "The reviewer did not independently prove classification, sporadic-group simplicity/orders, lattice uniqueness, or every ATLAS identification. Matrix file downloads and computations performed by the author are not claimed as this reviewer's work.",
+    "No Lean proof checking was performed. No new source research or source edits were undertaken to create this evidence file."
+  ],
+  "entries": [
+    {
+      "id": "algebra-groups/classification-finite-simple-groups",
+      "path": "content/algebra-groups/classification-finite-simple-groups.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ece370959b4dea9aef37e043fa537d39f41f6d590f89f1a53bd913c8511db3c",
+      "targeted_claims": "Classification statement, nontrivial simplicity convention, composition factors versus classification of all finite groups.",
+      "evidence": "Compared the stated classification and composition-factor context with Cameron. Checked that the table counts family presentations rather than claiming disjoint isomorphism classes, and that C4 and C2 x C2 illustrate the failure of composition factors to determine the whole group.",
+      "sources": [
+        {
+          "url": "https://maths.qmul.ac.uk/~pjc/MTHM024/gtrev.pdf",
+          "title": "P. J. Cameron, Group Theory revision notes",
+          "locator": "Sections 5.1–5.4, printed pp. 22–26; classification list in section 5.4, printed p. 26.",
+          "checked": "Jordan–Hölder/composition-factor context and the four-part classification statement, not their complete proofs."
+        }
+      ],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [
+        "The classification proof, every Lie-type parameter exclusion, and every accidental isomorphism were not re-proved in this pass. The attempted AMS PDF fetch was unavailable; it is not counted as an independently checked source."
+      ],
+      "lean": null
+    },
+    {
+      "id": "algebra-groups/finite-group",
+      "path": "content/algebra-groups/finite-group.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "adc5197a972a1ba5e1ffc5853ca5052da4c3954d62744218bbc8e1cacc95c15d",
+      "targeted_claims": "Definition by finite underlying set; order convention and basic examples.",
+      "evidence": "Read the definition and checked that the identity forces positive cardinality, that Z/nZ has n residue classes for positive n, and that S_n has n! elements. The order convention matches Cameron.",
+      "sources": [
+        {
+          "url": "https://maths.qmul.ac.uk/~pjc/MTHM024/gtrev.pdf",
+          "title": "P. J. Cameron, Group Theory revision notes",
+          "locator": "Section 1.1, printed p. 2: order of a finite group.",
+          "checked": "Finiteness and the cardinality convention for group order."
+        }
+      ],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [],
+      "lean": null
+    },
+    {
+      "id": "catalog/categories/finite-groups",
+      "path": "content/catalog/categories/finite-groups.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a1d3764445ab7973501b5692ab0d13e2c7e98d7f7f57aac1bc96b8dea7e7ad3",
+      "targeted_claims": "The full subcategory of groups on finite objects retains all group homomorphisms.",
+      "evidence": "Checked directly that only objects are restricted: identities and composition remain group homomorphisms, and no new regularity or homomorphism condition is introduced.",
+      "sources": [],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [],
+      "lean": null
+    },
+    {
+      "id": "catalog/categories/finite-simple-groups",
+      "path": "content/catalog/categories/finite-simple-groups.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cc1d55c3c49618ebcd7fea5778e95ef09d59d2c050926f62c9e4d0467a10d2b",
+      "targeted_claims": "Full subcategory on nontrivial finite simple groups; trivial morphisms remain allowed.",
+      "evidence": "Checked the nontrivial simple-group convention and full-subcategory meaning. A homomorphism from a simple group has kernel either the whole source or the identity subgroup; this does not justify deleting trivial maps from the category.",
+      "sources": [],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups",
+      "path": "content/catalog/finite-groups.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df0384813363da793e39f512e1a7c96588d669b1ef58be61137e3e4c9f91f213",
+      "targeted_claims": "Family versus individual-group display semantics; exceptional Lie type versus sporadic groups; cluster labels versus subgroup claims.",
+      "evidence": "Read the overview for ambiguous mathematical claims. Family tiles do not claim one finite order, composition factors do not determine every finite group, and display clusters do not assert direct embeddings.",
+      "sources": [],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [
+        "Navigation links and wording added after the original pass are outside this targeted mathematical review."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "path": "content/catalog/finite-groups/relationships/cyclic-group-homomorphisms.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca0e0e7b5bf04c47510a3d9c1df74c192d6203645ec2361d23329fa9d1b464a0",
+      "targeted_claims": "Cyclic Hom count, endomorphism ring, automorphism units, order-one boundary case, and underlying-set map counts.",
+      "evidence": "Derived f([k])=[ka] from the image of a generator. Well-definedness is n dividing ma, giving gcd(m,n) possible images. Addition of homomorphisms is residue addition and composition is residue multiplication; automorphisms are units. Checked the n=1 case using the one-element ring and its one-element unit group. Independently checked that arbitrary set maps C_m to C_n number n^m, endomaps number n^n, and set automorphisms number n!. Full group and abelian-group subcategories retain the same homomorphisms.",
+      "sources": [],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [
+        "This was symbolic reasoning, not exhaustive enumeration over parameter values."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/relationships/endomorphisms-of-finite-simple-groups",
+      "path": "content/catalog/finite-groups/relationships/endomorphisms-of-finite-simple-groups.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2a41b8107ea46cfb958adb82f58037dc0ca1c30cbfa20d21450da663b80f2c9",
+      "targeted_claims": "End(G) is the disjoint union of the trivial endomorphism and Aut(G) for nontrivial finite simple G.",
+      "evidence": "Checked normality of the kernel, the two kernel cases, injective-to-surjective implication for a self-map of a finite set, and product preservation by the inverse of a bijective homomorphism. Nontriviality makes the zero map distinct from every automorphism.",
+      "sources": [],
+      "direct_tests": [
+        "core-scoped-render"
+      ],
+      "limitations": [],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/baby-monster",
+      "path": "content/catalog/finite-groups/sporadic/baby-monster.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34ed5d39b3a4986d4a0c02c621b577262b3a4b8a2b4668638d83943b20a7ba06",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files BG1-f2r4370B0.m1 and BG1-f2r4370B0.m2 in GL_4370(F_2). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order. Independently opened the ATLAS representation metadata and checked the group/degree/field entries.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/BG1-f2r4370B0",
+          "title": "ATLAS matrix representation BG1-f2r4370B0",
+          "locator": "About this representation: Group, Dimension, Ring; Download: the two MeatAxe generators.",
+          "checked": "Confirmed the named simple group, rather than a central cover, and the stated matrix degree and prime field."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co1",
+      "path": "content/catalog/finite-groups/sporadic/co1.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e04387ef0f40e0b8307d5c801438da9725d2ec47bdd926c4a786b7fb7ea4c8bf",
+      "targeted_claims": "Isometry-group quotient by the central sign subgroup.",
+      "evidence": "The ambient lattice-isometry group is defined explicitly. The subgroup {I,-I} is central, so the displayed quotient is a well-defined group construction.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "Identification, order, simplicity, and the cited lattice orbit results were not independently re-proved in this pass."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co2",
+      "path": "content/catalog/finite-groups/sporadic/co2.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b12a9894ab4412c3b08a993d15dea71a665c080344676f3c00efe1716fd80405",
+      "targeted_claims": "Stabilizer of a vector of squared length four in the normalized Leech lattice.",
+      "evidence": "The definition fixes the ambient group, the vector norm, and the stabilizer condition. It is not an order-only recognition rule; the cited orbit statement supplies independence of the vector choice.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "Identification, order, simplicity, and the cited lattice orbit results were not independently re-proved in this pass."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co3",
+      "path": "content/catalog/finite-groups/sporadic/co3.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "956b03e591ad30e934e15e2cef3665a0c6d1ececccbd38343537c5248934437a",
+      "targeted_claims": "Stabilizer of a vector of squared length six in the normalized Leech lattice.",
+      "evidence": "The norm-six condition differs from the Co2 norm-four condition and uses the same lattice normalization. The cited orbit statement supplies independence of the vector choice.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "Identification, order, simplicity, and the cited lattice orbit results were not independently re-proved in this pass."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi22",
+      "path": "content/catalog/finite-groups/sporadic/fi22.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee9e77627c8024dcba1f93a3999fe7a60df5c932b83e337b6c4cc7695a7cf11c",
+      "targeted_claims": "A complete finite presentation is given rather than a semi-presentation or order-only characterization.",
+      "evidence": "Compared all displayed relators, including (ab^2)^21 and all nine commutator relations; the definition does not omit the extra defining relation. The cited page explicitly presents the group, and the displayed relations match it.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/F22G1-P1",
+          "title": "ATLAS full presentation F22G1-P1",
+          "locator": "About this presentation: Group and complete Presentation row.",
+          "checked": "Compared the displayed defining relations with the knowl core."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "No coset enumeration or independent proof that the presentation defines the named simple group was performed. Downloadable Magma source files were not counted as independently executed evidence."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi23",
+      "path": "content/catalog/finite-groups/sporadic/fi23.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "015780f0918f3d231f8f659e137b540be4baa77752189124426dcfb8aaa583ae",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files F23G1-f3r253B0.m1 and F23G1-f3r253B0.m2 in GL_253(F_3). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi24-prime",
+      "path": "content/catalog/finite-groups/sporadic/fi24-prime.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f62b5c17fd00e03a80a2942c959c7c89a130cd81110cf9a7ae77b53f5f63b46a",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files F24G1-f3r781B0.m1 and F24G1-f3r781B0.m2 in GL_781(F_3). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order. Independently opened the ATLAS representation metadata and checked the group/degree/field entries. Checked the explicit distinction between Fi24-prime, its index-two extension, and its triple central cover.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/F24G1-f3r781B0",
+          "title": "ATLAS matrix representation F24G1-f3r781B0",
+          "locator": "About this representation: Group, Dimension, Ring; Download: the two MeatAxe generators.",
+          "checked": "Confirmed the named simple group, rather than a central cover, and the stated matrix degree and prime field."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/he",
+      "path": "content/catalog/finite-groups/sporadic/he.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "73a38eeb60bdbd92aef07c3c108576489c86355164b864c04ce12379747701e9",
+      "targeted_claims": "A complete finite presentation is given rather than a semi-presentation or order-only characterization.",
+      "evidence": "Compared the two short commutator-power relators, the longer commuting-word relation, and the final long word against the complete displayed ATLAS relation list. The cited page explicitly presents the group, and the displayed relations match it.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/HeG1-P1",
+          "title": "ATLAS full presentation HeG1-P1",
+          "locator": "About this presentation: Group and complete Presentation row.",
+          "checked": "Compared the displayed defining relations with the knowl core."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "No coset enumeration or independent proof that the presentation defines the named simple group was performed. Downloadable Magma source files were not counted as independently executed evidence."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/hn",
+      "path": "content/catalog/finite-groups/sporadic/hn.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa8af55f0b5d3fbafbe049b1e9d7d5dd9a57b1b8796e4025aff425ab2fafdc15",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files HNG1-f5r133B0.m1 and HNG1-f5r133B0.m2 in GL_133(F_5). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/hs",
+      "path": "content/catalog/finite-groups/sporadic/hs.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23ad0687faca0e939fae745a6cf4e290207b579f15d8a4d44606f3f109754536",
+      "targeted_claims": "Adequacy of a fixed generated permutation-group definition.",
+      "evidence": "Read the core and file references: HSG1-p100B0.g1 and HSG1-p100B0.g2 specify two permutations of 100 points, with composition as the operation. Naming these complete data files fixes the subgroup; generator-order tests alone would not do so.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "The external permutation files were not downloaded or independently executed by this reviewer. The group identification, order and simplicity rely on the cited construction."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j1",
+      "path": "content/catalog/finite-groups/sporadic/j1.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d94ed52289727bd0b78f0003eb128584b9922faacd8bff92b9996de8a8e2b27",
+      "targeted_claims": "A complete finite presentation is given rather than a semi-presentation or order-only characterization.",
+      "evidence": "Checked the auxiliary word c=abab^-1 is an abbreviation, not an extra generator, and compared both longer relators as well as the order-two/order-three/order-seven relations. The cited page explicitly presents the group, and the displayed relations match it.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/J1G1-P1",
+          "title": "ATLAS full presentation J1G1-P1",
+          "locator": "About this presentation: Group and complete Presentation row.",
+          "checked": "Compared the displayed defining relations with the knowl core."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "No coset enumeration or independent proof that the presentation defines the named simple group was performed. Downloadable Magma source files were not counted as independently executed evidence."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j2",
+      "path": "content/catalog/finite-groups/sporadic/j2.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfa5b13a6e9549aaba7f919facd168c8e29d912373a24dd364ce357b596f6570",
+      "targeted_claims": "A complete finite presentation is given rather than a semi-presentation or order-only characterization.",
+      "evidence": "Checked the commutator convention and the complete word w=ababab^-1abab^-1, together with its sixth-power relation and the other displayed relations. The cited page explicitly presents the group, and the displayed relations match it.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/J2G1-P2",
+          "title": "ATLAS full presentation J2G1-P2",
+          "locator": "About this presentation: Group and complete Presentation row.",
+          "checked": "Compared the displayed defining relations with the knowl core."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "No coset enumeration or independent proof that the presentation defines the named simple group was performed. Downloadable Magma source files were not counted as independently executed evidence."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j3",
+      "path": "content/catalog/finite-groups/sporadic/j3.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e848a413b45eb1dde749a666ecf5aa2dd75e666ee85573a9eabb97c6b644ba12",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files J3G1-f2r80B0.m1 and J3G1-f2r80B0.m2 in GL_80(F_2). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j4",
+      "path": "content/catalog/finite-groups/sporadic/j4.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1a15d5dde39bfd351c0b012ac736b6afbddea0494d3cacc821d49f7717f458f",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files J4G1-f2r112B0.m1 and J4G1-f2r112B0.m2 in GL_112(F_2). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/leech-lattice",
+      "path": "content/catalog/finite-groups/sporadic/leech-lattice.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ed44f33652bbef0e38b2131fe745ee3be89fad8787e33519b4568be3d1bdf4b",
+      "targeted_claims": "An actual normalized lattice is specified, rather than only an associated group order.",
+      "evidence": "Checked that the core states rank 24 in a positive-definite Euclidean space, integrality, evenness, covolume one, and exclusion of squared length two. These conditions specify the cited unique lattice up to orthogonal equivalence and fix the normalization used by the Conway stabilizers.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "Existence and uniqueness of the Leech lattice and its vector-orbit theorems were not independently proved or newly source-checked in this pass."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/ly",
+      "path": "content/catalog/finite-groups/sporadic/ly.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38417f2c6488091e7a19052319c67e5cbae31b33b3ac7aa3b5efe904e4d2b578",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files LyG1-f5r111B0.m1 and LyG1-f5r111B0.m2 in GL_111(F_5). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m11",
+      "path": "content/catalog/finite-groups/sporadic/m11.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a575b72003e041b52531362a519d9690876ad6db893c2add45a8a542ea4f4880",
+      "targeted_claims": "Explicit generated permutation group and its stated Steiner-system block orbit.",
+      "evidence": "Parsed the two permutation cycle lists directly from the knowl. Starting with [1, 2, 3, 4, 5], computed the orbit under both generators, obtaining 66 blocks of size 5. Counted every 4-element subset in those blocks and verified that all 330 subsets occur exactly once.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M11G1-p11B0",
+          "title": "ATLAS permutation representation M11G1-p11B0",
+          "locator": "About this representation: Number of points, Transitivity degree, and Notes specifying the Steiner block.",
+          "checked": "Compared the permutation degree, transitivity statement, seed block and block count."
+        }
+      ],
+      "direct_tests": [
+        "mathieu-block-orbits"
+      ],
+      "limitations": [
+        "The orbit test verifies the stated design, not by itself the full group order, sharp transitivity, or simplicity. No separate whole-group enumeration was performed."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m12",
+      "path": "content/catalog/finite-groups/sporadic/m12.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d0a107eea3b02a664fe92fe30348b1136abcd9f8a920e4f98773a95dbce467e",
+      "targeted_claims": "Explicit generated permutation group and its stated Steiner-system block orbit.",
+      "evidence": "Parsed the two permutation cycle lists directly from the knowl. Starting with [1, 2, 3, 4, 5, 9], computed the orbit under both generators, obtaining 132 blocks of size 6. Counted every 5-element subset in those blocks and verified that all 792 subsets occur exactly once.",
+      "sources": [],
+      "direct_tests": [
+        "mathieu-block-orbits"
+      ],
+      "limitations": [
+        "The orbit test verifies the stated design, not by itself the full group order, sharp transitivity, or simplicity. No separate whole-group enumeration was performed."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m22",
+      "path": "content/catalog/finite-groups/sporadic/m22.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38bb8cab773916c4673c914da09fbc3871caa674fd720e2401cd297bfa6ffb6c",
+      "targeted_claims": "Explicit generated permutation group and its stated Steiner-system block orbit.",
+      "evidence": "Parsed the two permutation cycle lists directly from the knowl. Starting with [1, 2, 3, 10, 18, 20], computed the orbit under both generators, obtaining 77 blocks of size 6. Counted every 3-element subset in those blocks and verified that all 1540 subsets occur exactly once.",
+      "sources": [],
+      "direct_tests": [
+        "mathieu-block-orbits"
+      ],
+      "limitations": [
+        "The orbit test verifies the stated design, not by itself the full group order, sharp transitivity, or simplicity. No separate whole-group enumeration was performed."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m23",
+      "path": "content/catalog/finite-groups/sporadic/m23.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5e2edef2562fdd0b7be8db9b1d48eebd7f027bf6a558ca11e8b9d02d96d85cf",
+      "targeted_claims": "Explicit generated permutation group and its stated Steiner-system block orbit.",
+      "evidence": "Parsed the two permutation cycle lists directly from the knowl. Starting with [1, 2, 3, 4, 5, 11, 17], computed the orbit under both generators, obtaining 253 blocks of size 7. Counted every 4-element subset in those blocks and verified that all 8855 subsets occur exactly once.",
+      "sources": [],
+      "direct_tests": [
+        "mathieu-block-orbits"
+      ],
+      "limitations": [
+        "The orbit test verifies the stated design, not by itself the full group order, sharp transitivity, or simplicity. No separate whole-group enumeration was performed."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m24",
+      "path": "content/catalog/finite-groups/sporadic/m24.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23644c47f2c7a7429767e409fb0ef2adef282a3bce3905495c3e31f9bbba5017",
+      "targeted_claims": "Explicit generated permutation group and its stated Steiner-system block orbit.",
+      "evidence": "Parsed the two permutation cycle lists directly from the knowl. Starting with [1, 2, 3, 4, 5, 11, 17, 24], computed the orbit under both generators, obtaining 759 blocks of size 8. Counted every 5-element subset in those blocks and verified that all 42504 subsets occur exactly once.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M24G1-p24B0",
+          "title": "ATLAS permutation representation M24G1-p24B0",
+          "locator": "About this representation: Number of points, Transitivity degree, and Notes specifying the Steiner block.",
+          "checked": "Compared the permutation degree, transitivity statement, seed block and block count."
+        }
+      ],
+      "direct_tests": [
+        "mathieu-block-orbits"
+      ],
+      "limitations": [
+        "The orbit test verifies the stated design, not by itself the full group order, sharp transitivity, or simplicity. No separate whole-group enumeration was performed."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/mcl",
+      "path": "content/catalog/finite-groups/sporadic/mcl.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d90185a6cc07167d90cdfadca3cbf45456022416c7e4d1284c0e9da19c1db5b",
+      "targeted_claims": "Adequacy of a fixed generated permutation-group definition.",
+      "evidence": "Read the core and file references: McLG1-p275B0.g1 and McLG1-p275B0.g2 specify two permutations of 275 points, with composition as the operation. Naming these complete data files fixes the subgroup; generator-order tests alone would not do so.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "The external permutation files were not downloaded or independently executed by this reviewer. The group identification, order and simplicity rely on the cited construction."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/monster",
+      "path": "content/catalog/finite-groups/sporadic/monster.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c7ea9648a176eb9ea1656f5663a4b66707df29fdadee064e4cb80c40b37005f",
+      "targeted_claims": "Exact Y555 Coxeter quotient and extraction of one Monster by C_G(a)/<a>.",
+      "evidence": "Checked all sixteen vertices, the three length-five arms, the adjacency/nonadjacency relations, and the length-nine spider word raised to the tenth power against Allcock section 2. Independently checked the centralizer deduction: connected odd Coxeter edges identify all involution generators in the abelianization; every relator has even length, so the abelianization is C2. Under the cited bimonster theorem the perfect base H x H is the commutator subgroup, so a lies outside it. An outside involution has form (h,h^-1)tau and is conjugate to tau. Its centralizer is diag(H) x <tau>, and quotienting the central involution gives H.",
+      "sources": [
+        {
+          "url": "https://web.ma.utexas.edu/users/allcock/research/monstrous.pdf",
+          "title": "Daniel Allcock, A Monstrous Proposal",
+          "locator": "Section 2, printed pp. 3–4: Y555 diagram, spider relation, and attribution of its proof to Ivanov and Norton.",
+          "checked": "Compared the exact diagram and spider word and distinguished the known presentation theorem from the paper's separate geometric conjecture."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "The Ivanov–Norton presentation theorem and the existence/order/simplicity of the Monster were not independently proved. The centralizer extraction was checked by direct group-theoretic reasoning. No claim is made to have independently read the Conway preview or Norton chapter in this pass."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/on",
+      "path": "content/catalog/finite-groups/sporadic/on.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90c6d402dd3c625c415357144a6eed691b970efdc7a11256e1bf101c02f287b1",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files ONG1-f3r154B0.m1 and ONG1-f3r154B0.m2 in GL_154(F_3). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order. Independently opened the ATLAS representation metadata and checked the group/degree/field entries.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/ONG1-f3r154B0",
+          "title": "ATLAS matrix representation ONG1-f3r154B0",
+          "locator": "About this representation: Group, Dimension, Ring; Download: the two MeatAxe generators.",
+          "checked": "Confirmed the named simple group, rather than a central cover, and the stated matrix degree and prime field."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/ru",
+      "path": "content/catalog/finite-groups/sporadic/ru.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59bc016547a69570014180f2a2679c3082a946ba4ac3783fd1dabb4eea044e88",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files RuG1-f2r28B0.m1 and RuG1-f2r28B0.m2 in GL_28(F_2). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order. Independently opened the ATLAS representation metadata and checked the group/degree/field entries.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/RuG1-f2r28B0",
+          "title": "ATLAS matrix representation RuG1-f2r28B0",
+          "locator": "About this representation: Group, Dimension, Ring; Download: the two MeatAxe generators.",
+          "checked": "Confirmed the named simple group, rather than a central cover, and the stated matrix degree and prime field."
+        }
+      ],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/suz",
+      "path": "content/catalog/finite-groups/sporadic/suz.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "943286e6e175db3651f8178dc115cadff0584faa502ac7b405eb58172dd6c75b",
+      "targeted_claims": "Adequacy of a fixed generated permutation-group definition.",
+      "evidence": "Read the core and file references: SuzG1-p1782B0.g1 and SuzG1-p1782B0.g2 specify two permutations of 1782 points, with composition as the operation. Naming these complete data files fixes the subgroup; generator-order tests alone would not do so.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "The external permutation files were not downloaded or independently executed by this reviewer. The group identification, order and simplicity rely on the cited construction."
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/th",
+      "path": "content/catalog/finite-groups/sporadic/th.knowl.md",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e0891f5b4db9e17ad2dae5f2a59fcc6a69b8a0b6c750c47ed54cef7cf0f24d0",
+      "targeted_claims": "Adequacy and noncircularity of the fixed matrix-pair definition.",
+      "evidence": "Read the definition as the subgroup generated by fixed files ThG1-f2r248B0.m1 and ThG1-f2r248B0.m2 in GL_248(F_2). The finite field is a prime field, so no unspecified extension-field representation is needed. The complete file identities, ambient group and multiplication determine a concrete group independently of its later stated order.",
+      "sources": [],
+      "direct_tests": [],
+      "limitations": [
+        "This reviewer did not download or multiply the full matrix pairs, compute their generated group order, or prove simplicity. A passed ATLAS semi-presentation check is not treated as a proof of identification."
+      ],
+      "lean": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+content/catalog/lie-groups-table-guide.knowl.md
+content/lie-groups/classification-simple-lie-algebras.knowl.md
+content/lie-groups/compact-symplectic-group.knowl.md
+content/catalog/lie-groups/sl-n-r.knowl.md

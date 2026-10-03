@@ -1,0 +1,1320 @@
+{
+  "lane": "arithmetic",
+  "scope": "targeted",
+  "reviews": [
+    {
+      "id": "catalog/arithmetic/qi",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "253e375c1bc5c6251210b2adfe7c2134b6ac0e06c12cff48175f60a93026a2b7",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/qsqrt2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b92f78060ba40e06b2ca87dcf8107d02c609b4a7aa91ccab958a8fcfe3504ac3",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/qsqrt-minus3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "251c02d259675efc62a73c5f78650442afaeb13a5d0d9d2db7fd70dec699b2f5",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 2, Example 2.41, p. 39: integral bases in quadratic fields"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/quadratic-number-field",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "d5365e8920cc7cd01cdbcecc5c264be80053bd041f5c42fd54349fa931234ffc",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/gaussian-integers",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "adb576eefc0f86b578f291dc532b25750bc53abf80e806b284d2947dabed1767",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 2, Example 2.41, p. 39: integral bases in quadratic fields"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/eisenstein-integers",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "3657d3f4826c07ab0429469e6ea3d9c5ee4b5d11e58d50fabfd833846b1e90aa",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 2, Example 2.41, p. 39: integral bases in quadratic fields"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "9063bbbeaa4edc456ea80480abffc8e9ba6678a05dd2d27d3307d57179e4b5b9",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "7abe374d207a46febcda1a25b633dbbf6f381f5a3bad212e2049ad0fcd5fc877",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f5",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "d16f6663026ed1654c85b81b843c9219966ff589adde1d40d61a5308521ecc76",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fp",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "020d345ad8fd30b84cf7dbaf06f67f5c9830ddb05c68fec782ebefedeb167729",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f4",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "2b92599010780bfb614e56789f7fabfa1b263ab5c00736e34eaab8ce8a9eaa5d",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f8",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "686262a21cd7ce25d0f9003bcdc120c48d90fb044c65bfa46aeb86d3160e9f31",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f9",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5c1c1c1bd68737c36f74b67a7e1834a6809c0f42d951f6d37dd72780eecfa48d",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fp2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "1173c95ee42124f929c19ce2ac545c457568ebc21d3d43fd102855f9d463147f",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fp3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "7e649fb5216a7cba88f1380039cd4bf983150d62952c5fa04e2cca27f1a55e9e",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fpk",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "c76bbf73d6fb91d01677109a2931a3175d340139901063fddb76e19ed7aff1ba",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/q2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "9f41b85dd190389eee5cf18ace27cb3d6582c0eaf046f08eb0fd7b1a630b45dc",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/z2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "d553315dbfde2f3d4af9e28822290d60a98bb3c370739f0f4b190bdbfdb95340",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/q3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "3bcf0f5e8fbbd1d119fdbe8376fccfacaccbffe9fbe5a88fd856b68a2cfa9956",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/z3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "71d7032178c3df615562995c281cda21803d472d8d0e7c67cddcec521eef12c2",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/q5",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "481c1833d21171f8ce00f30e147e3e86a2bfc0e3ae180e697fb530b622b025f1",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/z5",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "43c0d15f49329cd9ccbd9c9fe4eaa9842252b86a1986ff180fc7c3a2d960e86e",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/qp",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "62b8fc8ce48836f03299af591052ae34c7975bb002605e0bff191e23aa9e6f58",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/qp-unramified-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "66485bdabe9ee59c102b97296dd8f55c7f9e1d459e1ceb08bcb74580edaccfd2",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/qp-unramified-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f2e07c28872532e8ae2ce00f654925f6633328b2f0989427beef1d6df0d10f60",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/qp-unramified-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "4541131f9533240aef54df0ff0cb3a5d7657ca7c084f978ce356792706d55082",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Proposition 7.50, unramified extensions, pp. 127–128"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f2-laurent",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f33140b64305effe976b7f226bce6ddc5bcdee8f4909f1fdf9906490de10dfc6",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f2-power-series",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b25d6f8701a7552b4ce90d2a2d470c3e6cef071db9937a5162bb0396ccb5be9a",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f2-rational-functions",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "3934562e21d63837365c03c3c67aa7e1734dcc1e461cab8d738906f9a3237611",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f2-polynomials",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "883566cd52a80b78215cc83e7c201d20579c682248c7bf40dd9058daf35a94bf",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f3-laurent",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "8ffb7fe46314f674aed13ecc606e7bffed0489db7e10aadf1b3a3b0c8223d93d",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f3-power-series",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "11fd9855e76a6de10ce5ae11c7e715975d5db20374f468447257b8bbc8b60dff",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f3-rational-functions",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "08d97624cef9a3efca2521779ab352d57b6c27d8bee3e1dbc5cd9ea81e225c6d",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f3-polynomials",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "48a520341f4a12ff189bf6509554edd386bb4aac9a3c188a53869a04db3d84be",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f5-laurent",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "09c14443ca560c0b08f325f63c7392503632a1a34cac46f88e4c454fd5da414b",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f5-power-series",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "a6b6f011a1e83ae96eadda4c58ea9cb3823ea273baa4cb5b268f07ccbf05c962",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f5-rational-functions",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f89cf048490be117488b1531527f89700ffe8b00d7a9dcf0f58f560ae361c30c",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f5-polynomials",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "2101e9f53d325389a1fc5124cbf33c0f24a5252d6357ddb13d1c521f84ef67bc",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fq-laurent",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "2a8ab163dc87daf93c59cdad29b651bb35cf52566d4415598b3622d7883cd83e",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fq-power-series",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "99c15807d7ab592a0ad006c2548bf6697c4722d186bac850d640295a17a7f275",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+            "title": "J. S. Milne, Algebraic Number Theory",
+            "locator": "Chapter 7, Theorem 7.23; Propositions 7.26, 7.46; Remark 7.49, pp. 115–127"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fq-rational-functions",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "59e0e606ff8bc425c36df0a961fc167c6655534424696ec9807433cb9332dfbd",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/fq-polynomials",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "e46b262dd484ea9bf9b550ce120ed14bc3c46c159fbad714738bd38b8540cab0",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/adeles-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "91d08936b832816acafd5f093aa79ade5d4172af5fd1c48ea05055b5f8b879c4",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/ideles-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "8d8947ff63520673ffd3bb8e7710747c6683b48acf68686dcd8ad49ea7d30529",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/adeles-q-finite",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "d28bcc7bda32134d1a388dba9267484198c62230d82e966fbe5bd3847daa46c6",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/ideles-q-finite",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5a91fe64fc77a8405c3dee389603eec81bba4dc837f576ec37571171cb60deb8",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/adeles-number-field",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "fa25353d7d394c8ef5c062871df5da9a3f74ae1acd886250ab9216f0928cda31",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/ideles-number-field",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "0d8f8742f42336ea507c8014626cc06c9bea9fa5caa9b5dc2f20151d9a178270",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/adeles-number-field-finite",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "e6927eb9f0e52aee1916c6c987ceafe6b938f11d71f5b8b0ca1c73f497dbc015",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/ideles-number-field-finite",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "73dace1ec1e328a23fdcd9137d89bf1b8d17eebded3840907d5dc404f9f5c6b4",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/adeles-fq-t",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "3b7539b646c2b24d3863f3ff87b98e7f713ed7716644cb722b4d807f2fbff13c",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/ideles-fq-t",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "4de526cdcb130f58c298a3801b1c35904d95ba8c948c32de8b8ca7269de4f12b",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/adeles-function-field",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "3036e60c995ad71b145358a2eba3a5f0cb1f7a57a4abc177c54b5abe2f1ee103",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/ideles-function-field",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "c782b2f6282dcd8e28beda531a9f337098a1121c17ea88d66a15b73da9209b5b",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+            "title": "J. S. Milne, Class Field Theory",
+            "locator": "Chapter V, §4, Ideles, pp. 169–172, especially restricted-product topology and Notes"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/rational-hamilton-quaternions",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "67f3353dc38d19b0926673408f555d9ca580dec804a08ed4d0f84970a38b31c3",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+            "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+            "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/lipschitz-order",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "4c096ae6ea0d14f2ed5d8843d81a521d5fa41f37c188121f91e973f6fa5044b8",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+            "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+            "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/hurwitz-order",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "2792a045f7ca0943b8437a4b090751c8c3870d010c1df7248e413c1251a8c419",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": [
+          {
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_11",
+            "title": "John Voight, Quaternion Algebras, Chapter 11: The Hurwitz order",
+            "locator": "§11.1, equation (11.1.1), Lemma 11.1.2 and equation (11.1.3); §11.2"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/base-field-f",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "e7b63317ddbcf0f8b72bcb28afc079d8494646445768d980adea538cf3fcae5f",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/extension-field-k-over-f",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "e0dc09effecadd49efb23f1036287885c2f4e64c923373506f502f87294a0308",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/associative-algebra-a-over-k",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f7d4bfe3c612b8d653e748b25ce8702d1d0f0a2e370b812b3994a281e7ec3589",
+      "claims_reviewed": [
+        "Defining operations, scalar field, topology where specified, parameter constraints and category memberships.",
+        "Concrete finite-field polynomial irreducibility, quaternion norm and integral-lattice distinctions are directly checked in the prose."
+      ],
+      "evidence": {
+        "method": "Explicit definitions and elementary calculations; cited sources checked at listed locators for finite-field existence and Frobenius, local-field completions and compactness, unramified extensions, restricted-product topology, quaternion orders.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/m-1-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5c09da326f913f3f0c0f6631aa61aa028dbc0e9b56e4667fed9522fd42b0aaf4",
+      "claims_reviewed": [
+        "Defining operations, category memberships, dimensions and elementary examples."
+      ],
+      "evidence": {
+        "method": "Direct matrix-unit multiplication and dimension calculation; irreducible cubic checked by all three substitutions.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/m-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "9087053e833f9675cb47570bd01029301293046e3943ad44a4b47e5f0dcf9be4",
+      "claims_reviewed": [
+        "Defining operations, category memberships, dimensions and elementary examples."
+      ],
+      "evidence": {
+        "method": "Direct matrix-unit multiplication and dimension calculation; irreducible cubic checked by all three substitutions.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/m-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "e54bab4b737adcf16eb81d676509821205be3cf47220faa8592bbe52833fa534",
+      "claims_reviewed": [
+        "Defining operations, category memberships, dimensions and elementary examples."
+      ],
+      "evidence": {
+        "method": "Direct matrix-unit multiplication and dimension calculation; irreducible cubic checked by all three substitutions.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/m-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "a7d6bb039dc49dda4963b352a5cb87c225c3122860937a846324171701eb549c",
+      "claims_reviewed": [
+        "Defining operations, category memberships, dimensions and elementary examples."
+      ],
+      "evidence": {
+        "method": "Direct matrix-unit multiplication and dimension calculation; irreducible cubic checked by all three substitutions.",
+        "references": []
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/f27",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "88d32da92e2504c010b5a5c0f5cd605fd75c11343e278e1055789ab9b1752cbb",
+      "claims_reviewed": [
+        "Defining operations, category memberships, dimensions and elementary examples."
+      ],
+      "evidence": {
+        "method": "Direct matrix-unit multiplication and dimension calculation; irreducible cubic checked by all three substitutions.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Propositions 4.19–4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "Targeted author review; no claim of a complete independent full knowl/prerequisite review or Lean proof."
+    },
+    {
+      "id": "catalog/arithmetic/finite-field-linear-and-field-maps",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b2a5676402c2cb26cf573c82e28c0fd73a1247269a11a163fc8d8480c52da8e4",
+      "claims_reviewed": [
+        "Fixed-prime Hom/End matrix descriptions, invertible matrix counts, and finite-field homomorphism criterion."
+      ],
+      "evidence": {
+        "method": "Direct independent-entry and independent-column counts; tower degree obstruction and cited Frobenius/subfield classification.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+            "title": "J. S. Milne, Fields and Galois Theory",
+            "locator": "Chapter 4, Proposition 4.20, Corollary 4.21 and Proposition 4.23, pp. 53–54"
+          }
+        ]
+      },
+      "limitations": "No Lean proof; targeted author review, not an independent full review of prerequisites."
+    }
+  ]
+}

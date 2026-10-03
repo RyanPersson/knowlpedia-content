@@ -1,0 +1,8 @@
+content/catalog/finite-groups/sporadic/hs.knowl.md
+content/catalog/finite-groups/sporadic/j2.knowl.md
+content/catalog/finite-groups/sporadic/co1.knowl.md
+content/catalog/finite-groups/sporadic/co2.knowl.md
+content/catalog/finite-groups/sporadic/co3.knowl.md
+content/catalog/finite-groups/sporadic/mcl.knowl.md
+content/catalog/finite-groups/sporadic/suz.knowl.md
+content/catalog/finite-groups/sporadic/leech-lattice.knowl.md

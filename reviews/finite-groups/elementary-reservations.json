@@ -1,0 +1,315 @@
+{
+  "lane": "finite-elementary",
+  "created_at": "2026-10-02",
+  "objects": [
+    {
+      "id": "fg-cyclic-1",
+      "knowl": "catalog/finite-groups/elementary/cyclic-1",
+      "status": "new"
+    },
+    {
+      "id": "fg-cyclic-2",
+      "knowl": "catalog/finite-groups/elementary/cyclic-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-cyclic-3",
+      "knowl": "catalog/finite-groups/elementary/cyclic-3",
+      "status": "new"
+    },
+    {
+      "id": "fg-cyclic-p",
+      "knowl": "catalog/finite-groups/elementary/cyclic-p",
+      "status": "new"
+    },
+    {
+      "id": "fg-cyclic-n",
+      "knowl": "catalog/finite-groups/elementary/cyclic-n",
+      "status": "new"
+    },
+    {
+      "id": "fg-sym-1",
+      "knowl": "catalog/finite-groups/elementary/sym-1",
+      "status": "new"
+    },
+    {
+      "id": "fg-sym-2",
+      "knowl": "catalog/finite-groups/elementary/sym-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-sym-3",
+      "knowl": "catalog/finite-groups/elementary/sym-3",
+      "status": "new"
+    },
+    {
+      "id": "fg-sym-4",
+      "knowl": "catalog/finite-groups/elementary/sym-4",
+      "status": "new"
+    },
+    {
+      "id": "fg-sym-6",
+      "knowl": "catalog/finite-groups/elementary/sym-6",
+      "status": "new"
+    },
+    {
+      "id": "fg-sym-n",
+      "knowl": "algebra-groups/symmetric-group",
+      "status": "reuse"
+    },
+    {
+      "id": "fg-alt-1",
+      "knowl": "catalog/finite-groups/elementary/alt-1",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-2",
+      "knowl": "catalog/finite-groups/elementary/alt-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-3",
+      "knowl": "catalog/finite-groups/elementary/alt-3",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-4",
+      "knowl": "catalog/finite-groups/elementary/alt-4",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-5",
+      "knowl": "catalog/finite-groups/elementary/alt-5",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-6",
+      "knowl": "catalog/finite-groups/elementary/alt-6",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-7",
+      "knowl": "catalog/finite-groups/elementary/alt-7",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-8",
+      "knowl": "catalog/finite-groups/elementary/alt-8",
+      "status": "new"
+    },
+    {
+      "id": "fg-alt-n",
+      "knowl": "algebra-groups/alternating-group",
+      "status": "reuse"
+    },
+    {
+      "id": "fg-dihedral-2",
+      "knowl": "catalog/finite-groups/elementary/dihedral-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-dihedral-4",
+      "knowl": "catalog/finite-groups/elementary/dihedral-4",
+      "status": "new"
+    },
+    {
+      "id": "fg-dihedral-6",
+      "knowl": "catalog/finite-groups/elementary/dihedral-6",
+      "status": "new"
+    },
+    {
+      "id": "fg-dihedral-2n",
+      "knowl": "catalog/finite-groups/elementary/dihedral-2n",
+      "status": "new"
+    },
+    {
+      "id": "fg-quaternion-8",
+      "knowl": "algebra-groups/quaternion-group",
+      "status": "reuse"
+    },
+    {
+      "id": "fg-quaternion-16",
+      "knowl": "catalog/finite-groups/elementary/quaternion-16",
+      "status": "new"
+    },
+    {
+      "id": "fg-quaternion-32",
+      "knowl": "catalog/finite-groups/elementary/quaternion-32",
+      "status": "new"
+    },
+    {
+      "id": "fg-quaternion-2n",
+      "knowl": "catalog/finite-groups/elementary/quaternion-2n",
+      "status": "new"
+    },
+    {
+      "id": "fg-elementary-abelian-1",
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-1",
+      "status": "new"
+    },
+    {
+      "id": "fg-elementary-abelian-2",
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-elementary-abelian-3",
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-3",
+      "status": "new"
+    },
+    {
+      "id": "fg-elementary-abelian-n",
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-n",
+      "status": "new"
+    },
+    {
+      "id": "fg-abelian-invariant-factors",
+      "knowl": "catalog/finite-groups/elementary/abelian-invariant-factors",
+      "status": "new"
+    },
+    {
+      "id": "fg-klein-4",
+      "knowl": "catalog/finite-groups/elementary/klein-4",
+      "status": "new"
+    },
+    {
+      "id": "fg-gl-1-q",
+      "knowl": "catalog/finite-groups/elementary/gl-1-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-gl-2-q",
+      "knowl": "catalog/finite-groups/elementary/gl-2-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-gl-3-q",
+      "knowl": "catalog/finite-groups/elementary/gl-3-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-gl-n-q",
+      "knowl": "catalog/finite-groups/elementary/gl-n-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-sl-1-q",
+      "knowl": "catalog/finite-groups/elementary/sl-1-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-sl-2-q",
+      "knowl": "catalog/finite-groups/elementary/sl-2-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-sl-3-q",
+      "knowl": "catalog/finite-groups/elementary/sl-3-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-sl-n-q",
+      "knowl": "catalog/finite-groups/elementary/sl-n-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-gl-2-2",
+      "knowl": "catalog/finite-groups/elementary/gl-2-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-sl-2-2",
+      "knowl": "catalog/finite-groups/elementary/sl-2-2",
+      "status": "new"
+    },
+    {
+      "id": "fg-gl-2-3",
+      "knowl": "catalog/finite-groups/elementary/gl-2-3",
+      "status": "new"
+    },
+    {
+      "id": "fg-sl-2-3",
+      "knowl": "catalog/finite-groups/elementary/sl-2-3",
+      "status": "new"
+    },
+    {
+      "id": "fg-heisenberg-1-q",
+      "knowl": "catalog/finite-groups/elementary/heisenberg-1-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-heisenberg-2-q",
+      "knowl": "catalog/finite-groups/elementary/heisenberg-2-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-heisenberg-3-q",
+      "knowl": "catalog/finite-groups/elementary/heisenberg-3-q",
+      "status": "new"
+    },
+    {
+      "id": "fg-heisenberg-n-q",
+      "knowl": "catalog/finite-groups/elementary/heisenberg-n-q",
+      "status": "new"
+    }
+  ],
+  "owner_search": {
+    "searched": [
+      "cyclic-group",
+      "finite-cyclic-isomorphic-zn",
+      "dihedral",
+      "generalized quaternion",
+      "Klein four",
+      "elementary abelian",
+      "finite abelian invariant factors",
+      "symmetric group",
+      "alternating group",
+      "special linear group over ring",
+      "Heisenberg"
+    ],
+    "decisions": [
+      "Reuse general symmetric-group and alternating-group definitions for constrained finite catalogue families.",
+      "Reuse quaternion-group for Q8; do not duplicate its alternate presentation.",
+      "Existing finite-cyclic-isomorphic-zn and classification-finite-abelian-groups own classification theorems; new object definitions link them.",
+      "Finite scalar and fixed dimension GL/SL objects differ from existing groups over real or complex scalars and the universal over-ring construction.",
+      "Dihedral and Klein examples embedded in semidirect/direct-product knowls do not own independent definitions."
+    ]
+  },
+  "sources_inspected": [
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "title": "J. S. Milne, Group Theory, v4.01",
+      "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "title": "J. S. Milne, Group Theory, v4.01",
+      "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "title": "J. S. Milne, Group Theory, v4.01",
+      "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "title": "J. S. Milne, Group Theory, v4.01",
+      "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "title": "J. S. Milne, Group Theory, v4.01",
+      "locator": "Theorem 1.57, p. 26: invariant-factor classification of finite abelian groups"
+    },
+    {
+      "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+      "title": "Peter J. Cameron, Notes on Classical Groups",
+      "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "title": "J. S. Milne, Group Theory, v4.01",
+      "locator": "§6.12(b), p. 93: upper-unitriangular 3 by 3 example; higher-rank formulas are verified directly here"
+    }
+  ]
+}

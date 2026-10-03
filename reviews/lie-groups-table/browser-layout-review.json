@@ -1,0 +1,181 @@
+{
+  "review_type": "Lie-group table layout and browser review",
+  "status": "passed",
+  "preview_url": "https://optiplex.taildb538a.ts.net:8443/catalog/lie-groups/table/",
+  "canonical_data_source": "indexes/catalog.json exported from shared catalogue records; no independent mathematical records in the browser runtime",
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "table_counts": {
+    "series": 9,
+    "classification_cells": 27,
+    "catalogue_entries": 180
+  },
+  "layout_comparison": {
+    "default": "classification",
+    "classification": "The nine-series matrix gives the clearest comparison: each row keeps compact, split-real, and complex choices adjacent, with their dimension fields explicit. Desktop shows all nine rows. On a phone, a series selector exposes the three full-width form cards together without shrinking their symbols.",
+    "all_groups": "The broader family board gives every catalogue object one entry, including tori, additive groups, Heisenberg groups, geometric groups, products, and alternate global forms. Family entries precede fixed examples within each section. This view is better for lookup than for comparing Dynkin types, so it remains the alternate layout.",
+    "pagination": "36 entries per desktop page and 12 per phone page. Family, named-family, field, compactness, and text filters reduce the full catalogue before pagination.",
+    "initial_findings": [
+      "The compiled initial matrix put its first tile at y=631 on desktop and y=664.67 on a 390-pixel phone. The framing and controls consumed too much of the initial viewport.",
+      "The initial phone family board showed 36 cards per page and reached 4624 pixels in height.",
+      "The first family-board page was dominated by small fixed matrix examples rather than the parameterized families."
+    ],
+    "revisions": [
+      "Condensed desktop framing and placed layout/search/filter controls on one row.",
+      "Removed redundant phone framing, shortened scope text, and kept filters beside the search box until expanded.",
+      "Reduced phone catalogue pages to 12 cards and placed family records before their fixed examples.",
+      "Retained large mathematical symbols, rank qualifications, and explicit real/complex dimension notation.",
+      "Made Type A and A_r searches select the actual A-type records; opening a cell permalink selects its phone series before the detail panel opens."
+    ],
+    "mathematical_boundaries": [
+      "The matrix selects precise global groups with the indicated simple Lie-algebra types; it does not enumerate all global groups or all real forms.",
+      "Compact and split columns display real dimensions; the complex column displays complex dimensions. Complete catalogue dimensions remain separately labelled in details.",
+      "Selected rank slices and their owning families have separate parameter, global-form, and property sections.",
+      "Unknown compactness and parameter-dependent compactness have distinct filter values.",
+      "Low-rank family examples use existing fixed-entry isomorphism or covering records. Their endpoints, map kinds, conditions, and recorded categories are preserved; they are clearly separate from maps on the selected slice.",
+      "Full-family property filters switch to the broader catalogue and are cleared when switching back to the Dynkin matrix."
+    ],
+    "final_findings": [
+      "The revised compiled matrix brings the first tile to y=458.14 on desktop and y=473.28 on a 390-pixel phone, improving initial access by 173 and 191 pixels respectively.",
+      "The revised phone family board is 2048 pixels high, down from 4624, while all 180 entries remain reachable exactly once across pagination.",
+      "The matrix is the stronger default for comparing types and forms; the complete family board remains the broader lookup view. Both fit both tested widths with legible notation and qualifications."
+    ]
+  },
+  "completed_checks": {
+    "source_data_suite": "passed",
+    "initial_compiled_suite": "passed",
+    "details_per_viewport": 207,
+    "checks": [
+      "Opened all 180 full-entry cards and all 27 selected-slice cards at both widths.",
+      "Checked definition links, precise selected global forms, and slice dimension fields.",
+      "Checked every directly recorded relation and each displayed family example against its source kind and category.",
+      "Checked every catalogue entry appears once across pagination at both widths.",
+      "Checked search, compactness/field filters, filter-to-matrix transitions, URL restoration, keyboard selection, Escape focus restoration, and a direct D-cell phone permalink.",
+      "No page overflow, detail-panel overflow, KaTeX errors, or browser exceptions."
+    ],
+    "final_https_suite": "passed",
+    "final_https_command": "PREVIEW_URL=https://optiplex.taildb538a.ts.net:8443 LAYOUT_LABEL=final-https node tests/lie_groups_browser_smoke.mjs",
+    "reader_pages_checked": 14,
+    "reader_checks": "At both widths: one reader heading, all knowl sections expanded, no missing knowls, no KaTeX or math-render errors, no document overflow, and no browser exceptions."
+  },
+  "reader_ids": [
+    "catalog",
+    "catalog/created-knowls",
+    "catalog/lie-groups-table-guide",
+    "catalog/lie-groups-index",
+    "lie-groups/classification-simple-lie-algebras",
+    "lie-groups/compact-symplectic-group",
+    "catalog/lie-groups/sl-n-r",
+    "catalog/lie-groups/spin-n-r",
+    "catalog/lie-groups/spin-n-c",
+    "catalog/lie-groups/so-identity-p-q-r",
+    "catalog/lie-groups/so-p-q-r",
+    "catalog/lie-groups/e6-split",
+    "catalog/lie-groups/e8-complex",
+    "catalog/lie-groups/heisenberg-n-c"
+  ],
+  "screenshot_directory": "/home/codex/code/knowlpedia-root/knowlpedia/tmp/lie-groups-layouts",
+  "screenshot_sets": {
+    "initial_source": "initial-*",
+    "initial_compiled": "initial-compiled-*",
+    "revised_source": "revised-*",
+    "revised_compiled_https": "final-https-*"
+  },
+  "visually_inspected": [
+    "initial-classification-1440-viewport.png",
+    "initial-classification-390-viewport.png",
+    "initial-all-390-viewport.png",
+    "initial-compiled-all-1440-viewport.png",
+    "initial-compiled-classification-390-viewport.png",
+    "initial-compiled-classification-dark.png",
+    "revised-classification-1440-viewport.png",
+    "revised-classification-390-viewport.png",
+    "revised-all-390-viewport.png",
+    "final-https-classification-1440-viewport.png",
+    "final-https-classification-1440.png",
+    "final-https-classification-390-viewport.png",
+    "final-https-all-1440-viewport.png",
+    "final-https-all-390-viewport.png",
+    "final-https-classification-dark.png",
+    "final-https-detail-lg-so-identity-p-q-r-390.png",
+    "final-https-low-rank-su-390.png",
+    "final-https-real-category-map-390.png",
+    "final-https-guide-390.png"
+  ],
+  "updated_at": "2026-10-03T01:20:40.975074+00:00",
+  "compiled_layout_measurements": {
+    "initial": [
+      {
+        "width": 1440,
+        "layout": "classification",
+        "pageHeight": 2303,
+        "firstTileTop": 631,
+        "visibleTiles": 27
+      },
+      {
+        "width": 1440,
+        "layout": "all",
+        "pageHeight": 2796,
+        "firstTileTop": 576,
+        "visibleTiles": 36
+      },
+      {
+        "width": 390,
+        "layout": "classification",
+        "pageHeight": 1281,
+        "firstTileTop": 664.671875,
+        "visibleTiles": 3
+      },
+      {
+        "width": 390,
+        "layout": "all",
+        "pageHeight": 4624,
+        "firstTileTop": 570,
+        "visibleTiles": 36
+      }
+    ],
+    "revised_https": [
+      {
+        "width": 1440,
+        "layout": "classification",
+        "pageHeight": 2130,
+        "firstTileTop": 458.140625,
+        "visibleTiles": 27
+      },
+      {
+        "width": 1440,
+        "layout": "all",
+        "pageHeight": 2680,
+        "firstTileTop": 405.546875,
+        "visibleTiles": 36
+      },
+      {
+        "width": 390,
+        "layout": "classification",
+        "pageHeight": 1089,
+        "firstTileTop": 473.28125,
+        "visibleTiles": 3
+      },
+      {
+        "width": 390,
+        "layout": "all",
+        "pageHeight": 2048,
+        "firstTileTop": 415.203125,
+        "visibleTiles": 12
+      }
+    ]
+  },
+  "final_summary": {
+    "detail_panels_checked": 414,
+    "catalogue_entries": 180,
+    "selected_slices": 27,
+    "reader_pages_checked": 14,
+    "reader_viewport_widths": [
+      390,
+      1440
+    ],
+    "remaining_browser_findings": []
+  }
+}

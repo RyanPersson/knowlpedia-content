@@ -6,14 +6,14 @@ summary = "Rational canonical form arises by viewing (V,T) as a module over F[x]
 aliases = ["rcf-from-structure-theorem", "Rational canonical form from the structure theorem"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/rcf-from-structure-theorem.md"
-prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/polynomial-ring", "algebra-rings/field", "linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/module", "linear-algebra/matrix", "convex-analysis/basis-hamel-basis-and-dimension"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-modules/polynomial-module-from-operator", "algebra-rings/polynomial-ring", "algebra-rings/field", "linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/module", "linear-algebra/matrix", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-transcript-review-v1"
+dependency_review_count = 2
 +++
 
 **Rational canonical form from the structure theorem**: Let \(V\) be a finite-dimensional vector space over a field \(F\) and let \(T:V\to V\) be linear. Then there exists a basis of \(V\) for which the matrix of \(T\) is in rational canonical form.
 
-This is an application of the [[algebra-modules/structure-theorem-pid|structure theorem over a PID]] to the [[algebra-rings/polynomial-ring|polynomial ring]] \(F[x]\) (with \(F\) a [[algebra-rings/field|field]]), after encoding a [[linear-algebra/linear-map|linear map]] on a [[linear-algebra/vector-space|vector space]] as a [[algebra-modules/module|module]] structure; see [[algebra-modules/rational-canonical-form-theorem|rational canonical form theorem]].
+This is an application of the [[algebra-modules/structure-theorem-pid|structure theorem over a PID]] to the [[algebra-rings/polynomial-ring|polynomial ring]] \(F[x]\) (with \(F\) a [[algebra-rings/field|field]]), after applying the [[algebra-modules/polynomial-module-from-operator|polynomial-module construction]] to a [[linear-algebra/linear-map|linear map]] on a [[linear-algebra/vector-space|vector space]]; see [[algebra-modules/rational-canonical-form-theorem|rational canonical form theorem]].
 
 ## Equivalent characterizations
 

@@ -1,0 +1,28 @@
+{
+  "id": "catalog-final-scope-review",
+  "checked": "All new catalogue and transcript findings in the complete-corpus concept-scope report",
+  "resolutions": [
+    {
+      "scope": "catalog main navigation, zero-product Jordan pages, and four root category/comparison passages",
+      "action": "Clarified link labels to specify catalogue navigation, exact GL size/field, category conventions or the actual sl2(C) owner. Final scope report has no label-owner mismatches in the catalogue."
+    },
+    {
+      "ids": [
+        "catalog/lie-algebras/sl-1-h",
+        "catalog/lie-algebras/sl-2-h",
+        "catalog/lie-algebras/sl-3-h",
+        "catalog/lie-algebras/sl-n-h"
+      ],
+      "action": "Retained: real-part notation is an indispensable local qualification of quaternionic trace, not a second independently owned definition. See lie-algebras-scope-review.json."
+    },
+    {
+      "id": "algebra-rings/order-in-algebra",
+      "action": "Retained Z-orders as the explicit R=Z, K=Q specialization of the same construction. See transcript-orders-validation.json."
+    }
+  ],
+  "section_audit": {
+    "catalog_files": 520,
+    "result": "pass",
+    "unchanged_corpus_finding": "fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection"
+  }
+}

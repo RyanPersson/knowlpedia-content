@@ -1,0 +1,1426 @@
+{
+  "id": "finite-lie-type",
+  "entries": [
+    {
+      "id": "catalog/finite-groups/lie-type/e6-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8fdd042b594a396239ba45f3c0cc4be231daafa3e85654ee5181c529508982cc",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked E₆(2): The finite Chevalley group of type E₆, with its finite center divided out. Parameter domain: q = 2 Order formula: 214841575522005575270400. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e6-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "41982649dc22bbe1320a530191025bbb7e5724e623821983c52ec6eb7aaea3d3",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked E₆(q): The finite Chevalley group of type E₆, with its finite center divided out. Parameter domain: q is a prime power with q ≥ 2 Order formula: \\frac{q^{36}(q^{2}-1)(q^{5}-1)(q^{6}-1)(q^{8}-1)(q^{9}-1)(q^{12}-1)}{\\gcd(3,q-1)}. Simplicity: It is a nonabelian simple group for every admitted prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e7-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "31bc995e9a271902729d25389499c807675a48ee9309d29ccc0f2802543f4d0e",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked E₇(2): The finite Chevalley group of type E₇, with its finite center divided out. Parameter domain: q = 2 Order formula: 7997476042075799759100487262680802918400. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/E72/",
+          "title": "ATLAS of Finite Group Representations: E₇(2)",
+          "locator": "Group heading: exact order 7997476042075799759100487262680802918400"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e7-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4509d1fe7eb2413f67eebd76710000c5f41b66b92d1cf279146af9e38f98e566",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked E₇(q): The finite Chevalley group of type E₇, with its finite center divided out. Parameter domain: q is a prime power with q ≥ 2 Order formula: \\frac{q^{63}(q^{2}-1)(q^{6}-1)(q^{8}-1)(q^{10}-1)(q^{12}-1)(q^{14}-1)(q^{18}-1)}{\\gcd(2,q-1)}. Simplicity: It is a nonabelian simple group for every admitted prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e8-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "d526eb151f6cd27f60e7afdfeba1cc0bdc22f785bb7bf36b26297c0e51ab74da",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked E₈(2): The finite Chevalley group of type E₈, with its finite center divided out. Parameter domain: q = 2 Order formula: 337804753143634806261388190614085595079991692242467651576160959909068800000. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/E82/",
+          "title": "ATLAS of Finite Group Representations: E₈(2)",
+          "locator": "Group heading: exact order 337804753143634806261388190614085595079991692242467651576160959909068800000"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e8-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "327d21b360b6b2b6c1f51a171bd6aa8f0ee182fccef6707017ac4ea21250fbed",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked E₈(q): The finite Chevalley group of type E₈, with its finite center divided out. Parameter domain: q is a prime power with q ≥ 2 Order formula: q^{120}(q^{2}-1)(q^{8}-1)(q^{12}-1)(q^{14}-1)(q^{18}-1)(q^{20}-1)(q^{24}-1)(q^{30}-1). Simplicity: It is a nonabelian simple group for every admitted prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/f4-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7c6ed78ffc8df24380047d860142b093377cacb843c9daa89fbda673857b0aa7",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked F₄(2): The finite Chevalley group of type F₄, with its finite center divided out. Parameter domain: q = 2 Order formula: 3311126603366400. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/F42/",
+          "title": "ATLAS of Finite Group Representations: F₄(2)",
+          "locator": "Group heading: exact order 3311126603366400"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/f4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "51bfb182d2d0cf88a11507ff07eca7fb42fc49b4a0ac747d42ee2ea1a9ee5e34",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked F₄(q): The finite Chevalley group of type F₄, with its finite center divided out. Parameter domain: q is a prime power with q ≥ 2 Order formula: q^{24}(q^{2}-1)(q^{6}-1)(q^{8}-1)(q^{12}-1). Simplicity: It is a nonabelian simple group for every admitted prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8387862b5e661c903631826af9487a32f254b931fb83d458c57f9f24c99ed4a1",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked the split simply connected model, q-power Frobenius fixed points, quotient by the finite center, and distinction from the adjoint group’s full rational points. Small Chevalley exceptions are listed without an unconditional simplicity claim.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "78591eefc3a4776147e0462916e78d8cc669811bdc3086849693f2f1d10434ab",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked Ω=O(Q)′ and its projective scalar quotient, the explicit nonsingularity convention, hyperbolic/norm-plane models, and characteristic-two odd polar radicals. The text explicitly warns that determinant one alone does not define Ω.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ],
+      "integration_review": "Root reviewed the same orthogonal isometry/derived/projective construction after moving the long O(V,Q) formula to display for phone layout. Added the explicit finite-dimensional hypothesis on V: a finite base field alone does not make its general linear or orthogonal group finite. This matches the finite-dimensional setting of the cited classical-group sources. Prerequisites and all other formulas are unchanged."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-2-derived",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a8754de72433b0b63007fa17d017f4dd4d4518b39c0a449f5e512435dca46887",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked G₂(2) derived subgroup: The commutator subgroup of G₂(2), of index 2. Parameter domain: The commutator subgroup of \\(G_2(2)\\). Order formula: 6048. Simplicity: It is a nonabelian simple group. ATLAS U3(3) explicitly identifies the derived subgroup with PSU₃(3), of order 6048, inside G₂(2)=U₃(3):2.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8b9ea56b93873f7c9e54e3e7d5009692fb87b28c1185ecb890ea34f16f26aa95",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked G₂(2): The finite Chevalley group of type G₂, with its finite center divided out. Parameter domain: q = 2 Order formula: 12096. Simplicity: It is not simple: its commutator subgroup has index two and is isomorphic to PSU(3,3). Steinberg Theorem 5 lists the small exception. ATLAS U3(3) heading and Standard generators explicitly give G₂(2)′=U₃(3), order 6048, and G₂(2)=U₃(3):2. The full group has order 12096 and is not simple.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "afcc177e45f395a68e08d56af1b92b34ad10c50b3d0e0f34e93f4f5e25a2d22f",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked G₂(3): The finite Chevalley group of type G₂, with its finite center divided out. Parameter domain: q = 3 Order formula: 4245696. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "71a6a7e916714b285810a0c328cf945667c5ebe4bebe5e4aa22b9d69df650b94",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked G₂(q): The finite Chevalley group of type G₂, with its finite center divided out. Parameter domain: q is a prime power with q ≥ 3 Order formula: q^{6}(q^{2}-1)(q^{6}-1). Simplicity: It is a nonabelian simple group for every admitted prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "6538e6b210e6062b3ec2bfac5d6975918f13fab8179586bf097ea1b11113195c",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ(3,q): Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 3. Parameter domain: n = 1; q is a prime power with q ≥ 4 Order formula: \\frac{q^{1^2}\\prod_{i=1}^{1}(q^{2i}-1)}{\\gcd(2,q-1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-5-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "41c4bf4199ed43afef8c274776a90ae723bd37fa95dad529909e6befc473ae17",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ(5,q): Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 5. Parameter domain: n = 2; q is a prime power with q ≥ 3 Order formula: \\frac{q^{2^2}\\prod_{i=1}^{2}(q^{2i}-1)}{\\gcd(2,q-1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-7-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "561bf4bcf5ea416a3391d6b38e8e9b96049cce44af791969f985ec83830e2665",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ(7,q): Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 7. Parameter domain: n = 3; q is a prime power with q ≥ 2 Order formula: \\frac{q^{3^2}\\prod_{i=1}^{3}(q^{2i}-1)}{\\gcd(2,q-1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4e4044786889cc90d62c352fdeec84ded309015f667fbf4ab6742878bc55f03c",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ-(2n,q): Projective commutator subgroup of the isometry group of a minus-type quadratic form in dimension 2n. Parameter domain: n ≥ 4; q is a prime power with q ≥ 2 Order formula: \\frac{q^{n(n-1)}(q^{n}+1)\\prod_{i=1}^{n-1}(q^{2i}-1)}{\\gcd(4,q^{n}+1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8dd3e7ba78667a4da596a3c03ce721912ae3af9347103bf4efdcf73a4824acc7",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ-(4,q): Projective commutator subgroup of the isometry group of a minus-type quadratic form in dimension 4. Parameter domain: n = 2; q is a prime power with q ≥ 2 Order formula: \\frac{q^{2(2-1)}(q^{2}+1)\\prod_{i=1}^{2-1}(q^{2i}-1)}{\\gcd(4,q^{2}+1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "47f99ea173c66f6013b7351c4b24c774f46b39a1228d77b7f43abc037525fb43",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ-(6,q): Projective commutator subgroup of the isometry group of a minus-type quadratic form in dimension 6. Parameter domain: n = 3; q is a prime power with q ≥ 2 Order formula: \\frac{q^{3(3-1)}(q^{3}+1)\\prod_{i=1}^{3-1}(q^{2i}-1)}{\\gcd(4,q^{3}+1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c95961acd18efde066ef1599108382f6b2dcc4859a44862276bc3acaed2f9547",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ(2n+1,q): Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 2n+1. Parameter domain: n ≥ 3; q is a prime power with q ≥ 2 Order formula: \\frac{q^{n^2}\\prod_{i=1}^{n}(q^{2i}-1)}{\\gcd(2,q-1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. Cameron Theorems 6.3/6.6 and pp. 73–74 support n≥3, all prime powers, and the symplectic order. Even-characteristic polar radicals are one dimensional and yield the symplectic isomorphism; odd-characteristic Bₙ and Cₙ have equal order but are not isomorphic for n≥3.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5797e04476f15d676eab40591c03c8e436a155d98cc232eaccf25a6629e9c2f5",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ+(2n,q): Projective commutator subgroup of the isometry group of a plus-type quadratic form in dimension 2n. Parameter domain: n ≥ 4; q is a prime power with q ≥ 2 Order formula: \\frac{q^{n(n-1)}(q^{n}-1)\\prod_{i=1}^{n-1}(q^{2i}-1)}{\\gcd(4,q^{n}-1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3f14ad7233061c32daddbdfb088d1a00c0b6d36f03a0ecb6fc0efead74933c89",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ+(4,q): Projective commutator subgroup of the isometry group of a plus-type quadratic form in dimension 4. Parameter domain: n = 2; q is a prime power with q ≥ 3 Order formula: \\frac{q^{2(2-1)}(q^{2}-1)\\prod_{i=1}^{2-1}(q^{2i}-1)}{\\gcd(4,q^{2}-1)}. Simplicity: It is never simple: it is a direct product of two nontrivial copies of PSL(2,q). The O(Q) derived-subgroup convention is used with q≥3. Its projective group is PSL₂(q)×PSL₂(q), so it is never simple. The problematic q=2 full-derived convention is excluded.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b6eb5dcb1be2a3632463d1b96492ddaf5914ad39b0cb64eda385c74586c91ea2",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PΩ+(6,q): Projective commutator subgroup of the isometry group of a plus-type quadratic form in dimension 6. Parameter domain: n = 3; q is a prime power with q ≥ 2 Order formula: \\frac{q^{3(3-1)}(q^{3}-1)\\prod_{i=1}^{3-1}(q^{2i}-1)}{\\gcd(4,q^{3}-1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-1-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "eb48e6077977928b9f4d461c40362c366c9b68c8fed5448272e6c2fe60e9c50c",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(1,q): Determinant-one 1 by 1 matrices over F_q, modulo scalar matrices of determinant one. Parameter domain: q is a prime power Order formula: 1. Simplicity: It is the trivial group, so it is not simple under the nontrivial-group convention. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked. Directly, determinant one in size one forces the identity; the trivial group is excluded from the simple-group category.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "977598a47384715949032df84e622ed7d33b5b31e203bbb06121dee2d68089ae",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,2): Determinant-one 2 by 2 matrices over F_2, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 2 Order formula: 6. Simplicity: It is not simple: PSL(2,2) is isomorphic to S₃. The projective-line action on three points gives S₃ of order 6; it has the proper normal subgroup A₃, so this case is not simple.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9baff4c1a55924a0484957ddce37b61b437745ec53f02681d9d3db1fbd796e19",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,3): Determinant-one 2 by 2 matrices over F_3, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 3 Order formula: 12. Simplicity: It is not simple: PSL(2,3) is isomorphic to A₄. The projective action on four points gives A₄ of order 12; its Klein four subgroup is proper and normal, so this case is not simple.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8e9a41847acbbeb51a9a120c646bc74146952fa33d6bf4f1bcbac8f2a155b0e7",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,4): Determinant-one 2 by 2 matrices over F_4, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 4 Order formula: 60. Simplicity: It is a nonabelian simple group. The five-point action gives A₅, order 60, simple. The relation is not inferred from order alone.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-5",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "112bdabdf769a7095f196e060e05175e2523ce7a3ee40d75d79eccc41be06ba7",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,5): Determinant-one 2 by 2 matrices over F_5, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 5 Order formula: 60. Simplicity: It is a nonabelian simple group. The exceptional identification with A₅ is Cameron Theorem 2.11; the natural projective action has six points, explicitly distinguished from the five-letter identification.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-7",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c498f5fc739e5d2b8cf01a2b3cf8c95e57a1288beebaffb5b3752eda97d6b80a",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,7): Determinant-one 2 by 2 matrices over F_7, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 7 Order formula: 168. Simplicity: It is a nonabelian simple group. Cameron Theorem 2.11 explicitly identifies PSL₂(7) with PSL₃(2).",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-8",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e003a9c0f833df07e3f833a2cc1103e4ac8480109a991c5bb4b77ba71ba751ac",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,8): Determinant-one 2 by 2 matrices over F_8, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 8 Order formula: 504. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-9",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "6e312b36a05abf689c033673b930ef23a6bcedc285f9f5eaf4dcbd119b209d4d",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,9): Determinant-one 2 by 2 matrices over F_9, modulo scalar matrices of determinant one. Parameter domain: n = 2; q = 9 Order formula: 360. Simplicity: It is a nonabelian simple group. Cameron Theorem 2.11 identifies this with A₆, order 360.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c35fceebd8c34748dfc11dfb2dc1be010d72274c23c7a15ad60cf694825fba99",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,q): Determinant-one 2 by 2 matrices over F_q, modulo scalar matrices of determinant one. Parameter domain: n = 2; q is a prime power Order formula: \\frac{q(q^{2}-1)}{\\gcd(2,q-1)}. Simplicity: It is simple exactly when q ≥ 4; q = 2 and q = 3 are the two nonsimple cases. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-q2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4687060e99829c229bc2dd9648818f2144ebee1673e0e9f6d8363f782ebb48d5",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(2,q²): Determinant-one two by two matrices over F_(q²), modulo scalar matrices. Parameter domain: q is a prime power Order formula: \\frac{q^2(q^4-1)}{\\gcd(2,q^2-1)}. Simplicity: It is simple for every admitted prime power q, since q² ≥ 4. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-3-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b3acc54bf96bc3ea43c635356f568f1c9171b11842d261e9b3e6b0056fb16c18",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(3,2): Determinant-one 3 by 3 matrices over F_2, modulo scalar matrices of determinant one. Parameter domain: n = 3; q = 2 Order formula: 168. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-3-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bfecdb85f1bf46b401526f99ef689a09d2b849fc17202a0f15cc987cd72edbe2",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(3,4): Determinant-one 3 by 3 matrices over F_4, modulo scalar matrices of determinant one. Parameter domain: n = 3; q = 4 Order formula: 20160. Simplicity: It is a nonabelian simple group. Cameron pp. 73–74 distinguish PSL₃(4) from PSL₄(2); both orders are 20,160. No isomorphism is recorded.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "111e115ecb178ae0615ebbf9c8feeb4598cb148c7a93751e4c565447d0092cf3",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(3,q): Determinant-one 3 by 3 matrices over F_q, modulo scalar matrices of determinant one. Parameter domain: n = 3; q is a prime power Order formula: \\frac{q^{3}(q^{2}-1)(q^{3}-1)}{\\gcd(3,q-1)}. Simplicity: It is simple for every prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-4-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8511dc24a7086012c0d5fd3997df7b38de8e99db6f8fab3b46deec43aee150c6",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(4,2): Determinant-one 4 by 4 matrices over F_2, modulo scalar matrices of determinant one. Parameter domain: n = 4; q = 2 Order formula: 20160. Simplicity: It is a nonabelian simple group. Cameron Theorem 2.11 gives A₈; the same-order nonisomorphic PSL₃(4) is distinguished.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bec1b9a5381e987dc28f444887cf6a1534856533ca2c6ad265a890c636db6729",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(4,q): Determinant-one 4 by 4 matrices over F_q, modulo scalar matrices of determinant one. Parameter domain: n = 4; q is a prime power Order formula: \\frac{q^{6}(q^{2}-1)(q^{3}-1)(q^{4}-1)}{\\gcd(4,q-1)}. Simplicity: It is simple for every prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "37fbcf24a5166bfb8e8fff6d501e6fcf557abec1c90f4bcde1e7ad8a43a80487",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSL(n,q): Determinant-one n by n matrices over F_q, modulo scalar matrices of determinant one. Parameter domain: n ≥ 2; q is a prime power; (n,q) ≠ (2,2),(2,3) Order formula: \\frac{q^{n(n-1)/2}\\prod_{i=2}^{n}(q^i-1)}{\\gcd(n,q-1)}. Simplicity: It is simple for every admitted parameter: n ≥ 2, with (n,q) different from (2,2) and (2,3). The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "060b0c0cb0208d385d6711e15b7f57067658bbffec42c5272ea691f40378e36f",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(2,q): Symplectic matrices of size 2 over F_q, modulo the scalar center. Parameter domain: n = 1; q is a prime power Order formula: \\frac{q(q^{2}-1)}{\\gcd(2,q-1)}. Simplicity: It is simple exactly when q ≥ 4. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-2n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "eeb5ef14b9c50a9f2a1e2b692134d4dfd6a056236e43c010ad0888b681eee31e",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(2n,q): Symplectic matrices of size 2n over F_q, modulo the scalar center. Parameter domain: n ≥ 2; q is a prime power; (n,q) ≠ (2,2) Order formula: \\frac{q^{n^2}\\prod_{i=1}^{n}(q^{2i}-1)}{\\gcd(2,q-1)}. Simplicity: It is simple for every admitted parameter: n ≥ 2 and (n,q) ≠ (2,2). The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f82fd07129dd7ce1f395af16672471c40fa4351d211d4c80029738e8b02aa6d6",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(4,2) derived subgroup: The commutator subgroup of PSp(4,2), of index 2. Parameter domain: The commutator subgroup of \\(\\operatorname{PSp}_{4}(2)\\). Order formula: 360. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "5ce51f83b9c5316cdc2eac08fa0ff2a3e471bca7558a8caa3db1bbe2927be6f5",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(4,2): Symplectic matrices of size 4 over F_2, modulo the scalar center. Parameter domain: n = 2; q = 2 Order formula: 720. Simplicity: It is not simple: PSp(4,2) is isomorphic to S₆. Cameron §4.2, p. 51 identifies Sp₄(2) with S₆ by its action on six minus-type quadratic forms. Its derived subgroup is A₆, index two. Excluded from the simple-family tile.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e56ad1a962a9c6072a76520961da2e31e8392d0e3b134c7cb2f014f07f948ae0",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(4,3): Symplectic matrices of size 4 over F_3, modulo the scalar center. Parameter domain: n = 2; q = 3 Order formula: 25920. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c1523d4ed15fa9b51b9842ce6631a40a25fcf090de6d0b4f8c483467346ff931",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(4,q): Symplectic matrices of size 4 over F_q, modulo the scalar center. Parameter domain: n = 2; q is a prime power Order formula: \\frac{q^{4}(q^{2}-1)(q^{4}-1)}{\\gcd(2,q-1)}. Simplicity: It is simple exactly when q ≥ 3. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-6-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9b9774d5d6fa45765054c6503d269c139cfd8d937b32787dbba631e23429818a",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSp(6,q): Symplectic matrices of size 6 over F_q, modulo the scalar center. Parameter domain: n = 3; q is a prime power Order formula: \\frac{q^{9}(q^{2}-1)(q^{4}-1)(q^{6}-1)}{\\gcd(2,q-1)}. Simplicity: It is simple for every prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-1-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "60aeeedad2e44ba3091be9a8616d3a00291dce6e18442aff08bf3cc0e27a48c8",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(1,q): Special unitary 1 by 1 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter. Parameter domain: q is a prime power Order formula: 1. Simplicity: It is the trivial group, so it is not simple under the nontrivial-group convention. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked. Directly, determinant one in size one forces the identity; the trivial group is excluded from the simple-group category.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "76c2974b661ae8ad7ec6a17ee91438e290d3a900686c545f6cd34de401979b2e",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(2,q): Special unitary 2 by 2 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter. Parameter domain: n = 2; q is a prime power Order formula: \\frac{q(q^{2}-1)}{\\gcd(2,q+1)}. Simplicity: It is simple exactly when q ≥ 4, since PSU(2,q) is isomorphic to PSL(2,q). The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked. The A₁ diagram has no nontrivial graph symmetry, so no extra twisted ²A₁ family is invented; PSU₂(q)=PSL₂(q).",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-3-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "60911efa0ded60af0896599ea7ca67fecc74b304370e2fb120e3984892826014",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(3,2): Special unitary 3 by 3 matrices over F_(2²), modulo their scalar center; 2 is the fixed-field parameter. Parameter domain: n = 3; q = 2 Order formula: 72. Simplicity: It is not simple: PSU(3,2) is a solvable group of order 72. Cameron §5.3 and Wilson §3.3 give the exceptional solvable PSU₃(2), with order 2³(2³+1)(2²−1)/gcd(3,3)=72. Excluded from the simple-family tile.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-3-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "6fdb5bb6a2c97b35813363b0ebba6d78962f11c9dc3c9f7a1f99155aa46cc5b1",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(3,3): Special unitary 3 by 3 matrices over F_(3²), modulo their scalar center; 3 is the fixed-field parameter. Parameter domain: n = 3; q = 3 Order formula: 6048. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "97d4b30350309e597849c21c7cff41dc875a0f25f24afbe106e8469d6e5c171a",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(3,q): Special unitary 3 by 3 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter. Parameter domain: n = 3; q is a prime power Order formula: \\frac{q^{3}(q^{2}-1)(q^{3}+1)}{\\gcd(3,q+1)}. Simplicity: It is simple exactly when q ≥ 3. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-4-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bc1197715190acdd4574ec17a2f9d16a4af486c8f7202d0b5a04cbd4ea8ee2a6",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(4,2): Special unitary 4 by 4 matrices over F_(2²), modulo their scalar center; 2 is the fixed-field parameter. Parameter domain: n = 4; q = 2 Order formula: 25920. Simplicity: It is a nonabelian simple group. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0a31d34ba7d29009da1bfcd7129d5e1f9ced373336ac5aa6dfdde18f98ee98d2",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(4,q): Special unitary 4 by 4 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter. Parameter domain: n = 4; q is a prime power Order formula: \\frac{q^{6}(q^{2}-1)(q^{3}+1)(q^{4}-1)}{\\gcd(4,q+1)}. Simplicity: It is simple for every prime power q. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bd3ae78a5a3d2a468b83fc8abd25fb915e55420844f39c31449ee0e79bca365c",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked PSU(n,q): Special unitary n by n matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter. Parameter domain: n ≥ 3; q is a prime power; (n,q) ≠ (3,2) Order formula: \\frac{q^{n(n-1)/2}\\prod_{i=2}^{n}(q^i-(-1)^i)}{\\gcd(n,q+1)}. Simplicity: It is simple for every admitted parameter: n ≥ 3 and (n,q) ≠ (3,2). The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-f4-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e5a712e1c38de4522274f63292a721da71b99539d752eec5bb7072a2df232328",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²F₄(2): Fixed points of the exceptional F4 endomorphism composed with Frobenius in characteristic 2. Parameter domain: q = 2; m = 0 Order formula: 35942400. Simplicity: It is not simple: its commutator subgroup is the simple Tits group, of index two. Wilson §5.3 and Steinberg Theorem 34 distinguish ²F₄(2), order 35942400, from its simple derived subgroup of index two.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8146ccbe0e7f23e2b2b917f853dd0df955c053101968bd07d2bbdc294abf6c03",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²F₄(8): Fixed points of the exceptional F4 endomorphism composed with Frobenius in characteristic 2. Parameter domain: q = 8; m = 1 Order formula: 264905352699586176614400. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "060c44dcfdd3bf5c375065f572cb6a167ad6657bdec1df94a358bb38da085f4e",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²F₄(q): Fixed points of the exceptional F4 endomorphism composed with Frobenius in characteristic 2. Parameter domain: q = 2^(2m+1); m is an integer ≥ 1 Order formula: q^{12}(q^6+1)(q^4-1)(q^3+1)(q-1). Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8f3c8648aee63600e4040ad1d8d6db62bca4101e3f2ca2d14d11992925c72ae7",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²G₂(27): Fixed points of the exceptional G2 endomorphism composed with Frobenius in characteristic 3. Parameter domain: q = 27; m = 1 Order formula: 10073444472. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/R27/",
+          "title": "ATLAS of Finite Group Representations: ²G₂(27)",
+          "locator": "Group heading: exact order 10073444472"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ac3eca5e56332fcf67ceb54ed834fd7f174064dd2d5965a70129aa584942087e",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²G₂(3) derived subgroup: The commutator subgroup of ²G₂(3), of index 3. Parameter domain: The commutator subgroup of \\({}^2G_2(3)\\). Order formula: 504. Simplicity: It is a nonabelian simple group. Wilson §5.3 identifies the derived subgroup with PSL₂(8), order 504, and its index three in ²G₂(3).",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a4f1913c22a23e5711d31608954f553047a1752ad1b12fd65e748c90d16ba354",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²G₂(3): Fixed points of the exceptional G2 endomorphism composed with Frobenius in characteristic 3. Parameter domain: q = 3; m = 0 Order formula: 1512. Simplicity: It is not simple: its commutator subgroup is PSL(2,8), of index three. Wilson §5.3 and Steinberg Theorem 34 give order 1512 and a derived subgroup PSL₂(8), of index three. This full group is not simple.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ab146f963edfc3265567b62a8667b96a00d90d5e09080b8e8e304395f411cabc",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²G₂(q): Fixed points of the exceptional G2 endomorphism composed with Frobenius in characteristic 3. Parameter domain: q = 3^(2m+1); m is an integer ≥ 1 Order formula: q^3(q^3+1)(q-1). Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "d7faa8c9f78cac0203ce9e4d00cf931dcd166faf5b87981d22d2089fc9c02916",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked the F^a=F_(p^b) finite-fixed-point construction, finite central quotient, graph twists versus exceptional Suzuki–Ree endomorphisms, and the q versus q²/q³ notation convention.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/sz-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "8dc9ac241e5ad4d6b87c94eb56258c6ba13d6e9146bfbf182a1e9e698c95a382",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked Sz(2): Fixed points of the exceptional B2 endomorphism composed with Frobenius in characteristic 2. Parameter domain: q = 2; m = 0 Order formula: 20. Simplicity: It is not simple: Sz(2) is a solvable Frobenius group of order 20. Wilson §5.3 gives Sz(2) as the Frobenius group of order 20, C₅⋊C₄ with faithful action; it is solvable, not simple. The exceptional endomorphism at m=0 is retained.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/sz-8",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ebc6c252db19ac0e8211b3afff83dcfa3b0a076fc06024ca118f2b09bceb2813",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked Sz(8): Fixed points of the exceptional B2 endomorphism composed with Frobenius in characteristic 2. Parameter domain: q = 8; m = 1 Order formula: 29120. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/sz-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "53d3e2f2f94cd83da69e22af0aa51c4c83e124e1b529ca37730ce4b975ddef81",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked Sz(q): Fixed points of the exceptional B2 endomorphism composed with Frobenius in characteristic 2. Parameter domain: q = 2^(2m+1); m is an integer ≥ 1 Order formula: q^2(q^2+1)(q-1). Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/tits",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f1fcd711a2288864532a66617e16e3a47c4fb5dc2eacdfb6f1d5f01942af3a33",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked Tits group: The commutator subgroup of ²F₄(2), of index 2. Parameter domain: The commutator subgroup of \\({}^2F_4(2)\\). Order formula: 17971200. Simplicity: It is a nonabelian simple group. Wilson §5.3 establishes simplicity of the derived subgroup and index two. ATLAS Tits group heading confirms 17971200 = 2^11·3^3·5²·13. This is the separate Tits role, not an additional sporadic group.",
+      "sources": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/group/TF42/",
+          "title": "ATLAS of Finite Group Representations: Tits group",
+          "locator": "Group heading: order 17,971,200 = 2^11·3^3·5^2·13; extension 2F4(2)′.2"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ad10eee72c634f9efb50273987f95d180cfb330fdfa6db2ab426abbdcaf55963",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ³D₄(2): Fixed points of a diagram automorphism of order 3 composed with q-power Frobenius, modulo the finite center. Parameter domain: q = 2 Order formula: 211341312. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/TD42/",
+          "title": "ATLAS of Finite Group Representations: ³D₄(2)",
+          "locator": "Group heading: exact order 211341312"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f6dce911343b99854400a3e5403a51a04fbd37cab4cfb9a6e876ab996c5e2824",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ³D₄(q): Fixed points of a diagram automorphism of order 3 composed with q-power Frobenius, modulo the finite center. Parameter domain: q is a prime power Order formula: q^{12}(q^8+q^4+1)(q^6-1)(q^2-1). Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "c80283dc3aa30a74c98cfd4bff9d9499863bc220f2f887a702edf6bb19d7ec31",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²E₆(2): Fixed points of a diagram automorphism of order 2 composed with q-power Frobenius, modulo the finite center. Parameter domain: q = 2 Order formula: 76532479683774853939200. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/TE62/",
+          "title": "ATLAS of Finite Group Representations: ²E₆(2)",
+          "locator": "Group heading: exact order 76532479683774853939200"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e7e61cfd9836f8329f5989b4ca5cfe81f7c8a73d440be75e1c0d8a6d31465fa6",
+      "bounded_scope": "Defining construction, parameter and center conventions, displayed group order, stated simplicity range, and listed small-case identifications. This is not a full review of the prerequisite source chain or a formal proof.",
+      "evidence": "Checked ²E₆(q): Fixed points of a diagram automorphism of order 2 composed with q-power Frobenius, modulo the finite center. Parameter domain: q is a prime power Order formula: \\frac{q^{36}(q^{12}-1)(q^9+1)(q^8-1)(q^6-1)(q^5+1)(q^2-1)}{\\gcd(3,q+1)}. Simplicity: It is a nonabelian simple group for every admitted parameter. The cited family theorem and order formula were specialized only within the displayed rank and field domain; the finite-center divisor and matrix-field convention were checked.",
+      "sources": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    }
+  ]
+}

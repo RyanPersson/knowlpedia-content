@@ -1,0 +1,728 @@
+{
+  "id": "finite-sporadic-pariahs",
+  "lane": "sporadic-pariahs",
+  "matrix_sanity_checks": [
+    {
+      "group": "J1",
+      "dataset": "J1G1-f11r7B0",
+      "field": 11,
+      "matrix_dimension": 7,
+      "generator_ranks": [
+        7,
+        7
+      ],
+      "exact_element_orders": {
+        "A": 2,
+        "B": 3,
+        "AB": 7
+      },
+      "passed": true,
+      "complete_J1_presentation_relators_checked": true
+    },
+    {
+      "group": "ON",
+      "dataset": "ONG1-f3r154B0",
+      "field": 3,
+      "matrix_dimension": 154,
+      "generator_ranks": [
+        154,
+        154
+      ],
+      "exact_element_orders": {
+        "A": 2,
+        "B": 4,
+        "AB": 11
+      },
+      "passed": true
+    },
+    {
+      "group": "J3",
+      "dataset": "J3G1-f2r80B0",
+      "field": 2,
+      "matrix_dimension": 80,
+      "generator_ranks": [
+        80,
+        80
+      ],
+      "exact_element_orders": {
+        "A": 2,
+        "B": 3,
+        "AB": 19
+      },
+      "passed": true
+    },
+    {
+      "group": "Ru",
+      "dataset": "RuG1-f2r28B0",
+      "field": 2,
+      "matrix_dimension": 28,
+      "generator_ranks": [
+        28,
+        28
+      ],
+      "exact_element_orders": {
+        "A": 2,
+        "B": 4,
+        "AB": 13
+      },
+      "passed": true
+    },
+    {
+      "group": "J4",
+      "dataset": "J4G1-f2r112B0",
+      "field": 2,
+      "matrix_dimension": 112,
+      "generator_ranks": [
+        112,
+        112
+      ],
+      "exact_element_orders": {
+        "A": 2,
+        "B": 4,
+        "AB": 37
+      },
+      "passed": true
+    },
+    {
+      "group": "Ly",
+      "dataset": "LyG1-f5r111B0",
+      "field": 5,
+      "matrix_dimension": 111,
+      "generator_ranks": [
+        111,
+        111
+      ],
+      "exact_element_orders": {
+        "A": 2,
+        "B": 5,
+        "AB": 14
+      },
+      "passed": true
+    }
+  ],
+  "downloaded_generator_sources": [
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J1/mtx/J1G1-f11r7B0.m1",
+      "sha256": "e15683beeb164a0434c5be661e347910f54292b8a0bb06642cb1d1325bcb73c9",
+      "bytes": 175,
+      "locator": "Complete MeatAxe mode-3 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J1/mtx/J1G1-f11r7B0.m2",
+      "sha256": "5215b266b1eb1ea791210d41a943a91329225aa3badd54bf5f74962b6dfbb807",
+      "bytes": 175,
+      "locator": "Complete MeatAxe mode-3 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/ON/mtx/ONG1-f3r154B0.m1",
+      "sha256": "af214ace93f8d75ea83612a035f2366e821eb2f86b1231317946861dc6792f8d",
+      "bytes": 24045,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/ON/mtx/ONG1-f3r154B0.m2",
+      "sha256": "5461fa1eb1a48a933696e98e3ca7734f2a0fd048c1b5e38a4d38700816280f89",
+      "bytes": 24045,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J3/mtx/J3G1-f2r80B0.m1",
+      "sha256": "d76c901b460250877724b15e6bc24acabbd93e8a84ae53946174bbf6d3ff4df4",
+      "bytes": 6501,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J3/mtx/J3G1-f2r80B0.m2",
+      "sha256": "10075c8742ff5a3d388b215c741c204029b374b2eb15b712045ae2296fa42077",
+      "bytes": 6501,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/Ru/mtx/RuG1-f2r28B0.m1",
+      "sha256": "90fdc2cc19d14f86aa9e222441ca0d5da4ea6dd6bd21338f218d51d908643c15",
+      "bytes": 2349,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/Ru/mtx/RuG1-f2r28B0.m2",
+      "sha256": "2066fe9ad569fb4a4b7df0d7cd755df613265d71fce73059021159dc4b81193d",
+      "bytes": 2349,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J4/mtx/J4G1-f2r112B0.m1",
+      "sha256": "6320ac1b9801abc409f5ca77ad417da980131003be2cb07d39b2453de3e2c87b",
+      "bytes": 12789,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J4/mtx/J4G1-f2r112B0.m2",
+      "sha256": "4988c24906fabbe00a58a914cfe2d739df26264021d19d9fec168529d64d03f2",
+      "bytes": 12789,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/Ly/mtx/LyG1-f5r111B0.m1",
+      "sha256": "103c658ca3b39d9eb1eabca3675dc4edb1db216a2299f3f30d638a018770abbd",
+      "bytes": 18063,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/Ly/mtx/LyG1-f5r111B0.m2",
+      "sha256": "e287afb8f3dc46d0737273911cc425909240301b10a53661fa0362b580105464",
+      "bytes": 18063,
+      "locator": "Complete MeatAxe mode-1 matrix; header field and row/column dimensions, then row-major entries."
+    }
+  ],
+  "verification_limit": "These computations check source-data dimensions, invertibility, exact listed element orders, and the five complete J1 relators. They do not independently prove total group order, simplicity, or the correctness of the presentation as a presentation of J1.",
+  "review_type": "targeted, dependencies and interlinks; not a full corpus review",
+  "sources_checked_on": "2026-10-02",
+  "source_page_hashes": [
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+      "title": "ATLAS of Finite Group Representations: sporadic groups",
+      "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly",
+      "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/J1G1-P1",
+      "title": "ATLAS: J1 presentation J1G1-P1",
+      "locator": "About this presentation; all five relators on standard generators",
+      "sha256": "c56c85ce18de7588bad89895a1a2288fada58690d8a538549f44a131a0f9ea4a"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/J1/mag/J1G1-P1.M",
+      "title": "ATLAS J1 complete presentation, Magma source",
+      "locator": "Entire file: five relators; x,y renamed a,b in the knowl",
+      "sha256": "d59534c449adee5461053f262627c77b3ffce57e2b25741dcdfecf9c030c9ae4"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J1/",
+      "title": "ATLAS: First Janko group",
+      "locator": "Order heading and representations of the simple group",
+      "sha256": "67021f419dc1ddc34ae0c51e9391adc6e8a01fb66f393d45964669279034d92b"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/J1G1-f11r7B0",
+      "title": "ATLAS: representation J1G1-f11r7B0",
+      "locator": "About this representation: group J1, dimension 7, field GF(11); Download, the two MeatAxe text matrices",
+      "sha256": "3a897109d148462e26a1f2c2110169a2de62d9e473b66e9976d5c8044addbaba"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/ON/",
+      "title": "ATLAS: O'Nan group",
+      "locator": "Order heading and representations of the simple group; Maximal subgroups of O'N, J1 row",
+      "sha256": "e6abf9ff824b24205e8dec185646e92a9a93ff5640b9a52ab0283564e5ae3100"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/ONG1-f3r154B0",
+      "title": "ATLAS: representation ONG1-f3r154B0",
+      "locator": "About this representation: group ON, dimension 154, field GF(3); Download, the two MeatAxe text matrices",
+      "sha256": "87ea42eaba7a0ff821cb63ff0d1b91de7fe26cb24175698c74b1cebd9c9f05c3"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J3/",
+      "title": "ATLAS: Third Janko group",
+      "locator": "Order heading and representations of the simple group",
+      "sha256": "fcf41712f8d7a2c91423f0961b315277fef5e345821952c5b7bb945d3af26abf"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/J3G1-f2r80B0",
+      "title": "ATLAS: representation J3G1-f2r80B0",
+      "locator": "About this representation: group J3, dimension 80, field GF(2); Download, the two MeatAxe text matrices",
+      "sha256": "82f081fd0a0e9c20180f447047fcfa7c91930f87d91e9f96353c4b756f14c867"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Ru/",
+      "title": "ATLAS: Rudvalis group",
+      "locator": "Order heading and representations of the simple group",
+      "sha256": "acf119adba2b10f59b771dc636663e7d8db6afcbc6b9aec95c6ebf8195962696"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/RuG1-f2r28B0",
+      "title": "ATLAS: representation RuG1-f2r28B0",
+      "locator": "About this representation: group Ru, dimension 28, field GF(2); Download, the two MeatAxe text matrices",
+      "sha256": "18f19cdb7f353e487e8f8110cbcf6c26763fbcbaa3942c3f70b64d0e9a5cc088"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J4/",
+      "title": "ATLAS: Fourth Janko group",
+      "locator": "Order heading and representations of the simple group",
+      "sha256": "897a248d50e9a348c852ef6280faa7c9ab83569126d1122901c9feb180fc1bad"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/J4G1-f2r112B0",
+      "title": "ATLAS: representation J4G1-f2r112B0",
+      "locator": "About this representation: group J4, dimension 112, field GF(2); Download, the two MeatAxe text matrices",
+      "sha256": "ae14d89b763bec989dfce8b04a550137269a3eb11757770f9d17c6421760ce1d"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Ly/",
+      "title": "ATLAS: Lyons group",
+      "locator": "Order heading and representations of the simple group",
+      "sha256": "d410aebd7f4d961b909e9f1bac35dc3dea8ccae5f0f126a242f6399a8eac6a32"
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/LyG1-f5r111B0",
+      "title": "ATLAS: representation LyG1-f5r111B0",
+      "locator": "About this representation: group Ly, dimension 111, field GF(5); Download, the two MeatAxe text matrices",
+      "sha256": "c333e56fbb94457dd2f1a8a497e6317abb7826ae5a97e1ddeff2f5d49eed395c"
+    }
+  ],
+  "entries": [
+    {
+      "id": "catalog/finite-groups/sporadic/j1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0d94ed52289727bd0b78f0003eb128584b9922faacd8bff92b9996de8a8e2b27",
+      "targeted_claims": [
+        "Concrete definition and complete defining data",
+        "Order and prime factorization",
+        "Nonabelian simplicity and display grouping",
+        "Central-cover distinction where stated",
+        "Existence of a maximal J1 subgroup in O'N and its index"
+      ],
+      "evidence": "Transcribed all five relators from J1G1-P1.M, with c=abab^{-1} as a declared abbreviation; the specified 7-dimensional ATLAS matrices satisfy all five relators. Checked group identity, representation field/degree where used, exact order and factorization, and pariah display membership against the cited ATLAS sections. Total order and simplicity remain literature claims, not new computational proofs.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J1/",
+          "title": "ATLAS: First Janko group",
+          "locator": "Order heading and representations of the simple group"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/J1G1-P1",
+          "title": "ATLAS: J1 presentation J1G1-P1",
+          "locator": "About this presentation; all five relators on standard generators"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/ON/",
+          "title": "ATLAS: O'Nan group",
+          "locator": "Maximal subgroups of O'N: J1, order 175560, index 2624832"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d94ed52289727bd0b78f0003eb128584b9922faacd8bff92b9996de8a8e2b27",
+      "prerequisites": [
+        "algebra-groups/group-presentation"
+      ],
+      "evidence": "The complete prerequisite list was checked against the core definition. Simplicity, comparison, and subgroup-result links occur in optional sections and are not prerequisites for constructing the group. The ambient GL over a finite field is defined locally because the existing GL knowl is restricted to real/complex vector spaces.",
+      "provenance": {
+        "algebra-groups/group-presentation": "Core explicitly defines J1 by a quotient presentation; complete canonical prerequisite read."
+      }
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/on",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "90c6d402dd3c625c415357144a6eed691b970efdc7a11256e1bf101c02f287b1",
+      "targeted_claims": [
+        "Concrete definition and complete defining data",
+        "Order and prime factorization",
+        "Nonabelian simplicity and display grouping",
+        "Central-cover distinction where stated",
+        "Existence of a maximal J1 subgroup in O'N and its index"
+      ],
+      "evidence": "The exact source matrix files were downloaded, hashed, parsed over the stated prime field, and checked for full rank and listed exact generator orders. Checked group identity, representation field/degree where used, exact order and factorization, and pariah display membership against the cited ATLAS sections. Total order and simplicity remain literature claims, not new computational proofs.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/ON/",
+          "title": "ATLAS: O'Nan group",
+          "locator": "Order heading and representations of the simple group; Maximal subgroups of O'N, J1 row"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/ONG1-f3r154B0",
+          "title": "ATLAS: representation ONG1-f3r154B0",
+          "locator": "About this representation: group ON, dimension 154, field GF(3); Download, the two MeatAxe text matrices"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/ON/",
+          "title": "ATLAS: O'Nan group",
+          "locator": "Maximal subgroups of O'N: J1, order 175560, index 2624832"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/on",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90c6d402dd3c625c415357144a6eed691b970efdc7a11256e1bf101c02f287b1",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "The complete prerequisite list was checked against the core definition. Simplicity, comparison, and subgroup-result links occur in optional sections and are not prerequisites for constructing the group. The ambient GL over a finite field is defined locally because the existing GL knowl is restricted to real/complex vector spaces.",
+      "provenance": {
+        "algebra-groups/generated-subgroup": "Core defines the subgroup generated by a specified pair; complete canonical prerequisite read.",
+        "linear-algebra/matrix": "Core uses square matrices and their multiplication; complete canonical prerequisite read.",
+        "algebra-fields-galois/finite-field": "Core arithmetic is over the specified prime field; complete canonical prerequisite read."
+      }
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e848a413b45eb1dde749a666ecf5aa2dd75e666ee85573a9eabb97c6b644ba12",
+      "targeted_claims": [
+        "Concrete definition and complete defining data",
+        "Order and prime factorization",
+        "Nonabelian simplicity and display grouping",
+        "Central-cover distinction where stated"
+      ],
+      "evidence": "The exact source matrix files were downloaded, hashed, parsed over the stated prime field, and checked for full rank and listed exact generator orders. Checked group identity, representation field/degree where used, exact order and factorization, and pariah display membership against the cited ATLAS sections. Total order and simplicity remain literature claims, not new computational proofs.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J3/",
+          "title": "ATLAS: Third Janko group",
+          "locator": "Order heading and representations of the simple group"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/J3G1-f2r80B0",
+          "title": "ATLAS: representation J3G1-f2r80B0",
+          "locator": "About this representation: group J3, dimension 80, field GF(2); Download, the two MeatAxe text matrices"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e848a413b45eb1dde749a666ecf5aa2dd75e666ee85573a9eabb97c6b644ba12",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "The complete prerequisite list was checked against the core definition. Simplicity, comparison, and subgroup-result links occur in optional sections and are not prerequisites for constructing the group. The ambient GL over a finite field is defined locally because the existing GL knowl is restricted to real/complex vector spaces.",
+      "provenance": {
+        "algebra-groups/generated-subgroup": "Core defines the subgroup generated by a specified pair; complete canonical prerequisite read.",
+        "linear-algebra/matrix": "Core uses square matrices and their multiplication; complete canonical prerequisite read.",
+        "algebra-fields-galois/finite-field": "Core arithmetic is over the specified prime field; complete canonical prerequisite read."
+      }
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/ru",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "59bc016547a69570014180f2a2679c3082a946ba4ac3783fd1dabb4eea044e88",
+      "targeted_claims": [
+        "Concrete definition and complete defining data",
+        "Order and prime factorization",
+        "Nonabelian simplicity and display grouping",
+        "Central-cover distinction where stated"
+      ],
+      "evidence": "The exact source matrix files were downloaded, hashed, parsed over the stated prime field, and checked for full rank and listed exact generator orders. Checked group identity, representation field/degree where used, exact order and factorization, and pariah display membership against the cited ATLAS sections. Total order and simplicity remain literature claims, not new computational proofs.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Ru/",
+          "title": "ATLAS: Rudvalis group",
+          "locator": "Order heading and representations of the simple group"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/RuG1-f2r28B0",
+          "title": "ATLAS: representation RuG1-f2r28B0",
+          "locator": "About this representation: group Ru, dimension 28, field GF(2); Download, the two MeatAxe text matrices"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/ru",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59bc016547a69570014180f2a2679c3082a946ba4ac3783fd1dabb4eea044e88",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "The complete prerequisite list was checked against the core definition. Simplicity, comparison, and subgroup-result links occur in optional sections and are not prerequisites for constructing the group. The ambient GL over a finite field is defined locally because the existing GL knowl is restricted to real/complex vector spaces.",
+      "provenance": {
+        "algebra-groups/generated-subgroup": "Core defines the subgroup generated by a specified pair; complete canonical prerequisite read.",
+        "linear-algebra/matrix": "Core uses square matrices and their multiplication; complete canonical prerequisite read.",
+        "algebra-fields-galois/finite-field": "Core arithmetic is over the specified prime field; complete canonical prerequisite read."
+      }
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j4",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f1a15d5dde39bfd351c0b012ac736b6afbddea0494d3cacc821d49f7717f458f",
+      "targeted_claims": [
+        "Concrete definition and complete defining data",
+        "Order and prime factorization",
+        "Nonabelian simplicity and display grouping",
+        "Central-cover distinction where stated"
+      ],
+      "evidence": "The exact source matrix files were downloaded, hashed, parsed over the stated prime field, and checked for full rank and listed exact generator orders. Checked group identity, representation field/degree where used, exact order and factorization, and pariah display membership against the cited ATLAS sections. Total order and simplicity remain literature claims, not new computational proofs.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J4/",
+          "title": "ATLAS: Fourth Janko group",
+          "locator": "Order heading and representations of the simple group"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/J4G1-f2r112B0",
+          "title": "ATLAS: representation J4G1-f2r112B0",
+          "locator": "About this representation: group J4, dimension 112, field GF(2); Download, the two MeatAxe text matrices"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1a15d5dde39bfd351c0b012ac736b6afbddea0494d3cacc821d49f7717f458f",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "The complete prerequisite list was checked against the core definition. Simplicity, comparison, and subgroup-result links occur in optional sections and are not prerequisites for constructing the group. The ambient GL over a finite field is defined locally because the existing GL knowl is restricted to real/complex vector spaces.",
+      "provenance": {
+        "algebra-groups/generated-subgroup": "Core defines the subgroup generated by a specified pair; complete canonical prerequisite read.",
+        "linear-algebra/matrix": "Core uses square matrices and their multiplication; complete canonical prerequisite read.",
+        "algebra-fields-galois/finite-field": "Core arithmetic is over the specified prime field; complete canonical prerequisite read."
+      }
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/ly",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "38417f2c6488091e7a19052319c67e5cbae31b33b3ac7aa3b5efe904e4d2b578",
+      "targeted_claims": [
+        "Concrete definition and complete defining data",
+        "Order and prime factorization",
+        "Nonabelian simplicity and display grouping",
+        "Central-cover distinction where stated"
+      ],
+      "evidence": "The exact source matrix files were downloaded, hashed, parsed over the stated prime field, and checked for full rank and listed exact generator orders. Checked group identity, representation field/degree where used, exact order and factorization, and pariah display membership against the cited ATLAS sections. Total order and simplicity remain literature claims, not new computational proofs.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Ly/",
+          "title": "ATLAS: Lyons group",
+          "locator": "Order heading and representations of the simple group"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/LyG1-f5r111B0",
+          "title": "ATLAS: representation LyG1-f5r111B0",
+          "locator": "About this representation: group Ly, dimension 111, field GF(5); Download, the two MeatAxe text matrices"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Pariahs display block: J1, O'N, J3, Ru, J4, Ly"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/ly",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38417f2c6488091e7a19052319c67e5cbae31b33b3ac7aa3b5efe904e4d2b578",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "The complete prerequisite list was checked against the core definition. Simplicity, comparison, and subgroup-result links occur in optional sections and are not prerequisites for constructing the group. The ambient GL over a finite field is defined locally because the existing GL knowl is restricted to real/complex vector spaces.",
+      "provenance": {
+        "algebra-groups/generated-subgroup": "Core defines the subgroup generated by a specified pair; complete canonical prerequisite read.",
+        "linear-algebra/matrix": "Core uses square matrices and their multiplication; complete canonical prerequisite read.",
+        "algebra-fields-galois/finite-field": "Core arithmetic is over the specified prime field; complete canonical prerequisite read."
+      }
+    }
+  ],
+  "manifest": [
+    {
+      "object_id": "fg-j1",
+      "knowl": "catalog/finite-groups/sporadic/j1",
+      "path": "content/catalog/finite-groups/sporadic/j1.knowl.md",
+      "source_sha256": "0d94ed52289727bd0b78f0003eb128584b9922faacd8bff92b9996de8a8e2b27",
+      "decision": "new canonical owner",
+      "internal_links": [
+        "algebra-groups/group-presentation",
+        "algebra-groups/simple-group",
+        "catalog/finite-groups/sporadic/j3",
+        "catalog/finite-groups/sporadic/j4",
+        "catalog/finite-groups/sporadic/on",
+        "algebra-groups/group-homomorphism"
+      ],
+      "interlink_review": "Definition-ingredient links occur at first use. Comparison/backlinks remain optional, with no prerequisite cycle."
+    },
+    {
+      "object_id": "fg-on",
+      "knowl": "catalog/finite-groups/sporadic/on",
+      "path": "content/catalog/finite-groups/sporadic/on.knowl.md",
+      "source_sha256": "90c6d402dd3c625c415357144a6eed691b970efdc7a11256e1bf101c02f287b1",
+      "decision": "new canonical owner",
+      "internal_links": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/simple-group",
+        "algebra-groups/central-extension",
+        "catalog/finite-groups/sporadic/j1"
+      ],
+      "interlink_review": "Definition-ingredient links occur at first use. Comparison/backlinks remain optional, with no prerequisite cycle."
+    },
+    {
+      "object_id": "fg-j3",
+      "knowl": "catalog/finite-groups/sporadic/j3",
+      "path": "content/catalog/finite-groups/sporadic/j3.knowl.md",
+      "source_sha256": "e848a413b45eb1dde749a666ecf5aa2dd75e666ee85573a9eabb97c6b644ba12",
+      "decision": "new canonical owner",
+      "internal_links": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/simple-group",
+        "algebra-groups/central-extension",
+        "catalog/finite-groups/sporadic/j1",
+        "catalog/finite-groups/sporadic/j4"
+      ],
+      "interlink_review": "Definition-ingredient links occur at first use. Comparison/backlinks remain optional, with no prerequisite cycle."
+    },
+    {
+      "object_id": "fg-ru",
+      "knowl": "catalog/finite-groups/sporadic/ru",
+      "path": "content/catalog/finite-groups/sporadic/ru.knowl.md",
+      "source_sha256": "59bc016547a69570014180f2a2679c3082a946ba4ac3783fd1dabb4eea044e88",
+      "decision": "new canonical owner",
+      "internal_links": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/simple-group",
+        "algebra-groups/central-extension"
+      ],
+      "interlink_review": "Definition-ingredient links occur at first use. Comparison/backlinks remain optional, with no prerequisite cycle."
+    },
+    {
+      "object_id": "fg-j4",
+      "knowl": "catalog/finite-groups/sporadic/j4",
+      "path": "content/catalog/finite-groups/sporadic/j4.knowl.md",
+      "source_sha256": "f1a15d5dde39bfd351c0b012ac736b6afbddea0494d3cacc821d49f7717f458f",
+      "decision": "new canonical owner",
+      "internal_links": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/simple-group",
+        "catalog/finite-groups/sporadic/j1",
+        "catalog/finite-groups/sporadic/j3"
+      ],
+      "interlink_review": "Definition-ingredient links occur at first use. Comparison/backlinks remain optional, with no prerequisite cycle."
+    },
+    {
+      "object_id": "fg-ly",
+      "knowl": "catalog/finite-groups/sporadic/ly",
+      "path": "content/catalog/finite-groups/sporadic/ly.knowl.md",
+      "source_sha256": "38417f2c6488091e7a19052319c67e5cbae31b33b3ac7aa3b5efe904e4d2b578",
+      "decision": "new canonical owner",
+      "internal_links": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/simple-group",
+        "algebra-groups/finite-group"
+      ],
+      "interlink_review": "Definition-ingredient links occur at first use. Comparison/backlinks remain optional, with no prerequisite cycle."
+    }
+  ],
+  "fragment_path": "reviews/finite-groups/sporadic-pariahs-data.json",
+  "fragment_sha256": "443d24d11babd288a0bd426c91b05c707e3df5bc7db16d03e31d76025d33507b",
+  "relationship_ids": [
+    "fg-j1-embeds-on"
+  ],
+  "checks": {
+    "created_knowls": 6,
+    "objects": 6,
+    "relationships": 1,
+    "decimal_orders_equal_factor_products": true,
+    "j1_in_on_index_verified": true,
+    "lean_certification": false,
+    "toml_and_internal_links_passed": true,
+    "prerequisite_closure_acyclic": true,
+    "interlink_candidates_initial": 5,
+    "interlink_candidates_final": 0,
+    "dependency_report_inferred_edges": 16,
+    "dependency_report_preserved_reviewed_lists": 6,
+    "isolated_render": {
+      "selected_knowls_written": 6,
+      "path": "knowlpedia/tmp/sporadic-pariahs-render",
+      "math_or_raw_markup_errors": 0,
+      "limitation": "Selected-page compilation wrote all six knowls but exited 1 because concurrent batch navigation references were not yet authored. Rendering checker found only missing linked pages/fragments outside this six-page selected output; source-registry target existence was separately checked. Integrated build and browser review remain for the parent."
+    },
+    "final_source_hashes_and_links_passed": true,
+    "catalog_fragment_validation_passed": true,
+    "catalog_validation_scope": "Existing canonical shards except finite-sporadic.json, plus the six-object pariah fragment, using the actual compiler registry and catalogue validator."
+  },
+  "interlink_report": {
+    "initial": "reviews/finite-groups/sporadic-pariahs-interlink.jsonl",
+    "final": "reviews/finite-groups/sporadic-pariahs-interlink-final.jsonl",
+    "decisions": [
+      {
+        "candidate_id": "c3ef037fb38be3f130da",
+        "decision": "accepted",
+        "reason": "The actual embedding is an injective group homomorphism."
+      },
+      {
+        "candidate_id": "5eb779d0921ce9f7fb73",
+        "decision": "accepted",
+        "reason": "The finite-group concept is relevant to the fixed-object qualification."
+      },
+      {
+        "candidate_id": "76d68b366dee09089a05",
+        "decision": "rejected",
+        "reason": "Operator-algebra central support is unrelated. Authored the mathematically appropriate central-extension link instead."
+      },
+      {
+        "candidate_id": "2e5a445e5dcffb8dc567",
+        "decision": "rejected",
+        "reason": "Operator-algebra central support is unrelated. Authored the mathematically appropriate central-extension link instead."
+      },
+      {
+        "candidate_id": "61eb134dc5c4ea13b94a",
+        "decision": "rejected",
+        "reason": "Operator-algebra central support is unrelated. Authored the mathematically appropriate central-extension link instead."
+      }
+    ]
+  },
+  "dependency_report": "reviews/finite-groups/sporadic-pariahs-dependencies.jsonl",
+  "path_manifest": "reviews/finite-groups/sporadic-pariahs-paths.txt"
+}

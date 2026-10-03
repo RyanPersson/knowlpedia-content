@@ -1,0 +1,16 @@
+{
+  "lane": "sporadic-leech",
+  "starting_content_commit": "8ce039bed4c498a65c11e0d98137b26304613ae1",
+  "branch": "catalog",
+  "ownership_search": "Searched entire content corpus for Higman-Sims/Higman–Sims, Hall-Janko, Conway group, McLaughlin, Suzuki sporadic, Leech lattice, Co1/Co2/Co3 and sporadic; no canonical group or Leech lattice owners found. Reused group presentation, commutator, symmetric group, generated subgroup, lattice, stabilizer, quotient, matrix inverse and finite field prerequisites.",
+  "reserved_ids": [
+    "catalog/finite-groups/sporadic/hs",
+    "catalog/finite-groups/sporadic/j2",
+    "catalog/finite-groups/sporadic/co1",
+    "catalog/finite-groups/sporadic/co2",
+    "catalog/finite-groups/sporadic/co3",
+    "catalog/finite-groups/sporadic/mcl",
+    "catalog/finite-groups/sporadic/suz",
+    "catalog/finite-groups/sporadic/leech-lattice"
+  ]
+}

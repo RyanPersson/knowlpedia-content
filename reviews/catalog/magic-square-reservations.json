@@ -1,0 +1,63 @@
+{
+  "lane": "magic-square",
+  "schema_version": 1,
+  "inventory_search": {
+    "scope": "Complete corpus search for magic square, triality, derivation algebras, octonion automorphisms; read exact triality, Spin8 frame stabilizer, compact G2/F4 and direct sum owners.",
+    "decision": "Reuse existing Spin8 triality and frame-stabilizer theorem knowls, octonion and Albert algebra objects; create distinct representation objects and one compact-table construction family."
+  },
+  "objects": [
+    {
+      "id": "la-su-3-direct-sum-su-3",
+      "knowl": "catalog/relationships/su3-direct-sum-su3",
+      "decision": "new"
+    },
+    {
+      "id": "la-sp-1-direct-sum-sp-1-direct-sum-sp-1",
+      "knowl": "catalog/relationships/sp1-triple-direct-sum",
+      "decision": "new"
+    },
+    {
+      "id": "rep-spin8-vector",
+      "knowl": "catalog/relationships/spin8-vector-representation",
+      "decision": "new"
+    },
+    {
+      "id": "rep-spin8-half-spin-plus",
+      "knowl": "catalog/relationships/spin8-positive-half-spin-representation",
+      "decision": "new"
+    },
+    {
+      "id": "rep-spin8-half-spin-minus",
+      "knowl": "catalog/relationships/spin8-negative-half-spin-representation",
+      "decision": "new"
+    }
+  ],
+  "new_knowls": [
+    "catalog/relationships/compact-freudenthal-magic-square",
+    "catalog/relationships/vinberg-magic-square-construction",
+    "catalog/relationships/tits-magic-square-decomposition",
+    "catalog/relationships/triality-algebra",
+    "catalog/relationships/triality-magic-square-decomposition",
+    "catalog/relationships/magic-square-transposition",
+    "catalog/relationships/magic-square-real-forms",
+    "catalog/relationships/su3-direct-sum-su3",
+    "catalog/relationships/sp1-triple-direct-sum",
+    "catalog/relationships/spin8-vector-representation",
+    "catalog/relationships/spin8-positive-half-spin-representation",
+    "catalog/relationships/spin8-negative-half-spin-representation",
+    "catalog/relationships/triality-and-central-quotients",
+    "catalog/relationships/f4-triality-decomposition",
+    "catalog/relationships/spin8-intertwiner-spaces",
+    "catalog/relationships/hermitian-cubic-derivation-algebras"
+  ],
+  "reused_knowls": [
+    "lie-groups/spin8-triality",
+    "nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame",
+    "lie-groups/compact-exceptional-lie-group-g2",
+    "lie-groups/compact-exceptional-lie-group-f4"
+  ],
+  "scope_limits": [
+    "16 compact real cells; split and complex objects retain separate identities but no full split table in this batch.",
+    "No claim to classify all Hom sets; Lean evidence remains null."
+  ]
+}

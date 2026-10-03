@@ -1,0 +1,85 @@
+{
+  "reviews": [
+    {
+      "id": "catalog/morphisms/hom-end-aut-by-category",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked categorical definition End=Hom(A,A), Aut as units under composition, and that no absent sparse record is interpreted as an empty Hom-set.",
+      "sources": [],
+      "source_sha256": "55e7696f8af3b08cb0ad188cb3dbd5da9e7bb6089ac7bb2d7c23f4d387544a00",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/jordan-unit-conventions",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct proof: surjectivity makes the image of the source unit act as a target unit. On R, multiplicativity of t->ct is exactly c^2=c, with c=0 or 1.",
+      "sources": [],
+      "source_sha256": "5b6720263892a3907e806133977a8fe5db006d611e831121b1b08a1186d831d9",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct linearity and idempotence proof. For Herm2C, spectral decomposition of a Hermitian idempotent has eigenvalues 0/1; rank-one projections are uu* modulo phase.",
+      "sources": [],
+      "source_sha256": "9b675ec276ed383c2945353f9e23141e0ef9e13f39a346613a495a2db7b4dbe3",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct real-linear normal form az+b conjugate(z), determinant |a|^2-|b|^2, and algebra-map proof using possible images of i and idempotent image of 1.",
+      "sources": [],
+      "source_sha256": "81f2a948bebc1f4ccdf11539757157039bb36af7ac3b10382a2adf92a3b45c0b",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/linear-endomorphisms-of-sl2-complex",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Counted explicit complex basis E,F,H and doubled real basis; checked 2id fails bracket preservation on [E,F]=H. Matrix endomorphism descriptions follow basis coefficients.",
+      "sources": [],
+      "source_sha256": "390b3987c5d14a5b4fa633992dc56365e9e979bfd294b9c5ffcbc07016a9951b",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/sl2-complex-real-versus-holomorphic-maps",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked conjugation determinant and multiplicativity directly and differentiated c(iX)=-i c(X), proving non-holomorphicity. Inner maps checked by multiplication cancellation. No exhaustive automorphism classification asserted.",
+      "sources": [],
+      "source_sha256": "a9d4100bf3d2ecafbf4fbe39cd4ab7b5449e9f16940180616ff4950cdc81e864",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct inclusion proof by restricting scalar quantifiers and adding product/unit equations; dimension uses concatenated K/F and A/K bases. Checked example conjugation and 2id separates conditions.",
+      "sources": [],
+      "source_sha256": "2f89032978c74ff358a502f173c343b000acdfffe0d54c32d5ba6833b13c9f64",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/gaussian-field-endomorphisms",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Direct basis calculation and root equation f(i)^2=-1 in Q(i); unital/nonunital possibilities follow idempotents of a field.",
+      "sources": [],
+      "source_sha256": "cc505bcddd9ea35c3136b37d1b07be1743b4108eb404b0d5ffd3407459cdb0ff",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    },
+    {
+      "id": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "scope": "targeted",
+      "outcome": "new",
+      "evidence": "Checked characteristic preservation, Lagrange obstruction 3 does not divide 7, and the two roots of x^2+x+1 in F4; every nonzero ring map between fields sends 1 to the sole nonzero idempotent.",
+      "sources": [],
+      "source_sha256": "3f2e2faff470aea0c5ac14846b7c1acbd66edf947090fb62f1fbe31c09e07c47",
+      "interlink_review": "reviews/catalog/core-interlink-review.json"
+    }
+  ]
+}

@@ -1,0 +1,2748 @@
+{
+  "schema_version": 1,
+  "objects": [
+    {
+      "id": "fg-cyclic-1",
+      "name": "Cyclic group C_1",
+      "notation": "C_{1}",
+      "kind": "finite-group",
+      "family": "finite-cyclic",
+      "parameters": {
+        "n": 1
+      },
+      "knowl": "catalog/finite-groups/elementary/cyclic-1",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "cyclic",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "The trivial group is not simple.",
+          "parameter_summary": "Fixed group of order 1.",
+          "construction_summary": "Residue classes modulo 1 under addition.",
+          "order_factors": []
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+        }
+      ]
+    },
+    {
+      "id": "fg-cyclic-2",
+      "name": "Cyclic group C_2",
+      "notation": "C_{2}",
+      "kind": "finite-group",
+      "family": "finite-cyclic",
+      "parameters": {
+        "n": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/cyclic-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "cyclic",
+          "order_tex": "2",
+          "order_decimal": "2",
+          "simple": true,
+          "simple_condition": "Simple because its order is prime.",
+          "parameter_summary": "Fixed group of order 2.",
+          "construction_summary": "Residue classes modulo 2 under addition.",
+          "order_factors": [
+            [
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+        }
+      ]
+    },
+    {
+      "id": "fg-cyclic-3",
+      "name": "Cyclic group C_3",
+      "notation": "C_{3}",
+      "kind": "finite-group",
+      "family": "finite-cyclic",
+      "parameters": {
+        "n": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/cyclic-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "cyclic",
+          "order_tex": "3",
+          "order_decimal": "3",
+          "simple": true,
+          "simple_condition": "Simple because its order is prime.",
+          "parameter_summary": "Fixed group of order 3.",
+          "construction_summary": "Residue classes modulo 3 under addition.",
+          "order_factors": [
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+        }
+      ]
+    },
+    {
+      "id": "fg-cyclic-p",
+      "name": "Cyclic group C_p",
+      "notation": "C_{p}",
+      "kind": "finite-group",
+      "family": "finite-cyclic",
+      "parameters": {
+        "p": "prime"
+      },
+      "knowl": "catalog/finite-groups/elementary/cyclic-p",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "cyclic",
+          "order_tex": "p",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "Simple because its order is prime.",
+          "parameter_summary": "Prime p.",
+          "construction_summary": "Residue classes modulo p under addition.",
+          "display_order": 0
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+        }
+      ]
+    },
+    {
+      "id": "fg-cyclic-n",
+      "name": "Cyclic group C_n",
+      "notation": "C_{n}",
+      "kind": "finite-group",
+      "family": "finite-cyclic",
+      "parameters": {
+        "n": "n"
+      },
+      "knowl": "catalog/finite-groups/elementary/cyclic-n",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "cyclic",
+          "order_tex": "n",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when n is prime; n = 1 is not simple.",
+          "parameter_summary": "Integer n ≥ 1.",
+          "construction_summary": "Residue classes modulo n under addition."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+        }
+      ]
+    },
+    {
+      "id": "fg-sym-1",
+      "name": "Symmetric group S_1",
+      "notation": "S_{1}",
+      "kind": "finite-group",
+      "family": "finite-symmetric",
+      "parameters": {
+        "n": 1
+      },
+      "knowl": "catalog/finite-groups/elementary/sym-1",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "The trivial group is not simple.",
+          "parameter_summary": "Fixed permutations of 1 letters.",
+          "construction_summary": "Permutations of one letter under composition.",
+          "order_factors": []
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-sym-2",
+      "name": "Symmetric group S_2",
+      "notation": "S_{2}",
+      "kind": "finite-group",
+      "family": "finite-symmetric",
+      "parameters": {
+        "n": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/sym-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "2",
+          "order_decimal": "2",
+          "simple": true,
+          "simple_condition": "Simple: S_2 is cyclic of order 2.",
+          "parameter_summary": "Fixed permutations of 2 letters.",
+          "construction_summary": "Permutations of 2 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-sym-3",
+      "name": "Symmetric group S_3",
+      "notation": "S_{3}",
+      "kind": "finite-group",
+      "family": "finite-symmetric",
+      "parameters": {
+        "n": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/sym-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "6",
+          "order_decimal": "6",
+          "simple": false,
+          "simple_condition": "Not simple: A_n is a proper nontrivial normal subgroup.",
+          "parameter_summary": "Fixed permutations of 3 letters.",
+          "construction_summary": "Permutations of 3 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-sym-4",
+      "name": "Symmetric group S_4",
+      "notation": "S_{4}",
+      "kind": "finite-group",
+      "family": "finite-symmetric",
+      "parameters": {
+        "n": 4
+      },
+      "knowl": "catalog/finite-groups/elementary/sym-4",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "24",
+          "order_decimal": "24",
+          "simple": false,
+          "simple_condition": "Not simple: A_n is a proper nontrivial normal subgroup.",
+          "parameter_summary": "Fixed permutations of 4 letters.",
+          "construction_summary": "Permutations of 4 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-sym-6",
+      "name": "Symmetric group S_6",
+      "notation": "S_{6}",
+      "kind": "finite-group",
+      "family": "finite-symmetric",
+      "parameters": {
+        "n": 6
+      },
+      "knowl": "catalog/finite-groups/elementary/sym-6",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "720",
+          "order_decimal": "720",
+          "simple": false,
+          "simple_condition": "Not simple: A_n is a proper nontrivial normal subgroup.",
+          "parameter_summary": "Fixed permutations of 6 letters.",
+          "construction_summary": "Permutations of 6 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-sym-n",
+      "name": "Symmetric group S_n",
+      "notation": "S_{n}",
+      "kind": "finite-group",
+      "family": "finite-symmetric",
+      "parameters": {
+        "n": "n"
+      },
+      "knowl": "algebra-groups/symmetric-group",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "n!",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when n = 2; S_1 is trivial and A_n is proper nontrivial normal for n ≥ 3.",
+          "parameter_summary": "Integer n ≥ 1.",
+          "construction_summary": "Permutations of n letters under composition."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-1",
+      "name": "Alternating group A_1",
+      "notation": "A_{1}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 1
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-1",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "The trivial group is not simple.",
+          "parameter_summary": "Fixed even permutations of 1 letters.",
+          "construction_summary": "Even permutations of one letter under composition.",
+          "order_factors": []
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-2",
+      "name": "Alternating group A_2",
+      "notation": "A_{2}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "The trivial group is not simple.",
+          "parameter_summary": "Fixed even permutations of 2 letters.",
+          "construction_summary": "Even permutations of 2 letters under composition.",
+          "order_factors": []
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-3",
+      "name": "Alternating group A_3",
+      "notation": "A_{3}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "3",
+          "order_decimal": "3",
+          "simple": true,
+          "simple_condition": "Simple: A_3 is cyclic of order 3.",
+          "parameter_summary": "Fixed even permutations of 3 letters.",
+          "construction_summary": "Even permutations of 3 letters under composition.",
+          "order_factors": [
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-4",
+      "name": "Alternating group A_4",
+      "notation": "A_{4}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 4
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-4",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "12",
+          "order_decimal": "12",
+          "simple": false,
+          "simple_condition": "Not simple: the Klein four-group is proper nontrivial normal.",
+          "parameter_summary": "Fixed even permutations of 4 letters.",
+          "construction_summary": "Even permutations of 4 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-5",
+      "name": "Alternating group A_5",
+      "notation": "A_{5}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 5
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-5",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "60",
+          "order_decimal": "60",
+          "simple": true,
+          "simple_condition": "Nonabelian simple for every admitted degree n ≥ 5.",
+          "parameter_summary": "Fixed even permutations of 5 letters.",
+          "construction_summary": "Even permutations of 5 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-6",
+      "name": "Alternating group A_6",
+      "notation": "A_{6}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 6
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-6",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "360",
+          "order_decimal": "360",
+          "simple": true,
+          "simple_condition": "Nonabelian simple for every admitted degree n ≥ 5.",
+          "parameter_summary": "Fixed even permutations of 6 letters.",
+          "construction_summary": "Even permutations of 6 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-7",
+      "name": "Alternating group A_7",
+      "notation": "A_{7}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 7
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-7",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "2520",
+          "order_decimal": "2520",
+          "simple": true,
+          "simple_condition": "Nonabelian simple for every admitted degree n ≥ 5.",
+          "parameter_summary": "Fixed even permutations of 7 letters.",
+          "construction_summary": "Even permutations of 7 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-8",
+      "name": "Alternating group A_8",
+      "notation": "A_{8}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": 8
+      },
+      "knowl": "catalog/finite-groups/elementary/alt-8",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "alternating",
+          "order_tex": "20160",
+          "order_decimal": "20160",
+          "simple": true,
+          "simple_condition": "Nonabelian simple for every admitted degree n ≥ 5.",
+          "parameter_summary": "Fixed even permutations of 8 letters.",
+          "construction_summary": "Even permutations of 8 letters under composition.",
+          "order_factors": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-alt-n",
+      "name": "Alternating group A_n",
+      "notation": "A_{n}",
+      "kind": "finite-group",
+      "family": "finite-alternating",
+      "parameters": {
+        "n": "n"
+      },
+      "knowl": "algebra-groups/alternating-group",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n is an integer and n >= 5"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "alternating",
+          "order_tex": "n!/2",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "Nonabelian simple for every admitted degree n ≥ 5.",
+          "parameter_summary": "Integer n ≥ 5.",
+          "construction_summary": "Even permutations of n letters under composition.",
+          "display_order": 0
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-dihedral-2",
+      "name": "Dihedral group D_2",
+      "notation": "D_{2}",
+      "kind": "finite-group",
+      "family": "finite-dihedral",
+      "parameters": {
+        "n": 1
+      },
+      "knowl": "catalog/finite-groups/elementary/dihedral-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "2",
+          "order_decimal": "2",
+          "simple": true,
+          "simple_condition": "Simple: D_2 is cyclic of order 2.",
+          "parameter_summary": "Fixed n = 1; order 2.",
+          "construction_summary": "Cyclic rotations extended by an involution acting by inversion.",
+          "order_factors": [
+            [
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+        }
+      ]
+    },
+    {
+      "id": "fg-dihedral-4",
+      "name": "Dihedral group D_4",
+      "notation": "D_{4}",
+      "kind": "finite-group",
+      "family": "finite-dihedral",
+      "parameters": {
+        "n": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/dihedral-4",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "4",
+          "order_decimal": "4",
+          "simple": false,
+          "simple_condition": "Not simple: its rotation subgroup is proper nontrivial normal.",
+          "parameter_summary": "Fixed n = 2; order 4.",
+          "construction_summary": "Cyclic rotations extended by an involution acting by inversion.",
+          "order_factors": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+        }
+      ]
+    },
+    {
+      "id": "fg-dihedral-6",
+      "name": "Dihedral group D_6",
+      "notation": "D_{6}",
+      "kind": "finite-group",
+      "family": "finite-dihedral",
+      "parameters": {
+        "n": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/dihedral-6",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "6",
+          "order_decimal": "6",
+          "simple": false,
+          "simple_condition": "Not simple: its rotation subgroup is proper nontrivial normal.",
+          "parameter_summary": "Fixed n = 3; order 6.",
+          "construction_summary": "Cyclic rotations extended by an involution acting by inversion.",
+          "order_factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+        }
+      ]
+    },
+    {
+      "id": "fg-dihedral-2n",
+      "name": "Dihedral group D_2n",
+      "notation": "D_{2n}",
+      "kind": "finite-group",
+      "family": "finite-dihedral",
+      "parameters": {
+        "n": "n"
+      },
+      "knowl": "catalog/finite-groups/elementary/dihedral-2n",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "2n",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when n = 1; the rotation subgroup obstructs simplicity for n ≥ 2.",
+          "parameter_summary": "Integer n ≥ 1; order 2n.",
+          "construction_summary": "Cyclic rotations extended by an involution acting by inversion."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+        }
+      ]
+    },
+    {
+      "id": "fg-quaternion-8",
+      "name": "Generalized quaternion group Q_8",
+      "notation": "Q_{8}",
+      "kind": "finite-group",
+      "family": "finite-generalized-quaternion",
+      "parameters": {
+        "n": 3
+      },
+      "knowl": "algebra-groups/quaternion-group",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "8",
+          "order_decimal": "8",
+          "simple": false,
+          "simple_condition": "Not simple: its center of order two is proper nontrivial.",
+          "parameter_summary": "Fixed n = 3, order 8.",
+          "construction_summary": "A cyclic subgroup of index two with the generalized quaternion presentation.",
+          "order_factors": [
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+        }
+      ]
+    },
+    {
+      "id": "fg-quaternion-16",
+      "name": "Generalized quaternion group Q_16",
+      "notation": "Q_{16}",
+      "kind": "finite-group",
+      "family": "finite-generalized-quaternion",
+      "parameters": {
+        "n": 4
+      },
+      "knowl": "catalog/finite-groups/elementary/quaternion-16",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "16",
+          "order_decimal": "16",
+          "simple": false,
+          "simple_condition": "Not simple: its center of order two is proper nontrivial.",
+          "parameter_summary": "Fixed n = 4, order 16.",
+          "construction_summary": "A cyclic subgroup of index two with the generalized quaternion presentation.",
+          "order_factors": [
+            [
+              2,
+              4
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+        }
+      ]
+    },
+    {
+      "id": "fg-quaternion-32",
+      "name": "Generalized quaternion group Q_32",
+      "notation": "Q_{32}",
+      "kind": "finite-group",
+      "family": "finite-generalized-quaternion",
+      "parameters": {
+        "n": 5
+      },
+      "knowl": "catalog/finite-groups/elementary/quaternion-32",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "32",
+          "order_decimal": "32",
+          "simple": false,
+          "simple_condition": "Not simple: its center of order two is proper nontrivial.",
+          "parameter_summary": "Fixed n = 5, order 32.",
+          "construction_summary": "A cyclic subgroup of index two with the generalized quaternion presentation.",
+          "order_factors": [
+            [
+              2,
+              5
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+        }
+      ]
+    },
+    {
+      "id": "fg-quaternion-2n",
+      "name": "Generalized quaternion group Q_(2^n)",
+      "notation": "Q_{2^n}",
+      "kind": "finite-group",
+      "family": "finite-generalized-quaternion",
+      "parameters": {
+        "n": "n"
+      },
+      "knowl": "catalog/finite-groups/elementary/quaternion-2n",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n is an integer and n >= 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "2^n",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Not simple: its center of order two is proper nontrivial.",
+          "parameter_summary": "Integer n ≥ 3; order 2^n.",
+          "construction_summary": "A cyclic subgroup of index two with the generalized quaternion presentation."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+        }
+      ]
+    },
+    {
+      "id": "fg-elementary-abelian-1",
+      "name": "Elementary abelian group C_p^1",
+      "notation": "C_p^{1}",
+      "kind": "finite-group",
+      "family": "finite-elementary-abelian",
+      "parameters": {
+        "p": "prime",
+        "rank": 1
+      },
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-1",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "p",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "Simple for every prime p, since its order is p.",
+          "parameter_summary": "Prime p; rank 1.",
+          "construction_summary": "Additive group of a finite vector space over the prime field."
+        }
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "fg-elementary-abelian-2",
+      "name": "Elementary abelian group C_p^2",
+      "notation": "C_p^{2}",
+      "kind": "finite-group",
+      "family": "finite-elementary-abelian",
+      "parameters": {
+        "p": "prime",
+        "rank": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "p^{2}",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Not simple: a coordinate copy of C_p is proper nontrivial normal.",
+          "parameter_summary": "Prime p; rank 2.",
+          "construction_summary": "Additive group of a finite vector space over the prime field."
+        }
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "fg-elementary-abelian-3",
+      "name": "Elementary abelian group C_p^3",
+      "notation": "C_p^{3}",
+      "kind": "finite-group",
+      "family": "finite-elementary-abelian",
+      "parameters": {
+        "p": "prime",
+        "rank": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "p is prime"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "p^{3}",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Not simple: a coordinate copy of C_p is proper nontrivial normal.",
+          "parameter_summary": "Prime p; rank 3.",
+          "construction_summary": "Additive group of a finite vector space over the prime field."
+        }
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "fg-elementary-abelian-n",
+      "name": "Elementary abelian group C_p^n",
+      "notation": "C_p^{n}",
+      "kind": "finite-group",
+      "family": "finite-elementary-abelian",
+      "parameters": {
+        "p": "prime",
+        "rank": "n"
+      },
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-n",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "p^{n}",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when n = 1.",
+          "parameter_summary": "Prime p; integer rank n ≥ 1.",
+          "construction_summary": "Additive group of a finite vector space over the prime field."
+        }
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "fg-abelian-invariant-factors",
+      "name": "Finite abelian group with specified invariant factors",
+      "notation": "C_{d_1}\\times\\cdots\\times C_{d_r}",
+      "kind": "finite-group",
+      "family": "finite-abelian-invariant-factors",
+      "parameters": {
+        "rank": "r",
+        "invariant_factors": [
+          "d_1",
+          "...",
+          "d_r"
+        ]
+      },
+      "knowl": "catalog/finite-groups/elementary/abelian-invariant-factors",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "r is an integer and r >= 0",
+        "Each d_i is an integer >= 2",
+        "d_i divides d_(i+1) for 1 <= i < r"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "\\prod_{i=1}^r d_i",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when r = 1 and d_1 is prime.",
+          "parameter_summary": "Integers r ≥ 0 and 2 ≤ d_1 | ... | d_r; empty product allowed.",
+          "construction_summary": "A product of cyclic groups with specified invariant factors."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "Theorem 1.57, p. 26: invariant-factor classification of finite abelian groups"
+        }
+      ]
+    },
+    {
+      "id": "fg-klein-4",
+      "name": "Klein four-group",
+      "notation": "V_4",
+      "kind": "finite-group",
+      "family": "finite-klein-four",
+      "parameters": {},
+      "knowl": "catalog/finite-groups/elementary/klein-4",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "4",
+          "order_decimal": "4",
+          "simple": false,
+          "simple_condition": "Not simple: every subgroup of order two is normal.",
+          "parameter_summary": "Fixed group of order 4.",
+          "construction_summary": "The product C_2 × C_2 with coordinatewise addition.",
+          "order_factors": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+        }
+      ]
+    },
+    {
+      "id": "fg-gl-1-q",
+      "name": "Finite general linear group GL_1(q)",
+      "notation": "\\mathrm{GL}_{1}(q)",
+      "kind": "finite-group",
+      "family": "finite-gl",
+      "parameters": {
+        "n": 1,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/gl-1-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q-1",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when q − 1 is prime.",
+          "parameter_summary": "Matrix size 1; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Invertible matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-gl-2-q",
+      "name": "Finite general linear group GL_2(q)",
+      "notation": "\\mathrm{GL}_{2}(q)",
+      "kind": "finite-group",
+      "family": "finite-gl",
+      "parameters": {
+        "n": 2,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/gl-2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "(q^2-1)(q^2-q)",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Never simple: determinant or the A_3 subgroup at q = 2 obstructs simplicity.",
+          "parameter_summary": "Matrix size 2; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Invertible matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-gl-3-q",
+      "name": "Finite general linear group GL_3(q)",
+      "notation": "\\mathrm{GL}_{3}(q)",
+      "kind": "finite-group",
+      "family": "finite-gl",
+      "parameters": {
+        "n": 3,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/gl-3-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "(q^3-1)(q^3-q)(q^3-q^2)",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when q = 2.",
+          "parameter_summary": "Matrix size 3; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Invertible matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-gl-n-q",
+      "name": "Finite general linear group GL_n(q)",
+      "notation": "\\mathrm{GL}_{n}(q)",
+      "kind": "finite-group",
+      "family": "finite-gl",
+      "parameters": {
+        "n": "n",
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/gl-n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f",
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "\\prod_{j=0}^{n-1}(q^n-q^j)",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when n = 1 and q − 1 is prime, or n ≥ 3 and q = 2.",
+          "parameter_summary": "Integer n ≥ 1; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Invertible matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-sl-1-q",
+      "name": "Finite special linear group SL_1(q)",
+      "notation": "\\mathrm{SL}_{1}(q)",
+      "kind": "finite-group",
+      "family": "finite-sl",
+      "parameters": {
+        "n": 1,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/sl-1-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "The trivial group is not simple.",
+          "parameter_summary": "Matrix size 1; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Determinant-one matrices over F_q.",
+          "order_factors": []
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-sl-2-q",
+      "name": "Finite special linear group SL_2(q)",
+      "notation": "\\mathrm{SL}_{2}(q)",
+      "kind": "finite-group",
+      "family": "finite-sl",
+      "parameters": {
+        "n": 2,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/sl-2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q(q^2-1)",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when q is even and q ≥ 4.",
+          "parameter_summary": "Matrix size 2; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Determinant-one matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-sl-3-q",
+      "name": "Finite special linear group SL_3(q)",
+      "notation": "\\mathrm{SL}_{3}(q)",
+      "kind": "finite-group",
+      "family": "finite-sl",
+      "parameters": {
+        "n": 3,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/sl-3-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q^3(q^3-1)(q^2-1)",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when gcd(3, q − 1) = 1.",
+          "parameter_summary": "Matrix size 3; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Determinant-one matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-sl-n-q",
+      "name": "Finite special linear group SL_n(q)",
+      "notation": "\\mathrm{SL}_{n}(q)",
+      "kind": "finite-group",
+      "family": "finite-sl",
+      "parameters": {
+        "n": "n",
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/sl-n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f",
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "\\frac{1}{q-1}\\prod_{j=0}^{n-1}(q^n-q^j)",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "Simple exactly when n ≥ 2, gcd(n, q − 1) = 1, and (n,q) is neither (2,2) nor (2,3).",
+          "parameter_summary": "Integer n ≥ 1; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Determinant-one matrices over F_q."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-gl-2-2",
+      "name": "Finite matrix group GL_2(2)",
+      "notation": "\\mathrm{GL}_2(2)",
+      "kind": "finite-group",
+      "family": "finite-gl",
+      "parameters": {
+        "n": 2,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/gl-2-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "6",
+          "order_decimal": "6",
+          "simple": false,
+          "simple_condition": "Not simple: it is isomorphic to S_3.",
+          "parameter_summary": "Fixed 2 by 2 matrices over F_2.",
+          "construction_summary": "Invertible matrices over F_2.",
+          "order_factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-sl-2-2",
+      "name": "Finite matrix group SL_2(2)",
+      "notation": "\\mathrm{SL}_2(2)",
+      "kind": "finite-group",
+      "family": "finite-sl",
+      "parameters": {
+        "n": 2,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/elementary/sl-2-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "6",
+          "order_decimal": "6",
+          "simple": false,
+          "simple_condition": "Not simple: it is isomorphic to S_3.",
+          "parameter_summary": "Fixed 2 by 2 matrices over F_2.",
+          "construction_summary": "Determinant-one matrices over F_2.",
+          "order_factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-gl-2-3",
+      "name": "Finite matrix group GL_2(3)",
+      "notation": "\\mathrm{GL}_2(3)",
+      "kind": "finite-group",
+      "family": "finite-gl",
+      "parameters": {
+        "n": 2,
+        "q": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/gl-2-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "48",
+          "order_decimal": "48",
+          "simple": false,
+          "simple_condition": "Not simple: SL_2(3) is normal of index two.",
+          "parameter_summary": "Fixed 2 by 2 matrices over F_3.",
+          "construction_summary": "Invertible matrices over F_3.",
+          "order_factors": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-sl-2-3",
+      "name": "Finite matrix group SL_2(3)",
+      "notation": "\\mathrm{SL}_2(3)",
+      "kind": "finite-group",
+      "family": "finite-sl",
+      "parameters": {
+        "n": 2,
+        "q": 3
+      },
+      "knowl": "catalog/finite-groups/elementary/sl-2-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "familiar",
+          "order_tex": "24",
+          "order_decimal": "24",
+          "simple": false,
+          "simple_condition": "Not simple: its center {I, −I} has order two.",
+          "parameter_summary": "Fixed 2 by 2 matrices over F_3.",
+          "construction_summary": "Determinant-one matrices over F_3.",
+          "order_factors": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+        }
+      ]
+    },
+    {
+      "id": "fg-heisenberg-1-q",
+      "name": "Finite Heisenberg group H_1(F_q)",
+      "notation": "H_1(\\mathbb F_q)",
+      "kind": "finite-group",
+      "family": "finite-heisenberg",
+      "parameters": {
+        "rank": 1,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/heisenberg-1-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q^3",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Never simple: its center has order q and is proper nontrivial.",
+          "parameter_summary": "Rank 1; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Triples over F_q with a bilinear central term in the multiplication."
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "title": "J. S. Milne, Group Theory, v4.01",
+          "locator": "§6.12(b), p. 93: upper-unitriangular 3 by 3 example; higher-rank formulas are verified directly here"
+        }
+      ]
+    },
+    {
+      "id": "fg-heisenberg-2-q",
+      "name": "Finite Heisenberg group H_2(F_q)",
+      "notation": "H_2(\\mathbb F_q)",
+      "kind": "finite-group",
+      "family": "finite-heisenberg",
+      "parameters": {
+        "rank": 2,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/heisenberg-2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q^5",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Never simple: its center has order q and is proper nontrivial.",
+          "parameter_summary": "Rank 2; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Triples over F_q with a bilinear central term in the multiplication."
+        }
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "fg-heisenberg-3-q",
+      "name": "Finite Heisenberg group H_3(F_q)",
+      "notation": "H_3(\\mathbb F_q)",
+      "kind": "finite-group",
+      "family": "finite-heisenberg",
+      "parameters": {
+        "rank": 3,
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/heisenberg-3-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q^7",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Never simple: its center has order q and is proper nontrivial.",
+          "parameter_summary": "Rank 3; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Triples over F_q with a bilinear central term in the multiplication."
+        }
+      },
+      "status": "family",
+      "references": []
+    },
+    {
+      "id": "fg-heisenberg-n-q",
+      "name": "Finite Heisenberg group H_n(F_q)",
+      "notation": "H_n(\\mathbb F_q)",
+      "kind": "finite-group",
+      "family": "finite-heisenberg",
+      "parameters": {
+        "rank": "n",
+        "q": "p^f",
+        "p": "prime",
+        "f": "positive integer"
+      },
+      "knowl": "catalog/finite-groups/elementary/heisenberg-n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "p is prime",
+        "f is an integer and f >= 1",
+        "q = p^f",
+        "n is an integer and n >= 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "familiar",
+          "order_tex": "q^{2n+1}",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "Never simple: its center has order q and is proper nontrivial.",
+          "parameter_summary": "Integer rank n ≥ 1; q = p^f, p prime, f ≥ 1.",
+          "construction_summary": "Triples over F_q with a bilinear central term in the multiplication."
+        }
+      },
+      "status": "family",
+      "references": []
+    }
+  ],
+  "categories": [],
+  "views": [],
+  "relationships": [
+    {
+      "id": "fg-rel-sym-1-isomorphism-cyclic-1",
+      "source": "fg-sym-1",
+      "target": "fg-cyclic-1",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Both groups contain only their identity element.",
+      "knowl": "catalog/finite-groups/elementary/sym-1",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Both groups contain only their identity element.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-1-isomorphism-cyclic-1",
+      "source": "fg-alt-1",
+      "target": "fg-cyclic-1",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Both groups contain only their identity element.",
+      "knowl": "catalog/finite-groups/elementary/alt-1",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Both groups contain only their identity element.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-2-isomorphism-cyclic-1",
+      "source": "fg-alt-2",
+      "target": "fg-cyclic-1",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Both groups contain only their identity element.",
+      "knowl": "catalog/finite-groups/elementary/alt-2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Both groups contain only their identity element.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sym-2-isomorphism-cyclic-2",
+      "source": "fg-sym-2",
+      "target": "fg-cyclic-2",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Send the transposition to the nonzero residue modulo two.",
+      "knowl": "catalog/finite-groups/elementary/sym-2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Send the transposition to the nonzero residue modulo two.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-3-isomorphism-cyclic-3",
+      "source": "fg-alt-3",
+      "target": "fg-cyclic-3",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Send (123) to the residue of one modulo three.",
+      "knowl": "catalog/finite-groups/elementary/alt-3",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Send (123) to the residue of one modulo three.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-dihedral-2-isomorphism-cyclic-2",
+      "source": "fg-dihedral-2",
+      "target": "fg-cyclic-2",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The rotation factor C_1 is trivial, leaving the factor C_2.",
+      "knowl": "catalog/finite-groups/elementary/dihedral-2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The rotation factor C_1 is trivial, leaving the factor C_2.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-dihedral-4-isomorphism-klein-4",
+      "source": "fg-dihedral-4",
+      "target": "fg-klein-4",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Inversion on C_2 is trivial, so the semidirect product is C_2 × C_2.",
+      "knowl": "catalog/finite-groups/elementary/dihedral-4",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Inversion on C_2 is trivial, so the semidirect product is C_2 × C_2.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-dihedral-6-isomorphism-sym-3",
+      "source": "fg-dihedral-6",
+      "target": "fg-sym-3",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The rotation (123) and reflection (12) generate S_3 and satisfy the dihedral relations.",
+      "knowl": "catalog/finite-groups/elementary/sym-3",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The rotation (123) and reflection (12) generate S_3 and satisfy the dihedral relations.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-elementary-abelian-1-isomorphism-cyclic-p",
+      "source": "fg-elementary-abelian-1",
+      "target": "fg-cyclic-p",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The additive group of F_p is the cyclic group of residues modulo p.",
+      "knowl": "catalog/finite-groups/elementary/elementary-abelian-1",
+      "conditions": [
+        "The same prime p is used in both objects."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The additive group of F_p is the cyclic group of residues modulo p.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-klein-4-embedding-alt-4",
+      "source": "fg-klein-4",
+      "target": "fg-alt-4",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "Identify the three nonidentity elements with the three double transpositions.",
+      "knowl": "catalog/finite-groups/elementary/klein-4",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Identify the three nonidentity elements with the three double transpositions.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-klein-4-embedding-sym-4",
+      "source": "fg-klein-4",
+      "target": "fg-sym-4",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The double transpositions and the identity form a normal copy of V_4.",
+      "knowl": "catalog/finite-groups/elementary/klein-4",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The double transpositions and the identity form a normal copy of V_4.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-1-embedding-sym-1",
+      "source": "fg-alt-1",
+      "target": "fg-sym-1",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The even permutations include into all permutations of the same letters.",
+      "knowl": "catalog/finite-groups/elementary/alt-1",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The even permutations include into all permutations of the same letters.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-2-embedding-sym-2",
+      "source": "fg-alt-2",
+      "target": "fg-sym-2",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The even permutations include into all permutations of the same letters.",
+      "knowl": "catalog/finite-groups/elementary/alt-2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The even permutations include into all permutations of the same letters.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-3-embedding-sym-3",
+      "source": "fg-alt-3",
+      "target": "fg-sym-3",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The even permutations include into all permutations of the same letters.",
+      "knowl": "catalog/finite-groups/elementary/alt-3",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The even permutations include into all permutations of the same letters.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-4-embedding-sym-4",
+      "source": "fg-alt-4",
+      "target": "fg-sym-4",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The even permutations include into all permutations of the same letters.",
+      "knowl": "catalog/finite-groups/elementary/alt-4",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The even permutations include into all permutations of the same letters.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-6-embedding-sym-6",
+      "source": "fg-alt-6",
+      "target": "fg-sym-6",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The even permutations include into all permutations of the same letters.",
+      "knowl": "catalog/finite-groups/elementary/alt-6",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The even permutations include into all permutations of the same letters.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-alt-n-embedding-sym-n",
+      "source": "fg-alt-n",
+      "target": "fg-sym-n",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The even permutations include into all permutations of the same letters.",
+      "knowl": "algebra-groups/alternating-group",
+      "conditions": [
+        "Both objects use the same degree n, with n >= 5."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The even permutations include into all permutations of the same letters.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-1-q-embedding-gl-1-q",
+      "source": "fg-sl-1-q",
+      "target": "fg-gl-1-q",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+      "knowl": "catalog/finite-groups/elementary/sl-1-q",
+      "conditions": [
+        "Use the same finite field and matrix size in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-gl-1-q-quotient-gl-1-q",
+      "source": "fg-gl-1-q",
+      "target": "fg-gl-1-q",
+      "kind": "quotient",
+      "category_id": "finite-groups",
+      "statement": "The surjective determinant map has kernel SL_n(q).",
+      "knowl": "catalog/finite-groups/elementary/sl-1-q",
+      "conditions": [
+        "Use the same finite field in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The surjective determinant map has kernel SL_n(q).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-2-q-embedding-gl-2-q",
+      "source": "fg-sl-2-q",
+      "target": "fg-gl-2-q",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+      "knowl": "catalog/finite-groups/elementary/sl-2-q",
+      "conditions": [
+        "Use the same finite field and matrix size in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-gl-2-q-quotient-gl-1-q",
+      "source": "fg-gl-2-q",
+      "target": "fg-gl-1-q",
+      "kind": "quotient",
+      "category_id": "finite-groups",
+      "statement": "The surjective determinant map has kernel SL_n(q).",
+      "knowl": "catalog/finite-groups/elementary/sl-2-q",
+      "conditions": [
+        "Use the same finite field in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The surjective determinant map has kernel SL_n(q).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-3-q-embedding-gl-3-q",
+      "source": "fg-sl-3-q",
+      "target": "fg-gl-3-q",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+      "knowl": "catalog/finite-groups/elementary/sl-3-q",
+      "conditions": [
+        "Use the same finite field and matrix size in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-gl-3-q-quotient-gl-1-q",
+      "source": "fg-gl-3-q",
+      "target": "fg-gl-1-q",
+      "kind": "quotient",
+      "category_id": "finite-groups",
+      "statement": "The surjective determinant map has kernel SL_n(q).",
+      "knowl": "catalog/finite-groups/elementary/sl-3-q",
+      "conditions": [
+        "Use the same finite field in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The surjective determinant map has kernel SL_n(q).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-n-q-embedding-gl-n-q",
+      "source": "fg-sl-n-q",
+      "target": "fg-gl-n-q",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+      "knowl": "catalog/finite-groups/elementary/sl-n-q",
+      "conditions": [
+        "Use the same finite field and matrix size in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A determinant-one matrix is invertible; inclusion respects multiplication.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-gl-n-q-quotient-gl-1-q",
+      "source": "fg-gl-n-q",
+      "target": "fg-gl-1-q",
+      "kind": "quotient",
+      "category_id": "finite-groups",
+      "statement": "The surjective determinant map has kernel SL_n(q).",
+      "knowl": "catalog/finite-groups/elementary/sl-n-q",
+      "conditions": [
+        "Use the same finite field in source and target."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The surjective determinant map has kernel SL_n(q).",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-1-q-isomorphism-cyclic-1",
+      "source": "fg-sl-1-q",
+      "target": "fg-cyclic-1",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "A one by one matrix with determinant one is the identity.",
+      "knowl": "catalog/finite-groups/elementary/sl-1-q",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A one by one matrix with determinant one is the identity.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-gl-2-2-isomorphism-sym-3",
+      "source": "fg-gl-2-2",
+      "target": "fg-sym-3",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The faithful action on the three nonzero vectors of F_2^2 identifies the two groups of order six.",
+      "knowl": "catalog/finite-groups/elementary/gl-2-2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The faithful action on the three nonzero vectors of F_2^2 identifies the two groups of order six.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-2-2-isomorphism-gl-2-2",
+      "source": "fg-sl-2-2",
+      "target": "fg-gl-2-2",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "Over F_2, every nonzero determinant equals one.",
+      "knowl": "catalog/finite-groups/elementary/sl-2-2",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Over F_2, every nonzero determinant equals one.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-sl-2-3-embedding-gl-2-3",
+      "source": "fg-sl-2-3",
+      "target": "fg-gl-2-3",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The determinant-one matrices form the kernel of determinant.",
+      "knowl": "catalog/finite-groups/elementary/sl-2-3",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The determinant-one matrices form the kernel of determinant.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-rel-gl-2-3-quotient-cyclic-2",
+      "source": "fg-gl-2-3",
+      "target": "fg-cyclic-2",
+      "kind": "quotient",
+      "category_id": "finite-groups",
+      "statement": "The determinant, followed by F_3^× ≅ C_2, is surjective with kernel SL_2(3).",
+      "knowl": "catalog/finite-groups/elementary/gl-2-3",
+      "conditions": [],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The determinant, followed by F_3^× ≅ C_2, is surjective with kernel SL_2(3).",
+        "references": [],
+        "lean": null
+      }
+    }
+  ],
+  "morphism_spaces": []
+}

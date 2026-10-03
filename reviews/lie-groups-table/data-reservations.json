@@ -1,0 +1,21 @@
+{
+  "batch": "lie-groups-table",
+  "reserved_ids": [
+    {
+      "id": "catalog/lie-groups/so-identity-p-q-r",
+      "object_id": "lg-so-identity-p-q-r",
+      "path": "content/catalog/lie-groups/so-identity-p-q-r.knowl.md",
+      "scope": "The identity component of SO(p,q), for nonnegative integral p,q with p+q >= 1.",
+      "decision": "new atomic definition",
+      "semantic_inventory": [
+        {"id": "catalog/lie-groups/so-p-q-r", "decision": "reuse as parent full matrix group; its two-component mixed-signature group is not the new connected group"},
+        {"id": "lie-groups/identity-component-of-a-lie-group", "decision": "reuse as general construction prerequisite"},
+        {"id": "lie-groups/proper-orthochronous-lorentz-group", "decision": "reuse as fixed SO0(1,3) specialization, not a general family owner"},
+        {"id": "lie-groups/restricted-spin-group", "decision": "separate covering group, not the SO0 matrix group"},
+        {"id": "lie-groups/real-rank-of-a-reductive-group", "decision": "mentions SO0(p,q) as example but does not own its definition"},
+        {"id": "lie-groups/special-orthogonal-group", "decision": "owns compact SO(n); its short indefinite variant does not own identity-component construction"}
+      ],
+      "searches": ["SO_0", "SO0", "SO⁺", "SO^+", "SO(p,q)", "identity component of the orthogonal group", "restricted Lorentz group", "restricted spin group"]
+    }
+  ]
+}

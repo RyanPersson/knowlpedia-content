@@ -1,0 +1,974 @@
+{
+  "lane": "sporadic-main",
+  "permutation_sanity_checks": [
+    {
+      "group": "m11",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 66,
+      "subsets_checked": 330,
+      "passed": true
+    },
+    {
+      "group": "m12",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 132,
+      "subsets_checked": 792,
+      "passed": true
+    },
+    {
+      "group": "m22",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 77,
+      "subsets_checked": 1540,
+      "passed": true
+    },
+    {
+      "group": "m23",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 253,
+      "subsets_checked": 8855,
+      "passed": true
+    },
+    {
+      "group": "m24",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 759,
+      "subsets_checked": 42504,
+      "passed": true
+    }
+  ],
+  "verification_limit": "Block-orbit computations verify the preserved Steiner designs, not the full group order or simplicity. Exact orders and simplicity use the cited ATLAS identification results.",
+  "entries": [
+    {
+      "id": "catalog/finite-groups/sporadic/m11",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "a575b72003e041b52531362a519d9690876ad6db893c2add45a8a542ea4f4880",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M11/",
+          "sha256": "937fbd22973bc56c0c9bdced309b8f08f25a1fa3bf15735429939fa665317028",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 24036,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "937fbd22973bc56c0c9bdced309b8f08f25a1fa3bf15735429939fa665317028"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M11/gap/M11G1-p11B0.g1",
+          "sha256": "4231050508df0c164979b5f7b1a0dadab440acad632361e9e059de6b68b0fcc0",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 32,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "4231050508df0c164979b5f7b1a0dadab440acad632361e9e059de6b68b0fcc0"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M11/gap/M11G1-p11B0.g2",
+          "sha256": "7a130955e6d6a467d33c7bdf385644050f7b025dce7cc552b91f73fcc998caf4",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 28,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "7a130955e6d6a467d33c7bdf385644050f7b025dce7cc552b91f73fcc998caf4"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M11G1-p11B0",
+          "sha256": "4671beeaa8c9e0b006293c7b3ff29627728e9b8f524c183948dbc569ad082f85",
+          "locator": "Permutation degree, transitivity, point stabilizer and Steiner-system block.",
+          "bytes": 8075,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "4671beeaa8c9e0b006293c7b3ff29627728e9b8f524c183948dbc569ad082f85"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m11",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/permutation-cycle"
+      ],
+      "source_sha256": "a575b72003e041b52531362a519d9690876ad6db893c2add45a8a542ea4f4880",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m12",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4d0a107eea3b02a664fe92fe30348b1136abcd9f8a920e4f98773a95dbce467e",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M12/",
+          "sha256": "7b1f9e7606d00b3b5530f5eb9d0d6ef103130ffed2ecb014c90445dc6aaa03a1",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 61084,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "7b1f9e7606d00b3b5530f5eb9d0d6ef103130ffed2ecb014c90445dc6aaa03a1"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M12/gap/M12G1-p12aB0.g1",
+          "sha256": "1fbd8685754a869a98653d92aaa07236ae88447fa986ae3223d7c70489694115",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 32,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "1fbd8685754a869a98653d92aaa07236ae88447fa986ae3223d7c70489694115"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M12/gap/M12G1-p12aB0.g2",
+          "sha256": "37db16a2991cade702eb3f5e873914931516b1125eea73d244503f909d5f64a3",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 40,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "37db16a2991cade702eb3f5e873914931516b1125eea73d244503f909d5f64a3"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M12G1-p12aB0",
+          "sha256": "81f2a0611d281c6c4f898c13fd4c55350d065700ab5fea294ff9398ce08394c9",
+          "locator": "Permutation degree, transitivity, point stabilizer and Steiner-system block.",
+          "bytes": 8628,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "81f2a0611d281c6c4f898c13fd4c55350d065700ab5fea294ff9398ce08394c9"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m12",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/permutation-cycle"
+      ],
+      "source_sha256": "4d0a107eea3b02a664fe92fe30348b1136abcd9f8a920e4f98773a95dbce467e",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m22",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "38bb8cab773916c4673c914da09fbc3871caa674fd720e2401cd297bfa6ffb6c",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M22/",
+          "sha256": "6ba943b3457ec89e5c88e015b4ef23af7d7e0dd0c1f4582c242c95deab5a3b56",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 3252,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "6ba943b3457ec89e5c88e015b4ef23af7d7e0dd0c1f4582c242c95deab5a3b56"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M22/gap/M22G1-p22B0.g1",
+          "sha256": "a9b43fb0c5e8b552f885f6b463ffbf5a411115b330bfa4db0bc739e402ac9810",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 57,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "a9b43fb0c5e8b552f885f6b463ffbf5a411115b330bfa4db0bc739e402ac9810"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M22/gap/M22G1-p22B0.g2",
+          "sha256": "1de33511802f178cb89b52fb5bfa971e02e9e2f4067f7e81d81923b582b97b51",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 67,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "1de33511802f178cb89b52fb5bfa971e02e9e2f4067f7e81d81923b582b97b51"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M22G1-p22B0",
+          "sha256": "54e00b4f8a9884bbad992c4b5ee8a47ad66c54cc91e0fa5cf09ae4d01540285c",
+          "locator": "Permutation degree, transitivity, point stabilizer and Steiner-system block.",
+          "bytes": 8117,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "54e00b4f8a9884bbad992c4b5ee8a47ad66c54cc91e0fa5cf09ae4d01540285c"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m22",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/permutation-cycle"
+      ],
+      "source_sha256": "38bb8cab773916c4673c914da09fbc3871caa674fd720e2401cd297bfa6ffb6c",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m23",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b5e2edef2562fdd0b7be8db9b1d48eebd7f027bf6a558ca11e8b9d02d96d85cf",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M23/",
+          "sha256": "1bc9bf3e5fbc894c8477ea98aea0c45a2cc20e38763ae4a383f9afbc09ab8274",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 36945,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "1bc9bf3e5fbc894c8477ea98aea0c45a2cc20e38763ae4a383f9afbc09ab8274"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M23/gap/M23G1-p23B0.g1",
+          "sha256": "1e31b772ce13a2605d29f80116263f64b9d28e596f47e1b27e58b7f015d5c932",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 58,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "1e31b772ce13a2605d29f80116263f64b9d28e596f47e1b27e58b7f015d5c932"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M23/gap/M23G1-p23B0.g2",
+          "sha256": "a87ace00503341254305608a3bd93642df761abc66d59b431b3874557510d593",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 67,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "a87ace00503341254305608a3bd93642df761abc66d59b431b3874557510d593"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M23G1-p23B0",
+          "sha256": "4b6c077119a7e739d9748b8abce56c485e68bd5ea652ac0e462cc3680d6b7f3f",
+          "locator": "Permutation degree, transitivity, point stabilizer and Steiner-system block.",
+          "bytes": 8902,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "4b6c077119a7e739d9748b8abce56c485e68bd5ea652ac0e462cc3680d6b7f3f"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m23",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/permutation-cycle"
+      ],
+      "source_sha256": "b5e2edef2562fdd0b7be8db9b1d48eebd7f027bf6a558ca11e8b9d02d96d85cf",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m24",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "23644c47f2c7a7429767e409fb0ef2adef282a3bce3905495c3e31f9bbba5017",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M24/",
+          "sha256": "99d56a99b0cd96076534d495bd61c54b0e5ffecbb0f5f37fd508724b4286b54d",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 37753,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "99d56a99b0cd96076534d495bd61c54b0e5ffecbb0f5f37fd508724b4286b54d"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M24/gap/M24G1-p24B0.g1",
+          "sha256": "14a7ea197f358dc995270f089105c6ac8efaa901871d2194330cef6688940db5",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 90,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "14a7ea197f358dc995270f089105c6ac8efaa901871d2194330cef6688940db5"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M24/gap/M24G1-p24B0.g2",
+          "sha256": "fa9883fa830202639e8c5ceb4f643634d6792a28328b772b11581273adab1496",
+          "locator": "Complete cycle-notation permutation.",
+          "bytes": 62,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "fa9883fa830202639e8c5ceb4f643634d6792a28328b772b11581273adab1496"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M24G1-p24B0",
+          "sha256": "bf14947a680328c948d9c706688ba0eb7b2cabc52defb66db7d06836acfaa71e",
+          "locator": "Permutation degree, transitivity, point stabilizer and Steiner-system block.",
+          "bytes": 9976,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "bf14947a680328c948d9c706688ba0eb7b2cabc52defb66db7d06836acfaa71e"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/m24",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/permutation-cycle"
+      ],
+      "source_sha256": "23644c47f2c7a7429767e409fb0ef2adef282a3bce3905495c3e31f9bbba5017",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/he",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "73a38eeb60bdbd92aef07c3c108576489c86355164b864c04ce12379747701e9",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/He/",
+          "sha256": "8c8aea5d936bb28759ac56bc1f8ba470ff88a6c037073f3f093c6392368a43d0",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 50116,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "8c8aea5d936bb28759ac56bc1f8ba470ff88a6c037073f3f093c6392368a43d0"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/HeG1-P1",
+          "sha256": "e09bdc535470070f3629f1785eb2515a02495d0f41bde418f726ac4c20d00ad3",
+          "locator": "Complete relation list, distinct from the main-page semi-presentation.",
+          "bytes": 3702,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "e09bdc535470070f3629f1785eb2515a02495d0f41bde418f726ac4c20d00ad3"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/He/mag/HeG1-P1.M",
+          "sha256": "6ab1294d2599ce209cb9ef53e433cdb40342244ac387c425d0682be6ab55e374",
+          "locator": "Complete presentation, comments explaining correctness and optional redundant relations.",
+          "bytes": 1480,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "6ab1294d2599ce209cb9ef53e433cdb40342244ac387c425d0682be6ab55e374"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/he",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/group-presentation",
+        "algebra-groups/commutator"
+      ],
+      "source_sha256": "73a38eeb60bdbd92aef07c3c108576489c86355164b864c04ce12379747701e9",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/hn",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "aa8af55f0b5d3fbafbe049b1e9d7d5dd9a57b1b8796e4025aff425ab2fafdc15",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/HN/",
+          "sha256": "8293cf5778167f5bea2620363b0d8ee73e1274eacb109b564035d4ea89fc3ec1",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 64633,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "8293cf5778167f5bea2620363b0d8ee73e1274eacb109b564035d4ea89fc3ec1"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/HNG1-f5r133B0",
+          "sha256": "71f73775d8d9fe7acc421734dd8eece0e2e8860b22b8cbbd3535ee1fb079f01b",
+          "locator": "Simple group, field, degree and exact two matrix files.",
+          "bytes": 5439,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "71f73775d8d9fe7acc421734dd8eece0e2e8860b22b8cbbd3535ee1fb079f01b"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/HN/mtx/HNG1-f5r133B0.m1",
+          "sha256": "a771e96ffbc69b01e4cb8c89b3be9189e6cd9bf46f410c5b417177cadffbca35",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 17976,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "a771e96ffbc69b01e4cb8c89b3be9189e6cd9bf46f410c5b417177cadffbca35"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/HN/mtx/HNG1-f5r133B0.m2",
+          "sha256": "8c61afada719e9bfb27d9ce276ac5948f2f5b38cda4bc1e968fc75cd91c58525",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 17976,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "8c61afada719e9bfb27d9ce276ac5948f2f5b38cda4bc1e968fc75cd91c58525"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/hn",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "source_sha256": "aa8af55f0b5d3fbafbe049b1e9d7d5dd9a57b1b8796e4025aff425ab2fafdc15",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/th",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9e0891f5b4db9e17ad2dae5f2a59fcc6a69b8a0b6c750c47ed54cef7cf0f24d0",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Th/",
+          "sha256": "cdbfd9c30e391d6ca54f42e55fefddda43eb12f1bf1a087ba47f9fb20a20a168",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 33270,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "cdbfd9c30e391d6ca54f42e55fefddda43eb12f1bf1a087ba47f9fb20a20a168"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/ThG1-f2r248B0",
+          "sha256": "fe634b327f2189f208a02d15f3151f3949d00a70d2f9a5eddee623926f639c6f",
+          "locator": "Simple group, field, degree and exact two matrix files.",
+          "bytes": 6186,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "fe634b327f2189f208a02d15f3151f3949d00a70d2f9a5eddee623926f639c6f"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/Th/mtx/ThG1-f2r248B0.m1",
+          "sha256": "3c3a9b23d1b43bb6ef3ab84edcd37dbed66563d66b738a8fe29563a2538a33cd",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 80433,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "3c3a9b23d1b43bb6ef3ab84edcd37dbed66563d66b738a8fe29563a2538a33cd"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/Th/mtx/ThG1-f2r248B0.m2",
+          "sha256": "a705b8861f254b964a2996c5cc74cc97a16be90f5136dec1ad87943353c2e9f1",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 80433,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "a705b8861f254b964a2996c5cc74cc97a16be90f5136dec1ad87943353c2e9f1"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/th",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "source_sha256": "9e0891f5b4db9e17ad2dae5f2a59fcc6a69b8a0b6c750c47ed54cef7cf0f24d0",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi22",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "ee9e77627c8024dcba1f93a3999fe7a60df5c932b83e337b6c4cc7695a7cf11c",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/F22/",
+          "sha256": "7e807bd16e2e2f3739749b3d463bff6f4bf1dfd6c6ec3454aedc547eda7dbd1b",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 89122,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "7e807bd16e2e2f3739749b3d463bff6f4bf1dfd6c6ec3454aedc547eda7dbd1b"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/F22G1-P1",
+          "sha256": "3c1d7e85ff959ca95fc97e59b6ee0418f99c43e14bc67dfca18987cd0497d8be",
+          "locator": "Complete relation list, distinct from the main-page semi-presentation.",
+          "bytes": 3872,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "3c1d7e85ff959ca95fc97e59b6ee0418f99c43e14bc67dfca18987cd0497d8be"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/F22/mag/F22G1-P1.M",
+          "sha256": "a7931cf8f277196341023a229924c084c96b0b465e4893f1eb36ba47144cc027",
+          "locator": "Complete presentation, comments explaining correctness and optional redundant relations.",
+          "bytes": 621,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "a7931cf8f277196341023a229924c084c96b0b465e4893f1eb36ba47144cc027"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi22",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/group-presentation",
+        "algebra-groups/commutator"
+      ],
+      "source_sha256": "ee9e77627c8024dcba1f93a3999fe7a60df5c932b83e337b6c4cc7695a7cf11c",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi23",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "015780f0918f3d231f8f659e137b540be4baa77752189124426dcfb8aaa583ae",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/F23/",
+          "sha256": "01e7908a975a66bba2bfe751b33e1634cd6193904e7f6c6ab4952cc716790922",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 45565,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "01e7908a975a66bba2bfe751b33e1634cd6193904e7f6c6ab4952cc716790922"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/F23G1-f3r253B0",
+          "sha256": "aabbd7c13489add199447eace7ca990e5bf73f0e87556a2a1cc11364e114a709",
+          "locator": "Simple group, field, degree and exact two matrix files.",
+          "bytes": 6105,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "aabbd7c13489add199447eace7ca990e5bf73f0e87556a2a1cc11364e114a709"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/F23/mtx/F23G1-f3r253B0.m1",
+          "sha256": "ef54233606dd1a04e4d0e5a607bdf1f106bfa0a8fd074b54f4c2f956954bbacc",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 65042,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "ef54233606dd1a04e4d0e5a607bdf1f106bfa0a8fd074b54f4c2f956954bbacc"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/F23/mtx/F23G1-f3r253B0.m2",
+          "sha256": "5a348011641b24f3222b8754dfb0bdaf834c7dc99c6001881c9663c80364b452",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 65042,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "5a348011641b24f3222b8754dfb0bdaf834c7dc99c6001881c9663c80364b452"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi23",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "source_sha256": "015780f0918f3d231f8f659e137b540be4baa77752189124426dcfb8aaa583ae",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi24-prime",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f62b5c17fd00e03a80a2942c959c7c89a130cd81110cf9a7ae77b53f5f63b46a",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/F24/",
+          "sha256": "947f52e22446d793028f028798f0080d77b7aef2b9bf0e27edeeacb8d4f64929",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 87242,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "947f52e22446d793028f028798f0080d77b7aef2b9bf0e27edeeacb8d4f64929"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/F24G1-f3r781B0",
+          "sha256": "7e759dc716a3f3b9aabf6be39a4e8c47bed50094f73b8bc3992491f81e599321",
+          "locator": "Simple group, field, degree and exact two matrix files.",
+          "bytes": 6092,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "7e759dc716a3f3b9aabf6be39a4e8c47bed50094f73b8bc3992491f81e599321"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/F24/mtx/F24G1-f3r781B0.m1",
+          "sha256": "e08394c82cd0eb3077aad9eca544b2a401694bb40e678adb9d79ec6a5d73fca5",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 617792,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "e08394c82cd0eb3077aad9eca544b2a401694bb40e678adb9d79ec6a5d73fca5"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/F24/mtx/F24G1-f3r781B0.m2",
+          "sha256": "e6909e9566cfff9ff8d0cdf358e972a974b6c95e75213dd7b12377d0d7c2e1a0",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 617792,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "e6909e9566cfff9ff8d0cdf358e972a974b6c95e75213dd7b12377d0d7c2e1a0"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/fi24-prime",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "source_sha256": "f62b5c17fd00e03a80a2942c959c7c89a130cd81110cf9a7ae77b53f5f63b46a",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/baby-monster",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "34ed5d39b3a4986d4a0c02c621b577262b3a4b8a2b4668638d83943b20a7ba06",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/B/",
+          "sha256": "2dfac4ac49865ef042865be4fb18170ca3fd66709bbd38f0ef35293c43f354e3",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 76448,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "2dfac4ac49865ef042865be4fb18170ca3fd66709bbd38f0ef35293c43f354e3"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/BG1-f2r4370B0",
+          "sha256": "75a5222ff96fccd42133a3c119b335c48afdb2091dec0636d617cc6c9bfb4263",
+          "locator": "Simple group, field, degree and exact two matrix files.",
+          "bytes": 6178,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "75a5222ff96fccd42133a3c119b335c48afdb2091dec0636d617cc6c9bfb4263"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/B/mtx/BG1-f2r4370B0.m1",
+          "sha256": "ec144ec6e65b63031fa9146521b7fc6c813cd9103fea60bed842359811f41061",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 19337271,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "ec144ec6e65b63031fa9146521b7fc6c813cd9103fea60bed842359811f41061"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/B/mtx/BG1-f2r4370B0.m2",
+          "sha256": "29045b85f2c55f6c582bf90ef99438bea4d0308316a0e51c1d9cd93ddde26bc3",
+          "locator": "Complete MeatAxe matrix: header, then row-major entries.",
+          "bytes": 19337271,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "29045b85f2c55f6c582bf90ef99438bea4d0308316a0e51c1d9cd93ddde26bc3"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/baby-monster",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/generated-subgroup",
+        "linear-algebra/matrix",
+        "algebra-fields-galois/finite-field"
+      ],
+      "source_sha256": "34ed5d39b3a4986d4a0c02c621b577262b3a4b8a2b4668638d83943b20a7ba06",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/monster",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "6c7ea9648a176eb9ea1656f5663a4b66707df29fdadee064e4cb80c40b37005f",
+      "targeted_claims": "Exact defining model, order, prime factorization, simple-group scope, and ATLAS display cluster; optional claims are limited to the cited representation or presentation page. The centralizer quotient is deduced in-text from the stated bimonster theorem, without invoking the geometric conjecture.",
+      "evidence": "Prime factors multiplied as arbitrary-precision integers. Presentation relations transcribed from complete presentation pages; matrix or permutation data fixed by dataset and file. No independent proof of order or simplicity is claimed.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M/",
+          "sha256": "d835edbbd0db42faf9d4fbc3458270538ef1450f17dff2acdadd470134768fcb",
+          "locator": "Order heading and designated simple-group section.",
+          "bytes": 72335,
+          "title": "ATLAS primary representation data",
+          "retrieved_sha256": "d835edbbd0db42faf9d4fbc3458270538ef1450f17dff2acdadd470134768fcb"
+        },
+        {
+          "url": "https://web.ma.utexas.edu/users/allcock/research/monstrous.pdf",
+          "sha256": "a71d354f9525ec0b3a57eb817a99ea37803ea91e71979493bc253687a35756eb",
+          "bytes": 128047,
+          "title": "Allcock, A Monstrous Proposal",
+          "locator": "§2 pp. 3–4, Y555 graph, spider relation and known presentation theorem; §3 remark (7)."
+        },
+        {
+          "url": "https://api.pageplace.de/preview/DT0400.9781139242899_A24435594/preview-9781139242899_A24435594.pdf",
+          "sha256": "66bc987f3292fa280c6809237b31a50542adf2f13836a8a7d4be08de26e99b84",
+          "bytes": 2732909,
+          "title": "Conway, Y555 and all that",
+          "locator": "Printed pp. 22–23, Y555 relation list and Ivanov–Norton attribution."
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "title": "ATLAS of Finite Group Representations: sporadic groups",
+          "locator": "Mathieu, Leech lattice, Monster and Pariahs display blocks.",
+          "sha256": "ebf97eb9462f3c92fec30f594629565fd6b051b0ebae2c2346fda2c613c357de"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/monster",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "algebra-groups/group-presentation",
+        "algebra-groups/centralizer",
+        "algebra-groups/quotient-group"
+      ],
+      "source_sha256": "6c7ea9648a176eb9ea1656f5663a4b66707df29fdadee064e4cb80c40b37005f",
+      "evidence": "Complete core list reviewed semantically; later structure properties and comparison groups excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/mathieu-point-stabilizers",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "1e1ec51007337e35353db86fee397f5b23c1a90fac1a151e986259251c73c436",
+      "targeted_claims": "Named point stabilizers or maximal sporadic subgroups and exact indices.",
+      "evidence": "All five indices checked as exact ratios of source-verified group orders; underlying subgroup identification uses the cited ATLAS rows.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M12G1-p12aB0",
+          "title": "ATLAS M12G1-p12aB0",
+          "locator": "Properties: transitivity and point stabilizer.",
+          "retrieved_sha256": "81f2a0611d281c6c4f898c13fd4c55350d065700ab5fea294ff9398ce08394c9"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M23G1-p23B0",
+          "title": "ATLAS M23G1-p23B0",
+          "locator": "Properties: transitivity and point stabilizer.",
+          "retrieved_sha256": "4b6c077119a7e739d9748b8abce56c485e68bd5ea652ac0e462cc3680d6b7f3f"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/M24G1-p24B0",
+          "title": "ATLAS M24G1-p24B0",
+          "locator": "Properties: transitivity and point stabilizer.",
+          "retrieved_sha256": "bf14947a680328c948d9c706688ba0eb7b2cabc52defb66db7d06836acfaa71e"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/mathieu-point-stabilizers",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/finite-groups/sporadic/m11",
+        "catalog/finite-groups/sporadic/m12",
+        "catalog/finite-groups/sporadic/m22",
+        "catalog/finite-groups/sporadic/m23",
+        "catalog/finite-groups/sporadic/m24",
+        "algebra-groups/stabilizer",
+        "algebra-groups/group-homomorphism"
+      ],
+      "source_sha256": "1e1ec51007337e35353db86fee397f5b23c1a90fac1a151e986259251c73c436",
+      "evidence": "Full core dependency list reviewed; optional orbit-stabilizer deduction excluded.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/baby-monster-sporadic-subgroups",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3d101713912ecdd9f3c63347be884a30ab595573b9998e7fc65a4102092df0e0",
+      "targeted_claims": "Named point stabilizers or maximal sporadic subgroups and exact indices.",
+      "evidence": "All five indices checked as exact ratios of source-verified group orders; underlying subgroup identification uses the cited ATLAS rows.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/B/",
+          "title": "ATLAS, Baby Monster",
+          "locator": "Maximal subgroups of B, Fi23 and Th rows.",
+          "retrieved_sha256": "2dfac4ac49865ef042865be4fb18170ca3fd66709bbd38f0ef35293c43f354e3"
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/baby-monster-sporadic-subgroups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "prerequisites": [
+        "catalog/finite-groups/sporadic/fi23",
+        "catalog/finite-groups/sporadic/th",
+        "catalog/finite-groups/sporadic/baby-monster",
+        "algebra-groups/group-homomorphism"
+      ],
+      "source_sha256": "3d101713912ecdd9f3c63347be884a30ab595573b9998e7fc65a4102092df0e0",
+      "evidence": "Full core dependency list reviewed; optional orbit-stabilizer deduction excluded.",
+      "sources": []
+    }
+  ],
+  "interlink_decisions": [
+    {
+      "candidate_id": "4ed289ae6db3bd5d7f17",
+      "target": "algebra-groups/group-homomorphism",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "4e50070fda4dc1ef2e00",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "e0dbb5ffbb1055ed914e",
+      "target": "algebra-groups/free-group",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "becc73655908eca1b5df",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "98f00826d07ec832f7e4",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "cfca5c65909ceef878ce",
+      "target": "operator-algebras/central-support",
+      "decision": "reject",
+      "reason": "A central extension of groups is unrelated to central support in an operator algebra."
+    },
+    {
+      "candidate_id": "b49a71d1a62b04187fa8",
+      "target": "algebra-groups/free-group",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "6500e3c3dfc5841bc4ac",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "d845f6f69613496a6a29",
+      "target": "algebra-groups/group-homomorphism",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    },
+    {
+      "candidate_id": "850f4b76e59002dfb12f",
+      "target": "lie-groups/coset-space",
+      "decision": "replace",
+      "reason": "The target assumes a Lie group and quotient topology. Linked the algebra-groups/coset owner manually for the finite set of left cosets."
+    },
+    {
+      "candidate_id": "151e0aa054a3bf5784c4",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The canonical group-theoretic concept matches this occurrence; links are core prerequisites only when used in the statement."
+    }
+  ],
+  "manifest": "reviews/finite-groups/sporadic-main-paths.txt",
+  "data_fragment": "reviews/finite-groups/sporadic-main-data.json",
+  "model_checks": "reviews/finite-groups/sporadic-main-model-checks.json",
+  "final_interlink_report": "reviews/finite-groups/sporadic-main-interlink-final.jsonl",
+  "final_interlink_candidates": 1,
+  "final_interlink_disposition": "The remaining central-cover → operator-algebra central-support suggestion is a reviewed rejection.",
+  "dependency_report": "reviews/finite-groups/sporadic-main-dependencies-final.jsonl",
+  "structural_checks": "reviews/finite-groups/sporadic-validation.json"
+}
