@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Fix a principal \(G\)-bundle \(\pi:P\to M\) with a [[fiber-bundles/principal-connection|principal connection]] and associated connection form \(\omega\). Let \(V\) be a finite-dimensional real or complex [[lie-groups/representation-of-a-lie-group|smooth representation]] of \(G\).
+Fix a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] \(\pi:P\to M\) with a [[fiber-bundles/principal-connection|principal connection]] and associated connection form \(\omega\). Let \(V\) be a finite-dimensional real or complex [[lie-groups/representation-of-a-lie-group|smooth representation]] of \(G\).
 
 A \(V\)-valued \(k\)-form \(\alpha\in \Omega^k(P;V)\) is called **tensorial (of type \(V\))** if:
 - (**Horizontality**) \(\alpha(X_1,\dots,X_k)=0\) whenever one of the \(X_i\) is vertical, and

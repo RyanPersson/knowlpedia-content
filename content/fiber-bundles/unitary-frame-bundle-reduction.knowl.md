@@ -16,7 +16,7 @@ Let \(\pi:E\to M\) be a complex vector bundle of rank \(n\) over a [[fiber-bundl
 \mathrm{U}(E):=\{(e_1,\dots,e_n)\in \mathrm{Fr}(E)\ :\ h(e_i,e_j)=\delta_{ij}\ \text{fiberwise}\}.
 \]
 
-The right action of \(\mathrm{GL}(n,\mathbb C)\) on \(\mathrm{Fr}(E)\) restricts to a free right action of the unitary group \(\mathrm{U}(n)\) on \(\mathrm{U}(E)\). With this action, \(\mathrm{U}(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(\mathrm{U}(n)\).
+The right action of \(\mathrm{GL}(n,\mathbb C)\) on \(\mathrm{Fr}(E)\) restricts to a free right action of the unitary group \(\mathrm{U}(n)\) on \(\mathrm{U}(E)\). With this action, \(\mathrm{U}(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(\mathrm{U}(n)\).
 
 ## Equivalent characterizations
 Equivalently, giving a Hermitian metric on \(E\) is the same as specifying a reduction of the structure group from \(\mathrm{GL}(n,\mathbb C)\) to \(\mathrm{U}(n)\).

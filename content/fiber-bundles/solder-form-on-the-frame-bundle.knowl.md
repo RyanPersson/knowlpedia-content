@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. Its (linear) frame bundle \(FM\) is the set of pairs \((x,u)\) where \(x\in M\) and \(u\colon \mathbb{R}^n\to T_xM\) is a linear isomorphism. The projection \(\pi\colon FM\to M\) makes \(FM\) a [[fiber-bundles/principal-g-bundle|principal bundle]] with structure group \(GL(n,\mathbb{R})\) acting by right composition on frames.
+Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. Its (linear) frame bundle \(FM\) is the set of pairs \((x,u)\) where \(x\in M\) and \(u\colon \mathbb{R}^n\to T_xM\) is a linear isomorphism. The projection \(\pi\colon FM\to M\) makes \(FM\) a [[fiber-bundles/principal-g-bundle|principal bundle]] with [[fiber-bundles/structure-group|structure group]] \(GL(n,\mathbb{R})\) acting by right composition on frames.
 
 The **solder form** on \(FM\) is the \(\mathbb{R}^n\)-valued [[fiber-bundles/differential-k-form|1-form]]
 \[

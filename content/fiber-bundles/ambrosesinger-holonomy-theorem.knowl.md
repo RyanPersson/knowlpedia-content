@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) on \(P\) with curvature form \(\Omega\).
+Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] a [[fiber-bundles/lie-group|Lie group]] \(G\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) on \(P\) with curvature form \(\Omega\).
 
 For \(x\in M\) and \(p\in P_x\), let \(\mathrm{Hol}_p(\omega)\subseteq G\) denote the [[fiber-bundles/holonomy-group|holonomy group]] based at \(p\), and let \(\mathrm{Hol}^0_p(\omega)\) be its identity component. Write
 \[

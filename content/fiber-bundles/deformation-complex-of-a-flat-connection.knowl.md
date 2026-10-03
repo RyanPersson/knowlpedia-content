@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be a [[fiber-bundles/flat-principal-connection|flat connection]] on a principal \(G\)-bundle \(P\to M\). The **deformation complex of \(A\)** is the twisted de Rham [[algebra-homological/cochain-complex|complex]]
+Let \(A\) be a [[fiber-bundles/flat-principal-connection|flat connection]] on a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] \(P\to M\). The **deformation complex of \(A\)** is the twisted de Rham [[algebra-homological/cochain-complex|complex]]
 \[
 0\longrightarrow\Omega^0(M;\operatorname{ad}P)
 \xrightarrow{\,d_A\,}\Omega^1(M;\operatorname{ad}P)

@@ -17,7 +17,7 @@ g_{ij}\,g_{jk}=g_{ik}\quad\text{on }U_i\cap U_j\cap U_k,
 \qquad
 g_{ii}=e,\quad g_{ji}=g_{ij}^{-1}.
 \]
-Such data defines a principal bundle by gluing trivial bundles, producing the usual notion of [[fiber-bundles/principal-bundle-transition-function|transition functions]] and a corresponding [[fiber-bundles/bundle-atlas|bundle atlas]].
+Such data defines a [[fiber-bundles/principal-g-bundle|principal bundle]] by gluing trivial bundles, producing the usual notion of [[fiber-bundles/principal-bundle-transition-function|transition functions]] and a corresponding [[fiber-bundles/bundle-atlas|bundle atlas]].
 
 Two cocycles \(\{g_{ij}\}\) and \(\{g'_{ij}\}\) on the same cover are **equivalent** if there exist smooth maps
 \[

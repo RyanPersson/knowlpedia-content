@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with an \(\mathrm{Ad}\)-invariant positive-definite inner product on its Lie algebra (as for a compact structure group), and let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
+Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with an \(\mathrm{Ad}\)-invariant positive-definite inner product on its Lie algebra (as for a compact [[fiber-bundles/structure-group|structure group]]), and let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
 
 Fix a [[fiber-bundles/principal-connection|principal connection]] \(A\) on \(P\) with [[fiber-bundles/curvature|curvature]] \(F_A\in \Omega^2(M;\operatorname{ad}(P))\).
 

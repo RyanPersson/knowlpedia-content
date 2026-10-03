@@ -245,3 +245,10 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/bianchi-group|Bianchi group]]
 - [[algebra-groups/commensurable-subgroups|Commensurable subgroups]]
 - [[knowlification/bianchi-index|Complete Bianchi collection]]
+
+## Connections with ergodic theory
+
+- [[algebra-groups/symmetric-group|Symmetric group]]
+- [[algebra-groups/permutation-cycle|Cycle of a permutation]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

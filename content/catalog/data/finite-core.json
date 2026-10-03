@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "objects": [],
+  "categories": [
+    {
+      "id": "finite-groups",
+      "name": "Finite groups",
+      "knowl": "catalog/categories/finite-groups",
+      "scalar": null,
+      "object_axioms": [
+        "Group axioms",
+        "Finite underlying set"
+      ],
+      "morphism_axioms": [
+        "Preserves multiplication (and hence identity and inverse)"
+      ],
+      "unit_policy": "group-identity-preserved",
+      "regularity": "none"
+    },
+    {
+      "id": "finite-simple-groups",
+      "name": "Finite simple groups",
+      "knowl": "catalog/categories/finite-simple-groups",
+      "scalar": null,
+      "object_axioms": [
+        "Finite group",
+        "Nontrivial, with no proper nontrivial normal subgroup"
+      ],
+      "morphism_axioms": [
+        "Preserves multiplication (and hence identity and inverse)"
+      ],
+      "unit_policy": "group-identity-preserved",
+      "regularity": "none"
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "morphism_spaces": [
+    {
+      "id": "ms-fg-cyclic-n-fg-cyclic-n-groups-end",
+      "source_view": "fg-cyclic-n@groups",
+      "target_view": "fg-cyclic-n@groups",
+      "operation": "end",
+      "description": "Exactly f_a([k])=[ak] for a in Z/nZ; n maps. With pointwise addition and composition, this endomorphism ring is Z/nZ.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-n-fg-cyclic-n-groups-aut",
+      "source_view": "fg-cyclic-n@groups",
+      "target_view": "fg-cyclic-n@groups",
+      "operation": "aut",
+      "description": "Exactly f_a([k])=[ak] with gcd(a,n)=1. The automorphism group is (Z/nZ)×, including its one-element case n=1.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-3-groups-hom",
+      "source_view": "fg-cyclic-2@groups",
+      "target_view": "fg-cyclic-3@groups",
+      "operation": "hom",
+      "description": "Exactly one homomorphism: the zero map. Its generator image must satisfy 2a=0 in Z/3Z, so a=0.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-n-fg-cyclic-n-finite-groups-end",
+      "source_view": "fg-cyclic-n@finite-groups",
+      "target_view": "fg-cyclic-n@finite-groups",
+      "operation": "end",
+      "description": "Exactly f_a([k])=[ak] for a in Z/nZ; n maps. With pointwise addition and composition, this endomorphism ring is Z/nZ.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-n-fg-cyclic-n-finite-groups-aut",
+      "source_view": "fg-cyclic-n@finite-groups",
+      "target_view": "fg-cyclic-n@finite-groups",
+      "operation": "aut",
+      "description": "Exactly f_a([k])=[ak] with gcd(a,n)=1. The automorphism group is (Z/nZ)×, including its one-element case n=1.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-3-finite-groups-hom",
+      "source_view": "fg-cyclic-2@finite-groups",
+      "target_view": "fg-cyclic-3@finite-groups",
+      "operation": "hom",
+      "description": "Exactly one homomorphism: the zero map. Its generator image must satisfy 2a=0 in Z/3Z, so a=0.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-n-fg-cyclic-n-abelian-groups-end",
+      "source_view": "fg-cyclic-n@abelian-groups",
+      "target_view": "fg-cyclic-n@abelian-groups",
+      "operation": "end",
+      "description": "Exactly f_a([k])=[ak] for a in Z/nZ; n maps. With pointwise addition and composition, this endomorphism ring is Z/nZ.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-n-fg-cyclic-n-abelian-groups-aut",
+      "source_view": "fg-cyclic-n@abelian-groups",
+      "target_view": "fg-cyclic-n@abelian-groups",
+      "operation": "aut",
+      "description": "Exactly f_a([k])=[ak] with gcd(a,n)=1. The automorphism group is (Z/nZ)×, including its one-element case n=1.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-3-abelian-groups-hom",
+      "source_view": "fg-cyclic-2@abelian-groups",
+      "target_view": "fg-cyclic-3@abelian-groups",
+      "operation": "hom",
+      "description": "Exactly one homomorphism: the zero map. Its generator image must satisfy 2a=0 in Z/3Z, so a=0.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-3-sets-hom",
+      "source_view": "fg-cyclic-2@sets",
+      "target_view": "fg-cyclic-3@sets",
+      "operation": "hom",
+      "description": "All 3²=9 functions between the underlying two-element and three-element sets.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-2-groups-end",
+      "source_view": "fg-cyclic-2@groups",
+      "target_view": "fg-cyclic-2@groups",
+      "operation": "end",
+      "description": "Exactly 2 maps f_a([k])=[ak], with a in Z/2Z.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-2-groups-aut",
+      "source_view": "fg-cyclic-2@groups",
+      "target_view": "fg-cyclic-2@groups",
+      "operation": "aut",
+      "description": "Only the identity.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-2-finite-groups-end",
+      "source_view": "fg-cyclic-2@finite-groups",
+      "target_view": "fg-cyclic-2@finite-groups",
+      "operation": "end",
+      "description": "Exactly 2 maps f_a([k])=[ak], with a in Z/2Z.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-2-finite-groups-aut",
+      "source_view": "fg-cyclic-2@finite-groups",
+      "target_view": "fg-cyclic-2@finite-groups",
+      "operation": "aut",
+      "description": "Only the identity.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-2-sets-end",
+      "source_view": "fg-cyclic-2@sets",
+      "target_view": "fg-cyclic-2@sets",
+      "operation": "end",
+      "description": "All 2^2=4 functions on the underlying set.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-2-fg-cyclic-2-sets-aut",
+      "source_view": "fg-cyclic-2@sets",
+      "target_view": "fg-cyclic-2@sets",
+      "operation": "aut",
+      "description": "All 2!=2 permutations of the underlying set.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-3-fg-cyclic-3-groups-end",
+      "source_view": "fg-cyclic-3@groups",
+      "target_view": "fg-cyclic-3@groups",
+      "operation": "end",
+      "description": "Exactly 3 maps f_a([k])=[ak], with a in Z/3Z.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-3-fg-cyclic-3-groups-aut",
+      "source_view": "fg-cyclic-3@groups",
+      "target_view": "fg-cyclic-3@groups",
+      "operation": "aut",
+      "description": "Exactly the identity and inversion [k]↦[-k].",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-3-fg-cyclic-3-finite-groups-end",
+      "source_view": "fg-cyclic-3@finite-groups",
+      "target_view": "fg-cyclic-3@finite-groups",
+      "operation": "end",
+      "description": "Exactly 3 maps f_a([k])=[ak], with a in Z/3Z.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-3-fg-cyclic-3-finite-groups-aut",
+      "source_view": "fg-cyclic-3@finite-groups",
+      "target_view": "fg-cyclic-3@finite-groups",
+      "operation": "aut",
+      "description": "Exactly the identity and inversion [k]↦[-k].",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-3-fg-cyclic-3-sets-end",
+      "source_view": "fg-cyclic-3@sets",
+      "target_view": "fg-cyclic-3@sets",
+      "operation": "end",
+      "description": "All 3^3=27 functions on the underlying set.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-fg-cyclic-3-fg-cyclic-3-sets-aut",
+      "source_view": "fg-cyclic-3@sets",
+      "target_view": "fg-cyclic-3@sets",
+      "operation": "aut",
+      "description": "All 3!=6 permutations of the underlying set.",
+      "knowl": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "A cyclic-group homomorphism is determined by the image of 1, subject to the source-order relation; set maps are arbitrary functions. Direct proof in the linked knowl.",
+        "references": [],
+        "lean": null
+      }
+    }
+  ]
+}

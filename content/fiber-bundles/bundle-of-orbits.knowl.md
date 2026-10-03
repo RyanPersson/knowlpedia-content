@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal bundle with [[fiber-bundles/right-principal-action|right principal action]] of the [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(F\) be a smooth left \(G\)-space.
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with [[fiber-bundles/right-principal-action|right principal action]] of the [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(F\) be a smooth left \(G\)-space.
 
 The **bundle of orbits** associated to \((P,F)\) is the orbit space
 \[
@@ -25,7 +25,7 @@ When this action is free and proper (as it is in the principal-bundle setting wi
 \[
 [(p,f)] \longmapsto \pi(p)
 \]
-makes it a smooth fiber bundle over \(M\). This orbit bundle is canonically identified with the [[fiber-bundles/associated-bundle|associated bundle]] \(P\times_G F\) defined via the equivalent relation \((p\cdot g,f)\sim(p,g\cdot f)\).
+makes it a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] over \(M\). This orbit bundle is canonically identified with the [[fiber-bundles/associated-bundle|associated bundle]] \(P\times_G F\) defined via the equivalent relation \((p\cdot g,f)\sim(p,g\cdot f)\).
 
 ## Examples
 1. **Fiber a point.** If \(F=\{\ast\}\) with the trivial action, then \((P\times F)/G \cong P/G \cong M\).

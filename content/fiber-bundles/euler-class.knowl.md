@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:E\to M\) be an oriented real vector bundle of rank \(2m\). Choose a Euclidean metric on \(E\) and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) whose structure group is reduced to \(SO(2m)\). Let \(F_\nabla\in\Omega^2(M;\mathfrak{so}(E))\) be its [[fiber-bundles/curvature|curvature]].
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:E\to M\) be an oriented real vector bundle of rank \(2m\). Choose a Euclidean metric on \(E\) and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) whose [[fiber-bundles/structure-group|structure group]] is reduced to \(SO(2m)\). Let \(F_\nabla\in\Omega^2(M;\mathfrak{so}(E))\) be its [[fiber-bundles/curvature|curvature]].
 
 The **Pfaffian** \(\mathrm{Pf}\) is an \(Ad\)-invariant polynomial of degree \(m\) on \(\mathfrak{so}(2m)\) characterized by \(\mathrm{Pf}(A)^2=\det(A)\) for skew-symmetric matrices \(A\). The **Euler form** of \(\nabla\) is the closed \(2m\)-form
 \[

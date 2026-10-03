@@ -17,7 +17,7 @@ There exists at least one [[fiber-bundles/connection-on-a-vector-bundle|connecti
 
 ## Construction
 
-One proof strategy is to pass to the frame bundle \(\mathrm{Fr}(E)\to M\), use the existence of connections on principal bundles (see [[fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection|existence of principal connections]]), and then induce a connection on \(E\) from a principal connection on \(\mathrm{Fr}(E)\).
+One proof strategy is to pass to the frame bundle \(\mathrm{Fr}(E)\to M\), use the existence of connections on [[fiber-bundles/principal-g-bundle|principal bundles]] (see [[fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection|existence of principal connections]]), and then induce a connection on \(E\) from a principal connection on \(\mathrm{Fr}(E)\).
 
 ## Examples
 1. **Trivial bundle.** On \(E=M\times \mathbb R^k\), the operator \(d\) (componentwise differentiation in a trivialization) is a connection.

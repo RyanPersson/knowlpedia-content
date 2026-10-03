@@ -38,4 +38,4 @@ is a bundle trivialization; on overlaps, the transition functions are given by t
 ## Examples
 1. Taking \(F=G\) with left multiplication, \(P\times_G G\) is canonically isomorphic to \(P\) as a principal \(G\)-bundle (via \([p,g]\mapsto pg\)).
 2. Taking \(F=G\) with conjugation recovers the [[fiber-bundles/construction-adjoint-bundle-ad|adjoint bundle]] \(P\times_G G\), a bundle of groups over \(M\).
-3. If \(F\) is a homogeneous space \(G/H\), then \(P\times_G (G/H)\) is a fiber bundle with fiber \(G/H\); reductions of structure group to \(H\) can be expressed as sections of this associated bundle.
+3. If \(F\) is a homogeneous space \(G/H\), then \(P\times_G (G/H)\) is a fiber bundle with fiber \(G/H\); reductions of [[fiber-bundles/structure-group|structure group]] to \(H\) can be expressed as sections of this associated bundle.

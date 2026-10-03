@@ -188,3 +188,9 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/idempotent-semiring|Idempotent semiring]]
 - [[algebra-rings/idempotent-semifield|Idempotent semifield]]
 - [[algebra-rings/tropical-semifield|Tropical semifield]]
+
+## Connections with ergodic theory
+
+- [[algebra-rings/associative-algebra-derivation|Derivation of an associative algebra]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

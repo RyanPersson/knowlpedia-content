@@ -1,0 +1,17 @@
+{
+  "knowl_count": 8,
+  "object_shape_checks": 7,
+  "relationship_shape_checks": 6,
+  "all_knowl_links_resolve": true,
+  "all_prerequisites_resolve": true,
+  "progressive_sections_preserve_content": true,
+  "external_links_only_in_references": true,
+  "reachable_dependency_graph_acyclic": true,
+  "reachable_dependencies_visited": 82,
+  "order_factors_match_decimal_strings": true,
+  "embedding_indices_match_order_ratios": true,
+  "scope_audit_findings": 0,
+  "scope": "Source and shape checks; integrated production/browser checks are performed by the coordinating agent.",
+  "local_fragment_rendering": true,
+  "math_backend": "katex"
+}

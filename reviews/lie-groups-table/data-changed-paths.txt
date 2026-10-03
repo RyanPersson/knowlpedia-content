@@ -1,0 +1,3 @@
+content/catalog/data/lie-groups.json
+content/catalog/lie-groups/so-identity-p-q-r.knowl.md
+content/catalog/lie-groups/so-p-q-r.knowl.md

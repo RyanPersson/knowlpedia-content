@@ -47,6 +47,8 @@ two orthogonal nonzero invariant summands.
 
 ## Conventions and scope
 
+Noncompactness does not force irreducible unitary representations to be infinite-dimensional. For instance, \(\mathbb R\times\operatorname{SU}(2)\) has the [[lie-groups/noncompact-finite-dimensional-unitary-example|two-dimensional irreducible action]] \((t,k)\mapsto e^{it}k\). Conversely, topological irreducibility on a Hilbert space does not imply algebraic irreducibility of the [[lie-groups/heisenberg-derived-representation|derived action on smooth vectors]].
+
 **Warning.** This notion differs from irreducibility of an arbitrary
 finite-dimensional linear representation only in settings where topology
 matters. It should also be distinguished from factorial or primary

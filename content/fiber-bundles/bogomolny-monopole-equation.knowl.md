@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to Y\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented Riemannian three-manifold. A **Bogomolny monopole** is a pair \((A,\Phi)\) consisting of a [[fiber-bundles/principal-connection|connection]] \(A\) and a Higgs field \(\Phi\in\Omega^0(Y;\operatorname{ad}P)\) satisfying the **Bogomolny monopole equation**
+Let \(P\to Y\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over an oriented Riemannian three-manifold. A **Bogomolny monopole** is a pair \((A,\Phi)\) consisting of a [[fiber-bundles/principal-connection|connection]] \(A\) and a Higgs field \(\Phi\in\Omega^0(Y;\operatorname{ad}P)\) satisfying the **Bogomolny monopole equation**
 \[
 F_A=*d_A\Phi.
 \]

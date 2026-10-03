@@ -1,0 +1,83 @@
+{
+  "scope": "Bounded exact checks of downloaded representation data; these computations do not prove the order, simplicity, or isomorphism type of the generated groups.",
+  "models": {
+    "HSG1-p100B0": {
+      "kind": "permutation",
+      "degree": 100,
+      "generator_orders": [
+        2,
+        5
+      ],
+      "product_order": 11,
+      "orbit_of_first_point": 100,
+      "all_entries_valid": true
+    },
+    "J2G1-p100B0": {
+      "kind": "permutation",
+      "degree": 100,
+      "generator_orders": [
+        2,
+        3
+      ],
+      "product_order": 7,
+      "orbit_of_first_point": 100,
+      "all_entries_valid": true,
+      "five_presentation_relators_hold": true
+    },
+    "McLG1-p275B0": {
+      "kind": "permutation",
+      "degree": 275,
+      "generator_orders": [
+        2,
+        5
+      ],
+      "product_order": 11,
+      "orbit_of_first_point": 275,
+      "all_entries_valid": true
+    },
+    "SuzG1-p1782B0": {
+      "kind": "permutation",
+      "degree": 1782,
+      "generator_orders": [
+        2,
+        3
+      ],
+      "product_order": 13,
+      "orbit_of_first_point": 1782,
+      "all_entries_valid": true
+    },
+    "Co1G1-f2r24B0": {
+      "kind": "matrix",
+      "dimension": 24,
+      "field_order": 2,
+      "both_matrices_full_rank": true,
+      "generator_orders": [
+        2,
+        3
+      ],
+      "product_order": 40
+    },
+    "Co2G1-f2r22B0": {
+      "kind": "matrix",
+      "dimension": 22,
+      "field_order": 2,
+      "both_matrices_full_rank": true,
+      "generator_orders": [
+        2,
+        5
+      ],
+      "product_order": 28
+    },
+    "Co3G1-f2r22B0": {
+      "kind": "matrix",
+      "dimension": 22,
+      "field_order": 2,
+      "both_matrices_full_rank": true,
+      "generator_orders": [
+        3,
+        4
+      ],
+      "product_order": 14
+    }
+  }
+}

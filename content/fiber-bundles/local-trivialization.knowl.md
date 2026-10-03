@@ -26,7 +26,7 @@ such that the projection to \(U\) agrees with \(\pi\), i.e.
 
 A collection of local trivializations over an open cover that satisfy the compatibility condition defines a [[fiber-bundles/bundle-atlas|bundle atlas]]. On overlaps \(U_i\cap U_j\), comparing trivializations produces the usual [[fiber-bundles/transition-function|transition functions]] (or transition maps), and these satisfy the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]].
 
-For principal bundles, one often uses the equivariant version (compare [[fiber-bundles/equivariant-local-trivialization|equivariant local trivialization]]), and local trivializations can be built from local sections as in [[fiber-bundles/construction-local-trivialization-from-a-local-section|constructing a trivialization from a local section]].
+For [[fiber-bundles/principal-g-bundle|principal bundles]], one often uses the equivariant version (compare [[fiber-bundles/equivariant-local-trivialization|equivariant local trivialization]]), and local trivializations can be built from local sections as in [[fiber-bundles/construction-local-trivialization-from-a-local-section|constructing a trivialization from a local section]].
 
 ## Fiberwise consequence
 

@@ -28,5 +28,5 @@ When \(M/G\) has a smooth structure for which \(\pi\) is a submersion, \(\bar f\
 
 ## Examples
 1. **Radial functions.** For the \(SO(n)\)-action on \(\mathbb{R}^n\), the smooth function \(x\mapsto \|x\|^2\) and every smooth function of \(\|x\|^2\) are invariant. The norm itself is invariant as a set function but is not smooth at the origin for \(n\ge1\).
-2. **Pullbacks from a quotient.** If \(\pi:P\to B\) is a principal bundle, then any smooth \(h:B\to\mathbb{R}\) gives an invariant function \(h\circ \pi\) on \(P\).
+2. **Pullbacks from a quotient.** If \(\pi:P\to B\) is a [[fiber-bundles/principal-g-bundle|principal bundle]], then any smooth \(h:B\to\mathbb{R}\) gives an invariant function \(h\circ \pi\) on \(P\).
 3. **Transitive actions.** If the action is transitive (one orbit), for instance \(\mathbb{R}^n\) acting on itself by translations, then every invariant smooth function is constant.

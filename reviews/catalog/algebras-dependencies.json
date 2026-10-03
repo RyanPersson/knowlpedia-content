@@ -1,0 +1,2005 @@
+{
+  "sample_seed": 20261002,
+  "sample_size": 20,
+  "full_report": [
+    {
+      "id": "catalog/algebras/c-complexified",
+      "title": "Complexification of C",
+      "kind": "definition",
+      "path": "content/catalog/algebras/c-complexified.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "algebra-modules/tensor-product"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "algebra-modules/tensor-product"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/h-complexified",
+      "title": "Complexification of H",
+      "kind": "definition",
+      "path": "content/catalog/algebras/h-complexified.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "algebra-modules/tensor-product"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "algebra-modules/tensor-product"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-c-complexified",
+      "title": "Herm_1(C) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-c-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/c-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-c",
+      "title": "Herm_1(C) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-c.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-h-complexified",
+      "title": "Herm_1(H) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-h-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/h-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-h",
+      "title": "Herm_1(H) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-o-complexified",
+      "title": "Herm_1(O) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-o-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/o-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-o",
+      "title": "Herm_1(O) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-o.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-r-complexified",
+      "title": "Symmetric 1-by-1 complex Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-r-complexified.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-r",
+      "title": "Herm_1(R) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-split-c",
+      "title": "Herm_1(C_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-split-h",
+      "title": "Herm_1(H_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-1-split-o",
+      "title": "Herm_1(O_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-1-split-o.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-octonions"
+      ],
+      "existing": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-c-complexified",
+      "title": "Herm_2(C) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-c-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/c-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-h-complexified",
+      "title": "Herm_2(H) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-h-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/h-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-h",
+      "title": "Herm_2(H) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-o-complexified",
+      "title": "Herm_2(O) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-o-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/o-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-r-complexified",
+      "title": "Symmetric 2-by-2 complex Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-r-complexified.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-r",
+      "title": "Herm_2(R) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-split-c",
+      "title": "Herm_2(C_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-split-h",
+      "title": "Herm_2(H_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-2-split-o",
+      "title": "Herm_2(O_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-2-split-o.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-octonions"
+      ],
+      "existing": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-c-complexified",
+      "title": "Herm_3(C) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-c-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/c-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-h-complexified",
+      "title": "Herm_3(H) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-h-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/h-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-h",
+      "title": "Herm_3(H) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-o-complexified",
+      "title": "Complex Albert algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-o-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/o-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-r-complexified",
+      "title": "Symmetric 3-by-3 complex Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-r-complexified.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-r",
+      "title": "Herm_3(R) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-split-c",
+      "title": "Herm_3(C_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-split-h",
+      "title": "Herm_3(H_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-3-split-o",
+      "title": "Split real Albert algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-3-split-o.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-octonions"
+      ],
+      "existing": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-c-complexified",
+      "title": "Herm_n(C) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-c-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/c-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-c",
+      "title": "Herm_n(C) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-c.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-h-complexified",
+      "title": "Herm_n(H) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-h-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/h-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/h-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-h",
+      "title": "Herm_n(H) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-o-complexified",
+      "title": "Herm_n(O) complexification",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-o-complexified.knowl.md",
+      "inferred": [
+        "catalog/algebras/o-complexified"
+      ],
+      "existing": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/o-complexified",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-o",
+      "title": "Herm_n(O) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-o.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-r-complexified",
+      "title": "Symmetric n-by-n complex Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-r-complexified.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-r",
+      "title": "Herm_n(R) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-split-c",
+      "title": "Herm_n(C_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-split-h",
+      "title": "Herm_n(H_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/herm-n-split-o",
+      "title": "Herm_n(O_s) Jordan algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/herm-n-split-o.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-octonions"
+      ],
+      "existing": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/split-octonions",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/hermitian-coefficient-inclusion",
+      "title": "Hermitian Jordan embeddings from coefficient inclusions",
+      "kind": "theorem",
+      "path": "content/catalog/algebras/hermitian-coefficient-inclusion.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/jordan-algebra",
+        "catalog/algebras/standard-composition-inclusions"
+      ],
+      "existing": [
+        "catalog/algebras/standard-composition-inclusions",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "final": [
+        "catalog/algebras/standard-composition-inclusions",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/hermitian-corner-inclusion",
+      "title": "Nonunital Hermitian Jordan corner embedding",
+      "kind": "theorem",
+      "path": "content/catalog/algebras/hermitian-corner-inclusion.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-c-jordan",
+      "title": "Full-matrix Jordan algebra M_1(C)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-c-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-1-c"
+      ],
+      "existing": [
+        "catalog/algebras/m-1-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-1-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-c",
+      "title": "M_1(C) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-c.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-h",
+      "title": "M_1(H) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-o",
+      "title": "M_1(O) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-o.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-r-jordan",
+      "title": "Full-matrix Jordan algebra M_1(R)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-r-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-1-r"
+      ],
+      "existing": [
+        "catalog/algebras/m-1-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-1-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-r",
+      "title": "M_1(R) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-s",
+      "title": "M_1(S) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-s.knowl.md",
+      "inferred": [
+        "catalog/algebras/sedenions"
+      ],
+      "existing": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-split-c",
+      "title": "M_1(C_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-1-split-h",
+      "title": "M_1(H_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-1-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-c-jordan",
+      "title": "Full-matrix Jordan algebra M_2(C)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-c-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-2-c"
+      ],
+      "existing": [
+        "catalog/algebras/m-2-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-2-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-c",
+      "title": "M_2(C) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-c.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-h",
+      "title": "M_2(H) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-o",
+      "title": "M_2(O) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-o.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-r-jordan",
+      "title": "Full-matrix Jordan algebra M_2(R)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-r-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-2-r"
+      ],
+      "existing": [
+        "catalog/algebras/m-2-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-2-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-r",
+      "title": "M_2(R) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-s",
+      "title": "M_2(S) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-s.knowl.md",
+      "inferred": [
+        "catalog/algebras/sedenions"
+      ],
+      "existing": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-split-c",
+      "title": "M_2(C_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-2-split-h",
+      "title": "M_2(H_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-2-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-c-jordan",
+      "title": "Full-matrix Jordan algebra M_3(C)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-c-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-3-c"
+      ],
+      "existing": [
+        "catalog/algebras/m-3-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-3-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-c",
+      "title": "M_3(C) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-c.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-h",
+      "title": "M_3(H) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-o",
+      "title": "M_3(O) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-o.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-r-jordan",
+      "title": "Full-matrix Jordan algebra M_3(R)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-r-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-3-r"
+      ],
+      "existing": [
+        "catalog/algebras/m-3-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-3-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-r",
+      "title": "M_3(R) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-s",
+      "title": "M_3(S) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-s.knowl.md",
+      "inferred": [
+        "catalog/algebras/sedenions"
+      ],
+      "existing": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-split-c",
+      "title": "M_3(C_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-3-split-h",
+      "title": "M_3(H_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-3-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-c-jordan",
+      "title": "Full-matrix Jordan algebra M_n(C)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-c-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-n-c"
+      ],
+      "existing": [
+        "catalog/algebras/m-n-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-n-c",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-c",
+      "title": "M_n(C) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-c.knowl.md",
+      "inferred": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "existing": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-h",
+      "title": "M_n(H) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-h.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-o",
+      "title": "M_n(O) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-o.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-r-jordan",
+      "title": "Full-matrix Jordan algebra M_n(R)^+",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-r-jordan.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "catalog/algebras/m-n-r"
+      ],
+      "existing": [
+        "catalog/algebras/m-n-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "final": [
+        "catalog/algebras/m-n-r",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-r",
+      "title": "M_n(R) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-r.knowl.md",
+      "inferred": [
+        "shared-foundations/real-numbers"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "shared-foundations/real-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-s",
+      "title": "M_n(S) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-s.knowl.md",
+      "inferred": [
+        "catalog/algebras/sedenions"
+      ],
+      "existing": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/sedenions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-split-c",
+      "title": "M_n(C_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-split-c.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-complex-numbers"
+      ],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/m-n-split-h",
+      "title": "M_n(H_s) matrix algebra",
+      "kind": "definition",
+      "path": "content/catalog/algebras/m-n-split-h.knowl.md",
+      "inferred": [
+        "catalog/algebras/split-quaternions"
+      ],
+      "existing": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "final": [
+        "catalog/algebras/split-quaternions",
+        "linear-algebra/matrix"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/o-complexified",
+      "title": "Complexification of O",
+      "kind": "definition",
+      "path": "content/catalog/algebras/o-complexified.knowl.md",
+      "inferred": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra",
+        "algebra-modules/tensor-product"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra",
+        "algebra-modules/tensor-product"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/sedenions",
+      "title": "Real sedenions S",
+      "kind": "definition",
+      "path": "content/catalog/algebras/sedenions.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "final": [
+        "nonassociative-algebra/octonion-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-1-c",
+      "title": "Spin factor J(C^1)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-1-c.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-1-r",
+      "title": "Spin factor J(R^1)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-1-r.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-2-c",
+      "title": "Spin factor J(C^2)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-2-c.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-2-r",
+      "title": "Spin factor J(R^2)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-2-r.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-3-c",
+      "title": "Spin factor J(C^3)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-3-c.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-3-r",
+      "title": "Spin factor J(R^3)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-3-r.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-5-r",
+      "title": "Spin factor J(R^5)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-5-r.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-9-r",
+      "title": "Spin factor J(R^9)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-9-r.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/spin-n-c",
+      "title": "Spin factor J(C^n)",
+      "kind": "definition",
+      "path": "content/catalog/algebras/spin-n-c.knowl.md",
+      "inferred": [],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/split-complex-hermitian-isomorphism",
+      "title": "Split-complex Hermitian matrices as full-matrix Jordan algebras",
+      "kind": "theorem",
+      "path": "content/catalog/algebras/split-complex-hermitian-isomorphism.knowl.md",
+      "inferred": [],
+      "existing": [
+        "catalog/algebras/split-complex-numbers",
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "final": [
+        "catalog/algebras/split-complex-numbers",
+        "catalog/algebras/c-complexified",
+        "nonassociative-algebra/jordan-algebra-homomorphism"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/split-complex-numbers",
+      "title": "Split complex numbers C_s",
+      "kind": "definition",
+      "path": "content/catalog/algebras/split-complex-numbers.knowl.md",
+      "inferred": [
+        "linear-algebra/quadratic-form"
+      ],
+      "existing": [
+        "shared-foundations/real-numbers"
+      ],
+      "final": [
+        "shared-foundations/real-numbers"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/split-octonions",
+      "title": "Split octonions O_s",
+      "kind": "definition",
+      "path": "content/catalog/algebras/split-octonions.knowl.md",
+      "inferred": [
+        "linear-algebra/quaternion-division-algebra",
+        "linear-algebra/quadratic-form"
+      ],
+      "existing": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "final": [
+        "linear-algebra/quaternion-division-algebra"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/split-quaternions",
+      "title": "Split quaternions H_s",
+      "kind": "definition",
+      "path": "content/catalog/algebras/split-quaternions.knowl.md",
+      "inferred": [
+        "algebra-rings/matrix-ring",
+        "linear-algebra/quadratic-form"
+      ],
+      "existing": [
+        "algebra-rings/matrix-ring"
+      ],
+      "final": [
+        "algebra-rings/matrix-ring"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/standard-composition-inclusions",
+      "title": "Standard inclusions in the Cayley\u2013Dickson tower",
+      "kind": "theorem",
+      "path": "content/catalog/algebras/standard-composition-inclusions.knowl.md",
+      "inferred": [
+        "catalog/algebras/sedenions"
+      ],
+      "existing": [
+        "catalog/algebras/sedenions"
+      ],
+      "final": [
+        "catalog/algebras/sedenions"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    }
+  ]
+}

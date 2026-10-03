@@ -36,7 +36,7 @@ The Hermitian metric on \(E\) induces one on the [[fiber-bundles/exterior-power-
 
 Consequently, an \(\mathrm{SU}(n)\)-reduction exists exactly when \(\det(E)\) is trivial as a complex [[fiber-bundles/line-bundle|line bundle]]. The reduction is not determined by \(E\) and its metric alone: different unit determinant sections generally give different reductions.
 
-There is no intrinsic condition that a unitary frame have “determinant \(1\)” until such a section is chosen. Intrinsically, the determinant homomorphism gives the associated principal bundle
+There is no intrinsic condition that a unitary frame have “determinant \(1\)” until such a section is chosen. Intrinsically, the determinant homomorphism gives the associated [[fiber-bundles/principal-g-bundle|principal bundle]]
 \[
 \mathrm U(E)\times_{\det}\mathrm U(1)\cong \mathrm U(\det E),
 \]

@@ -15,7 +15,7 @@ Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]
 
 ## Examples
 1. **Tangent and cotangent bundles:** for an \(n\)-manifold \(M\), the typical fiber of \(TM\to M\) (and of \(T^*M\to M\)) is \(\mathbb{R}^n\).
-2. **Principal bundles:** the typical fiber of a principal \(G\)-bundle \(P\to M\) is the [[fiber-bundles/lie-group|Lie group]] \(G\) itself.
+2. **Principal bundles:** the typical fiber of a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] \(P\to M\) is the [[fiber-bundles/lie-group|Lie group]] \(G\) itself.
 3. **[[fiber-bundles/sphere-bundle|Sphere bundles]]:** the unit sphere bundle \(S(E)\to M\) of a rank-\(k\) vector bundle has typical fiber \(S^{k-1}\).
 
 

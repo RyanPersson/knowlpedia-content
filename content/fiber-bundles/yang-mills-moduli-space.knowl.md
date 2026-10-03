@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], equipped with an invariant [[linear-algebra/inner-product|inner product]] on the [[lie-groups/lie-algebra|Lie algebra]]. The **Yang–Mills moduli space** of \(P\) is the quotient
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], equipped with an invariant [[linear-algebra/inner-product|inner product]] on the [[lie-groups/lie-algebra|Lie algebra]]. The **Yang–Mills moduli space** of \(P\) is the quotient
 \[
 \mathcal M_{\mathrm{YM}}(P)
 =

@@ -34,3 +34,10 @@ dependency_review_count = 1
 - [[discrete-structures/proper-graph-coloring|Proper graph coloring]]
 - [[discrete-structures/support-intersection-graph|Support intersection graph]]
 - [[discrete-structures/vertex-degree|Vertex degree]]
+
+## Connections with ergodic theory
+
+- [[discrete-structures/upper-banach-density|Upper Banach density]]
+- [[discrete-structures/szemeredi-theorem|Szemerédi theorem]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

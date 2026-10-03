@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) (equivalently a horizontal distribution; see [[fiber-bundles/horizontal-distribution|horizontal distribution]] and [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) (equivalently a horizontal distribution; see [[fiber-bundles/horizontal-distribution|horizontal distribution]] and [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]).
 
 Let \(F\) be a smooth left \(G\)-space (see [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth G-action]]) and form the [[fiber-bundles/associated-bundle|associated bundle]]
 \[

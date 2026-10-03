@@ -16,7 +16,7 @@ Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] 
 
 The following are equivalent:
 
-1. (**Existence of an \(H\)-reduction**) There exists a principal \(H\)-bundle \(P_H\to M\) and an \(H\)-equivariant embedding \(P_H\hookrightarrow P\) over \(M\) such that \(P\) is obtained from \(P_H\) by extension of structure group along the inclusion \(H\hookrightarrow G\).
+1. (**Existence of an \(H\)-reduction**) There exists a principal \(H\)-bundle \(P_H\to M\) and an \(H\)-equivariant embedding \(P_H\hookrightarrow P\) over \(M\) such that \(P\) is obtained from \(P_H\) by extension of [[fiber-bundles/structure-group|structure group]] along the inclusion \(H\hookrightarrow G\).
 
 2. (**\(H\)-valued transition functions**) There exists an open cover \(\{U_i\}\) and local trivializations \(P|_{U_i}\cong U_i\times G\) for which the transition functions \(g_{ij}:U_{ij}\to G\) take values in \(H\).
 

@@ -31,9 +31,13 @@ A morphism of principal \(G\)-bundles over the same base is a smooth \(G\)-equiv
 
 Principal bundles are the natural setting for [[fiber-bundles/principal-connection|principal connections]]; once a connection is chosen, one can define [[fiber-bundles/parallel-transport|parallel transport]] along paths and the associated [[fiber-bundles/holonomy-group|holonomy group]], and the curvature measures the failure of horizontal distributions to be integrable (see [[fiber-bundles/curvature|curvature]]).
 
+## Underlying bundle and structure group
+
+Forgetting the right action leaves a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with model fiber \(G\). In equivariant local trivializations, changes of fiber coordinates have the form \((x,h)\mapsto(x,g_{ij}(x)h)\). Thus this is a [[fiber-bundles/g-bundle|G-bundle]] for the left multiplication action of \(G\) on itself. That left action in the transition functions commutes with the principal right action on \(P\).
+
 ## Examples
 1. **Trivial principal bundle.** For any \(M\) and \(G\), the projection \(M\times G\to M\) with right action \((x,h)\cdot g=(x,hg)\) is a principal \(G\)-bundle.
 
-2. **Frame bundles.** If \(E\to M\) is a rank-\(n\) vector bundle, its [[fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle|frame bundle]] is a principal bundle with structure group \(\mathrm{GL}(n,\mathbb F)\).
+2. **Frame bundles.** If \(E\to M\) is a rank-\(n\) vector bundle, its [[fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle|frame bundle]] is a principal bundle with [[fiber-bundles/structure-group|structure group]] \(\mathrm{GL}(n,\mathbb F)\).
 
 3. **Hopf fibration.** The map \(S^3\to S^2\) can be realized as a principal \(\mathrm{U}(1)\)-bundle, with \(\mathrm{U}(1)\) acting freely on \(S^3\subset \mathbb C^2\) by scalar multiplication.

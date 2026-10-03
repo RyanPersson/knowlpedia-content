@@ -36,7 +36,7 @@ Thus \(\Gamma^\infty(M,E)\) is a module over the [[differential-geometry/algebra
 
 ## Examples
 
-Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are smooth [[fiber-bundles/vector-field|vector fields]], while sections of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] are smooth one-forms. Every vector bundle has the [[fiber-bundles/zero-section|zero section]], so—unlike a general fiber bundle—the existence of a global section does not imply triviality. A rank-\(r\) vector bundle is trivial precisely when it admits \(r\) global sections that form a basis in every fiber.
+Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are smooth [[fiber-bundles/vector-field|vector fields]], while sections of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] are smooth one-forms. Every vector bundle has the [[fiber-bundles/zero-section|zero section]], so—unlike a general [[fiber-bundles/fiber-bundle|fiber bundle]]—the existence of a global section does not imply triviality. A rank-\(r\) vector bundle is trivial precisely when it admits \(r\) global sections that form a basis in every fiber.
 
 ## References
 

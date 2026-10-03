@@ -33,11 +33,11 @@ Writing each quaternionic matrix as a complex matrix of twice the size
 identifies
 \[
 \operatorname{Sp}(n)
-\cong \operatorname{Sp}(n,\mathbb C)\cap\operatorname{U}(2n).
+\cong \operatorname{Sp}(2n,\mathbb C)\cap\operatorname{U}(2n).
 \]
 Here [[lie-groups/unitary-group|\(\operatorname{U}(2n)\)]] preserves the
 standard Hermitian form, while the complex symplectic factor preserves the
-standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]].
+standard nondegenerate alternating complex [[linear-algebra/bilinear-form|bilinear form]]. Here the argument \(2n\) in the complex symplectic notation is the complex matrix size.
 
 ## Structure and low-rank example
 
@@ -55,8 +55,9 @@ underlying manifold \(S^3\).
 quaternionic unitary group, also written \(\operatorname{USp}(2n)\). It is
 not the noncompact [[lie-groups/symplectic-group|real symplectic group]]
 \(\operatorname{Sp}(2n,\mathbb R)\). The two groups preserve different
-ambient structures and have different real dimensions.
+ambient structures, but both have real dimension \(n(2n+1)\).
 
 ## References
 
 1. Anthony W. Knapp, *Lie Groups Beyond an Introduction*, 2nd ed., Progress in Mathematics 140, Birkhäuser, 2002. [Author-hosted text](https://www.math.stonybrook.edu/~aknapp/download/Beyond2.pdf). Relevant: §I.17, especially (1.135), Proposition 1.136, and Proposition 1.139.
+2. Pavel Etingof, [Lie Groups and Lie Algebras](https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf), §41.1, Exercise 41.3(iii), and §41.2, type \(C_n\), printed p. 219; the complex symplectic group uses the matrix-size convention adopted here.

@@ -1,0 +1,406 @@
+{
+  "id": "finite-sporadic-leech",
+  "lane": "sporadic-leech",
+  "scope": "targeted and dependencies only",
+  "entries": [
+    {
+      "id": "catalog/finite-groups/sporadic/hs",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "23ad0687faca0e939fae745a6cf4e290207b579f15d8a4d44606f3f109754536",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Definition fixes the actual permutation pair HSG1-p100B0, not merely generator orders. Checked the 100-point model, subdegrees 1,22,77, exact order/factors, graph automorphism index 2 and maximal HS subgroup of Co3. Direct bounded computation validates permutation syntax, transitivity and a,b,ab orders; does not prove full group order/simplicity.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/HS/",
+          "title": "ATLAS: HS",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "42a09572b9a1d5372d4433a7215321265ad3733bbdd2c2320c022ca4db9f7c46"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/HSG1-p100B0",
+          "title": "ATLAS: HSG1-p100B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "38dcb9c66ffbad968ef9c9c8ec4c3551ffe75f631ec5584465cef6c55bb2c47e"
+        },
+        {
+          "url": "https://maths.qmul.ac.uk/~pjc/travel/forder/scenes2.pdf",
+          "title": "Peter J. Cameron, Scenes from mathematical life",
+          "locator": "Slide titled From Higman–Sims to Urysohn: 100-vertex graph and simple subgroup of index 2 in its automorphism group",
+          "retrieved_sha256": "967fb2988293655b86f3aff920945768f7e4dd9d9373bafec3f92a1041434ea9"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co3/",
+          "title": "ATLAS: Co3",
+          "locator": "Maximal subgroups of Co3, HS row: order 44352000, index 11178",
+          "retrieved_sha256": "3d019ccdca534b4c314375b4bb4c884c00961dc46c0e5b97bda91cff4fa6141e"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co3/",
+          "title": "ATLAS: Co3",
+          "locator": "Maximal subgroups of Co3, HS row",
+          "retrieved_sha256": "3d019ccdca534b4c314375b4bb4c884c00961dc46c0e5b97bda91cff4fa6141e"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/hs",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23ad0687faca0e939fae745a6cf4e290207b579f15d8a4d44606f3f109754536",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "dfa5b13a6e9549aaba7f919facd168c8e29d912373a24dd364ce357b596f6570",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Copied every relator from the full presentation J2G1-P2.M, including the final sixth power of x*y*x*y*x*y^-1*x*y*x*y^-1. The omitted relation in the source is explicitly marked redundant; the knowl uses all five active relators. Commutator convention is a^-1 b^-1 a b. Independently checked all five relators hold in the specified 100-point permutation representation. Read graph source warning that strongly regular parameters alone do not define Hall–Janko graph. The J2 subgroup of Suz is not asserted maximal.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/J2/",
+          "title": "ATLAS: J2",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "83da2e38a205e9c0f4cf7e611fca963e03199bfe12c3a2ed2ea1ed9e375c7f5b"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/J2G1-p100B0",
+          "title": "ATLAS: J2G1-p100B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "571fcd97b29fe9a3f73842418b45ed57a2fe2f44e6ab972e4d17f41778867ac5"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/pres/J2G1-P2",
+          "title": "ATLAS: J2G1-P2",
+          "locator": "About this presentation; all five relators and Magma file J2G1-P2.M",
+          "retrieved_sha256": "132b4e79b95fdb6263abbeffa312d48a5f5bfde7f7412964a970fe79e6608cbd"
+        },
+        {
+          "url": "https://aeb.win.tue.nl/graphs/HallJanko.html",
+          "title": "A. E. Brouwer, Hall–Janko graph",
+          "locator": "Opening paragraph: graph parameters and nonuniqueness from parameters; Group: HJ.2 and rank-three action",
+          "retrieved_sha256": "e8ccd44f644f9be01cbca28eb6f6c5923ff17d2f25b397910cff5833c7c52d65"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Suz/",
+          "title": "ATLAS: Suz",
+          "locator": "Maximal subgroups of Suz, J2:2 row: index 370656",
+          "retrieved_sha256": "ce9c89fef2e9e570be827526fd7f0277ba88a6b5538a22e81a2d5b4e5b34c4a9"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Suz/",
+          "title": "ATLAS: Suz",
+          "locator": "Maximal subgroups of Suz, J2:2 row (index 370656); J2 has index 2 in J2:2",
+          "retrieved_sha256": "ce9c89fef2e9e570be827526fd7f0277ba88a6b5538a22e81a2d5b4e5b34c4a9"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/j2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfa5b13a6e9549aaba7f919facd168c8e29d912373a24dd364ce357b596f6570",
+      "prerequisites": [
+        "algebra-groups/group-presentation",
+        "algebra-groups/commutator"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co1",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e04387ef0f40e0b8307d5c801438da9725d2ec47bdd926c4a786b7fb7ea4c8bf",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Checked exact geometric quotient O(Leech lattice)/{I,-I}, central sign, distinction from nonsimple Co0, order and factorization, binary 24-dimensional representation and maximal Co2/Co3 indices. Source-lattice normalization is explicit. Verified binary data shape, invertibility, a,b,ab orders; those are bounded transcription checks, not a proof of group order or simplicity.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/",
+          "title": "ATLAS: Co1",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "eaa1f00c8982a7c3954d761a689c08a36d5e946cf80cdcd221622aaf071338b4"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/Co1G1-f2r24B0",
+          "title": "ATLAS: Co1G1-f2r24B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "63cb55eea9eb3099629e0d133d1e7ffaa25d236965aca6570c3fc9e2763e37ca"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes5.pdf",
+          "title": "Robert A. Wilson, Finite Simple Groups, Chapter 5 notes",
+          "locator": "Sections 5.3.2–5.3.4, equations (5.16)–(5.17)",
+          "retrieved_sha256": "f24ea0d9b2e0a170b1bccca6aff46152ee50b9ca093e7107ce1cc3b5219773b5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e04387ef0f40e0b8307d5c801438da9725d2ec47bdd926c4a786b7fb7ea4c8bf",
+      "prerequisites": [
+        "catalog/finite-groups/sporadic/leech-lattice",
+        "algebra-groups/quotient-group"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co2",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b12a9894ab4412c3b08a993d15dea71a665c080344676f3c00efe1716fd80405",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Checked stabilizer in full lattice isometry group of a squared-norm-4 vector and transitivity of such vectors; no unjustified choice dependence. Quotient embeds stabilizer in Co1 because -I does not fix nonzero v. Verified exact order/factors, index 98280 in Co1, McL index 47104, and fixed binary 22-dimensional model. Lattice rank and matrix representation dimension are distinguished.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co2/",
+          "title": "ATLAS: Co2",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "77f4dc7d08e7824a939114a0f74b043b980a84054a69b466f6b6f9b2ef81cea6"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/Co2G1-f2r22B0",
+          "title": "ATLAS: Co2G1-f2r22B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "51369092af7de235bd7157f9ed0430c70418d4272078fcbab15ce37c02bcdcd2"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes5.pdf",
+          "title": "Robert A. Wilson, Finite Simple Groups, Chapter 5 notes",
+          "locator": "Sections 5.3.2–5.3.4, equations (5.16)–(5.17)",
+          "retrieved_sha256": "f24ea0d9b2e0a170b1bccca6aff46152ee50b9ca093e7107ce1cc3b5219773b5"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/",
+          "title": "ATLAS: Co1",
+          "locator": "Maximal subgroups of Co1, Co2 row",
+          "retrieved_sha256": "eaa1f00c8982a7c3954d761a689c08a36d5e946cf80cdcd221622aaf071338b4"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b12a9894ab4412c3b08a993d15dea71a665c080344676f3c00efe1716fd80405",
+      "prerequisites": [
+        "catalog/finite-groups/sporadic/leech-lattice",
+        "algebra-groups/stabilizer"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "956b03e591ad30e934e15e2cef3665a0c6d1ececccbd38343537c5248934437a",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Checked stabilizer in full lattice isometry group of a squared-norm-6 vector and transitivity of such vectors. Quotient injectivity is explained by the missing central sign. Exact order/factors and binary 22-dimensional model checked. HS is maximal; McL:2 is maximal of index 276, while McL has index 552 and is not maximal.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co3/",
+          "title": "ATLAS: Co3",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "3d019ccdca534b4c314375b4bb4c884c00961dc46c0e5b97bda91cff4fa6141e"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/matrep/Co3G1-f2r22B0",
+          "title": "ATLAS: Co3G1-f2r22B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "4ae47100db3c8398836232a12805261a68e10c915893d0096eb07eb85323a998"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes5.pdf",
+          "title": "Robert A. Wilson, Finite Simple Groups, Chapter 5 notes",
+          "locator": "Sections 5.3.2–5.3.4, equations (5.16)–(5.17)",
+          "retrieved_sha256": "f24ea0d9b2e0a170b1bccca6aff46152ee50b9ca093e7107ce1cc3b5219773b5"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co1/",
+          "title": "ATLAS: Co1",
+          "locator": "Maximal subgroups of Co1, Co3 row",
+          "retrieved_sha256": "eaa1f00c8982a7c3954d761a689c08a36d5e946cf80cdcd221622aaf071338b4"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/co3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "956b03e591ad30e934e15e2cef3665a0c6d1ececccbd38343537c5248934437a",
+      "prerequisites": [
+        "catalog/finite-groups/sporadic/leech-lattice",
+        "algebra-groups/stabilizer"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/mcl",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4d90185a6cc07167d90cdfadca3cbf45456022416c7e4d1284c0e9da19c1db5b",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Definition fixes the actual 275-point permutation generator data McLG1-p275B0. Checked order/factors, subdegrees 1,112,162 and projective unitary point-stabilizer convention U4(3)=PSU4(3). Checked maximal embedding in Co2 and nonmaximal embedding in Co3 through McL:2. Permutation syntax, transitivity and generator/product orders were independently checked, without asserting a proof of total group order.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/McL/",
+          "title": "ATLAS: McL",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "ec95c5aeb83e0a517be0c8294e7a15626e740885f408d8947d89f68a18bf65ab"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/McLG1-p275B0",
+          "title": "ATLAS: McLG1-p275B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "2c812e06b30ebb4de06fc0eda37f62bca27fd522c833e04f5bfda9496b881142"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co2/",
+          "title": "ATLAS: Co2",
+          "locator": "Maximal subgroups of Co2, McL row",
+          "retrieved_sha256": "77f4dc7d08e7824a939114a0f74b043b980a84054a69b466f6b6f9b2ef81cea6"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Co3/",
+          "title": "ATLAS: Co3",
+          "locator": "Maximal subgroups of Co3, McL:2 row (index 276); McL has index 2 in McL:2",
+          "retrieved_sha256": "3d019ccdca534b4c314375b4bb4c884c00961dc46c0e5b97bda91cff4fa6141e"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/mcl",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d90185a6cc07167d90cdfadca3cbf45456022416c7e4d1284c0e9da19c1db5b",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/suz",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "943286e6e175db3651f8178dc115cadff0584faa502ac7b405eb58172dd6c75b",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Definition fixes the actual 1782-point permutation generator data SuzG1-p1782B0. Checked order/factors, subdegrees 1,416,1365, G2(4) point stabilizer, and maximal J2:2 subgroup. Distinguished sporadic Suz from the twisted Lie-type Suzuki family and from nontrivial central covers; no 12-dimensional representation of a central cover is mislabeled a faithful representation of Suz.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/Suz/",
+          "title": "ATLAS: Suz",
+          "locator": "Order, representation and maximal-subgroup tables",
+          "retrieved_sha256": "ce9c89fef2e9e570be827526fd7f0277ba88a6b5538a22e81a2d5b4e5b34c4a9"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/permrep/SuzG1-p1782B0",
+          "title": "ATLAS: SuzG1-p1782B0",
+          "locator": "About this representation; exact generator pair in Download",
+          "retrieved_sha256": "13734cf5273673609f2a52970d783c9d6965ac602730a7da86c269fddc7bd671"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/suz",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "943286e6e175db3651f8178dc115cadff0584faa502ac7b405eb58172dd6c75b",
+      "prerequisites": [
+        "algebra-groups/symmetric-group",
+        "algebra-groups/generated-subgroup"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/leech-lattice",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9ed44f33652bbef0e38b2131fe745ee3be89fad8787e33519b4568be3d1bdf4b",
+      "targeted_claims": "Concrete definition, adopted notation/normalization, displayed finite order and factors, and explicitly stated representation/subgroup context. No complete formal proof or whole-prerequisite-corpus review.",
+      "evidence": "Read exact characterization of the unique even unimodular rank-24 Euclidean lattice containing no vector of length sqrt(2) in Cohn–Kumar Appendix B. Wrote all conditions in core, specifying covolume, integral inner products, even squared norms and positive definiteness through Euclidean ambient space. Optional norm convention explicitly means squared length. Checked O(Lambda)/{±I}, squared-length-4/6 stabilizers from Wilson §5.3.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0403263",
+          "title": "Cohn and Kumar, Optimality and uniqueness of the Leech lattice among lattices",
+          "locator": "Appendix B, first paragraph (arXiv PDF p. 36): even unimodular definition and unique rootless rank-24 lattice; §2, covolume one and minimal length 2",
+          "retrieved_sha256": "0d4adc5fb22679557f33a8162fb711282701c00bc0830e5919a98ade1670f085"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes5.pdf",
+          "title": "Wilson, Finite Simple Groups, Chapter 5 notes",
+          "locator": "§5.3.2, central quotient; §5.3.4, equations (5.16)–(5.17): squared-norm 4 and 6 stabilizers",
+          "retrieved_sha256": "f24ea0d9b2e0a170b1bccca6aff46152ee50b9ca093e7107ce1cc3b5219773b5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/leech-lattice",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ed44f33652bbef0e38b2131fe745ee3be89fad8787e33519b4568be3d1bdf4b",
+      "prerequisites": [
+        "linear-algebra/euclidean-lattice",
+        "linear-algebra/inner-product"
+      ],
+      "evidence": "Read the complete core and every listed prerequisite. Each list contains the construction prerequisites; optional finite representations, subgroup comparisons and backlinks are excluded. Reachable prerequisite graph from these eight knowls is acyclic.",
+      "sources": []
+    }
+  ],
+  "interlink_decisions": [
+    {
+      "candidate_id": "2b9ccda9f0aa3278a112",
+      "decision": "reject",
+      "target": "algebra-modules/full-lattice",
+      "reason": "The phrase full lattice isometry group means the entire isometry group; it is not introducing a full lattice in a rational vector space."
+    },
+    {
+      "candidate_id": "43562288903415e8c71b",
+      "decision": "reject",
+      "target": "algebra-groups/automorphism-group",
+      "reason": "This is a graph automorphism group, whereas the candidate defines automorphisms of a group."
+    },
+    {
+      "candidate_id": "6a2a3f5f1c7d2823af7f",
+      "decision": "reject",
+      "target": "algebra-groups/automorphism-group",
+      "reason": "This is a graph automorphism group, whereas the candidate defines automorphisms of a group."
+    },
+    {
+      "candidate_id": "a29c32fd4b6739f3befb",
+      "decision": "reject",
+      "target": "lie-groups/special-unitary-group",
+      "reason": "The stabilizer is the finite projective unitary group over a finite field; the candidate is a real/complex Lie group."
+    },
+    {
+      "candidate_id": "b1a275e08ba18223b9bd",
+      "decision": "reject",
+      "target": "operator-algebras/central-support",
+      "reason": "A central group cover is unrelated to central support of a projection in an operator algebra."
+    },
+    {
+      "candidate_id": "0ec7e0e5033cc77a1d3e",
+      "decision": "accept",
+      "target": "algebra-groups/faithful-action",
+      "reason": "The permutation model is explicitly faithful; this target gives the exact group-action concept."
+    }
+  ],
+  "manifest": "reviews/finite-groups/sporadic-leech-paths.txt",
+  "data_fragment": "reviews/finite-groups/sporadic-leech-data.json",
+  "model_checks": "reviews/finite-groups/sporadic-leech-model-checks.json",
+  "structural_checks": "reviews/finite-groups/sporadic-leech-validation.json",
+  "remaining_integration": "Canonical shard merge, global ledger/navigation, production build and browser checks belong to the coordinating lane."
+}

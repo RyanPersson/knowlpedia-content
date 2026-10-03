@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a compact Lie group, fix an Ad-invariant inner product on its Lie algebra, and let \(A\) be a smooth Yang–Mills connection on a principal \(G\)-bundle over the punctured four-ball \(B^4\setminus\{0\}\), with a Riemannian metric smooth on all of \(B^4\). If its curvature has finite energy,
+Let \(G\) be a compact Lie group, fix an Ad-invariant inner product on its Lie algebra, and let \(A\) be a smooth Yang–Mills connection on a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over the punctured four-ball \(B^4\setminus\{0\}\), with a Riemannian metric smooth on all of \(B^4\). If its curvature has finite energy,
 \[
 \int_{B^4}|F_A|^2\,d\operatorname{vol}<\infty,
 \]

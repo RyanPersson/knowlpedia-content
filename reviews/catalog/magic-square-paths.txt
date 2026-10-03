@@ -1,0 +1,16 @@
+content/catalog/relationships/vinberg-magic-square-construction.knowl.md
+content/catalog/relationships/tits-magic-square-decomposition.knowl.md
+content/catalog/relationships/triality-algebra.knowl.md
+content/catalog/relationships/triality-magic-square-decomposition.knowl.md
+content/catalog/relationships/magic-square-transposition.knowl.md
+content/catalog/relationships/magic-square-real-forms.knowl.md
+content/catalog/relationships/su3-direct-sum-su3.knowl.md
+content/catalog/relationships/sp1-triple-direct-sum.knowl.md
+content/catalog/relationships/spin8-vector-representation.knowl.md
+content/catalog/relationships/spin8-positive-half-spin-representation.knowl.md
+content/catalog/relationships/spin8-negative-half-spin-representation.knowl.md
+content/catalog/relationships/triality-and-central-quotients.knowl.md
+content/catalog/relationships/f4-triality-decomposition.knowl.md
+content/catalog/relationships/spin8-intertwiner-spaces.knowl.md
+content/catalog/relationships/hermitian-cubic-derivation-algebras.knowl.md
+content/catalog/relationships/compact-freudenthal-magic-square.knowl.md

@@ -354,3 +354,19 @@ Click any term to expand its definition inline.
 
 - [[operator-algebras/k0-cstar-algebra|K_0 of a C*-algebra]]
 - [[operator-algebras/k1-cstar-algebra|K_1 of a C*-algebra]]
+
+## Connections with ergodic theory
+
+- [[operator-algebras/noncommutative-probability-space|Noncommutative probability space]]
+- [[operator-algebras/state-preserving-dynamical-system|State-preserving operator-algebra dynamical system]]
+- [[operator-algebras/fixed-point-algebra|Fixed-point algebra of an action]]
+- [[operator-algebras/ergodic-operator-algebra-action|Ergodic action on an operator algebra]]
+- [[operator-algebras/gns-implementation-dynamics|GNS implementation of state-preserving dynamics]]
+- [[operator-algebras/tracial-mean-ergodic-theorem|Mean ergodic theorem for a finite tracial system]]
+- [[operator-algebras/algebraic-crossed-product-z|Algebraic crossed product by an automorphism]]
+- [[operator-algebras/group-measure-space-construction|Group–measure-space construction]]
+- [[operator-algebras/maximal-abelian-subalgebra|Maximal abelian von Neumann subalgebra]]
+- [[operator-algebras/ergodicity-factor-criterion|Ergodicity and factoriality of a free crossed product]]
+- [[operator-algebras/unitary-conjugation-ergodicity|Ergodicity of unitary conjugation on matrices]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

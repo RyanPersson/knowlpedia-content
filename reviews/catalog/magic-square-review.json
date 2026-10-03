@@ -1,0 +1,843 @@
+{
+  "id": "catalog-magic-square",
+  "lane": "magic-square",
+  "entries": [
+    {
+      "id": "catalog/relationships/vinberg-magic-square-construction",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "2a50bca181fbb7f98bc6951a669e75ae3fc1432897d0fa0a48550fb1c3f6d293",
+      "evidence": "Checked complete Vinberg bracket, tensor derivation rule, trace correction and isomorphism theorem in Barton–Sudbery §4.2. D uses output Y_ji as in equation 4.21; factor inner products are real bilinear, not complex Hermitian.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§4.2, equations (4.19)–(4.21), Theorem 4.3, pp. 19–21"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/vinberg-magic-square-construction",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a50bca181fbb7f98bc6951a669e75ae3fc1432897d0fa0a48550fb1c3f6d293",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "nonassociative-algebra/composition-algebra",
+        "linear-algebra/linear-map",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/relationships/tits-magic-square-decomposition",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "76a49d885e845ee158e5e17fd1906ecaf70453fcff7da5c98d4b25a07a2beffd",
+      "evidence": "Baez §4.3 identifies Tits decomposition. Derived dimension formula directly from 3 diagonal real entries and 3 free B entries, minus trace. Does not treat all summands as Lie ideals.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+          "title": "Baez, The Octonions",
+          "locator": "§4.3, Table 5 and triality decomposition"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/tits-magic-square-decomposition",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76a49d885e845ee158e5e17fd1906ecaf70453fcff7da5c98d4b25a07a2beffd",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/relationships/vinberg-magic-square-construction",
+        "nonassociative-algebra/derivation-of-a-jordan-algebra",
+        "lie-groups/lie-subalgebra"
+      ]
+    },
+    {
+      "id": "catalog/relationships/triality-algebra",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b9b957d00b50b6f21ee34c295fcb4066508243c758710ae5e0709204f28e9450",
+      "evidence": "Checked Definition 2 and p13 table; explicit slot swap noted. Closure under commutator follows by expanding mixed terms and cancelling. Norm form indefinite allowed; no assertion split algebras are division algebras.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/triality-algebra",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9b957d00b50b6f21ee34c295fcb4066508243c758710ae5e0709204f28e9450",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "nonassociative-algebra/composition-algebra",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "catalog/relationships/triality-magic-square-decomposition",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "9b96aad0ae4579c7ca791aaf43b194e106e8043c0c3755057e769cd488bdd48f",
+      "evidence": "Checked Theorem 4.4 for vector decomposition and commuting triality subalgebras. Arithmetic verifies dimension formula; no omitted brackets presented as a standalone definition.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§4.3, Theorem 4.4, equations (4.22)–(4.26)"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/triality-magic-square-decomposition",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9b96aad0ae4579c7ca791aaf43b194e106e8043c0c3755057e769cd488bdd48f",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/relationships/vinberg-magic-square-construction",
+        "catalog/relationships/triality-algebra",
+        "lie-groups/lie-subalgebra"
+      ]
+    },
+    {
+      "id": "catalog/relationships/magic-square-transposition",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "e9d54f646d68d91f2c6945102486559b3b35cf294bd7a6539c881a4ed75f353a",
+      "evidence": "Direct verification of tensor flip against all bracket rules; construction equality does not identify input algebras.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§4.2, equations (4.19)–(4.21); direct tensor-flip verification"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/magic-square-transposition",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9d54f646d68d91f2c6945102486559b3b35cf294bd7a6539c881a4ed75f353a",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/relationships/vinberg-magic-square-construction",
+        "lie-groups/lie-algebra-isomorphism"
+      ]
+    },
+    {
+      "id": "catalog/relationships/magic-square-real-forms",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "488591c3f3dd0557b382106c9b25c5606aa1f06d9672d66ec5b3894edeab8a98",
+      "evidence": "Checked division/split input distinction and multiple real-square tables in §§2–3. Scalar extension versus restriction is direct definitional distinction. Sedenion exclusion follows required composition property, no larger square claim.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§2, p. 4 and §3, real magic-square tables pp. 11–12"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/magic-square-real-forms",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "488591c3f3dd0557b382106c9b25c5606aa1f06d9672d66ec5b3894edeab8a98",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/relationships/vinberg-magic-square-construction"
+      ]
+    },
+    {
+      "id": "catalog/relationships/su3-direct-sum-su3",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "b6b6c1296fd3fbb6bb15384caa3fcb8a6b343b9a677dd417c66ea8f694f2babf",
+      "evidence": "Direct sum definition and 8+8 dimension direct; compact square Table5 confirms placement. Not conflated with simple su(6).",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+          "title": "Baez, The Octonions",
+          "locator": "§4.3, Table 5 and triality decomposition"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/su3-direct-sum-su3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6b6c1296fd3fbb6bb15384caa3fcb8a6b343b9a677dd417c66ea8f694f2babf",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "lie-groups/direct-sum-of-lie-algebras",
+        "catalog/lie-algebras/su-3"
+      ]
+    },
+    {
+      "id": "catalog/relationships/sp1-triple-direct-sum",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "88e90e12faad5b9403d1a83230da427e5952a9a6459c07b48a239c97d7f48ae1",
+      "evidence": "Direct sum dimension 3+3+3; p13 table identifies Tri(H)=so3^3, combined with existing sp1=so3 real low-dimensional isomorphism.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/sp1-triple-direct-sum",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88e90e12faad5b9403d1a83230da427e5952a9a6459c07b48a239c97d7f48ae1",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "lie-groups/direct-sum-of-lie-algebras",
+        "catalog/lie-algebras/sp-1"
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-vector-representation",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "21ddaa84d176e0b587470584117427a545052493452a4f74e2d0396ef2a0d4f6",
+      "evidence": "Checked Baez §2.4 double cover and real spinor table. Irreducibility of standard SO8 action direct from sphere transitivity; kernel canonical double cover.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+          "title": "Baez, The Octonions",
+          "locator": "§2.4, Table 4, vector representation and normed triality"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-vector-representation",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21ddaa84d176e0b587470584117427a545052493452a4f74e2d0396ef2a0d4f6",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "lie-groups/spin-group",
+        "lie-groups/defining-representation-of-a-classical-lie-algebra"
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-positive-half-spin-representation",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "bc7ccf18a6f7f74952d8e50687a3dbefd070a86896635f762f7ea838e9ede733",
+      "evidence": "Baez Table4 gives Cl0(8)=R[8]⊕R[8] with two real dimension8 irreducibles. Source convention has negative squares; chirality labels need orientation. Schaposnik–Schulz §2.2 gives three different central order-two kernels.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+          "title": "Baez, The Octonions",
+          "locator": "§2.4, Table 4, vector representation and normed triality"
+        },
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-positive-half-spin-representation",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc7ccf18a6f7f74952d8e50687a3dbefd070a86896635f762f7ea838e9ede733",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/half-spin-representation"
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-negative-half-spin-representation",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "0eeff3bcbd5636be854d2df130baa9908420ac48d1442e54d0b8ebeffc70ce10",
+      "evidence": "Baez Table4 gives Cl0(8)=R[8]⊕R[8] with two real dimension8 irreducibles. Source convention has negative squares; chirality labels need orientation. Schaposnik–Schulz §2.2 gives three different central order-two kernels.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+          "title": "Baez, The Octonions",
+          "locator": "§2.4, Table 4, vector representation and normed triality"
+        },
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-negative-half-spin-representation",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0eeff3bcbd5636be854d2df130baa9908420ac48d1442e54d0b8ebeffc70ce10",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "lie-groups/half-spin-representation"
+      ]
+    },
+    {
+      "id": "catalog/relationships/triality-and-central-quotients",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "1d7d5cb14a9a2b4568a0d4b18fa989d06694983f1253728667ff761cae3276dd",
+      "evidence": "Checked §2.2 Proposition2.1 and central quotient discussion p5. Descent criterion proved directly from cosets; Out(SO8) not misreported as S3.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/triality-and-central-quotients",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d7d5cb14a9a2b4568a0d4b18fa989d06694983f1253728667ff761cae3276dd",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "lie-groups/spin8-triality",
+        "algebra-groups/outer-automorphism-group"
+      ]
+    },
+    {
+      "id": "catalog/relationships/f4-triality-decomposition",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "3cb4c6726f1e76e624d5fba7536593825dbeb8383b020473e8bc6f088410c33f",
+      "evidence": "Checked Baez §4.2 vector decomposition of compact f4 and §3.4 Albert decomposition. Explicitly distinguishes module decomposition from Lie algebra direct sum.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+          "title": "Baez, The Octonions",
+          "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+        },
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node12.html",
+          "title": "Baez, The Octonions",
+          "locator": "§3.4, Albert algebra as three real lines and three triality modules"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/f4-triality-decomposition",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3cb4c6726f1e76e624d5fba7536593825dbeb8383b020473e8bc6f088410c33f",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/lie-algebras/f4-compact",
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "lie-groups/spin8-triality",
+        "lie-groups/lie-subalgebra"
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-intertwiner-spaces",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "27f882270613569d58fe1a115ec320a4b0c316f94ac173b6eb4af4159308fb24",
+      "evidence": "Direct proof in text: distinct central characters force cross intertwiners zero; full SO8 image and stabilizer/transitivity imply commutant scalar. Hom=0 represented as singleton zero map, not missing or empty data.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/spin8-intertwiner-spaces",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27f882270613569d58fe1a115ec320a4b0c316f94ac173b6eb4af4159308fb24",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/relationships/spin8-vector-representation",
+        "lie-groups/half-spin-representation",
+        "catalog/relationships/triality-and-central-quotients",
+        "algebra-groups/group-action"
+      ]
+    },
+    {
+      "id": "catalog/relationships/hermitian-cubic-derivation-algebras",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f926592a915ca717c6e63d215272b69c9f0bde45a960aea532645711330ba6af",
+      "evidence": "Checked compact first-row table and matrix identifications; normalizing product by 1/2 leaves the derivation space unchanged. Dimensions from classical formulas and f4=52; sp quaternionic size explicit.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§2 equations (2.19)–(2.23), compact square p. 11, Theorem 5.1(a)"
+        },
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+          "title": "Baez, The Octonions",
+          "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/hermitian-cubic-derivation-algebras",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f926592a915ca717c6e63d215272b69c9f0bde45a960aea532645711330ba6af",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "nonassociative-algebra/derivation-of-a-jordan-algebra"
+      ]
+    },
+    {
+      "id": "catalog/relationships/compact-freudenthal-magic-square",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "f074faaa1ff0604eac82f91503b1f72079dea1f4279d4b3eace7a98bca892691",
+      "evidence": "All 16 cells checked against Baez Table5, compact real forms specified. Dimensions also computed independently by triality formula; table output paths reused from algebra reservation manifest.",
+      "targeted_claims": "Core definition or displayed theorem, stated compact/split/scalar convention, dimensions and immediate caveats. Whole prerequisite corpus not re-reviewed.",
+      "sources": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+          "title": "Baez, The Octonions",
+          "locator": "§4.3, Table 5 and triality decomposition"
+        },
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+        }
+      ]
+    },
+    {
+      "id": "catalog/relationships/compact-freudenthal-magic-square",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f074faaa1ff0604eac82f91503b1f72079dea1f4279d4b3eace7a98bca892691",
+      "evidence": "Complete prerequisites manually selected and checked against definition boundaries; optional table/consequence/backlinks are not prerequisites.",
+      "prerequisites": [
+        "catalog/relationships/vinberg-magic-square-construction",
+        "lie-groups/lie-algebra",
+        "nonassociative-algebra/composition-algebra",
+        "lie-groups/compact-real-form"
+      ]
+    }
+  ],
+  "data_evidence": {
+    "path": "content/catalog/data/magic-square.json",
+    "source_sha256": "b45214516b94f89a403f35b610ce035f6d17312e20de649fa0944ccf9cca5605",
+    "compact_square_cells": 16,
+    "dimension_formula": "dim tri(A) + dim tri(B) + 3 dim(A) dim(B)",
+    "triality_dimensions": [
+      0,
+      2,
+      9,
+      28
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/pdf/math/0203010",
+        "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+        "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+      },
+      {
+        "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+        "title": "Baez, The Octonions",
+        "locator": "§4.3, Table 5 and triality decomposition"
+      },
+      {
+        "url": "https://arxiv.org/pdf/math/0203010",
+        "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+        "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+      },
+      {
+        "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+        "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+        "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+      },
+      {
+        "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+        "title": "Baez, The Octonions",
+        "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+      },
+      {
+        "url": "https://math.ucr.edu/home/baez/octonions/node14.html",
+        "title": "Baez, The Octonions",
+        "locator": "§4.1, G2=Aut(O), derivations and Theorem 4"
+      },
+      {
+        "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+        "title": "Baez, The Octonions",
+        "locator": "§2.4, Table 4, vector representation and normed triality"
+      }
+    ]
+  },
+  "limitations": [
+    "Literature/definition/direct reasoning evidence, not Lean-certified.",
+    "The square records compact real cells only.",
+    "View-specific Hom spaces cover three Spin(8) modules only; all other missing pairs remain not catalogued."
+  ],
+  "interlink_review": {
+    "scanned_files": 16,
+    "candidates": 40,
+    "accepted": 14,
+    "decisions": [
+      {
+        "candidate_id": "6598a784acff5b20389c",
+        "source_id": "catalog/relationships/compact-freudenthal-magic-square",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebra",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "75fd05d6b24491228269",
+        "source_id": "catalog/relationships/compact-freudenthal-magic-square",
+        "target": "shared-foundations/ordered-pair",
+        "surface": "ordered pair",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "f09cadea2d97bf583d7e",
+        "source_id": "catalog/relationships/compact-freudenthal-magic-square",
+        "target": "nonassociative-algebra/composition-algebra",
+        "surface": "composition algebras",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "c874aafe5609654f51d1",
+        "source_id": "catalog/relationships/compact-freudenthal-magic-square",
+        "target": "lie-groups/compact-real-form",
+        "surface": "compact real forms",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "48b30fdd9004de15bd86",
+        "source_id": "catalog/relationships/f4-triality-decomposition",
+        "target": "lie-groups/lie-subalgebra",
+        "surface": "Lie subalgebra",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "5c0cf38a16613e800abc",
+        "source_id": "catalog/relationships/hermitian-cubic-derivation-algebras",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "6694957d517b0d9aeb18",
+        "source_id": "catalog/relationships/hermitian-cubic-derivation-algebras",
+        "target": "nonassociative-algebra/jordan-algebra-homomorphism",
+        "surface": "Jordan homomorphism",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "3595422455a73e9b4b69",
+        "source_id": "catalog/relationships/magic-square-real-forms",
+        "target": "nonassociative-algebra/composition-algebra",
+        "surface": "composition algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "65e233d4a392312c3712",
+        "source_id": "catalog/relationships/magic-square-real-forms",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "4a591a12f52a7b63e919",
+        "source_id": "catalog/relationships/magic-square-real-forms",
+        "target": "shared-foundations/complex-numbers-c",
+        "surface": "complex numbers",
+        "decision": "rejected",
+        "reason": "Rejected: split complex numbers are not the ordinary complex field; manually linked the split object."
+      },
+      {
+        "candidate_id": "2835f72ad1387e80bce9",
+        "source_id": "catalog/relationships/magic-square-real-forms",
+        "target": "linear-algebra/quadratic-form",
+        "surface": "quadratic forms",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "bc232b089c005dbf4f8f",
+        "source_id": "catalog/relationships/magic-square-real-forms",
+        "target": "algebra-rings/zero-divisor",
+        "surface": "zero divisors",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "65f20867c70c7cd80935",
+        "source_id": "catalog/relationships/magic-square-real-forms",
+        "target": "linear-algebra/vector-space",
+        "surface": "vector space",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "3eb51f6a6cc9ce3289eb",
+        "source_id": "catalog/relationships/magic-square-transposition",
+        "target": "nonassociative-algebra/composition-algebra",
+        "surface": "composition algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "caf0283764c60520b1d3",
+        "source_id": "catalog/relationships/magic-square-transposition",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "9385fbe9f3fc70430722",
+        "source_id": "catalog/relationships/sp1-triple-direct-sum",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebra",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "bd4df0ff6d085d9a34fa",
+        "source_id": "catalog/relationships/sp1-triple-direct-sum",
+        "target": "lie-groups/lie-algebra-isomorphism",
+        "surface": "Lie algebra isomorphism",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "f7d7247aa89822e36489",
+        "source_id": "catalog/relationships/spin8-intertwiner-spaces",
+        "target": "algebra-groups/group-action",
+        "surface": "group action",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "7fa4fe58c34d5b7270a6",
+        "source_id": "catalog/relationships/spin8-intertwiner-spaces",
+        "target": "linear-algebra/unit-vector",
+        "surface": "unit vector",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "48a07aeeca5a7f14aed3",
+        "source_id": "catalog/relationships/spin8-intertwiner-spaces",
+        "target": "linear-algebra/unit-sphere",
+        "surface": "unit sphere",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "5e7e78bf39f05a225f59",
+        "source_id": "catalog/relationships/spin8-intertwiner-spaces",
+        "target": "linear-algebra/vector-space",
+        "surface": "vector spaces",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "1856925238852a4a92d9",
+        "source_id": "catalog/relationships/spin8-negative-half-spin-representation",
+        "target": "linear-algebra/orthonormal-basis",
+        "surface": "orthonormal basis",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "b442d4407357b50d0306",
+        "source_id": "catalog/relationships/spin8-negative-half-spin-representation",
+        "target": "algebra-groups/group-action",
+        "surface": "group action",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "45a924fcfd87cfb96224",
+        "source_id": "catalog/relationships/spin8-positive-half-spin-representation",
+        "target": "linear-algebra/orthonormal-basis",
+        "surface": "orthonormal basis",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "d75c70fe2c84b35d748b",
+        "source_id": "catalog/relationships/spin8-positive-half-spin-representation",
+        "target": "algebra-groups/group-action",
+        "surface": "group action",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "16c759f8bd932b7610a1",
+        "source_id": "catalog/relationships/spin8-vector-representation",
+        "target": "algebra-groups/group-action",
+        "surface": "group action",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "5b2c6229135b15bd9043",
+        "source_id": "catalog/relationships/su3-direct-sum-su3",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebra",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "9d8b14c4fbecf3d3ff8e",
+        "source_id": "catalog/relationships/tits-magic-square-decomposition",
+        "target": "lie-groups/lie-subalgebra",
+        "surface": "Lie subalgebra",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "9f3a0620fd9a45023f07",
+        "source_id": "catalog/relationships/tits-magic-square-decomposition",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "12f33a77530f10f3e1b2",
+        "source_id": "catalog/relationships/tits-magic-square-decomposition",
+        "target": "fiber-bundles/lie-bracket",
+        "surface": "Lie bracket",
+        "decision": "rejected",
+        "reason": "Rejected: abstract algebra bracket must not link to the vector-field bracket definition."
+      },
+      {
+        "candidate_id": "4a37e3f4eb36b9f340b5",
+        "source_id": "catalog/relationships/triality-algebra",
+        "target": "linear-algebra/bilinear-form",
+        "surface": "bilinear form",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "3a503226bb4530927ef3",
+        "source_id": "catalog/relationships/triality-algebra",
+        "target": "lie-groups/lie-subalgebra",
+        "surface": "Lie subalgebra",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "eff6d426674e19930982",
+        "source_id": "catalog/relationships/triality-and-central-quotients",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebra",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "6ef79c2f1f7e0fb32543",
+        "source_id": "catalog/relationships/triality-and-central-quotients",
+        "target": "algebra-groups/outer-automorphism-group",
+        "surface": "outer automorphism group",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "557ede9b455cf4b78361",
+        "source_id": "catalog/relationships/triality-magic-square-decomposition",
+        "target": "nonassociative-algebra/composition-algebra",
+        "surface": "composition algebras",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "649c23f678adaaf2d293",
+        "source_id": "catalog/relationships/triality-magic-square-decomposition",
+        "target": "linear-algebra/vector-space",
+        "surface": "vector spaces",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "ff208261cccf37f0fb2c",
+        "source_id": "catalog/relationships/triality-magic-square-decomposition",
+        "target": "lie-groups/lie-subalgebra",
+        "surface": "Lie subalgebras",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "64f0b43409a6ed95b112",
+        "source_id": "catalog/relationships/vinberg-magic-square-construction",
+        "target": "linear-algebra/vector-space",
+        "surface": "vector space",
+        "decision": "rejected",
+        "reason": "Already covered by a nearby higher-level prerequisite; avoid link saturation."
+      },
+      {
+        "candidate_id": "d6b9c0cf78d3ff59f615",
+        "source_id": "catalog/relationships/vinberg-magic-square-construction",
+        "target": "linear-algebra/linear-map",
+        "surface": "linear maps",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      },
+      {
+        "candidate_id": "35322678bef1a05270ad",
+        "source_id": "catalog/relationships/vinberg-magic-square-construction",
+        "target": "lie-groups/lie-algebra",
+        "surface": "Lie algebra",
+        "decision": "accepted",
+        "reason": "First useful occurrence of a genuine prerequisite or relevant optional concept."
+      }
+    ]
+  },
+  "validation": {
+    "source_toml": "16 files parsed; exact source hashes match",
+    "links": "all authored knowl links resolve in current corpus",
+    "catalogue_schema": "all current shards passed load_catalog",
+    "magic_square": "16 output dimensions and 16 transpose pairings verified",
+    "sqlite_queries": "category-specific Hom distinguishes singleton zero from M8(R); second input finds construction adjacency",
+    "rendering": "root integration build and browser review pending"
+  }
+}

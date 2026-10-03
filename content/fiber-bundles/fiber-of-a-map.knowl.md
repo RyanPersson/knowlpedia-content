@@ -20,7 +20,7 @@ If \(f:M\to N\) is a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bun
 
 ## Examples
 
-Fibers are especially important when \(f\) is a bundle projection; for instance, in a [[fiber-bundles/principal-g-bundle|principal G-bundle]] \(\pi:P\to B\), each fiber \(\pi^{-1}(b)\) is (noncanonically) diffeomorphic to the structure group \(G\).
+Fibers are especially important when \(f\) is a bundle projection; for instance, in a [[fiber-bundles/principal-g-bundle|principal G-bundle]] \(\pi:P\to B\), each fiber \(\pi^{-1}(b)\) is (noncanonically) diffeomorphic to the [[fiber-bundles/structure-group|structure group]] \(G\).
 1. **Projection of a product.** For \(\pi:M\times F\to M\), the fiber over \(m\in M\) is \(\pi^{-1}(m)=\{m\}\times F\), canonically identified with \(F\).
 2. **Radius-squared map.** For \(f:\mathbb{R}^2\to\mathbb{R}\), \(f(x,y)=x^2+y^2\), the fiber over \(r\) is empty if \(r<0\), is a single point if \(r=0\), and is a circle of radius \(\sqrt r\) if \(r>0\).
 3. **Hopf fibration (geometric fiber).** The Hopf map \(S^3\to S^2\) has fibers diffeomorphic to \(S^1\); it is a principal \(S^1\)-bundle, so every fiber is an orbit of the \(S^1\)-action.

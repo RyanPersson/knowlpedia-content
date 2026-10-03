@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\rho:G\to \mathrm{GL}(V)\) be a [[lie-groups/representation-of-a-lie-group|representation of a Lie group]] on a vector space \(V\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\), and let \(\rho:G\to \mathrm{GL}(V)\) be a [[lie-groups/representation-of-a-lie-group|representation of a Lie group]] on a vector space \(V\).
 
 Form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E := P\times_G V\) (using the [[fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f|standard left action convention on the fiber]]).
 

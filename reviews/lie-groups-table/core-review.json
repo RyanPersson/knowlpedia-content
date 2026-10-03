@@ -1,0 +1,74 @@
+{
+  "entries": [
+    {
+      "id": "catalog/lie-groups-table-guide",
+      "path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "7664c017d855850a1d3af82dd37b94d479db532e6605e698b357691f3b732738",
+      "targeted_claims": "Table interpretation, rank conventions, selected global forms, dimension fields, and low-rank examples.",
+      "evidence": "Read the whole guide. Checked the table convention rather than asserting all Lie groups or all real forms are classified. Real dimension doubles for a complex vector-space tangent algebra; SL(2,C) has complex dimension 4-1=3. SU(2) and Sp(1) have real dimension3. The selected classical matrix groups and exceptional adjoint split forms are explicitly distinguished from topological universal covers.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "locator": "\u00a73.2, Proposition3.5 and Exercise3.9, printed p26; \u00a723.8, Remark23.18, p128; \u00a741.2, pp219\u2013220; \u00a743.1 Theorem43.4, p231",
+          "checked": "Table interpretation, rank conventions, selected global forms, dimension fields, and low-rank examples."
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "lie-groups/classification-simple-lie-algebras",
+      "path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "b631788e62d92571e6dd11e985c510a16e26554a5c98de394322c85ea50c5983",
+      "targeted_claims": "Nonduplicating classical rank ranges and B2=C2 coincidence; navigation to table.",
+      "evidence": "Changed C_n lower bound from2 to3 so the stated unique isomorphism-class representative no longer repeats B2. Retained C2 as a valid alternate type label in an explicit sentence. Source Remark23.18 identifies B2=C2 and D3=A3; no classification proof was reviewed.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "locator": "\u00a723.2 Theorem23.7, printed p123; \u00a723.8 Remark23.18, p128",
+          "checked": "Nonduplicating classical rank ranges and B2=C2 coincidence; navigation to table."
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "lie-groups/compact-symplectic-group",
+      "path": "content/lie-groups/compact-symplectic-group.knowl.md",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "99a784a1fe980ef67f068f3bd1151bd44ba2356e70fa504e5b1598ad1fb0e713",
+      "targeted_claims": "Complex symplectic matrix-size notation and equality of compact/split real dimensions.",
+      "evidence": "Complex realization is Sp(2n,C) intersect U(2n) with matrix-size indexing. Compact Lie algebra has3n real diagonal parameters and4*n*(n-1)/2 off-diagonal parameters, totaling n(2n+1). Split symplectic blocks have n^2+2*n*(n+1)/2=n(2n+1) parameters. Different real forms do not imply different real dimensions. Other existing claims remain outside this targeted review.",
+      "sources": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "locator": "\u00a741.1 Exercise41.3(iii) and \u00a741.2 type C_n, printed p219",
+          "checked": "Complex symplectic matrix-size notation and equality of compact/split real dimensions."
+        }
+      ],
+      "lean": null
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-r",
+      "path": "content/catalog/lie-groups/sl-n-r.knowl.md",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "554cc0518a54e2da22305b2fe9d704a61123a8d02e8ca4603049ff0098f0ee35",
+      "targeted_claims": "Separate n=1 trivial case from n>=2 noncompactness.",
+      "evidence": "For n=1, determinant-one real1-by1 matrices are exactly{1}, so compact and simply connected. For n>=2, diag(t,t^-1,1,...,1), t>0, is unbounded, proving noncompactness. Existing simple-connectivity claims for n>=2 are unchanged and not newly certified by this elementary check.",
+      "sources": [],
+      "lean": null
+    },
+    {
+      "id": "catalog/lie-groups-table-guide",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7664c017d855850a1d3af82dd37b94d479db532e6605e698b357691f3b732738",
+      "prerequisites": [],
+      "evidence": "This is a continuous navigation guide, not a prerequisite definition. Its explanatory links introduce routes through existing definitions; no prerequisite edges are needed for the index."
+    }
+  ]
+}

@@ -172,3 +172,16 @@ Click any term to expand its definition inline.
 ## Weak equations, regularity, and relaxed models
 
 - [[functional-analysis/weakly-continuous-path|Weakly continuous path]]
+
+## Connections with ergodic theory
+
+- [[functional-analysis/spectral-theorem-unitary-operator|Spectral theorem for a unitary operator]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
+
+## Anti-duals and smooth-vector spaces
+
+- [[functional-analysis/continuous-antidual|Continuous anti-dual]]
+- [[lie-groups/smooth-vector-frechet-topology|Fréchet topology on smooth vectors]]
+- [[lie-groups/nuclear-smooth-vectors-trace-class|Nuclear smooth vectors and trace-class representations]]
+- [[lie-groups/smooth-unitary-representations-index|Smooth and distribution vectors: a reading path]]

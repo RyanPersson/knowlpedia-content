@@ -25,7 +25,7 @@ Let \(\gamma_1:[0,1]\to M\) and \(\gamma_2:[0,1]\to M\) be piecewise smooth with
 
 Equivalently, if \(s(t)\) is a \(\nabla\)-parallel section along \(\gamma_2\ast\gamma_1\) with initial value \(s(0)=v\in E_{\gamma_1(0)}\), then the value at the intermediate point is \(s(1/2)=\mathrm{PT}_{\gamma_1}(v)\) (after reparametrization), and the final value is obtained by transporting further along \(\gamma_2\).
 
-The same statement holds for parallel transport in a principal \(G\)-bundle with a principal connection: transport along a concatenated path is the composition of the two transport maps between fibers.
+The same statement holds for parallel transport in a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with a principal connection: transport along a concatenated path is the composition of the two transport maps between fibers.
 
 ## Examples
 1. **Trivial connection on \(M\times V\).** If \(\nabla=d\), then \(\mathrm{PT}_\gamma\) is the identity on \(V\) for every \(\gamma\), so the concatenation identity holds tautologically.

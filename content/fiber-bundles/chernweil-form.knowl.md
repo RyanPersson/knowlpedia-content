@@ -47,7 +47,7 @@ Chern–Weil theory associates closed differential forms to a principal connecti
    representing the first Chern class in de Rham cohomology (see [[fiber-bundles/chern-class|Chern class]] and [[fiber-bundles/integrality-of-chern-classes|integrality of Chern classes]]).
 
 2. **First Pontryagin form**
-   For a real vector bundle with structure group reduced to \(SO(n)\) and a compatible connection, the curvature \(F\in\Omega^2(M;\mathfrak{so}(n))\) defines the 4-form
+   For a real vector bundle with [[fiber-bundles/structure-group|structure group]] reduced to \(SO(n)\) and a compatible connection, the curvature \(F\in\Omega^2(M;\mathfrak{so}(n))\) defines the 4-form
    \[
    p_1(\nabla)= -\frac{1}{8\pi^2}\,\mathrm{tr}(F\wedge F),
    \]

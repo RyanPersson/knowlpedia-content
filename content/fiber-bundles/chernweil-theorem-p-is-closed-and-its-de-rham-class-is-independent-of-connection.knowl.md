@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\) and Lie algebra \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] with [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\) and Lie algebra \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] with [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\).
 
 Let \(q\) be an \(\operatorname{Ad}\)-invariant homogeneous polynomial of degree \(k\) on \(\mathfrak g\), represented by a symmetric \(k\)-linear map
 \[

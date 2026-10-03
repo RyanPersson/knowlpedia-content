@@ -1,0 +1,1245 @@
+{
+  "id": "catalog-algebras-targeted",
+  "entries": [
+    {
+      "id": "shared-foundations/real-numbers",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Theorem 2.5 and Corollary 2.12 identify the real composition algebras. Dimensions count the standard real basis; C also has its canonical complex scalar structure. No multiplication-compatible complex algebra structure is assigned to H or O.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "9bd8012e3fa6e17c8050377442c6085c0f2ab0a162ed3ef8af777b3b1373e62d"
+    },
+    {
+      "id": "shared-foundations/complex-numbers-c",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Theorem 2.5 and Corollary 2.12 identify the real composition algebras. Dimensions count the standard real basis; C also has its canonical complex scalar structure. No multiplication-compatible complex algebra structure is assigned to H or O.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "8cae825ba4bfff317cb1e4f332f4dff2c566b465c779c953040daedb11d35875"
+    },
+    {
+      "id": "linear-algebra/quaternion-division-algebra",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Theorem 2.5 and Corollary 2.12 identify the real composition algebras. Dimensions count the standard real basis; C also has its canonical complex scalar structure. No multiplication-compatible complex algebra structure is assigned to H or O.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "02a001744e79f8702b9a2f9821454a7975e31c230d79cb182343e0657ff67b43"
+    },
+    {
+      "id": "nonassociative-algebra/octonion-algebra",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Theorem 2.5 and Corollary 2.12 identify the real composition algebras. Dimensions count the standard real basis; C also has its canonical complex scalar structure. No multiplication-compatible complex algebra structure is assigned to H or O.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "7ee58706f4a49d5d03cb980d54af546324e1b99dea62f62e4c9e75d1aececd7c"
+    },
+    {
+      "id": "catalog/algebras/sedenions",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node5.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 2.2, Cayley–Dickson construction, Propositions 1–5 and the sedenion paragraph"
+        }
+      ],
+      "source_sha256": "8684f4381f072caf3f7c9f0f6c6998daf5cf8698f1fee1288dec4b2bcfc6207c"
+    },
+    {
+      "id": "catalog/algebras/split-complex-numbers",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "d56c1c8103a310c8d8d59c19410e4ca1e188870195b12799e2a57c122366dc52"
+    },
+    {
+      "id": "catalog/algebras/split-quaternions",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "bf0c3512f034f5a37210c3fc725147063ff0d3de74a6a39df15043d81cc385e5"
+    },
+    {
+      "id": "catalog/algebras/split-octonions",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "b77433448991431186ed3387b35f9423947593606a32ab58cdc8abe343a0d043"
+    },
+    {
+      "id": "catalog/algebras/c-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "05351b0bb139006611f66379a02dacb75f67d73f26e16b5ba114f642f8b4d54b"
+    },
+    {
+      "id": "catalog/algebras/h-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "10c38d4d858578bddbfbf75f2934d68b46f50bdde2bdc78cbfa506ba36c27d0b"
+    },
+    {
+      "id": "catalog/algebras/o-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [
+        {
+          "url": "https://arxiv.org/html/1810.09979",
+          "title": "Alberto Elduque, Composition algebras",
+          "locator": "Section 2.1, equation (7); Theorem 2.11 and Corollary 2.12"
+        }
+      ],
+      "source_sha256": "89a7936d62c7d3c02ce70c151ed46d41fd677f70293e21850c3d5532c48cb01d"
+    },
+    {
+      "id": "catalog/algebras/m-1-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "bbb9df74b97c2fa2d1384ee1aa4cb6d31b2c6b1f0768e1e2a701933da6a0385a"
+    },
+    {
+      "id": "catalog/algebras/m-2-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "a7fb678fb8080f1a19259d26386166d62e2693d8e5f21a3b93b5a394e9bc4df5"
+    },
+    {
+      "id": "catalog/algebras/m-3-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "053d3a5fd30a690f6cefc086b725ef5280f924fc18a1dbebba13aa27bbe588d0"
+    },
+    {
+      "id": "catalog/algebras/m-n-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "635448efdea863b84b79b67e69e5185a1d629c371ef5220f3cfd16a8406fe126"
+    },
+    {
+      "id": "catalog/algebras/m-1-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "46bf5a1ec670996dca9d5ef2db28e5b9458cf71f4507c2a6b87f1553c547e428"
+    },
+    {
+      "id": "catalog/algebras/m-2-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "263f662d59de765daf596193365e5324f51b5a0cfa5244d5dc283380ca4247ad"
+    },
+    {
+      "id": "catalog/algebras/m-3-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "a3b51f7961d94978bcf441bd9146e514e0a429f75879e1d11b849e68227cf3b5"
+    },
+    {
+      "id": "catalog/algebras/m-n-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "e168b4862d7e856266da749c8fb2b72e751261712ebbbffa1a938503bdb09155"
+    },
+    {
+      "id": "catalog/algebras/m-1-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "a42a79779cd032ecb0549c9f5514fb49052ad7246614cb867a149cce4eb0133e"
+    },
+    {
+      "id": "catalog/algebras/m-2-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "505e35aa235738bb3402bf81ba7e3e72d47a3dee791660e6657fc87623a5d351"
+    },
+    {
+      "id": "catalog/algebras/m-3-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "427b6832eb7dcb74b7ecb9d21d63ef09151b05de811bb11d4f30e647698b57c7"
+    },
+    {
+      "id": "catalog/algebras/m-n-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "f6f0a23ba1f5f7656c26153b06632474c77624168bbf6f0a5575c74c6233a16c"
+    },
+    {
+      "id": "catalog/algebras/m-1-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "47be1d332a4da69336284a8f8c80e1cdb4e66359fb3993ae01e4ccb7034b7c7f"
+    },
+    {
+      "id": "catalog/algebras/m-2-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "81517136a09bf98b75dbe48de85a890852287149065d7c48a54bd75a5d3d1e88"
+    },
+    {
+      "id": "catalog/algebras/m-3-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "d855c595c170ab0e0bf6b5736c706655890b1c6853897b6d72a3ef166f8c75d9"
+    },
+    {
+      "id": "catalog/algebras/m-n-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "77eba5939128db8ba6d1659c60db7b246ac36f87b6fee81e3e08f15e280d5799"
+    },
+    {
+      "id": "catalog/algebras/m-1-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "e097b208e349223dcb6a75d083ca3287e027a37998e0d6c760a818343559c1db"
+    },
+    {
+      "id": "catalog/algebras/m-2-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "123e948d42c48ee032cb0f1eb14e0b21928fa0363ce66c0150ab2848aac7b353"
+    },
+    {
+      "id": "catalog/algebras/m-3-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "e35b740174da4a58cc1132010443b5baeae15a5cae321e6da6feedb6f3ec7e5b"
+    },
+    {
+      "id": "catalog/algebras/m-n-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "b83cd8f700e402b26dd1ce4b82e3052a1738813ecc9215d3d98340264eed5663"
+    },
+    {
+      "id": "catalog/algebras/m-1-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "0b3077e9d0ade3a42a29f2f9f758b1ac1ee15037801c38ba8155062df3a21dfb"
+    },
+    {
+      "id": "catalog/algebras/m-2-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "3634a3d31a34feca42efaef339e24564d1893d2989311750fd32a3eae473ccc7"
+    },
+    {
+      "id": "catalog/algebras/m-3-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "a43444ac17c4b87892aef5a6c191d983f4df8f8199874361e084141b71717216"
+    },
+    {
+      "id": "catalog/algebras/m-n-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "59df770527598046ea29dda336086018b4f4ec4a936a543113ffa9d6f75d0abd"
+    },
+    {
+      "id": "catalog/algebras/m-1-s",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "0053597f55eebc2450dc5efc367626546957c55cad5b3261af53bd73a6e8dbb1"
+    },
+    {
+      "id": "catalog/algebras/m-2-s",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "f7c1c238d479f5dcbbd2d8ad89ea63f36204eedd2764c2b9dbea0ea827e7a4c2"
+    },
+    {
+      "id": "catalog/algebras/m-3-s",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "29a9353552ecdd5dfcf72e9de27279a96459706ad0130dcaba8f21b8a251f5a3"
+    },
+    {
+      "id": "catalog/algebras/m-n-s",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "a04a133683cd69d4ef92ff9e4899db9d1ade420d87f471b23271f625d510c9cd"
+    },
+    {
+      "id": "catalog/algebras/herm-1-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "b3183f597633a7323a1e39b912d0f38229e12994e3586d736dcdf6f2e3a17d8d"
+    },
+    {
+      "id": "catalog/algebras/herm-2-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "dd23ade9f3a5a656a5741952b3042c0b5e19a6cb9cf890b70c1993d1657088d2"
+    },
+    {
+      "id": "catalog/algebras/herm-3-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "c0243fcedb3557f48b2984a0381dffda7e0f4a2a7e93eb2e6c86ad738a42c9d6"
+    },
+    {
+      "id": "catalog/algebras/herm-n-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "e1041a2d9ca0fa3211267bcfb86fa2523c361bc7e6e7cd404248317d3568dcd9"
+    },
+    {
+      "id": "catalog/algebras/herm-1-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "6a8e94ebfbb42e6ba42ead8293342eea9a2dcea725d6131509040db5f0687218"
+    },
+    {
+      "id": "nonassociative-algebra/complex-qubit-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "b50b272bdbb42f8ef3a723e994645c5a2f33b9cda3dcb55d078ac08d585b5072"
+    },
+    {
+      "id": "nonassociative-algebra/complex-qutrit-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "0cf1e1ec1efbc1c206b5cfff2a2e959f4f56d077ee653427afcb1f9268f50f02"
+    },
+    {
+      "id": "catalog/algebras/herm-n-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "b1a80139e516e4c2c66863a69482a31a03314a90a14b7e866616d1b2a8a58fc3"
+    },
+    {
+      "id": "catalog/algebras/herm-1-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "dc63e833f77e2830e8a256d4f2e501fb0bbe4085bb3c14ff846debac948c3a43"
+    },
+    {
+      "id": "catalog/algebras/herm-2-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "67069dabc646f70586600bf8541a23d7110b019d636b9bf1afebf0307558d3f6"
+    },
+    {
+      "id": "catalog/algebras/herm-3-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "2ccf782405d764f98e2cce9a9a41344d47f44e23514553a00cbfaacfd8efbfb9"
+    },
+    {
+      "id": "catalog/algebras/herm-n-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "c84acaa705b02b664beadd09a0affb45c3e995d89d1d91bfc358fb17d1fd0ef5"
+    },
+    {
+      "id": "catalog/algebras/herm-1-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "a9757e5c17bca79341a2e970eeed2811d2d25ad82e3711456d005a1c0aea6d71"
+    },
+    {
+      "id": "nonassociative-algebra/octonionic-spin-factor",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "5003192208612b9400aee923f657fd31ab85bf47845a97e9a908fc276c800ecb"
+    },
+    {
+      "id": "nonassociative-algebra/exceptional-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "5e583d85c9725de69fed5f5cbf2d856cd89bcfe8ff5aefac339487703157579b"
+    },
+    {
+      "id": "catalog/algebras/herm-n-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "968c694ba53dd06da945c2a96fa9707f613417df14fac8aab897fb3d4831453d"
+    },
+    {
+      "id": "catalog/algebras/herm-1-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "de420418e1ad6e4064cd5e28a4d85bf9a3774a8727a57b5e6987aa0d981a5f1b"
+    },
+    {
+      "id": "catalog/algebras/herm-2-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "4bac9a1b1c016bfe81c1a37e581d90783a68413ec3ed0fde10e73bcb02ddad7a"
+    },
+    {
+      "id": "catalog/algebras/herm-3-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "2d70c2afc865b1eeb044941e7c87c847bff6af81770447860335a10a3caa11a1"
+    },
+    {
+      "id": "catalog/algebras/herm-n-split-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "eafdf12c3e327b12c11fce470b89dee6182a169e480ed9e9082ee951c6914b7d"
+    },
+    {
+      "id": "catalog/algebras/herm-1-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "3c4402cae5954ccc46267bc3abc9fd142e68024dace71292752d0b45c760ba6f"
+    },
+    {
+      "id": "catalog/algebras/herm-2-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "6e220cd7fb8b5f895bdd5c42aebd6fb5afddb36af352c0cff5eab54b7f3e23a6"
+    },
+    {
+      "id": "catalog/algebras/herm-3-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "d25fe017eba23dd1589aecb1f4fe38e656e19e89bb0019ca9cf716a552da0cdf"
+    },
+    {
+      "id": "catalog/algebras/herm-n-split-h",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "8eb0ab45d5b2b076ed982ad533497519fc54717132b7a10803ed61110352091b"
+    },
+    {
+      "id": "catalog/algebras/herm-1-split-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "f687e97ddef605c0bf3769f09488e238cedb8b18b6b20a62e229c1f08b6657ca"
+    },
+    {
+      "id": "catalog/algebras/herm-2-split-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "79cbdabbe0fe27e00d20e232c396da6e6abe8c15e954fc8aa000c6669e85c1b0"
+    },
+    {
+      "id": "catalog/algebras/herm-3-split-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "2e1bdb9e525cb5015c373a930ec2aba8b3ee82802e2ceee30e0f51e1dac339f8"
+    },
+    {
+      "id": "catalog/algebras/herm-n-split-o",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "ec685ed78a56ef7d539b07b3580d180d859a2433da3c23a6396758515c3212dd"
+    },
+    {
+      "id": "catalog/algebras/herm-1-r-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "781f419563e87b8666b192974c1fb19a4100171603de8071cbf363849be93678"
+    },
+    {
+      "id": "catalog/algebras/herm-2-r-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "54da6f3799bb6e31b45d5bf259ad88e1171c39742e3010a87c2caa9fe47144d2"
+    },
+    {
+      "id": "catalog/algebras/herm-3-r-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "8551ea56613e41ca43bc0f2f23c889830fc8245c6d5d9bb708a60b6bc514981a"
+    },
+    {
+      "id": "catalog/algebras/herm-n-r-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "60a8a9905c3f816bda9c8d84b0c9c834c38725fc68c335bc47f22f15dec19a59"
+    },
+    {
+      "id": "catalog/algebras/herm-1-c-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "e000796986e9d0db07294e6a335c5c30a699e10dd37d5aa92f401cc1e471c511"
+    },
+    {
+      "id": "catalog/algebras/herm-2-c-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "a2e6e2fda3115ee8814aeef5665f556031d389fbec1931885e00403600d852f2"
+    },
+    {
+      "id": "catalog/algebras/herm-3-c-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "4d10c99e6677c7e52a8bc20b35b2c423ba8cbbf001d74c6f9e40752c64c28e52"
+    },
+    {
+      "id": "catalog/algebras/herm-n-c-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "2d4c676aa94fc05cb557d574e3d8396753b596055f5a64ff6123596d981ba793"
+    },
+    {
+      "id": "catalog/algebras/herm-1-h-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "12b121fcf2cec068fd127c9bd7a87bcdb2dde6166833ce332c0ddfad8529a897"
+    },
+    {
+      "id": "catalog/algebras/herm-2-h-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "1b8a3ab845cd9eb5801715695114b9eddc85a85d7d2616de43203a303222fd10"
+    },
+    {
+      "id": "catalog/algebras/herm-3-h-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "ad33d07bf15226e1df45d4fc58eb6c348b72b688944b5eeadc3f64557f2977b2"
+    },
+    {
+      "id": "catalog/algebras/herm-n-h-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [],
+      "source_sha256": "3848763f71e58d87bd960a3550cf482cbd2b345c2eef33b55ae9bcd9a5693387"
+    },
+    {
+      "id": "catalog/algebras/herm-1-o-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "47e431c37bda8ec9a97dba7ee89038e5e44e5dd968ae67a9cde5ce351fe69b23"
+    },
+    {
+      "id": "catalog/algebras/herm-2-o-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "ea0b4fca225c26f1905373cdeb4a0aea2df90d6eadc07b3a3ea203a2a87637fa"
+    },
+    {
+      "id": "catalog/algebras/herm-3-o-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "b3782dd3134d76d81ea3f029a096186df626b1da4c37bddf5b35d94e27b0018d"
+    },
+    {
+      "id": "catalog/algebras/herm-n-o-complexified",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Coordinate count n+d*n*(n-1)/2; involution-fixed subspace is closed under symmetrization. The octonionic degree-three Jordan theorem is Petersson 2.6. Degree two identifies with a quadratic-form Jordan algebra; degree one is the scalar field. Complexification uses the linear extension of the involution.",
+      "references": [
+        {
+          "url": "https://www.fernuni-hagen.de/mi/fakultaet/emeriti/docs/petersson/alb.-alg.-tg.-survey.pdf",
+          "title": "Holger P. Petersson, A survey on Albert algebras",
+          "locator": "Sections 2.2, 2.5–2.7 and 7.8; printed pages 2–3 and 19"
+        }
+      ],
+      "source_sha256": "abec4dd58ef04e5f2d32d6410d9f06443f1daf8e66c816e94f1c068a06c7e35c"
+    },
+    {
+      "id": "catalog/algebras/spin-1-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "cacd68d40987d27f15910122d41aa817a6eafcf1e3ee0724128fb07783b61c01"
+    },
+    {
+      "id": "catalog/algebras/spin-2-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "97bcfcc22be0e128fd0f500621e8188fbe24feaf66715e7dda255deb03f0e577"
+    },
+    {
+      "id": "catalog/algebras/spin-3-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "a8b3bf503a0bf2e131aa91ca3fdc44369d2bc921e061e3fe1e587547860cb898"
+    },
+    {
+      "id": "catalog/algebras/spin-5-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "cf1ccc3c3df6f41a5473640c61e10770504d9ee18f7d51540e01754cd7f56045"
+    },
+    {
+      "id": "catalog/algebras/spin-9-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "1645f0c11247b6508bb537d3adbfdaaca567737d2779ac333a22ebca945452be"
+    },
+    {
+      "id": "nonassociative-algebra/spin-factor-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "96db9e4e5e86a0df8a0bfa414d18b5f6d1a301de30c981b490143b879a46f697"
+    },
+    {
+      "id": "catalog/algebras/spin-1-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "1a8cb635d6d14fba8eda4e578dbde637dfb78c123e3a5d120723bbacfea53117"
+    },
+    {
+      "id": "catalog/algebras/spin-2-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "424bc8f8b54daff2caa947a9f517ec9bcc0c2cc46300ca05a623072a22554bd6"
+    },
+    {
+      "id": "catalog/algebras/spin-3-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "d889adaf9dd8c36a45a4f5a7df04fa415c720d81e68684bf9e086367e3539332"
+    },
+    {
+      "id": "catalog/algebras/spin-n-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct substitution verifies the Jordan identity for the bilinear product. Dimensions count one scalar plus n vector coordinates. Degree-two Hermitian identification checked against Baez Section 3.3.",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node11.html",
+          "title": "John C. Baez, The Octonions",
+          "locator": "Section 3.3, spin-factor product and Hermitian two-by-two identification"
+        }
+      ],
+      "source_sha256": "9bb1713dceb4df14b9812b0951e36f73a80ef70d809ab7d8c28acf148fad1b50"
+    },
+    {
+      "id": "catalog/algebras/m-1-r-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "c763df1def288c08ab4e55215d4ab56efd5167dc7f7e84557ed640e9d4eca797"
+    },
+    {
+      "id": "catalog/algebras/m-2-r-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "0a29527488053b4f3864be765f169d57765a377f8e10c31d67215ff8509c1e6b"
+    },
+    {
+      "id": "catalog/algebras/m-3-r-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "33230d6a418e4befd911cb34dcb2869faa29e9ee7501ee6031d013aa2e53935c"
+    },
+    {
+      "id": "catalog/algebras/m-n-r-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "545f08cb946be4172d969183910f8854da16864484a48a692762a32df038316b"
+    },
+    {
+      "id": "catalog/algebras/m-1-c-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "2cd6503b44932043ddddd102cdb0eb291ed84b634ea9ad906b37550dff9e4376"
+    },
+    {
+      "id": "catalog/algebras/m-2-c-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "f21ab4486a9526996a0383e021df7ef45d201bda66ade53baf1d7f341ce84bc2"
+    },
+    {
+      "id": "catalog/algebras/m-3-c-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "d39470f2e2aa32b05907b755214e593ac9b3195c04f580d3027497c4e0227ab3"
+    },
+    {
+      "id": "catalog/algebras/m-n-c-jordan",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Object definition, scalar field, dimension, stated category memberships, and the specifically listed comparison formulas; existing owner prose beyond these claims is not re-reviewed.",
+      "evidence": "Direct coordinate verification of the displayed construction and dimension, with the cited result used only for the stated structural claim.",
+      "references": [],
+      "source_sha256": "d0e4d6a55a580104834c6aa8900dd174d4bec204a5f5b5f109c365bc9787fa6a"
+    },
+    {
+      "id": "catalog/algebras/standard-composition-inclusions",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Displayed maps, product preservation, injectivity or bijectivity, and scalar and unit conventions.",
+      "evidence": "Substitution of zero second coordinates in the displayed doubling products; coordinate injection is immediate.",
+      "references": [],
+      "source_sha256": "a802882b3b2fa8bfe844237d3162e4796ece20ac3523f37d25afb3b6cfe3829b"
+    },
+    {
+      "id": "catalog/algebras/hermitian-coefficient-inclusion",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Displayed maps, product preservation, injectivity or bijectivity, and scalar and unit conventions.",
+      "evidence": "Entrywise products and sums commute with the coefficient embedding; conjugation and units are preserved.",
+      "references": [],
+      "source_sha256": "13b91c8477e030664ee089e2a5e8a9682db58c0dd2f6c63662a225d01fbc6b05"
+    },
+    {
+      "id": "catalog/algebras/hermitian-corner-inclusion",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Displayed maps, product preservation, injectivity or bijectivity, and scalar and unit conventions.",
+      "evidence": "Block multiplication proves product preservation and injectivity; comparing diag(I_r,0) with I_s proves failure to preserve the unit.",
+      "references": [],
+      "source_sha256": "742fc29d29edda7ea3787773f43dc06de9f4946f9034a0ba63cf7b94a24d8916"
+    },
+    {
+      "id": "catalog/algebras/split-complex-hermitian-isomorphism",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Displayed maps, product preservation, injectivity or bijectivity, and scalar and unit conventions.",
+      "evidence": "The conjugation-fixed pairs are (X,X^T); projection and its inverse preserve the displayed product and unit.",
+      "references": [],
+      "source_sha256": "8504ce552c50ec03c59394cc84416a8ddd8b1ce465b68a1915e942efb4151d7f"
+    },
+    {
+      "id": "catalog/algebras/zero-1-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "2b7d344b98a02332df8cd075938fa31cdd2ed476d6f625388ed383dbb6a7a75c"
+    },
+    {
+      "id": "catalog/algebras/zero-2-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "9fdad022a7a2d1b903ee5a64cddb26e09d3b4c4c4232be569741a44098c4aa51"
+    },
+    {
+      "id": "catalog/algebras/zero-3-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "bdaf5ed9d4f3b393442c778eb43ed30d95438c2cd1540a91c5d99154bb63e3d9"
+    },
+    {
+      "id": "catalog/algebras/zero-n-r",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "373b7aa0551946026162d224b33b4aedeb3abc9cd29ab2ca396e5293bc8c5562"
+    },
+    {
+      "id": "catalog/algebras/zero-1-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "0c844c852d33b1430aa36c0c64f2270e9d21f1d78be6dc4f8508b7e72129c693"
+    },
+    {
+      "id": "catalog/algebras/zero-2-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "24a01869e1bf56b82af19d52a137928c4f85d83d3fdff2f615bca05833d38890"
+    },
+    {
+      "id": "catalog/algebras/zero-3-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "43dfd07f8e7c5aaecf7eb191b566cefba96c7fa169b4c91a7508246130ecba50"
+    },
+    {
+      "id": "catalog/algebras/zero-n-c",
+      "outcome": "new",
+      "scope": "targeted",
+      "claims": "Zero-product definition, positive-dimensional failure of a unit, Jordan category membership, and complete End/Aut classifications in all recorded scalar-linear Jordan views.",
+      "evidence": "The Jordan identity is 0=0. For nonzero x, e*x=0 is never x, so no unit exists. Product preservation imposes no constraint beyond field linearity, and invertible linear maps have product-preserving linear inverses. Coordinates give M_k(F) and GL_k(F); restricting complex scalars doubles real dimension.",
+      "references": [],
+      "source_sha256": "9b73419317d8cd28a9c218d676a30e00aef94359ef185bbafcd5c86fdb429e44"
+    }
+  ],
+  "validation": {
+    "objects": 109,
+    "new_knowls": 104,
+    "reused_knowls": 9,
+    "relationships": 138,
+    "toml": "line-delimited frontmatter parsed",
+    "references_and_category_endpoints": "all resolved",
+    "interlinks": {
+      "accepted": 75,
+      "rejected": 32,
+      "post_apply_remaining": 32
+    },
+    "dependency_metadata": "96 authored lists preserved; generator sample and full report reviewed; no full dependency-review certification",
+    "mathematical_review_scope": "targeted, never automated-proof claims",
+    "morphism_spaces": 24,
+    "zero_product_followup": {
+      "new_objects": 8,
+      "new_knowls": 8,
+      "complete_morphism_records": 24,
+      "reviewed_interlinks": 24,
+      "manually_selected_specific_links": 28,
+      "membership_check": "All eight excluded from UJord/Jord1; positive-dimensional nonunital proof in text.",
+      "end_aut_check": "Both scalar views of complex objects checked; matrix and GL result IDs resolve."
+    }
+  }
+}

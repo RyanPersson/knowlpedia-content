@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle with connection form \(\omega\in \Omega^1(P;\mathfrak{g})\) as in [[fiber-bundles/connection-1-form-on-a-principal-bundle|a connection 1-form on a principal bundle]].
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with connection form \(\omega\in \Omega^1(P;\mathfrak{g})\) as in [[fiber-bundles/connection-1-form-on-a-principal-bundle|a connection 1-form on a principal bundle]].
 
 Fix an open set \(U\subset M\) and a local section \(s:U\to P\). The **local connection form** on \(U\) is
 \[

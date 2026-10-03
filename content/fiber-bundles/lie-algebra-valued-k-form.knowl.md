@@ -37,5 +37,5 @@ The space of such forms is commonly denoted \(\Omega^k(M;\mathfrak{g})\).
 
 ## Examples
 1. **Maurer–Cartan form.** On a Lie group \(G\), the left Maurer–Cartan form is a \(\mathfrak{g}\)-valued 1-form on \(G\).
-2. **Connection form.** A [[fiber-bundles/principal-connection|principal connection]] on a principal bundle is encoded by a \(\mathfrak{g}\)-valued 1-form on the total space (the connection form).
+2. **Connection form.** A [[fiber-bundles/principal-connection|principal connection]] on a [[fiber-bundles/principal-g-bundle|principal bundle]] is encoded by a \(\mathfrak{g}\)-valued 1-form on the total space (the connection form).
 3. **Curvature.** The [[fiber-bundles/curvature|curvature]] of a principal connection is a \(\mathfrak{g}\)-valued 2-form on the total space.

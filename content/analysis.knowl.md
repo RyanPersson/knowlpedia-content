@@ -45,3 +45,9 @@ The complete dependency path is collected in the
 ## Torus covers and support combinatorics
 
 - [[analysis/separated-support-products|Vanishing products from separated auxiliary supports]]
+
+## Ergodic averages
+
+- [[analysis/unique-ergodicity|Unique ergodicity]]
+- [[ergodic-theory/unique-ergodicity-uniform-averages|Uniform averages characterize unique ergodicity]]
+- [[ergodic-theory|Ergodic theory reading paths]]

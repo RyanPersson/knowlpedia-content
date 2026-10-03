@@ -1,0 +1,15 @@
+content/catalog/finite-groups/sporadic/m11.knowl.md
+content/catalog/finite-groups/sporadic/m12.knowl.md
+content/catalog/finite-groups/sporadic/m22.knowl.md
+content/catalog/finite-groups/sporadic/m23.knowl.md
+content/catalog/finite-groups/sporadic/m24.knowl.md
+content/catalog/finite-groups/sporadic/he.knowl.md
+content/catalog/finite-groups/sporadic/hn.knowl.md
+content/catalog/finite-groups/sporadic/th.knowl.md
+content/catalog/finite-groups/sporadic/fi22.knowl.md
+content/catalog/finite-groups/sporadic/fi23.knowl.md
+content/catalog/finite-groups/sporadic/fi24-prime.knowl.md
+content/catalog/finite-groups/sporadic/baby-monster.knowl.md
+content/catalog/finite-groups/sporadic/monster.knowl.md
+content/catalog/finite-groups/sporadic/mathieu-point-stabilizers.knowl.md
+content/catalog/finite-groups/sporadic/baby-monster-sporadic-subgroups.knowl.md

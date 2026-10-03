@@ -27,5 +27,5 @@ Horizontal lifts are the basic input for defining [[fiber-bundles/parallel-trans
 
 ## Examples
 1. **Product bundle.** In \(E=M\times F\) with product horizontals, the horizontal lift through \((\gamma(t_0),f_0)\) is \(\widetilde\gamma(t)=(\gamma(t),f_0)\): the fiber component stays constant.
-2. **Principal bundle lift.** On a principal bundle with connection, the horizontal lift of \(\gamma\) starting at \(p_0\in P_{\gamma(t_0)}\) is the unique path in \(P\) projecting to \(\gamma\) whose tangent vectors lie in the connection’s horizontal spaces.
+2. **Principal bundle lift.** On a [[fiber-bundles/principal-g-bundle|principal bundle]] with connection, the horizontal lift of \(\gamma\) starting at \(p_0\in P_{\gamma(t_0)}\) is the unique path in \(P\) projecting to \(\gamma\) whose tangent vectors lie in the connection’s horizontal spaces.
 3. **Vector bundle interpretation.** For a vector bundle with linear connection, a horizontal lift of \(\gamma\) in the total space corresponds to a vector-valued curve \(v(t)\in E_{\gamma(t)}\) satisfying the parallel-transport ODE along \(\gamma\) (so that \(v(t)\) is a parallel section along the curve).

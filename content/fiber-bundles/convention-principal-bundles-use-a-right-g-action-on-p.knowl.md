@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. In this convention, a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] is a fiber bundle \(\pi:P\to M\) equipped with a **right** smooth action
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. In this convention, a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] is a [[fiber-bundles/smooth-fiber-bundle|fiber bundle]] \(\pi:P\to M\) equipped with a **right** smooth action
 \[
 R: P\times G\to P,\qquad (p,g)\mapsto p\cdot g,
 \]

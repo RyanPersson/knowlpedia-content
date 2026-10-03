@@ -1,0 +1,2119 @@
+{
+  "schema_version": 1,
+  "objects": [],
+  "categories": [
+    {
+      "id": "sets",
+      "name": "Sets",
+      "knowl": "catalog/categories/sets",
+      "scalar": null,
+      "object_axioms": [
+        "A set"
+      ],
+      "morphism_axioms": [
+        "An arbitrary function"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "none"
+    },
+    {
+      "id": "groups",
+      "name": "Groups",
+      "knowl": "catalog/categories/groups",
+      "scalar": null,
+      "object_axioms": [
+        "Group axioms"
+      ],
+      "morphism_axioms": [
+        "Preserves multiplication (and hence identity and inverse)"
+      ],
+      "unit_policy": "group-identity-preserved",
+      "regularity": "none"
+    },
+    {
+      "id": "abelian-groups",
+      "name": "Abelian groups",
+      "knowl": "catalog/categories/abelian-groups",
+      "scalar": null,
+      "object_axioms": [
+        "Abelian group axioms"
+      ],
+      "morphism_axioms": [
+        "Additive group homomorphism"
+      ],
+      "unit_policy": "additive-zero-preserved",
+      "regularity": "none"
+    },
+    {
+      "id": "rings",
+      "name": "Rings; units not required",
+      "knowl": "catalog/categories/rings",
+      "scalar": null,
+      "object_axioms": [
+        "Abelian addition",
+        "Associative distributive multiplication"
+      ],
+      "morphism_axioms": [
+        "Preserves addition",
+        "Preserves multiplication"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "unital-rings",
+      "name": "Unital rings",
+      "knowl": "catalog/categories/unital-rings",
+      "scalar": null,
+      "object_axioms": [
+        "Unital associative ring axioms"
+      ],
+      "morphism_axioms": [
+        "Preserves addition and multiplication",
+        "Sends source unit to target unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "fields",
+      "name": "Fields",
+      "knowl": "catalog/categories/fields",
+      "scalar": null,
+      "object_axioms": [
+        "Commutative field with 0 != 1"
+      ],
+      "morphism_axioms": [
+        "Unit-preserving ring homomorphism (necessarily injective)"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "topological-groups",
+      "name": "Hausdorff topological groups",
+      "knowl": "catalog/categories/topological-groups",
+      "scalar": null,
+      "object_axioms": [
+        "Hausdorff topology",
+        "Continuous group operations"
+      ],
+      "morphism_axioms": [
+        "Continuous group homomorphism"
+      ],
+      "unit_policy": "group-identity-preserved",
+      "regularity": "continuous"
+    },
+    {
+      "id": "topological-rings",
+      "name": "Unital Hausdorff topological rings",
+      "knowl": "catalog/categories/topological-rings",
+      "scalar": null,
+      "object_axioms": [
+        "Unital ring",
+        "Hausdorff topology",
+        "Continuous addition, additive inverse, and multiplication"
+      ],
+      "morphism_axioms": [
+        "Continuous unit-preserving ring homomorphism"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "continuous"
+    },
+    {
+      "id": "topological-fields",
+      "name": "Hausdorff topological fields",
+      "knowl": "catalog/categories/topological-fields",
+      "scalar": null,
+      "object_axioms": [
+        "Field",
+        "Hausdorff topology",
+        "Continuous addition, multiplication, additive inverse and inversion on nonzero elements"
+      ],
+      "morphism_axioms": [
+        "Continuous unit-preserving field homomorphism"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "continuous"
+    },
+    {
+      "id": "real-vector-spaces",
+      "name": "R-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "R",
+      "object_axioms": [
+        "Vector space over the fixed field R"
+      ],
+      "morphism_axioms": [
+        "Linear over R"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "real-associative-algebras",
+      "name": "R-associative algebras; arbitrary maps",
+      "knowl": "catalog/categories/associative-algebras",
+      "scalar": "R",
+      "object_axioms": [
+        "Vector space over R",
+        "Bilinear associative product"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves multiplication"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "real-unital-associative-algebras",
+      "name": "R-unital associative algebras",
+      "knowl": "catalog/categories/unital-associative-algebras",
+      "scalar": "R",
+      "object_axioms": [
+        "Unital associative R-algebra"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves multiplication and unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "complex-vector-spaces",
+      "name": "C-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "C",
+      "object_axioms": [
+        "Vector space over the fixed field C"
+      ],
+      "morphism_axioms": [
+        "Linear over C"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "complex-associative-algebras",
+      "name": "C-associative algebras; arbitrary maps",
+      "knowl": "catalog/categories/associative-algebras",
+      "scalar": "C",
+      "object_axioms": [
+        "Vector space over C",
+        "Bilinear associative product"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves multiplication"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "complex-unital-associative-algebras",
+      "name": "C-unital associative algebras",
+      "knowl": "catalog/categories/unital-associative-algebras",
+      "scalar": "C",
+      "object_axioms": [
+        "Unital associative C-algebra"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves multiplication and unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "rational-vector-spaces",
+      "name": "Q-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "Q",
+      "object_axioms": [
+        "Vector space over the fixed field Q"
+      ],
+      "morphism_axioms": [
+        "Linear over Q"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "rational-associative-algebras",
+      "name": "Q-associative algebras; arbitrary maps",
+      "knowl": "catalog/categories/associative-algebras",
+      "scalar": "Q",
+      "object_axioms": [
+        "Vector space over Q",
+        "Bilinear associative product"
+      ],
+      "morphism_axioms": [
+        "Linear over Q",
+        "Preserves multiplication"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "rational-unital-associative-algebras",
+      "name": "Q-unital associative algebras",
+      "knowl": "catalog/categories/unital-associative-algebras",
+      "scalar": "Q",
+      "object_axioms": [
+        "Unital associative Q-algebra"
+      ],
+      "morphism_axioms": [
+        "Linear over Q",
+        "Preserves multiplication and unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "f-vector-spaces",
+      "name": "F-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "F",
+      "object_axioms": [
+        "Vector space over the fixed field F"
+      ],
+      "morphism_axioms": [
+        "Linear over F"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "f-associative-algebras",
+      "name": "F-associative algebras; arbitrary maps",
+      "knowl": "catalog/categories/associative-algebras",
+      "scalar": "F",
+      "object_axioms": [
+        "Vector space over F",
+        "Bilinear associative product"
+      ],
+      "morphism_axioms": [
+        "Linear over F",
+        "Preserves multiplication"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "f-unital-associative-algebras",
+      "name": "F-unital associative algebras",
+      "knowl": "catalog/categories/unital-associative-algebras",
+      "scalar": "F",
+      "object_axioms": [
+        "Unital associative F-algebra"
+      ],
+      "morphism_axioms": [
+        "Linear over F",
+        "Preserves multiplication and unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "k-vector-spaces",
+      "name": "K-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "K",
+      "object_axioms": [
+        "Vector space over the fixed field K"
+      ],
+      "morphism_axioms": [
+        "Linear over K"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "k-associative-algebras",
+      "name": "K-associative algebras; arbitrary maps",
+      "knowl": "catalog/categories/associative-algebras",
+      "scalar": "K",
+      "object_axioms": [
+        "Vector space over K",
+        "Bilinear associative product"
+      ],
+      "morphism_axioms": [
+        "Linear over K",
+        "Preserves multiplication"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "k-unital-associative-algebras",
+      "name": "K-unital associative algebras",
+      "knowl": "catalog/categories/unital-associative-algebras",
+      "scalar": "K",
+      "object_axioms": [
+        "Unital associative K-algebra"
+      ],
+      "morphism_axioms": [
+        "Linear over K",
+        "Preserves multiplication and unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "real-nonassociative-algebras",
+      "name": "R-algebras; no associativity requirement",
+      "knowl": "catalog/categories/nonassociative-algebras",
+      "scalar": "R",
+      "object_axioms": [
+        "Vector space over R",
+        "Specified bilinear multiplication"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves the specified product"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "real-lie-algebras",
+      "name": "R-Lie algebras",
+      "knowl": "catalog/categories/lie-algebras",
+      "scalar": "R",
+      "object_axioms": [
+        "Vector space over R",
+        "Alternating bilinear bracket satisfying Jacobi"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves the bracket"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "real-lie-groups",
+      "name": "R Lie groups",
+      "knowl": "catalog/categories/real-lie-groups",
+      "scalar": null,
+      "object_axioms": [
+        "Finite-dimensional real smooth manifold",
+        "Group with smooth multiplication and inverse",
+        "Hausdorff and second countable"
+      ],
+      "morphism_axioms": [
+        "Smooth group homomorphism"
+      ],
+      "unit_policy": "group-identity-preserved",
+      "regularity": "smooth"
+    },
+    {
+      "id": "jord-r",
+      "name": "Jord over R",
+      "knowl": "catalog/categories/jordan-algebras",
+      "scalar": "R",
+      "object_axioms": [
+        "Jordan algebra over R"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves Jordan product"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "ujord-r",
+      "name": "UJord over R",
+      "knowl": "catalog/categories/unital-jordan-algebras-arbitrary-maps",
+      "scalar": "R",
+      "object_axioms": [
+        "Jordan algebra over R",
+        "Unital object"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves Jordan product"
+      ],
+      "unit_policy": "objects-unital-maps-arbitrary",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "jord1-r",
+      "name": "Jord1 over R",
+      "knowl": "catalog/categories/unital-jordan-algebras-unital-maps",
+      "scalar": "R",
+      "object_axioms": [
+        "Jordan algebra over R",
+        "Unital object"
+      ],
+      "morphism_axioms": [
+        "Linear over R",
+        "Preserves Jordan product",
+        "Preserves unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "complex-nonassociative-algebras",
+      "name": "C-algebras; no associativity requirement",
+      "knowl": "catalog/categories/nonassociative-algebras",
+      "scalar": "C",
+      "object_axioms": [
+        "Vector space over C",
+        "Specified bilinear multiplication"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves the specified product"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "complex-lie-algebras",
+      "name": "C-Lie algebras",
+      "knowl": "catalog/categories/lie-algebras",
+      "scalar": "C",
+      "object_axioms": [
+        "Vector space over C",
+        "Alternating bilinear bracket satisfying Jacobi"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves the bracket"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "complex-lie-groups",
+      "name": "C Lie groups",
+      "knowl": "catalog/categories/complex-lie-groups",
+      "scalar": null,
+      "object_axioms": [
+        "Finite-dimensional complex manifold",
+        "Group with holomorphic multiplication and inverse",
+        "Hausdorff and second countable"
+      ],
+      "morphism_axioms": [
+        "Holomorphic group homomorphism"
+      ],
+      "unit_policy": "group-identity-preserved",
+      "regularity": "holomorphic"
+    },
+    {
+      "id": "jord-c",
+      "name": "Jord over C",
+      "knowl": "catalog/categories/jordan-algebras",
+      "scalar": "C",
+      "object_axioms": [
+        "Jordan algebra over C"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves Jordan product"
+      ],
+      "unit_policy": "not-required",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "ujord-c",
+      "name": "UJord over C",
+      "knowl": "catalog/categories/unital-jordan-algebras-arbitrary-maps",
+      "scalar": "C",
+      "object_axioms": [
+        "Jordan algebra over C",
+        "Unital object"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves Jordan product"
+      ],
+      "unit_policy": "objects-unital-maps-arbitrary",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "jord1-c",
+      "name": "Jord1 over C",
+      "knowl": "catalog/categories/unital-jordan-algebras-unital-maps",
+      "scalar": "C",
+      "object_axioms": [
+        "Jordan algebra over C",
+        "Unital object"
+      ],
+      "morphism_axioms": [
+        "Linear over C",
+        "Preserves Jordan product",
+        "Preserves unit"
+      ],
+      "unit_policy": "preserve",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "real-spin8-representations",
+      "name": "Real Spin(8) representations",
+      "knowl": "catalog/categories/spin8-representations",
+      "scalar": "R",
+      "object_axioms": [
+        "Finite-dimensional real vector space",
+        "Smooth action of fixed compact Spin(8) by linear automorphisms"
+      ],
+      "morphism_axioms": [
+        "Real-linear",
+        "Intertwines the fixed Spin(8) actions"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "f2-vector-spaces",
+      "name": "F_2-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "F_2",
+      "object_axioms": [
+        "Vector space over the fixed prime field F_2"
+      ],
+      "morphism_axioms": [
+        "Linear over F_2"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "f3-vector-spaces",
+      "name": "F_3-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "F_3",
+      "object_axioms": [
+        "Vector space over the fixed prime field F_3"
+      ],
+      "morphism_axioms": [
+        "Linear over F_3"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "fp-vector-spaces",
+      "name": "F_p-vector spaces",
+      "knowl": "catalog/categories/vector-spaces",
+      "scalar": "F_p",
+      "object_axioms": [
+        "Vector space over the fixed prime field F_p"
+      ],
+      "morphism_axioms": [
+        "Linear over F_p"
+      ],
+      "unit_policy": "not-applicable",
+      "regularity": "algebraic"
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "morphism_spaces": [
+    {
+      "id": "ms-c-c-linear-end",
+      "source_view": "scalar-c@complex-vector-spaces",
+      "target_view": "scalar-c@complex-vector-spaces",
+      "operation": "end",
+      "description": "All complex-linear maps are z ↦ az, a ∈ C; composition is multiplication of a.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "scalar-c"
+      ]
+    },
+    {
+      "id": "ms-c-r-linear-end",
+      "source_view": "scalar-c@real-vector-spaces",
+      "target_view": "scalar-c@real-vector-spaces",
+      "operation": "end",
+      "description": "All real-linear maps are z ↦ az + b conjugate(z), a,b ∈ C; after basis (1,i), the endomorphism algebra is M₂(R).",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-2-r"
+      ]
+    },
+    {
+      "id": "ms-c-c-linear-aut",
+      "source_view": "scalar-c@complex-vector-spaces",
+      "target_view": "scalar-c@complex-vector-spaces",
+      "operation": "aut",
+      "description": "The invertible maps z ↦ az with a ≠ 0; group C×.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "lg-gl-1-c"
+      ]
+    },
+    {
+      "id": "ms-c-r-linear-aut",
+      "source_view": "scalar-c@real-vector-spaces",
+      "target_view": "scalar-c@real-vector-spaces",
+      "operation": "aut",
+      "description": "Maps z ↦ az + b conjugate(z) with |a|²−|b|² ≠ 0; the group is GL₂(R).",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "lg-gl-2-r"
+      ]
+    },
+    {
+      "id": "ms-c-real-associative-algebras-end",
+      "source_view": "scalar-c@real-associative-algebras",
+      "target_view": "scalar-c@real-associative-algebras",
+      "operation": "end",
+      "description": "Exactly identity, complex conjugation, zero map.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-real-associative-algebras-aut",
+      "source_view": "scalar-c@real-associative-algebras",
+      "target_view": "scalar-c@real-associative-algebras",
+      "operation": "aut",
+      "description": "Exactly identity, complex conjugation.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-real-unital-associative-algebras-end",
+      "source_view": "scalar-c@real-unital-associative-algebras",
+      "target_view": "scalar-c@real-unital-associative-algebras",
+      "operation": "end",
+      "description": "Exactly identity, complex conjugation.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-real-unital-associative-algebras-aut",
+      "source_view": "scalar-c@real-unital-associative-algebras",
+      "target_view": "scalar-c@real-unital-associative-algebras",
+      "operation": "aut",
+      "description": "Exactly identity, complex conjugation.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord-r-end",
+      "source_view": "scalar-c@jord-r",
+      "target_view": "scalar-c@jord-r",
+      "operation": "end",
+      "description": "Exactly identity, complex conjugation, zero map. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord-r-aut",
+      "source_view": "scalar-c@jord-r",
+      "target_view": "scalar-c@jord-r",
+      "operation": "aut",
+      "description": "Exactly identity, complex conjugation. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-ujord-r-end",
+      "source_view": "scalar-c@ujord-r",
+      "target_view": "scalar-c@ujord-r",
+      "operation": "end",
+      "description": "Exactly identity, complex conjugation, zero map. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-ujord-r-aut",
+      "source_view": "scalar-c@ujord-r",
+      "target_view": "scalar-c@ujord-r",
+      "operation": "aut",
+      "description": "Exactly identity, complex conjugation. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord1-r-end",
+      "source_view": "scalar-c@jord1-r",
+      "target_view": "scalar-c@jord1-r",
+      "operation": "end",
+      "description": "Exactly identity, complex conjugation. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord1-r-aut",
+      "source_view": "scalar-c@jord1-r",
+      "target_view": "scalar-c@jord1-r",
+      "operation": "aut",
+      "description": "Exactly identity, complex conjugation. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-complex-associative-algebras-end",
+      "source_view": "scalar-c@complex-associative-algebras",
+      "target_view": "scalar-c@complex-associative-algebras",
+      "operation": "end",
+      "description": "Exactly identity, zero map.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-complex-associative-algebras-aut",
+      "source_view": "scalar-c@complex-associative-algebras",
+      "target_view": "scalar-c@complex-associative-algebras",
+      "operation": "aut",
+      "description": "Exactly identity.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-complex-unital-associative-algebras-end",
+      "source_view": "scalar-c@complex-unital-associative-algebras",
+      "target_view": "scalar-c@complex-unital-associative-algebras",
+      "operation": "end",
+      "description": "Exactly identity.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-complex-unital-associative-algebras-aut",
+      "source_view": "scalar-c@complex-unital-associative-algebras",
+      "target_view": "scalar-c@complex-unital-associative-algebras",
+      "operation": "aut",
+      "description": "Exactly identity.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord-c-end",
+      "source_view": "scalar-c@jord-c",
+      "target_view": "scalar-c@jord-c",
+      "operation": "end",
+      "description": "Exactly identity, zero map. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord-c-aut",
+      "source_view": "scalar-c@jord-c",
+      "target_view": "scalar-c@jord-c",
+      "operation": "aut",
+      "description": "Exactly identity. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-ujord-c-end",
+      "source_view": "scalar-c@ujord-c",
+      "target_view": "scalar-c@ujord-c",
+      "operation": "end",
+      "description": "Exactly identity, zero map. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-ujord-c-aut",
+      "source_view": "scalar-c@ujord-c",
+      "target_view": "scalar-c@ujord-c",
+      "operation": "aut",
+      "description": "Exactly identity. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord1-c-end",
+      "source_view": "scalar-c@jord1-c",
+      "target_view": "scalar-c@jord1-c",
+      "operation": "end",
+      "description": "Exactly identity. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-c-jord1-c-aut",
+      "source_view": "scalar-c@jord1-c",
+      "target_view": "scalar-c@jord1-c",
+      "operation": "aut",
+      "description": "Exactly identity. Ordinary multiplication on C is commutative, so it is also its Jordan product.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-jord-r-end",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "scalar-r@jord-r",
+      "operation": "end",
+      "description": "Exactly the zero map and identity.",
+      "knowl": "catalog/morphisms/jordan-unit-conventions",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-jord-r-aut",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "scalar-r@jord-r",
+      "operation": "aut",
+      "description": "Only the identity map.",
+      "knowl": "catalog/morphisms/jordan-unit-conventions",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-r-jord-r",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "j-herm-2-r@jord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-c-jord-r",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "j-herm-2-c@jord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur. Here e is 0, I₂, or uu* with u ∈ C² of norm one, modulo scalar phase; the parameter set is {0,I₂} disjoint union CP¹.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-h-jord-r",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "j-herm-2-h@jord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-o-jord-r",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "j-herm-2-o@jord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-3-o-jord-r",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "j-herm-3-o@jord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-3-split-o-jord-r",
+      "source_view": "scalar-r@jord-r",
+      "target_view": "j-herm-3-split-o@jord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-ujord-r-end",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "scalar-r@ujord-r",
+      "operation": "end",
+      "description": "Exactly the zero map and identity.",
+      "knowl": "catalog/morphisms/jordan-unit-conventions",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-ujord-r-aut",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "scalar-r@ujord-r",
+      "operation": "aut",
+      "description": "Only the identity map.",
+      "knowl": "catalog/morphisms/jordan-unit-conventions",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-r-ujord-r",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "j-herm-2-r@ujord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-c-ujord-r",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "j-herm-2-c@ujord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur. Here e is 0, I₂, or uu* with u ∈ C² of norm one, modulo scalar phase; the parameter set is {0,I₂} disjoint union CP¹.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-h-ujord-r",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "j-herm-2-h@ujord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-o-ujord-r",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "j-herm-2-o@ujord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-3-o-ujord-r",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "j-herm-3-o@ujord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-3-split-o-ujord-r",
+      "source_view": "scalar-r@ujord-r",
+      "target_view": "j-herm-3-split-o@ujord-r",
+      "operation": "hom",
+      "description": "Every morphism has the unique form t ↦ te for an idempotent e in the target; all target idempotents occur.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-jord1-r-end",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "scalar-r@jord1-r",
+      "operation": "end",
+      "description": "Only the identity map.",
+      "knowl": "catalog/morphisms/jordan-unit-conventions",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-jord1-r-aut",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "scalar-r@jord1-r",
+      "operation": "aut",
+      "description": "Only the identity map.",
+      "knowl": "catalog/morphisms/jordan-unit-conventions",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-r-jord1-r",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "j-herm-2-r@jord1-r",
+      "operation": "hom",
+      "description": "Exactly the scalar-unit embedding t ↦ t·1.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-c-jord1-r",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "j-herm-2-c@jord1-r",
+      "operation": "hom",
+      "description": "Exactly the scalar-unit embedding t ↦ t·1.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-h-jord1-r",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "j-herm-2-h@jord1-r",
+      "operation": "hom",
+      "description": "Exactly the scalar-unit embedding t ↦ t·1.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-2-o-jord1-r",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "j-herm-2-o@jord1-r",
+      "operation": "hom",
+      "description": "Exactly the scalar-unit embedding t ↦ t·1.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-3-o-jord1-r",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "j-herm-3-o@jord1-r",
+      "operation": "hom",
+      "description": "Exactly the scalar-unit embedding t ↦ t·1.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-j-herm-3-split-o-jord1-r",
+      "source_view": "scalar-r@jord1-r",
+      "target_view": "j-herm-3-split-o@jord1-r",
+      "operation": "hom",
+      "description": "Exactly the scalar-unit embedding t ↦ t·1.",
+      "knowl": "catalog/morphisms/jordan-maps-from-the-scalar-algebra",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-r-to-c-linear",
+      "source_view": "scalar-r@real-vector-spaces",
+      "target_view": "scalar-c@real-vector-spaces",
+      "operation": "hom",
+      "description": "Every real-linear map R → C is t ↦ tz for a unique z ∈ C. Evaluation at 1 identifies the Hom-space with the underlying real vector space of C.",
+      "knowl": "catalog/morphisms/complex-numbers-linear-versus-algebra-maps",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "scalar-c"
+      ]
+    },
+    {
+      "id": "ms-sl2c-complex-linear-end",
+      "source_view": "la-sl-2-c@complex-vector-spaces",
+      "target_view": "la-sl-2-c@complex-vector-spaces",
+      "operation": "end",
+      "description": "All C-linear maps, forming the endomorphism algebra under composition M_3(C) after choosing a basis. Lie bracket preservation is not required.",
+      "knowl": "catalog/morphisms/linear-endomorphisms-of-sl2-complex",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-3-c"
+      ]
+    },
+    {
+      "id": "ms-sl2c-complex-linear-aut",
+      "source_view": "la-sl-2-c@complex-vector-spaces",
+      "target_view": "la-sl-2-c@complex-vector-spaces",
+      "operation": "aut",
+      "description": "All invertible C-linear maps, giving GL_3(C). Lie bracket preservation is not required.",
+      "knowl": "catalog/morphisms/linear-endomorphisms-of-sl2-complex",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "lg-gl-3-c"
+      ]
+    },
+    {
+      "id": "ms-sl2c-complex-group-end",
+      "source_view": "lg-sl-2-c@complex-lie-groups",
+      "target_view": "lg-sl-2-c@complex-lie-groups",
+      "operation": "end",
+      "description": "For every B ∈ GL₂(C), A ↦ BAB⁻¹ is an automorphism. The constant map A ↦ I₂ is also an endomorphism. These are recorded examples; no exhaustive classification is asserted.",
+      "knowl": "catalog/morphisms/sl2-complex-real-versus-holomorphic-maps",
+      "conditions": [],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-sl2c-complex-group-aut",
+      "source_view": "lg-sl-2-c@complex-lie-groups",
+      "target_view": "lg-sl-2-c@complex-lie-groups",
+      "operation": "aut",
+      "description": "For every B ∈ GL₂(C), A ↦ BAB⁻¹ is an automorphism. These are recorded examples; no exhaustive classification is asserted.",
+      "knowl": "catalog/morphisms/sl2-complex-real-versus-holomorphic-maps",
+      "conditions": [],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-sl2c-real-linear-end",
+      "source_view": "la-sl-2-c@real-vector-spaces",
+      "target_view": "la-sl-2-c@real-vector-spaces",
+      "operation": "end",
+      "description": "All R-linear maps, forming the endomorphism algebra under composition M_6(R) after choosing a basis. Lie bracket preservation is not required.",
+      "knowl": "catalog/morphisms/linear-endomorphisms-of-sl2-complex",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-sl2c-real-linear-aut",
+      "source_view": "la-sl-2-c@real-vector-spaces",
+      "target_view": "la-sl-2-c@real-vector-spaces",
+      "operation": "aut",
+      "description": "All invertible R-linear maps, giving GL_6(R). Lie bracket preservation is not required.",
+      "knowl": "catalog/morphisms/linear-endomorphisms-of-sl2-complex",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-sl2c-real-group-end",
+      "source_view": "lg-sl-2-c@real-lie-groups",
+      "target_view": "lg-sl-2-c@real-lie-groups",
+      "operation": "end",
+      "description": "For every B ∈ GL₂(C), A ↦ BAB⁻¹ is an automorphism. Composing with entrywise conjugation gives smooth real automorphisms that are not holomorphic. The constant map A ↦ I₂ is also an endomorphism. These are recorded examples; no exhaustive classification is asserted.",
+      "knowl": "catalog/morphisms/sl2-complex-real-versus-holomorphic-maps",
+      "conditions": [],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-sl2c-real-group-aut",
+      "source_view": "lg-sl-2-c@real-lie-groups",
+      "target_view": "lg-sl-2-c@real-lie-groups",
+      "operation": "aut",
+      "description": "For every B ∈ GL₂(C), A ↦ BAB⁻¹ is an automorphism. Composing with entrywise conjugation gives smooth real automorphisms that are not holomorphic. These are recorded examples; no exhaustive classification is asserted.",
+      "knowl": "catalog/morphisms/sl2-complex-real-versus-holomorphic-maps",
+      "conditions": [],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-k-linear-end",
+      "source_view": "algebra-a-over-k@k-vector-spaces",
+      "target_view": "algebra-a-over-k@k-vector-spaces",
+      "operation": "end",
+      "description": "The K-linear endomorphism algebra under composition is M_m(K). Matrix identifications depend on choices of bases.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for a specified extension K/F.",
+        "[K:F]=d is finite and dim_K(A)=m is finite."
+      ],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-k-algebra-end",
+      "source_view": "algebra-a-over-k@k-unital-associative-algebras",
+      "target_view": "algebra-a-over-k@k-unital-associative-algebras",
+      "operation": "end",
+      "description": "The identity is recorded. Further maps must be K-linear, multiplicative and unit-preserving. No general classification for arbitrary A is asserted.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for the same specified extension K/F."
+      ],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-k-linear-aut",
+      "source_view": "algebra-a-over-k@k-vector-spaces",
+      "target_view": "algebra-a-over-k@k-vector-spaces",
+      "operation": "aut",
+      "description": "The K-linear automorphism group is GL_m(K). Matrix identifications depend on choices of bases.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for a specified extension K/F.",
+        "[K:F]=d is finite and dim_K(A)=m is finite."
+      ],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-k-algebra-aut",
+      "source_view": "algebra-a-over-k@k-unital-associative-algebras",
+      "target_view": "algebra-a-over-k@k-unital-associative-algebras",
+      "operation": "aut",
+      "description": "The identity is recorded. Further maps must be K-linear, multiplicative and unit-preserving and invertible. No general classification for arbitrary A is asserted.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for the same specified extension K/F."
+      ],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-f-linear-end",
+      "source_view": "algebra-a-over-k@f-vector-spaces",
+      "target_view": "algebra-a-over-k@f-vector-spaces",
+      "operation": "end",
+      "description": "The F-linear endomorphism algebra under composition is M_dm(F). Matrix identifications depend on choices of bases.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for a specified extension K/F.",
+        "[K:F]=d is finite and dim_K(A)=m is finite."
+      ],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-f-algebra-end",
+      "source_view": "algebra-a-over-k@f-unital-associative-algebras",
+      "target_view": "algebra-a-over-k@f-unital-associative-algebras",
+      "operation": "end",
+      "description": "The identity is recorded. Further maps must be F-linear, multiplicative and unit-preserving. No general classification for arbitrary A is asserted.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for the same specified extension K/F."
+      ],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-f-linear-aut",
+      "source_view": "algebra-a-over-k@f-vector-spaces",
+      "target_view": "algebra-a-over-k@f-vector-spaces",
+      "operation": "aut",
+      "description": "The F-linear automorphism group is GL_dm(F). Matrix identifications depend on choices of bases.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for a specified extension K/F.",
+        "[K:F]=d is finite and dim_K(A)=m is finite."
+      ],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-a-f-algebra-aut",
+      "source_view": "algebra-a-over-k@f-unital-associative-algebras",
+      "target_view": "algebra-a-over-k@f-unital-associative-algebras",
+      "operation": "aut",
+      "description": "The identity is recorded. Further maps must be F-linear, multiplicative and unit-preserving and invertible. No general classification for arbitrary A is asserted.",
+      "knowl": "catalog/morphisms/restriction-of-scalars-endomorphisms",
+      "conditions": [
+        "A is a unital associative K-algebra for the same specified extension K/F."
+      ],
+      "coverage": "partial",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-q-linear-end",
+      "source_view": "field-qi@rational-vector-spaces",
+      "target_view": "field-qi@rational-vector-spaces",
+      "operation": "end",
+      "description": "All rational-linear maps, identified as the endomorphism algebra under composition M₂(Q) in basis (1,i).",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-2-q"
+      ]
+    },
+    {
+      "id": "ms-qi-rational-associative-algebras-end",
+      "source_view": "field-qi@rational-associative-algebras",
+      "target_view": "field-qi@rational-associative-algebras",
+      "operation": "end",
+      "description": "Exactly identity and conjugation and the zero map.",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-rational-unital-associative-algebras-end",
+      "source_view": "field-qi@rational-unital-associative-algebras",
+      "target_view": "field-qi@rational-unital-associative-algebras",
+      "operation": "end",
+      "description": "Exactly identity and conjugation.",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-fields-end",
+      "source_view": "field-qi@fields",
+      "target_view": "field-qi@fields",
+      "operation": "end",
+      "description": "Exactly identity and conjugation.",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-q-linear-aut",
+      "source_view": "field-qi@rational-vector-spaces",
+      "target_view": "field-qi@rational-vector-spaces",
+      "operation": "aut",
+      "description": "All invertible rational-linear maps, group GL₂(Q).",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-rational-associative-algebras-aut",
+      "source_view": "field-qi@rational-associative-algebras",
+      "target_view": "field-qi@rational-associative-algebras",
+      "operation": "aut",
+      "description": "Exactly identity and conjugation.",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-rational-unital-associative-algebras-aut",
+      "source_view": "field-qi@rational-unital-associative-algebras",
+      "target_view": "field-qi@rational-unital-associative-algebras",
+      "operation": "aut",
+      "description": "Exactly identity and conjugation.",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-qi-fields-aut",
+      "source_view": "field-qi@fields",
+      "target_view": "field-qi@fields",
+      "operation": "aut",
+      "description": "Exactly identity and conjugation.",
+      "knowl": "catalog/morphisms/gaussian-field-endomorphisms",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f2-to-field-f4-fields",
+      "source_view": "field-f2@fields",
+      "target_view": "field-f4@fields",
+      "operation": "hom",
+      "description": "Exactly the prime-field inclusion (one map).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f2-to-field-f4-unital-rings",
+      "source_view": "field-f2@unital-rings",
+      "target_view": "field-f4@unital-rings",
+      "operation": "hom",
+      "description": "Exactly the prime-field inclusion (one map).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f2-to-field-f4-rings",
+      "source_view": "field-f2@rings",
+      "target_view": "field-f4@rings",
+      "operation": "hom",
+      "description": "Exactly the prime-field inclusion and zero (two maps).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f2-to-field-f3-fields",
+      "source_view": "field-f2@fields",
+      "target_view": "field-f3@fields",
+      "operation": "hom",
+      "description": "The Hom-set is empty: unit preservation would identify characteristics 2 and 3.",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f2-to-field-f3-unital-rings",
+      "source_view": "field-f2@unital-rings",
+      "target_view": "field-f3@unital-rings",
+      "operation": "hom",
+      "description": "The Hom-set is empty: unit preservation would identify characteristics 2 and 3.",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f2-to-field-f3-rings",
+      "source_view": "field-f2@rings",
+      "target_view": "field-f3@rings",
+      "operation": "hom",
+      "description": "Exactly the zero map (one map).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f4-to-field-f8-fields",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f8@fields",
+      "operation": "hom",
+      "description": "The Hom-set is empty: a field embedding would inject a multiplicative group of order 3 into one of order 7.",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f4-to-field-f8-unital-rings",
+      "source_view": "field-f4@unital-rings",
+      "target_view": "field-f8@unital-rings",
+      "operation": "hom",
+      "description": "The Hom-set is empty: a field embedding would inject a multiplicative group of order 3 into one of order 7.",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f4-to-field-f8-rings",
+      "source_view": "field-f4@rings",
+      "target_view": "field-f8@rings",
+      "operation": "hom",
+      "description": "Exactly the zero map (one map).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f4-to-field-f4-fields",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f4@fields",
+      "operation": "hom",
+      "description": "Exactly identity and Frobenius x ↦ x² (two maps).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f4-to-field-f4-unital-rings",
+      "source_view": "field-f4@unital-rings",
+      "target_view": "field-f4@unital-rings",
+      "operation": "hom",
+      "description": "Exactly identity and Frobenius x ↦ x² (two maps).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-field-f4-to-field-f4-rings",
+      "source_view": "field-f4@rings",
+      "target_view": "field-f4@rings",
+      "operation": "hom",
+      "description": "Exactly identity, Frobenius x ↦ x², and zero (three maps).",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-f4-fields-end",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f4@fields",
+      "operation": "end",
+      "description": "Exactly identity and Frobenius x ↦ x².",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-f4-fields-aut",
+      "source_view": "field-f4@fields",
+      "target_view": "field-f4@fields",
+      "operation": "aut",
+      "description": "Exactly identity and Frobenius x ↦ x².",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-f4-unital-rings-end",
+      "source_view": "field-f4@unital-rings",
+      "target_view": "field-f4@unital-rings",
+      "operation": "end",
+      "description": "Exactly identity and Frobenius x ↦ x².",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-f4-unital-rings-aut",
+      "source_view": "field-f4@unital-rings",
+      "target_view": "field-f4@unital-rings",
+      "operation": "aut",
+      "description": "Exactly identity and Frobenius x ↦ x².",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-f4-rings-end",
+      "source_view": "field-f4@rings",
+      "target_view": "field-f4@rings",
+      "operation": "end",
+      "description": "Exactly identity and Frobenius x ↦ x², together with zero.",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "ms-f4-rings-aut",
+      "source_view": "field-f4@rings",
+      "target_view": "field-f4@rings",
+      "operation": "aut",
+      "description": "Exactly identity and Frobenius x ↦ x².",
+      "knowl": "catalog/morphisms/finite-field-homomorphisms-by-category",
+      "conditions": [],
+      "coverage": "complete",
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct calculation in the linked knowl; the stated category fixes linearity, product, unit and regularity requirements.",
+        "references": [],
+        "lean": null
+      }
+    }
+  ]
+}

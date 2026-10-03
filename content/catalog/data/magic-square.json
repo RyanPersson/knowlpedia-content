@@ -1,0 +1,2136 @@
+{
+  "schema_version": 1,
+  "objects": [
+    {
+      "id": "la-su-3-direct-sum-su-3",
+      "name": "su(3) ⊕ su(3)",
+      "notation": "\\mathfrak{su}(3)\\oplus\\mathfrak{su}(3)",
+      "kind": "lie-algebra",
+      "family": "direct-sum-lie-algebra",
+      "parameters": {
+        "field": "R",
+        "factors": [
+          "la-su-3",
+          "la-su-3"
+        ]
+      },
+      "knowl": "catalog/relationships/su3-direct-sum-su3",
+      "dimensions": {
+        "real": 16
+      },
+      "category_ids": [
+        "real-lie-algebras",
+        "real-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "compact_type": true,
+        "semisimple": true,
+        "simple": false
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+          "title": "Baez, The Octonions",
+          "locator": "§4.3, Table 5 and triality decomposition"
+        }
+      ]
+    },
+    {
+      "id": "la-sp-1-direct-sum-sp-1-direct-sum-sp-1",
+      "name": "sp(1) ⊕ sp(1) ⊕ sp(1)",
+      "notation": "\\mathfrak{sp}(1)^{\\oplus3}",
+      "kind": "lie-algebra",
+      "family": "direct-sum-lie-algebra",
+      "parameters": {
+        "field": "R",
+        "factors": [
+          "la-sp-1",
+          "la-sp-1",
+          "la-sp-1"
+        ]
+      },
+      "knowl": "catalog/relationships/sp1-triple-direct-sum",
+      "dimensions": {
+        "real": 9
+      },
+      "category_ids": [
+        "real-lie-algebras",
+        "real-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "compact_type": true,
+        "semisimple": true,
+        "simple": false
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://arxiv.org/pdf/math/0203010",
+          "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+          "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+        }
+      ]
+    },
+    {
+      "id": "rep-spin8-vector",
+      "name": "Spin(8) vector module",
+      "notation": "8_v",
+      "kind": "representation",
+      "family": "spin8-triality-representation",
+      "parameters": {
+        "field": "R",
+        "acting_group_id": "lg-spin-8-r",
+        "label": "vector"
+      },
+      "knowl": "catalog/relationships/spin8-vector-representation",
+      "dimensions": {
+        "real": 8
+      },
+      "category_ids": [
+        "real-spin8-representations",
+        "real-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "irreducible": true,
+        "absolutely_irreducible": true,
+        "kernel_order": 2,
+        "central_kernel_label": "{1,-1}"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+          "title": "Baez, The Octonions",
+          "locator": "§2.4, Table 4, vector representation and normed triality"
+        },
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    },
+    {
+      "id": "rep-spin8-half-spin-plus",
+      "name": "Spin(8) plus module",
+      "notation": "8_+",
+      "kind": "representation",
+      "family": "spin8-triality-representation",
+      "parameters": {
+        "field": "R",
+        "acting_group_id": "lg-spin-8-r",
+        "label": "plus"
+      },
+      "knowl": "catalog/relationships/spin8-positive-half-spin-representation",
+      "dimensions": {
+        "real": 8
+      },
+      "category_ids": [
+        "real-spin8-representations",
+        "real-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "irreducible": true,
+        "absolutely_irreducible": true,
+        "kernel_order": 2,
+        "central_kernel_label": "{1,z_+}"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+          "title": "Baez, The Octonions",
+          "locator": "§2.4, Table 4, vector representation and normed triality"
+        },
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    },
+    {
+      "id": "rep-spin8-half-spin-minus",
+      "name": "Spin(8) minus module",
+      "notation": "8_-",
+      "kind": "representation",
+      "family": "spin8-triality-representation",
+      "parameters": {
+        "field": "R",
+        "acting_group_id": "lg-spin-8-r",
+        "label": "minus"
+      },
+      "knowl": "catalog/relationships/spin8-negative-half-spin-representation",
+      "dimensions": {
+        "real": 8
+      },
+      "category_ids": [
+        "real-spin8-representations",
+        "real-vector-spaces"
+      ],
+      "constraints": [],
+      "properties": {
+        "irreducible": true,
+        "absolutely_irreducible": true,
+        "kernel_order": 2,
+        "central_kernel_label": "{1,z_-}"
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+          "title": "Baez, The Octonions",
+          "locator": "§2.4, Table 4, vector representation and normed triality"
+        },
+        {
+          "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+          "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+          "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+        }
+      ]
+    }
+  ],
+  "categories": [],
+  "views": [],
+  "relationships": [
+    {
+      "id": "magic-square-compact-r-r",
+      "source": "scalar-r",
+      "target": "la-so-3-r",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs R, R has output la-so-3-r.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-r",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          0,
+          0
+        ],
+        "transposed_relationship_id": "magic-square-compact-r-r",
+        "dimension_check": 3
+      }
+    },
+    {
+      "id": "magic-square-compact-r-c",
+      "source": "scalar-r",
+      "target": "la-su-3",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs R, C has output la-su-3.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-c",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          0,
+          1
+        ],
+        "transposed_relationship_id": "magic-square-compact-c-r",
+        "dimension_check": 8
+      }
+    },
+    {
+      "id": "magic-square-compact-r-h",
+      "source": "scalar-r",
+      "target": "la-sp-3",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs R, H has output la-sp-3.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-h",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          0,
+          2
+        ],
+        "transposed_relationship_id": "magic-square-compact-h-r",
+        "dimension_check": 21
+      }
+    },
+    {
+      "id": "magic-square-compact-r-o",
+      "source": "scalar-r",
+      "target": "la-f4-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs R, O has output la-f4-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-o",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          0,
+          3
+        ],
+        "transposed_relationship_id": "magic-square-compact-o-r",
+        "dimension_check": 52
+      }
+    },
+    {
+      "id": "magic-square-compact-c-r",
+      "source": "scalar-c",
+      "target": "la-su-3",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs C, R has output la-su-3.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-r",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          1,
+          0
+        ],
+        "transposed_relationship_id": "magic-square-compact-r-c",
+        "dimension_check": 8
+      }
+    },
+    {
+      "id": "magic-square-compact-c-c",
+      "source": "scalar-c",
+      "target": "la-su-3-direct-sum-su-3",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs C, C has output la-su-3-direct-sum-su-3.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-c",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          1,
+          1
+        ],
+        "transposed_relationship_id": "magic-square-compact-c-c",
+        "dimension_check": 16
+      }
+    },
+    {
+      "id": "magic-square-compact-c-h",
+      "source": "scalar-c",
+      "target": "la-su-6",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs C, H has output la-su-6.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-h",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          1,
+          2
+        ],
+        "transposed_relationship_id": "magic-square-compact-h-c",
+        "dimension_check": 35
+      }
+    },
+    {
+      "id": "magic-square-compact-c-o",
+      "source": "scalar-c",
+      "target": "la-e6-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs C, O has output la-e6-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-o",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          1,
+          3
+        ],
+        "transposed_relationship_id": "magic-square-compact-o-c",
+        "dimension_check": 78
+      }
+    },
+    {
+      "id": "magic-square-compact-h-r",
+      "source": "scalar-h",
+      "target": "la-sp-3",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs H, R has output la-sp-3.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-r",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          2,
+          0
+        ],
+        "transposed_relationship_id": "magic-square-compact-r-h",
+        "dimension_check": 21
+      }
+    },
+    {
+      "id": "magic-square-compact-h-c",
+      "source": "scalar-h",
+      "target": "la-su-6",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs H, C has output la-su-6.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-c",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          2,
+          1
+        ],
+        "transposed_relationship_id": "magic-square-compact-c-h",
+        "dimension_check": 35
+      }
+    },
+    {
+      "id": "magic-square-compact-h-h",
+      "source": "scalar-h",
+      "target": "la-so-12-r",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs H, H has output la-so-12-r.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-h",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          2,
+          2
+        ],
+        "transposed_relationship_id": "magic-square-compact-h-h",
+        "dimension_check": 66
+      }
+    },
+    {
+      "id": "magic-square-compact-h-o",
+      "source": "scalar-h",
+      "target": "la-e7-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs H, O has output la-e7-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-o",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          2,
+          3
+        ],
+        "transposed_relationship_id": "magic-square-compact-o-h",
+        "dimension_check": 133
+      }
+    },
+    {
+      "id": "magic-square-compact-o-r",
+      "source": "scalar-o",
+      "target": "la-f4-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs O, R has output la-f4-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-r",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          3,
+          0
+        ],
+        "transposed_relationship_id": "magic-square-compact-r-o",
+        "dimension_check": 52
+      }
+    },
+    {
+      "id": "magic-square-compact-o-c",
+      "source": "scalar-o",
+      "target": "la-e6-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs O, C has output la-e6-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-c",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          3,
+          1
+        ],
+        "transposed_relationship_id": "magic-square-compact-c-o",
+        "dimension_check": 78
+      }
+    },
+    {
+      "id": "magic-square-compact-o-h",
+      "source": "scalar-o",
+      "target": "la-e7-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs O, H has output la-e7-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-h",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          3,
+          2
+        ],
+        "transposed_relationship_id": "magic-square-compact-h-o",
+        "dimension_check": 133
+      }
+    },
+    {
+      "id": "magic-square-compact-o-o",
+      "source": "scalar-o",
+      "target": "la-e8-compact",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The compact real magic-square construction on the ordered inputs O, O has output la-e8-compact.",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "conditions": [
+        "Both inputs are the real division composition algebras.",
+        "This records a binary construction, not a scalar-to-Lie-algebra homomorphism."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Compact real Table 5; dimension checked using the triality decomposition.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "other_input_id": "scalar-o",
+        "square_id": "compact-real-freudenthal",
+        "cell": [
+          3,
+          3
+        ],
+        "transposed_relationship_id": "magic-square-compact-o-o",
+        "dimension_check": 248
+      }
+    },
+    {
+      "id": "triality-algebra-r",
+      "source": "scalar-r",
+      "target": "la-so-1-r",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The triality algebra of this real division composition algebra has the stated real Lie-algebra isomorphism type.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "The norm is positive definite."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition 2 and derivation/triality classification table, with low-dimensional sp(1)=so(3).",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "construction": "triality-algebra",
+        "scalar": "R"
+      }
+    },
+    {
+      "id": "triality-algebra-c",
+      "source": "scalar-c",
+      "target": "la-abelian-2-r",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The triality algebra of this real division composition algebra has the stated real Lie-algebra isomorphism type.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "The norm is positive definite."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition 2 and derivation/triality classification table, with low-dimensional sp(1)=so(3).",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "construction": "triality-algebra",
+        "scalar": "R"
+      }
+    },
+    {
+      "id": "triality-algebra-h",
+      "source": "scalar-h",
+      "target": "la-sp-1-direct-sum-sp-1-direct-sum-sp-1",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The triality algebra of this real division composition algebra has the stated real Lie-algebra isomorphism type.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "The norm is positive definite."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition 2 and derivation/triality classification table, with low-dimensional sp(1)=so(3).",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "construction": "triality-algebra",
+        "scalar": "R"
+      }
+    },
+    {
+      "id": "triality-algebra-o",
+      "source": "scalar-o",
+      "target": "la-so-8-r",
+      "kind": "construction",
+      "category_id": null,
+      "statement": "The triality algebra of this real division composition algebra has the stated real Lie-algebra isomorphism type.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "The norm is positive definite."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition 2 and derivation/triality classification table, with low-dimensional sp(1)=so(3).",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "construction": "triality-algebra",
+        "scalar": "R"
+      }
+    },
+    {
+      "id": "division-composition-derivations-r",
+      "source": "scalar-r",
+      "target": "la-so-1-r",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "Real-linear product derivations form this real Lie algebra.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "Commutator bracket on derivations."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Checked division composition-algebra derivation classification.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§2, equations (2.5)–(2.9), p. 6"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "division-composition-derivations-c",
+      "source": "scalar-c",
+      "target": "la-so-1-r",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "Real-linear product derivations form this real Lie algebra.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "Commutator bracket on derivations."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Checked division composition-algebra derivation classification.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§2, equations (2.5)–(2.9), p. 6"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "division-composition-derivations-h",
+      "source": "scalar-h",
+      "target": "la-so-3-r",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "Real-linear product derivations form this real Lie algebra.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "Commutator bracket on derivations."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Checked division composition-algebra derivation classification.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§2, equations (2.5)–(2.9), p. 6"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "division-composition-derivations-o",
+      "source": "scalar-o",
+      "target": "la-g2-compact",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "Real-linear product derivations form this real Lie algebra.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "Commutator bracket on derivations."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Checked division composition-algebra derivation classification.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§2, equations (2.5)–(2.9), p. 6"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "herm3-division-derivations-r",
+      "source": "j-herm-3-r",
+      "target": "la-so-3-r",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "The real derivation Lie algebra of H3 over this division composition algebra is the indicated compact real algebra.",
+      "knowl": "catalog/relationships/hermitian-cubic-derivation-algebras",
+      "conditions": [
+        "Jordan product is (XY+YX)/2."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Tits real row and compact square table; multiplying the Jordan product by a nonzero scalar leaves derivations unchanged.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          },
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "herm3-division-derivations-c",
+      "source": "j-herm-3-c",
+      "target": "la-su-3",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "The real derivation Lie algebra of H3 over this division composition algebra is the indicated compact real algebra.",
+      "knowl": "catalog/relationships/hermitian-cubic-derivation-algebras",
+      "conditions": [
+        "Jordan product is (XY+YX)/2."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Tits real row and compact square table; multiplying the Jordan product by a nonzero scalar leaves derivations unchanged.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          },
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "herm3-division-derivations-h",
+      "source": "j-herm-3-h",
+      "target": "la-sp-3",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "The real derivation Lie algebra of H3 over this division composition algebra is the indicated compact real algebra.",
+      "knowl": "catalog/relationships/hermitian-cubic-derivation-algebras",
+      "conditions": [
+        "Jordan product is (XY+YX)/2."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Tits real row and compact square table; multiplying the Jordan product by a nonzero scalar leaves derivations unchanged.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          },
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "herm3-division-derivations-o",
+      "source": "j-herm-3-o",
+      "target": "la-f4-compact",
+      "kind": "derivation-algebra",
+      "category_id": null,
+      "statement": "The real derivation Lie algebra of H3 over this division composition algebra is the indicated compact real algebra.",
+      "knowl": "catalog/relationships/hermitian-cubic-derivation-algebras",
+      "conditions": [
+        "Jordan product is (XY+YX)/2."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Tits real row and compact square table; multiplying the Jordan product by a nonzero scalar leaves derivations unchanged.",
+        "references": [
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          },
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "division-octonions-automorphism-group",
+      "source": "scalar-o",
+      "target": "lg-g2-compact",
+      "kind": "automorphism-group",
+      "category_id": null,
+      "statement": "The real algebra automorphism group of the division octonions is compact G2.",
+      "knowl": "lie-groups/compact-exceptional-lie-group-g2",
+      "conditions": [
+        "Real-linear automorphisms preserve octonion multiplication."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Definition and compact octonion automorphism model in §4.1.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node14.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.1, G2=Aut(O), derivations and Theorem 4"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "compact-albert-automorphism-group",
+      "source": "j-herm-3-o",
+      "target": "lg-f4-compact",
+      "kind": "automorphism-group",
+      "category_id": null,
+      "statement": "The real Jordan algebra automorphism group of H3(O) is compact F4.",
+      "knowl": "lie-groups/compact-exceptional-lie-group-f4",
+      "conditions": [
+        "Division octonions and the positive Euclidean Albert algebra."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Aut(H3(O)) model in §4.2. A bijective multiplicative map of unital algebras automatically preserves the identity.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "spin8-frame-embedding-f4",
+      "source": "lg-spin-8-r",
+      "target": "lg-f4-compact",
+      "kind": "embedding",
+      "category_id": "real-lie-groups",
+      "statement": "Spin(8) embeds into compact F4 as the pointwise stabilizer of a labelled Albert-algebra Jordan frame.",
+      "knowl": "nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame",
+      "conditions": [
+        "A labelled frame is fixed pointwise."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Triality acts on the three off-diagonal octonion slots, fixing each diagonal idempotent.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node12.html",
+            "title": "Baez, The Octonions",
+            "locator": "§3.4, Spin(8) action from normed triality on the Albert algebra"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "so8-frame-embedding-f4",
+      "source": "la-so-8-r",
+      "target": "la-f4-compact",
+      "kind": "embedding",
+      "category_id": "real-lie-algebras",
+      "statement": "The Lie algebra of the Albert-frame stabilizer embeds compact so(8) into compact f4.",
+      "knowl": "catalog/relationships/f4-triality-decomposition",
+      "conditions": [
+        "Compact real forms."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Differential of the frame-stabilizer embedding, with adjoint-module decomposition checked in §4.2.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "octonion-derivations-embedding-so8",
+      "source": "la-g2-compact",
+      "target": "la-so-8-r",
+      "kind": "embedding",
+      "category_id": "real-lie-algebras",
+      "statement": "Octonion derivations act as skew real-linear endomorphisms of the eight-dimensional normed space O.",
+      "knowl": "catalog/relationships/triality-algebra",
+      "conditions": [
+        "Division octonions with their norm form."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Derivations embed diagonally into tri(O), and the first projection tri(O)→so(O) is an isomorphism.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node14.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.1, G2=Aut(O), derivations and Theorem 4"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§4.1, Definition 2, Lemma 4.1 and table p. 13"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "spin8-vector-orthogonal-action",
+      "source": "lg-spin-8-r",
+      "target": "lg-so-8-r",
+      "kind": "representation",
+      "category_id": "real-lie-groups",
+      "statement": "The vector eight-dimensional real representation gives a surjective homomorphism Spin(8)→SO(8), with kernel {1,-1}.",
+      "knowl": "catalog/relationships/spin8-vector-representation",
+      "conditions": [
+        "Choose an oriented orthonormal basis of the module."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Triality exchanges the three double-cover representations and their distinct central kernels.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+            "title": "Baez, The Octonions",
+            "locator": "§2.4, Table 4, vector representation and normed triality"
+          },
+          {
+            "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+            "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+            "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "representation_object_id": "rep-spin8-vector",
+        "kernel_order": 2,
+        "kernel_label": "{1,-1}"
+      }
+    },
+    {
+      "id": "f4-adjoint-restriction-vector",
+      "source": "la-f4-compact",
+      "target": "rep-spin8-vector",
+      "kind": "representation",
+      "category_id": null,
+      "statement": "Under restriction to the fixed Spin(8) frame subgroup, the adjoint f4 module contains 8_v with multiplicity one.",
+      "knowl": "catalog/relationships/f4-triality-decomposition",
+      "conditions": [
+        "This is a constituent of a restricted representation, not a Lie algebra homomorphism to a module."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "so8 ⊕ 8v ⊕ 8+ ⊕ 8- decomposition in §4.2.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "acting_group_id": "lg-spin-8-r",
+        "multiplicity": 1,
+        "construction": "restriction-constituent"
+      }
+    },
+    {
+      "id": "spin8-plus-orthogonal-action",
+      "source": "lg-spin-8-r",
+      "target": "lg-so-8-r",
+      "kind": "representation",
+      "category_id": "real-lie-groups",
+      "statement": "The plus eight-dimensional real representation gives a surjective homomorphism Spin(8)→SO(8), with kernel {1,z_+}.",
+      "knowl": "catalog/relationships/spin8-positive-half-spin-representation",
+      "conditions": [
+        "Choose an oriented orthonormal basis of the module."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Triality exchanges the three double-cover representations and their distinct central kernels.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+            "title": "Baez, The Octonions",
+            "locator": "§2.4, Table 4, vector representation and normed triality"
+          },
+          {
+            "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+            "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+            "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "representation_object_id": "rep-spin8-half-spin-plus",
+        "kernel_order": 2,
+        "kernel_label": "{1,z_+}"
+      }
+    },
+    {
+      "id": "f4-adjoint-restriction-plus",
+      "source": "la-f4-compact",
+      "target": "rep-spin8-half-spin-plus",
+      "kind": "representation",
+      "category_id": null,
+      "statement": "Under restriction to the fixed Spin(8) frame subgroup, the adjoint f4 module contains 8_+ with multiplicity one.",
+      "knowl": "catalog/relationships/f4-triality-decomposition",
+      "conditions": [
+        "This is a constituent of a restricted representation, not a Lie algebra homomorphism to a module."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "so8 ⊕ 8v ⊕ 8+ ⊕ 8- decomposition in §4.2.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "acting_group_id": "lg-spin-8-r",
+        "multiplicity": 1,
+        "construction": "restriction-constituent"
+      }
+    },
+    {
+      "id": "spin8-minus-orthogonal-action",
+      "source": "lg-spin-8-r",
+      "target": "lg-so-8-r",
+      "kind": "representation",
+      "category_id": "real-lie-groups",
+      "statement": "The minus eight-dimensional real representation gives a surjective homomorphism Spin(8)→SO(8), with kernel {1,z_-}.",
+      "knowl": "catalog/relationships/spin8-negative-half-spin-representation",
+      "conditions": [
+        "Choose an oriented orthonormal basis of the module."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "Triality exchanges the three double-cover representations and their distinct central kernels.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node7.html",
+            "title": "Baez, The Octonions",
+            "locator": "§2.4, Table 4, vector representation and normed triality"
+          },
+          {
+            "url": "https://sigma-journal.com/2021/079/sigma21-079.pdf",
+            "title": "Schaposnik and Schulz, Triality for Homogeneous Polynomials",
+            "locator": "§2.2, Proposition 2.1, central kernels and Remark 2.2, p. 5"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "representation_object_id": "rep-spin8-half-spin-minus",
+        "kernel_order": 2,
+        "kernel_label": "{1,z_-}"
+      }
+    },
+    {
+      "id": "f4-adjoint-restriction-minus",
+      "source": "la-f4-compact",
+      "target": "rep-spin8-half-spin-minus",
+      "kind": "representation",
+      "category_id": null,
+      "statement": "Under restriction to the fixed Spin(8) frame subgroup, the adjoint f4 module contains 8_- with multiplicity one.",
+      "knowl": "catalog/relationships/f4-triality-decomposition",
+      "conditions": [
+        "This is a constituent of a restricted representation, not a Lie algebra homomorphism to a module."
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "so8 ⊕ 8v ⊕ 8+ ⊕ 8- decomposition in §4.2.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node15.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.2, Aut(H3(O)), Der(H3(O)), decomposition under so(8), Theorem 5"
+          }
+        ],
+        "lean": null
+      },
+      "parameters": {
+        "acting_group_id": "lg-spin-8-r",
+        "multiplicity": 1,
+        "construction": "restriction-constituent"
+      }
+    },
+    {
+      "id": "spin8-underlying-space-vector-plus",
+      "source": "rep-spin8-vector",
+      "target": "rep-spin8-half-spin-plus",
+      "kind": "isomorphism",
+      "category_id": "real-vector-spaces",
+      "statement": "The underlying real vector spaces are isomorphic after choosing bases; this is not an intertwiner for the fixed Spin(8) action.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "Forget the Spin(8) action."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Both real dimensions equal 8; a basis-to-basis linear map is invertible.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "spin8-underlying-space-vector-minus",
+      "source": "rep-spin8-vector",
+      "target": "rep-spin8-half-spin-minus",
+      "kind": "isomorphism",
+      "category_id": "real-vector-spaces",
+      "statement": "The underlying real vector spaces are isomorphic after choosing bases; this is not an intertwiner for the fixed Spin(8) action.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "Forget the Spin(8) action."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Both real dimensions equal 8; a basis-to-basis linear map is invertible.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "spin8-underlying-space-plus-minus",
+      "source": "rep-spin8-half-spin-plus",
+      "target": "rep-spin8-half-spin-minus",
+      "kind": "isomorphism",
+      "category_id": "real-vector-spaces",
+      "statement": "The underlying real vector spaces are isomorphic after choosing bases; this is not an intertwiner for the fixed Spin(8) action.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "Forget the Spin(8) action."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Both real dimensions equal 8; a basis-to-basis linear map is invertible.",
+        "references": [],
+        "lean": null
+      }
+    }
+  ],
+  "morphism_spaces": [
+    {
+      "id": "ms-spin8-vector-vector-equivariant-end",
+      "source_view": "rep-spin8-vector@real-spin8-representations",
+      "target_view": "rep-spin8-vector@real-spin8-representations",
+      "operation": "end",
+      "description": "R·I: every equivariant endomorphism is scalar.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-vector-equivariant-aut",
+      "source_view": "rep-spin8-vector@real-spin8-representations",
+      "target_view": "rep-spin8-vector@real-spin8-representations",
+      "operation": "aut",
+      "description": "R×·I: precisely the nonzero scalar automorphisms.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-vector-linear-end",
+      "source_view": "rep-spin8-vector@real-vector-spaces",
+      "target_view": "rep-spin8-vector@real-vector-spaces",
+      "operation": "end",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-vector-linear-aut",
+      "source_view": "rep-spin8-vector@real-vector-spaces",
+      "target_view": "rep-spin8-vector@real-vector-spaces",
+      "operation": "aut",
+      "description": "GL(8,R) after choosing a basis: all invertible real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-plus-equivariant-hom",
+      "source_view": "rep-spin8-vector@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "operation": "hom",
+      "description": "The singleton {0}: only the zero intertwiner.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-plus-linear-hom",
+      "source_view": "rep-spin8-vector@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "operation": "hom",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-minus-equivariant-hom",
+      "source_view": "rep-spin8-vector@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "operation": "hom",
+      "description": "The singleton {0}: only the zero intertwiner.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-vector-minus-linear-hom",
+      "source_view": "rep-spin8-vector@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "operation": "hom",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-vector-equivariant-hom",
+      "source_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "target_view": "rep-spin8-vector@real-spin8-representations",
+      "operation": "hom",
+      "description": "The singleton {0}: only the zero intertwiner.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-vector-linear-hom",
+      "source_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "target_view": "rep-spin8-vector@real-vector-spaces",
+      "operation": "hom",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-plus-equivariant-end",
+      "source_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "operation": "end",
+      "description": "R·I: every equivariant endomorphism is scalar.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-plus-equivariant-aut",
+      "source_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "operation": "aut",
+      "description": "R×·I: precisely the nonzero scalar automorphisms.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-plus-linear-end",
+      "source_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "operation": "end",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-plus-linear-aut",
+      "source_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "operation": "aut",
+      "description": "GL(8,R) after choosing a basis: all invertible real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-minus-equivariant-hom",
+      "source_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "operation": "hom",
+      "description": "The singleton {0}: only the zero intertwiner.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-plus-minus-linear-hom",
+      "source_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "operation": "hom",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-vector-equivariant-hom",
+      "source_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "target_view": "rep-spin8-vector@real-spin8-representations",
+      "operation": "hom",
+      "description": "The singleton {0}: only the zero intertwiner.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-vector-linear-hom",
+      "source_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "target_view": "rep-spin8-vector@real-vector-spaces",
+      "operation": "hom",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-plus-equivariant-hom",
+      "source_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-plus@real-spin8-representations",
+      "operation": "hom",
+      "description": "The singleton {0}: only the zero intertwiner.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-plus-linear-hom",
+      "source_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-plus@real-vector-spaces",
+      "operation": "hom",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-minus-equivariant-end",
+      "source_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "operation": "end",
+      "description": "R·I: every equivariant endomorphism is scalar.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-minus-equivariant-aut",
+      "source_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "target_view": "rep-spin8-half-spin-minus@real-spin8-representations",
+      "operation": "aut",
+      "description": "R×·I: precisely the nonzero scalar automorphisms.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The acting Spin(8) is fixed; twisting by an automorphism changes the representation."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-minus-linear-end",
+      "source_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "operation": "end",
+      "description": "M8(R) after choosing bases: all real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    },
+    {
+      "id": "ms-spin8-minus-minus-linear-aut",
+      "source_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "target_view": "rep-spin8-half-spin-minus@real-vector-spaces",
+      "operation": "aut",
+      "description": "GL(8,R) after choosing a basis: all invertible real-linear maps.",
+      "knowl": "catalog/relationships/spin8-intertwiner-spaces",
+      "conditions": [
+        "The group action is forgotten; the matrix presentation depends on bases."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Direct proof in the knowl: different central kernels kill cross intertwiners; the commutant of SO8 is scalar; bases classify ordinary linear maps.",
+        "references": [],
+        "lean": null
+      },
+      "coverage": "complete"
+    }
+  ],
+  "magic_squares": [
+    {
+      "id": "compact-real-freudenthal",
+      "name": "Compact real Freudenthal magic square",
+      "knowl": "catalog/relationships/compact-freudenthal-magic-square",
+      "field": "R",
+      "form": "compact real outputs from positive-definite real division composition algebras",
+      "row_object_ids": [
+        "scalar-r",
+        "scalar-c",
+        "scalar-h",
+        "scalar-o"
+      ],
+      "column_object_ids": [
+        "scalar-r",
+        "scalar-c",
+        "scalar-h",
+        "scalar-o"
+      ],
+      "cells": [
+        {
+          "row_object_id": "scalar-r",
+          "column_object_id": "scalar-r",
+          "output_object_id": "la-so-3-r",
+          "construction_relationship_ids": [
+            "magic-square-compact-r-r"
+          ]
+        },
+        {
+          "row_object_id": "scalar-r",
+          "column_object_id": "scalar-c",
+          "output_object_id": "la-su-3",
+          "construction_relationship_ids": [
+            "magic-square-compact-r-c"
+          ]
+        },
+        {
+          "row_object_id": "scalar-r",
+          "column_object_id": "scalar-h",
+          "output_object_id": "la-sp-3",
+          "construction_relationship_ids": [
+            "magic-square-compact-r-h"
+          ]
+        },
+        {
+          "row_object_id": "scalar-r",
+          "column_object_id": "scalar-o",
+          "output_object_id": "la-f4-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-r-o"
+          ]
+        },
+        {
+          "row_object_id": "scalar-c",
+          "column_object_id": "scalar-r",
+          "output_object_id": "la-su-3",
+          "construction_relationship_ids": [
+            "magic-square-compact-c-r"
+          ]
+        },
+        {
+          "row_object_id": "scalar-c",
+          "column_object_id": "scalar-c",
+          "output_object_id": "la-su-3-direct-sum-su-3",
+          "construction_relationship_ids": [
+            "magic-square-compact-c-c"
+          ]
+        },
+        {
+          "row_object_id": "scalar-c",
+          "column_object_id": "scalar-h",
+          "output_object_id": "la-su-6",
+          "construction_relationship_ids": [
+            "magic-square-compact-c-h"
+          ]
+        },
+        {
+          "row_object_id": "scalar-c",
+          "column_object_id": "scalar-o",
+          "output_object_id": "la-e6-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-c-o"
+          ]
+        },
+        {
+          "row_object_id": "scalar-h",
+          "column_object_id": "scalar-r",
+          "output_object_id": "la-sp-3",
+          "construction_relationship_ids": [
+            "magic-square-compact-h-r"
+          ]
+        },
+        {
+          "row_object_id": "scalar-h",
+          "column_object_id": "scalar-c",
+          "output_object_id": "la-su-6",
+          "construction_relationship_ids": [
+            "magic-square-compact-h-c"
+          ]
+        },
+        {
+          "row_object_id": "scalar-h",
+          "column_object_id": "scalar-h",
+          "output_object_id": "la-so-12-r",
+          "construction_relationship_ids": [
+            "magic-square-compact-h-h"
+          ]
+        },
+        {
+          "row_object_id": "scalar-h",
+          "column_object_id": "scalar-o",
+          "output_object_id": "la-e7-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-h-o"
+          ]
+        },
+        {
+          "row_object_id": "scalar-o",
+          "column_object_id": "scalar-r",
+          "output_object_id": "la-f4-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-o-r"
+          ]
+        },
+        {
+          "row_object_id": "scalar-o",
+          "column_object_id": "scalar-c",
+          "output_object_id": "la-e6-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-o-c"
+          ]
+        },
+        {
+          "row_object_id": "scalar-o",
+          "column_object_id": "scalar-h",
+          "output_object_id": "la-e7-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-o-h"
+          ]
+        },
+        {
+          "row_object_id": "scalar-o",
+          "column_object_id": "scalar-o",
+          "output_object_id": "la-e8-compact",
+          "construction_relationship_ids": [
+            "magic-square-compact-o-o"
+          ]
+        }
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "All sixteen cells checked against both compact tables; triality formula independently checks output dimensions.",
+        "references": [
+          {
+            "url": "https://math.ucr.edu/home/baez/octonions/node16.html",
+            "title": "Baez, The Octonions",
+            "locator": "§4.3, Table 5 and triality decomposition"
+          },
+          {
+            "url": "https://arxiv.org/pdf/math/0203010",
+            "title": "Barton and Sudbery, Magic squares and matrix models of Lie algebras",
+            "locator": "§3, compact real table p. 11; §4.2, Theorem 4.3; §4.3, Theorem 4.4"
+          }
+        ],
+        "lean": null
+      }
+    }
+  ]
+}

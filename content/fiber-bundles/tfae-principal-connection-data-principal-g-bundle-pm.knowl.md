@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\). Write \(V\!P=\ker(d\pi)\subset TP\) for the vertical subbundle, and note that \(d\pi:TP\to \pi^*TM\) relates \(TP\) to the pullback of the [[fiber-bundles/tangent-bundle|tangent bundle]] of \(M\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\). Write \(V\!P=\ker(d\pi)\subset TP\) for the vertical subbundle, and note that \(d\pi:TP\to \pi^*TM\) relates \(TP\) to the pullback of the [[fiber-bundles/tangent-bundle|tangent bundle]] of \(M\).
 
 The following are equivalent:
 

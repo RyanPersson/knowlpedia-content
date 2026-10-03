@@ -25,6 +25,10 @@ t_{ij}:U_{ij}\longrightarrow \mathrm{Diff}(F)
 \]
 is the **transition function** (or transition map) of the two trivializations. It is a [[fiber-bundles/smooth-map|smooth map]] when \(\mathrm{Diff}(F)\) is interpreted as “smoothly varying diffeomorphisms,” i.e. when the induced map \(U_{ij}\times F\to F\), \((x,f)\mapsto t_{ij}(x)(f)\), is smooth.
 
+## Specified structure group
+
+For a [[fiber-bundles/g-bundle|G-bundle]], the transition maps are specified by maps \(g_{ij}:U_i\cap U_j\to G\) acting on \(F\): \(t_{ij}(x)(f)=g_{ij}(x)\cdot f\). This extra structure records which changes of fiber coordinates are allowed.
+
 ## Examples
 1. **Möbius [[fiber-bundles/line-bundle|line bundle]]:** with two trivializations over overlapping arcs, the transition function is the constant map \(t_{12}\equiv(-1)\in \mathrm{GL}(1,\mathbb{R})\subset \mathrm{Diff}(\mathbb{R})\).
 2. **Tangent bundle:** if \((U_i,x)\) and \((U_j,y)\) are overlapping coordinate charts, then \(t_{ij}(p)\) is given by the Jacobian matrix of the coordinate change \(y(x)\) at \(p\).

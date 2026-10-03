@@ -45,7 +45,7 @@ Compact support makes local constructions global. If a section is supported in a
 
 ## Conventions and scope
 
-Some authors call \(\{x:s(x)\neq0_x\}\) the support before taking its closure, but the closed-support convention used here is standard in analysis and differential geometry. The support is a subset of the base \(M\), not the image \(s(M)\subseteq E\). For sections of affine or general fiber bundles, “nonzero” requires a separately chosen reference section and is therefore not intrinsic.
+Some authors call \(\{x:s(x)\neq0_x\}\) the support before taking its closure, but the closed-support convention used here is standard in analysis and differential geometry. The support is a subset of the base \(M\), not the image \(s(M)\subseteq E\). For sections of affine or general [[fiber-bundles/fiber-bundle|fiber bundles]], “nonzero” requires a separately chosen reference section and is therefore not intrinsic.
 
 ## References
 

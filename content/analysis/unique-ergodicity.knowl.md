@@ -6,19 +6,19 @@ summary = "The property that a continuous dynamical system has exactly one invar
 aliases = ["uniquely ergodic system", "uniquely ergodic flow"]
 domains = ["analysis", "dynamical-systems", "ergodic-theory"]
 section_mode = "progressive"
-prerequisites = ["topology/continuous-map", "topology/compact-set", "probability/probability-measure"]
+prerequisites = ["topology/continuous-map", "topology/compact-set", "topology/metric-space", "probability/probability-measure"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A [[topology/continuous-map|continuous map]] \(T:X\to X\) of a compact space is **uniquely ergodic** if it
+A [[topology/continuous-map|continuous map]] \(T:X\to X\) of a compact metric space is **uniquely ergodic** if it
 has exactly one \(T\)-invariant Borel [[probability/probability-measure|probability measure]]. A continuous flow
 \((\varphi_t)_{t\in\mathbb R}\) is uniquely ergodic if there is exactly one
 probability measure invariant under every \(\varphi_t\).
 
 ## Uniform time averages
 
-If \(T\) is uniquely ergodic with invariant measure \(\mu\), then for every
+The [[ergodic-theory/unique-ergodicity-uniform-averages|uniform ergodic theorem]] states that if \(T\) is uniquely ergodic with invariant measure \(\mu\), then for every
 continuous \(f:X\to\mathbb R\),
 \[
 \frac1N\sum_{k=0}^{N-1}f(T^kx)

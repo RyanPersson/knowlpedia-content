@@ -32,4 +32,4 @@ As \(\gamma\) varies over based loops, the elements \(h_\gamma(p)\) form the [[f
 ## Examples
 1. If \(\omega\) is flat and \(M\) is simply connected, then \(h_\gamma(p)=e\) for all loops.
 2. On the Levi-Civita connection of the round 2-sphere, transporting a tangent frame around a latitude circle yields a nontrivial rotation, giving a nontrivial holonomy element.
-3. For an abelian structure group \(G\), the conjugation ambiguity disappears, so \(h_\gamma(p)\) is independent of \(p\in P_x\).
+3. For an abelian [[fiber-bundles/structure-group|structure group]] \(G\), the conjugation ambiguity disappears, so \(h_\gamma(p)\) is independent of \(p\in P_x\).

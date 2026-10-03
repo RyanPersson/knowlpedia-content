@@ -131,3 +131,17 @@ dependency_review_count = 1
 ## Heat flow and integral profiles
 
 - [[measure-theory/reference-subtracted-integral|Reference-subtracted integral]]
+
+## Connections with ergodic theory
+
+- [[measure-theory/standard-borel-space|Standard Borel space]]
+- [[measure-theory/measure-space-isomorphism|Isomorphism of probability spaces modulo null sets]]
+- [[measure-theory/standard-probability-space|Standard probability space]]
+- [[measure-theory/atom-of-measure|Atom of a measure]]
+- [[measure-theory/atomless-probability-space|Atomless probability space]]
+- [[measure-theory/atomless-standard-isomorphism-theorem|Isomorphism theorem for atomless standard probability spaces]]
+- [[measure-theory/l2-hilbert-space|Hilbert space of square-integrable observables]]
+- [[measure-theory/probability-kernel|Probability kernel]]
+- [[measure-theory/disintegration-theorem|Disintegration of a probability measure]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(\omega \in \Omega^1(P;\mathfrak{g})\) be a connection \(1\)-form. The **curvature** is the \(\mathfrak{g}\)-valued \(2\)-form
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], and let \(\omega \in \Omega^1(P;\mathfrak{g})\) be a connection \(1\)-form. The **curvature** is the \(\mathfrak{g}\)-valued \(2\)-form
 \[
 \Omega \;=\; d\omega \;+\; \frac{1}{2}[\omega \wedge \omega],
 \]

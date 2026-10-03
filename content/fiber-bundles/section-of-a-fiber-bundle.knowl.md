@@ -33,7 +33,7 @@ For the product bundle \(M\times F\to M\), every smooth map \(f:M\to F\) gives t
 
 For a [[fiber-bundles/vector-bundle|vector bundle]], the zero vector in each fiber defines a canonical global section. Sections of the [[fiber-bundles/tangent-bundle|tangent bundle]] are [[fiber-bundles/vector-field|vector fields]].
 
-A principal bundle admits a global section exactly when it is trivial, as expressed by the [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global-section triviality theorem]] and its converse. The Hopf principal circle bundle is a standard bundle with no global section.
+A [[fiber-bundles/principal-g-bundle|principal bundle]] admits a global section exactly when it is trivial, as expressed by the [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global-section triviality theorem]] and its converse. The Hopf principal circle bundle is a standard bundle with no global section.
 
 ## Conventions and scope
 

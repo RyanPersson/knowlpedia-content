@@ -1,0 +1,125 @@
+{
+  "scope": "Finite examples only; parameterized formulas also carry direct algebraic reasoning or cited theorems.",
+  "checks": [
+    {
+      "construction": "dihedral",
+      "parameter": 1,
+      "order": 2,
+      "center_order": 2,
+      "group_laws": "exhaustive"
+    },
+    {
+      "construction": "dihedral",
+      "parameter": 2,
+      "order": 4,
+      "center_order": 4,
+      "group_laws": "exhaustive"
+    },
+    {
+      "construction": "dihedral",
+      "parameter": 3,
+      "order": 6,
+      "center_order": 1,
+      "group_laws": "exhaustive"
+    },
+    {
+      "construction": "generalized quaternion",
+      "parameter": 3,
+      "order": 8,
+      "center_order": 2,
+      "group_laws": "exhaustive"
+    },
+    {
+      "construction": "generalized quaternion",
+      "parameter": 4,
+      "order": 16,
+      "center_order": 2,
+      "group_laws": "exhaustive"
+    },
+    {
+      "construction": "generalized quaternion",
+      "parameter": 5,
+      "order": 32,
+      "center_order": 2,
+      "group_laws": "exhaustive"
+    },
+    {
+      "construction": "GL2/SL2",
+      "q": 2,
+      "GL_order": 6,
+      "SL_order": 6,
+      "method": "enumerate all 2 by 2 matrices and determinants"
+    },
+    {
+      "construction": "GL2(2) action",
+      "faithful_permutations": 6
+    },
+    {
+      "construction": "GL2/SL2",
+      "q": 3,
+      "GL_order": 48,
+      "SL_order": 24,
+      "method": "enumerate all 2 by 2 matrices and determinants"
+    },
+    {
+      "construction": "finite Heisenberg",
+      "q": 2,
+      "rank": 1,
+      "order": 8,
+      "center_order": 2,
+      "associativity": "exhaustive",
+      "inverses": "exhaustive",
+      "commutator_formula": "1000 deterministic random pairs"
+    },
+    {
+      "construction": "finite Heisenberg",
+      "q": 3,
+      "rank": 1,
+      "order": 27,
+      "center_order": 3,
+      "associativity": "exhaustive",
+      "inverses": "exhaustive",
+      "commutator_formula": "1000 deterministic random pairs"
+    },
+    {
+      "construction": "finite Heisenberg",
+      "q": 2,
+      "rank": 2,
+      "order": 32,
+      "center_order": 2,
+      "associativity": "exhaustive",
+      "inverses": "exhaustive",
+      "commutator_formula": "1000 deterministic random pairs"
+    },
+    {
+      "construction": "finite Heisenberg",
+      "q": 3,
+      "rank": 2,
+      "order": 243,
+      "center_order": 3,
+      "associativity": "2000 deterministic random triples",
+      "inverses": "exhaustive",
+      "commutator_formula": "1000 deterministic random pairs"
+    },
+    {
+      "construction": "finite Heisenberg",
+      "q": 2,
+      "rank": 3,
+      "order": 128,
+      "center_order": 2,
+      "associativity": "2000 deterministic random triples",
+      "inverses": "exhaustive",
+      "commutator_formula": "1000 deterministic random pairs"
+    },
+    {
+      "construction": "finite Heisenberg",
+      "q": 3,
+      "rank": 3,
+      "order": 2187,
+      "center_order": 3,
+      "associativity": "2000 deterministic random triples",
+      "inverses": "exhaustive",
+      "commutator_formula": "1000 deterministic random pairs"
+    }
+  ]
+}

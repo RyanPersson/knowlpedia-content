@@ -41,7 +41,7 @@ A Hermitian complex bundle of complex rank \(n\), viewed with its underlying rea
 
 Some authors use “sphere bundle” for any fiber bundle whose fiber is a sphere, whether or not it arises from a vector bundle. Others use it for the fiberwise one-point compactification of \(E\), whose fiber is \(S^r\), rather than for \(S(E)\), whose fiber is \(S^{r-1}\).
 
-**Warning.** The metric unit sphere bundle, the principal bundle of orthonormal frames, and the projectivization of \(E\) are related but distinct bundles.
+**Warning.** The metric unit sphere bundle, the [[fiber-bundles/principal-g-bundle|principal bundle]] of orthonormal frames, and the projectivization of \(E\) are related but distinct bundles.
 
 ## References
 

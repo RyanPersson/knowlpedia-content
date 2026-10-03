@@ -29,6 +29,10 @@ is well-defined, and \(P\times_G F\) is a [[fiber-bundles/smooth-fiber-bundle|sm
 
 Concretely, \(P\times_G F\) is a [[fiber-bundles/bundle-of-orbits|bundle of orbits]]: it is obtained from the product \(P\times F\) by dividing out the diagonal \(G\)-action determined by the right action on \(P\) and the left action on \(F\). When \(F\) is a [[linear-algebra/vector-space|vector space]] with a linear action, this specializes to an [[fiber-bundles/associated-vector-bundle|associated vector bundle]].
 
+## Structure group
+
+If local sections of \(P\) satisfy \(s_j=s_i g_{ij}\), the induced fiber coordinates on \(P\times_G F\) change by \((x,f)\mapsto(x,g_{ij}(x)\cdot f)\). These maps give the associated bundle its [[fiber-bundles/g-bundle|G-bundle]] structure, with model fiber \(F\).
+
 ## Examples
 1. **Tangent bundle from frames.** If \(P=\mathrm{Fr}(M)\) and \(F=\mathbb{R}^n\) with the standard left action of \(GL(n)\), then \(P\times_G F\) is canonically isomorphic to the [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\).
 2. **[[fiber-bundles/line-bundle|Line bundles]] from \(U(1)\)-bundles.** If \(G=U(1)\) and \(F=\mathbb{C}\) with the usual multiplication action, then \(P\times_{U(1)}\mathbb{C}\) is a complex line bundle whose unit circle bundle recovers \(P\).

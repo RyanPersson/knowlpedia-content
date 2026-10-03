@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) on \(P\). Let \(H\subseteq G\) be a closed Lie subgroup.
+Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] a [[fiber-bundles/lie-group|Lie group]] \(G\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) on \(P\). Let \(H\subseteq G\) be a closed Lie subgroup.
 
 Suppose there exists a point \(p\in P\) such that the [[fiber-bundles/holonomy-group|holonomy group]] satisfies
 \[

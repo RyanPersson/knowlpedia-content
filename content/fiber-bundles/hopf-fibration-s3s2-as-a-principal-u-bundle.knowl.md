@@ -20,7 +20,7 @@ The **Hopf fibration** is the quotient map
 \[
 \pi:S^3\longrightarrow S^3/U(1)\cong \mathbb{CP}^1 \cong S^2.
 \]
-With this action, \(\pi\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(U(1)\) (a [[fiber-bundles/lie-group|Lie group]]), i.e. a principal circle bundle over \(S^2\).
+With this action, \(\pi\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(U(1)\) (a [[fiber-bundles/lie-group|Lie group]]), i.e. a principal circle bundle over \(S^2\).
 
 Concretely, one can take \(\pi(z_1,z_2)=[z_1:z_2]\in\mathbb{CP}^1\), and the fiber over a point is exactly the \(U(1)\)-orbit of any representative.
 

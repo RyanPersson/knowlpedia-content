@@ -1,0 +1,1128 @@
+{
+  "lane": "lie-groups",
+  "schema_version": 1,
+  "branch": "catalog",
+  "scope": "Separately typed real/complex Lie groups, scalar and low-dimensional cases, global-form-safe exceptional groups, and selected relationships.",
+  "inventory_searches": [
+    "Titles and IDs across content/ for matrix, compact exceptional, Heisenberg, spin, scalar multiplicative, and transformation groups.",
+    "Read exact existing SL2C, PSL2C, SU2, U1, SO3, compact exceptional, and family owners before choosing reuse."
+  ],
+  "reservations": [
+    {
+      "object_id": "lg-gl-1-r",
+      "knowl_id": "catalog/lie-groups/gl-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-1-r",
+      "knowl_id": "catalog/lie-groups/sl-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-1-r",
+      "knowl_id": "catalog/lie-groups/o-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-1-r",
+      "knowl_id": "catalog/lie-groups/so-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-pgl-1-r",
+      "knowl_id": "catalog/lie-groups/pgl-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-1-r",
+      "knowl_id": "catalog/lie-groups/psl-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-1-r",
+      "knowl_id": "catalog/lie-groups/spin-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-2-r",
+      "knowl_id": "catalog/lie-groups/gl-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-2-r",
+      "knowl_id": "catalog/lie-groups/sl-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-2-r",
+      "knowl_id": "catalog/lie-groups/o-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-2-r",
+      "knowl_id": "catalog/lie-groups/so-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-pgl-2-r",
+      "knowl_id": "catalog/lie-groups/pgl-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-2-r",
+      "knowl_id": "catalog/lie-groups/psl-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-2-r",
+      "knowl_id": "catalog/lie-groups/spin-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-3-r",
+      "knowl_id": "catalog/lie-groups/gl-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-3-r",
+      "knowl_id": "catalog/lie-groups/sl-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-3-r",
+      "knowl_id": "catalog/lie-groups/o-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-3-r",
+      "knowl_id": "lie-groups/example-so3",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-pgl-3-r",
+      "knowl_id": "catalog/lie-groups/pgl-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-3-r",
+      "knowl_id": "catalog/lie-groups/psl-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-3-r",
+      "knowl_id": "catalog/lie-groups/spin-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-n-r",
+      "knowl_id": "catalog/lie-groups/gl-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-n-r",
+      "knowl_id": "catalog/lie-groups/sl-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-n-r",
+      "knowl_id": "catalog/lie-groups/o-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-n-r",
+      "knowl_id": "lie-groups/special-orthogonal-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-pgl-n-r",
+      "knowl_id": "catalog/lie-groups/pgl-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-n-r",
+      "knowl_id": "catalog/lie-groups/psl-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-n-r",
+      "knowl_id": "catalog/lie-groups/spin-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-1-c",
+      "knowl_id": "catalog/lie-groups/gl-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-1-c",
+      "knowl_id": "catalog/lie-groups/sl-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-1-c",
+      "knowl_id": "catalog/lie-groups/o-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-1-c",
+      "knowl_id": "catalog/lie-groups/so-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-pgl-1-c",
+      "knowl_id": "catalog/lie-groups/pgl-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-1-c",
+      "knowl_id": "catalog/lie-groups/psl-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-1-c",
+      "knowl_id": "catalog/lie-groups/spin-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-2-c",
+      "knowl_id": "catalog/lie-groups/gl-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-2-c",
+      "knowl_id": "lie-groups/sl2-complex-as-real-and-complex-lie-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-o-2-c",
+      "knowl_id": "catalog/lie-groups/o-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-2-c",
+      "knowl_id": "catalog/lie-groups/so-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-pgl-2-c",
+      "knowl_id": "catalog/lie-groups/pgl-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-2-c",
+      "knowl_id": "lie-groups/psl2-complex",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-spin-2-c",
+      "knowl_id": "catalog/lie-groups/spin-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-3-c",
+      "knowl_id": "catalog/lie-groups/gl-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-3-c",
+      "knowl_id": "catalog/lie-groups/sl-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-3-c",
+      "knowl_id": "catalog/lie-groups/o-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-3-c",
+      "knowl_id": "catalog/lie-groups/so-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-pgl-3-c",
+      "knowl_id": "catalog/lie-groups/pgl-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-3-c",
+      "knowl_id": "catalog/lie-groups/psl-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-3-c",
+      "knowl_id": "catalog/lie-groups/spin-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-n-c",
+      "knowl_id": "catalog/lie-groups/gl-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-n-c",
+      "knowl_id": "catalog/lie-groups/sl-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-n-c",
+      "knowl_id": "catalog/lie-groups/o-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-n-c",
+      "knowl_id": "catalog/lie-groups/so-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-pgl-n-c",
+      "knowl_id": "catalog/lie-groups/pgl-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-psl-n-c",
+      "knowl_id": "catalog/lie-groups/psl-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-n-c",
+      "knowl_id": "catalog/lie-groups/spin-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-1",
+      "knowl_id": "lie-groups/example-u1-circle",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-su-1",
+      "knowl_id": "catalog/lie-groups/su-1",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-1",
+      "knowl_id": "catalog/lie-groups/sp-1",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-2",
+      "knowl_id": "catalog/lie-groups/u-2",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su-2",
+      "knowl_id": "lie-groups/example-su2",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-sp-2",
+      "knowl_id": "catalog/lie-groups/sp-2",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-3",
+      "knowl_id": "catalog/lie-groups/u-3",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su-3",
+      "knowl_id": "catalog/lie-groups/su-3",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-3",
+      "knowl_id": "catalog/lie-groups/sp-3",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-n",
+      "knowl_id": "lie-groups/unitary-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-su-n",
+      "knowl_id": "lie-groups/special-unitary-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-sp-n",
+      "knowl_id": "lie-groups/compact-symplectic-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-su-4",
+      "knowl_id": "catalog/lie-groups/su-4",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-1-h",
+      "knowl_id": "catalog/lie-groups/gl-1-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-1-h",
+      "knowl_id": "catalog/lie-groups/sl-1-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-2-h",
+      "knowl_id": "catalog/lie-groups/gl-2-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-2-h",
+      "knowl_id": "catalog/lie-groups/sl-2-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-3-h",
+      "knowl_id": "catalog/lie-groups/gl-3-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-3-h",
+      "knowl_id": "catalog/lie-groups/sl-3-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-gl-n-h",
+      "knowl_id": "catalog/lie-groups/gl-n-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-n-h",
+      "knowl_id": "catalog/lie-groups/sl-n-h",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-2-r",
+      "knowl_id": "catalog/lie-groups/sp-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-4-r",
+      "knowl_id": "catalog/lie-groups/sp-4-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-6-r",
+      "knowl_id": "catalog/lie-groups/sp-6-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-2n-r",
+      "knowl_id": "catalog/lie-groups/sp-2n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-2-c",
+      "knowl_id": "catalog/lie-groups/sp-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-4-c",
+      "knowl_id": "catalog/lie-groups/sp-4-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-6-c",
+      "knowl_id": "catalog/lie-groups/sp-6-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-2n-c",
+      "knowl_id": "catalog/lie-groups/sp-2n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-1-r",
+      "knowl_id": "catalog/lie-groups/additive-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-1-r",
+      "knowl_id": "catalog/lie-groups/heisenberg-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-1-r",
+      "knowl_id": "catalog/lie-groups/affine-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-2-r",
+      "knowl_id": "catalog/lie-groups/additive-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-2-r",
+      "knowl_id": "catalog/lie-groups/heisenberg-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-2-r",
+      "knowl_id": "catalog/lie-groups/affine-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-3-r",
+      "knowl_id": "catalog/lie-groups/additive-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-3-r",
+      "knowl_id": "catalog/lie-groups/heisenberg-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-3-r",
+      "knowl_id": "catalog/lie-groups/affine-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-n-r",
+      "knowl_id": "catalog/lie-groups/additive-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-n-r",
+      "knowl_id": "lie-groups/heisenberg-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-affine-n-r",
+      "knowl_id": "catalog/lie-groups/affine-n-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-multiplicative-r",
+      "knowl_id": "catalog/lie-groups/gl-1-r",
+      "decision": "new",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-additive-1-c",
+      "knowl_id": "catalog/lie-groups/additive-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-1-c",
+      "knowl_id": "catalog/lie-groups/heisenberg-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-1-c",
+      "knowl_id": "catalog/lie-groups/affine-1-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-2-c",
+      "knowl_id": "catalog/lie-groups/additive-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-2-c",
+      "knowl_id": "catalog/lie-groups/heisenberg-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-2-c",
+      "knowl_id": "catalog/lie-groups/affine-2-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-3-c",
+      "knowl_id": "catalog/lie-groups/additive-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-3-c",
+      "knowl_id": "catalog/lie-groups/heisenberg-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-3-c",
+      "knowl_id": "catalog/lie-groups/affine-3-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-additive-n-c",
+      "knowl_id": "catalog/lie-groups/additive-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-heisenberg-n-c",
+      "knowl_id": "catalog/lie-groups/heisenberg-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-affine-n-c",
+      "knowl_id": "catalog/lie-groups/affine-n-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-multiplicative-c",
+      "knowl_id": "catalog/lie-groups/gl-1-c",
+      "decision": "new",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-e-1",
+      "knowl_id": "catalog/lie-groups/e-1",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-se-1",
+      "knowl_id": "catalog/lie-groups/se-1",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-torus-1",
+      "knowl_id": "catalog/lie-groups/torus-1",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e-2",
+      "knowl_id": "catalog/lie-groups/e-2",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-se-2",
+      "knowl_id": "catalog/lie-groups/se-2",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-torus-2",
+      "knowl_id": "catalog/lie-groups/torus-2",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e-3",
+      "knowl_id": "catalog/lie-groups/e-3",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-se-3",
+      "knowl_id": "catalog/lie-groups/se-3",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-torus-3",
+      "knowl_id": "catalog/lie-groups/torus-3",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e-n",
+      "knowl_id": "catalog/lie-groups/e-n",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-se-n",
+      "knowl_id": "catalog/lie-groups/se-n",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-torus-n",
+      "knowl_id": "catalog/lie-groups/torus-n",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-positive-r",
+      "knowl_id": "catalog/lie-groups/positive-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-1-1-r",
+      "knowl_id": "catalog/lie-groups/o-1-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-1-1-r",
+      "knowl_id": "catalog/lie-groups/so-1-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-1-1-r",
+      "knowl_id": "catalog/lie-groups/u-1-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su-1-1-r",
+      "knowl_id": "catalog/lie-groups/su-1-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-1-1-r",
+      "knowl_id": "catalog/lie-groups/sp-1-1-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-1-2-r",
+      "knowl_id": "catalog/lie-groups/o-1-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-1-2-r",
+      "knowl_id": "catalog/lie-groups/so-1-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-1-2-r",
+      "knowl_id": "catalog/lie-groups/u-1-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su-1-2-r",
+      "knowl_id": "catalog/lie-groups/su-1-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-1-2-r",
+      "knowl_id": "catalog/lie-groups/sp-1-2-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-1-3-r",
+      "knowl_id": "catalog/lie-groups/o-1-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-1-3-r",
+      "knowl_id": "catalog/lie-groups/so-1-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-1-3-r",
+      "knowl_id": "catalog/lie-groups/u-1-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su-1-3-r",
+      "knowl_id": "catalog/lie-groups/su-1-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-1-3-r",
+      "knowl_id": "catalog/lie-groups/sp-1-3-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-o-p-q-r",
+      "knowl_id": "catalog/lie-groups/o-p-q-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-p-q-r",
+      "knowl_id": "catalog/lie-groups/so-p-q-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-u-p-q-r",
+      "knowl_id": "catalog/lie-groups/u-p-q-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su-p-q-r",
+      "knowl_id": "catalog/lie-groups/su-p-q-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sp-p-q-r",
+      "knowl_id": "catalog/lie-groups/sp-p-q-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-plus-1-3-r",
+      "knowl_id": "lie-groups/proper-orthochronous-lorentz-group",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-so-4-r",
+      "knowl_id": "catalog/lie-groups/so-4-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-4-r",
+      "knowl_id": "catalog/lie-groups/spin-4-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-5-r",
+      "knowl_id": "catalog/lie-groups/so-5-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-5-r",
+      "knowl_id": "catalog/lie-groups/spin-5-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-6-r",
+      "knowl_id": "catalog/lie-groups/so-6-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-6-r",
+      "knowl_id": "catalog/lie-groups/spin-6-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-8-r",
+      "knowl_id": "catalog/lie-groups/so-8-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-8-r",
+      "knowl_id": "catalog/lie-groups/spin-8-r",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-4-c",
+      "knowl_id": "catalog/lie-groups/so-4-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-4-c",
+      "knowl_id": "catalog/lie-groups/spin-4-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-5-c",
+      "knowl_id": "catalog/lie-groups/so-5-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-5-c",
+      "knowl_id": "catalog/lie-groups/spin-5-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-6-c",
+      "knowl_id": "catalog/lie-groups/so-6-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-6-c",
+      "knowl_id": "catalog/lie-groups/spin-6-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-so-8-c",
+      "knowl_id": "catalog/lie-groups/so-8-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-spin-8-c",
+      "knowl_id": "catalog/lie-groups/spin-8-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl-4-c",
+      "knowl_id": "catalog/lie-groups/sl-4-c",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-su2-product",
+      "knowl_id": "catalog/lie-groups/su2-product",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-sl2c-product",
+      "knowl_id": "catalog/lie-groups/sl2c-product",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-g2-compact",
+      "knowl_id": "lie-groups/compact-exceptional-lie-group-g2",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-g2-split",
+      "knowl_id": "catalog/lie-groups/g2-split",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-g2-complex",
+      "knowl_id": "catalog/lie-groups/g2-complex",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-f4-compact",
+      "knowl_id": "lie-groups/compact-exceptional-lie-group-f4",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-f4-split",
+      "knowl_id": "catalog/lie-groups/f4-split",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-f4-complex",
+      "knowl_id": "catalog/lie-groups/f4-complex",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e6-compact",
+      "knowl_id": "lie-groups/compact-exceptional-lie-group-e6",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-e6-split",
+      "knowl_id": "catalog/lie-groups/e6-split",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e6-complex",
+      "knowl_id": "catalog/lie-groups/e6-complex",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e7-compact",
+      "knowl_id": "lie-groups/compact-exceptional-lie-group-e7",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-e7-split",
+      "knowl_id": "catalog/lie-groups/e7-split",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e7-complex",
+      "knowl_id": "catalog/lie-groups/e7-complex",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e8-compact",
+      "knowl_id": "lie-groups/compact-exceptional-lie-group-e8",
+      "decision": "reuse",
+      "reason": "Exact existing owner or shared exact one-dimensional matrix presentation."
+    },
+    {
+      "object_id": "lg-e8-split",
+      "knowl_id": "catalog/lie-groups/e8-split",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    },
+    {
+      "object_id": "lg-e8-complex",
+      "knowl_id": "catalog/lie-groups/e8-complex",
+      "decision": "new",
+      "reason": "Scalar field, matrix size, signature or global form is a separate catalogue object."
+    }
+  ],
+  "inspected_sources": [
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§6.1 pp.38–39"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§6.2–6.3 pp.40–43"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§31.2–31.3 pp.166–168"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§40.1 p.213"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§42.2 pp.225–229"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§43.1 pp.230–231"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+      "locator": "§49.1 Example 49.2 p.266"
+    }
+  ],
+  "deferred": [
+    "All intermediate and non-split exceptional real forms are not listed in this lane.",
+    "Exhaustive Hom/End/Aut classifications and verified Lean proofs remain future work.",
+    "No false group structure is assigned to nonzero octonions or sedenions."
+  ]
+}

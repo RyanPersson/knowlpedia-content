@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi\colon P\to M\) be a principal \(G\)-bundle with [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\). Fix \(p\in P\). The Ambrose–Singer theorem states that the [[fiber-bundles/holonomy-algebra|holonomy algebra]] \(\mathfrak{hol}_p(\omega)\subseteq\mathfrak g\) is the Lie subalgebra spanned by
+Let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\). Fix \(p\in P\). The Ambrose–Singer theorem states that the [[fiber-bundles/holonomy-algebra|holonomy algebra]] \(\mathfrak{hol}_p(\omega)\subseteq\mathfrak g\) is the Lie subalgebra spanned by
 \[
 \Omega_q(X,Y),
 \]

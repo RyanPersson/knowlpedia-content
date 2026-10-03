@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 Let \(\Phi:\pi^{-1}(U)\to U\times F\) be a
-[[fiber-bundles/local-trivialization|local trivialization]] of a fiber bundle.
+[[fiber-bundles/local-trivialization|local trivialization]] of a [[fiber-bundles/smooth-fiber-bundle|fiber bundle]].
 Writing
 
 \[
@@ -32,7 +32,7 @@ point of the total space.
 
 ## Principal bundles
 
-For a principal \(G\)-bundle, a local section chooses an origin in each
+For a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], a local section chooses an origin in each
 [[fiber-bundles/g-torsor|fiber torsor]] and supplies a coordinate \(h\in G\).
 Changing the local section changes \(h\) by multiplication with the
 principal-bundle transition function.

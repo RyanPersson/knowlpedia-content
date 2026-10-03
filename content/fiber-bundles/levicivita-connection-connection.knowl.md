@@ -25,7 +25,7 @@ on the [[fiber-bundles/tangent-bundle|tangent bundle]] satisfying:
 
 This unique connection is the **Levi–Civita connection** of \(g\).
 
-Equivalently, there exists a unique [[fiber-bundles/principal-connection|principal connection]] on the principal bundle \(O(M)\to M\) whose associated connection on \(TM\) (via the defining representation of \(O(n)\)) is \(\nabla\), and whose torsion 2-form (defined using the [[fiber-bundles/solder-form-on-the-frame-bundle|solder form]]) vanishes; this torsion is precisely the object defined in [[fiber-bundles/torsion-2-form|torsion 2-form]].
+Equivalently, there exists a unique [[fiber-bundles/principal-connection|principal connection]] on the [[fiber-bundles/principal-g-bundle|principal bundle]] \(O(M)\to M\) whose associated connection on \(TM\) (via the defining representation of \(O(n)\)) is \(\nabla\), and whose torsion 2-form (defined using the [[fiber-bundles/solder-form-on-the-frame-bundle|solder form]]) vanishes; this torsion is precisely the object defined in [[fiber-bundles/torsion-2-form|torsion 2-form]].
 
 ## Examples
 1. **Euclidean space.** On \((\mathbb{R}^n,\text{standard }g)\), \(\nabla\) is ordinary differentiation in standard coordinates; the pullback of the connection 1-form along the standard global orthonormal frame is zero.

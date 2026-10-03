@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented Riemannian four-manifold, and choose an invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. A **Yang–Mills instanton** is a [[fiber-bundles/principal-connection|connection]] \(A\) whose [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] has finite action
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over an oriented Riemannian four-manifold, and choose an invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. A **Yang–Mills instanton** is a [[fiber-bundles/principal-connection|connection]] \(A\) whose [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] has finite action
 \[
 \int_M |F_A|^2\,d\operatorname{vol}<\infty
 \]

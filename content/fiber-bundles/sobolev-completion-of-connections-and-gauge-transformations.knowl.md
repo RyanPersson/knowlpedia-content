@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(M\) be a closed \(d\)-dimensional
 [[differential-geometry/riemannian-manifold|Riemannian manifold]], \(P\to M\)
-a principal bundle with compact structure group, and \(A_0\) a smooth
+a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]], and \(A_0\) a smooth
 connection. Choose \(1<p<\infty\) and an integer \(k\geq1\) with \(kp>d\).
 The **Sobolev-completed connection space and gauge group** are
 \[

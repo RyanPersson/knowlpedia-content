@@ -29,9 +29,11 @@ If a [[functional-analysis/densely-defined-operator|densely defined operator]] o
 
 The canonical example is
 \[
-\mathcal S(\mathbb R^n)\hookrightarrow L^2(\mathbb R^n)\hookrightarrow\mathcal S'(\mathbb R^n),
+\mathcal S(\mathbb R^n)\hookrightarrow L^2(\mathbb R^n)\hookrightarrow\mathcal S(\mathbb R^n)^\times,
 \]
-with [[functional-analysis/schwartz-space|Schwartz functions]] as test vectors and [[functional-analysis/tempered-distribution|tempered distributions]] as generalized vectors. Some authors use **rigged Hilbert space** for any continuous dense embedding \(\Phi\hookrightarrow H\), without requiring \(\Phi\) to be nuclear, and reserve **nuclear Gelfand triple** for the definition above. The nuclear convention is used here.
+with [[functional-analysis/schwartz-space|Schwartz functions]] as test vectors and the [[functional-analysis/continuous-antidual|anti-linear version]] of [[functional-analysis/tempered-distribution|tempered distributions]] as generalized vectors. Complex conjugation of functional values identifies this with the conventional linear distribution space \(\mathcal S'(\mathbb R^n)\) conjugate-linearly.
+
+Some authors use **rigged Hilbert space** for any continuous dense embedding \(\Phi\hookrightarrow H\), without requiring \(\Phi\) to be nuclear, and reserve **nuclear Gelfand triple** for the definition above. The nuclear convention is used here. For the smooth vectors of a finite-dimensional Lie-group representation, this extra condition is equivalent to the representation being [[lie-groups/nuclear-smooth-vectors-trace-class|trace class]].
 
 ## References
 

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "id": "catalog/lie-algebras/sl-1-h",
+      "rule": "multiple_concept_ownership",
+      "assessment": "False positive: the phrase real part emphasizes the necessary trace convention in the existing definition; it does not define or own an additional concept.",
+      "action": "retain mathematically necessary explanation"
+    },
+    {
+      "id": "catalog/lie-algebras/sl-2-h",
+      "rule": "multiple_concept_ownership",
+      "assessment": "False positive: the phrase real part emphasizes the necessary trace convention in the existing definition; it does not define or own an additional concept.",
+      "action": "retain mathematically necessary explanation"
+    },
+    {
+      "id": "catalog/lie-algebras/sl-3-h",
+      "rule": "multiple_concept_ownership",
+      "assessment": "False positive: the phrase real part emphasizes the necessary trace convention in the existing definition; it does not define or own an additional concept.",
+      "action": "retain mathematically necessary explanation"
+    },
+    {
+      "id": "catalog/lie-algebras/sl-n-h",
+      "rule": "multiple_concept_ownership",
+      "assessment": "False positive: the phrase real part emphasizes the necessary trace convention in the existing definition; it does not define or own an additional concept.",
+      "action": "retain mathematically necessary explanation"
+    }
+  ]
+}

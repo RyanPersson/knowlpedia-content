@@ -1,0 +1,181 @@
+{
+  "sample_seed": 20261002,
+  "report": [
+    {
+      "id": "catalog/algebras/zero-1-c",
+      "title": "Zero-product Jordan algebra C^1",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-1-c.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-1-r",
+      "title": "Zero-product Jordan algebra R^1",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-1-r.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-2-c",
+      "title": "Zero-product Jordan algebra C^2",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-2-c.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-2-r",
+      "title": "Zero-product Jordan algebra R^2",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-2-r.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-3-c",
+      "title": "Zero-product Jordan algebra C^3",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-3-c.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-3-r",
+      "title": "Zero-product Jordan algebra R^3",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-3-r.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-n-c",
+      "title": "Zero-product Jordan algebra C^n",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-n-c.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    },
+    {
+      "id": "catalog/algebras/zero-n-r",
+      "title": "Zero-product Jordan algebra R^n",
+      "kind": "definition",
+      "path": "content/catalog/algebras/zero-n-r.knowl.md",
+      "inferred": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "existing": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "final": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "added": [],
+      "dependency_review_count": 0,
+      "heuristic": "definition-links-v1",
+      "status": "authored_preserved"
+    }
+  ]
+}

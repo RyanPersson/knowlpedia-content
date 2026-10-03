@@ -3,7 +3,7 @@ id = "lie-groups/smooth-vector-unitary-representation"
 title = "Smooth vector of a Lie-group representation"
 kind = "definition"
 summary = "A Hilbert-space vector whose orbit map under a Lie-group representation is infinitely differentiable in norm."
-aliases = ["C-infinity vector", "differentiable vector"]
+aliases = ["C-infinity vector"]
 domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
 prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/orbit-map", "fiber-bundles/smooth-manifold", "linear-algebra/hilbert-space", "convex-analysis/linear-subspace"]
@@ -16,6 +16,12 @@ Let \(G\) be a finite-dimensional [[fiber-bundles/lie-group|Lie group]] and let 
 G\longrightarrow\mathcal H,\qquad g\longmapsto\pi(g)\xi,
 \]
 is \(C^\infty\) as a map from the [[fiber-bundles/smooth-manifold|smooth manifold]] \(G\) to the [[linear-algebra/hilbert-space|Hilbert space]] \(\mathcal H\), with differentiability taken in the norm topology. The space of all smooth vectors is denoted \(\mathcal H^\infty\). It is a \(\pi(G)\)-invariant [[convex-analysis/linear-subspace|linear subspace]] and is dense in \(\mathcal H\).
+
+## Finite differentiability and topology
+
+A [[lie-groups/ck-vector-unitary-representation|differentiable vector]] only requires a \(C^1\) orbit map; a smooth vector requires all orders. The [[lie-groups/smooth-vector-frechet-topology|smooth-vector Fréchet topology]] records convergence of every representation derivative and is generally stronger than the inherited Hilbert norm. Equivalently, smooth vectors form the [[lie-groups/smooth-vectors-iterated-generator-domains|intersection of all ordered generator domains]].
+
+Some authors call a representation smooth when its smooth vectors are dense. In the finite-dimensional Lie-group setting, Gårding's theorem guarantees that property; it does not say that every Hilbert vector is smooth. For the Schrödinger representation the smooth vectors are [[lie-groups/schrodinger-smooth-vectors|exactly Schwartz functions]].
 
 ## Differentiation
 

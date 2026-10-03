@@ -14,7 +14,7 @@ dependency_review_count = 1
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\), and let \(H\subset G\) be a closed subgroup with Lie algebra \(\mathfrak{h}\).
 
 ## Definition (Cartan connection)
-Let \(\pi\colon P\to M\) be a principal \(H\)-bundle over a smooth manifold \(M\). A **Cartan connection** on \(P\) (modeled on \((G,H)\)) is a \(\mathfrak{g}\)-valued 1-form
+Let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(H\)-bundle]] over a smooth manifold \(M\). A **Cartan connection** on \(P\) (modeled on \((G,H)\)) is a \(\mathfrak{g}\)-valued 1-form
 \[
 \omega \in \Omega^1(P;\mathfrak{g})
 \]

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(H\subset G\) be a Lie subgroup.
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(H\subset G\) be a Lie subgroup.
 
 A **principal H-subbundle** of \(P\) is a submanifold \(Q\subset P\) such that:
 1. \(\pi(Q)=M\) and \(\pi|_Q:Q\to M\) is a surjective submersion,
