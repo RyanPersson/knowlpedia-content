@@ -24,7 +24,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 1; real entries, real Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 0
+        }
       },
       "status": "defined",
       "references": [
@@ -60,7 +68,15 @@
       "properties": {
         "connected": true,
         "compact": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; real entries, real Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 1
+        }
       },
       "status": "defined",
       "references": [
@@ -94,7 +110,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; real entries, real Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 2
+        }
       },
       "status": "defined",
       "references": [
@@ -128,7 +152,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 3
+        }
       },
       "status": "defined",
       "references": [
@@ -162,7 +194,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; real entries, real Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 4
+        }
       },
       "status": "defined",
       "references": [
@@ -196,7 +236,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; real entries, real Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 5
+        }
       },
       "status": "defined",
       "references": [
@@ -230,7 +278,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 1 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 6
+        }
       },
       "status": "defined",
       "references": [
@@ -264,7 +320,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 2; real entries, real Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 7
+        }
       },
       "status": "defined",
       "references": [
@@ -299,7 +363,15 @@
       "properties": {
         "connected": true,
         "compact": false,
-        "abelian": false
+        "abelian": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 2; real entries, real Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 8
+        }
       },
       "status": "defined",
       "references": [
@@ -333,7 +405,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 2; real entries, real Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 9
+        }
       },
       "status": "defined",
       "references": [
@@ -367,7 +447,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 2; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 10
+        }
       },
       "status": "defined",
       "references": [
@@ -401,7 +489,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 2; real entries, real Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 11
+        }
       },
       "status": "defined",
       "references": [
@@ -435,7 +531,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 2; real entries, real Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 12
+        }
       },
       "status": "defined",
       "references": [
@@ -469,7 +573,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 2 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 13
+        }
       },
       "status": "defined",
       "references": [
@@ -503,7 +615,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 3; real entries, real Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 14
+        }
       },
       "status": "defined",
       "references": [
@@ -538,7 +658,15 @@
       "properties": {
         "connected": true,
         "compact": false,
-        "abelian": false
+        "abelian": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 3; real entries, real Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 15
+        }
       },
       "status": "defined",
       "references": [
@@ -572,7 +700,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 3; real entries, real Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 16
+        }
       },
       "status": "defined",
       "references": [
@@ -606,7 +742,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 3; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 17
+        }
       },
       "status": "defined",
       "references": [
@@ -640,7 +784,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 3; real entries, real Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 18
+        }
       },
       "status": "defined",
       "references": [
@@ -674,7 +826,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 3; real entries, real Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 19
+        }
       },
       "status": "defined",
       "references": [
@@ -708,7 +868,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 3 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 20
+        }
       },
       "status": "defined",
       "references": [
@@ -744,7 +912,15 @@
       ],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size integer n >= 1; real entries, real Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 21
+        }
       },
       "status": "family",
       "references": [
@@ -781,7 +957,27 @@
       "properties": {
         "connected": true,
         "compact": "n = 1",
-        "abelian": "only for n=1"
+        "abelian": "only for n=1",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size integer n >= 1; real entries, real Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 22,
+          "classification_cells": [
+            {
+              "series": "A",
+              "form": "split",
+              "notation": "\\operatorname{SL}(r+1,\\mathbb R)",
+              "dimension_tex": "r(r+2)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 1.",
+              "specialization": "Set matrix size n = r+1 in SL(n,R).",
+              "global_form": "The connected real determinant-one matrix group; it is not topologically simply connected in these ranks."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -817,7 +1013,15 @@
       ],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size integer n >= 1; real entries, real Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 23
+        }
       },
       "status": "family",
       "references": [
@@ -853,7 +1057,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size integer n >= 1; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 24
+        }
       },
       "status": "family",
       "references": [
@@ -889,7 +1101,15 @@
       ],
       "properties": {
         "connected": "if and only if n is odd",
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size integer n >= 1; real entries, real Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 25
+        }
       },
       "status": "family",
       "references": [
@@ -925,7 +1145,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size integer n >= 1; real entries, real Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 26
+        }
       },
       "status": "family",
       "references": [
@@ -961,7 +1189,37 @@
       ],
       "properties": {
         "connected": "n >= 2",
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "integer n >= 1 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 27,
+          "classification_cells": [
+            {
+              "series": "B",
+              "form": "compact",
+              "notation": "\\operatorname{Spin}(2r+1)",
+              "dimension_tex": "r(2r+1)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 2.",
+              "specialization": "Set quadratic-space dimension n = 2r+1 in Spin(n,R).",
+              "global_form": "The simply connected compact spin group; the map to SO has kernel {±1}."
+            },
+            {
+              "series": "D",
+              "form": "compact",
+              "notation": "\\operatorname{Spin}(2r)",
+              "dimension_tex": "r(2r-1)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 4.",
+              "specialization": "Set quadratic-space dimension n = 2r in Spin(n,R).",
+              "global_form": "The simply connected compact spin group; the map to SO has kernel {±1}."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -997,7 +1255,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 1; complex entries, complex Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 28
+        }
       },
       "status": "defined",
       "references": [
@@ -1035,7 +1301,15 @@
       "properties": {
         "connected": true,
         "compact": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 1; complex entries, complex Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 29
+        }
       },
       "status": "defined",
       "references": [
@@ -1071,7 +1345,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 1; complex entries, complex Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 30
+        }
       },
       "status": "defined",
       "references": [
@@ -1107,7 +1389,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 1; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 31
+        }
       },
       "status": "defined",
       "references": [
@@ -1143,7 +1433,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 1; complex entries, complex Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 32
+        }
       },
       "status": "defined",
       "references": [
@@ -1179,7 +1477,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 1; complex entries, complex Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 33
+        }
       },
       "status": "defined",
       "references": [
@@ -1215,7 +1521,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 1 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 34
+        }
       },
       "status": "defined",
       "references": [
@@ -1251,7 +1565,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 2; complex entries, complex Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 35
+        }
       },
       "status": "defined",
       "references": [
@@ -1288,7 +1610,15 @@
       "properties": {
         "connected": true,
         "compact": false,
-        "abelian": false
+        "abelian": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 2; complex entries, complex Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 36
+        }
       },
       "status": "defined",
       "references": [
@@ -1324,7 +1654,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 2; complex entries, complex Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 37
+        }
       },
       "status": "defined",
       "references": [
@@ -1360,7 +1698,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 2; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 38
+        }
       },
       "status": "defined",
       "references": [
@@ -1396,7 +1742,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 2; complex entries, complex Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 39
+        }
       },
       "status": "defined",
       "references": [
@@ -1432,7 +1786,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 2; complex entries, complex Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 40
+        }
       },
       "status": "defined",
       "references": [
@@ -1468,7 +1830,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 2 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 41
+        }
       },
       "status": "defined",
       "references": [
@@ -1504,7 +1874,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 3; complex entries, complex Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 42
+        }
       },
       "status": "defined",
       "references": [
@@ -1541,7 +1919,15 @@
       "properties": {
         "connected": true,
         "compact": false,
-        "abelian": false
+        "abelian": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 3; complex entries, complex Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 43
+        }
       },
       "status": "defined",
       "references": [
@@ -1577,7 +1963,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 3; complex entries, complex Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 44
+        }
       },
       "status": "defined",
       "references": [
@@ -1613,7 +2007,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 3; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 45
+        }
       },
       "status": "defined",
       "references": [
@@ -1649,7 +2051,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 3; complex entries, complex Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 46
+        }
       },
       "status": "defined",
       "references": [
@@ -1685,7 +2095,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 3; complex entries, complex Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 47
+        }
       },
       "status": "defined",
       "references": [
@@ -1721,7 +2139,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 3 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 48
+        }
       },
       "status": "defined",
       "references": [
@@ -1759,7 +2185,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, complex Lie group.",
+          "construction_summary": "Invertible square matrices with matrix multiplication.",
+          "global_form_summary": "The full matrix group, with its stated real or complex Lie-group structure.",
+          "display_order": 49
+        }
       },
       "status": "family",
       "references": [
@@ -1798,7 +2232,27 @@
       "properties": {
         "connected": true,
         "compact": "n = 1",
-        "abelian": "only for n=1"
+        "abelian": "only for n=1",
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, complex Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 50,
+          "classification_cells": [
+            {
+              "series": "A",
+              "form": "complex",
+              "notation": "\\operatorname{SL}(r+1,\\mathbb C)",
+              "dimension_tex": "r(r+2)",
+              "dimension_field": "complex",
+              "parameter_summary": "Integer rank r >= 1.",
+              "specialization": "Set matrix size n = r+1 in SL(n,C).",
+              "global_form": "The simply connected complex determinant-one matrix group."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -1836,7 +2290,15 @@
       ],
       "properties": {
         "connected": false,
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, complex Lie group.",
+          "construction_summary": "Matrices preserving the standard nondegenerate symmetric bilinear form.",
+          "global_form_summary": "The full orthogonal matrix group, including both determinant components.",
+          "display_order": 51
+        }
       },
       "status": "family",
       "references": [
@@ -1874,7 +2336,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 52
+        }
       },
       "status": "family",
       "references": [
@@ -1912,7 +2382,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, complex Lie group.",
+          "construction_summary": "General linear group modulo all nonzero scalar matrices.",
+          "global_form_summary": "The quotient by all nonzero scalars over the displayed field.",
+          "display_order": 53
+        }
       },
       "status": "family",
       "references": [
@@ -1950,7 +2428,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, complex Lie group.",
+          "construction_summary": "Special linear group modulo its scalar center.",
+          "global_form_summary": "The quotient by determinant-one scalar matrices over the displayed field.",
+          "display_order": 54
+        }
       },
       "status": "family",
       "references": [
@@ -1988,7 +2474,37 @@
       ],
       "properties": {
         "connected": "n >= 2",
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "integer n >= 1 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 55,
+          "classification_cells": [
+            {
+              "series": "B",
+              "form": "complex",
+              "notation": "\\operatorname{Spin}(2r+1,\\mathbb C)",
+              "dimension_tex": "r(2r+1)",
+              "dimension_field": "complex",
+              "parameter_summary": "Integer rank r >= 2.",
+              "specialization": "Set quadratic-space dimension n = 2r+1 in Spin(n,C).",
+              "global_form": "The simply connected complex spin group; the map to SO has kernel {±1}."
+            },
+            {
+              "series": "D",
+              "form": "complex",
+              "notation": "\\operatorname{Spin}(2r,\\mathbb C)",
+              "dimension_tex": "r(2r-1)",
+              "dimension_field": "complex",
+              "parameter_summary": "Integer rank r >= 4.",
+              "specialization": "Set quadratic-space dimension n = 2r in Spin(n,C).",
+              "global_form": "The simply connected complex spin group; the map to SO has kernel {±1}."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -2023,7 +2539,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": false
+        "simply_connected": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real unitary matrix group; its entries are complex.",
+          "display_order": 56
+        }
       },
       "status": "defined",
       "references": [
@@ -2058,7 +2582,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real determinant-one unitary group; its entries are complex.",
+          "display_order": 57
+        }
       },
       "status": "defined",
       "references": [
@@ -2093,7 +2625,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving the positive-definite quaternionic Hermitian form.",
+          "global_form_summary": "The compact real quaternionic unitary group Sp(1), also denoted USp(2).",
+          "display_order": 58
+        }
       },
       "status": "defined",
       "references": [
@@ -2128,7 +2668,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": false
+        "simply_connected": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 2; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real unitary matrix group; its entries are complex.",
+          "display_order": 59
+        }
       },
       "status": "defined",
       "references": [
@@ -2163,7 +2711,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 2; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real determinant-one unitary group; its entries are complex.",
+          "display_order": 60
+        }
       },
       "status": "defined",
       "references": [
@@ -2198,7 +2754,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 2; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving the positive-definite quaternionic Hermitian form.",
+          "global_form_summary": "The compact real quaternionic unitary group Sp(2), also denoted USp(4).",
+          "display_order": 61
+        }
       },
       "status": "defined",
       "references": [
@@ -2233,7 +2797,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": false
+        "simply_connected": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 3; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real unitary matrix group; its entries are complex.",
+          "display_order": 62
+        }
       },
       "status": "defined",
       "references": [
@@ -2268,7 +2840,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 3; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real determinant-one unitary group; its entries are complex.",
+          "display_order": 63
+        }
       },
       "status": "defined",
       "references": [
@@ -2303,7 +2883,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 3; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving the positive-definite quaternionic Hermitian form.",
+          "global_form_summary": "The compact real quaternionic unitary group Sp(3), also denoted USp(6).",
+          "display_order": 64
+        }
       },
       "status": "defined",
       "references": [
@@ -2340,7 +2928,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": false
+        "simply_connected": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real unitary matrix group; its entries are complex.",
+          "display_order": 65
+        }
       },
       "status": "family",
       "references": [
@@ -2377,7 +2973,27 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size integer n >= 1; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real determinant-one unitary group; its entries are complex.",
+          "display_order": 66,
+          "classification_cells": [
+            {
+              "series": "A",
+              "form": "compact",
+              "notation": "\\operatorname{SU}(r+1)",
+              "dimension_tex": "r(r+2)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 1.",
+              "specialization": "Set matrix size n = r+1 in SU(n).",
+              "global_form": "The simply connected compact special unitary group, a real Lie group."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -2414,7 +3030,27 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size integer n >= 1; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving the positive-definite quaternionic Hermitian form.",
+          "global_form_summary": "The compact real quaternionic unitary group Sp(n), also denoted USp(2n).",
+          "display_order": 67,
+          "classification_cells": [
+            {
+              "series": "C",
+              "form": "compact",
+              "notation": "\\operatorname{Sp}(r)",
+              "dimension_tex": "r(2r+1)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 3.",
+              "specialization": "Set quaternionic matrix size n = r in compact Sp(n).",
+              "global_form": "The simply connected compact quaternionic unitary group, a real Lie group."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -2449,7 +3085,15 @@
       "properties": {
         "compact": true,
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 4; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving the positive-definite Hermitian form.",
+          "global_form_summary": "The compact real determinant-one unitary group; its entries are complex.",
+          "display_order": 68
+        }
       },
       "status": "defined",
       "references": [
@@ -2483,7 +3127,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 1; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible right-quaternionic-linear maps, with composition.",
+          "global_form_summary": "The real Lie group of all invertible quaternionic matrices.",
+          "display_order": 69
+        }
       },
       "status": "defined",
       "references": [
@@ -2517,7 +3169,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 1; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible quaternionic matrices whose complex realization has determinant one.",
+          "global_form_summary": "The real reduced-norm-one quaternionic matrix group.",
+          "display_order": 70
+        }
       },
       "status": "defined",
       "references": [
@@ -2551,7 +3211,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 2; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible right-quaternionic-linear maps, with composition.",
+          "global_form_summary": "The real Lie group of all invertible quaternionic matrices.",
+          "display_order": 71
+        }
       },
       "status": "defined",
       "references": [
@@ -2585,7 +3253,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 2; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible quaternionic matrices whose complex realization has determinant one.",
+          "global_form_summary": "The real reduced-norm-one quaternionic matrix group.",
+          "display_order": 72
+        }
       },
       "status": "defined",
       "references": [
@@ -2619,7 +3295,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 3; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible right-quaternionic-linear maps, with composition.",
+          "global_form_summary": "The real Lie group of all invertible quaternionic matrices.",
+          "display_order": 73
+        }
       },
       "status": "defined",
       "references": [
@@ -2653,7 +3337,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size n = 3; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible quaternionic matrices whose complex realization has determinant one.",
+          "global_form_summary": "The real reduced-norm-one quaternionic matrix group.",
+          "display_order": 74
+        }
       },
       "status": "defined",
       "references": [
@@ -2689,7 +3381,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size integer n >= 1; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible right-quaternionic-linear maps, with composition.",
+          "global_form_summary": "The real Lie group of all invertible quaternionic matrices.",
+          "display_order": 75
+        }
       },
       "status": "family",
       "references": [
@@ -2725,7 +3425,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "n = 1"
+        "compact": "n = 1",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Matrix size integer n >= 1; quaternionic entries, real Lie group.",
+          "construction_summary": "Invertible quaternionic matrices whose complex realization has determinant one.",
+          "global_form_summary": "The real reduced-norm-one quaternionic matrix group.",
+          "display_order": 76
+        }
       },
       "status": "family",
       "references": [
@@ -2760,7 +3468,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "n = 1 counts symplectic pairs; matrix size is 2n over real scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 77
+        }
       },
       "status": "defined",
       "references": [
@@ -2795,7 +3511,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "n = 2 counts symplectic pairs; matrix size is 2n over real scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 78
+        }
       },
       "status": "defined",
       "references": [
@@ -2830,7 +3554,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "n = 3 counts symplectic pairs; matrix size is 2n over real scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 79
+        }
       },
       "status": "defined",
       "references": [
@@ -2867,7 +3599,27 @@
       ],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "integer n >= 1 counts symplectic pairs; matrix size is 2n over real scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 80,
+          "classification_cells": [
+            {
+              "series": "C",
+              "form": "split",
+              "notation": "\\operatorname{Sp}(2r,\\mathbb R)",
+              "dimension_tex": "r(2r+1)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 3.",
+              "specialization": "Set symplectic-pair parameter n = r; the real matrix size is 2r.",
+              "global_form": "The connected real symplectic matrix group; its universal covering group is a different global choice."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -2904,7 +3656,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 1 counts symplectic pairs; matrix size is 2n over complex scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 81
+        }
       },
       "status": "defined",
       "references": [
@@ -2941,7 +3701,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 2 counts symplectic pairs; matrix size is 2n over complex scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 82
+        }
       },
       "status": "defined",
       "references": [
@@ -2978,7 +3746,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 3 counts symplectic pairs; matrix size is 2n over complex scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 83
+        }
       },
       "status": "defined",
       "references": [
@@ -3017,7 +3793,27 @@
       ],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "integer n >= 1 counts symplectic pairs; matrix size is 2n over complex scalars.",
+          "construction_summary": "Matrices preserving the standard nondegenerate alternating bilinear form.",
+          "global_form_summary": "The full symplectic matrix group over the displayed field.",
+          "display_order": 84,
+          "classification_cells": [
+            {
+              "series": "C",
+              "form": "complex",
+              "notation": "\\operatorname{Sp}(2r,\\mathbb C)",
+              "dimension_tex": "r(2r+1)",
+              "dimension_field": "complex",
+              "parameter_summary": "Integer rank r >= 3.",
+              "specialization": "Set symplectic-pair parameter n = r; the complex matrix size is 2r.",
+              "global_form": "The simply connected complex symplectic matrix group."
+            }
+          ]
+        }
       },
       "status": "family",
       "references": [
@@ -3053,7 +3849,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "real",
+          "parameter_summary": "n = 1 coordinate directions over real scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 85
+        }
       },
       "status": "defined",
       "references": []
@@ -3084,7 +3888,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "real",
+          "parameter_summary": "n = 1 counts coordinate pairs; 2n+1 is dimension over real scalars.",
+          "construction_summary": "Two blocks of 1 coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 86
+        }
       },
       "status": "defined",
       "references": [
@@ -3117,7 +3929,15 @@
       ],
       "constraints": [],
       "properties": {
-        "connected": false
+        "connected": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 1 coordinate directions over real scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 87
+        }
       },
       "status": "defined",
       "references": []
@@ -3147,7 +3967,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "real",
+          "parameter_summary": "n = 2 coordinate directions over real scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 88
+        }
       },
       "status": "defined",
       "references": []
@@ -3178,7 +4006,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "real",
+          "parameter_summary": "n = 2 counts coordinate pairs; 2n+1 is dimension over real scalars.",
+          "construction_summary": "Two blocks of 2 coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 89
+        }
       },
       "status": "defined",
       "references": [
@@ -3211,7 +4047,15 @@
       ],
       "constraints": [],
       "properties": {
-        "connected": false
+        "connected": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 2 coordinate directions over real scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 90
+        }
       },
       "status": "defined",
       "references": []
@@ -3241,7 +4085,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "real",
+          "parameter_summary": "n = 3 coordinate directions over real scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 91
+        }
       },
       "status": "defined",
       "references": []
@@ -3272,7 +4124,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "real",
+          "parameter_summary": "n = 3 counts coordinate pairs; 2n+1 is dimension over real scalars.",
+          "construction_summary": "Two blocks of 3 coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 92
+        }
       },
       "status": "defined",
       "references": [
@@ -3305,7 +4165,15 @@
       ],
       "constraints": [],
       "properties": {
-        "connected": false
+        "connected": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 3 coordinate directions over real scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 93
+        }
       },
       "status": "defined",
       "references": []
@@ -3337,7 +4205,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "real",
+          "parameter_summary": "integer n >= 1 coordinate directions over real scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 94
+        }
       },
       "status": "family",
       "references": []
@@ -3370,7 +4246,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "real",
+          "parameter_summary": "integer n >= 1 counts coordinate pairs; 2n+1 is dimension over real scalars.",
+          "construction_summary": "Two blocks of n coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 95
+        }
       },
       "status": "family",
       "references": [
@@ -3405,7 +4289,15 @@
         "n is an integer with n >= 1"
       ],
       "properties": {
-        "connected": false
+        "connected": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "integer n >= 1 coordinate directions over real scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 96
+        }
       },
       "status": "family",
       "references": []
@@ -3433,7 +4325,15 @@
       "constraints": [],
       "properties": {
         "abelian": true,
-        "connected": false
+        "connected": false,
+        "lie_group": {
+          "section": "abelian",
+          "form": "real",
+          "parameter_summary": "Fixed group over real scalars.",
+          "construction_summary": "Nonzero scalars with multiplication; equivalently one-by-one invertible matrices.",
+          "global_form_summary": "The full multiplicative group of the displayed field.",
+          "display_order": 97
+        }
       },
       "status": "defined",
       "references": [
@@ -3471,7 +4371,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "complex",
+          "parameter_summary": "n = 1 coordinate directions over complex scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 98
+        }
       },
       "status": "defined",
       "references": []
@@ -3504,7 +4412,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "complex",
+          "parameter_summary": "n = 1 counts coordinate pairs; 2n+1 is dimension over complex scalars.",
+          "construction_summary": "Two blocks of 1 coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 99
+        }
       },
       "status": "defined",
       "references": [
@@ -3539,7 +4455,15 @@
       ],
       "constraints": [],
       "properties": {
-        "connected": true
+        "connected": true,
+        "lie_group": {
+          "section": "geometric",
+          "form": "complex",
+          "parameter_summary": "n = 1 coordinate directions over complex scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 100
+        }
       },
       "status": "defined",
       "references": []
@@ -3571,7 +4495,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "complex",
+          "parameter_summary": "n = 2 coordinate directions over complex scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 101
+        }
       },
       "status": "defined",
       "references": []
@@ -3604,7 +4536,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "complex",
+          "parameter_summary": "n = 2 counts coordinate pairs; 2n+1 is dimension over complex scalars.",
+          "construction_summary": "Two blocks of 2 coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 102
+        }
       },
       "status": "defined",
       "references": [
@@ -3639,7 +4579,15 @@
       ],
       "constraints": [],
       "properties": {
-        "connected": true
+        "connected": true,
+        "lie_group": {
+          "section": "geometric",
+          "form": "complex",
+          "parameter_summary": "n = 2 coordinate directions over complex scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 103
+        }
       },
       "status": "defined",
       "references": []
@@ -3671,7 +4619,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "complex",
+          "parameter_summary": "n = 3 coordinate directions over complex scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 104
+        }
       },
       "status": "defined",
       "references": []
@@ -3704,7 +4660,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "complex",
+          "parameter_summary": "n = 3 counts coordinate pairs; 2n+1 is dimension over complex scalars.",
+          "construction_summary": "Two blocks of 3 coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 105
+        }
       },
       "status": "defined",
       "references": [
@@ -3739,7 +4703,15 @@
       ],
       "constraints": [],
       "properties": {
-        "connected": true
+        "connected": true,
+        "lie_group": {
+          "section": "geometric",
+          "form": "complex",
+          "parameter_summary": "n = 3 coordinate directions over complex scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 106
+        }
       },
       "status": "defined",
       "references": []
@@ -3773,7 +4745,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "complex",
+          "parameter_summary": "integer n >= 1 coordinate directions over complex scalars.",
+          "construction_summary": "Coordinate space with coordinatewise addition.",
+          "global_form_summary": "The entire additive coordinate space, with no lattice quotient.",
+          "display_order": 107
+        }
       },
       "status": "family",
       "references": []
@@ -3808,7 +4788,15 @@
         "connected": true,
         "simply_connected": true,
         "nilpotency_class": 2,
-        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field"
+        "parameter_convention": "n counts coordinate pairs; dimension is 2n+1 over the displayed field",
+        "lie_group": {
+          "section": "nilpotent",
+          "form": "complex",
+          "parameter_summary": "integer n >= 1 counts coordinate pairs; 2n+1 is dimension over complex scalars.",
+          "construction_summary": "Two blocks of n coordinates and a central scalar, with the Heisenberg multiplication law.",
+          "global_form_summary": "The full Heisenberg coordinate group, with no central lattice quotient.",
+          "display_order": 108
+        }
       },
       "status": "family",
       "references": [
@@ -3845,7 +4833,15 @@
         "n is an integer with n >= 1"
       ],
       "properties": {
-        "connected": true
+        "connected": true,
+        "lie_group": {
+          "section": "geometric",
+          "form": "complex",
+          "parameter_summary": "integer n >= 1 coordinate directions over complex scalars.",
+          "construction_summary": "Invertible affine maps x ↦ Ax+b, composed as maps.",
+          "global_form_summary": "The semidirect product of translations by the full general linear group.",
+          "display_order": 109
+        }
       },
       "status": "family",
       "references": []
@@ -3875,7 +4871,15 @@
       "constraints": [],
       "properties": {
         "abelian": true,
-        "connected": true
+        "connected": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "complex",
+          "parameter_summary": "Fixed group over complex scalars.",
+          "construction_summary": "Nonzero scalars with multiplication; equivalently one-by-one invertible matrices.",
+          "global_form_summary": "The full multiplicative group of the displayed field.",
+          "display_order": 110
+        }
       },
       "status": "defined",
       "references": [
@@ -3908,7 +4912,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 1 real Euclidean coordinate directions.",
+          "construction_summary": "Euclidean isometries: translations together with orthogonal linear maps.",
+          "global_form_summary": "The full Euclidean isometry group, including orientation-reversing maps.",
+          "display_order": 111
+        }
       },
       "status": "defined",
       "references": []
@@ -3935,7 +4947,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 1 real Euclidean coordinate directions.",
+          "construction_summary": "Orientation-preserving Euclidean isometries: translations and determinant-one orthogonal maps.",
+          "global_form_summary": "The subgroup of Euclidean isometries with determinant-one linear part.",
+          "display_order": 112
+        }
       },
       "status": "defined",
       "references": []
@@ -3964,7 +4984,15 @@
       "properties": {
         "connected": true,
         "compact": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "compact",
+          "parameter_summary": "n = 1 circle factors; real Lie group.",
+          "construction_summary": "A product of unit circles, with coordinatewise multiplication.",
+          "global_form_summary": "The compact real torus R^1/(2πZ)^1.",
+          "display_order": 113
+        }
       },
       "status": "defined",
       "references": []
@@ -3991,7 +5019,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 2 real Euclidean coordinate directions.",
+          "construction_summary": "Euclidean isometries: translations together with orthogonal linear maps.",
+          "global_form_summary": "The full Euclidean isometry group, including orientation-reversing maps.",
+          "display_order": 114
+        }
       },
       "status": "defined",
       "references": []
@@ -4018,7 +5054,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 2 real Euclidean coordinate directions.",
+          "construction_summary": "Orientation-preserving Euclidean isometries: translations and determinant-one orthogonal maps.",
+          "global_form_summary": "The subgroup of Euclidean isometries with determinant-one linear part.",
+          "display_order": 115
+        }
       },
       "status": "defined",
       "references": []
@@ -4047,7 +5091,15 @@
       "properties": {
         "connected": true,
         "compact": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "compact",
+          "parameter_summary": "n = 2 circle factors; real Lie group.",
+          "construction_summary": "A product of unit circles, with coordinatewise multiplication.",
+          "global_form_summary": "The compact real torus R^2/(2πZ)^2.",
+          "display_order": 116
+        }
       },
       "status": "defined",
       "references": []
@@ -4074,7 +5126,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 3 real Euclidean coordinate directions.",
+          "construction_summary": "Euclidean isometries: translations together with orthogonal linear maps.",
+          "global_form_summary": "The full Euclidean isometry group, including orientation-reversing maps.",
+          "display_order": 117
+        }
       },
       "status": "defined",
       "references": []
@@ -4101,7 +5161,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "n = 3 real Euclidean coordinate directions.",
+          "construction_summary": "Orientation-preserving Euclidean isometries: translations and determinant-one orthogonal maps.",
+          "global_form_summary": "The subgroup of Euclidean isometries with determinant-one linear part.",
+          "display_order": 118
+        }
       },
       "status": "defined",
       "references": []
@@ -4130,7 +5198,15 @@
       "properties": {
         "connected": true,
         "compact": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "compact",
+          "parameter_summary": "n = 3 circle factors; real Lie group.",
+          "construction_summary": "A product of unit circles, with coordinatewise multiplication.",
+          "global_form_summary": "The compact real torus R^3/(2πZ)^3.",
+          "display_order": 119
+        }
       },
       "status": "defined",
       "references": []
@@ -4159,7 +5235,15 @@
       ],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "integer n >= 1 real Euclidean coordinate directions.",
+          "construction_summary": "Euclidean isometries: translations together with orthogonal linear maps.",
+          "global_form_summary": "The full Euclidean isometry group, including orientation-reversing maps.",
+          "display_order": 120
+        }
       },
       "status": "family",
       "references": []
@@ -4188,7 +5272,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "integer n >= 1 real Euclidean coordinate directions.",
+          "construction_summary": "Orientation-preserving Euclidean isometries: translations and determinant-one orthogonal maps.",
+          "global_form_summary": "The subgroup of Euclidean isometries with determinant-one linear part.",
+          "display_order": 121
+        }
       },
       "status": "family",
       "references": []
@@ -4219,7 +5311,15 @@
       "properties": {
         "connected": true,
         "compact": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "compact",
+          "parameter_summary": "integer n >= 1 circle factors; real Lie group.",
+          "construction_summary": "A product of unit circles, with coordinatewise multiplication.",
+          "global_form_summary": "The compact real torus R^n/(2πZ)^n.",
+          "display_order": 122
+        }
       },
       "status": "family",
       "references": []
@@ -4248,7 +5348,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "abelian": true
+        "abelian": true,
+        "lie_group": {
+          "section": "abelian",
+          "form": "real",
+          "parameter_summary": "Fixed group over real scalars.",
+          "construction_summary": "Positive real numbers with multiplication.",
+          "global_form_summary": "The positive component of the real multiplicative group.",
+          "display_order": 123
+        }
       },
       "status": "defined",
       "references": []
@@ -4277,7 +5385,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 1; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Real matrices preserving the symmetric form with p negative and q positive directions.",
+          "global_form_summary": "The full real orthogonal matrix group; no component restriction is imposed.",
+          "display_order": 124
+        }
       },
       "status": "defined",
       "references": [
@@ -4312,7 +5428,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 1; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Determinant-one real matrices preserving the form with p negative and q positive directions.",
+          "global_form_summary": "The full determinant-one matrix group; for p,q>0 its identity component is a separate subgroup.",
+          "display_order": 125
+        }
       },
       "status": "defined",
       "references": [
@@ -4347,7 +5471,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 1; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving a Hermitian form with p negative and q positive directions.",
+          "global_form_summary": "The full pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 126
+        }
       },
       "status": "defined",
       "references": [
@@ -4382,7 +5514,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 1; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full determinant-one pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 127
+        }
       },
       "status": "defined",
       "references": [
@@ -4417,7 +5557,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 1; p counts negative directions; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full quaternionic pseudo-unitary group, viewed as a real Lie group; no determinant condition is imposed.",
+          "display_order": 128
+        }
       },
       "status": "defined",
       "references": [
@@ -4452,7 +5600,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 2; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Real matrices preserving the symmetric form with p negative and q positive directions.",
+          "global_form_summary": "The full real orthogonal matrix group; no component restriction is imposed.",
+          "display_order": 129
+        }
       },
       "status": "defined",
       "references": [
@@ -4487,7 +5643,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 2; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Determinant-one real matrices preserving the form with p negative and q positive directions.",
+          "global_form_summary": "The full determinant-one matrix group; for p,q>0 its identity component is a separate subgroup.",
+          "display_order": 130
+        }
       },
       "status": "defined",
       "references": [
@@ -4522,7 +5686,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 2; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving a Hermitian form with p negative and q positive directions.",
+          "global_form_summary": "The full pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 131
+        }
       },
       "status": "defined",
       "references": [
@@ -4557,7 +5729,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 2; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full determinant-one pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 132
+        }
       },
       "status": "defined",
       "references": [
@@ -4592,7 +5772,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 2; p counts negative directions; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full quaternionic pseudo-unitary group, viewed as a real Lie group; no determinant condition is imposed.",
+          "display_order": 133
+        }
       },
       "status": "defined",
       "references": [
@@ -4627,7 +5815,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 3; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Real matrices preserving the symmetric form with p negative and q positive directions.",
+          "global_form_summary": "The full real orthogonal matrix group; no component restriction is imposed.",
+          "display_order": 134
+        }
       },
       "status": "defined",
       "references": [
@@ -4662,7 +5858,15 @@
       "constraints": [],
       "properties": {
         "connected": false,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 3; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Determinant-one real matrices preserving the form with p negative and q positive directions.",
+          "global_form_summary": "The full determinant-one matrix group; for p,q>0 its identity component is a separate subgroup.",
+          "display_order": 135
+        }
       },
       "status": "defined",
       "references": [
@@ -4697,7 +5901,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 3; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving a Hermitian form with p negative and q positive directions.",
+          "global_form_summary": "The full pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 136
+        }
       },
       "status": "defined",
       "references": [
@@ -4732,7 +5944,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 3; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full determinant-one pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 137
+        }
       },
       "status": "defined",
       "references": [
@@ -4767,7 +5987,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 3; p counts negative directions; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full quaternionic pseudo-unitary group, viewed as a real Lie group; no determinant condition is imposed.",
+          "display_order": 138
+        }
       },
       "status": "defined",
       "references": [
@@ -4804,7 +6032,15 @@
       ],
       "properties": {
         "connected": "depends on signature",
-        "compact": "if p=0 or q=0"
+        "compact": "if p=0 or q=0",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Integers p,q >= 0 with p+q >= 1; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Real matrices preserving the symmetric form with p negative and q positive directions.",
+          "global_form_summary": "The full real orthogonal matrix group; no component restriction is imposed.",
+          "display_order": 139
+        }
       },
       "status": "family",
       "references": [
@@ -4841,7 +6077,15 @@
       ],
       "properties": {
         "connected": "depends on signature",
-        "compact": "if p=0 or q=0"
+        "compact": "if p=0 or q=0",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Integers p,q >= 0 with p+q >= 1; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Determinant-one real matrices preserving the form with p negative and q positive directions.",
+          "global_form_summary": "The full determinant-one matrix group; for p,q>0 its identity component is a separate subgroup.",
+          "display_order": 140
+        }
       },
       "status": "family",
       "references": [
@@ -4878,7 +6122,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "if p=0 or q=0"
+        "compact": "if p=0 or q=0",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Integers p,q >= 0 with p+q >= 1; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Complex matrices preserving a Hermitian form with p negative and q positive directions.",
+          "global_form_summary": "The full pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 141
+        }
       },
       "status": "family",
       "references": [
@@ -4915,7 +6167,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "if p=0 or q=0"
+        "compact": "if p=0 or q=0",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Integers p,q >= 0 with p+q >= 1; p counts negative directions; complex entries, real Lie group.",
+          "construction_summary": "Determinant-one complex matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full determinant-one pseudo-unitary matrix group, viewed as a real Lie group.",
+          "display_order": 142
+        }
       },
       "status": "family",
       "references": [
@@ -4952,7 +6212,15 @@
       ],
       "properties": {
         "connected": true,
-        "compact": "if p=0 or q=0"
+        "compact": "if p=0 or q=0",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Integers p,q >= 0 with p+q >= 1; p counts negative directions; quaternionic entries, real Lie group.",
+          "construction_summary": "Quaternionic matrices preserving a Hermitian form of signature (p,q).",
+          "global_form_summary": "The full quaternionic pseudo-unitary group, viewed as a real Lie group; no determinant condition is imposed.",
+          "display_order": 143
+        }
       },
       "status": "family",
       "references": [
@@ -4986,7 +6254,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "geometric",
+          "form": "real",
+          "parameter_summary": "p = 1, q = 3; p counts negative directions; real entries, real Lie group.",
+          "construction_summary": "Lorentz transformations preserving orientation and the future cone in signature (1,3).",
+          "global_form_summary": "The connected identity component SO0(1,3) of the Lorentz matrix group.",
+          "display_order": 144
+        }
       },
       "status": "defined",
       "references": [
@@ -5020,7 +6296,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 4; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 145
+        }
       },
       "status": "defined",
       "references": [
@@ -5054,7 +6338,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 4 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 146
+        }
       },
       "status": "defined",
       "references": [
@@ -5088,7 +6380,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 5; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 147
+        }
       },
       "status": "defined",
       "references": [
@@ -5122,7 +6422,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 5 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 148
+        }
       },
       "status": "defined",
       "references": [
@@ -5156,7 +6464,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 6; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 149
+        }
       },
       "status": "defined",
       "references": [
@@ -5190,7 +6506,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 6 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 150
+        }
       },
       "status": "defined",
       "references": [
@@ -5224,7 +6548,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "Matrix size n = 8; real entries, real Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 151
+        }
       },
       "status": "defined",
       "references": [
@@ -5258,7 +6590,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "compact",
+          "parameter_summary": "n = 8 quadratic-space directions over real scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 152
+        }
       },
       "status": "defined",
       "references": [
@@ -5294,7 +6634,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 4; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 153
+        }
       },
       "status": "defined",
       "references": [
@@ -5330,7 +6678,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 4 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 154
+        }
       },
       "status": "defined",
       "references": [
@@ -5366,7 +6722,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 5; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 155
+        }
       },
       "status": "defined",
       "references": [
@@ -5402,7 +6766,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 5 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 156
+        }
       },
       "status": "defined",
       "references": [
@@ -5438,7 +6810,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 6; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 157
+        }
       },
       "status": "defined",
       "references": [
@@ -5474,7 +6854,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 6 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 158
+        }
       },
       "status": "defined",
       "references": [
@@ -5510,7 +6898,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 8; complex entries, complex Lie group.",
+          "construction_summary": "Determinant-one matrices preserving the standard symmetric bilinear form.",
+          "global_form_summary": "The determinant-one orthogonal matrix group; Spin is a separate covering group.",
+          "display_order": 159
+        }
       },
       "status": "defined",
       "references": [
@@ -5546,7 +6942,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "n = 8 quadratic-space directions over complex scalars.",
+          "construction_summary": "Even products of unit vectors in the Clifford algebra of the standard quadratic form.",
+          "global_form_summary": "The Clifford spin group with its two-sheeted map to SO; no further central quotient is taken.",
+          "display_order": 160
+        }
       },
       "status": "defined",
       "references": [
@@ -5582,7 +6986,15 @@
       "constraints": [],
       "properties": {
         "connected": true,
-        "simply_connected": true
+        "simply_connected": true,
+        "lie_group": {
+          "section": "classical",
+          "form": "complex",
+          "parameter_summary": "Matrix size n = 4; complex entries, complex Lie group.",
+          "construction_summary": "Square matrices of determinant one, with matrix multiplication.",
+          "global_form_summary": "The determinant-one matrix group; no quotient by its scalar center is taken.",
+          "display_order": 161
+        }
       },
       "status": "defined",
       "references": [
@@ -5619,7 +7031,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "compact": true
+        "compact": true,
+        "lie_group": {
+          "section": "product",
+          "form": "compact",
+          "parameter_summary": "Fixed factors: SU(2) × SU(2).",
+          "construction_summary": "Direct product with componentwise multiplication.",
+          "global_form_summary": "The direct product of the stated global groups; no diagonal central quotient is taken.",
+          "display_order": 162
+        }
       },
       "status": "defined",
       "references": []
@@ -5652,7 +7072,15 @@
       "properties": {
         "connected": true,
         "simply_connected": true,
-        "compact": false
+        "compact": false,
+        "lie_group": {
+          "section": "product",
+          "form": "complex",
+          "parameter_summary": "Fixed factors: SL(2,C) × SL(2,C).",
+          "construction_summary": "Direct product with componentwise multiplication.",
+          "global_form_summary": "The direct product of the stated global groups; no diagonal central quotient is taken.",
+          "display_order": 163
+        }
       },
       "status": "defined",
       "references": []
@@ -5683,7 +7111,27 @@
         "simply_connected": true,
         "compact": true,
         "center_order": 1,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "compact",
+          "parameter_summary": "Fixed type G2; rank 2.",
+          "construction_summary": "The simply connected group integrating the compact real form of the simple Lie algebra of type G2.",
+          "global_form_summary": "The connected, simply connected compact group.",
+          "display_order": 164,
+          "classification_cells": [
+            {
+              "series": "G2",
+              "form": "compact",
+              "notation": "{G_2}^{\\mathrm{cpt}}_{\\mathrm{sc}}",
+              "dimension_tex": "14",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 2; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected compact group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5720,7 +7168,27 @@
         "compact": false,
         "centerless": true,
         "global_form": "connected-adjoint",
-        "real_rank": 2
+        "real_rank": 2,
+        "lie_group": {
+          "section": "exceptional",
+          "form": "real",
+          "parameter_summary": "Fixed type G2; rank 2.",
+          "construction_summary": "The identity component of the real Lie-algebra automorphism group of split type G2.",
+          "global_form_summary": "The connected adjoint split real group; this convention does not choose its universal cover.",
+          "display_order": 165,
+          "classification_cells": [
+            {
+              "series": "G2",
+              "form": "split",
+              "notation": "{G_2}^{\\mathrm{split}}_{\\mathrm{ad},0}",
+              "dimension_tex": "14",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 2; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected adjoint split real group; this convention does not choose its universal cover."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5759,7 +7227,27 @@
         "simply_connected": true,
         "compact": false,
         "center_order": 1,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "complex",
+          "parameter_summary": "Fixed type G2; rank 2.",
+          "construction_summary": "The complex simple Lie algebra of type G2 integrated to its simply connected group.",
+          "global_form_summary": "The connected, simply connected complex group.",
+          "display_order": 166,
+          "classification_cells": [
+            {
+              "series": "G2",
+              "form": "complex",
+              "notation": "G_2(\\mathbb C)_{\\mathrm{sc}}",
+              "dimension_tex": "14",
+              "dimension_field": "complex",
+              "parameter_summary": "Fixed rank 2; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected complex group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5796,7 +7284,27 @@
         "simply_connected": true,
         "compact": true,
         "center_order": 1,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "compact",
+          "parameter_summary": "Fixed type F4; rank 4.",
+          "construction_summary": "The simply connected group integrating the compact real form of the simple Lie algebra of type F4.",
+          "global_form_summary": "The connected, simply connected compact group.",
+          "display_order": 167,
+          "classification_cells": [
+            {
+              "series": "F4",
+              "form": "compact",
+              "notation": "{F_4}^{\\mathrm{cpt}}_{\\mathrm{sc}}",
+              "dimension_tex": "52",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 4; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected compact group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5833,7 +7341,27 @@
         "compact": false,
         "centerless": true,
         "global_form": "connected-adjoint",
-        "real_rank": 4
+        "real_rank": 4,
+        "lie_group": {
+          "section": "exceptional",
+          "form": "real",
+          "parameter_summary": "Fixed type F4; rank 4.",
+          "construction_summary": "The identity component of the real Lie-algebra automorphism group of split type F4.",
+          "global_form_summary": "The connected adjoint split real group; this convention does not choose its universal cover.",
+          "display_order": 168,
+          "classification_cells": [
+            {
+              "series": "F4",
+              "form": "split",
+              "notation": "{F_4}^{\\mathrm{split}}_{\\mathrm{ad},0}",
+              "dimension_tex": "52",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 4; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected adjoint split real group; this convention does not choose its universal cover."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5872,7 +7400,27 @@
         "simply_connected": true,
         "compact": false,
         "center_order": 1,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "complex",
+          "parameter_summary": "Fixed type F4; rank 4.",
+          "construction_summary": "The complex simple Lie algebra of type F4 integrated to its simply connected group.",
+          "global_form_summary": "The connected, simply connected complex group.",
+          "display_order": 169,
+          "classification_cells": [
+            {
+              "series": "F4",
+              "form": "complex",
+              "notation": "F_4(\\mathbb C)_{\\mathrm{sc}}",
+              "dimension_tex": "52",
+              "dimension_field": "complex",
+              "parameter_summary": "Fixed rank 4; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected complex group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5909,7 +7457,27 @@
         "simply_connected": true,
         "compact": true,
         "center_order": 3,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "compact",
+          "parameter_summary": "Fixed type E6; rank 6.",
+          "construction_summary": "The simply connected group integrating the compact real form of the simple Lie algebra of type E6.",
+          "global_form_summary": "The connected, simply connected compact group.",
+          "display_order": 170,
+          "classification_cells": [
+            {
+              "series": "E6",
+              "form": "compact",
+              "notation": "{E_6}^{\\mathrm{cpt}}_{\\mathrm{sc}}",
+              "dimension_tex": "78",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 6; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected compact group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5946,7 +7514,27 @@
         "compact": false,
         "centerless": true,
         "global_form": "connected-adjoint",
-        "real_rank": 6
+        "real_rank": 6,
+        "lie_group": {
+          "section": "exceptional",
+          "form": "real",
+          "parameter_summary": "Fixed type E6; rank 6.",
+          "construction_summary": "The identity component of the real Lie-algebra automorphism group of split type E6.",
+          "global_form_summary": "The connected adjoint split real group; this convention does not choose its universal cover.",
+          "display_order": 171,
+          "classification_cells": [
+            {
+              "series": "E6",
+              "form": "split",
+              "notation": "{E_6}^{\\mathrm{split}}_{\\mathrm{ad},0}",
+              "dimension_tex": "78",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 6; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected adjoint split real group; this convention does not choose its universal cover."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -5985,7 +7573,27 @@
         "simply_connected": true,
         "compact": false,
         "center_order": 3,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "complex",
+          "parameter_summary": "Fixed type E6; rank 6.",
+          "construction_summary": "The complex simple Lie algebra of type E6 integrated to its simply connected group.",
+          "global_form_summary": "The connected, simply connected complex group.",
+          "display_order": 172,
+          "classification_cells": [
+            {
+              "series": "E6",
+              "form": "complex",
+              "notation": "E_6(\\mathbb C)_{\\mathrm{sc}}",
+              "dimension_tex": "78",
+              "dimension_field": "complex",
+              "parameter_summary": "Fixed rank 6; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected complex group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6022,7 +7630,27 @@
         "simply_connected": true,
         "compact": true,
         "center_order": 2,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "compact",
+          "parameter_summary": "Fixed type E7; rank 7.",
+          "construction_summary": "The simply connected group integrating the compact real form of the simple Lie algebra of type E7.",
+          "global_form_summary": "The connected, simply connected compact group.",
+          "display_order": 173,
+          "classification_cells": [
+            {
+              "series": "E7",
+              "form": "compact",
+              "notation": "{E_7}^{\\mathrm{cpt}}_{\\mathrm{sc}}",
+              "dimension_tex": "133",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 7; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected compact group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6059,7 +7687,27 @@
         "compact": false,
         "centerless": true,
         "global_form": "connected-adjoint",
-        "real_rank": 7
+        "real_rank": 7,
+        "lie_group": {
+          "section": "exceptional",
+          "form": "real",
+          "parameter_summary": "Fixed type E7; rank 7.",
+          "construction_summary": "The identity component of the real Lie-algebra automorphism group of split type E7.",
+          "global_form_summary": "The connected adjoint split real group; this convention does not choose its universal cover.",
+          "display_order": 174,
+          "classification_cells": [
+            {
+              "series": "E7",
+              "form": "split",
+              "notation": "{E_7}^{\\mathrm{split}}_{\\mathrm{ad},0}",
+              "dimension_tex": "133",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 7; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected adjoint split real group; this convention does not choose its universal cover."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6098,7 +7746,27 @@
         "simply_connected": true,
         "compact": false,
         "center_order": 2,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "complex",
+          "parameter_summary": "Fixed type E7; rank 7.",
+          "construction_summary": "The complex simple Lie algebra of type E7 integrated to its simply connected group.",
+          "global_form_summary": "The connected, simply connected complex group.",
+          "display_order": 175,
+          "classification_cells": [
+            {
+              "series": "E7",
+              "form": "complex",
+              "notation": "E_7(\\mathbb C)_{\\mathrm{sc}}",
+              "dimension_tex": "133",
+              "dimension_field": "complex",
+              "parameter_summary": "Fixed rank 7; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected complex group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6135,7 +7803,27 @@
         "simply_connected": true,
         "compact": true,
         "center_order": 1,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "compact",
+          "parameter_summary": "Fixed type E8; rank 8.",
+          "construction_summary": "The simply connected group integrating the compact real form of the simple Lie algebra of type E8.",
+          "global_form_summary": "The connected, simply connected compact group.",
+          "display_order": 176,
+          "classification_cells": [
+            {
+              "series": "E8",
+              "form": "compact",
+              "notation": "{E_8}^{\\mathrm{cpt}}_{\\mathrm{sc}}",
+              "dimension_tex": "248",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 8; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected compact group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6172,7 +7860,27 @@
         "compact": false,
         "centerless": true,
         "global_form": "connected-adjoint",
-        "real_rank": 8
+        "real_rank": 8,
+        "lie_group": {
+          "section": "exceptional",
+          "form": "real",
+          "parameter_summary": "Fixed type E8; rank 8.",
+          "construction_summary": "The identity component of the real Lie-algebra automorphism group of split type E8.",
+          "global_form_summary": "The connected adjoint split real group; this convention does not choose its universal cover.",
+          "display_order": 177,
+          "classification_cells": [
+            {
+              "series": "E8",
+              "form": "split",
+              "notation": "{E_8}^{\\mathrm{split}}_{\\mathrm{ad},0}",
+              "dimension_tex": "248",
+              "dimension_field": "real",
+              "parameter_summary": "Fixed rank 8; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected adjoint split real group; this convention does not choose its universal cover."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6211,7 +7919,27 @@
         "simply_connected": true,
         "compact": false,
         "center_order": 1,
-        "global_form": "simply-connected"
+        "global_form": "simply-connected",
+        "lie_group": {
+          "section": "exceptional",
+          "form": "complex",
+          "parameter_summary": "Fixed type E8; rank 8.",
+          "construction_summary": "The complex simple Lie algebra of type E8 integrated to its simply connected group.",
+          "global_form_summary": "The connected, simply connected complex group.",
+          "display_order": 178,
+          "classification_cells": [
+            {
+              "series": "E8",
+              "form": "complex",
+              "notation": "E_8(\\mathbb C)_{\\mathrm{sc}}",
+              "dimension_tex": "248",
+              "dimension_field": "complex",
+              "parameter_summary": "Fixed rank 8; no free rank parameter.",
+              "specialization": "This cell is the whole fixed catalogue group.",
+              "global_form": "The connected, simply connected complex group."
+            }
+          ]
+        }
       },
       "status": "defined",
       "references": [
@@ -6219,6 +7947,73 @@
           "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
           "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
           "locator": "§40.1, p. 213; §42.2, pp. 225–229; §43.1, Theorem 43.4, pp. 230–231"
+        }
+      ]
+    },
+    {
+      "id": "lg-so-identity-p-q-r",
+      "name": "SO0(p,q)",
+      "notation": "\\operatorname{SO}_0(p,q)",
+      "kind": "lie-group",
+      "family": "connected-special-pseudo-orthogonal-group",
+      "parameters": {
+        "p": "p",
+        "q": "q",
+        "matrix_field": "R"
+      },
+      "knowl": "catalog/lie-groups/so-identity-p-q-r",
+      "dimensions": {
+        "real": "(p+q)(p+q-1)/2"
+      },
+      "category_ids": [
+        "sets",
+        "groups",
+        "topological-groups",
+        "real-lie-groups"
+      ],
+      "constraints": [
+        "p and q are integers >= 0; p+q >= 1"
+      ],
+      "properties": {
+        "connected": true,
+        "compact": "if and only if p=0 or q=0",
+        "lie_group": {
+          "section": "classical",
+          "form": "real",
+          "parameter_summary": "Integers p,q >= 0 with p+q >= 1; p counts negative directions; real matrices and real Lie group.",
+          "construction_summary": "The identity component of the real determinant-one matrix group preserving diag(-I_p,I_q).",
+          "global_form_summary": "The connected matrix group SO0(p,q); a covering group or a central quotient requires a separate choice.",
+          "display_order": 179,
+          "classification_cells": [
+            {
+              "series": "B",
+              "form": "split",
+              "notation": "\\operatorname{SO}_0(r,r+1)",
+              "dimension_tex": "r(2r+1)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 2.",
+              "specialization": "Set p = r and q = r+1 in SO0(p,q).",
+              "global_form": "The connected identity component of the real orthogonal matrix group; this is the matrix group, not its universal covering group."
+            },
+            {
+              "series": "D",
+              "form": "split",
+              "notation": "\\operatorname{SO}_0(r,r)",
+              "dimension_tex": "r(2r-1)",
+              "dimension_field": "real",
+              "parameter_summary": "Integer rank r >= 4.",
+              "specialization": "Set p = r and q = r in SO0(p,q).",
+              "global_form": "The connected identity component of the real orthogonal matrix group; this is the matrix group, not its universal covering group."
+            }
+          ]
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+          "title": "Pavel Etingof, Lie Groups and Lie Algebras (MIT lecture notes)",
+          "locator": "§2.4, Proposition 2.6, pp. 21–22; §6.1, p. 38; §41.2, pp. 219–220. Dimension and noncompactness verified directly in the source knowl."
         }
       ]
     }
@@ -7670,6 +9465,24 @@
       "evidence": {
         "status": "proved-in-text",
         "method": "Explicit matrix or coordinate calculation in the source knowl.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "rel-lg-so-identity-p-q-r-embedding-lg-so-p-q-r",
+      "source": "lg-so-identity-p-q-r",
+      "target": "lg-so-p-q-r",
+      "kind": "embedding",
+      "category_id": "real-lie-groups",
+      "statement": "For the same signature p,q, the identity component includes as an open normal Lie subgroup of the full determinant-one orthogonal matrix group.",
+      "knowl": "catalog/lie-groups/so-identity-p-q-r",
+      "conditions": [
+        "p and q are integers >= 0; p+q >= 1; the same parameters are used in source and target"
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "The identity component is an open normal Lie subgroup; the map is the inclusion of the same matrices.",
         "references": [],
         "lean": null
       }

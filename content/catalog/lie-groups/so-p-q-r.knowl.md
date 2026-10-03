@@ -17,7 +17,7 @@ The first parameter counts negative directions. The form is real symmetric bilin
 
 ## Dimensions and structure
 
-This group has real dimension \((p+q)(p+q-1)/2\). The definition specifies the full matrix group. When both signature entries are positive it has two components; its [[lie-groups/identity-component-of-a-lie-group|identity component]] is written SO⁺(p,q). Determinant one alone does not impose [[differential-geometry/time-orientation|time orientation]].
+This group has real dimension \((p+q)(p+q-1)/2\). The definition specifies the full matrix group. When both signature entries are positive it has two components; its [[catalog/lie-groups/so-identity-p-q-r|identity component]] is written \(\operatorname{SO}_0(p,q)\) or \(\operatorname{SO}^{+}(p,q)\). Determinant one alone does not impose [[differential-geometry/time-orientation|time orientation]].
 
 ## References
 

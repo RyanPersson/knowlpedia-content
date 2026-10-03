@@ -1,0 +1,427 @@
+{
+  "catalog_sha256": "0c1deaabb0b35af5a9098d783167951ca1cbba915fefc9671ed047c3d835f6d9",
+  "checks": [
+    "All179 prior records remain identical after removing only properties.lie_group",
+    "All82 prior relationships preserved in original order",
+    "180 total objects; symbolic SO0(p,q) is a family",
+    "Exactly27 unique type/form cells",
+    "Every classical dimension slice matches family substitution at its boundary and3 further ranks",
+    "Every fixed exceptional dimension matches its owner",
+    "All complex cells own complex dimensions and belong to the complex category",
+    "All compact/split cells use real dimension",
+    "28 absent compactness properties remain explicitly unknown",
+    "All6 new-page knowl links resolve",
+    "Reviewed prerequisites equal the conservative two-definition core",
+    "New prerequisite edges have no reverse edge",
+    "Every recorded source SHA256 matches the final file"
+  ],
+  "classical_dimension_trials": [
+    {
+      "object": "lg-sl-n-r",
+      "series": "A",
+      "form": "split",
+      "rank": 1,
+      "dimension": 3,
+      "field": "real"
+    },
+    {
+      "object": "lg-sl-n-r",
+      "series": "A",
+      "form": "split",
+      "rank": 2,
+      "dimension": 8,
+      "field": "real"
+    },
+    {
+      "object": "lg-sl-n-r",
+      "series": "A",
+      "form": "split",
+      "rank": 4,
+      "dimension": 24,
+      "field": "real"
+    },
+    {
+      "object": "lg-sl-n-r",
+      "series": "A",
+      "form": "split",
+      "rank": 100,
+      "dimension": 10200,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "B",
+      "form": "compact",
+      "rank": 2,
+      "dimension": 10,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "B",
+      "form": "compact",
+      "rank": 3,
+      "dimension": 21,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "B",
+      "form": "compact",
+      "rank": 5,
+      "dimension": 55,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "B",
+      "form": "compact",
+      "rank": 100,
+      "dimension": 20100,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "D",
+      "form": "compact",
+      "rank": 4,
+      "dimension": 28,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "D",
+      "form": "compact",
+      "rank": 5,
+      "dimension": 45,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "D",
+      "form": "compact",
+      "rank": 7,
+      "dimension": 91,
+      "field": "real"
+    },
+    {
+      "object": "lg-spin-n-r",
+      "series": "D",
+      "form": "compact",
+      "rank": 100,
+      "dimension": 19900,
+      "field": "real"
+    },
+    {
+      "object": "lg-sl-n-c",
+      "series": "A",
+      "form": "complex",
+      "rank": 1,
+      "dimension": 3,
+      "field": "complex"
+    },
+    {
+      "object": "lg-sl-n-c",
+      "series": "A",
+      "form": "complex",
+      "rank": 2,
+      "dimension": 8,
+      "field": "complex"
+    },
+    {
+      "object": "lg-sl-n-c",
+      "series": "A",
+      "form": "complex",
+      "rank": 4,
+      "dimension": 24,
+      "field": "complex"
+    },
+    {
+      "object": "lg-sl-n-c",
+      "series": "A",
+      "form": "complex",
+      "rank": 100,
+      "dimension": 10200,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "B",
+      "form": "complex",
+      "rank": 2,
+      "dimension": 10,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "B",
+      "form": "complex",
+      "rank": 3,
+      "dimension": 21,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "B",
+      "form": "complex",
+      "rank": 5,
+      "dimension": 55,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "B",
+      "form": "complex",
+      "rank": 100,
+      "dimension": 20100,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "D",
+      "form": "complex",
+      "rank": 4,
+      "dimension": 28,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "D",
+      "form": "complex",
+      "rank": 5,
+      "dimension": 45,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "D",
+      "form": "complex",
+      "rank": 7,
+      "dimension": 91,
+      "field": "complex"
+    },
+    {
+      "object": "lg-spin-n-c",
+      "series": "D",
+      "form": "complex",
+      "rank": 100,
+      "dimension": 19900,
+      "field": "complex"
+    },
+    {
+      "object": "lg-su-n",
+      "series": "A",
+      "form": "compact",
+      "rank": 1,
+      "dimension": 3,
+      "field": "real"
+    },
+    {
+      "object": "lg-su-n",
+      "series": "A",
+      "form": "compact",
+      "rank": 2,
+      "dimension": 8,
+      "field": "real"
+    },
+    {
+      "object": "lg-su-n",
+      "series": "A",
+      "form": "compact",
+      "rank": 4,
+      "dimension": 24,
+      "field": "real"
+    },
+    {
+      "object": "lg-su-n",
+      "series": "A",
+      "form": "compact",
+      "rank": 100,
+      "dimension": 10200,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-n",
+      "series": "C",
+      "form": "compact",
+      "rank": 3,
+      "dimension": 21,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-n",
+      "series": "C",
+      "form": "compact",
+      "rank": 4,
+      "dimension": 36,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-n",
+      "series": "C",
+      "form": "compact",
+      "rank": 6,
+      "dimension": 78,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-n",
+      "series": "C",
+      "form": "compact",
+      "rank": 100,
+      "dimension": 20100,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-2n-r",
+      "series": "C",
+      "form": "split",
+      "rank": 3,
+      "dimension": 21,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-2n-r",
+      "series": "C",
+      "form": "split",
+      "rank": 4,
+      "dimension": 36,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-2n-r",
+      "series": "C",
+      "form": "split",
+      "rank": 6,
+      "dimension": 78,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-2n-r",
+      "series": "C",
+      "form": "split",
+      "rank": 100,
+      "dimension": 20100,
+      "field": "real"
+    },
+    {
+      "object": "lg-sp-2n-c",
+      "series": "C",
+      "form": "complex",
+      "rank": 3,
+      "dimension": 21,
+      "field": "complex"
+    },
+    {
+      "object": "lg-sp-2n-c",
+      "series": "C",
+      "form": "complex",
+      "rank": 4,
+      "dimension": 36,
+      "field": "complex"
+    },
+    {
+      "object": "lg-sp-2n-c",
+      "series": "C",
+      "form": "complex",
+      "rank": 6,
+      "dimension": 78,
+      "field": "complex"
+    },
+    {
+      "object": "lg-sp-2n-c",
+      "series": "C",
+      "form": "complex",
+      "rank": 100,
+      "dimension": 20100,
+      "field": "complex"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "B",
+      "form": "split",
+      "rank": 2,
+      "dimension": 10,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "B",
+      "form": "split",
+      "rank": 3,
+      "dimension": 21,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "B",
+      "form": "split",
+      "rank": 5,
+      "dimension": 55,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "B",
+      "form": "split",
+      "rank": 100,
+      "dimension": 20100,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "D",
+      "form": "split",
+      "rank": 4,
+      "dimension": 28,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "D",
+      "form": "split",
+      "rank": 5,
+      "dimension": 45,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "D",
+      "form": "split",
+      "rank": 7,
+      "dimension": 91,
+      "field": "real"
+    },
+    {
+      "object": "lg-so-identity-p-q-r",
+      "series": "D",
+      "form": "split",
+      "rank": 100,
+      "dimension": 19900,
+      "field": "real"
+    }
+  ],
+  "catalog_validation": {
+    "command": "python3 scripts/catalog.py validate --content-package ../knowlpedia-content",
+    "status": "valid",
+    "counts": {
+      "objects": 659,
+      "categories": 42,
+      "relationships": 689,
+      "morphism_spaces": 175,
+      "magic_squares": 1,
+      "views": 3288
+    }
+  },
+  "new_knowl_scope_audit": {
+    "command": ".venv/bin/python scripts/audit_knowl_scope.py ../knowlpedia-content/content/catalog/lie-groups/so-identity-p-q-r.knowl.md --format jsonl",
+    "findings": 0
+  },
+  "interlink_summary": {
+    "initial_candidates": 3,
+    "accepted": 2,
+    "rejected_repeated_link": 1,
+    "remaining_candidates": 1
+  },
+  "limits": "Arithmetic spot checks verify substitutions, not the classification theorem. Mathematical evidence and exact literature locators are recorded separately. Rendering and browser verification belong to the integrated root/UI lanes."
+}

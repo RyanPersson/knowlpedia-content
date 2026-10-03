@@ -10,13 +10,13 @@ prerequisites = []
 generated_by = "scripts/generate_catalog_indexes.py"
 +++
 
-This catalogue contains **658 separately identified objects and parameterized families**, **42 category conventions**, **688 recorded relationships**, and **175 Hom/End/Aut records**. Real and complex versions, split and compact forms, and the requested small sizes are explicit entries. A family entry states its parameter restrictions; it does not silently treat every parameter value as the same object.
+This catalogue contains **659 separately identified objects and parameterized families**, **42 category conventions**, **689 recorded relationships**, and **175 Hom/End/Aut records**. Real and complex versions, split and compact forms, and the requested small sizes are explicit entries. A family entry states its parameter restrictions; it does not silently treat every parameter value as the same object.
 
-[Open the category explorer](/catalog/explorer/) · [[catalog/created-knowls|List of newly created knowls]] · [Explore the finite-group table](/catalog/finite-groups/table/)
+[Open the category explorer](/catalog/explorer/) · [[catalog/created-knowls|List of newly created knowls]] · [Explore the finite-group table](/catalog/finite-groups/table/) · [Explore the Lie-group table](/catalog/lie-groups/table/)
 
 ## Long lists of objects
 
-- [[catalog/lie-groups-index|Lie groups catalogue]] — 179 entries.
+- [[catalog/lie-groups-index|Lie groups catalogue]] — 180 entries.
 - [[catalog/lie-algebras-index|Lie algebras catalogue]] — 152 entries.
 - [[catalog/algebras-index|Scalar, associative, and Jordan algebras catalogue]] — 109 entries.
 - [[catalog/arithmetic-index|Fields, local objects, and orders catalogue]] — 69 entries.

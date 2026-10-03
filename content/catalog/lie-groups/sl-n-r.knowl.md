@@ -17,7 +17,7 @@ with matrix multiplication and the inherited real [[fiber-bundles/lie-group|Lie 
 
 ## Dimensions and structure
 
-This group has real dimension \(n^2-1\). Differentiating the determinant at the identity gives the trace-zero tangent algebra. The center consists of scalar matrices \(\lambda I\) with \(\lambda^{n}=1\). It is connected but is not [[topology/simply-connected-space|simply connected]] for matrix size at least two; its noncompactness distinguishes it from the compact [[lie-groups/special-unitary-group|special unitary group]].
+This group has real dimension \(n^2-1\). Differentiating the determinant at the identity gives the trace-zero tangent algebra. The center consists of scalar matrices \(\lambda I\) with \(\lambda^{n}=1\). It is connected for every \(n\). For \(n\ge2\), it is noncompact and is not [[topology/simply-connected-space|simply connected]], distinguishing it from the compact [[lie-groups/special-unitary-group|special unitary group]]. For \(n=1\), it is the trivial group and is therefore compact and simply connected.
 
 The inclusion sends a determinant-one matrix to the same invertible matrix; it is injective and smooth. See [[catalog/lie-groups/gl-n-r|\(\operatorname{GL}(n,\mathbb R)\)]].
 

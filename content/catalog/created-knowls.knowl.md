@@ -10,7 +10,7 @@ prerequisites = []
 generated_by = "scripts/generate_catalog_indexes.py"
 +++
 
-This batch creates **676 catalogue knowls and navigation pages**, including this list. Existing canonical knowls are reused by many additional object records; the [[catalog|object catalogue]] includes both new and reused entries.
+This batch creates **678 catalogue knowls and navigation pages**, including this list. Existing canonical knowls are reused by many additional object records; the [[catalog|object catalogue]] includes both new and reused entries.
 
 [Open the category explorer](/catalog/explorer/) · [[catalog|Catalogue overview]]
 
@@ -510,7 +510,7 @@ The separate [[knowlification/orders-and-fractional-ideals-index|orders and frac
 - [[catalog/lie-algebras/u-3|u(3) — compact unitary Lie algebra]]
 - [[catalog/lie-algebras/u-p-q-r|u(p,q) — indefinite unitary real Lie algebra]]
 
-## Lie groups (161)
+## Lie groups (162)
 
 - [[catalog/lie-groups/additive-1-c|Additive C^1]]
 - [[catalog/lie-groups/additive-2-c|Additive C^2]]
@@ -561,6 +561,7 @@ The separate [[knowlification/orders-and-fractional-ideals-index|orders and frac
 - [[catalog/lie-groups/heisenberg-2-r|Heisenberg H_5(R)]]
 - [[catalog/lie-groups/heisenberg-3-c|Heisenberg H_7(C)]]
 - [[catalog/lie-groups/heisenberg-3-r|Heisenberg H_7(R)]]
+- [[catalog/lie-groups/so-identity-p-q-r|Identity component SO0(p,q)]]
 - [[catalog/lie-groups/o-1-1-r|O(1,1)]]
 - [[catalog/lie-groups/o-1-2-r|O(1,2)]]
 - [[catalog/lie-groups/o-1-3-r|O(1,3)]]
@@ -686,7 +687,7 @@ The separate [[knowlification/orders-and-fractional-ideals-index|orders and frac
 - [[catalog/morphisms/jordan-maps-from-the-scalar-algebra|Jordan maps from the scalar algebra are idempotents]]
 - [[catalog/morphisms/linear-endomorphisms-of-sl2-complex|Linear endomorphisms of sl(2,C) after forgetting its bracket]]
 
-## Navigation (10)
+## Navigation (11)
 
 - [[catalog/finite-groups|A table of finite groups]]
 - [[catalog/finite-elementary-index|Elementary finite groups and families catalogue]]
@@ -696,6 +697,7 @@ The separate [[knowlification/orders-and-fractional-ideals-index|orders and frac
 - [[catalog/lie-groups-index|Lie groups catalogue]]
 - [[catalog/magic-square-index|Magic-square outputs and triality representations catalogue]]
 - [[catalog|Mathematical object catalogue]]
+- [[catalog/lie-groups-table-guide|Reading the Lie-group table]]
 - [[catalog/algebras-index|Scalar, associative, and Jordan algebras catalogue]]
 - [[catalog/finite-sporadic-index|Sporadic finite simple groups catalogue]]
 

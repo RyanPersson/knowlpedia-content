@@ -1,0 +1,35 @@
+{
+  "core_sources": [
+    {
+      "path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "source_sha256": "7664c017d855850a1d3af82dd37b94d479db532e6605e698b357691f3b732738",
+      "section_contents_preserved": true
+    },
+    {
+      "path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "source_sha256": "b631788e62d92571e6dd11e985c510a16e26554a5c98de394322c85ea50c5983",
+      "section_contents_preserved": true
+    },
+    {
+      "path": "content/lie-groups/compact-symplectic-group.knowl.md",
+      "source_sha256": "99a784a1fe980ef67f068f3bd1151bd44ba2356e70fa504e5b1598ad1fb0e713",
+      "section_contents_preserved": true
+    },
+    {
+      "path": "content/catalog/lie-groups/sl-n-r.knowl.md",
+      "source_sha256": "554cc0518a54e2da22305b2fe9d704a61123a8d02e8ca4603049ff0098f0ee35",
+      "section_contents_preserved": true
+    }
+  ],
+  "scope_audit_findings_in_core_sources": 0,
+  "unchanged_baseline_section_finding": {
+    "path": "content/fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection.knowl.md",
+    "baseline": "f01eb0a8",
+    "byte_identical": true
+  },
+  "external_link_audit": {
+    "files": 4948,
+    "testing_files": 10,
+    "passed": true
+  }
+}

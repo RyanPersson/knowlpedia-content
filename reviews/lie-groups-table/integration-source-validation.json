@@ -1,0 +1,93 @@
+{
+  "paths": [
+    {
+      "id": "catalog",
+      "path": "content/catalog.knowl.md",
+      "source_sha256": "1927c378213024826a7ffecfafa5a11c52cddc1f1ea23df476ea9297a5ba83e9",
+      "section_preservation": true
+    },
+    {
+      "id": "catalog/created-knowls",
+      "path": "content/catalog/created-knowls.knowl.md",
+      "source_sha256": "71113b6697b0a2c657adfdf9931f2f0b849fd1c95d942388ce147f9d555f963e",
+      "section_preservation": true
+    },
+    {
+      "id": "catalog/lie-groups-index",
+      "path": "content/catalog/lie-groups-index.knowl.md",
+      "source_sha256": "55bc66a6d6d2a654bef15ba305317a1a736caa8125f4688ca2c98a71def5a876",
+      "section_preservation": true
+    },
+    {
+      "id": "catalog/lie-groups-table-guide",
+      "path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "source_sha256": "7664c017d855850a1d3af82dd37b94d479db532e6605e698b357691f3b732738",
+      "section_preservation": true
+    },
+    {
+      "id": "catalog/lie-groups/sl-n-r",
+      "path": "content/catalog/lie-groups/sl-n-r.knowl.md",
+      "source_sha256": "554cc0518a54e2da22305b2fe9d704a61123a8d02e8ca4603049ff0098f0ee35",
+      "section_preservation": true
+    },
+    {
+      "id": "catalog/lie-groups/so-identity-p-q-r",
+      "path": "content/catalog/lie-groups/so-identity-p-q-r.knowl.md",
+      "source_sha256": "2961e6f13155b5fc9f44a8d3525383ee22e9a56f2f36685707b1e8e91c793729",
+      "section_preservation": true
+    },
+    {
+      "id": "catalog/lie-groups/so-p-q-r",
+      "path": "content/catalog/lie-groups/so-p-q-r.knowl.md",
+      "source_sha256": "ac129145675f119706d1247215adbbf915c760d060b5ab0bdaed95928023e7bd",
+      "section_preservation": true
+    },
+    {
+      "id": "lie-groups/classification-simple-lie-algebras",
+      "path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "source_sha256": "b631788e62d92571e6dd11e985c510a16e26554a5c98de394322c85ea50c5983",
+      "section_preservation": true
+    },
+    {
+      "id": "lie-groups/compact-symplectic-group",
+      "path": "content/lie-groups/compact-symplectic-group.knowl.md",
+      "source_sha256": "99a784a1fe980ef67f068f3bd1151bd44ba2356e70fa504e5b1598ad1fb0e713",
+      "section_preservation": true
+    }
+  ],
+  "dependency_graph": {
+    "cycles": 0,
+    "edges": 15447,
+    "invalid": 0,
+    "missing_targets": 0,
+    "nodes": 4886
+  },
+  "review_records_checked": 216,
+  "all_changed_sources_have_current_reviews": true,
+  "python_tests": 226,
+  "development": {
+    "knowls": 4898,
+    "full_render_pass": true
+  },
+  "production": {
+    "knowls": 4886,
+    "full_render_profile_diagrams_pass": true
+  },
+  "final_ui_refresh": {
+    "asset_version": "9699454f3da7",
+    "profiles": [
+      "development",
+      "production"
+    ],
+    "targeted_render_pass": true
+  },
+  "regressions": {
+    "finite_table_monster_detail": true,
+    "explorer_SO0_embedding": true
+  },
+  "restored_reviews": {
+    "catalog": 521,
+    "transcript-orders": 51,
+    "finite-groups": 159
+  }
+}

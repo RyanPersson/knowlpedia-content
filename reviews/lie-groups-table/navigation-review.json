@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "catalog",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "1927c378213024826a7ffecfafa5a11c52cddc1f1ea23df476ea9297a5ba83e9",
+      "targeted_claims": "Generated navigation, object/source counts, and links for the Lie-group table follow-up.",
+      "evidence": "Regenerated with scripts/generate_catalog_indexes.py from validated catalogue data: 659 total objects and 180 Lie-group entries. Read the diff: the main catalogue links to the new table, the Lie-group list includes SO0(p,q), and the created-knowl index includes both new catalogue pages. Source count is baseline-relative; no new mathematical theorem is claimed.",
+      "sources": []
+    },
+    {
+      "id": "catalog/created-knowls",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "71113b6697b0a2c657adfdf9931f2f0b849fd1c95d942388ce147f9d555f963e",
+      "targeted_claims": "Generated navigation, object/source counts, and links for the Lie-group table follow-up.",
+      "evidence": "Regenerated with scripts/generate_catalog_indexes.py from validated catalogue data: 659 total objects and 180 Lie-group entries. Read the diff: the main catalogue links to the new table, the Lie-group list includes SO0(p,q), and the created-knowl index includes both new catalogue pages. Source count is baseline-relative; no new mathematical theorem is claimed.",
+      "sources": []
+    },
+    {
+      "id": "catalog/lie-groups-index",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "55bc66a6d6d2a654bef15ba305317a1a736caa8125f4688ca2c98a71def5a876",
+      "targeted_claims": "Generated navigation, object/source counts, and links for the Lie-group table follow-up.",
+      "evidence": "Regenerated with scripts/generate_catalog_indexes.py from validated catalogue data: 659 total objects and 180 Lie-group entries. Read the diff: the main catalogue links to the new table, the Lie-group list includes SO0(p,q), and the created-knowl index includes both new catalogue pages. Source count is baseline-relative; no new mathematical theorem is claimed. Verified SO0(p,q) is labelled a parameterized family, not a fixed group.",
+      "sources": []
+    }
+  ]
+}

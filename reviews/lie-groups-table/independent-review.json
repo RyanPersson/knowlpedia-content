@@ -1,0 +1,1573 @@
+{
+  "id": "lie-groups-table-independent-mathematical-review",
+  "reviewer": "lie_table_review",
+  "date": "2026-10-02",
+  "outcome": "pass-targeted-after-corrections",
+  "scope": "Independent reading of the 180 new display-metadata records, all 27 classification cells, their 24 owning definitions, the table guide and classification theorem, and the new SO0 inclusion. This is a bounded mathematical review, not a full audit of all prerequisite sources or all existing catalogue claims.",
+  "catalog_path": "content/catalog/data/lie-groups.json",
+  "catalog_sha256": "0c1deaabb0b35af5a9098d783167951ca1cbba915fefc9671ed047c3d835f6d9",
+  "baseline_content_commit": "f01eb0a8",
+  "canonical_record_hash_format": "SHA-256 of UTF-8 JSON, sort_keys=True, separators=(comma,colon), ensure_ascii=False.",
+  "sources": [
+    {
+      "id": "etingof",
+      "title": "Pavel Etingof, Lie Groups and Lie Algebras, MIT lecture notes",
+      "url": "https://ocw.mit.edu/courses/18-755-lie-groups-and-lie-algebras-ii-spring-2024/mit18_755_s24_lec_full.pdf",
+      "locators": [
+        "Sections 6.1–6.3: real, complex, and quaternionic matrix groups",
+        "Section 21.3 and Sections 23.3–23.6: exceptional root counts",
+        "Section 23.8, Remark 23.18: low-rank coincidences",
+        "Sections 31.2–31.3, Examples 31.3 and 31.10: spin groups and small-rank maps",
+        "Section 41.1, Exercise 41.3(iii), and Section 41.2: compact and split classical forms",
+        "Sections 43.1–43.3: compact and complex global forms; split real groups need not be simply connected"
+      ],
+      "access": "Read the MIT-hosted PDF in this review."
+    },
+    {
+      "id": "knapp",
+      "title": "Anthony W. Knapp, Lie Groups Beyond an Introduction, second edition",
+      "url": "https://www.math.stonybrook.edu/~aknapp/download/Beyond2.pdf",
+      "locators": [
+        "Section I.17, equations (1.135), (1.138), (1.141)",
+        "Propositions 1.136 and 1.139: compact SU and Sp; quaternionic-to-complex realization",
+        "Proposition 1.145: connectedness and the two components of SO(p,q) for p,q>0"
+      ],
+      "access": "Read the author-hosted PDF in this review. Knapp indexes Sp by rank; catalogue uses complex/real matrix size."
+    }
+  ],
+  "mathematical_checks": [
+    {
+      "claim": "Distinct classical simple types begin at A1, B2, C3, D4.",
+      "reason": "B1=C1=A1, B2=C2 and D3=A3 are duplicates; D2 is semisimple with two A1 factors.",
+      "sources": [
+        "etingof"
+      ]
+    },
+    {
+      "claim": "The classical cell dimensions are r(r+2), r(2r+1), r(2r+1), r(2r-1).",
+      "reason": "Independent tangent-space count: trace zero removes one scalar from (r+1)^2; skew matrices in size 2r+1 or 2r have N(N-1)/2 parameters; symplectic block matrices have r^2+2r(r+1)/2 parameters. Substitution into the owner dimensions agrees."
+    },
+    {
+      "claim": "Exceptional dimensions are 14, 52, 78, 133 and 248 in G2,F4,E6,E7,E8 order.",
+      "reason": "Rank plus root count: 2+12, 4+48, 6+72, 7+126, 8+240.",
+      "sources": [
+        "etingof"
+      ]
+    },
+    {
+      "claim": "Complex cells report complex dimension; underlying real dimension is twice as large.",
+      "reason": "Each complex tangent coordinate contributes two real coordinates. Ambient complex or quaternionic matrices do not by themselves make U, SU, Sp, U(p,q), SU(p,q), Sp(p,q), or SL(n,H) complex Lie groups."
+    },
+    {
+      "claim": "Compact and complex cells select simply connected groups in the stated rank ranges. Split cells select SL and Sp matrix groups, SO0 matrix groups, or connected adjoint exceptional groups.",
+      "reason": "The table does not promote algebraic simple connectivity to topological simple connectivity and does not describe every split representative as adjoint.",
+      "sources": [
+        "etingof",
+        "knapp"
+      ]
+    },
+    {
+      "claim": "SO0(p,q) is the identity component of full SO(p,q), with p negative and q positive directions.",
+      "reason": "The new definition states p,q>=0 and p+q>=1. Its tangent-space count is correct. Compactness at pq=0 follows from SO(p+q); an explicit unbounded boost path proves noncompactness when pq>0. Its same-signature inclusion is an embedding, not an isomorphism for pq>0."
+    },
+    {
+      "claim": "The broad catalogue summaries retain full groups, scalar quotients, semidirect products, direct products, and Clifford coverings as distinct constructions.",
+      "reason": "Read all 180 metadata records. Quaternionic and pseudo-unitary fields, symplectic pair-vs-matrix-size parameters, Spin(1)/Spin(2) boundary cases, and n=1 trivial groups do not receive false universal simply-connected or noncompact labels."
+    },
+    {
+      "claim": "Selected low-rank isomorphisms retain their proper global forms and relation kinds.",
+      "reason": "Inspected the Spin(3/4/5/6) compact/complex isomorphisms, SU(2)->SO(3) covering, SL(2,C)->SO0(1,3) covering and PSL(2,C) real Lorentz isomorphism. Lie-algebra coincidences are not substituted for group isomorphisms.",
+      "sources": [
+        "etingof"
+      ]
+    }
+  ],
+  "resolved_findings": [
+    {
+      "path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "finding": "The exactly-one statement previously included both B2 and C2.",
+      "resolution": "Root changed C to rank >=3 and explained the B2=C2 duplication.",
+      "found_by": "root"
+    },
+    {
+      "path": "content/lie-groups/compact-symplectic-group.knowl.md",
+      "finding": "The owner incorrectly claimed compact Sp(n) and split Sp(2n,R) have different real dimensions, and mixed the rank-indexed complex Sp notation with the catalogue convention.",
+      "resolution": "Both dimensions are now n(2n+1); complex realization now uses Sp(2n,C) and explicitly identifies the matrix-size convention.",
+      "found_by": "independent review"
+    },
+    {
+      "path": "content/catalog/lie-groups/sl-n-r.knowl.md",
+      "finding": "Unqualified noncompactness incorrectly included the n=1 trivial group.",
+      "resolution": "Noncompactness and failure of simple connectivity are restricted to n>=2; n=1 is explicitly trivial, compact, simply connected.",
+      "found_by": "independent review"
+    },
+    {
+      "path": "content/catalog/data/lie-groups.json",
+      "finding": "Five compact exceptional construction summaries described the compact Lie algebra instead of its group.",
+      "resolution": "Each now explicitly describes the simply connected group integrating that compact real form.",
+      "found_by": "independent review"
+    },
+    {
+      "path": "content/catalog/data/lie-groups.json",
+      "object_id": "lg-so-identity-p-q-r",
+      "finding": "The new symbolic-parameter SO0(p,q) record used status=defined.",
+      "resolution": "Changed status to family, consistent with its symbolic p,q parameters and the catalogue family distinction. Mathematical metadata, cells and source pages are unchanged.",
+      "found_by": "root integration",
+      "independent_verification": "Reversing exactly this one status string reproduces the previous whole-file SHA-256 f3f8ecb211127f99e0600bb5a8f09c2770131f9564c84a007f8f11ba6abaa27a. All 180 metadata hashes, all 27 cell hashes and all 27 source-page hashes are unchanged; only the new SO0 object hash changes."
+    }
+  ],
+  "preservation_checks": {
+    "prior_object_count": 179,
+    "prior_object_values_unchanged_except_added_lie_group": true,
+    "prior_relationship_count": 82,
+    "prior_relationship_values_unchanged": true,
+    "added_object_ids": [
+      "lg-so-identity-p-q-r"
+    ],
+    "added_relationship_ids": [
+      "rel-lg-so-identity-p-q-r-embedding-lg-so-p-q-r"
+    ],
+    "cells": 27,
+    "owners": 24,
+    "forms": {
+      "split": 9,
+      "compact": 9,
+      "complex": 9
+    }
+  },
+  "unknowns_and_exclusions": {
+    "compactness_not_recorded_count": 28,
+    "compactness_not_recorded_object_ids": [
+      "lg-additive-1-r",
+      "lg-heisenberg-1-r",
+      "lg-affine-1-r",
+      "lg-additive-2-r",
+      "lg-heisenberg-2-r",
+      "lg-affine-2-r",
+      "lg-additive-3-r",
+      "lg-heisenberg-3-r",
+      "lg-affine-3-r",
+      "lg-additive-n-r",
+      "lg-heisenberg-n-r",
+      "lg-affine-n-r",
+      "lg-multiplicative-r",
+      "lg-additive-1-c",
+      "lg-heisenberg-1-c",
+      "lg-affine-1-c",
+      "lg-additive-2-c",
+      "lg-heisenberg-2-c",
+      "lg-affine-2-c",
+      "lg-additive-3-c",
+      "lg-heisenberg-3-c",
+      "lg-affine-3-c",
+      "lg-additive-n-c",
+      "lg-heisenberg-n-c",
+      "lg-affine-n-c",
+      "lg-multiplicative-c",
+      "lg-positive-r",
+      "lg-sl-4-c"
+    ],
+    "treatment": "Absent compactness stays absent; it is not interpreted as false. Parameter-dependent properties remain strings with their original conditions. No attempt was made to fill every missing property.",
+    "not_certified": [
+      "All real forms or all global forms of every simple Lie algebra",
+      "Representation-theoretic, stabilizer, or paper-specific claims elsewhere in owning knowls",
+      "Full prerequisite-source chains",
+      "All older relationship proofs or evidence labels",
+      "Browser rendering, accessibility, tests, or production builds"
+    ],
+    "build_is_not_mathematical_proof": true
+  },
+  "source_files": [
+    {
+      "path": "content/catalog/lie-groups/e6-complex.knowl.md",
+      "source_sha256": "666f68f9317a91ec210c939322344f414b28acfafa8e7ead924df12d1e38a176",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/e6-split.knowl.md",
+      "source_sha256": "66d0e8fbd8372d270f61f8216d212d776dbad612ec4935821b7611f6c23dcd12",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/e7-complex.knowl.md",
+      "source_sha256": "025cba6aed9afe83fd14d15821768de98e85f2b81815c447e7757664fa65245d",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/e7-split.knowl.md",
+      "source_sha256": "f6a62096dfc3f7ff94b903c74d1962692e5993bf6c3090ced6f48d279c6df3e6",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/e8-complex.knowl.md",
+      "source_sha256": "7461b97d58034454d91bfb4d3f9c0e748fdae84f81558d34c41666f70a0108b8",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/e8-split.knowl.md",
+      "source_sha256": "4429bec482bb26983d31273caf3c4ecdfdffe26f97ed5cc3f59d9b9497e6d64f",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/f4-complex.knowl.md",
+      "source_sha256": "08d61e704f0a0c379aa02f51b53644dd9682b64efc707b10d64a6582fb77212d",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/f4-split.knowl.md",
+      "source_sha256": "0270e8f6e49582cb90176d19fcc16db66a62ee699bd05c3a2b3ccfa741a2de97",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/g2-complex.knowl.md",
+      "source_sha256": "5f6b93cf9fe0468ffce79a5d1696c7b28e6d1d1504ac4a8f95d0c9082e54ce66",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/g2-split.knowl.md",
+      "source_sha256": "30c35debe37086bd85044a2fa5a026ddc0169eb452e21e3cf7d0d99af46df25e",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/sl-n-c.knowl.md",
+      "source_sha256": "4bfbbe467193fdcd805a46504326b90a3d51e12599f52a791781881c3f31f749",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/sl-n-r.knowl.md",
+      "source_sha256": "554cc0518a54e2da22305b2fe9d704a61123a8d02e8ca4603049ff0098f0ee35",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/so-identity-p-q-r.knowl.md",
+      "source_sha256": "2961e6f13155b5fc9f44a8d3525383ee22e9a56f2f36685707b1e8e91c793729",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/so-p-q-r.knowl.md",
+      "source_sha256": "ac129145675f119706d1247215adbbf915c760d060b5ab0bdaed95928023e7bd",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/sp-2n-c.knowl.md",
+      "source_sha256": "bb1d118e42d4c75a19fc095a3bc125f5f710f4d283180875e3e884abc2304012",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/sp-2n-r.knowl.md",
+      "source_sha256": "0beea16712550d1690da545552c141ed8b24fae2e4d0e5f1fe3d3b9d8e3e5500",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/spin-n-c.knowl.md",
+      "source_sha256": "dc6e920da704a6581df5081cc5dabc239ac0020cb1171006ca4f60145c406869",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups/spin-n-r.knowl.md",
+      "source_sha256": "fc4e138ea585814090c8fa3b7612bafec5254cce10b7c44597f940434fa81eea",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/catalog/lie-groups-table-guide.knowl.md",
+      "source_sha256": "7664c017d855850a1d3af82dd37b94d479db532e6605e698b357691f3b732738",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "source_sha256": "b631788e62d92571e6dd11e985c510a16e26554a5c98de394322c85ea50c5983",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-e6.knowl.md",
+      "source_sha256": "2447cfdfcb17f52ef7ee4e122465d1ac9bbdef2082a59d4484d557fa8394c47c",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-e7.knowl.md",
+      "source_sha256": "20e6634a700e99eb4aff7732a2a9ee43821ea08b98ede5886a40261df76818e5",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-e8.knowl.md",
+      "source_sha256": "8863f44283a98c519bc64768431f511a95f91fb0f2fac9c91d462348007d8951",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-f4.knowl.md",
+      "source_sha256": "485856fe883aa186a02afa8ae971f23a53121287be53d7efca36e496c867d130",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-g2.knowl.md",
+      "source_sha256": "f6ed34bc6ca539dfbf3287c0bda8adb269c23d5722b27d50707006b9a8a55d6f",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/compact-symplectic-group.knowl.md",
+      "source_sha256": "99a784a1fe980ef67f068f3bd1151bd44ba2356e70fa504e5b1598ad1fb0e713",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    },
+    {
+      "path": "content/lie-groups/special-unitary-group.knowl.md",
+      "source_sha256": "5ada43a768b1ca9b06658e57f1d25bd6d03fc075807f376f799bea7cb3abb95d",
+      "scope": "Table-relevant definition, dimension, field, parameter and global-form statements only."
+    }
+  ],
+  "classification_cells": [
+    {
+      "series": "A",
+      "form": "compact",
+      "owner": "lg-su-n",
+      "cell_sha256": "116c2078214b80eba3c7556ab7b02c9581766ea06ca98fb9dee9a56c1a860da7",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "A",
+      "form": "complex",
+      "owner": "lg-sl-n-c",
+      "cell_sha256": "0ce821afb58455a26904dc27d1bdefb657eb93c27a0abda772454bd3cdb8f09e",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "A",
+      "form": "split",
+      "owner": "lg-sl-n-r",
+      "cell_sha256": "81517588e648f16f27d569811c997f9a460a32ae344523657d310615ed36b460",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "B",
+      "form": "compact",
+      "owner": "lg-spin-n-r",
+      "cell_sha256": "13fcad68dd9c7f90078ab49aa9f80706f2a6511f7db3f88ab341097190523a08",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "B",
+      "form": "complex",
+      "owner": "lg-spin-n-c",
+      "cell_sha256": "e3e394a53fd321712cd4d126f34a2d74cf5f6ef9d9d3203ef48311abe86caa2b",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "B",
+      "form": "split",
+      "owner": "lg-so-identity-p-q-r",
+      "cell_sha256": "409ca40c2229b0c8b6f2ff352fb9db594594b35256abdf0c5fff7831782df4ab",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "C",
+      "form": "compact",
+      "owner": "lg-sp-n",
+      "cell_sha256": "d5556d487a3c256cd3b387e37714f23a1b56240109af3572dc149b870d5e1d16",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "C",
+      "form": "complex",
+      "owner": "lg-sp-2n-c",
+      "cell_sha256": "ed3cc6c8cc7a46a4477c384941ec50f0d01728d6f5d6213d59204cbdaffc5233",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "C",
+      "form": "split",
+      "owner": "lg-sp-2n-r",
+      "cell_sha256": "a973ae46ba705e46e6eafb4d6a45db357076f8e035dfe1791d1e54eae7b18ec6",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "D",
+      "form": "compact",
+      "owner": "lg-spin-n-r",
+      "cell_sha256": "442232e0c044908ed03a2e21cddc49b4780a6c8524674844805d8f05bd1d5cbd",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "D",
+      "form": "complex",
+      "owner": "lg-spin-n-c",
+      "cell_sha256": "4f845ebcb40606a888405c771f3303237a5982053bcaaba99a9d47bf8ccbbfae",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "D",
+      "form": "split",
+      "owner": "lg-so-identity-p-q-r",
+      "cell_sha256": "a2bbd2343af06191e866720cd211a2fcbf902e26e17adf29ae12f373d5bd08d9",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E6",
+      "form": "compact",
+      "owner": "lg-e6-compact",
+      "cell_sha256": "183fd88c22c93b78b3b7a70dd67f8566aa1e0903ed8f2971e321614065827aca",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E6",
+      "form": "complex",
+      "owner": "lg-e6-complex",
+      "cell_sha256": "57e46070fc34b947dfecac4f31ae8765e10ce81613c15ddbd24f0dd31ad80118",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E6",
+      "form": "split",
+      "owner": "lg-e6-split",
+      "cell_sha256": "3a2e679af5fd8e7626b6834db33355108fdb2c133f9dbcf42cb430f1bc93bd06",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E7",
+      "form": "compact",
+      "owner": "lg-e7-compact",
+      "cell_sha256": "b9796dab700de7ad1d3759dab37aeed85c4a32ce5fd8d65b61838607c6a2cd05",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E7",
+      "form": "complex",
+      "owner": "lg-e7-complex",
+      "cell_sha256": "ece3643ddd04a9fe1f2a16f216614a94b192b40b1b048958349630430a13054e",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E7",
+      "form": "split",
+      "owner": "lg-e7-split",
+      "cell_sha256": "8abeef17c94325919d9f14daa2ce13642983e7580e8184c6296362619e2896d5",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E8",
+      "form": "compact",
+      "owner": "lg-e8-compact",
+      "cell_sha256": "b48b366e2888bb120f69165795f7985125758c24bfe729bd7a5d3508e3dae506",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E8",
+      "form": "complex",
+      "owner": "lg-e8-complex",
+      "cell_sha256": "a9c2bc80f1a30fa4f55f9902ea89777bce9e2fe913697e756af65c15f146f834",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "E8",
+      "form": "split",
+      "owner": "lg-e8-split",
+      "cell_sha256": "0d4114d7c609517cf3c3a4033bd947e1ae0ac7dd4bb68aade1bc290db67b1b1c",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "F4",
+      "form": "compact",
+      "owner": "lg-f4-compact",
+      "cell_sha256": "01120fda14b5df9e169351f121971dc9306520f01db8eec859567b3947d82148",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "F4",
+      "form": "complex",
+      "owner": "lg-f4-complex",
+      "cell_sha256": "9250b29ec72b799e32b2725b337f54d7bdc649b85e86a8945bbd9ba7e8107058",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "F4",
+      "form": "split",
+      "owner": "lg-f4-split",
+      "cell_sha256": "bb3408ea75fc6c25dcb61f2d7e6a0a49bcc40010777e19dd6ed5fcbebcce78a1",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "G2",
+      "form": "compact",
+      "owner": "lg-g2-compact",
+      "cell_sha256": "0586bfc14fc41d7ed60a07dead263294d72fc4b8f6956961562fab88afa9ae85",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "G2",
+      "form": "complex",
+      "owner": "lg-g2-complex",
+      "cell_sha256": "78c43f5cfccf0fe1b718b31cde775ecbb482316d97d811901f95785fd571ae02",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    },
+    {
+      "series": "G2",
+      "form": "split",
+      "owner": "lg-g2-split",
+      "cell_sha256": "a77ea0e3b9bfeb5fecc256d3be39f18457f233d3f294b4f0f8b86f2601a4ad40",
+      "outcome": "pass-targeted",
+      "reviewed_claims": [
+        "notation and owner specialization",
+        "rank range",
+        "dimension and dimension field",
+        "global group convention"
+      ]
+    }
+  ],
+  "metadata_record_hashes": [
+    {
+      "id": "lg-gl-1-r",
+      "object_sha256": "53c94b24b210375222644ccca464d39933dd7e81e07937cd237df5c682d9c32d",
+      "metadata_sha256": "aa0c4feb5893c8b1c407c29908c9b32a0b688dcb101632560f45d692ef71d2ab"
+    },
+    {
+      "id": "lg-sl-1-r",
+      "object_sha256": "e78d2cd08657b0b778f669c5d21148e62d8285f36727b93b3aa0bd90c34baf2a",
+      "metadata_sha256": "4ee2ed7810b711997f73dd1815f72e46b5a75f6519b8ee7d19a0c574c1de35ca"
+    },
+    {
+      "id": "lg-o-1-r",
+      "object_sha256": "b15dff6754e31846e6751acbccf36f28f19384668e664050a2aababe71828608",
+      "metadata_sha256": "cf66321a08b98ef1a62878c677a462cdbac21ddce9f86a1b0dffd61c5212a81f"
+    },
+    {
+      "id": "lg-so-1-r",
+      "object_sha256": "442e697662b09e549c175b27fc63d32100b940313dabdc230b65c906e5e2e988",
+      "metadata_sha256": "3066cb1d6268a590fe67264a599ebf48cd1d3b678c247f150b01d86173d394ec"
+    },
+    {
+      "id": "lg-pgl-1-r",
+      "object_sha256": "8180829411932695bb51d0b7a3f76275d531167f8bf9b9dd3067c08dfb2e1518",
+      "metadata_sha256": "e08b467cd273954efcec78fecdf2c5ae5b9656c103f89c807dc9b70fd3f2f737"
+    },
+    {
+      "id": "lg-psl-1-r",
+      "object_sha256": "485e1a398369f94f08bf44d8e010231b23b46a8049110e1ea8c0710af5be54a9",
+      "metadata_sha256": "d58cc5e4cd09da3987ddba2d4279d01603a59bb0c089af446b3b77054e6aad48"
+    },
+    {
+      "id": "lg-spin-1-r",
+      "object_sha256": "e217f1758f343b3e4c02f6af37fd8d064c2fac6e47e3d72c0fca2b6a079a9032",
+      "metadata_sha256": "23d321537ad108e2fb802bd2d2fb6e1458dc0c5123c67814340635848ab35af3"
+    },
+    {
+      "id": "lg-gl-2-r",
+      "object_sha256": "4535aae0764c6763330aefab305011fe0de156dad2ff4b6817ac91ee0ad96760",
+      "metadata_sha256": "0cc6e4549bf38fcfee24bf49098d77667a26aaa210387d881bee2e8da7345795"
+    },
+    {
+      "id": "lg-sl-2-r",
+      "object_sha256": "8ab2557d9edc80a8df2b088fadc4309fe3e6b895f34275a8c45295dfecd81dab",
+      "metadata_sha256": "16f97b3306f04c7e3a8ec5802be9eac71cc60973712896429c4f115a18306105"
+    },
+    {
+      "id": "lg-o-2-r",
+      "object_sha256": "421d959588a2ee88692a805cf0b0bd9e329365be641daad6dbb26c4ceda1799e",
+      "metadata_sha256": "672b022dfd79423e2763c56d25668575cbf1672699d15d3138e5e7d4cca04c39"
+    },
+    {
+      "id": "lg-so-2-r",
+      "object_sha256": "b47824622a3f6a073115c35f8d4c38f929fb4aaa36176b99fbd60a75f0532f16",
+      "metadata_sha256": "d9c29c5a097ff82a5f4187605a1330f4f5f736fe1e6fcee469937689c142e8d3"
+    },
+    {
+      "id": "lg-pgl-2-r",
+      "object_sha256": "83895ab6b9fc4c5b1322136b3a08f460c3d336154e10df67c85017c48ae75f59",
+      "metadata_sha256": "df761df6384ceda22d6367016e8866f52c26e08b9202c8d5107eac4717abec9d"
+    },
+    {
+      "id": "lg-psl-2-r",
+      "object_sha256": "ef59cf9eeacb66e652d8998dc2dd124f924b568c0062b3238ec27bb3d25d6ad9",
+      "metadata_sha256": "81311adc05e3eecfb02ce95ca3b53823e2dbff45a9b35fb88e170b26cf73bc70"
+    },
+    {
+      "id": "lg-spin-2-r",
+      "object_sha256": "04c64596703dfd8e6bb0d8a8f033e718db3d3420129ed1151ea9f947313ded72",
+      "metadata_sha256": "d7fdbe1d3ebb64a7f1b8a24d93fa1eb37c9905ace028c15f9640acb9b70aa61f"
+    },
+    {
+      "id": "lg-gl-3-r",
+      "object_sha256": "e67363f8c4b305919a9ff5c084f2487e700a161a1dda6de45a9c9bebdcbf2b15",
+      "metadata_sha256": "f0fe8c9ecede91121ea27d6f160c35cbeb1196893ace1bec308d2f534c65cb77"
+    },
+    {
+      "id": "lg-sl-3-r",
+      "object_sha256": "9813a18143724c8d80123a69b295eaf951190f9a7c6532cb0716bb01678e968f",
+      "metadata_sha256": "65d4720f37f32be497663ac9fe64fbf41eb09d13b18acca791ccff9f9e6a0c54"
+    },
+    {
+      "id": "lg-o-3-r",
+      "object_sha256": "82d4ae75b2fc6128e237f1599fcaf62065a11533e69956a262b6408df30c0467",
+      "metadata_sha256": "f9cbd130e0b37e2de9c1defe05b61cb6911415f4963ca8f8e7ae73dd4aca8019"
+    },
+    {
+      "id": "lg-so-3-r",
+      "object_sha256": "33a950407c1d5d90715d09fecc4692358f5297a551a37a80fe65074067806ad7",
+      "metadata_sha256": "9ac638020f71cc1132358805ad9f8ddc1d1a07f7590531c86315d406e89f41f8"
+    },
+    {
+      "id": "lg-pgl-3-r",
+      "object_sha256": "2d459512c82eb17ef43bd3a3506383d3e666f9b5eb97b1c49eafa7ecad5c739f",
+      "metadata_sha256": "d4f878c4e99e273bd0c88a5f546b6de05304559dcaf0c14f2de1a163a8ff6987"
+    },
+    {
+      "id": "lg-psl-3-r",
+      "object_sha256": "56fa9cdce348b9d20f623637499e15ef05ae77c2d0d61623cd5c5196567c98e0",
+      "metadata_sha256": "ff1cfbdf93bf2a5a4f0075647ee3d9c0b2a38be8d0c4c1d5940b9f5dc1cc931c"
+    },
+    {
+      "id": "lg-spin-3-r",
+      "object_sha256": "948f8bb0152ad0c2ead675ba2cb808838da7bd2e6e0ea90528a116d563a2acb3",
+      "metadata_sha256": "19c75a82ff123771f2bb7dbba814f35570f764c5b43a1acd1a086992dd55c380"
+    },
+    {
+      "id": "lg-gl-n-r",
+      "object_sha256": "78b2d70ed5db7579309271b944441bbe4d6379f74782db41a2598b587103343d",
+      "metadata_sha256": "2347d595917a3cf836a1b3b8423e1a0044bb9d0dc37bd51b1258ed2ea719343a"
+    },
+    {
+      "id": "lg-sl-n-r",
+      "object_sha256": "3b24af5791cb3b339088cdbf12ba1047f9496ae58fb44e2affee91bfc9a900db",
+      "metadata_sha256": "45804884cb46419fc3c11c1ddc580990dfc5e1b36dd1955e6ea73b07c52ca699"
+    },
+    {
+      "id": "lg-o-n-r",
+      "object_sha256": "9783f503c7a15cdcfa5d7a16a0340dc8464a1534e14314244c692e6ad015f342",
+      "metadata_sha256": "1b91efde084f7df4f83bc0b797d87c7e556231733f65c3617d254b1bcc5df951"
+    },
+    {
+      "id": "lg-so-n-r",
+      "object_sha256": "34ea5a653456e537ece94e9d380df01b7bddc828893f8a84283520d913338f73",
+      "metadata_sha256": "29f57c64f751e57b9593eb84d7ee7dfd6f8f7fe5bbcde6d118dcbef30e24311e"
+    },
+    {
+      "id": "lg-pgl-n-r",
+      "object_sha256": "7be4b6e4163eecf4844f7a553315b97ce1b999b3e29631b034954f873cf5f105",
+      "metadata_sha256": "15c212cd0a43e1aeabaabceb830b60ac7406e0d247dc6c5199f1ad2d1012bab0"
+    },
+    {
+      "id": "lg-psl-n-r",
+      "object_sha256": "170230e46ac02463e859f2ce85383348e060a823ac4ef944255c10dbc5b1d7f2",
+      "metadata_sha256": "91d5711a42eab66f2a3667646982eacf3108ad708c88f9d69e0d059595e1e80f"
+    },
+    {
+      "id": "lg-spin-n-r",
+      "object_sha256": "151472f79c81f7f4d6710e1f7bd44b2c175c2e2194fe99601ba70913fe9a3939",
+      "metadata_sha256": "bc32ebf6f3174e0df5c5d2f82496dd3cd165819a49da7962d591ae423d1173bd"
+    },
+    {
+      "id": "lg-gl-1-c",
+      "object_sha256": "85cc7fe4bd9647747b2ddc4b10ca9b651d0f5b0e27b88a5524c7cafd93515172",
+      "metadata_sha256": "d1f159585094eb75118599d951b671d1ee7be3192e64e46c8a593da1a443c6de"
+    },
+    {
+      "id": "lg-sl-1-c",
+      "object_sha256": "4c584edd6f784c66cb81923783e90e02f6ad2808524ea03f5bdec0b324d3332c",
+      "metadata_sha256": "83f426603f51c3ddf3357f00f439d511fa88212b7e56b3b9f5d09d83e6dc1853"
+    },
+    {
+      "id": "lg-o-1-c",
+      "object_sha256": "b5298d61ca1cfc77a81a1bd5b043d63783a6ee7d258ee74bab437248460e9acc",
+      "metadata_sha256": "ed0af4be3adb53d31a545bc2ce12c6b2e585462b11b4d699443f391bdeae3db3"
+    },
+    {
+      "id": "lg-so-1-c",
+      "object_sha256": "8acc6dbc4eb1d17d465efe5c1a1ea2768f9d8ce2bfae9c64d448ae42636dd698",
+      "metadata_sha256": "df23ebda58e445cb0d9d118047dbb6c3b53db775c1fcf184e7cfa34eafede45a"
+    },
+    {
+      "id": "lg-pgl-1-c",
+      "object_sha256": "16b5fd00856133582c36e22d908c236c1972d0c190597595a17710bab72c249b",
+      "metadata_sha256": "3b3f1cf8d0e01d06d635cc5d4025f892b92e17c34f109bb0d4a71d02497af088"
+    },
+    {
+      "id": "lg-psl-1-c",
+      "object_sha256": "e1f5fb531a8b6778c6280010d28295468a57bb37a418cf23e345241d5a20bf91",
+      "metadata_sha256": "612ceced725f49c32149ba06006562a87ceff9fa7b09a0d84c14c93e29d67875"
+    },
+    {
+      "id": "lg-spin-1-c",
+      "object_sha256": "348775123ca9a16e04b5f0e6d765f484f9b93abd2ae5d9b32b9937fa625a71bb",
+      "metadata_sha256": "65f53eda1407ca5e990ad48e5e5c6447d1bc619a03aa5a1b4a429cfb49f40378"
+    },
+    {
+      "id": "lg-gl-2-c",
+      "object_sha256": "f89a20679ae4330b20dbf7b1e45957b593df30c584a177866e11e7ea6ed21920",
+      "metadata_sha256": "16d264c9b1792077a8ef8797590a4133b993ed329a92ec9382266c56dc6c345f"
+    },
+    {
+      "id": "lg-sl-2-c",
+      "object_sha256": "a2602ba51ae3b0980b49508e0acac59a8aa5157f79afe7e6b19f17c96b48eab0",
+      "metadata_sha256": "12df726147f978be4f6e1204b14669bb50e43cf6e8162ed6342dfd58ff647364"
+    },
+    {
+      "id": "lg-o-2-c",
+      "object_sha256": "1e2eaff454490fb37037718a5433eccafdb71646341945af48a4f05a01b4b46c",
+      "metadata_sha256": "ee2be4643dd77f2ee8fbc04e81ab63a8634305c90e31f11fbb2bf1922a3b9756"
+    },
+    {
+      "id": "lg-so-2-c",
+      "object_sha256": "c283d42e2ef305716b88774407a0424a82668b464e6e95034cddc33209f6fc36",
+      "metadata_sha256": "11b13ab5605e28eefc91009070283c9c2064e993996111a449f722a3c7b04994"
+    },
+    {
+      "id": "lg-pgl-2-c",
+      "object_sha256": "d156f3de7e8a4d652178120063b69af7b166595a32a3c083da872ae89c3a6936",
+      "metadata_sha256": "a28ffbae12b21779cf51398a5bd25f7d1fc0e33bf06a5f45d6afbbd11f951798"
+    },
+    {
+      "id": "lg-psl-2-c",
+      "object_sha256": "7adb92d55cc01f1607367b180c38c86ae7083538a0f2a584ae84d60dbf5e5308",
+      "metadata_sha256": "96beea7b14a28eed1f1da74779791506fa6add470a79336f3a202da25220ed30"
+    },
+    {
+      "id": "lg-spin-2-c",
+      "object_sha256": "f80d0bea94470d067ff2cf211176c248281b37d0daa00514e21c1de134dbf479",
+      "metadata_sha256": "c94a6b2a0e54282577bfbb7f62ec35d5cd8e1859598d1449d6a10dd36c945730"
+    },
+    {
+      "id": "lg-gl-3-c",
+      "object_sha256": "d2fa21173e19b4a2d491075d91e14e1a6f1ab39d3f05e42591aa6337d0280b31",
+      "metadata_sha256": "d7b27f26e2693d960a78741f72be85db9e6fa43c4d5d4b75cd1dcbe9c432f538"
+    },
+    {
+      "id": "lg-sl-3-c",
+      "object_sha256": "c828505ad38d53e8e9b1c43afe113bf53ee88235cc0260c77203dcdc8d78ddc4",
+      "metadata_sha256": "f0cdf13aca924d0c8951aba69874101b9a60687ef6fb579db82840dee53b7174"
+    },
+    {
+      "id": "lg-o-3-c",
+      "object_sha256": "c10bbe15a97d57d68f8ff2780066af815f03a59c22dccab1785fa05cb35c1b73",
+      "metadata_sha256": "edf0ea463ed0a0f37f0e3533bfc88a884dd5a3ef56766a36216135b26ca967c5"
+    },
+    {
+      "id": "lg-so-3-c",
+      "object_sha256": "4e1576a1f1dfbf5cb425199a183352c2698920506621b96de251a93d44156418",
+      "metadata_sha256": "32336aa84198cc2a59501d5021b10ffeafa48d22d9261cfd3f8d102562bf630c"
+    },
+    {
+      "id": "lg-pgl-3-c",
+      "object_sha256": "6f6710867704de1465993e2485bf749b9b5ccec10a668b1ce9066da54a4a84ff",
+      "metadata_sha256": "4fb5cc6d7ff7b969b51846ee1205191144de3426ce72d75d70ec33e0180201a3"
+    },
+    {
+      "id": "lg-psl-3-c",
+      "object_sha256": "87b9154229bd9c14dda6d20292fe47bc07126737a3becab8495afbfdd624700d",
+      "metadata_sha256": "c4592b4756cc453887a1671b0eecfd34519a8df4b7105822dad42738d169dba5"
+    },
+    {
+      "id": "lg-spin-3-c",
+      "object_sha256": "885980f9bbe3eb78578ef89adccaf61d8508822f4713a790d31a20464702f4ba",
+      "metadata_sha256": "396385f259223be83cb286f78fae1f02271f9f2e4ecdefc322e906fe2469350d"
+    },
+    {
+      "id": "lg-gl-n-c",
+      "object_sha256": "8115f6604f4e8e99eef36f7f92834cb58b48655d0012040fe318d955f8a11bce",
+      "metadata_sha256": "b61ca783901d77faa9f2d21ed41f565ab4e11fb3f266deeec2de63da95acd534"
+    },
+    {
+      "id": "lg-sl-n-c",
+      "object_sha256": "40c1ef086292a26a9c8f33796b00144e9c87e96eb0260875acad4bea62b0a691",
+      "metadata_sha256": "72dceb458aeb4a287e602ea1391a9f53bb16d8c12aca4ab98a2aa3ef7bcd2f7e"
+    },
+    {
+      "id": "lg-o-n-c",
+      "object_sha256": "987ce2f275ca8cd466ae1d96bc699185f52f5f826e1cf7c5238a3a2ec7ddd078",
+      "metadata_sha256": "7b054999ad876e9d045d64516a14c25ff46e2887d12a4c3f96443724e175a9ec"
+    },
+    {
+      "id": "lg-so-n-c",
+      "object_sha256": "ff6096bccb09aadef90859076b48661fb141287b46426471d91a7f8764eead04",
+      "metadata_sha256": "2deecfb450bc8df2ddbe77175ed96334c0ac7eb753ebf6b6441a5ea2f7300978"
+    },
+    {
+      "id": "lg-pgl-n-c",
+      "object_sha256": "a7a3aad633d69c7914fb6b06ec99a5ab41713d5b8c85cbad2b584088b7ce764a",
+      "metadata_sha256": "14e02fcbf4bd03d41abc8157f939bf8edfbbf49eec92100c6c2e78f8eadda5df"
+    },
+    {
+      "id": "lg-psl-n-c",
+      "object_sha256": "9a4b02f8bec0e47623e3bff6e834baa822c10dc448e50bd173eed7ec0c84b079",
+      "metadata_sha256": "03b410c2b1c98742b8bf7446a319dade89fb08000762049fdf359907fc1653ec"
+    },
+    {
+      "id": "lg-spin-n-c",
+      "object_sha256": "e2be6cf0f80253383037403aa0b3db852c17b3fdab24e43be40fdc10ca319db1",
+      "metadata_sha256": "ea50ac840b24f9bfe9e5b062aba224a6f7b580c66fe903cd8f7c3395698840d7"
+    },
+    {
+      "id": "lg-u-1",
+      "object_sha256": "46edb0ced5f725952f2b65ed82fa981e4bb53cd63b0c20a164f24fcc9cc18489",
+      "metadata_sha256": "af9b85e7525cc488d353cdaffc173bb6c4dddc911e277667c3a129ca82344046"
+    },
+    {
+      "id": "lg-su-1",
+      "object_sha256": "9d4c69ed8800d4f2d6091e8f4a7f2e9acf3e616e7f91f4b3c2bff66fc1d73c26",
+      "metadata_sha256": "81f3ce9d4272e7fdd228f9be266f43905db1425f2217b9f2094719f36479b661"
+    },
+    {
+      "id": "lg-sp-1",
+      "object_sha256": "437d1acf221f64c7cd5642f674446c15c2c7035e7b3a00b4205ee2a938a5522e",
+      "metadata_sha256": "c21c67d6cec61f9d30719f1df75ec12dd934449769e76fc61b1eaa1fef3224bc"
+    },
+    {
+      "id": "lg-u-2",
+      "object_sha256": "d436522e17a91022817ab880c7f7aa7801074a535ffc2c941839329174b7505b",
+      "metadata_sha256": "e84b0a27f85de78b8f59a6e32af2eff3df191514f68ec1f0d9ada6f1486bb01e"
+    },
+    {
+      "id": "lg-su-2",
+      "object_sha256": "b35beec6a77185848aa1454cf72ab2f482da4e721f2e3717840fb53334ed2e88",
+      "metadata_sha256": "38c324ea53b2b83216ab40317ac12031ca2ed2000b0870837bc08b546d9c5f79"
+    },
+    {
+      "id": "lg-sp-2",
+      "object_sha256": "493523ba3d3bdd7ecbeb3d6c1b8e69b6d73445cdd4ca1b6144bec219d6e0b1a9",
+      "metadata_sha256": "2b5534e3da11a06452e7919356802d3dddbc41e8bd4a3c3b5fbbed57f804da83"
+    },
+    {
+      "id": "lg-u-3",
+      "object_sha256": "9214806c0823e205dcd1cdec3c814d1009f924b0c8bfe3b50c63ef24cee648ca",
+      "metadata_sha256": "cc354522dd2d21812a5e4d899d6fd7feb1b438a77d74b01c7b2f311ddaf3b195"
+    },
+    {
+      "id": "lg-su-3",
+      "object_sha256": "94b619f37934a8aeaa3e1c6f46e0e3239da4e8ebb70a6cfeeeebfc3d77d355c1",
+      "metadata_sha256": "dc2542717091bd6a3f5496614b822aca5cba12d2a3a8d14f599fcdc5e12897c8"
+    },
+    {
+      "id": "lg-sp-3",
+      "object_sha256": "cd09340f417c62914e260c50571b591f31b713979d25354a41bca6c73c82990d",
+      "metadata_sha256": "b924e94f7bd6080875722a8950664b12612504baff3090c292d71d7a23a28e04"
+    },
+    {
+      "id": "lg-u-n",
+      "object_sha256": "7f2114cb9966350dd767a63d9b0023948836644822fd64ba5557962b01e80518",
+      "metadata_sha256": "2eab0007344ac4225bc7be3ddc7b971a9c5bf0016155d2daecff4a1cefc73ed7"
+    },
+    {
+      "id": "lg-su-n",
+      "object_sha256": "842e3e1e095ca568821ea743b8bcb7a91b21b95f646bf4a920ee6bfc27acb78d",
+      "metadata_sha256": "ede65313a10c4e8f521c7252b70e158e816f9e709c26ac73f6174cb60814ecf6"
+    },
+    {
+      "id": "lg-sp-n",
+      "object_sha256": "a716d4dad9b544a7e778362570e18eafb19195017eeda9f55c386d28cb4369cf",
+      "metadata_sha256": "154725b090e5b6e994424d6370c36b0993163190b08372dd95eb381b74c0d675"
+    },
+    {
+      "id": "lg-su-4",
+      "object_sha256": "5393a876ce91b291a8a02c6d3eeb47d9f1b0ee6bcb94d2f8523dbc1ba0c6b58e",
+      "metadata_sha256": "0cd67ffe593bf856e4c2e1421997028c9e466d15fc1d1140d66d1ba351924d2d"
+    },
+    {
+      "id": "lg-gl-1-h",
+      "object_sha256": "1e3a8c5a7259fe4cd84e9f9cec5570f5179910a4f64075e9145118b9afe72bb7",
+      "metadata_sha256": "5ef13e9a80e5887be1cd864aa8a7751597044f00531d134dd6ff606b6a6aa337"
+    },
+    {
+      "id": "lg-sl-1-h",
+      "object_sha256": "debb0e5867091e978d88f8ee0b42e8d0024bd0aa7c61af9c7e3e5d0f8d1a7e37",
+      "metadata_sha256": "17ce50fd7f184f1945bd707cc68d34008410820240104a6ac05614aa4af47d18"
+    },
+    {
+      "id": "lg-gl-2-h",
+      "object_sha256": "75c7329e3f9117ace2dc7b5b4c1d51f7d3e56d9bf6a335061e2d341ab6323505",
+      "metadata_sha256": "f9284dac2e8221f12d179966a4d7a3ad38614cda1c86557b8c905b310a6d751c"
+    },
+    {
+      "id": "lg-sl-2-h",
+      "object_sha256": "d143511bd14880486c08f668f2cc8c1f32dcde2e5df2605dfe09ac7b902769d0",
+      "metadata_sha256": "87d93bf7da1702729c5432d0c34f009028b047488651272a5beb067ba07c4d1c"
+    },
+    {
+      "id": "lg-gl-3-h",
+      "object_sha256": "8dbb01d685b26a5654747c9fcae6ab82ab9308aaff2609cccd30433af340fe26",
+      "metadata_sha256": "80a46585c4b0d25aadd2ef9a3bd50d26d679b0d4f5ab3e6998a66b5a25d54d10"
+    },
+    {
+      "id": "lg-sl-3-h",
+      "object_sha256": "6854b81cc018987306ea96678dbf48aa83384b1d95e024f33ade096a8ccad436",
+      "metadata_sha256": "b7b9f7ce4beaa8267da5c75acc7c0cce3ef7e78e3d0e5a9cb64d98d2a4f7414d"
+    },
+    {
+      "id": "lg-gl-n-h",
+      "object_sha256": "a850aaffa69a7ecbd5b56591d64e4ce7f66c6ae9415697d8f529398fd9e621c5",
+      "metadata_sha256": "2c592aaea1ba0c3833e918cf351a17c262d068415d8400179be9f81506adf0cb"
+    },
+    {
+      "id": "lg-sl-n-h",
+      "object_sha256": "4b61b235a3611ab0c70f0c8f2f7f383e4f26a47c338e6db2da116f97a2fc7480",
+      "metadata_sha256": "b60eaeb3156b14dd5b01eaec6b4d8a0f23dea49d3dc35ddc9dd4c189787c47e5"
+    },
+    {
+      "id": "lg-sp-2-r",
+      "object_sha256": "7af842a6479ddd4fa5e2172bed52561fb39ebcc1337c5dbbde2ab71947b59936",
+      "metadata_sha256": "faf7c77dec73d483c6755d1d80849e385e7a1d937d8dbcc8c88426f020c8ebf9"
+    },
+    {
+      "id": "lg-sp-4-r",
+      "object_sha256": "f3612330d2a179a065b7a9a57b96cab9f471698baa333ece9f2822b9b2b37b75",
+      "metadata_sha256": "6c2cd5581c05452a0bbd1a2b324a6a5679570ec78f14150cba8a9544b45240e8"
+    },
+    {
+      "id": "lg-sp-6-r",
+      "object_sha256": "302f6d59ae9bad6a2ce31e1bacbd5b38f96329b530a23e57e1548b90e81e046f",
+      "metadata_sha256": "acf591b8e0e70247aef68d06d97e0dbc5e467c471c34840dce5841ef4b02d13f"
+    },
+    {
+      "id": "lg-sp-2n-r",
+      "object_sha256": "ec53b243dfbecc8047a1cd67b208dacdf0b02471a530a8bea248c16f2dd4a57a",
+      "metadata_sha256": "aacc209f309b8e7d43a13d6f0c6909f0a895050dbf22919fd04d9108b4774126"
+    },
+    {
+      "id": "lg-sp-2-c",
+      "object_sha256": "b60a73e2a6ac86fb39b2f50b614c5973e4882828fa4e6b8ce09931a9b291cc93",
+      "metadata_sha256": "38717aa6fa98bc1563c0eff29ca624f71972b64ac7f485ca58600b3d5854b391"
+    },
+    {
+      "id": "lg-sp-4-c",
+      "object_sha256": "c7b1a41896371701e16bcfd2ac3760ab178a8d8b2a2e2d1592d3666877538a0f",
+      "metadata_sha256": "d19ac8122e45591559e02a047541bbdf587f1cf654086dc43796c68bf61d51b1"
+    },
+    {
+      "id": "lg-sp-6-c",
+      "object_sha256": "82a8d6c75d4254ca71c3c76d339ceee29add43f5238585ef3e3455a8a1230bbb",
+      "metadata_sha256": "89df762ebd77e84d9c7a4fb6fe21e7895f5e30cf5a0dd6d25f85f8e321ea25d7"
+    },
+    {
+      "id": "lg-sp-2n-c",
+      "object_sha256": "d742d705bfe8b866b84da521ce6417c47fa7fc8eef1f33df83e730868fe54811",
+      "metadata_sha256": "cf05dffdd05ea4881c4d3ce50ec3bdc3d7b1f323a9e82a7079487b30e7193db0"
+    },
+    {
+      "id": "lg-additive-1-r",
+      "object_sha256": "34b70a9e6883c4a00100c4fc64a8039c4ed547590de72d51984743a5799b75b6",
+      "metadata_sha256": "7a782ca3915b469af1c457c57056110691c4f3b284a5246567f55e0a704aaabb"
+    },
+    {
+      "id": "lg-heisenberg-1-r",
+      "object_sha256": "c426640339aa966d74f5d1f355fa44d13139ae5c23cade95bc69ac3c337ac0b1",
+      "metadata_sha256": "b4757295841ef8ada74cd0391f7314b329081653f0aed5b00159aebe1c7c8325"
+    },
+    {
+      "id": "lg-affine-1-r",
+      "object_sha256": "5fd9ebccbf9ed066ef168defd80488f0842b03264d1cc8918000c551fcdb9cdf",
+      "metadata_sha256": "3fb3c71b99619ce79538b8fcc072519c4ab833035ab40d75dca35f32cd8eb112"
+    },
+    {
+      "id": "lg-additive-2-r",
+      "object_sha256": "defc7d112a57b6431515da90b78e329b40f12b3af73805f5f7383e58916b2685",
+      "metadata_sha256": "ebe0f03aa0282c465e97ee8ef013a2dbb3b2e034b81a555fdca12a9d8f9ebca1"
+    },
+    {
+      "id": "lg-heisenberg-2-r",
+      "object_sha256": "c563f620d73a58fd12b831c1212914442bf3073b9e221d48df3dbe940832fcf3",
+      "metadata_sha256": "e0cbfbbce592dd3c2f5ea9289e037b7d46637b76e67079b086a5c25fa4dddd85"
+    },
+    {
+      "id": "lg-affine-2-r",
+      "object_sha256": "2f7afd8ea915df74b77abe33d9f7b98fbb6b102db4125b5fc2f4205577a6c1f8",
+      "metadata_sha256": "a07a3f3a84daeeaf5145f251522462f5640feae0430866959d7e0e2b3e68983e"
+    },
+    {
+      "id": "lg-additive-3-r",
+      "object_sha256": "fe08bd52a9c364227d9bc92bff43417fdac703fe1fefa2268f199cfa43c81de4",
+      "metadata_sha256": "27ae130abb901bea8a0413b1ea7486bc5f6da29619741ae3750ca624886dd079"
+    },
+    {
+      "id": "lg-heisenberg-3-r",
+      "object_sha256": "024c81526f6587919886bcabd0c4fb202b297bef64bc24f9819795c7f971e978",
+      "metadata_sha256": "8a85d0e900918d851bb42f4269c1ad70f598cc0629a0f7f67af309daeab1da8c"
+    },
+    {
+      "id": "lg-affine-3-r",
+      "object_sha256": "0c9aee8bcb4878393774482dd3d65cdd79d0d3e841447d285efe0b28289b7f3a",
+      "metadata_sha256": "4cc74565c48f4a16da1934fee631c271cc82e67f228defaeb118a4ebde4fa8b9"
+    },
+    {
+      "id": "lg-additive-n-r",
+      "object_sha256": "60e1f637512d5e3e33b0fc9cc61dfa175cd33526f631f5c9caeb8bad08099470",
+      "metadata_sha256": "617e6ae3ef5ea96a0f6ae2b63209ac64c7e2954c20802fdeb474725922b373da"
+    },
+    {
+      "id": "lg-heisenberg-n-r",
+      "object_sha256": "7aeebca312ed045d20420b8bc815283940bfaa88ed5e26aa2ce702caa1cf864e",
+      "metadata_sha256": "42934561d19c5fe5000fc04463402dde22d33e299a099c2e3db23bc48594e9bb"
+    },
+    {
+      "id": "lg-affine-n-r",
+      "object_sha256": "18e39dc981bb00bae96a30adad0ad49803e0a301bc3c8e5fef1a93111dee1ff8",
+      "metadata_sha256": "441177364d6b49d51ac7d550fe5b7264dffaf1aadeffef8a3471dcfa6d690d74"
+    },
+    {
+      "id": "lg-multiplicative-r",
+      "object_sha256": "13245613951de88295cee295d30ba6359426516fba30a664c452cb830841b88f",
+      "metadata_sha256": "4c5fc24d56b952d293edf79935dca2db344fcbbd51e4af54f78c656c5210de05"
+    },
+    {
+      "id": "lg-additive-1-c",
+      "object_sha256": "1df3bc68b658d9954a89f1e9c75059ce482567cb917b46556159f6fdccf5a3ce",
+      "metadata_sha256": "cd389502d14651f2adaf5b3ad70f7d514842cf420fc90c3d8db0a949ddd75e8f"
+    },
+    {
+      "id": "lg-heisenberg-1-c",
+      "object_sha256": "90d4319a0d0f9e33c0d281030e1843d927dc8ebb6eab05e5399da0e1f240bee2",
+      "metadata_sha256": "7a23e1a16b15975b9b4f98cd92a60a510cb4c3105b89fe3bf495ec31636797cc"
+    },
+    {
+      "id": "lg-affine-1-c",
+      "object_sha256": "4efff6a9b9f922965b7e74978bb8729e7ab7b27a11cccb653806747f04e6066c",
+      "metadata_sha256": "4917321b904735ace88fd8f3b5b9e52a23fa0a1cece43c4debbd425a06fe0d81"
+    },
+    {
+      "id": "lg-additive-2-c",
+      "object_sha256": "0895c037385e4d2b16edb9e394c132d064a1b426fae6fa43260c97a318c6a4fa",
+      "metadata_sha256": "a083a2693cb109087932eb47b630178d5af175356c7e79757247fc2b9047e818"
+    },
+    {
+      "id": "lg-heisenberg-2-c",
+      "object_sha256": "b7a1e4b17ed97f0a1f4005ff773c45c8aeba92a18c550a1bc8eb6530ab3f6d41",
+      "metadata_sha256": "f97cdc9f7655497df7577b9ab46fcb5af6a0b0cc6eb2239008807c339cd1345e"
+    },
+    {
+      "id": "lg-affine-2-c",
+      "object_sha256": "b583dbebbdf76a2c2dbfbaca8168c24d031d26d7ef3ff8e6d01f86f7c1179342",
+      "metadata_sha256": "85bc8111cd2198bfc34d1288f5b73a80f259332f1832b6646aeb1303e90a28b8"
+    },
+    {
+      "id": "lg-additive-3-c",
+      "object_sha256": "e3caa8b9c8c6118ffd8a17d14679b70521ddb3b542a38be9de30b14a4977ccb1",
+      "metadata_sha256": "cf8dae1a6ee2159b70b4650b7ab3b19f568a9995855489810845cb11c235a962"
+    },
+    {
+      "id": "lg-heisenberg-3-c",
+      "object_sha256": "a916a7edc5a3ce8a5dd8bec033a1fa8f8dc471b546933b6d1a85a613280ada26",
+      "metadata_sha256": "fd47e89aee145ee01f847310947d9cae79570e9c385bd63c1ae0f5b269088215"
+    },
+    {
+      "id": "lg-affine-3-c",
+      "object_sha256": "58140a8a64c4288033efa4d6e833e0692d0f703c86ef2354b6a2dc849b33059c",
+      "metadata_sha256": "1cf5f9a406000cd9055a1fdaee29357cc12ed0e925f6d276d3ab18fc5b5c4672"
+    },
+    {
+      "id": "lg-additive-n-c",
+      "object_sha256": "7038e0b013a71cfa398f1ec7ce5968a253c1367b7b05e746bb18207c22bbe775",
+      "metadata_sha256": "1feb77980fdf44cd7e91a38982ca8a0896e1d392a18e4a6ef3bf4cfafa7a9887"
+    },
+    {
+      "id": "lg-heisenberg-n-c",
+      "object_sha256": "9f91a6f0b0d72467884780788bfa27a0357f728aeade93d2a570aca20e9369db",
+      "metadata_sha256": "cbff4516bdbd46e22eddaea8804cb86ca5f6240271fdbc6809f4743a7be99d69"
+    },
+    {
+      "id": "lg-affine-n-c",
+      "object_sha256": "89d9a57690543fc3c577694eec822de656ec9059ae903cb68966add83ae98b3b",
+      "metadata_sha256": "18bb77bbfa6abfa40a40ba855781b2876472b71e03c3fdd52fa56fd95c1ed557"
+    },
+    {
+      "id": "lg-multiplicative-c",
+      "object_sha256": "20f37355a0a2ea8124ca7e564d663aa7e597864a338e03774ac30e8dcdac351d",
+      "metadata_sha256": "39f032227504e682794082c7ff8258ed8768462b771e42e792662800663c4353"
+    },
+    {
+      "id": "lg-e-1",
+      "object_sha256": "70c6d715490ba14ad37f87fc8cd84ea5aaf3ce5748d4888cd2fe74710b1d18fd",
+      "metadata_sha256": "8815a539d64a283021baddee562f73ba847d98bfd3496cbb0c0cd91affcbff13"
+    },
+    {
+      "id": "lg-se-1",
+      "object_sha256": "6799b502f4ab6aa65d3d27404820c0b6ef51fa2af97b8722998829846229cce5",
+      "metadata_sha256": "6f674759b845b99f987c0312d5af806f383aab8e8609c8ab8ee664da9b7b843f"
+    },
+    {
+      "id": "lg-torus-1",
+      "object_sha256": "0b02e1db0d9f49a21bd42d147258325e628c22b67d99b93b14d55d99a8795cb8",
+      "metadata_sha256": "c97ca829f8f6d1be0fac1692c93a6e5148c88a29fc8832886143052af6705a21"
+    },
+    {
+      "id": "lg-e-2",
+      "object_sha256": "83f8d62864f3379caa25c94c27a0f4022830113ac83dbf7e0b58025aaa1d4eaf",
+      "metadata_sha256": "864ea37d2a60321282dd3cddcf5037064db9aff8ccaddd19f4cb552b706e229e"
+    },
+    {
+      "id": "lg-se-2",
+      "object_sha256": "72c2952471020b213641707bb5209b93e231afcb22b3ef438ec1d5b179d27aec",
+      "metadata_sha256": "d60e74fda1104ee89398247c66f4c836e3803be018401fa30e339f13e212763f"
+    },
+    {
+      "id": "lg-torus-2",
+      "object_sha256": "57d49872321a7c30db010757c49ad4a231ad44c67a48f68092a4e3493af4f58b",
+      "metadata_sha256": "4711e4e938bea8f2441f16754fb5f809dfd7fde63e3fe21b0564a2e6a066158b"
+    },
+    {
+      "id": "lg-e-3",
+      "object_sha256": "8001c99b3c7ac77fe8b5c5f0b7714cd19d360051ac8652a811d33677eb2b13cd",
+      "metadata_sha256": "cc5ec4d4a39c280b09b79d1013c5964bd77364a72c791d4c95a30051a7f242e4"
+    },
+    {
+      "id": "lg-se-3",
+      "object_sha256": "57598089af458e0fc089ab8dbb4ac5aef426f0040f7613876a864e5ea9b7bfe8",
+      "metadata_sha256": "c768536566081f4f30d770759688ec7d660b8db6ae418b4216c52f5231831b85"
+    },
+    {
+      "id": "lg-torus-3",
+      "object_sha256": "157cc00bb691a6e6841a4ee60f8d7f905aeaf348ef1068408bc5fd85df94548f",
+      "metadata_sha256": "f0d8a2fd19f8887b558d9a2e8f24e59490432b41c2086daab3362959db55cf82"
+    },
+    {
+      "id": "lg-e-n",
+      "object_sha256": "9884f49c0e58880b3cdedb8bcdac3b88ba497e6525794a56931bea9f8502c588",
+      "metadata_sha256": "cdee8f842fb600536f5721bfd00a4f1da13d8834f99b24c825b3cd1af600c7e3"
+    },
+    {
+      "id": "lg-se-n",
+      "object_sha256": "75e1d719bc159fb731c1c40eebf421efe33580f36f33ad0039171bc3949990be",
+      "metadata_sha256": "5ce5b98c276b7e020aef7b7371bd234d1ec7a7f290c70dc18920714f85765b69"
+    },
+    {
+      "id": "lg-torus-n",
+      "object_sha256": "caf3050025ec4e1eae1c6b36810ab81dca983d8da2d993a34c9c98a186a01dfa",
+      "metadata_sha256": "1a128e899894b8a13c39d68e5dc9d1cae343b03ad4b076918bd63977f232e2bd"
+    },
+    {
+      "id": "lg-positive-r",
+      "object_sha256": "9eac7354534781ae04916f804578efa035fa762713a2c70bbf0dda711abcbc41",
+      "metadata_sha256": "8be2c58f0c04a1da71c4329bb8bd23b97062fdbb2d304e3f8dadb84ef3ec58e2"
+    },
+    {
+      "id": "lg-o-1-1-r",
+      "object_sha256": "32980f3f9d44994e3fd460c3fec123d50adfd82ed707eccb51f094cd03ff77f3",
+      "metadata_sha256": "289b41d70cd47265a1fa5f0208d429d6a950c8f275bbd3521c26434a750d20c5"
+    },
+    {
+      "id": "lg-so-1-1-r",
+      "object_sha256": "8b53f4708f5d77c71fe37a4c2a55d4d93c57559fcf5918f914a1c9c62b776806",
+      "metadata_sha256": "264e9a1dd14e05eb40da111e270ea6970ae1960ad5adcdaf1d2b2d573b2c57d7"
+    },
+    {
+      "id": "lg-u-1-1-r",
+      "object_sha256": "4612a30fbd28db9c3a67dde297f0f9081f7b2955124eb8e798626b1ef950031c",
+      "metadata_sha256": "f98975c5fc919e359ed562ef9bae5da7db34019bdc75b053a98e9eedfb7d6656"
+    },
+    {
+      "id": "lg-su-1-1-r",
+      "object_sha256": "4a04acd8282b11061e62d8dde3c430b5475cfac33fe1954d02abf074e71168cb",
+      "metadata_sha256": "a38672f469920b16e45ee2f9fdbbea641a20f0e73fa726dee627f4a0bff63939"
+    },
+    {
+      "id": "lg-sp-1-1-r",
+      "object_sha256": "3bfb926a89f77f6a1ccf1c49064c7c998cfcfad6043bbafba17020c98d07ba05",
+      "metadata_sha256": "6d46e1d2daaf3e19430171710186319ea5e46b24655052381febc1473b5ef6e5"
+    },
+    {
+      "id": "lg-o-1-2-r",
+      "object_sha256": "f948bfd2abfb1b1156c598c95e59e5854b0b74ef8556564dae4f714cecbb8de7",
+      "metadata_sha256": "7bf32a15a4b972d77e5f02cfabd7bdd3cde589b480f2bde54874749d7d36bc59"
+    },
+    {
+      "id": "lg-so-1-2-r",
+      "object_sha256": "1dbfa43128a192cfa039b0979ebf03f0ff17a4a0377eab702746591e48c09e9e",
+      "metadata_sha256": "3e43eebefad731eec72a02a7196a09c9340fbf24f37ae3c44b7e415815c84fc2"
+    },
+    {
+      "id": "lg-u-1-2-r",
+      "object_sha256": "6dac6c97868f28dfed76d4b81be5dac5a79b93303719749e06656fab0af912cf",
+      "metadata_sha256": "5d9c14d3f066ac159d417d34485663bf6e37aa5d14b4288f8ce9351800ec5daf"
+    },
+    {
+      "id": "lg-su-1-2-r",
+      "object_sha256": "f73df980b08a662fd0fa1ada306e40166177e171268a050cda4662e018047083",
+      "metadata_sha256": "2638ed167511fb8dcbc0420066081d9415db8c1c1e32052c49b9591aedba0cff"
+    },
+    {
+      "id": "lg-sp-1-2-r",
+      "object_sha256": "6caa69996630cfca7a4689e97bea7d3110e4d462883fd509b2cd9f50338d526f",
+      "metadata_sha256": "1bc40a7aa519e9515619671a2e24a85a0995b6ba9f194430c3168c73d66c4d45"
+    },
+    {
+      "id": "lg-o-1-3-r",
+      "object_sha256": "fc0e15440f75cd58d4dbb7db92256cc983a6fd0784fd40dc6517ebd7a63a92ea",
+      "metadata_sha256": "917f55630f6857e87d7c0a21ff9296092c8b95f6658d0d428ba0f0319ce22175"
+    },
+    {
+      "id": "lg-so-1-3-r",
+      "object_sha256": "8ee564a32117897ecd856efe2764c293c58ca4a9eeae74f9f139f9c9bfd0dfb0",
+      "metadata_sha256": "8b13ca9ef65aa7fc11aa05dda5b1c1b26b06632b2df4198bd20cfa60c4151109"
+    },
+    {
+      "id": "lg-u-1-3-r",
+      "object_sha256": "587e3eb97c960df722fd7be8d8d3f447637bae7e025b0efacf30c4642d423ba3",
+      "metadata_sha256": "0679f0dda70df260f4203eda2eaa40b10ec72b5e38306de100451075cb0b1016"
+    },
+    {
+      "id": "lg-su-1-3-r",
+      "object_sha256": "0e7e97cfb8e340a9885d7029a4b7bb4cdac99781af77706049cbef96eddbbec2",
+      "metadata_sha256": "8ab8848ffac43982edd8ad460efe8831707fbb00bce5656ed64f4c6d8713db14"
+    },
+    {
+      "id": "lg-sp-1-3-r",
+      "object_sha256": "103d783f6d74b2a7d208c8c936b340049fcb2302f70696ef6746ed0d29798874",
+      "metadata_sha256": "3006ffd9ad44584adcb6e942b792d10d7c9a91844e7a584b7a5e2877cc41c858"
+    },
+    {
+      "id": "lg-o-p-q-r",
+      "object_sha256": "4f4097bda18b9caab9ffc9b8c24f511d90b6fbd48a078dc6bf0dfd6997a01c35",
+      "metadata_sha256": "6934ea2b9124712d61ed5cb1672f0469d521460837b8f1b155a011b8e9a5d4b2"
+    },
+    {
+      "id": "lg-so-p-q-r",
+      "object_sha256": "cfd6d0b672edf3083ac3bab1976fffa110058e0b560372fa27f564277c971bbc",
+      "metadata_sha256": "17a3afa9b4d947f6309f767030b757184040091f73dd2c927fab913acc9fd1f3"
+    },
+    {
+      "id": "lg-u-p-q-r",
+      "object_sha256": "1bd5d71b1e42b686d45cf1a31d98b2cf19ccac9bf6f654f145bf69d23167b723",
+      "metadata_sha256": "dfda2cb1add80a24922743386e19727c4b0a00650d2cf54364e5922186b543c8"
+    },
+    {
+      "id": "lg-su-p-q-r",
+      "object_sha256": "8c9409f88d909fa75e7bc0e21f72f91ae9b6fa947f40296563c5e74a6eec2b1a",
+      "metadata_sha256": "cc6b665b06d19c54d97cdcae837420312282ae16bc145fc905674cfe0b16c4d9"
+    },
+    {
+      "id": "lg-sp-p-q-r",
+      "object_sha256": "28d743b268c41e34ea2b797e703ea3bf13de72d586a33f2d0d1684e969735ceb",
+      "metadata_sha256": "0470e12e248c0b98836e4a1fefebc981ffa4aa397744a45c30e18a6e93a2eece"
+    },
+    {
+      "id": "lg-so-plus-1-3-r",
+      "object_sha256": "1892fba0c689206b7f0d37f2368c3ba9cba58a42c0d0028705972907e2baa231",
+      "metadata_sha256": "970d32f2f2a56c7381aa2e1d0d4ceccf454f70fb993bfdaa5834651995e2d217"
+    },
+    {
+      "id": "lg-so-4-r",
+      "object_sha256": "c5d1ecb521ed6740d15aff01c830637c68f620ba5d1d40eeb76e61d991c562be",
+      "metadata_sha256": "bfecca3977188fda81e20b48ee7761941b28bcada95432c02414397576ce00ce"
+    },
+    {
+      "id": "lg-spin-4-r",
+      "object_sha256": "d1b00bebe32a77f38ef995610498cec6bda8cdc3c44faf675cc1dbfeb03cec1b",
+      "metadata_sha256": "9071415ea461a4e63afa82f58f95d0ef776c7f55655dde4c28f6974b263b42ae"
+    },
+    {
+      "id": "lg-so-5-r",
+      "object_sha256": "fe1a082a98576f6be62a1c467d4f1085f0791fd8648de1a78e9add1fbe64e6bc",
+      "metadata_sha256": "6d0d67dfea2c89541ab6f7af244a2f5a7e8f5bc8a0fb2544e3d5868c41007fbf"
+    },
+    {
+      "id": "lg-spin-5-r",
+      "object_sha256": "930281940acc6f6b64b6ad1b263102fc778ff8af81ed85f50d2f8b1bd76915db",
+      "metadata_sha256": "dd6fdb818986387e17439a4983e7d8f3f39f0a3666c9425fda1bc80ced02a551"
+    },
+    {
+      "id": "lg-so-6-r",
+      "object_sha256": "23fad5550ccf14c8ee8b95e0fe24327f8fc3fa47eabd2b1372ab08c735f081b3",
+      "metadata_sha256": "fa5ca2454665ad7ec424d0200632929478a9899e3995fa5852456adb632d0bac"
+    },
+    {
+      "id": "lg-spin-6-r",
+      "object_sha256": "493dd5735ca98bd38126831fc83c9f9c248a253dd13a653a7479b42b379e02ce",
+      "metadata_sha256": "b42001022bd904d0740e076a669794956a89fc9368e7b8efeaa4d1aad4bb6ef8"
+    },
+    {
+      "id": "lg-so-8-r",
+      "object_sha256": "43f522534b73c90f4848d797a2f0acacd52bc26f38ecfb3b4183f1daf8441c69",
+      "metadata_sha256": "02bfa1f6f03d57aeeef8d0336bae9b4e03f7cad40143221d79e2d5b7edd4c0a6"
+    },
+    {
+      "id": "lg-spin-8-r",
+      "object_sha256": "1d97629f3883535de52505c941c65962fcbd47a0655be6720e9b29d88aba6d84",
+      "metadata_sha256": "763900933a58f0ee44ae063a5175c72a64058fe32bb50af29e1038013de883a6"
+    },
+    {
+      "id": "lg-so-4-c",
+      "object_sha256": "2940037fe58f3ea5f2e654100d31dbb043728ed5852d25c02616c26793ef0f48",
+      "metadata_sha256": "f93b15ca5ce089178d0d49622be8bbc472933db950813e25760f61d93c045c2c"
+    },
+    {
+      "id": "lg-spin-4-c",
+      "object_sha256": "8a51eefd3caf13a495c814efab19e72354c264af6ef669c1f5f5c30d66d0e3fe",
+      "metadata_sha256": "4d24a285ce90769abbe2dd187fcc01b0b6983bfbf40d3387f517734bedbe8efc"
+    },
+    {
+      "id": "lg-so-5-c",
+      "object_sha256": "b42045b3ca6975b6f3aae7d75ba0b11f993287f970346bfb3c5a5c486c132767",
+      "metadata_sha256": "2054409166e0b3390299ed43c6ce686982515e4675e4b67db50c16f56308ecb8"
+    },
+    {
+      "id": "lg-spin-5-c",
+      "object_sha256": "eefcdfbb0df5b4c3b743505a3297e795d953adbedd48c841159936f981371652",
+      "metadata_sha256": "0f44f3e6ed28db4893b71313b73d8620dd81c70200e0d2f052c4aa7f0e21869d"
+    },
+    {
+      "id": "lg-so-6-c",
+      "object_sha256": "217ffdb2a49018fa303fff2f0ba376c011ce84a5d33384776bf47ed10e1d2cc0",
+      "metadata_sha256": "651e55d6d0d90e88798c0700c55493b17491380fea267c3f0c0c34cafafa7080"
+    },
+    {
+      "id": "lg-spin-6-c",
+      "object_sha256": "cd21c76ee167c8eca3f9804d45775da8eb380e57b23ee5d47c54486b2d99a193",
+      "metadata_sha256": "ed613f145b473c5f6f47a77563609b060e15d5cc0a01ce1cd76a583dad26a0b0"
+    },
+    {
+      "id": "lg-so-8-c",
+      "object_sha256": "5455b5d335b88516768f7e9fae6a2bb070188befea76bd128759bb727920d4d1",
+      "metadata_sha256": "a7cd1a1a6deb2c4c467bad3e21cdec75332511e6826a2030c4456466e5628e09"
+    },
+    {
+      "id": "lg-spin-8-c",
+      "object_sha256": "3816ea2fe86dc0045c74f023aea1881cfe45e13257a0f610384960638cfb0792",
+      "metadata_sha256": "4fa3169721688d5667da9268de0027aacc6669bf40277612fc7eae495538223a"
+    },
+    {
+      "id": "lg-sl-4-c",
+      "object_sha256": "e1cf49d319f082572522674bd3463085a662d09b72b20ac291746ccc3612f805",
+      "metadata_sha256": "0bc172cb1efefdf204ebb4468b768c97ec6b68623d7439336bc4582488697a1d"
+    },
+    {
+      "id": "lg-su2-product",
+      "object_sha256": "6add11668c5558d047f006afc0c04175b13ebea86f4153b579504fdafc8376cf",
+      "metadata_sha256": "516845ab5d24f58d05b01ca979543530ff9a6c0e4b5aa50d0259263b71632557"
+    },
+    {
+      "id": "lg-sl2c-product",
+      "object_sha256": "5901a77b182bef55b4ca0e832a069e8087876127b77c0e4cd5be2e4fe501b57e",
+      "metadata_sha256": "1ef8a1f25170704fe7baba1077de70e2bd5cbfc438a5b98b2b0f90c8adef007e"
+    },
+    {
+      "id": "lg-g2-compact",
+      "object_sha256": "901d6e51da29527e954d2f3c73d3a009b46f7cfc3f83b1dd5126803429b377d2",
+      "metadata_sha256": "3d36295dd9c90bd7a0d06dcf1916c6ac693bf5d0ad6696641900ebb5ac1acea0"
+    },
+    {
+      "id": "lg-g2-split",
+      "object_sha256": "651638428c061a49efc00336ccdfa70bf7997fcd3104710ed2e2cf9f83553a84",
+      "metadata_sha256": "e8866d65ee596c09df9248b8b3b62c0663daf8cd4b550d37014d0c507f5946de"
+    },
+    {
+      "id": "lg-g2-complex",
+      "object_sha256": "b199997f81443bc1ecc55dff4f90b721bd4382b674f975aeb351317beaa21fcb",
+      "metadata_sha256": "a2266ef8782f5ebfc5707230f103c917b2ad95b4fa5204bf867d1cb06a275098"
+    },
+    {
+      "id": "lg-f4-compact",
+      "object_sha256": "5d09601305e1cff44882948e529a6ddc817999d95607cef150c53458cd5289c7",
+      "metadata_sha256": "cb3af36fe91b2b196eb04f23f3a040d76230ca5ec66884ebad11072debf7cff3"
+    },
+    {
+      "id": "lg-f4-split",
+      "object_sha256": "e5f0b93bc7c510350acf5ff04f2f5effc2e83d01d4796aa8cc4f6f458dcfebbc",
+      "metadata_sha256": "669a4f77063bbdb88f8d41ac7c1fb9584839c65f67366f9e390e4a694760228d"
+    },
+    {
+      "id": "lg-f4-complex",
+      "object_sha256": "488446602e656db16429d459812484d35a8f3245c6f8696a8973aa1aa3873cbd",
+      "metadata_sha256": "5bedc1ad9f023bc8913aea25955d2f8b43bfb26c35159e3e71b98a10c275fc3d"
+    },
+    {
+      "id": "lg-e6-compact",
+      "object_sha256": "b15a897c2d404320160329fdfee2bcf3c1d279bb0f8bf804b389c5c4b9f7b5ac",
+      "metadata_sha256": "d2869f6ca45b3390374bbb128900bf18b0e1fc79088466afe1eeed42a26c8beb"
+    },
+    {
+      "id": "lg-e6-split",
+      "object_sha256": "fa4ad02f8ff7542d70dff98d14b4849542ee363f288f8fa8f4a71ba2a9662e3e",
+      "metadata_sha256": "26bfe7f0d2dba7a7f309ed1badba03c2844c0e4bc8450fd5e737739e77e71773"
+    },
+    {
+      "id": "lg-e6-complex",
+      "object_sha256": "54faaee08d4bb314f1a972e9d8dc8ac2e33f9d70b22a327dee8f59b9c5b98678",
+      "metadata_sha256": "4e0b1d82511d0bf90ef157834b6363e622820209824cf8f3731f6deb05959f00"
+    },
+    {
+      "id": "lg-e7-compact",
+      "object_sha256": "a42b6bcc487377b61ade98b3d3a4c8172bff753045762d48a9832f40ce6da6ae",
+      "metadata_sha256": "ee3d085f4208e89dcd936ca8c0f6767a12e609a195fda668bee82244b8e181bd"
+    },
+    {
+      "id": "lg-e7-split",
+      "object_sha256": "a5eac74e77e9e7bdfb12c753b40151dcc90d0a1ae7802dfebac316311f9be121",
+      "metadata_sha256": "f1dff44182a363525c380eadec1c1ef1fac11e48c935fd29e8fcb55f181c7535"
+    },
+    {
+      "id": "lg-e7-complex",
+      "object_sha256": "9aa8ab765d7183a69c7eec3bb4881714f59c9d17fe60df46dbc2964e7d9dd452",
+      "metadata_sha256": "4a792b30ec9fb365751131fb37c675659313026ddba3183f27a55820c48c3d56"
+    },
+    {
+      "id": "lg-e8-compact",
+      "object_sha256": "341713178bde6c3486cfb033ebbf981bddc0040e09ae0d10f425b07f339093ad",
+      "metadata_sha256": "36b7d1401d559f9929de38d48f2ff82855d0319dbd5c6677758361de7c56c0e6"
+    },
+    {
+      "id": "lg-e8-split",
+      "object_sha256": "0dc420914fcc2da5259eed464e4368f5739b62e4b2acfeff42ec43a1c824b83a",
+      "metadata_sha256": "2e6b737beef529d950b17424b221908b6d8b93309e759b873f27897108cf2783"
+    },
+    {
+      "id": "lg-e8-complex",
+      "object_sha256": "a18957fc79451cb4f080c037efa69b0ef3052d0c2531f54d3595103f6f6dfd49",
+      "metadata_sha256": "796bb6750160a19ecfe016bbf17c2a5ee491335ecae01de8ef3b95c9ac0e2379"
+    },
+    {
+      "id": "lg-so-identity-p-q-r",
+      "object_sha256": "5526a17c941673409a687cd8d1bbcd766c918bca9af04c3b273d51efbf2dba61",
+      "metadata_sha256": "345c42686c015eac441b614c0b45ad14ad4b3b434c696dc13213069bf3b5de67"
+    }
+  ],
+  "remaining_findings": []
+}

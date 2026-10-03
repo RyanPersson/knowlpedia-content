@@ -1,0 +1,11 @@
+{
+  "new": [
+    "catalog/lie-groups-table-guide"
+  ],
+  "targeted_existing": [
+    "lie-groups/classification-simple-lie-algebras",
+    "lie-groups/compact-symplectic-group",
+    "catalog/lie-groups/sl-n-r"
+  ],
+  "scope": "Guide/navigation; correct repeated B2=C2 in uniqueness statement and symplectic real-dimension warning/matrix-size convention."
+}

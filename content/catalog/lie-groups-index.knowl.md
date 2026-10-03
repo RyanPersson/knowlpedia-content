@@ -2,7 +2,7 @@
 id = "catalog/lie-groups-index"
 title = "Lie groups catalogue"
 kind = "index"
-summary = "A catalogue of 179 objects with explicit fields, dimensions, and category views."
+summary = "A catalogue of 180 objects with explicit fields, dimensions, and category views."
 aliases = []
 domains = ["catalog"]
 section_mode = "continuous"
@@ -10,9 +10,9 @@ prerequisites = []
 generated_by = "scripts/generate_catalog_indexes.py"
 +++
 
-179 separately identified objects and parameterized families. Real and complex scalar choices have distinct entries. An isomorphism is a recorded relationship, not a reason to collapse the entries.
+180 separately identified objects and parameterized families. Real and complex scalar choices have distinct entries. An isomorphism is a recorded relationship, not a reason to collapse the entries.
 
-[Explore pairs and categories](/catalog/explorer/) · [[catalog|Catalogue overview]]
+[Open the Lie-group table](/catalog/lie-groups/table/) · [Explore pairs and categories](/catalog/explorer/) · [[catalog|Catalogue overview]]
 
 
 ## Additive group
@@ -49,6 +49,12 @@ generated_by = "scripts/generate_catalog_indexes.py"
 | [[catalog/lie-groups/sp-2|\(\operatorname{Sp}(2)\)]] | real: 10 | specified object |
 | [[catalog/lie-groups/sp-3|\(\operatorname{Sp}(3)\)]] | real: 21 | specified object |
 | [[lie-groups/compact-symplectic-group|\(\operatorname{Sp}(n)\)]] | real: n(2n+1) | parameterized family |
+
+## Connected special pseudo orthogonal group
+
+| Object | Dimensions | Kind of entry |
+| --- | --- | --- |
+| [[catalog/lie-groups/so-identity-p-q-r|\(\operatorname{SO}_0(p,q)\)]] | real: (p+q)(p+q-1)/2 | parameterized family |
 
 ## Euclidean group
 
