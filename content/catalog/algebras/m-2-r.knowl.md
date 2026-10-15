@@ -26,3 +26,13 @@ Matrix multiplication is associative because the coefficient algebra is associat
 ## Size convention
 
 For every size at least two, \(E_{11}E_{22}=0\) exhibits nonzero [[algebra-rings/zero-divisor|zero divisors]]. Matrix size is not the dimension of the whole algebra.
+
+## Regular-module views
+
+With \(A=M_2(\mathbb R)\), left multiplication defines the left regular
+module \({}_A A\) in [[catalog/categories/left-modules|\(A\text{-}\mathrm{Mod}\)]],
+and right multiplication defines the right regular module \(A_A\) in
+[[catalog/categories/right-modules|\(\mathrm{Mod}\text{-}A\)]]. Their
+[[catalog/relationships/regular-module-endomorphisms|endomorphism rings]] are
+\(A^{\mathrm{op}}\) and \(A\), respectively. These module maps need not
+preserve matrix multiplication or the matrix unit \(I_2\).

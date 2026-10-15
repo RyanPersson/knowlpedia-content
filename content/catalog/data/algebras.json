@@ -534,7 +534,9 @@
         "rings",
         "unital-rings",
         "real-associative-algebras",
-        "real-unital-associative-algebras"
+        "real-unital-associative-algebras",
+        "left-modules-m-2-r",
+        "right-modules-m-2-r"
       ],
       "constraints": [],
       "properties": {
@@ -3850,10 +3852,72 @@
       },
       "status": "family",
       "references": []
+    },
+    {
+      "id": "assoc-m-2-r-op",
+      "name": "Opposite ring of M_2(R)",
+      "notation": "M_2(\\mathbb R)^{\\mathrm{op}}",
+      "kind": "associative-algebra",
+      "family": "matrix-algebras",
+      "parameters": {
+        "base_ring_object_id": "assoc-m-2-r",
+        "product": "a star b = ba"
+      },
+      "knowl": "catalog/algebras/m-2-r-op",
+      "dimensions": {
+        "real": 4
+      },
+      "category_ids": [
+        "sets",
+        "real-vector-spaces",
+        "real-nonassociative-algebras",
+        "rings",
+        "unital-rings",
+        "real-associative-algebras",
+        "real-unital-associative-algebras"
+      ],
+      "constraints": [],
+      "properties": {
+        "unital": true,
+        "associative": true
+      },
+      "status": "defined",
+      "references": []
     }
   ],
   "categories": [],
-  "views": [],
+  "views": [
+    {
+      "id": "assoc-m-2-r@left-modules-m-2-r",
+      "object_id": "assoc-m-2-r",
+      "category_id": "left-modules-m-2-r",
+      "notation": "{}_A A",
+      "parameters": {
+        "base_ring_object_id": "assoc-m-2-r",
+        "side": "left",
+        "action": "a.x = ax"
+      },
+      "constraints": [
+        "A = M_2(R) with ordinary matrix multiplication."
+      ],
+      "description": "The left regular module; A acts by left multiplication."
+    },
+    {
+      "id": "assoc-m-2-r@right-modules-m-2-r",
+      "object_id": "assoc-m-2-r",
+      "category_id": "right-modules-m-2-r",
+      "notation": "A_A",
+      "parameters": {
+        "base_ring_object_id": "assoc-m-2-r",
+        "side": "right",
+        "action": "x.a = xa"
+      },
+      "constraints": [
+        "A = M_2(R) with ordinary matrix multiplication."
+      ],
+      "description": "The right regular module; A acts by right multiplication."
+    }
+  ],
   "relationships": [
     {
       "id": "complexify-scalar-c",
@@ -6594,6 +6658,126 @@
         "lean": null
       },
       "coverage": "complete"
+    },
+    {
+      "id": "hom-m-2-r-left-regular",
+      "source_view": "assoc-m-2-r@left-modules-m-2-r",
+      "target_view": "assoc-m-2-r@left-modules-m-2-r",
+      "operation": "hom",
+      "coverage": "complete",
+      "description": "Self-Hom consists of exactly the following endomorphisms. \\(\\operatorname{End}_{A-\\mathrm{Mod}}({}_A A)\\cong A^{\\mathrm{op}}\\) as unital rings: every map is uniquely \\(R_a(x)=xa\\), with \\(a=f(1)\\). Addition is pointwise and multiplication is composition: \\(R_a\\circ R_b=R_{ba}\\). The opposite product is \\(a\\star b=ba\\).",
+      "knowl": "catalog/relationships/regular-module-endomorphisms",
+      "conditions": [
+        "A = M_2(R); the specified unital regular-module action is fixed."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Evaluation at 1 determines each map; direct verification of linearity, composition, and invertibility in the linked proof.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-2-r-op"
+      ]
+    },
+    {
+      "id": "end-m-2-r-left-regular",
+      "source_view": "assoc-m-2-r@left-modules-m-2-r",
+      "target_view": "assoc-m-2-r@left-modules-m-2-r",
+      "operation": "end",
+      "coverage": "complete",
+      "description": "\\(\\operatorname{End}_{A-\\mathrm{Mod}}({}_A A)\\cong A^{\\mathrm{op}}\\) as unital rings: every map is uniquely \\(R_a(x)=xa\\), with \\(a=f(1)\\). Addition is pointwise and multiplication is composition: \\(R_a\\circ R_b=R_{ba}\\). The opposite product is \\(a\\star b=ba\\).",
+      "knowl": "catalog/relationships/regular-module-endomorphisms",
+      "conditions": [
+        "A = M_2(R); the specified unital regular-module action is fixed."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Evaluation at 1 determines each map; direct verification of linearity, composition, and invertibility in the linked proof.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-2-r-op"
+      ]
+    },
+    {
+      "id": "aut-m-2-r-left-regular",
+      "source_view": "assoc-m-2-r@left-modules-m-2-r",
+      "target_view": "assoc-m-2-r@left-modules-m-2-r",
+      "operation": "aut",
+      "coverage": "complete",
+      "description": "\\(\\operatorname{Aut}_{A-\\mathrm{Mod}}({}_A A)=\\{R_a:a\\in A^\\times\\}\\cong(A^{\\mathrm{op}})^\\times\\). Composition satisfies \\(R_a\\circ R_b=R_{ba}\\); the inverse of \\(R_a\\) is \\(R_{a^{-1}}\\).",
+      "knowl": "catalog/relationships/regular-module-endomorphisms",
+      "conditions": [
+        "A = M_2(R); the specified unital regular-module action is fixed."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Evaluation at 1 determines each map; direct verification of linearity, composition, and invertibility in the linked proof.",
+        "references": [],
+        "lean": null
+      }
+    },
+    {
+      "id": "hom-m-2-r-right-regular",
+      "source_view": "assoc-m-2-r@right-modules-m-2-r",
+      "target_view": "assoc-m-2-r@right-modules-m-2-r",
+      "operation": "hom",
+      "coverage": "complete",
+      "description": "Self-Hom consists of exactly the following endomorphisms. \\(\\operatorname{End}_{\\mathrm{Mod}-A}(A_A)\\cong A\\) as unital rings: every map is uniquely \\(L_a(x)=ax\\), with \\(a=f(1)\\). Addition is pointwise and multiplication is composition: \\(L_a\\circ L_b=L_{ab}\\).",
+      "knowl": "catalog/relationships/regular-module-endomorphisms",
+      "conditions": [
+        "A = M_2(R); the specified unital regular-module action is fixed."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Evaluation at 1 determines each map; direct verification of linearity, composition, and invertibility in the linked proof.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-2-r"
+      ]
+    },
+    {
+      "id": "end-m-2-r-right-regular",
+      "source_view": "assoc-m-2-r@right-modules-m-2-r",
+      "target_view": "assoc-m-2-r@right-modules-m-2-r",
+      "operation": "end",
+      "coverage": "complete",
+      "description": "\\(\\operatorname{End}_{\\mathrm{Mod}-A}(A_A)\\cong A\\) as unital rings: every map is uniquely \\(L_a(x)=ax\\), with \\(a=f(1)\\). Addition is pointwise and multiplication is composition: \\(L_a\\circ L_b=L_{ab}\\).",
+      "knowl": "catalog/relationships/regular-module-endomorphisms",
+      "conditions": [
+        "A = M_2(R); the specified unital regular-module action is fixed."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Evaluation at 1 determines each map; direct verification of linearity, composition, and invertibility in the linked proof.",
+        "references": [],
+        "lean": null
+      },
+      "result_object_ids": [
+        "assoc-m-2-r"
+      ]
+    },
+    {
+      "id": "aut-m-2-r-right-regular",
+      "source_view": "assoc-m-2-r@right-modules-m-2-r",
+      "target_view": "assoc-m-2-r@right-modules-m-2-r",
+      "operation": "aut",
+      "coverage": "complete",
+      "description": "\\(\\operatorname{Aut}_{\\mathrm{Mod}-A}(A_A)=\\{L_a:a\\in A^\\times\\}\\cong A^\\times\\). Composition satisfies \\(L_a\\circ L_b=L_{ab}\\); the inverse of \\(L_a\\) is \\(L_{a^{-1}}\\).",
+      "knowl": "catalog/relationships/regular-module-endomorphisms",
+      "conditions": [
+        "A = M_2(R); the specified unital regular-module action is fixed."
+      ],
+      "evidence": {
+        "status": "proved-in-text",
+        "method": "Evaluation at 1 determines each map; direct verification of linearity, composition, and invertibility in the linked proof.",
+        "references": [],
+        "lean": null
+      }
     }
   ]
 }

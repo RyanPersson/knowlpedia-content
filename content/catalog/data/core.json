@@ -610,6 +610,42 @@
       ],
       "unit_policy": "not-applicable",
       "regularity": "algebraic"
+    },
+    {
+      "id": "left-modules-m-2-r",
+      "name": "Unital left modules over A = M_2(R)",
+      "notation": "A-\\mathrm{Mod}",
+      "knowl": "catalog/categories/left-modules",
+      "scalar": "M_2(R)",
+      "object_axioms": [
+        "The base ring is fixed: A = M_2(R), catalogue object assoc-m-2-r.",
+        "An abelian group (M,+,0).",
+        "A left action A x M -> M; (ab)m = a(bm), 1m = m, a(m+n) = am+an, (a+b)m = am+bm."
+      ],
+      "morphism_axioms": [
+        "Additive maps f: M -> N.",
+        "f(am) = a f(m) for all a in A and m in M."
+      ],
+      "unit_policy": "The unit acts as identity; maps need not preserve a distinguished element of M.",
+      "regularity": "algebraic"
+    },
+    {
+      "id": "right-modules-m-2-r",
+      "name": "Unital right modules over A = M_2(R)",
+      "notation": "\\mathrm{Mod}-A",
+      "knowl": "catalog/categories/right-modules",
+      "scalar": "M_2(R)",
+      "object_axioms": [
+        "The base ring is fixed: A = M_2(R), catalogue object assoc-m-2-r.",
+        "An abelian group (M,+,0).",
+        "A right action M x A -> M; m(ab) = (ma)b, m1 = m, (m+n)a = ma+na, m(a+b) = ma+mb."
+      ],
+      "morphism_axioms": [
+        "Additive maps f: M -> N.",
+        "f(ma) = f(m) a for all a in A and m in M."
+      ],
+      "unit_policy": "The unit acts as identity; maps need not preserve a distinguished element of M.",
+      "regularity": "algebraic"
     }
   ],
   "views": [],
