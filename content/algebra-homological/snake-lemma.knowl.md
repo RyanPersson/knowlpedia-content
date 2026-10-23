@@ -11,13 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The snake lemma is a fundamental diagram-chase statement in the category of \(R\)-modules, and more generally in any [[algebra-category-theory/abelian-category|abelian category]].
-
-It relates [[algebra-category-theory/kernel-categorical|kernels]] and [[algebra-category-theory/cokernel-categorical|cokernels]] (compare also [[algebra-modules/cokernel-module|cokernel of a module map]]) across two exact rows ([[algebra-modules/exact-sequence-modules|exact sequences]]).
-
-## Theorem (Snake lemma)
-
-Suppose we have a commutative diagram of \(R\)-modules with exact rows
+**Snake lemma**: Let \(R\) be a ring, and suppose a commutative diagram of \(R\)-modules has [[algebra-modules/exact-sequence-modules|exact]] rows
 \[
 \begin{array}{ccccccccc}
 0 &\to& A' &\xrightarrow{i}& A &\xrightarrow{p}& A'' &\to& 0\\
@@ -25,18 +19,16 @@ Suppose we have a commutative diagram of \(R\)-modules with exact rows
 0 &\to& B' &\xrightarrow{j}& B &\xrightarrow{q}& B'' &\to& 0
 \end{array}
 \]
-Then there is a canonical connecting homomorphism (boundary map)
+Then there is a homomorphism \(\delta:\ker(f'')\to\operatorname{coker}(f')\), the **connecting homomorphism**, such that the sequence
 \[
-\delta:\ker(f'') \longrightarrow \operatorname{coker}(f')
+0 \to \ker(f') \to \ker(f) \to \ker(f'') \xrightarrow{\ \delta\ } \operatorname{coker}(f') \to \operatorname{coker}(f) \to \operatorname{coker}(f'') \to 0
 \]
-such that the following sequence is exact:
-\[
-0 \to \ker(f') \to \ker(f) \to \ker(f'') \xrightarrow{\ \delta\ } \operatorname{coker}(f') \to \operatorname{coker}(f) \to \operatorname{coker}(f'') \to 0.
-\]
+is exact. The maps other than \(\delta\) are induced by \(i,p,j,q\), and \(\operatorname{coker}(f')=B'/\operatorname{im}(f')\) is the [[algebra-modules/cokernel-module|cokernel]].
 
-This \(\delta\) is natural in the diagram, and is the prototype for the [[algebra-homological/connecting-homomorphism-lemma|connecting homomorphism]] appearing in long exact sequences.
+The same statement holds in any [[algebra-category-theory/abelian-category|abelian category]], with [[algebra-category-theory/kernel-categorical|kernels]] and [[algebra-category-theory/cokernel-categorical|cokernels]] taken in the categorical sense.
 
-### Construction of \(\delta\) (explicit)
+## Construction of the connecting homomorphism
+
 Given \(x\in \ker(f'')\subseteq A''\):
 1. pick \(a\in A\) with \(p(a)=x\);
 2. since \(f''(x)=0\), commutativity implies \(q(f(a))=0\), hence \(f(a)\in \operatorname{im}(j)\);
@@ -44,6 +36,8 @@ Given \(x\in \ker(f'')\subseteq A''\):
 4. define \(\delta(x)\) to be the class of \(b'\) in \(\operatorname{coker}(f')=B'/\operatorname{im}(f')\).
 
 A standard diagram chase shows this is well-defined (independent of choices) and gives exactness.
+
+The map \(\delta\) is natural in the diagram, and it is the prototype for the [[algebra-homological/connecting-homomorphism-lemma|connecting homomorphism]] appearing in long exact sequences.
 
 ## Examples
 

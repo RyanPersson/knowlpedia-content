@@ -11,14 +11,11 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a finite group and \(k\) a field. Consider finite-dimensional [[algebra-representation-theory/group-representation|representations]] of \(G\) over \(k\), equivalently finite-dimensional \(kG\)-modules.
-
-## Theorem (Maschke)
-Assume that \(|G|\) is invertible in \(k\) (equivalently \(\mathrm{char}(k)\nmid |G|\)). Then every finite-dimensional \(k\)-representation \(V\) of \(G\) is **semisimple**: for every \(G\)-[[algebra-representation-theory/subrepresentation|subrepresentation]] \(W\subseteq V\), there exists a \(G\)-stable subspace \(U\subseteq V\) such that
+**Maschke's theorem**: Let \(G\) be a finite group and \(k\) a field in which \(|G|\) is invertible (equivalently \(\mathrm{char}(k)\nmid |G|\)). Then every finite-dimensional [[algebra-representation-theory/group-representation|representation]] \(V\) of \(G\) over \(k\) is **semisimple**: for every [[algebra-representation-theory/subrepresentation|subrepresentation]] \(W\subseteq V\), there exists a \(G\)-stable subspace \(U\subseteq V\) such that
 \[
 V \;=\; W \oplus U
 \]
-as \(G\)-representations (equivalently as \(kG\)-modules). In particular, every representation is [[algebra-representation-theory/completely-reducible-representation|completely reducible]].
+as \(G\)-representations. In particular, every such representation is [[algebra-representation-theory/completely-reducible-representation|completely reducible]].
 
 In module language: every finite-dimensional \(kG\)-module is a [[algebra-modules/semisimple-module|semisimple module]].
 
