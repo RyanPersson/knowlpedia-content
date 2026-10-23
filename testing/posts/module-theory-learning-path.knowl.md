@@ -291,7 +291,12 @@ The two lemmas below are the standard diagram-chasing tools, and both are proved
 
 **Lemma 5.7.** [[algebra-homological/five-lemma|Five lemma]]
 
-The case used most often is the **short five lemma**: in a commutative diagram of two short exact sequences, if the two outer vertical maps are isomorphisms, so is the middle one.
+The case used most often is the **short five lemma**: in a commutative diagram of two short exact sequences, if the two outer vertical maps are isomorphisms, so is the middle one. In the diagram below the rows are short exact and both squares commute:
+
+```tikz-cd
+0 \arrow[r] & A \arrow[r] \arrow[d, "\alpha", "\cong"'] & B \arrow[r] \arrow[d, "\beta"] & C \arrow[r] \arrow[d, "\gamma", "\cong"'] & 0 \\
+0 \arrow[r] & A' \arrow[r] & B' \arrow[r] & C' \arrow[r] & 0
+```
 
 ### Exercises for Chapter 5
 
@@ -552,7 +557,14 @@ Both its characteristic polynomial and its minimal polynomial equal \(f\). The m
 
 **Corollary 11.4.** [[algebra-modules/rcf-from-structure-theorem|Rational canonical form from the structure theorem]]
 
-**Similarity is isomorphism.** A matrix \(A\in M_n(F)\) makes \(F^n\) into an \(F[x]\)-module \(F^n_A\). An \(F[x]\)-isomorphism \(F^n_A\to F^n_B\) is an invertible matrix \(P\) with \(PA=BP\). So \(A\) and \(B\) are similar exactly when \(F^n_A\cong F^n_B\), that is, exactly when they have the same invariant factors and the same rational canonical form. The sequence
+**Similarity is isomorphism.** A matrix \(A\in M_n(F)\) makes \(F^n\) into an \(F[x]\)-module \(F^n_A\). An \(F[x]\)-isomorphism \(F^n_A\to F^n_B\) is an invertible matrix \(P\) with \(PA=BP\). The condition \(PA=BP\) says that \(P\) carries the action of \(x\) on \(F^n_A\) to its action on \(F^n_B\), so the square below commutes:
+
+```tikz-cd
+F^n \arrow[r, "A"] \arrow[d, "P"', "\cong"] & F^n \arrow[d, "P", "\cong"'] \\
+F^n \arrow[r, "B"'] & F^n
+```
+
+So \(A\) and \(B\) are similar exactly when \(F^n_A\cong F^n_B\), that is, exactly when they have the same invariant factors and the same rational canonical form. The sequence
 \[
 0\to F[x]^n\xrightarrow{\;xI-A\;}F[x]^n\to F^n_A\to0
 \]
