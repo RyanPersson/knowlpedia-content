@@ -24,7 +24,7 @@ A **vector space** over a [[algebra-rings/field|field]] \(\mathbb F\) is a [[sha
 
 ## Context
 
-Vector spaces are the basic objects studied via [[linear-algebra/linear-map|linear maps]] and invariants including the [[linear-algebra/determinant|determinant]] and [[linear-algebra/eigenvalue|eigenvalues]] of operators.
+Vector spaces are the basic objects studied via [[linear-algebra/linear-map|linear maps]] and invariants including the [[linear-algebra/determinant|determinant]] and [[linear-algebra/eigenvalue|eigenvalues]] of operators. A vector space over \(\mathbb F\) is the same thing as a [[algebra-modules/module|module]] over the field \(\mathbb F\).
 
 ## Examples
 

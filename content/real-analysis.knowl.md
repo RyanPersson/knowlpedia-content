@@ -28,7 +28,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/minimum|Minimum]]
 
 ### Axioms
-- [[real-analysis/field-axioms|Field axioms]]
+- [[algebra-rings/field|Field axioms]]
 - [[real-analysis/order-axioms|Order axioms]]
 - [[real-analysis/completeness-axiom|Completeness axiom]]
 

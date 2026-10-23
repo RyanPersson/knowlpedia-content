@@ -18,3 +18,10 @@ dependency_review_count = 1
 is [[algebra-modules/split-exact-sequence|split exact]].
 
 This reformulates projectivity as a splitting property for extensions of \(P\). The "only if" direction uses a lift of \(\mathrm{id}_P\) along the surjection \(B\to P\), and the "if" direction follows by encoding a lifting problem as the splitting of an induced extension (compare the [[algebra-modules/splitting-lemma|splitting lemma]]).
+
+Writing \(p\colon B\to P\) for the surjection, lifting \(\mathrm{id}_P\) along \(p\) gives the section \(s\), with \(p\circ s=\mathrm{id}_P\):
+
+```tikz-cd
+& & & P \arrow[dl, dashed, "s"'] \arrow[d, equal] & \\
+0 \arrow[r] & A \arrow[r] & B \arrow[r, "p"'] & P \arrow[r] & 0
+```

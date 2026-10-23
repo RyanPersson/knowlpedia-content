@@ -93,13 +93,6 @@ This section collects definitions and results on modules over rings: submodules,
 
 ---
 
-## Axioms
-
-- [[algebra-modules/module-axioms|Module axioms]]
-- [[algebra-modules/vector-space-axioms|Vector space axioms]]
-
----
-
 ## Theorems
 
 ### Isomorphism Theorems

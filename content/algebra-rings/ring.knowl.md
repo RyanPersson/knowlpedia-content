@@ -6,7 +6,7 @@ summary = "A set with addition forming an abelian group and multiplication that 
 aliases = ["ring"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/ring.md"
-prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group", "algebra-rings/ring-axioms"]
+prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group"]
 dependency_heuristic = "semantic-foundations-review-v1"
 dependency_review_count = 1
 +++
@@ -16,7 +16,7 @@ A **ring** is a set \(R\) equipped with two [[shared-foundations/binary-operatio
 2. multiplication is associative: \((ab)c=a(bc)\) for all \(a,b,c\in R\),
 3. multiplication distributes over addition: \(a(b+c)=ab+ac\) and \((a+b)c=ac+bc\) for all \(a,b,c\in R\).
 
-These conditions are often summarized as the [[algebra-rings/ring-axioms|ring axioms]]. Many texts additionally impose a multiplicative identity, leading to a [[algebra-rings/unital-ring|unital ring]]; commutativity of multiplication leads to a [[algebra-rings/commutative-ring|commutative ring]].
+These conditions are the **ring axioms**. Many texts additionally impose a multiplicative identity, leading to a [[algebra-rings/unital-ring|unital ring]]; commutativity of multiplication leads to a [[algebra-rings/commutative-ring|commutative ring]].
 
 ## Examples
 - \(\mathbb Z\) with usual \(+\) and \(\cdot\) is a (unital, commutative) ring.

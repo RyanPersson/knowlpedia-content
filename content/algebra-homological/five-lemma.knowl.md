@@ -12,13 +12,10 @@ dependency_review_count = 1
 +++
 
 In an [[algebra-category-theory/abelian-category|abelian category]], consider a commutative diagram with exact rows
-\[
-\begin{array}{ccccccccc}
-A_1 &\to& A_2 &\to& A_3 &\to& A_4 &\to& A_5\\
-\downarrow f_1 && \downarrow f_2 && \downarrow f_3 && \downarrow f_4 && \downarrow f_5\\
-B_1 &\to& B_2 &\to& B_3 &\to& B_4 &\to& B_5
-\end{array}
-\]
+```tikz-cd
+A_1 \arrow[r] \arrow[d, "f_1"] & A_2 \arrow[r] \arrow[d, "f_2"] & A_3 \arrow[r] \arrow[d, "f_3"] & A_4 \arrow[r] \arrow[d, "f_4"] & A_5 \arrow[d, "f_5"] \\
+B_1 \arrow[r] & B_2 \arrow[r] & B_3 \arrow[r] & B_4 \arrow[r] & B_5
+```
 If \(f_1\) is an epimorphism, \(f_2\) and \(f_4\) are isomorphisms, and \(f_5\) is a monomorphism, then \(f_3\) is an isomorphism. In particular, if \(f_1,f_2,f_4,f_5\) are isomorphisms, then so is \(f_3\).
 
 ## Remarks

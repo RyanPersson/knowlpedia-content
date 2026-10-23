@@ -14,6 +14,13 @@ dependency_review_count = 1
 
 An \(R\)-module \(P\) is **projective** if for every [[shared-foundations/surjective-function|surjective]] homomorphism \(f:M\to N\) and every homomorphism \(g:P\to N\) (see [[algebra-modules/module-homomorphism|module homomorphisms]]), there exists a homomorphism \(h:P\to M\) such that \(f\circ h=g\).
 
+As a diagram, \(g\) lifts along the surjection \(f\) and the triangle commutes:
+
+```tikz-cd
+& P \arrow[d, "g"] \arrow[dl, dashed, "\exists\,h"'] \\
+M \arrow[r, two heads, "f"'] & N
+```
+
 ## Equivalent characterizations
 
 Equivalently, \(P\) is projective iff it is a direct summand of a [[algebra-modules/free-module|free module]]; see [[algebra-modules/projective-summand-of-free|projective is a summand of free]]. Projectivity can also be detected via splitting of short exact sequences ending in \(P\) (a standard criterion is [[algebra-modules/projective-ses-criterion|the projective short-exact-sequence criterion]]), linking it to [[algebra-modules/short-exact-sequence|short exact sequences]].

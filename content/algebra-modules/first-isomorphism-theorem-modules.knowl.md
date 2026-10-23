@@ -17,4 +17,11 @@ dependency_review_count = 1
 \]
 is an isomorphism of \(R\)-modules. Here \(\ker(f)\) is the [[algebra-modules/kernel-module|kernel]] and \(\mathrm{im}(f)\) is the [[algebra-modules/image-module|image]], and \(M/\ker(f)\) is a [[algebra-modules/quotient-module|quotient module]].
 
+As a diagram, \(f\) factors as the quotient map, the isomorphism \(\overline f\), and the inclusion of the image, and the square commutes:
+
+```tikz-cd
+M \arrow[r, "f"] \arrow[d, two heads, "\pi"'] & N \\
+M/\ker(f) \arrow[r, "\overline f", "\cong"'] & \mathrm{im}(f) \arrow[u, hook]
+```
+
 This theorem identifies the “effective domain” of a map with its image and is the basic mechanism behind many results in the theory of [[algebra-modules/exact-sequence-modules|exact sequences]]; it is the module analogue of [[algebra-rings/first-isomorphism-theorem-rings|the first isomorphism theorem for rings]]

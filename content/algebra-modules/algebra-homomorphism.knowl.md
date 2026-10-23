@@ -13,6 +13,13 @@ dependency_review_count = 1
 
 An **algebra homomorphism** between \(R\)-algebras \(A\) and \(B\) (with structure maps \(\iota_A\colon R\to A\), \(\iota_B\colon R\to B\)) is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \(\varphi\colon A\to B\) such that \(\varphi\circ \iota_A=\iota_B\).
 
+As a diagram, \(\varphi\) is compatible with the structure maps:
+
+```tikz-cd
+& R \arrow[dl, "\iota_A"'] \arrow[dr, "\iota_B"] & \\
+A \arrow[rr, "\varphi"'] & & B
+```
+
 ## Remarks
 
 Algebra homomorphisms are the morphisms in the category of \(R\)-algebras; they preserve both multiplication and the base-ring scalars.

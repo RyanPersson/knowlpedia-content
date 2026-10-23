@@ -34,6 +34,13 @@ For every \(S\)-module \(N\), extension of scalars is left adjoint to [[algebra-
 \]
 where \(\mathrm{Res}_f N\) denotes \(N\) viewed as an \(R\)-module via \(f\).
 
+Concretely, every \(R\)-linear \(\varphi\colon M\to N\) factors uniquely through \(\eta_M\) as \(\varphi=\widetilde\varphi\circ\eta_M\), where \(\widetilde\varphi(s\otimes m)=s\varphi(m)\):
+
+```tikz-cd
+M \arrow[r, "\eta_M"] \arrow[dr, "\varphi"'] & S\otimes_R M \arrow[d, dashed, "\exists!\,\widetilde\varphi"] \\
+& N
+```
+
 If \(U\subseteq R\) is a [[algebra-commutative/multiplicative-set|multiplicative set]], extension of scalars along \(R\to U^{-1}R\) recovers [[algebra-commutative/localization-module|localization of modules]]:
 \[
 (U^{-1}R)\otimes_R M \cong U^{-1}M.
