@@ -1,8 +1,8 @@
 +++
 id = "posts/module-theory-learning-path"
-title = "Module Theory: A Learning Path"
+title = "Modules"
 kind = "page"
-summary = "Lecture notes on modules over a ring, assembled from the module knowls in prerequisite order: submodules and quotients, free modules, exact sequences, Hom and tensor products, projective and injective modules, modules over a PID, canonical forms, chain conditions, and semisimplicity."
+summary = "Lecture notes on modules over a ring: submodules and quotients, free modules, exact sequences, Hom and tensor products, projective and injective modules, modules over a PID, canonical forms, chain conditions, and semisimplicity."
 aliases = ["module-theory-learning-path", "Module theory learning path", "Module theory lecture notes"]
 domains = ["posts", "algebra-modules"]
 knowls_open = true
@@ -11,7 +11,7 @@ prerequisites = []
 dependency_review_count = 0
 +++
 
-These notes are a reading path through module theory. A module is a vector space whose scalars come from a ring instead of a field. That single change produces a theory that contains linear algebra, the theory of abelian groups, and the theory of ideals as special cases, and it is the language of most of modern algebra.
+A module is a vector space whose scalars come from a ring instead of a field. That single change produces a theory that contains linear algebra, the theory of abelian groups, and the theory of ideals as special cases, and it is the language of most of modern algebra.
 
 ## Contents
 
@@ -31,16 +31,6 @@ These notes are a reading path through module theory. A module is a vector space
 - [13. Semisimple modules and rings](/posts/module-theory-learning-path/#13-semisimple-modules-and-rings)
 - [14. Tools over commutative rings](/posts/module-theory-learning-path/#14-tools-over-commutative-rings)
 - [15. Looking ahead: resolutions, Ext, and Tor](/posts/module-theory-learning-path/#15-looking-ahead-resolutions-ext-and-tor)
-
-## How to use these notes
-
-Each numbered item is a knowl shown in place. The box under an item holds its definition or statement. The buttons at the bottom of a box open more of the knowl, such as examples, remarks, and equivalent characterizations, without leaving the page. The cross collapses a box, and clicking the item's title opens it again. Underlined terms inside a box are knowls too: click one to expand its definition inline.
-
-The items appear in prerequisite order. Every item comes after each item that it depends on in the site's dependency graph, and the order is checked mechanically against that graph. Material that the notes assume and do not cover, such as sets, groups, and elementary linear algebra, stays inside the boxes as expandable links.
-
-The text between the boxes connects them. It gives motivation, conventions, examples, proof sketches, and a few standard facts that do not yet have knowls of their own; such terms are printed in **bold** where they are defined. Each section ends with exercises.
-
-Sections 1 to 8 form the core of a first course. Sections 10 and 11 are its main application: the structure theorem over a principal ideal domain and the canonical forms of linear algebra. After Section 8, the remaining blocks are independent of one another: Section 9, Sections 12 and 13 in that order, Section 14, and Section 15.
 
 ## Conventions
 
