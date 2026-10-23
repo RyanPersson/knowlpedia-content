@@ -17,4 +17,11 @@ f:\bigoplus_{i\in I}M_i\longrightarrow N
 \]
 such that \(f\circ\iota_i=f_i\) for every \(i\in I\).
 
+As a diagram, the triangle commutes for every \(i\in I\):
+
+```tikz-cd
+M_i \arrow[r, "\iota_i"] \arrow[dr, "f_i"'] & \bigoplus_{j\in I} M_j \arrow[d, dashed, "\exists!\,f"] \\
+& N
+```
+
 This is the defining [[algebra-category-theory/coproduct|coproduct]] property of the [[algebra-modules/direct-sum-modules|direct sum]] in the [[algebra-category-theory/category|category]] of \(R\)-modules, stated in terms of [[algebra-modules/module-homomorphism|module homomorphisms]].

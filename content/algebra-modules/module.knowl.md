@@ -6,7 +6,7 @@ summary = "An abelian group equipped with a compatible scalar action by a ring (
 aliases = ["module"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/module.md"
-prerequisites = ["algebra-rings/ring", "algebra-modules/module-axioms"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/unital-ring"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
@@ -19,7 +19,7 @@ Let \(R\) be a [[algebra-rings/ring|ring]] (often assumed a [[algebra-rings/unit
 
 A **right \(R\)-module** is defined similarly with a map \(M\times R\to M\), \((m,r)\mapsto mr\), satisfying the analogous axioms.
 
-The axioms are collected in [[algebra-modules/module-axioms|module axioms]]. When \(R\) is a [[algebra-rings/field|field]], left \(R\)-modules are the same objects as [[linear-algebra/vector-space|vector spaces]]. Ideals of a ring give basic examples of modules, linking module theory to [[algebra-rings/ideal|ideal]] theory.
+When \(R\) is a [[algebra-rings/field|field]], left \(R\)-modules are the same objects as [[linear-algebra/vector-space|vector spaces]]. Ideals of a ring give basic examples of modules, linking module theory to [[algebra-rings/ideal|ideal]] theory.
 
 ## Examples
 - For any ring \(R\), the additive group of \(R\) is a left \(R\)-module via multiplication: \(r\cdot x=rx\).

@@ -21,13 +21,22 @@ This is the unique action of the [[algebra-rings/polynomial-ring|polynomial ring
 
 ## Why this satisfies the module axioms
 
-Polynomial evaluation gives \((f+g)(T)=f(T)+g(T)\), \((fg)(T)=f(T)g(T)\), and \(1(T)=\operatorname{id}_V\). The multiplicative identity follows by expanding products and using \(T^iT^j=T^{i+j}\). Each \(f(T)\) is linear, so the two distributive [[algebra-modules/module-axioms|module axioms]] follow as well.
+Polynomial evaluation gives \((f+g)(T)=f(T)+g(T)\), \((fg)(T)=f(T)g(T)\), and \(1(T)=\operatorname{id}_V\). The multiplicative identity follows by expanding products and using \(T^iT^j=T^{i+j}\). Each \(f(T)\) is linear, so the two distributive axioms of a [[algebra-modules/module|module]] follow as well.
 
 The ring of all linear endomorphisms of \(V\) may be noncommutative; the scalar operators and the powers of this single \(T\) commute, which is all the construction needs.
 
 ## Morphisms and invariant subspaces
 
-For operators \(T\) on \(V\) and \(S\) on \(W\), a linear map \(u:V\to W\) is an \(F[X]\)-module homomorphism exactly when \(uT=Su\). A subspace is an \(F[X]\)-submodule exactly when it is \(T\)-invariant.
+For operators \(T\) on \(V\) and \(S\) on \(W\), a linear map \(u:V\to W\) is an \(F[X]\)-module homomorphism exactly when \(uT=Su\).
+
+The condition \(uT=Su\) says that the square below commutes:
+
+```tikz-cd
+V \arrow[r, "u"] \arrow[d, "T"'] & W \arrow[d, "S"] \\
+V \arrow[r, "u"'] & W
+```
+
+A subspace is an \(F[X]\)-submodule exactly when it is \(T\)-invariant.
 
 For finite-dimensional \(V\), the [[linear-algebra/minimal-polynomial|minimal polynomial]] generates the annihilator of this module. The construction is the bridge to [[algebra-modules/rcf-from-structure-theorem|rational canonical form from the module structure theorem]].
 

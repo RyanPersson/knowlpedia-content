@@ -17,4 +17,11 @@ dependency_review_count = 1
 \]
 where \(A\cap B\) is the [[shared-foundations/intersection|intersection]] and each quotient is a [[algebra-modules/quotient-module|quotient module]].
 
+In the square below, the composite \(A\hookrightarrow A+B\twoheadrightarrow (A+B)/B\) is surjective with kernel \(A\cap B\), and this induces the bottom isomorphism:
+
+```tikz-cd
+A \arrow[r, hook] \arrow[d, two heads] & A+B \arrow[d, two heads] \\
+A/(A\cap B) \arrow[r, "\cong"] & (A+B)/B
+```
+
 This isomorphism is obtained by restricting the quotient map \(M\to M/B\) to \(A\), and it is a standard application of the [[algebra-modules/first-isomorphism-theorem-modules|first isomorphism theorem]].

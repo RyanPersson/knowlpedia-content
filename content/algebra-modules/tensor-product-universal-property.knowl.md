@@ -17,6 +17,13 @@ Let \(R\) be a ring, \(M\) a right \(R\)-module, and \(N\) a left \(R\)-module. 
 \]
 and every biadditive balanced map \(f\colon M\times N\to A\) to an abelian group \(A\) factors uniquely through a homomorphism \(\overline f:T\to A\).
 
+As a diagram, the triangle commutes, \(f=\overline f\circ\tau\):
+
+```tikz-cd
+M\times N \arrow[r, "\tau"] \arrow[dr, "f"'] & T \arrow[d, dashed, "\exists!\,\overline f"] \\
+& A
+```
+
 When such \((T,\tau)\) exists, it is unique up to unique isomorphism; one writes \(T=M\otimes_R N\) and \(\tau(m,n)=m\otimes n\), producing the [[algebra-modules/tensor-product|tensor product]]. The universal property is the mechanism that turns bilinear constructions into linear ones (i.e. [[algebra-modules/module-homomorphism|module homomorphisms]], when the target has compatible structure).
 
 ## Examples

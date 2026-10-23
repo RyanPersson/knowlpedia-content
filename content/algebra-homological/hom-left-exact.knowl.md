@@ -11,10 +11,9 @@ dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(R\) be a [[algebra-rings/ring|ring]] and write [[algebra-modules/hom-module|\(\mathrm{Hom}_R(-,-)\)]] for the Hom functor.
+**Hom is left exact**: Let \(R\) be a [[algebra-rings/ring|ring]], let \(M\) and \(N\) be left \(R\)-modules, and write [[algebra-modules/hom-module|\(\mathrm{Hom}_R(-,-)\)]] for the Hom functor, with \(u_*(f)=u\circ f\) and \(u^*(g)=g\circ u\).
 
-## Statement (covariant in the second variable)
-Fix a left \(R\)-module \(M\). If
+*Covariant form.* If
 \[
 0 \to A' \xrightarrow{u} A \xrightarrow{v} A''
 \]
@@ -24,17 +23,17 @@ is an exact sequence of left \(R\)-modules, then
 \]
 is exact.
 
-Equivalently: \(\mathrm{Hom}_R(M,-)\) preserves kernels (and monomorphisms), but it need not preserve cokernels (and epimorphisms).
-
-## Statement (contravariant in the first variable)
-Fix a left \(R\)-module \(N\). If
+*Contravariant form.* If
 \[
 A' \xrightarrow{u} A \xrightarrow{v} A'' \to 0
 \]
-is exact, then applying \(\mathrm{Hom}_R(-,N)\) yields an exact sequence
+is an exact sequence of left \(R\)-modules, then
 \[
-0 \to \mathrm{Hom}_R(A'',N) \xrightarrow{v^*} \mathrm{Hom}_R(A,N) \xrightarrow{u^*} \mathrm{Hom}_R(A',N).
+0 \to \mathrm{Hom}_R(A'',N) \xrightarrow{v^*} \mathrm{Hom}_R(A,N) \xrightarrow{u^*} \mathrm{Hom}_R(A',N)
 \]
+is exact.
+
+Equivalently, \(\mathrm{Hom}_R(M,-)\) preserves kernels and \(\mathrm{Hom}_R(-,N)\) turns cokernels into kernels. Neither functor need preserve surjections; see the examples.
 
 ## Failure of right exactness and Ext
 The failure of \(\mathrm{Hom}\) to be exact is measured by [[algebra-homological/ext|Ext]]: \(\mathrm{Ext}^1_R(-,N)\) (and higher \(\mathrm{Ext}^n\)) are the [[algebra-homological/derived-functor|right derived functors]] of \(\mathrm{Hom}_R(-,N)\), and every [[algebra-modules/short-exact-sequence|short exact sequence]] gives a [[algebra-homological/long-exact-sequence-ext|long exact sequence in Ext]] (a special case of [[algebra-homological/long-exact-sequence-derived|the long exact sequence for derived functors]]).

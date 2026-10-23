@@ -11,32 +11,37 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The snake lemma is a fundamental diagram-chase statement in the category of \(R\)-modules, and more generally in any [[algebra-category-theory/abelian-category|abelian category]].
-
-It relates [[algebra-category-theory/kernel-categorical|kernels]] and [[algebra-category-theory/cokernel-categorical|cokernels]] (compare also [[algebra-modules/cokernel-module|cokernel of a module map]]) across two exact rows ([[algebra-modules/exact-sequence-modules|exact sequences]]).
-
-## Theorem (Snake lemma)
-
-Suppose we have a commutative diagram of \(R\)-modules with exact rows
+**Snake lemma**: Let \(R\) be a ring, and suppose a commutative diagram of \(R\)-modules has [[algebra-modules/exact-sequence-modules|exact]] rows
+```tikz-cd
+0 \arrow[r] & A' \arrow[r, "i"] \arrow[d, "f'"] & A \arrow[r, "p"] \arrow[d, "f"] & A'' \arrow[r] \arrow[d, "f''"] & 0 \\
+0 \arrow[r] & B' \arrow[r, "j"] & B \arrow[r, "q"] & B'' \arrow[r] & 0
+```
+Then there is a homomorphism \(\delta:\ker(f'')\to\operatorname{coker}(f')\), the **connecting homomorphism**, such that the sequence
 \[
-\begin{array}{ccccccccc}
-0 &\to& A' &\xrightarrow{i}& A &\xrightarrow{p}& A'' &\to& 0\\
- & & \downarrow f' & & \downarrow f & & \downarrow f'' & & \\
-0 &\to& B' &\xrightarrow{j}& B &\xrightarrow{q}& B'' &\to& 0
-\end{array}
+0 \to \ker(f') \to \ker(f) \to \ker(f'') \xrightarrow{\ \delta\ } \operatorname{coker}(f') \to \operatorname{coker}(f) \to \operatorname{coker}(f'') \to 0
 \]
-Then there is a canonical connecting homomorphism (boundary map)
-\[
-\delta:\ker(f'') \longrightarrow \operatorname{coker}(f')
-\]
-such that the following sequence is exact:
-\[
-0 \to \ker(f') \to \ker(f) \to \ker(f'') \xrightarrow{\ \delta\ } \operatorname{coker}(f') \to \operatorname{coker}(f) \to \operatorname{coker}(f'') \to 0.
-\]
+is exact. The maps other than \(\delta\) are induced by \(i,p,j,q\), and \(\operatorname{coker}(f')=B'/\operatorname{im}(f')\) is the [[algebra-modules/cokernel-module|cokernel]].
 
-This \(\delta\) is natural in the diagram, and is the prototype for the [[algebra-homological/connecting-homomorphism-lemma|connecting homomorphism]] appearing in long exact sequences.
+The name comes from the picture: the kernels sit above the rows, the cokernels below, and \(\delta\) snakes from \(\ker(f'')\) down to \(\operatorname{coker}(f')\):
 
-### Construction of \(\delta\) (explicit)
+```tikz-cd
+\begin{tikzcd}
+0 \arrow[r] & \ker f' \arrow[r] \arrow[d] & \ker f \arrow[r] \arrow[d] & \ker f'' \arrow[d]
+  \arrow[dddll, "\delta" description, rounded corners,
+    to path={ -- ([xshift=2ex]\tikztostart.east)
+      |- ($(\tikztostart)!0.5!(\tikztotarget)$) [near end]\tikztonodes
+      -| ([xshift=-2ex]\tikztotarget.west)
+      -- (\tikztotarget)}] & \\
+0 \arrow[r] & A' \arrow[r, "i"] \arrow[d, "f'" near start] & A \arrow[r, "p"] \arrow[d, "f" near start] & A'' \arrow[r] \arrow[d, "f''" near start] & 0 \\[1.2em]
+0 \arrow[r] & B' \arrow[r, "j"] \arrow[d] & B \arrow[r, "q"] \arrow[d] & B'' \arrow[r] \arrow[d] & 0 \\
+& \operatorname{coker} f' \arrow[r] & \operatorname{coker} f \arrow[r] & \operatorname{coker} f'' \arrow[r] & 0
+\end{tikzcd}
+```
+
+The same statement holds in any [[algebra-category-theory/abelian-category|abelian category]], with [[algebra-category-theory/kernel-categorical|kernels]] and [[algebra-category-theory/cokernel-categorical|cokernels]] taken in the categorical sense.
+
+## Construction of the connecting homomorphism
+
 Given \(x\in \ker(f'')\subseteq A''\):
 1. pick \(a\in A\) with \(p(a)=x\);
 2. since \(f''(x)=0\), commutativity implies \(q(f(a))=0\), hence \(f(a)\in \operatorname{im}(j)\);
@@ -44,6 +49,8 @@ Given \(x\in \ker(f'')\subseteq A''\):
 4. define \(\delta(x)\) to be the class of \(b'\) in \(\operatorname{coker}(f')=B'/\operatorname{im}(f')\).
 
 A standard diagram chase shows this is well-defined (independent of choices) and gives exactness.
+
+The map \(\delta\) is natural in the diagram, and it is the prototype for the [[algebra-homological/connecting-homomorphism-lemma|connecting homomorphism]] appearing in long exact sequences.
 
 ## Examples
 

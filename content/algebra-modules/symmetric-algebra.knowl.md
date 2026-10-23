@@ -26,6 +26,13 @@ For every commutative unital \(R\)-algebra \(A\) and every \(R\)-linear map \(f:
 \]
 extending \(f\). This characterizes \(\operatorname{Sym}_R(M)\) as the free commutative \(R\)-algebra on \(M\).
 
+As a diagram, with \(M\to\operatorname{Sym}_R(M)\) the canonical map onto the degree-one part, the triangle commutes:
+
+```tikz-cd
+M \arrow[r] \arrow[dr, "f"'] & \operatorname{Sym}_R(M) \arrow[d, dashed, "\exists!\,\widetilde f"] \\
+& A
+```
+
 ## Examples
 
 If \(M\) is free with basis \(x_1,\ldots,x_n\), then

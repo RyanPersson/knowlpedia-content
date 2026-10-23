@@ -17,6 +17,13 @@ Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and \(S\subse
 \]
 such that every \(\iota(s)\), for \(s\in S\), is a unit and the following universal property holds: if \(\varphi:R\to A\) sends every element of \(S\) to a unit of a commutative ring \(A\), there is a unique homomorphism \(\widetilde\varphi:S^{-1}R\to A\) satisfying \(\widetilde\varphi\circ\iota=\varphi\).
 
+As a diagram, the triangle commutes:
+
+```tikz-cd
+R \arrow[r, "\iota"] \arrow[dr, "\varphi"'] & S^{-1}R \arrow[d, dashed, "\exists!\,\widetilde\varphi"] \\
+& A
+```
+
 ## Construction by fractions
 
 As a set, \(S^{-1}R\) can be constructed from pairs \((r,s)\in R\times S\) modulo the equivalence relation
