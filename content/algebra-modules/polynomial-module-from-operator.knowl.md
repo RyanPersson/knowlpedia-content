@@ -21,7 +21,7 @@ This is the unique action of the [[algebra-rings/polynomial-ring|polynomial ring
 
 ## Why this satisfies the module axioms
 
-Polynomial evaluation gives \((f+g)(T)=f(T)+g(T)\), \((fg)(T)=f(T)g(T)\), and \(1(T)=\operatorname{id}_V\). The multiplicative identity follows by expanding products and using \(T^iT^j=T^{i+j}\). Each \(f(T)\) is linear, so the two distributive [[algebra-modules/module-axioms|module axioms]] follow as well.
+Polynomial evaluation gives \((f+g)(T)=f(T)+g(T)\), \((fg)(T)=f(T)g(T)\), and \(1(T)=\operatorname{id}_V\). The multiplicative identity follows by expanding products and using \(T^iT^j=T^{i+j}\). Each \(f(T)\) is linear, so the two distributive axioms of a [[algebra-modules/module|module]] follow as well.
 
 The ring of all linear endomorphisms of \(V\) may be noncommutative; the scalar operators and the powers of this single \(T\) commute, which is all the construction needs.
 

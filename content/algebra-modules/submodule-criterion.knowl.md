@@ -6,7 +6,7 @@ summary = "Closure conditions that characterize when a subset is a submodule."
 aliases = ["submodule-criterion", "Submodule criterion"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/submodule-criterion.md"
-prerequisites = ["algebra-modules/submodule", "algebra-modules/module-axioms", "algebra-modules/module", "algebra-rings/ring"]
+prerequisites = ["algebra-modules/submodule", "algebra-modules/module", "algebra-rings/ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -16,4 +16,4 @@ dependency_review_count = 1
 2. for all \(x,y\in N\) we have \(x-y\in N\), and
 3. for all \(r\in R\) and \(x\in N\) we have \(rx\in N\).
 
-This is the standard test for [[algebra-modules/submodule|submodules]] obtained by unpacking the [[algebra-modules/module-axioms|module axioms]] for [[algebra-modules/module|modules]] over a [[algebra-rings/ring|ring]].
+This is the standard test for [[algebra-modules/submodule|submodules]] obtained by unpacking the axioms for [[algebra-modules/module|modules]] over a [[algebra-rings/ring|ring]].

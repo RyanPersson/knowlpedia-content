@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **vector space axioms** define a [[linear-algebra/vector-space|vector space]] \(V\) over a [[algebra-rings/field|field]] \(k\) as an abelian group \((V,+)\) equipped with scalar multiplication \(k\times V\to V\), \((a,v)\mapsto av\), satisfying the same distributivity/associativity/unit conditions as the [[algebra-modules/module-axioms|module axioms]]:
+The **vector space axioms** define a [[linear-algebra/vector-space|vector space]] \(V\) over a [[algebra-rings/field|field]] \(k\) as an abelian group \((V,+)\) equipped with scalar multiplication \(k\times V\to V\), \((a,v)\mapsto av\), satisfying the same distributivity/associativity/unit conditions as the axioms of a [[algebra-modules/module|module]]:
 \[
 (a+b)v=av+bv,\quad a(v+w)=av+aw,\quad (ab)v=a(bv),\quad 1v=v.
 \]
