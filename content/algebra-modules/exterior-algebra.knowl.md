@@ -26,6 +26,13 @@ The map \(M^d\to\bigwedge^d_RM\) given by
 \]
 is alternating and universal among alternating \(R\)-multilinear maps out of \(M^d\).
 
+Concretely, every alternating \(R\)-multilinear map \(\beta\colon M^d\to P\) into an \(R\)-module \(P\) factors uniquely through an \(R\)-linear map \(\overline\beta\colon\bigwedge^d_RM\to P\):
+
+```tikz-cd
+M^d \arrow[r] \arrow[dr, "\beta"'] & \bigwedge^d_R M \arrow[d, dashed, "\exists!\,\overline\beta"] \\
+& P
+```
+
 ## Signs
 
 The defining relation implies

@@ -17,4 +17,11 @@ dependency_review_count = 1
 \]
 of \(R\)-modules, where each quotient is a [[algebra-modules/quotient-module|quotient module]].
 
+Quotienting in two steps or in one step gives the same result, so the square below commutes:
+
+```tikz-cd
+M \arrow[r, two heads] \arrow[d, two heads] & M/A \arrow[d, two heads] \\
+M/B & (M/A)/(B/A) \arrow[l, "\cong"']
+```
+
 This theorem expresses the compatibility of iterated quotients and is fundamental in organizing “modding out step by step” in module theory.

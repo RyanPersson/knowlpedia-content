@@ -18,3 +18,10 @@ UAV=\mathrm{diag}(d_1,\dots,d_r,0,\dots,0),
 where \(d_i\neq 0\) for \(1\le i\le r\) and \(d_1\mid d_2\mid \cdots \mid d_r\). The \(d_i\) are determined uniquely up to multiplication by units; they are the Smith invariants (see [[algebra-modules/smith-normal-form-invariants|Smith normal form invariants]]).
 
 Interpreting \(A\) as the matrix of a homomorphism between free modules (compare [[algebra-modules/matrix-representation|matrix representation]]), Smith normal form yields the invariant factor decomposition in the [[algebra-modules/structure-theorem-pid|structure theorem for finitely generated modules over a PID]] by identifying the cokernel as a direct sum of cyclic modules \(R/(d_i)\).
+
+Reading \(A\colon R^n\to R^m\) as a homomorphism and writing \(D=UAV\), the square below commutes because \(AV=U^{-1}D\), so \(\operatorname{coker}A\cong\operatorname{coker}D\):
+
+```tikz-cd
+R^n \arrow[r, "D"] \arrow[d, "V"', "\cong"] & R^m \arrow[d, "U^{-1}", "\cong"'] \\
+R^n \arrow[r, "A"'] & R^m
+```

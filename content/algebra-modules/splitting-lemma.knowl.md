@@ -20,6 +20,13 @@ of \(R\)-[[algebra-modules/module|modules]], the following are equivalent:
 2. There exists a homomorphism \(r\colon B\to A\) with \(r\circ i=\mathrm{id}_A\) (a retraction of \(i\)).
 3. The sequence is [[algebra-modules/split-exact-sequence|split exact]] in the sense of direct sums: there is an isomorphism \(\varphi\colon B\to A\oplus C\) onto the [[algebra-modules/direct-sum-modules|direct sum]] with \(\varphi\circ i\) the inclusion \(a\mapsto(a,0)\) and \(p\) equal to the projection \((a,c)\mapsto c\) composed with \(\varphi\).
 
+Condition 3 says that the diagram below commutes, where \(\iota_A(a)=(a,0)\) and \(\pi_C(a,c)=c\):
+
+```tikz-cd
+0 \arrow[r] & A \arrow[r, "i"] \arrow[d, equal] & B \arrow[r, "p"] \arrow[d, "\varphi", "\cong"'] & C \arrow[r] \arrow[d, equal] & 0 \\
+0 \arrow[r] & A \arrow[r, "\iota_A"'] & A\oplus C \arrow[r, "\pi_C"'] & C \arrow[r] & 0
+```
+
 This lemma is the basic bridge between homomorphisms that admit one-sided inverses and internal direct sum decompositions.
 
 ## Remarks

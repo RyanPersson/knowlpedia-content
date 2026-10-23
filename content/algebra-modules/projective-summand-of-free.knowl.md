@@ -18,3 +18,9 @@ F \cong P \oplus Q
 as a [[algebra-modules/direct-sum-modules|direct sum]].
 
 This characterization is often the most practical: projective modules are precisely the modules that can be “split off” from free modules (equivalently, retracts of free modules).
+
+In the retract diagram below, \(s\) and \(\pi\) are the inclusion and projection of the summand \(P\); conversely, any pair with \(\pi\circ s=\mathrm{id}_P\) gives \(F=s(P)\oplus\ker\pi\):
+
+```tikz-cd
+P \arrow[r, "s"] \arrow[rr, bend left=40, "\mathrm{id}_P"] & F \arrow[r, "\pi"] & P
+```

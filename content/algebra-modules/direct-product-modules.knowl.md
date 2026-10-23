@@ -17,6 +17,13 @@ Given a family of \(R\)-[[algebra-modules/module|modules]] \((M_i)_{i\in I}\), t
 \]
 with coordinatewise addition and scalar multiplication. As a set it is the [[shared-foundations/cartesian-product|Cartesian product]], and it satisfies the categorical product universal property: for every \(R\)-module \(X\), giving a homomorphism \(X\to \prod_i M_i\) is equivalent to giving a homomorphism \(X\to M_i\) for each \(i\).
 
+As a diagram, with \(\pi_i\) the \(i\)-th coordinate projection, the maps \(f_i\) determine a unique \(f\) making each triangle commute:
+
+```tikz-cd
+X \arrow[r, dashed, "\exists!\,f"] \arrow[dr, "f_i"'] & \prod_{j\in I} M_j \arrow[d, "\pi_i"] \\
+& M_i
+```
+
 ## Remarks
 
 For infinite \(I\), the product contains the [[algebra-modules/direct-sum-modules|direct sum]] and may also contain tuples with infinitely many nonzero coordinates. For example, \(\bigoplus_{n\ge1}\mathbb Z\) is strictly contained in \(\prod_{n\ge1}\mathbb Z\).

@@ -27,7 +27,16 @@ The ring of all linear endomorphisms of \(V\) may be noncommutative; the scalar 
 
 ## Morphisms and invariant subspaces
 
-For operators \(T\) on \(V\) and \(S\) on \(W\), a linear map \(u:V\to W\) is an \(F[X]\)-module homomorphism exactly when \(uT=Su\). A subspace is an \(F[X]\)-submodule exactly when it is \(T\)-invariant.
+For operators \(T\) on \(V\) and \(S\) on \(W\), a linear map \(u:V\to W\) is an \(F[X]\)-module homomorphism exactly when \(uT=Su\).
+
+The condition \(uT=Su\) says that the square below commutes:
+
+```tikz-cd
+V \arrow[r, "u"] \arrow[d, "T"'] & W \arrow[d, "S"] \\
+V \arrow[r, "u"'] & W
+```
+
+A subspace is an \(F[X]\)-submodule exactly when it is \(T\)-invariant.
 
 For finite-dimensional \(V\), the [[linear-algebra/minimal-polynomial|minimal polynomial]] generates the annihilator of this module. The construction is the bridge to [[algebra-modules/rcf-from-structure-theorem|rational canonical form from the module structure theorem]].
 

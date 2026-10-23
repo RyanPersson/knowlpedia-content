@@ -15,6 +15,13 @@ The **matrix representation** of a [[linear-algebra/linear-map|linear map]] \(T:
 
 That is, if \(T(v_j) = \sum_{i=1}^m a_{ij} w_i\), then the \((i,j)\) entry of the matrix is \(a_{ij}\).
 
+Writing \(F\) for the field of scalars, the matrix is defined so that the square below commutes, where the vertical maps take coordinate vectors in the bases \(\mathcal B\) and \(\mathcal C\):
+
+```tikz-cd
+V \arrow[r, "T"] \arrow[d, "{[\,\cdot\,]_{\mathcal B}}"', "\cong"] & W \arrow[d, "{[\,\cdot\,]_{\mathcal C}}", "\cong"'] \\
+F^n \arrow[r, "{[T]_{\mathcal B}^{\mathcal C}}"'] & F^m
+```
+
 ## Properties
 
 - **Composition**: \([ST]_{\mathcal{B}}^{\mathcal{D}} = [S]_{\mathcal{C}}^{\mathcal{D}} [T]_{\mathcal{B}}^{\mathcal{C}}\).

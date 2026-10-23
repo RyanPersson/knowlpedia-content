@@ -12,18 +12,31 @@ dependency_review_count = 1
 +++
 
 **Snake lemma**: Let \(R\) be a ring, and suppose a commutative diagram of \(R\)-modules has [[algebra-modules/exact-sequence-modules|exact]] rows
-\[
-\begin{array}{ccccccccc}
-0 &\to& A' &\xrightarrow{i}& A &\xrightarrow{p}& A'' &\to& 0\\
- & & \downarrow f' & & \downarrow f & & \downarrow f'' & & \\
-0 &\to& B' &\xrightarrow{j}& B &\xrightarrow{q}& B'' &\to& 0
-\end{array}
-\]
+```tikz-cd
+0 \arrow[r] & A' \arrow[r, "i"] \arrow[d, "f'"] & A \arrow[r, "p"] \arrow[d, "f"] & A'' \arrow[r] \arrow[d, "f''"] & 0 \\
+0 \arrow[r] & B' \arrow[r, "j"] & B \arrow[r, "q"] & B'' \arrow[r] & 0
+```
 Then there is a homomorphism \(\delta:\ker(f'')\to\operatorname{coker}(f')\), the **connecting homomorphism**, such that the sequence
 \[
 0 \to \ker(f') \to \ker(f) \to \ker(f'') \xrightarrow{\ \delta\ } \operatorname{coker}(f') \to \operatorname{coker}(f) \to \operatorname{coker}(f'') \to 0
 \]
 is exact. The maps other than \(\delta\) are induced by \(i,p,j,q\), and \(\operatorname{coker}(f')=B'/\operatorname{im}(f')\) is the [[algebra-modules/cokernel-module|cokernel]].
+
+The name comes from the picture: the kernels sit above the rows, the cokernels below, and \(\delta\) snakes from \(\ker(f'')\) down to \(\operatorname{coker}(f')\):
+
+```tikz-cd
+\begin{tikzcd}
+0 \arrow[r] & \ker f' \arrow[r] \arrow[d] & \ker f \arrow[r] \arrow[d] & \ker f'' \arrow[d]
+  \arrow[dddll, "\delta" description, rounded corners,
+    to path={ -- ([xshift=2ex]\tikztostart.east)
+      |- ($(\tikztostart)!0.5!(\tikztotarget)$) [near end]\tikztonodes
+      -| ([xshift=-2ex]\tikztotarget.west)
+      -- (\tikztotarget)}] & \\
+0 \arrow[r] & A' \arrow[r, "i"] \arrow[d, "f'" near start] & A \arrow[r, "p"] \arrow[d, "f" near start] & A'' \arrow[r] \arrow[d, "f''" near start] & 0 \\[1.2em]
+0 \arrow[r] & B' \arrow[r, "j"] \arrow[d] & B \arrow[r, "q"] \arrow[d] & B'' \arrow[r] \arrow[d] & 0 \\
+& \operatorname{coker} f' \arrow[r] & \operatorname{coker} f \arrow[r] & \operatorname{coker} f'' \arrow[r] & 0
+\end{tikzcd}
+```
 
 The same statement holds in any [[algebra-category-theory/abelian-category|abelian category]], with [[algebra-category-theory/kernel-categorical|kernels]] and [[algebra-category-theory/cokernel-categorical|cokernels]] taken in the categorical sense.
 

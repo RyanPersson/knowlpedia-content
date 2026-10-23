@@ -13,4 +13,11 @@ dependency_review_count = 1
 
 **Universal property of quotient modules**: Let \(M\) be an \(R\)-module, let \(N\le M\) be a submodule, and let \(\pi:M\to M/N\) be the quotient map. For any \(R\)-module \(Q\) and any homomorphism \(f:M\to Q\) such that \(N\subseteq \ker(f)\), there exists a unique homomorphism \(\bar f:M/N\to Q\) with \(f=\bar f\circ \pi\).
 
+As a diagram, \(f\) factors uniquely through \(\pi\) and the triangle commutes:
+
+```tikz-cd
+M \arrow[r, two heads, "\pi"] \arrow[dr, "f"'] & M/N \arrow[d, dashed, "\exists!\,\bar f"] \\
+& Q
+```
+
 This is the defining mapping property of the [[algebra-modules/quotient-module|quotient module]], and it expresses quotients as the universal way to force a [[algebra-modules/submodule|submodule]] to lie in the [[algebra-modules/kernel-module|kernel]] of a [[algebra-modules/module-homomorphism|module homomorphism]].

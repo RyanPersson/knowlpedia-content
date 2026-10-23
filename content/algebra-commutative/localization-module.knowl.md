@@ -27,6 +27,13 @@ Here \(S^{-1}R\) is the [[algebra-commutative/localization-ring|localized ring]]
 
 Let \(N\) be an \(S^{-1}R\)-module, regarded as an \(R\)-module through \(R\to S^{-1}R\). For every \(R\)-linear map \(f:M\to N\), there is a unique \(S^{-1}R\)-linear map \(\widetilde f:S^{-1}M\to N\) such that \(\widetilde f\circ\iota_M=f\).
 
+Here \(\iota_M\colon M\to S^{-1}M\) is the map \(m\mapsto m/1\), and the triangle commutes:
+
+```tikz-cd
+M \arrow[r, "\iota_M"] \arrow[dr, "f"'] & S^{-1}M \arrow[d, dashed, "\exists!\,\widetilde f"] \\
+& N
+```
+
 ## Properties
 
 Localizing at a prime \(\mathfrak p\) means taking \(S=R\setminus\mathfrak p\) and writing
