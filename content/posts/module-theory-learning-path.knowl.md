@@ -6,6 +6,7 @@ summary = "Lecture notes on modules over a ring, assembled from the module knowl
 aliases = ["module-theory-learning-path", "Module theory learning path", "Module theory lecture notes"]
 domains = ["posts", "algebra-modules"]
 knowls_open = true
+learning_path = true
 prerequisites = []
 dependency_review_count = 0
 +++
@@ -33,21 +34,21 @@ These notes are a reading path through module theory. A module is a vector space
 
 ## How to use these notes
 
-Each numbered item is a knowl shown in place. The box under an item holds its definition or statement. The buttons at the bottom of a box open further sections, such as examples, remarks, and equivalent characterizations, without leaving the page. The cross collapses a box, and clicking the item's title opens it again. Underlined terms inside a box are knowls too: click one to expand its definition inline.
+Each numbered item is a knowl shown in place. The box under an item holds its definition or statement. The buttons at the bottom of a box open more of the knowl, such as examples, remarks, and equivalent characterizations, without leaving the page. The cross collapses a box, and clicking the item's title opens it again. Underlined terms inside a box are knowls too: click one to expand its definition inline.
 
 The items appear in prerequisite order. Every item comes after each item that it depends on in the site's dependency graph, and the order is checked mechanically against that graph. Material that the notes assume and do not cover, such as sets, groups, and elementary linear algebra, stays inside the boxes as expandable links.
 
-The text between the boxes connects them. It gives motivation, conventions, examples, proof sketches, and a few standard facts that do not yet have knowls of their own; such terms are printed in **bold** where they are defined. Each chapter ends with exercises.
+The text between the boxes connects them. It gives motivation, conventions, examples, proof sketches, and a few standard facts that do not yet have knowls of their own; such terms are printed in **bold** where they are defined. Each section ends with exercises.
 
-Chapters 1 to 8 form the core of a first course. Chapters 10 and 11 are its main application: the structure theorem over a principal ideal domain and the canonical forms of linear algebra. After Chapter 8, the remaining blocks are independent of one another: Chapter 9, Chapters 12 and 13 in that order, Chapter 14, and Chapter 15.
+Sections 1 to 8 form the core of a first course. Sections 10 and 11 are its main application: the structure theorem over a principal ideal domain and the canonical forms of linear algebra. After Section 8, the remaining blocks are independent of one another: Section 9, Sections 12 and 13 in that order, Section 14, and Section 15.
 
 ## Conventions
 
 Throughout, every ring has an identity element \(1\), ring homomorphisms send \(1\) to \(1\), and every module is **unital**: \(1m=m\) for all \(m\). Knowlpedia's general definition of a ring does not require an identity, so several boxes below say "ring" where these notes always mean "ring with identity".
 
-An \(R\)-module is a left \(R\)-module unless right modules are named explicitly. Right modules are needed only for tensor products in Chapter 8. When \(R\) is commutative, left and right modules are the same thing.
+An \(R\)-module is a left \(R\)-module unless right modules are named explicitly. Right modules are needed only for tensor products in Section 8. When \(R\) is commutative, left and right modules are the same thing.
 
-Some constructions need extra hypotheses on \(R\). The module \(\operatorname{Hom}_R(M,N)\), bilinear maps, the tensor product of two left modules, and algebras need \(R\) commutative. Torsion needs an integral domain, and Chapters 10 and 11 need a principal ideal domain. Each chapter states its hypotheses.
+Some constructions need extra hypotheses on \(R\). The module \(\operatorname{Hom}_R(M,N)\), bilinear maps, the tensor product of two left modules, and algebras need \(R\) commutative. Torsion needs an integral domain, and Sections 10 and 11 need a principal ideal domain. Each section states its hypotheses.
 
 The words homomorphism, \(R\)-linear map, and \(R\)-map mean the same thing. The set of homomorphisms from \(M\) to \(N\) is written \(\operatorname{Hom}_R(M,N)\), and \(\operatorname{End}_R(M)=\operatorname{Hom}_R(M,M)\).
 
@@ -65,7 +66,7 @@ The module definitions depend directly on the following ring-theoretic notions. 
 
 **Background 0.5.** [[algebra-rings/ideal|Ideal]]
 
-**Remark.** For a noncommutative ring the three kinds of ideal differ. Left ideals are exactly the submodules of \(R\) viewed as a left module over itself (Chapter 2), and two-sided ideals are exactly the kernels of ring homomorphisms.
+**Remark.** For a noncommutative ring the three kinds of ideal differ. Left ideals are exactly the submodules of \(R\) viewed as a left module over itself (Section 2), and two-sided ideals are exactly the kernels of ring homomorphisms.
 
 ## 1. Modules
 
@@ -89,7 +90,7 @@ is a ring homomorphism with \(\lambda_1=\mathrm{id}_M\). Here \(\operatorname{En
 2. Every abelian group is a \(\mathbb Z\)-module in exactly one way, with \(n\cdot m=m+\cdots+m\) (\(n\) terms) for \(n>0\). Abelian groups and \(\mathbb Z\)-modules are the same thing.
 3. A module over a field \(F\) is an \(F\)-vector space.
 4. The set \(R^n\) of column vectors is an \(R\)-module under coordinatewise operations, and it is also a left module over the matrix ring \(M_n(R)\) by matrix multiplication.
-5. A vector space together with a linear operator is a module over a polynomial ring, as the next two items explain. This example connects module theory to linear algebra, and Chapter 11 is built on it.
+5. A vector space together with a linear operator is a module over a polynomial ring, as the next two items explain. This example connects module theory to linear algebra, and Section 11 is built on it.
 
 **Background 1.2.** [[algebra-rings/polynomial-ring|Polynomial ring]]
 
@@ -103,7 +104,7 @@ Write \(V_T\) for this \(F[x]\)-module. The construction can be reversed. An \(F
 
 The box states this for commutative rings, but the construction works for any ring homomorphism \(\varphi\colon R\to S\) with \(\varphi(1)=1\). Every \(F[x]\)-module becomes an \(F\)-vector space by restriction along \(F\hookrightarrow F[x]\). Every \(R\)-module becomes an abelian group by restriction along the unique ring homomorphism \(\mathbb Z\to R\). A ring \(S\) containing \(R\) as a subring is an \(R\)-module, for example \(\mathbb C\) as a real vector space or \(F[x]\) as an \(F\)-vector space with basis \(1,x,x^2,\dots\). An \(R\)-module \(M\) with \(IM=0\) for a two-sided ideal \(I\) is the restriction of a unique \(R/I\)-module along the quotient map \(R\to R/I\).
 
-### Exercises for Chapter 1
+### Exercises for Section 1
 
 1. Show that \(r\,0=0\) and \((-1)m=-m\) in every module, and give an example of a module in which \(rm=0\) with \(r\neq0\) and \(m\neq0\).
 2. Show that an abelian group has exactly one structure of a \(\mathbb Z\)-module.
@@ -113,7 +114,7 @@ The box states this for commutative rings, but the construction works for any ri
 
 ## 2. Submodules, homomorphisms, and quotients
 
-The constructions of this chapter work exactly as for vector spaces or groups: subobjects, structure-preserving maps, kernels and images, quotients, and the isomorphism theorems. The only new requirement is closure under multiplication by every ring element.
+The constructions of this section work exactly as for vector spaces or groups: subobjects, structure-preserving maps, kernels and images, quotients, and the isomorphism theorems. The only new requirement is closure under multiplication by every ring element.
 
 **Definition 2.1.** [[algebra-modules/submodule|Submodule]]
 
@@ -145,7 +146,7 @@ More generally, if \(f\colon M\to N\) is a homomorphism, then \(f(M')\) is a sub
 
 Closure under scalars is what makes the action on cosets well defined: if \(m-m'\in N\), then \(rm-rm'=r(m-m')\in N\). The quotient map \(\pi\colon M\to M/N\), \(m\mapsto m+N\), is a surjective homomorphism with kernel \(N\), so every submodule is a kernel.
 
-**Example.** For a left ideal \(I\) of \(R\), the quotient \(R/I\) is a left \(R\)-module generated by \(1+I\). For a monic polynomial \(f\in F[x]\) of degree \(d\), the \(F[x]\)-module \(F[x]/(f)\) has \(F\)-basis \(1,x,\dots,x^{d-1}\), and multiplication by \(x\) is a linear operator on this \(d\)-dimensional space. Chapter 11 returns to this operator.
+**Example.** For a left ideal \(I\) of \(R\), the quotient \(R/I\) is a left \(R\)-module generated by \(1+I\). For a monic polynomial \(f\in F[x]\) of degree \(d\), the \(F[x]\)-module \(F[x]/(f)\) has \(F\)-basis \(1,x,\dots,x^{d-1}\), and multiplication by \(x\) is a linear operator on this \(d\)-dimensional space. Section 11 returns to this operator.
 
 **Proposition 2.8.** [[algebra-modules/quotient-module-universal-property|Universal property of quotient modules]]
 
@@ -163,7 +164,7 @@ Closure under scalars is what makes the action on cosets well defined: if \(m-m'
 
 **Example.** Let \(n\ge1\). The submodules of the \(\mathbb Z\)-module \(\mathbb Z/n\mathbb Z\) correspond to the subgroups \(d\mathbb Z\) of \(\mathbb Z\) that contain \(n\mathbb Z\), that is, to the positive divisors \(d\) of \(n\). So \(\mathbb Z/n\mathbb Z\) has exactly one submodule for each positive divisor of \(n\).
 
-### Exercises for Chapter 2
+### Exercises for Section 2
 
 1. Show that the union of two submodules is a submodule if and only if one of them contains the other.
 2. (Modular law.) Let \(A\subseteq C\) and \(B\) be submodules of \(M\). Show that \(A+(B\cap C)=(A+B)\cap C\).
@@ -173,7 +174,7 @@ Closure under scalars is what makes the action on cosets well defined: if \(m-m'
 
 ## 3. Generators, direct sums, and free modules
 
-A vector space has a basis, any two bases have the same size, and every vector space is a direct sum of copies of the field. Over a ring each of these statements fails in general. This chapter introduces the language for describing how a module is built from smaller pieces, and identifies the modules that do behave like vector spaces: the free modules.
+A vector space has a basis, any two bases have the same size, and every vector space is a direct sum of copies of the field. Over a ring each of these statements fails in general. This section introduces the language for describing how a module is built from smaller pieces, and identifies the modules that do behave like vector spaces: the free modules.
 
 **Definition 3.1.** [[algebra-modules/annihilator-element|Annihilator of an element]]
 
@@ -215,9 +216,9 @@ Every module is a quotient of a free module. Map the free module on any generati
 4. A torsion-free module need not be free. In \(\mathbb Q\), any two nonzero elements \(a/b\) and \(c/d\) satisfy \(bc\cdot(a/b)-ad\cdot(c/d)=0\), so a basis would have one element. But \(\mathbb Q\) is not cyclic.
 5. Over a noncommutative ring, rank need not be defined. If \(V\) is a vector space of countably infinite dimension and \(R=\operatorname{End}_F(V)\), then \(R\cong R^2\) as left \(R\)-modules.
 
-Over a principal ideal domain, items 3 and 4 are repaired for finitely generated modules (Chapter 10).
+Over a principal ideal domain, items 3 and 4 are repaired for finitely generated modules (Section 10).
 
-### Exercises for Chapter 3
+### Exercises for Section 3
 
 1. Show that a left \(R\)-module is cyclic if and only if it is isomorphic to \(R/I\) for some left ideal \(I\).
 2. Show that \(\mathbb Q\) is not a finitely generated \(\mathbb Z\)-module.
@@ -227,7 +228,7 @@ Over a principal ideal domain, items 3 and 4 are repaired for finitely generated
 
 ## 4. Torsion
 
-In this chapter \(R\) is an integral domain. Torsion measures how far multiplication by nonzero scalars is from being injective. In \(\mathbb Z\), \(nm=0\) with \(n\neq0\) forces \(m=0\), while in \(\mathbb Z/n\mathbb Z\) every element is killed by \(n\). Over a principal ideal domain, torsion splits every finitely generated module into a free part and a torsion part (Chapter 10).
+In this section \(R\) is an integral domain. Torsion measures how far multiplication by nonzero scalars is from being injective. In \(\mathbb Z\), \(nm=0\) with \(n\neq0\) forces \(m=0\), while in \(\mathbb Z/n\mathbb Z\) every element is killed by \(n\). Over a principal ideal domain, torsion splits every finitely generated module into a free part and a torsion part (Section 10).
 
 **Background 4.1.** [[algebra-rings/integral-domain|Integral domain]]
 
@@ -247,7 +248,7 @@ is a submodule, called the **torsion submodule** of \(M\). The module \(M\) is t
 
 **Example.** Let \(V\) be a vector space of finite dimension \(n\) and \(T\) an operator on \(V\). The \(n^2+1\) operators \(1,T,\dots,T^{n^2}\) lie in the \(n^2\)-dimensional space of operators, so they are linearly dependent. A dependence relation is a nonzero polynomial \(p\) with \(p(T)=0\), and \(p\) kills every element of \(V_T\). So \(V_T\) is a torsion \(F[x]\)-module.
 
-### Exercises for Chapter 4
+### Exercises for Section 4
 
 1. Show that a submodule of a torsion-free module is torsion-free, and that a direct sum of torsion-free modules is torsion-free.
 2. Show that a free module over an integral domain is torsion-free.
@@ -275,7 +276,7 @@ The end terms of a short exact sequence do not determine the middle term. The se
 \qquad\text{and}\qquad
 0\to\mathbb Z\to\mathbb Z\oplus\mathbb Z/2\to\mathbb Z/2\to0,
 \]
-the second built from the inclusion of the first summand and the projection onto the second, have the same ends. Their middle terms are not isomorphic, since \(\mathbb Z\) has no nonzero element of finite order and \(\mathbb Z\oplus\mathbb Z/2\) does. Classifying the possible middle terms is the extension problem, which Chapter 15 returns to. The simplest middle term is the direct sum of the ends, and the next two items characterize when this happens.
+the second built from the inclusion of the first summand and the projection onto the second, have the same ends. Their middle terms are not isomorphic, since \(\mathbb Z\) has no nonzero element of finite order and \(\mathbb Z\oplus\mathbb Z/2\) does. Classifying the possible middle terms is the extension problem, which Section 15 returns to. The simplest middle term is the direct sum of the ends, and the next two items characterize when this happens.
 
 **Definition 5.4.** [[algebra-modules/split-exact-sequence|Split exact sequence]]
 
@@ -296,7 +297,7 @@ The case used most often is the **short five lemma**: in a commutative diagram o
 0 \arrow[r] & A' \arrow[r] & B' \arrow[r] & C' \arrow[r] & 0
 ```
 
-### Exercises for Chapter 5
+### Exercises for Section 5
 
 1. Show that every short exact sequence \(0\to A\to B\to F\to0\) with \(F\) free splits.
 2. Show that \(0\to\mathbb Z\xrightarrow{n}\mathbb Z\to\mathbb Z/n\to0\) does not split for \(n\ge2\). More generally, show that a short exact sequence of abelian groups \(0\to A\to B\to C\to0\) does not split if \(B\) has no nonzero elements of finite order and \(C\) is finite and nonzero.
@@ -306,7 +307,7 @@ The case used most often is the **short five lemma**: in a commutative diagram o
 
 ## 6. Hom and duality
 
-Homomorphisms between two modules form an abelian group, and an \(R\)-module when \(R\) is commutative. Fixing one argument gives a functor, and this chapter records how these functors interact with direct sums and exact sequences. In this chapter, \(R\) is commutative whenever \(\operatorname{Hom}_R(M,N)\) is treated as an \(R\)-module.
+Homomorphisms between two modules form an abelian group, and an \(R\)-module when \(R\) is commutative. Fixing one argument gives a functor, and this section records how these functors interact with direct sums and exact sequences. In this section, \(R\) is commutative whenever \(\operatorname{Hom}_R(M,N)\) is treated as an \(R\)-module.
 
 **Definition 6.1.** [[algebra-modules/hom-module|Hom module]]
 
@@ -325,13 +326,13 @@ Dually, \(\operatorname{Hom}_R\bigl(M,\prod_i N_i\bigr)\cong\prod_i\operatorname
 
 **Proposition 6.3.** [[algebra-homological/hom-left-exact|Hom is left exact]]
 
-The functor \(\operatorname{Hom}_R(M,-)\) need not preserve surjections. Apply \(\operatorname{Hom}_{\mathbb Z}(\mathbb Z/2,-)\) to \(0\to\mathbb Z\xrightarrow{2}\mathbb Z\to\mathbb Z/2\to0\). The result is \(0\to0\to0\to\mathbb Z/2\), and the last map is not surjective. Chapter 7 studies the modules for which these functors are exact.
+The functor \(\operatorname{Hom}_R(M,-)\) need not preserve surjections. Apply \(\operatorname{Hom}_{\mathbb Z}(\mathbb Z/2,-)\) to \(0\to\mathbb Z\xrightarrow{2}\mathbb Z\to\mathbb Z/2\to0\). The result is \(0\to0\to0\to\mathbb Z/2\), and the last map is not surjective. Section 7 studies the modules for which these functors are exact.
 
 **Definition 6.4.** [[algebra-modules/dual-module|Dual module]]
 
 For a free module of finite rank, the evaluation map \(M\to M^{\vee\vee}\), \(m\mapsto(\varphi\mapsto\varphi(m))\), is an isomorphism. In general it can fail to be injective or surjective: \((\mathbb Z/n)^\vee=0\) over \(\mathbb Z\), and for an infinite-dimensional vector space the evaluation map is injective but not surjective.
 
-### Exercises for Chapter 6
+### Exercises for Section 6
 
 1. Show that \(\operatorname{Hom}_{\mathbb Z}(\mathbb Z/m,\mathbb Z/n)\cong\mathbb Z/\gcd(m,n)\).
 2. Show that \(\operatorname{Hom}_{\mathbb Z}(\mathbb Q,\mathbb Z)=0\) and \(\operatorname{Hom}_{\mathbb Z}(\mathbb Q,\mathbb Q)\cong\mathbb Q\).
@@ -341,7 +342,7 @@ For a free module of finite rank, the evaluation map \(M\to M^{\vee\vee}\), \(m\
 
 ## 7. Projective and injective modules
 
-Free modules are easy to map out of: a homomorphism from a free module is any choice of images of a basis. Projective modules keep the lifting property that this gives, and injective modules have the dual extension property. In terms of Chapter 6, \(P\) is projective exactly when \(\operatorname{Hom}_R(P,-)\) is exact, and \(E\) is injective exactly when \(\operatorname{Hom}_R(-,E)\) is exact.
+Free modules are easy to map out of: a homomorphism from a free module is any choice of images of a basis. Projective modules keep the lifting property that this gives, and injective modules have the dual extension property. In terms of Section 6, \(P\) is projective exactly when \(\operatorname{Hom}_R(P,-)\) is exact, and \(E\) is injective exactly when \(\operatorname{Hom}_R(-,E)\) is exact.
 
 **Definition 7.1.** [[algebra-modules/projective-module|Projective module]]
 
@@ -351,7 +352,7 @@ Free modules are easy to map out of: a homomorphism from a free module is any ch
 
 **Proposition 7.3.** [[algebra-modules/projective-ses-criterion|Projective short exact sequence criterion]]
 
-**Examples.** Free modules are projective, and over a field every module is free and hence projective. A projective module need not be free. For \(R=F\times F\), the ideal \(P=F\times0\) is a direct summand of \(R\), hence projective. It is not free, because \(\dim_F P=1\) while a free \(R\)-module of rank \(n\) has \(F\)-dimension \(2n\). Over \(\mathbb Z\), and more generally over a principal ideal domain, finitely generated projective modules are free (Chapter 10), and \(\mathbb Z/n\) is not projective for \(n\ge2\).
+**Examples.** Free modules are projective, and over a field every module is free and hence projective. A projective module need not be free. For \(R=F\times F\), the ideal \(P=F\times0\) is a direct summand of \(R\), hence projective. It is not free, because \(\dim_F P=1\) while a free \(R\)-module of rank \(n\) has \(F\)-dimension \(2n\). Over \(\mathbb Z\), and more generally over a principal ideal domain, finitely generated projective modules are free (Section 10), and \(\mathbb Z/n\) is not projective for \(n\ge2\).
 
 **Definition 7.4.** [[algebra-modules/injective-module|Injective module]]
 
@@ -359,7 +360,7 @@ Free modules are easy to map out of: a homomorphism from a free module is any ch
 
 **Injective modules over a principal ideal domain.** An \(R\)-module \(E\) is **divisible** if for every \(m\in E\) and every \(r\neq0\) there is \(m'\in E\) with \(rm'=m\). Over a principal ideal domain, Baer's criterion shows that injective is the same as divisible. A nonzero ideal is \((r)\cong R\), so a homomorphism \(f\colon(r)\to E\) is determined by \(m=f(r)\), which can be any element of \(E\). If \(F\colon R\to E\) extends \(f\), then \(m=F(r)=rF(1)\). Conversely, if \(m=rm'\), then \(F(x)=xm'\) extends \(f\). So every such \(f\) extends exactly when \(E\) is divisible. Thus \(\mathbb Q\) and \(\mathbb Q/\mathbb Z\) are injective \(\mathbb Z\)-modules and \(\mathbb Z\) is not. Every abelian group embeds in an injective one. Write \(A\cong F/K\) with \(F=\bigoplus_{i\in I}\mathbb Z\) free. Then \(A\) embeds in \(\bigl(\bigoplus_{i\in I}\mathbb Q\bigr)/K\), which is divisible because it is a quotient of a divisible group. The same holds over every ring: every module embeds in an injective module.
 
-### Exercises for Chapter 7
+### Exercises for Section 7
 
 1. Show that a direct sum of modules is projective if and only if every summand is projective.
 2. Use Proposition 7.3 to show that \(\mathbb Z/n\) is not a projective \(\mathbb Z\)-module for \(n\ge2\).
@@ -412,11 +413,11 @@ The adjunction explains the exactness properties at once. A left adjoint preserv
 
 **Proposition 8.12.** [[algebra-modules/projective-implies-flat|Projective implies flat]]
 
-**Examples.** The \(\mathbb Z\)-module \(\mathbb Z/n\) is not flat for \(n\ge2\): tensoring the injection \(\mathbb Z\xrightarrow{n}\mathbb Z\) with \(\mathbb Z/n\) gives the zero map on \(\mathbb Z/n\). The \(\mathbb Z\)-module \(\mathbb Q\) is flat (Chapter 14) but not projective. Over a principal ideal domain, a module is flat exactly when it is torsion-free.
+**Examples.** The \(\mathbb Z\)-module \(\mathbb Z/n\) is not flat for \(n\ge2\): tensoring the injection \(\mathbb Z\xrightarrow{n}\mathbb Z\) with \(\mathbb Z/n\) gives the zero map on \(\mathbb Z/n\). The \(\mathbb Z\)-module \(\mathbb Q\) is flat (Section 14) but not projective. Over a principal ideal domain, a module is flat exactly when it is torsion-free.
 
 **Proposition 8.13.** [[algebra-homological/hom-tensor-exactness|Exactness properties of Hom and tensor]]
 
-### Exercises for Chapter 8
+### Exercises for Section 8
 
 1. Compute \(\mathbb Z/12\otimes_{\mathbb Z}\mathbb Z/18\) and \(\mathbb Q\otimes_{\mathbb Z}(\mathbb Z^2\oplus\mathbb Z/5)\).
 2. Show that \(e_1\otimes e_1+e_2\otimes e_2\in F^2\otimes_FF^2\) is not a pure tensor.
@@ -426,7 +427,7 @@ The adjunction explains the exactness properties at once. A left adjoint preserv
 
 ## 9. Algebras
 
-An algebra over a commutative ring \(R\) is a ring that is also an \(R\)-module, with compatible multiplication. Polynomial rings, matrix rings, and group algebras are examples. Tensor products combine algebras, and three universal constructions build algebras from a module. This chapter can be read any time after Chapter 8.
+An algebra over a commutative ring \(R\) is a ring that is also an \(R\)-module, with compatible multiplication. Polynomial rings, matrix rings, and group algebras are examples. Tensor products combine algebras, and three universal constructions build algebras from a module. This section can be read any time after Section 8.
 
 **Definition 9.1.** [[algebra-modules/algebra-over-ring|Algebra over a commutative ring]]
 
@@ -444,7 +445,7 @@ An algebra over a commutative ring \(R\) is a ring that is also an \(R\)-module,
 
 **Determinants.** For \(M=R^n\), the top exterior power \(\bigwedge^nR^n\) is free of rank one with basis \(e_1\wedge\cdots\wedge e_n\). An endomorphism \(\varphi\) of \(R^n\) induces an endomorphism of \(\bigwedge^nR^n\), \(v_1\wedge\cdots\wedge v_n\mapsto\varphi v_1\wedge\cdots\wedge\varphi v_n\), which is multiplication by a scalar. That scalar is \(\det\varphi\). Multiplicativity \(\det(\varphi\psi)=\det\varphi\det\psi\) follows from functoriality, with no computation.
 
-### Exercises for Chapter 9
+### Exercises for Section 9
 
 1. In \(\bigwedge^2_R(R^2)\), express \((ae_1+be_2)\wedge(ce_1+de_2)\) as a multiple of \(e_1\wedge e_2\).
 2. Use universal properties to show that \(\operatorname{Sym}_R(R^n)\cong R[x_1,\dots,x_n]\).
@@ -453,7 +454,7 @@ An algebra over a commutative ring \(R\) is a ring that is also an \(R\)-module,
 
 ## 10. Modules over a principal ideal domain
 
-In this chapter \(R\) is a principal ideal domain (PID). The main examples are \(\mathbb Z\) and \(F[x]\) for a field \(F\). Over a PID, every finitely generated module is a direct sum of cyclic modules, and the cyclic summands can be chosen so that they are unique. For \(R=\mathbb Z\) this classifies finitely generated abelian groups, and for \(R=F[x]\) it gives the canonical forms of Chapter 11.
+In this section \(R\) is a principal ideal domain (PID). The main examples are \(\mathbb Z\) and \(F[x]\) for a field \(F\). Over a PID, every finitely generated module is a direct sum of cyclic modules, and the cyclic summands can be chosen so that they are unique. For \(R=\mathbb Z\) this classifies finitely generated abelian groups, and for \(R=F[x]\) it gives the canonical forms of Section 11.
 
 **Background 10.1.** [[algebra-rings/euclidean-domain|Euclidean domain]]
 
@@ -463,11 +464,11 @@ In this chapter \(R\) is a principal ideal domain (PID). The main examples are \
 
 Recall that in a PID every nonzero prime ideal is maximal, any two elements \(a,b\) have a greatest common divisor \(d\) with \((a,b)=(d)\) and \(d=sa+tb\) for some \(s,t\in R\), and every nonzero nonunit factors uniquely into primes.
 
-**Submodules of free modules.** The first step toward the structure theorem repairs item 3 of the list in Chapter 3.
+**Submodules of free modules.** The first step toward the structure theorem repairs item 3 of the list in Section 3.
 
 **Theorem.** If \(R\) is a PID, then every submodule of \(R^n\) is free of rank at most \(n\).
 
-**Proof sketch.** Induct on \(n\); the case \(n=0\) is trivial. Let \(N\subseteq R^n\) and let \(\pi\colon R^n\to R\) be the last coordinate. The image \(\pi(N)\) is an ideal \((a)\). If \(a=0\), then \(N\subseteq R^{n-1}\) and induction applies. Otherwise \((a)\cong R\) is free, so \(0\to N\cap R^{n-1}\to N\to(a)\to0\) splits (Exercise 1 of Chapter 5), and \(N\cong(N\cap R^{n-1})\oplus R\). By induction \(N\cap R^{n-1}\) is free of rank at most \(n-1\).
+**Proof sketch.** Induct on \(n\); the case \(n=0\) is trivial. Let \(N\subseteq R^n\) and let \(\pi\colon R^n\to R\) be the last coordinate. The image \(\pi(N)\) is an ideal \((a)\). If \(a=0\), then \(N\subseteq R^{n-1}\) and induction applies. Otherwise \((a)\cong R\) is free, so \(0\to N\cap R^{n-1}\to N\to(a)\to0\) splits (Exercise 1 of Section 5), and \(N\cong(N\cap R^{n-1})\oplus R\). By induction \(N\cap R^{n-1}\) is free of rank at most \(n-1\).
 
 Two consequences follow. A finitely generated projective module \(P\) over a PID is free: a surjection \(R^n\to P\) splits, so \(P\) is isomorphic to a submodule of \(R^n\). And every finitely generated module \(M\) has a **presentation**. Choose generators to get a surjection \(R^n\to M\). Its kernel \(N\) is free with a basis of \(m\le n\) elements. Writing that basis in coordinates gives an \(n\times m\) matrix \(A\) with
 \[
@@ -518,7 +519,7 @@ Hence \(\mathbb Z^2/A\mathbb Z^2\cong\mathbb Z/2\oplus\mathbb Z/4\). As a check,
 
 **Proof of the structure theorem.** Take a presentation \(M\cong\operatorname{coker}(A)\) as above and put \(A\) in Smith normal form \(UAV=\operatorname{diag}(d_1,\dots,d_s,0,\dots,0)\). The invertible matrices \(U\) and \(V\) are changes of basis of \(R^n\) and \(R^m\), so they do not change the cokernel up to isomorphism. The cokernel of a diagonal matrix is \(\bigoplus_iR/(d_i)\oplus R^{n-s}\). Summands with \(d_i\) a unit are zero and can be dropped.
 
-### Exercises for Chapter 10
+### Exercises for Section 10
 
 1. Find the Smith normal form of \(\begin{pmatrix}4&6\\6&9\end{pmatrix}\) over \(\mathbb Z\), and identify the cokernel.
 2. List the abelian groups of order \(360\) in invariant-factor and elementary-divisor form.
@@ -529,7 +530,7 @@ Hence \(\mathbb Z^2/A\mathbb Z^2\cong\mathbb Z/2\oplus\mathbb Z/4\). As a check,
 
 ## 11. Canonical forms
 
-Let \(V\) be a finite-dimensional vector space over a field \(F\) and \(T\) a linear operator on \(V\). The \(F[x]\)-module \(V_T\) of Definition 1.3 is finitely generated, since any basis generates it, and it is torsion by the example in Chapter 4. Since \(F[x]\) is a PID, the structure theorem gives
+Let \(V\) be a finite-dimensional vector space over a field \(F\) and \(T\) a linear operator on \(V\). The \(F[x]\)-module \(V_T\) of Definition 1.3 is finitely generated, since any basis generates it, and it is torsion by the example in Section 4. Since \(F[x]\) is a PID, the structure theorem gives
 \[
 V_T\;\cong\;F[x]/(f_1)\oplus\cdots\oplus F[x]/(f_s),\qquad f_1\mid f_2\mid\cdots\mid f_s,
 \]
@@ -592,7 +593,7 @@ with characteristic polynomial \((x-1)^2(x^2+1)\) and minimal polynomial \((x-1)
 
 **Definition 11.8.** [[algebra-modules/diagonalizable|Diagonalizable operator]]
 
-### Exercises for Chapter 11
+### Exercises for Section 11
 
 1. Find the rational and Jordan canonical forms of \(\begin{pmatrix}2&1\\-1&0\end{pmatrix}\) over \(\mathbb Q\).
 2. Show that two \(3\times3\) matrices over \(F\) are similar if and only if they have the same characteristic and minimal polynomials. Show that this fails for \(4\times4\) matrices.
@@ -630,7 +631,7 @@ Length is additive on short exact sequences: \(\ell(B)=\ell(A)+\ell(C)\). For ex
 
 The converse also holds. In a module of finite length \(\ell\), every strictly increasing or strictly decreasing chain of submodules has at most \(\ell+1\) terms. So a module has finite length if and only if it is both Artinian and Noetherian.
 
-### Exercises for Chapter 12
+### Exercises for Section 12
 
 1. Write two different composition series of \(\mathbb Z/12\) and compare their factors.
 2. Show that \(M\) is Noetherian if and only if every nonempty set of submodules of \(M\) has a maximal element.
@@ -640,7 +641,7 @@ The converse also holds. In a module of finite length \(\ell\), every strictly i
 
 ## 13. Semisimple modules and rings
 
-The best modules are direct sums of simple ones. Vector spaces are of this kind, and so are representations of finite groups in characteristic zero. This chapter characterizes semisimple modules, classifies the rings over which every module is semisimple, and ends with the uniqueness theorem for decompositions of finite-length modules into indecomposable pieces.
+The best modules are direct sums of simple ones. Vector spaces are of this kind, and so are representations of finite groups in characteristic zero. This section characterizes semisimple modules, classifies the rings over which every module is semisimple, and ends with the uniqueness theorem for decompositions of finite-length modules into indecomposable pieces.
 
 **Schur's lemma.** Let \(S\) and \(S'\) be simple modules and \(f\colon S\to S'\) a homomorphism. Then \(\ker f\) is \(0\) or \(S\), and \(\operatorname{im} f\) is \(0\) or \(S'\). Hence \(f\) is zero or an isomorphism, and \(\operatorname{End}_R(S)\) is a division ring. If \(R\) is an algebra over an algebraically closed field \(k\) and \(S\) is finite-dimensional over \(k\), then \(\operatorname{End}_R(S)=k\): an eigenvalue \(\lambda\) of \(f\) makes \(f-\lambda\) a noninvertible endomorphism, hence zero.
 
@@ -648,7 +649,7 @@ The best modules are direct sums of simple ones. Vector spaces are of this kind,
 
 **Proposition 13.2.** [[algebra-modules/semisimple-direct-summand|Semisimple iff every submodule is a direct summand]]
 
-A module is semisimple if and only if it is a sum, not necessarily direct, of simple submodules. Submodules and quotients of semisimple modules are semisimple. The \(\mathbb Z\)-module \(\mathbb Z/4\) is not semisimple, since its submodule \(2\mathbb Z/4\) has no complement (Chapter 3); Exercise 1 treats \(\mathbb Z/n\) in general.
+A module is semisimple if and only if it is a sum, not necessarily direct, of simple submodules. Submodules and quotients of semisimple modules are semisimple. The \(\mathbb Z\)-module \(\mathbb Z/4\) is not semisimple, since its submodule \(2\mathbb Z/4\) has no complement (Section 3); Exercise 1 treats \(\mathbb Z/n\) in general.
 
 **Definition 13.3.** [[algebra-rings/semisimple-ring|Semisimple ring]]
 
@@ -678,9 +679,9 @@ So if \(G\) is finite and the characteristic of \(k\) does not divide \(|G|\), t
 
 **Theorem 13.9.** [[algebra-modules/krull-schmidt-azumaya-theorem|Krull–Schmidt–Azumaya theorem]]
 
-For a finitely generated torsion module over a PID, the indecomposable summands are the cyclic modules \(R/(p^e)\), and the theorem recovers the uniqueness of elementary divisors. The free part \(R^r\) does not have finite length, which is why Chapter 10 proves uniqueness separately.
+For a finitely generated torsion module over a PID, the indecomposable summands are the cyclic modules \(R/(p^e)\), and the theorem recovers the uniqueness of elementary divisors. The free part \(R^r\) does not have finite length, which is why Section 10 proves uniqueness separately.
 
-### Exercises for Chapter 13
+### Exercises for Section 13
 
 1. Show that \(\mathbb Z/n\) is a semisimple \(\mathbb Z\)-module if and only if \(n\) is squarefree.
 2. Let \(S\) be a simple module and \(D=\operatorname{End}_R(S)\). Show that \(\operatorname{End}_R(S^n)\cong M_n(D)\).
@@ -690,7 +691,7 @@ For a finitely generated torsion module over a PID, the indecomposable summands 
 
 ## 14. Tools over commutative rings
 
-In this chapter \(R\) is commutative. Localization inverts some elements of \(R\) and lets one study a module near a single prime ideal. Nakayama's lemma is the basic tool for finitely generated modules over local rings.
+In this section \(R\) is commutative. Localization inverts some elements of \(R\) and lets one study a module near a single prime ideal. Nakayama's lemma is the basic tool for finitely generated modules over local rings.
 
 **Background 14.1.** [[algebra-commutative/multiplicative-set|Multiplicative set]]
 
@@ -716,7 +717,7 @@ In a local ring \((R,\mathfrak m)\), the Jacobson radical is \(\mathfrak m\), so
 
 **Proposition 14.7.** [[algebra-modules/fg-projective-locally-free|Finitely generated projective modules are locally free]]
 
-### Exercises for Chapter 14
+### Exercises for Section 14
 
 1. Show that \(S^{-1}M\cong S^{-1}R\otimes_RM\).
 2. Show that \(M=0\) if and only if \(M_{\mathfrak m}=0\) for every maximal ideal \(\mathfrak m\).
@@ -725,15 +726,15 @@ In a local ring \((R,\mathfrak m)\), the Jacobson radical is \(\mathfrak m\), so
 
 ## 15. Looking ahead: resolutions, Ext, and Tor
 
-Hom is only left exact and tensor is only right exact (Chapters 6 and 8). Homological algebra measures the failure of exactness with the derived functors Ext and Tor. Every module has a projective resolution, which is built by choosing generators, taking the kernel of the resulting map from a free module, and repeating.
+Hom is only left exact and tensor is only right exact (Sections 6 and 8). Homological algebra measures the failure of exactness with the derived functors Ext and Tor. Every module has a projective resolution, which is built by choosing generators, taking the kernel of the resulting map from a free module, and repeating.
 
 **Definition 15.1.** [[algebra-homological/projective-resolution|Projective resolution]]
 
 **Theorem 15.2.** [[algebra-homological/ext-tor-derived-functors|Ext and Tor as derived functors]]
 
-The functor \(\operatorname{Tor}\) here is unrelated to the torsion submodule \(\operatorname{Tor}(M)\) of Chapter 4, apart from one link: \(\operatorname{Tor}^{\mathbb Z}_1(\mathbb Q/\mathbb Z,A)\) is the torsion subgroup of \(A\). The splitting results of Chapters 5 and 7 have homological meanings. The group \(\operatorname{Ext}^1_R(C,A)\) classifies extensions \(0\to A\to B\to C\to0\), with \(0\) corresponding to the split extension. A module \(P\) is projective if and only if \(\operatorname{Ext}^1_R(P,-)=0\), and a module \(E\) is injective if and only if \(\operatorname{Ext}^1_R(-,E)=0\).
+The functor \(\operatorname{Tor}\) here is unrelated to the torsion submodule \(\operatorname{Tor}(M)\) of Section 4, apart from one link: \(\operatorname{Tor}^{\mathbb Z}_1(\mathbb Q/\mathbb Z,A)\) is the torsion subgroup of \(A\). The splitting results of Sections 5 and 7 have homological meanings. The group \(\operatorname{Ext}^1_R(C,A)\) classifies extensions \(0\to A\to B\to C\to0\), with \(0\) corresponding to the split extension. A module \(P\) is projective if and only if \(\operatorname{Ext}^1_R(P,-)=0\), and a module \(E\) is injective if and only if \(\operatorname{Ext}^1_R(-,E)=0\).
 
-### Exercises for Chapter 15
+### Exercises for Section 15
 
 1. Use the resolution \(0\to\mathbb Z\xrightarrow{n}\mathbb Z\to\mathbb Z/n\to0\) to show that \(\operatorname{Tor}^{\mathbb Z}_1(\mathbb Z/n,A)\cong\{a\in A:na=0\}\) and \(\operatorname{Ext}^1_{\mathbb Z}(\mathbb Z/n,A)\cong A/nA\) for every abelian group \(A\).
 2. Show that a short exact sequence \(0\to A\to B\to P\to0\) with \(P\) projective splits, and explain this in terms of \(\operatorname{Ext}^1_R(P,A)\).
