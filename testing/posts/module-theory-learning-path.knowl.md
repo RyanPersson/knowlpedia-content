@@ -12,6 +12,25 @@ dependency_review_count = 0
 
 These notes are a reading path through module theory. A module is a vector space whose scalars come from a ring instead of a field. That single change produces a theory that contains linear algebra, the theory of abelian groups, and the theory of ideals as special cases, and it is the language of most of modern algebra.
 
+## Contents
+
+- [0. Background from ring theory](/posts/module-theory-learning-path/#0-background-from-ring-theory)
+- [1. Modules](/posts/module-theory-learning-path/#1-modules)
+- [2. Submodules, homomorphisms, and quotients](/posts/module-theory-learning-path/#2-submodules-homomorphisms-and-quotients)
+- [3. Generators, direct sums, and free modules](/posts/module-theory-learning-path/#3-generators-direct-sums-and-free-modules)
+- [4. Torsion](/posts/module-theory-learning-path/#4-torsion)
+- [5. Exact sequences](/posts/module-theory-learning-path/#5-exact-sequences)
+- [6. Hom and duality](/posts/module-theory-learning-path/#6-hom-and-duality)
+- [7. Projective and injective modules](/posts/module-theory-learning-path/#7-projective-and-injective-modules)
+- [8. Tensor products](/posts/module-theory-learning-path/#8-tensor-products)
+- [9. Algebras](/posts/module-theory-learning-path/#9-algebras)
+- [10. Modules over a principal ideal domain](/posts/module-theory-learning-path/#10-modules-over-a-principal-ideal-domain)
+- [11. Canonical forms](/posts/module-theory-learning-path/#11-canonical-forms)
+- [12. Chain conditions and composition series](/posts/module-theory-learning-path/#12-chain-conditions-and-composition-series)
+- [13. Semisimple modules and rings](/posts/module-theory-learning-path/#13-semisimple-modules-and-rings)
+- [14. Tools over commutative rings](/posts/module-theory-learning-path/#14-tools-over-commutative-rings)
+- [15. Looking ahead: resolutions, Ext, and Tor](/posts/module-theory-learning-path/#15-looking-ahead-resolutions-ext-and-tor)
+
 ## How to use these notes
 
 Each numbered item is a knowl shown in place. The box under an item holds its definition or statement. The buttons at the bottom of a box open further sections, such as examples, remarks, and equivalent characterizations, without leaving the page. The cross collapses a box, and clicking the item's title opens it again. Underlined terms inside a box are knowls too: click one to expand its definition inline.
