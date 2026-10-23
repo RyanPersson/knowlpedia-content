@@ -15,7 +15,7 @@ A **commutative ring** is a [[algebra-rings/ring|ring]] \(R\) such that \(ab=ba\
 
 ## Remarks
 
-Commutative rings support a particularly rich theory of [[algebra-rings/ideal|ideals]] and spectrum-type constructions; many foundational results are phrased in terms of the [[algebra-rings/commutative-ring-axiom|commutative ring axiom]]. In commutative rings, left/right distinctions for ideals and zero divisors disappear.
+Commutative rings support a particularly rich theory of [[algebra-rings/ideal|ideals]] and spectrum-type constructions. In commutative rings, left/right distinctions for ideals and zero divisors disappear. Commutativity is independent of having a multiplicative identity: \(2\mathbb Z\) is commutative but not [[algebra-rings/unital-ring|unital]].
 
 ## Examples
 

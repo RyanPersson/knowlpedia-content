@@ -96,11 +96,6 @@ This section covers the foundations of category theory, providing a unified lang
 - [[algebra-category-theory/right-exact-functor|Right exact functor]]
 - [[algebra-category-theory/exact-functor|Exact functor]]
 
-## Axioms
-
-- [[algebra-category-theory/category-axioms|Category axioms]]
-- [[algebra-category-theory/abelian-category-axioms|Abelian category axioms]]
-
 ## Lemmas
 
 - [[algebra-category-theory/yoneda-lemma|Yoneda lemma]]

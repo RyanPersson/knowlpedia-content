@@ -6,7 +6,7 @@ summary = "An additive category with kernels and cokernels where exactness behav
 aliases = ["abelian-category", "Abelian category"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/abelian-category.md"
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category", "algebra-category-theory/isomorphism-category"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,9 +19,18 @@ An **abelian category** is a [[algebra-category-theory/category|category]] \(\ma
 
 These axioms provide an abstract setting for linear algebra, exact sequences, and homological algebra.
 
-## Equivalent characterizations
+## The axioms written out
 
-Equivalently, \(\mathcal A\) satisfies the standard **[[algebra-category-theory/abelian-category-axioms|abelian category axioms]]**.
+Unpacking "additive", \(\mathcal A\) is abelian exactly when it satisfies the following.
+
+1. **Preadditivity.** For all objects \(A,B\), the hom-set \(\operatorname{Hom}_{\mathcal A}(A,B)\) is an abelian group, and composition is bilinear (see [[algebra-category-theory/preadditive-category|preadditive category]]).
+2. **Zero object.** \(\mathcal A\) has a [[algebra-category-theory/zero-object|zero object]] \(0\), both initial and terminal, so between any two objects there is a zero morphism.
+3. **Finite biproducts.** Finite [[algebra-category-theory/categorical-product|products]] and [[algebra-category-theory/coproduct|coproducts]] exist and coincide, so \(A\oplus B\) is both.
+4. **Kernels and cokernels.** Every morphism \(f\colon A\to B\) has a kernel \(\ker f\to A\) and a cokernel \(B\to\mathrm{coker}\, f\).
+5. **Normal monomorphisms.** Every monomorphism \(m\) is a kernel; equivalently, \(m\cong\ker(\mathrm{coker}\, m)\).
+6. **Normal epimorphisms.** Every epimorphism \(e\) is a cokernel; equivalently, \(e\cong\mathrm{coker}(\ker e)\).
+
+In (5) and (6), \(\cong\) is the canonical [[algebra-category-theory/isomorphism-category|isomorphism]] over the common target for kernels and under the common source for cokernels.
 
 ## Consequences
 
@@ -42,5 +51,5 @@ In an abelian category:
 ## Non-examples
 
 - **\(\mathbf{Set}\)** is not abelian (not additive).
-- **\(\mathbf{Grp}\)** is not abelian (kernels exist, but cokernels and exactness do not satisfy the abelian axioms).
+- **\(\mathbf{Grp}\)** is not abelian. It is not even additive, since finite products (direct products) and coproducts (free products) differ, and the inclusion of a non-normal subgroup is a monomorphism that is not a kernel.
 - **\(\mathbf{Top}\)** is not abelian (again, not additive).

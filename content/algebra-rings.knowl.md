@@ -101,15 +101,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 
 ---
 
-## Axioms
-
-- [[algebra-rings/ring-axioms|Ring axioms]]
-- [[algebra-rings/unital-ring-axiom|Unital ring axiom]]
-- [[algebra-rings/commutative-ring-axiom|Commutative ring axiom]]
-- [[algebra-rings/field-axioms-algebra|Field axioms]]
-
----
-
 ## Theorems
 
 ### Isomorphism Theorems

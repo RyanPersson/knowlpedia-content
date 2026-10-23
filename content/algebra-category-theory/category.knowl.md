@@ -27,7 +27,7 @@ These data satisfy:
 - **Associativity:** \(h\circ(g\circ f)=(h\circ g)\circ f\) whenever the composites are defined.
 - **Identity laws:** \(1_Y\circ f=f=f\circ 1_X\) for every \(f:X\to Y\).
 
-These are the [[algebra-category-theory/category-axioms|category axioms]].
+These two laws are the **category axioms**. Associativity means a composite such as \(h\circ g\circ f\) can be written without parentheses.
 
 ## Guiding picture
 
@@ -38,3 +38,4 @@ The definition abstracts the behavior of [[shared-foundations/function|functions
 1. **\(\mathbf{Set}\)**: objects are [[shared-foundations/set|sets]], morphisms are [[shared-foundations/function|functions]], composition is ordinary function composition, and \(1_X\) is the [[shared-foundations/identity-function|identity function]] on \(X\).
 2. **\(\mathbf{Grp}\)**: objects are groups, morphisms are group homomorphisms, with composition given by composing homomorphisms.
 3. **\(\mathbf{Top}\)**: objects are topological spaces, morphisms are continuous maps, with composition the usual composition of continuous maps.
+4. **\(R\text{-}\mathbf{Mod}\)**: objects are left \(R\)-[[algebra-modules/module|modules]], morphisms are \(R\)-linear maps, with the usual composition and identities.

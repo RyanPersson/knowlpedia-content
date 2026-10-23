@@ -2,20 +2,8 @@
 id = "algebra-modules/vector-space-axioms"
 title = "Vector space axioms"
 kind = "knowl"
-summary = "The module axioms specialized to scalars in a field."
+summary = "Merged into Vector space, which states the same axioms."
+redirect_to = "linear-algebra/vector-space"
 aliases = ["vector-space-axioms", "Vector space axioms"]
 domains = ["algebra-modules"]
-legacy_source_path = "algebra-modules/vector-space-axioms.md"
-prerequisites = ["algebra-groups/abelian-group", "algebra-rings/field"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
 +++
-
-The **vector space axioms** define a [[linear-algebra/vector-space|vector space]] \(V\) over a [[algebra-rings/field|field]] \(k\) as an abelian group \((V,+)\) equipped with scalar multiplication \(k\times V\to V\), \((a,v)\mapsto av\), satisfying the same distributivity/associativity/unit conditions as the axioms of a [[algebra-modules/module|module]]:
-\[
-(a+b)v=av+bv,\quad a(v+w)=av+aw,\quad (ab)v=a(bv),\quad 1v=v.
-\]
-
-## Consequences
-
-The field structure on \(k\) (in particular, inverses for nonzero scalars) enables linear algebra constructions such as bases, dimension, and canonical forms.
