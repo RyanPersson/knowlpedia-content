@@ -120,3 +120,20 @@ This section covers the foundations of category theory, providing a unified lang
 - [[algebra-category-theory/symmetric-monoidal-category|Symmetric monoidal category]]
 - [[algebra-category-theory/algebra-object|Algebra object]]
 - [[algebra-category-theory/group-object|Group object]]
+
+## Linear, semisimple, and fusion categories
+
+The [[algebra-category-theory/fusion-category|fusion category]] definition bundles the structures below; its comparison table explains what each condition contributes.
+
+- [[algebra-category-theory/k-linear-category|k-linear category]]
+- [[algebra-category-theory/simple-object|Simple object]]
+- [[algebra-category-theory/semisimple-category|Semisimple category]]
+- [[algebra-category-theory/finite-abelian-category|Finite abelian category]]
+- [[algebra-category-theory/strict-monoidal-category|Strict monoidal category]]
+- [[algebra-category-theory/dual-object|Dual object and snake identities]]
+- [[algebra-category-theory/rigid-category|Rigid monoidal category]]
+- [[algebra-category-theory/braided-monoidal-category|Braided monoidal category]]
+- [[algebra-category-theory/tensor-category|Tensor category]]
+- [[algebra-category-theory/finite-tensor-category|Finite tensor category]]
+- [[algebra-category-theory/multifusion-category|Multifusion category]]
+- [[algebra-category-theory/fusion-category|Fusion category]]

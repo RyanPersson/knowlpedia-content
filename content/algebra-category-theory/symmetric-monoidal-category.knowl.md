@@ -33,7 +33,7 @@ on homogeneous vectors. This is symmetric because applying it twice gives the id
 
 ## Related structures
 
-A braided monoidal category has coherent maps \(\beta_{X,Y}\) but does not require \(\beta_{Y,X}\beta_{X,Y}\) to be the identity. Thus every symmetric monoidal category is braided, but not conversely.
+A [[algebra-category-theory/braided-monoidal-category|braided monoidal category]] has coherent maps \(\beta_{X,Y}\) but does not require \(\beta_{Y,X}\beta_{X,Y}\) to be the identity. Thus every symmetric monoidal category is braided, but not conversely.
 
 ## References
 

@@ -33,6 +33,23 @@ The associator \(\alpha\) and unitors \(\lambda,\rho\) must satisfy the followin
 \]
 These are the pentagon and triangle coherence axioms, respectively.
 
+## Coherence diagrams
+
+The pentagon compares two ways to reassociate four factors. Each vertex is a parenthesization; commutativity says the two directed paths from the top left to the bottom right agree.
+
+```tikz-cd
+((W\otimes X)\otimes Y)\otimes Z \arrow[r, "\alpha_{W,X,Y}\otimes1_Z"] \arrow[d, "\alpha_{W\otimes X,Y,Z}"'] & (W\otimes(X\otimes Y))\otimes Z \arrow[d, "\alpha_{W,X\otimes Y,Z}"] \\
+(W\otimes X)\otimes(Y\otimes Z) \arrow[dr, "\alpha_{W,X,Y\otimes Z}"'] & W\otimes((X\otimes Y)\otimes Z) \arrow[d, "1_W\otimes\alpha_{X,Y,Z}"] \\
+& W\otimes(X\otimes(Y\otimes Z))
+```
+
+The triangle says that deleting a unit between two factors agrees with first reassociating and then deleting it:
+
+```tikz-cd
+(X\otimes\mathbb1)\otimes Y \arrow[rr, "\alpha_{X,\mathbb1,Y}"] \arrow[dr, "\rho_X\otimes1_Y"'] & & X\otimes(\mathbb1\otimes Y) \arrow[dl, "1_X\otimes\lambda_Y"] \\
+& X\otimes Y &
+```
+
 ## Why coherence matters
 
 The tensor product need not be literally associative or unital. The coherence axioms ensure that every canonical composite built from associators and unitors between two parenthesizations is the same. Calculations can therefore suppress these isomorphisms without making arbitrary choices.
