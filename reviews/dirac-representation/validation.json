@@ -1,0 +1,21 @@
+{
+  "base_commit": "d966c18756adadc7722698d314ad1fae57630af1",
+  "checks": [
+    "Pauli squares, all 9 anticommutators, and 3 cyclic products",
+    "All 16 Clifford anticommutators, using the displayed 4x4 matrices",
+    "gamma^1 gamma^2 = diag(-i,i,-i,i)",
+    "All derivative/mass coefficients in the displayed operator and four component equations",
+    "D_M squared equals (partial_0^2 - sum_j partial_j^2) I_4; conjugate-factor mass terms cancel",
+    "All 4961 content knowls: valid TOML and unique IDs",
+    "Both edited knowls: unchanged metadata, valid link/prerequisite targets, balanced math delimiters and matrix environments",
+    "Prerequisite closure of edited entries is acyclic (177 knowls)",
+    "git diff --check"
+  ],
+  "source_sha256": {
+    "content/mathematical-physics/gamma-matrices.knowl.md": "ba207250fb1c17f6541d249f91ea56b505075ea94b494eb7716b785a5528cdb5",
+    "content/mathematical-physics/dirac-equation.knowl.md": "b205c1a554b58c2b88eee0fc404f8e903f661338cbd374fff46bb6d234f3a39f"
+  },
+  "limitations": [
+    "Repository contains no executable content validator, compiler, or scripts/review_progress.py; full site/render validation and progress regeneration unavailable."
+  ]
+}

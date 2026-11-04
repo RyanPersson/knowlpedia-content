@@ -49,13 +49,95 @@ Under the geometric convention used here,
 Many physics texts instead use the opposite metric signature
 \(\eta_{\mathrm{phys}}=\operatorname{diag}(+1,-1,-1,-1)\) together with
 \[
-\{\gamma^\mu,\gamma^\nu\}=+2\eta^{\mu\nu}I.
+\{\gamma^\mu,\gamma^\nu\}=+2\eta_{\mathrm{phys}}^{\mu\nu}I.
 \]
 With \(\eta_{\mathrm{phys}}=-\eta\), this has the same numerical right-hand
 side as the convention in the core. If one changes only the Clifford sign
 while holding the metric fixed, multiplying all complex gamma matrices by
 \(i\) passes between the two relations. Metric signature and Clifford sign
 must therefore be recorded separately.
+
+## Worked example: the Dirac representation
+
+Work on \(\mathbb R^{1,3}\) with coordinates \(x^0=t,x^1,x^2,x^3\),
+metric \(\eta=\operatorname{diag}(-1,1,1,1)\), and complex spinor module
+\(\Delta=\mathbb C^4\). Write \(I_n\) for the \(n\times n\) identity matrix
+and \(i^2=-1\). The **Pauli matrices** used in this construction are
+\[
+\sigma^1=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+\sigma^2=\begin{pmatrix}0&-i\\i&0\end{pmatrix},\qquad
+\sigma^3=\begin{pmatrix}1&0\\0&-1\end{pmatrix}.
+\]
+Define the raised-index matrices by \(2\times2\) blocks:
+\[
+\gamma^0=\begin{pmatrix}I_2&0\\0&-I_2\end{pmatrix},\qquad
+\gamma^j=\begin{pmatrix}0&\sigma^j\\-\sigma^j&0\end{pmatrix}
+\quad(j=1,2,3).
+\]
+Thus all four matrices are explicitly
+\[
+\gamma^0=\begin{pmatrix}
+1&0&0&0\\0&1&0&0\\0&0&-1&0\\0&0&0&-1
+\end{pmatrix},\qquad
+\gamma^1=\begin{pmatrix}
+0&0&0&1\\0&0&1&0\\0&-1&0&0\\-1&0&0&0
+\end{pmatrix},
+\]
+\[
+\gamma^2=\begin{pmatrix}
+0&0&0&-i\\0&0&i&0\\0&i&0&0\\-i&0&0&0
+\end{pmatrix},\qquad
+\gamma^3=\begin{pmatrix}
+0&0&1&0\\0&0&0&-1\\-1&0&0&0\\0&1&0&0
+\end{pmatrix}.
+\]
+
+To check the relations directly, matrix multiplication gives
+\((\sigma^j)^2=I_2\) and
+\[
+\sigma^1\sigma^2=i\sigma^3=-\sigma^2\sigma^1,\qquad
+\sigma^2\sigma^3=i\sigma^1=-\sigma^3\sigma^2,\qquad
+\sigma^3\sigma^1=i\sigma^2=-\sigma^1\sigma^3.
+\]
+Consequently \(\sigma^j\sigma^k+\sigma^k\sigma^j=2\delta_{jk}I_2\),
+where \(\delta_{jk}\) is \(1\) when \(j=k\) and \(0\) otherwise.
+Block multiplication now gives
+\[
+(\gamma^0)^2=I_4,\qquad
+\gamma^0\gamma^j=\begin{pmatrix}0&\sigma^j\\\sigma^j&0\end{pmatrix}
+=-\gamma^j\gamma^0,
+\]
+\[
+\gamma^j\gamma^k=
+-\begin{pmatrix}\sigma^j\sigma^k&0\\0&\sigma^j\sigma^k\end{pmatrix}.
+\]
+These identities prove all the Clifford anticommutation relations:
+\[
+\{\gamma^\mu,\gamma^\nu\}
+:=\gamma^\mu\gamma^\nu+\gamma^\nu\gamma^\mu
+=-2\eta^{\mu\nu}I_4\quad(\mu,\nu=0,1,2,3).
+\]
+In particular, the spatial squares are \(-I_4\). A concrete mixed product is
+\[
+\gamma^1\gamma^2
+=-i\begin{pmatrix}\sigma^3&0\\0&\sigma^3\end{pmatrix}
+=\operatorname{diag}(-i,i,-i,i),\qquad
+\gamma^2\gamma^1=-\gamma^1\gamma^2.
+\]
+
+To connect this example with the geometric definition, take
+\(e_\mu=\partial/\partial x^\mu\) and set
+\(c(e_\mu)=\gamma_\mu=\eta_{\mu\nu}\gamma^\nu\), summing over \(\nu\).
+Thus \(\gamma_0=-\gamma^0\) and \(\gamma_j=\gamma^j\).
+Using the metric identification of covectors with vectors,
+\(c(dx^\mu)=c((dx^\mu)^\sharp)=\gamma^\mu\); the verified relations
+therefore give a representation of the geometric Clifford algebra.
+With \(\eta_{\mathrm{phys}}=-\eta\), the same numerical raised-index
+matrices satisfy \(\{\gamma^\mu,\gamma^\nu\}=2\eta_{\mathrm{phys}}^{\mu\nu}I_4\).
+No factor of \(i\) is needed when changing both metric signature and Clifford
+sign in this way. Lowered indices must, however, use the metric of the chosen
+convention. The corresponding differential equation is expanded in the
+[[mathematical-physics/dirac-equation|Dirac equation]] knowl.
 
 ## Change of basis and spin covariance
 
