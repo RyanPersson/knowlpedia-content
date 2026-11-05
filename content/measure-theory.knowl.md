@@ -35,6 +35,7 @@ dependency_review_count = 1
 - [[measure-theory/outer-measure|Outer measure]]
 - [[measure-theory/null-set|Null set]]
 - [[measure-theory/almost-everywhere|Almost everywhere]]
+- [[measure-theory/borel-measure|Borel measure]]
 
 ### Constructions
 - [[measure-theory/caratheodory-measurable-set|Carathéodory measurable set]]
@@ -57,6 +58,7 @@ dependency_review_count = 1
 - [[measure-theory/lebesgue-integral-nonnegative|Lebesgue integral (nonnegative functions)]]
 - [[measure-theory/lebesgue-integral|Lebesgue integral]]
 - [[measure-theory/lebesgue-integrable-function|Lebesgue integrable function]]
+- [[measure-theory/radon-nikodym-derivative|Radon–Nikodym Derivative]]
 
 ### L^p Spaces
 - [[measure-theory/essential-supremum|Essential supremum]]

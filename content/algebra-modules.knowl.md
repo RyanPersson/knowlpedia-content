@@ -69,11 +69,15 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/projective-module|Projective module]]
 - [[algebra-modules/injective-module|Injective module]]
 - [[algebra-modules/flat-module|Flat module]]
+- [[algebra-modules/invertible-module|Invertible module over a commutative ring]]
 
 ### Tensor Products
 - [[algebra-modules/tensor-product|Tensor product of modules]]
 - [[algebra-modules/bilinear-map|Bilinear map]]
 - [[algebra-modules/tensor-product-universal-property|Universal property of tensor product]]
+- [[algebra-modules/tensor-algebra|Tensor algebra]]
+- [[algebra-modules/symmetric-algebra|Symmetric algebra]]
+- [[algebra-modules/exterior-algebra|Exterior algebra]]
 
 ### Hom and Duality
 - [[algebra-modules/hom-module|Hom module]]
@@ -142,3 +146,15 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/jcf-from-rcf|Jordan canonical form from RCF]]
 - [[algebra-modules/smith-normal-form-invariants|Smith normal form invariants]]
 - [[algebra-modules/chinese-remainder-modules|Chinese remainder for modules]]
+
+## Modules from linear operators
+
+- [[algebra-modules/matrix-representation|Matrix representation]]
+- [[algebra-modules/polynomial-module-from-operator|Polynomial module associated with a linear operator]]
+- [[algebra-modules/diagonalizable|Diagonalizable operator]]
+
+## Lattices and orders
+
+- [[algebra-modules/full-lattice|Full lattice over an integral domain]]
+- [[algebra-modules/dual-lattice|Dual lattice]]
+- [[algebra-modules/lie-order|Lie order]]

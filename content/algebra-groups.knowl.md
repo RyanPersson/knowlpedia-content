@@ -20,6 +20,9 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/monoid|Monoid]]
 - [[algebra-groups/group|Group]]
 - [[algebra-groups/abelian-group|Abelian group]]
+- [[algebra-groups/unital-magma|Unital Magma]]
+- [[algebra-groups/commutative-monoid|Commutative monoid]]
+- [[algebra-groups/finite-group|Finite group]]
 
 ### Subgroups
 - [[algebra-groups/subgroup|Subgroup]]
@@ -35,6 +38,12 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/solvable-group|Solvable group]]
 - [[algebra-groups/nilpotent-group|Nilpotent group]]
 - [[algebra-groups/perfect-group|Perfect group]]
+- [[algebra-groups/alternating-group|Alternating Group]]
+- [[algebra-groups/quaternion-group|Quaternion group]]
+- [[algebra-groups/binary-tetrahedral-group|Binary tetrahedral group]]
+- [[algebra-groups/projective-general-linear-group|Projective general linear group]]
+- [[algebra-groups/projective-special-linear-group|Projective special linear group]]
+- [[algebra-groups/quaternion-order-norm-one-group|Norm-one group of a quaternion order]]
 
 ### Centralizers, Normalizers, and Centers
 - [[algebra-groups/center-of-group|Center of a group]]
@@ -140,6 +149,8 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/jordan-holder-theorem-groups|Jordan-Hölder theorem]]
 - [[algebra-groups/schreier-refinement-theorem|Schreier refinement theorem]]
 - [[algebra-groups/fundamental-theorem-fg-abelian-groups|Fundamental theorem of finitely generated abelian groups]]
+- [[algebra-groups/classification-finite-simple-groups|Classification of finite simple groups]]
+- [[algebra-groups/pgl-psl-comparison|PGL–PSL comparison]]
 
 ### Advanced Theorems
 - [[algebra-groups/nielsen-schreier-theorem|Nielsen-Schreier theorem]]
@@ -241,3 +252,8 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/permutation-cycle|Cycle of a permutation]]
 
 See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
+
+## Ordered groups
+
+- [[algebra-groups/ordered-abelian-group|Ordered abelian group]]
+- [[algebra-groups/lattice-ordered-abelian-group|Lattice-ordered abelian group]]

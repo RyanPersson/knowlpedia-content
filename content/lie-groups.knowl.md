@@ -23,6 +23,10 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/abelian-lie-group|Abelian Lie group]]
 - [[lie-groups/closed-subgroup-lie-group|Closed subgroup]]
 - [[lie-groups/discrete-subgroup|Discrete subgroup]]
+- [[lie-groups/lie-group-homomorphism|Lie Group Homomorphism]]
+- [[lie-groups/lie-subgroup|Lie Subgroup]]
+- [[lie-groups/identity-component-of-a-lie-group|Identity component of a Lie group]]
+- [[lie-groups/central-quotient-of-a-lie-group|Central quotient of a Lie group]]
 
 ### Group Structure
 
@@ -33,10 +37,15 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/product-lie-group|Product Lie group]]
 - [[lie-groups/covering-lie-group|Covering Lie group]]
 - [[lie-groups/universal-covering-group|Universal covering group]]
+- [[lie-groups/maximal-connected-closed-subgroup|Maximal connected closed subgroup]]
 
 ### Translations
 
 - [[lie-groups/bi-invariant-metric|Bi-invariant metric]]
+- [[lie-groups/left-translation|Left Translation]]
+- [[lie-groups/right-translation|Right Translation]]
+- [[lie-groups/left-invariant-vector-field|Left-Invariant Vector Field]]
+- [[lie-groups/right-invariant-vector-field|Right-Invariant Vector Field]]
 
 ## Lie Algebras
 
@@ -46,6 +55,10 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/ideal-lie-algebra|Ideal (Lie algebra)]]
 - [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphism]]
 - [[lie-groups/lie-algebra-isomorphism|Lie algebra isomorphism]]
+- [[lie-groups/lie-algebra|Lie algebra]]
+- [[lie-groups/lie-algebra-of-a-lie-group|Lie Algebra of a Lie Group]]
+- [[lie-groups/reductive-lie-algebra|Reductive Lie algebra]]
+- [[lie-groups/complete-filtered-lie-algebra|Complete filtered Lie algebra]]
 
 ### Structure
 
@@ -56,6 +69,16 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/simple-lie-algebra|Simple Lie algebra]]
 - [[lie-groups/semisimple-lie-algebra|Semisimple Lie algebra]]
 - [[lie-groups/abelian-lie-algebra|Abelian Lie algebra]]
+- [[lie-groups/centralizer-of-a-lie-subalgebra|Centralizer of a Lie subalgebra]]
+- [[lie-groups/mutual-centralizers-in-a-lie-algebra|Mutual centralizers in a Lie algebra]]
+- [[lie-groups/maximal-lie-subalgebra|Maximal Lie subalgebra]]
+- [[lie-groups/maximal-levi-subalgebra|Maximal Levi subalgebra]]
+- [[lie-groups/compatible-cartan-subalgebras|Compatible Cartan subalgebras]]
+- [[lie-groups/root-sl2-subalgebra|Root \(\mathfrak{sl}_2\)-subalgebra]]
+- [[lie-groups/rank-of-a-semisimple-lie-algebra|Rank of a semisimple Lie algebra]]
+- [[lie-groups/compact-real-form|Compact real form]]
+- [[lie-groups/chevalley-basis|Chevalley basis]]
+- [[lie-groups/relative-lie-algebra-cohomology|Relative Lie algebra cohomology]]
 
 ### Derivations
 
@@ -78,12 +101,25 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 ### Adjoint Representations
 
 - [[lie-groups/conjugation-action-of-a-lie-group|Conjugation action]]
+- [[lie-groups/adjoint-action-of-a-lie-group|Adjoint Action of a Lie Group]]
+- [[lie-groups/adjoint-representation-of-a-lie-algebra|Adjoint Representation of a Lie Algebra]]
 
 ### General Representations
 
 - [[lie-groups/irreducible-representation-lie-group|Irreducible representation (group)]]
 - [[lie-groups/irreducible-representation-lie-algebra|Irreducible representation (algebra)]]
 - [[lie-groups/completely-reducible-representation-lie|Completely reducible representation]]
+- [[lie-groups/representation-of-a-lie-group|Representation of a Lie Group]]
+- [[lie-groups/representation-of-a-lie-algebra|Representation of a Lie Algebra]]
+- [[lie-groups/defining-representation-of-a-classical-lie-algebra|Defining representation of a classical Lie algebra]]
+- [[lie-groups/exterior-power-representation|Exterior-power representation]]
+- [[lie-groups/even-and-odd-exterior-algebra|Even and odd exterior algebra]]
+- [[lie-groups/exterior-algebra-of-a-direct-sum|Exterior algebra of a direct sum]]
+- [[lie-groups/half-spin-representation|Half-spin representation]]
+- [[lie-groups/metaplectic-representation|Metaplectic representation]]
+- [[lie-groups/multiplicity-of-an-irreducible-representation|Multiplicity of an irreducible representation]]
+- [[lie-groups/branching-rule-for-lie-representations|Branching rule for Lie representations]]
+- [[lie-groups/fixed-vector-subspace|Fixed-vector subspace]]
 
 ### Weight Theory
 
@@ -91,6 +127,11 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/weight-space|Weight space]]
 - [[lie-groups/highest-weight|Highest weight]]
 - [[lie-groups/highest-weight-representation|Highest weight representation]]
+- [[lie-groups/roots-weights-weyl|Roots, Weyl group, and dominant weights]]
+- [[lie-groups/coroots-and-pairing|Coroots and the character-cocharacter pairing]]
+- [[lie-groups/root-lattice|Root lattice]]
+- [[lie-groups/weight-lattice|Weight lattice]]
+- [[lie-groups/weights-of-the-defining-sl3-representation|Weights of the defining sl₃-representation]]
 
 ## Structure Theory
 
@@ -110,6 +151,13 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/cartan-matrix|Cartan matrix]]
 - [[lie-groups/dynkin-diagram|Dynkin diagram]]
 - [[lie-groups/classification-simple-lie-algebras|Classification of simple Lie algebras]]
+- [[lie-groups/simply-laced-root-system|Simply laced root system]]
+- [[lie-groups/type-a-root-system|Type A root system]]
+- [[lie-groups/type-d-root-system|Type D root system]]
+- [[lie-groups/exceptional-e-root-systems|Exceptional E-type root systems]]
+- [[lie-groups/en-series-of-lie-algebras|En series of Lie algebras]]
+- [[lie-groups/d4-root-lattice|D₄ root lattice]]
+- [[lie-groups/dynkin-diagram-automorphisms-and-dual-representations|Dynkin-diagram automorphisms and dual representations]]
 
 ## Classical Lie Groups
 
@@ -121,6 +169,12 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/special-unitary-group|SU(n)]]
 - [[lie-groups/symplectic-group|Sp(n)]]
 - [[lie-groups/spin-group|Spin(n)]]
+- [[lie-groups/symplectic-group-spk|Symplectic Group Sp(K)]]
+- [[lie-groups/special-block-unitary-group|Special block unitary group]]
+- [[lie-groups/metaplectic-group|Metaplectic group]]
+- [[lie-groups/restricted-general-linear-group-rgl|Restricted General Linear Group rGL(H)]]
+- [[lie-groups/restricted-symplectic-group-rspk|Restricted Symplectic Group rSp(K)]]
+- [[lie-groups/spin6-su4-isomorphism|The isomorphism Spin(6) ≅ SU(4)]]
 
 ## Actions and Homogeneous Spaces
 
@@ -129,6 +183,8 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/stabilizer-lie-group|Stabilizer]]
 - [[lie-groups/homogeneous-space|Homogeneous space]]
 - [[lie-groups/coset-space|Coset space G/H]]
+- [[lie-groups/principal-homogeneous-space|Principal Homogeneous Space]]
+- [[lie-groups/transitivity-on-real-grassmannians|Transitivity on real Grassmannians]]
 
 ## Key Theorems
 
@@ -152,6 +208,11 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/example-upper-triangular|Upper triangular (solvable)]]
 - [[lie-groups/example-strictly-upper-triangular|Strictly upper triangular (nilpotent)]]
 - [[lie-groups/example-sphere-homogeneous|S² as homogeneous space]]
+- [[lie-groups/complex-lie-algebra-sl3|Complex Lie algebra sl3(C)]]
+- [[lie-groups/complex-lie-algebra-sl5|Complex Lie algebra sl5(C)]]
+- [[lie-groups/complex-lie-algebra-sl6|Complex Lie algebra sl6(C)]]
+- [[lie-groups/complex-lie-algebra-so10|Complex Lie algebra so10(C)]]
+- [[lie-groups/complex-lie-algebra-so12|Complex Lie algebra so12(C)]]
 
 ## Uncategorized
 
@@ -231,6 +292,7 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/unitary-equivalence-of-representations|Unitary equivalence of representations]]
 - [[lie-groups/weak-strong-continuity-equivalence-unitary-representations|Weak and strong continuity for unitary representations]]
 - [[lie-groups/weakly-continuous-unitary-representation|Weakly continuous unitary representation]]
+- [[lie-groups/weak-continuity|Weak Continuity of a Representation]]
 
 ### Smooth vectors and derived representations
 
@@ -416,6 +478,12 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/arithmetic-kleinian-group|Arithmetic Kleinian group]]
 - [[lie-groups/noncocompact-arithmetic-kleinian-classification|Noncocompact classification]]
 - [[knowlification/bianchi-index|Complete Bianchi collection]]
+- [[lie-groups/fuchsian-group|Fuchsian group]]
+- [[lie-groups/arithmetic-fuchsian-group|Arithmetic Fuchsian group]]
+- [[lie-groups/uniform-lattice|Uniform lattice]]
+- [[lie-groups/parabolic-hyperbolic-isometry|Parabolic isometry of hyperbolic three-space]]
+- [[lie-groups/bianchi-group-arithmeticity|Arithmeticity of Bianchi groups]]
+- [[lie-groups/bianchi-group-nonuniform-lattice|Bianchi groups are nonuniform lattices]]
 
 ## Connections with ergodic theory
 

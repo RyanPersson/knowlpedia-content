@@ -112,6 +112,20 @@ Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every oper
 
 Riemannian scalar and Dirac operators are elliptic; Lorentzian wave operators are [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]], and Lorentzian Dirac operators have the null cone as their characteristic set. Compact-spectrum statements from [[differential-geometry/riemannian-manifold|Riemannian geometry]] therefore do not transfer to relativistic evolution problems. Conversely, Cauchy evolution and finite propagation speed belong to the Lorentzian setting and require causal hypotheses such as [[differential-geometry/globally-hyperbolic-spacetime|global hyperbolicity]].
 
+## Quantization
+
+- [[mathematical-physics/prequantization|Prequantization]]
+- [[mathematical-physics/geometric-quantization|Geometric quantization]]
+- [[mathematical-physics/quantization-map|Quantization map]]
+- [[mathematical-physics/groenewold-van-hove-theorem|Groenewold–Van Hove theorem]]
+- [[mathematical-physics/schrodinger-representation|Schrödinger representation]]
+- [[mathematical-physics/weyl-ccr-quantization|Weyl CCR Quantization]]
+- [[mathematical-physics/symmetric-fock-space|Symmetric Fock Space S(H)]]
+- [[mathematical-physics/creation-annihilation-operators|Creation and Annihilation Operators]]
+- [[mathematical-physics/fock-cook-quantization|Fock–Cook Quantization]]
+- [[mathematical-physics/single-particle-structure-sigma-h|Single Particle Structure Σ(H)]]
+- [[mathematical-physics/duality-transform-D|Duality Transform D (Segal)]]
+
 ## References
 
 1. Christian Bär, Nicolas Ginoux, and Frank Pfäffle, *Wave Equations on Lorentzian Manifolds and Quantization*, European Mathematical Society, 2007. [Publisher record](https://doi.org/10.4171/037).

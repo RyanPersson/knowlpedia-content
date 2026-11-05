@@ -46,6 +46,8 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/fixed-field|Fixed field]]
 - [[algebra-fields-galois/field-embedding|Field embedding]]
 - [[algebra-fields-galois/field-automorphism|Field automorphism]]
+- [[algebra-fields-galois/galois-extension-and-group|Galois extension and Galois group]]
+- [[algebra-fields-galois/nonabelian-h1-galois-cohomology|Nonabelian H1 and Galois 1-cocycles]]
 
 ### Trace, Norm, Discriminant
 - [[algebra-fields-galois/trace-field|Trace (field extension)]]
@@ -67,6 +69,21 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/archimedean-local-field|Archimedean local field]]
 - [[algebra-fields-galois/nonarchimedean-local-field|Nonarchimedean local field]]
 - [[algebra-fields-galois/p-adic-field|\(p\)-adic field]]
+- [[algebra-fields-galois/algebraic-integer|Algebraic integer]]
+- [[algebra-fields-galois/integral-basis|Integral basis of a number field]]
+- [[algebra-fields-galois/ideal-norm|Absolute norm of an ideal]]
+- [[algebra-fields-galois/class-number|Class number of a number field]]
+- [[algebra-fields-galois/valuation-on-a-field|Valuation on a field]]
+- [[algebra-fields-galois/non-archimedean-absolute-value|Non-Archimedean absolute value]]
+- [[algebra-fields-galois/value-group|Value group of a valuation]]
+- [[algebra-fields-galois/valuation-ring|Valuation ring of a valued field]]
+- [[algebra-fields-galois/unramified-extension-local|Unramified extension of a nonarchimedean local field]]
+- [[algebra-fields-galois/decomposition-group|Decomposition group]]
+- [[algebra-fields-galois/inertia-subgroup|Inertia subgroup]]
+- [[algebra-fields-galois/frobenius-unramified|Unramified prime and Frobenius element]]
+- [[algebra-fields-galois/embeddings-qbar-to-q_p|Choosing an embedding \(\overline{\mathbb Q}\hookrightarrow\overline{\mathbb Q}_p\)]]
+- [[algebra-fields-galois/adeles-restricted-product|Adeles and restricted products]]
+- [[algebra-fields-galois/ideles-artin-reciprocity-hecke-character|Ideles, Hecke characters, and Artin reciprocity]]
 
 ### Cyclotomic Extensions
 - [[algebra-fields-galois/primitive-root-of-unity|Primitive root of unity]]
@@ -84,6 +101,7 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/finite-field-existence-uniqueness|Existence and uniqueness of finite fields]]
 - [[algebra-fields-galois/finite-field-multiplicative-group-cyclic|Cyclicity of multiplicative group of finite field]]
 - [[algebra-fields-galois/finite-field-galois-group-cyclic|Galois group of finite field is cyclic (Frobenius)]]
+- [[algebra-fields-galois/chebotarev-density-theorem|Chebotarev density theorem]]
 
 ## Lemmas
 
@@ -119,6 +137,7 @@ The [[knowlification/bianchi-index|Bianchi collection]] develops the number-theo
 - [[algebra-fields-galois/number-field-discriminant|Number-field discriminant]]
 - [[algebra-fields-galois/ideal-class-group|Ideal class group]]
 - [[algebra-fields-galois/dedekind-zeta-function|Dedekind zeta function]]
+- [[algebra-fields-galois/imaginary-quadratic-ring-of-integers|Ring of integers of an imaginary quadratic field]]
 
 ## Connections with ergodic theory
 

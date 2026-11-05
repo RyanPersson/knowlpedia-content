@@ -38,6 +38,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/supremum-approximation-lemma|Supremum approximation lemma]]
 - [[real-analysis/uniqueness-of-sup-inf|Uniqueness of sup and inf]]
 - [[real-analysis/sup-inf-algebra|Sup/inf algebra]]
+- [[real-analysis/triangle-inequality|Triangle inequality]]
 
 ## Sequences and Series
 
@@ -47,6 +48,9 @@ Click any term to expand its definition inline.
 - [[real-analysis/limit-superior|Limit superior]]
 - [[real-analysis/limit-inferior|Limit inferior]]
 - [[real-analysis/limsup-liminf-properties|Limsup/liminf properties]]
+- [[real-analysis/bounded-sequence|Bounded sequence]]
+- [[real-analysis/limit-inferior-lim-inf|Limit inferior (lim inf)]]
+- [[real-analysis/limit-superior-lim-sup|Limit superior (lim sup)]]
 
 ### Sequence Theorems
 - [[real-analysis/monotone-sequence-convergence-theorem|Monotone convergence theorem]]
@@ -64,6 +68,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/rearrangement-of-series|Rearrangement of series]]
 - [[real-analysis/cauchy-product|Cauchy product]]
 - [[real-analysis/power-series|Power series]]
+- [[real-analysis/geometric-series|Geometric series]]
 
 ### Convergence Tests
 - [[real-analysis/terms-go-to-zero|Terms go to zero]]
@@ -94,6 +99,9 @@ Click any term to expand its definition inline.
 - [[real-analysis/limit-at-infinity|Limit at infinity]]
 - [[real-analysis/discontinuity-point|Discontinuity point]]
 - [[real-analysis/set-of-discontinuities|Set of discontinuities]]
+- [[real-analysis/continuity-at-a-point|Continuity at a point]]
+- [[real-analysis/continuity-on-a-set|Continuity on a set]]
+- [[real-analysis/uniform-continuity|Uniform continuity]]
 
 ### Monotone Functions
 - [[real-analysis/monotone-function|Monotone function]]
@@ -110,6 +118,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/local-extremum|Local extremum]]
 - [[real-analysis/global-extrema|Global extrema]]
 - [[real-analysis/taylor-polynomial|Taylor polynomial]]
+- [[real-analysis/differentiability-one-variable|Differentiability at a point (one variable)]]
 
 ### Differentiation Rules
 - [[real-analysis/differentiation-rules|Differentiation rules]]
@@ -184,6 +193,8 @@ Click any term to expand its definition inline.
 - [[real-analysis/riemann-integral|Riemann integral]]
 - [[real-analysis/step-function|Step function]]
 - [[real-analysis/oscillation|Oscillation]]
+- [[real-analysis/antiderivative|Antiderivative]]
+- [[real-analysis/cauchy-principal-value|Cauchy principal value]]
 
 ### Basic Properties
 - [[real-analysis/riemann-integrability-implies-boundedness|Integrability ⟹ bounded]]
@@ -192,6 +203,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/refinement-lemma-upper-lower-sums|Refinement lemma]]
 - [[real-analysis/absolute-value-preserves-integrability||f| integrable]]
 - [[real-analysis/composition-preserves-riemann-integrability|Composition preserves integrability]]
+- [[real-analysis/riemann-additivity-over-subintervals|Additivity of the Riemann integral over subintervals]]
 
 ### Integrability Criteria
 - [[real-analysis/riemann-integral-continuous-exists|Continuous ⟹ integrable]]
@@ -222,6 +234,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/bounded-variation-function|Bounded variation]]
 - [[real-analysis/total-variation|Total variation]]
 - [[real-analysis/jordan-decomposition-lemma|Jordan decomposition]]
+- [[real-analysis/riemann-stieltjes-additivity-over-subintervals|Additivity of the Riemann–Stieltjes integral over subintervals]]
 
 ## Function Sequences and Series
 
@@ -241,6 +254,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/uniform-limit-of-integrable-functions|Uniform limit of integrable]]
 - [[real-analysis/weierstrass-m-test|Weierstrass M-test]]
 - [[real-analysis/m-test-corollary|M-test corollary]]
+- [[real-analysis/uniform-limit-theorem|Uniform limit theorem]]
 
 ### Interchange Theorems
 - [[real-analysis/interchange-limit-integral|Interchange limit and integral]]
@@ -402,6 +416,8 @@ Click any term to expand its definition inline.
 - [[real-analysis/weighted-coefficient-class|Weighted coefficient class]]
 - [[real-analysis/envelope-controlled-amplitude|Envelope-controlled amplitude]]
 - [[real-analysis/weighted-coefficient-algebra|Product bounds for weighted coefficients and amplitudes]]
+- [[real-analysis/japanese-bracket|Japanese bracket]]
+- [[real-analysis/multi-index-notation|Multi-index notation]]
 
 ## Periodicity
 

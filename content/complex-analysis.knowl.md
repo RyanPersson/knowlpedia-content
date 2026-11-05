@@ -144,6 +144,11 @@ Click any term to expand its definition inline.
 
 - [[knowlification/quaternionic-psh-convexity-expansion|Complete quaternionic PSH, convexity, HKT, and octonionic index]]
 
+## Modular forms
+
+- [[complex-analysis/modular-form|Holomorphic modular form]]
+- [[complex-analysis/cusp-form|Cusp form]]
+
 ## References
 
 1. Lars V. Ahlfors, *Complex Analysis*, 3rd ed., McGraw–Hill, 1979.

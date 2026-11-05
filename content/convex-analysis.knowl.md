@@ -257,3 +257,17 @@ Click any term to expand its definition inline.
 ## Energy, continuation and periodization
 
 - [[convex-analysis/subquadratic-absorption|Absorbing a subquadratic power]]
+
+## Convex conjugates and duality
+
+- [[convex-analysis/closed-convex-function|Closed convex function]]
+- [[convex-analysis/legendre-transform|Legendre transform]]
+- [[convex-analysis/legendre-fenchel-transform|Legendre–Fenchel transform]]
+- [[convex-analysis/convex-conjugate-fenchel|Fenchel conjugate]]
+- [[convex-analysis/biconjugate|Biconjugate]]
+- [[convex-analysis/fenchel-young-inequality|Fenchel-Young inequality]]
+- [[convex-analysis/fenchel-moreau-theorem|Fenchel-Moreau theorem]]
+- [[convex-analysis/subgradient|Subgradient]]
+- [[convex-analysis/subdifferential|Subdifferential]]
+- [[convex-analysis/supporting-hyperplane-convex-function|Supporting hyperplane of a convex function]]
+- [[convex-analysis/convex-duality-primal-dual|Convex duality: primal and dual problems]]

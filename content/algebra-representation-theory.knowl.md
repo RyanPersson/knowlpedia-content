@@ -25,17 +25,22 @@ This section covers the representation theory of finite groups over fields, focu
 ### The Group Algebra
 
 - [[algebra-representation-theory/group-algebra|Group algebra]]
+- [[algebra-representation-theory/group-algebra-of-lattice|Group algebra of a lattice]]
 
 ### Special Representations
 
 - [[algebra-representation-theory/regular-representation|Regular representation]]
 - [[algebra-representation-theory/induced-representation|Induced representation]]
 - [[algebra-representation-theory/restricted-representation|Restricted representation]]
+- [[algebra-representation-theory/contragredient-representation|Contragredient representation]]
+- [[algebra-representation-theory/central-character|Central character of a representation]]
 
 ## Characters
 
 - [[algebra-representation-theory/character|Character]]
 - [[algebra-representation-theory/irreducible-character|Irreducible character]]
+- [[algebra-representation-theory/characters-separate-semisimple-classes|Characters separate semisimple conjugacy classes]]
+- [[algebra-representation-theory/representation-ring|Representation ring]]
 
 ## Theorems
 
@@ -59,3 +64,7 @@ This section covers the representation theory of finite groups over fields, focu
 - [[algebra-representation-theory/complete-reducibility-complex|Complete reducibility over ℂ]]
 - [[algebra-representation-theory/schur-corollary|Schur corollary]]
 - [[algebra-representation-theory/character-orthonormality|Orthonormality of irreducible characters]]
+
+## Quaternion arithmetic
+
+- [[algebra-representation-theory/brandt-matrix|Brandt matrix]]

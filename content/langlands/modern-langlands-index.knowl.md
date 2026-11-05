@@ -68,6 +68,7 @@ endoscopy, étale cohomology, and perfectoid geometry.
 - [[langlands/discrete-automorphic-spectrum|Discrete automorphic spectrum]]
 - [[langlands/residual-automorphic-spectrum|Residual automorphic spectrum]]
 - [[langlands/eisenstein-series|Eisenstein series]]
+- [[langlands/automorphic-form-hecke-eigen|Automorphic form and Hecke eigenvalues]]
 
 ### Global parameters and reciprocity
 

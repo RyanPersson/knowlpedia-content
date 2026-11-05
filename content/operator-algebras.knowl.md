@@ -78,6 +78,7 @@ Click any term to expand its definition inline.
 - [[operator-algebras/primitive-ideal-space|Primitive ideal space]]
 - [[operator-algebras/quotient-cstar-algebra|Quotient C*-algebra]]
 - [[operator-algebras/strict-topology|Strict topology on a multiplier algebra]]
+- [[operator-algebras/calkin-algebra|Calkin algebra]]
 
 ### Approximate identities, unitizations, and multipliers
 
@@ -243,6 +244,7 @@ Click any term to expand its definition inline.
 - [[operator-algebras/von-neumann-algebra|Von Neumann algebra]]
 - [[operator-algebras/von-neumann-bicommutant-theorem|Von Neumann bicommutant theorem]]
 - [[operator-algebras/weak-operator-topology|Weak operator topology]]
+- [[operator-algebras/operator-topologies-sot-wot|Strong vs Weak Operator Topology]]
 
 ### Projections and comparison theory
 

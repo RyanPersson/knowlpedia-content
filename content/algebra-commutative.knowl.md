@@ -82,3 +82,20 @@ This section covers commutative algebra: localization of rings and modules, loca
 - [[algebra-commutative/nullstellensatz-corollary|Nullstellensatz corollary (radical ideals ↔ affine algebraic sets)]]
 - [[algebra-commutative/localization-noetherian-corollary|Localization corollary (localizations of Noetherian are Noetherian)]]
 - [[algebra-commutative/nakayama-corollary|Nakayama corollary (M f.g., IM = M, I ⊆ Jac(R) ⇒ M = 0)]]
+
+## Adic topology and completion
+
+- [[algebra-commutative/i-adic-topology|\(I\)-adic topology]]
+- [[algebra-commutative/i-adic-completion|\(I\)-adic completion]]
+
+## Orders and fractional ideals
+
+- [[algebra-commutative/fractional-ideal|Fractional ideal]]
+- [[algebra-commutative/principal-fractional-ideal|Principal fractional ideal]]
+- [[algebra-commutative/invertible-fractional-ideal|Invertible fractional ideal]]
+- [[algebra-commutative/product-fractional-ideals|Product of fractional ideals]]
+- [[algebra-commutative/fractional-ideal-quotient|Quotient of fractional ideals]]
+- [[algebra-commutative/proper-ideal-of-order|Proper fractional ideal of an order]]
+- [[algebra-commutative/conductor-of-order|Conductor of an order]]
+- [[algebra-commutative/multiplier-ring|Multiplier ring of a fractional ideal]]
+- [[algebra-commutative/picard-group|Picard group of a ring]]

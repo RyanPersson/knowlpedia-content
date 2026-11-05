@@ -22,6 +22,9 @@ Click any term to expand its definition inline.
 
 - [[linear-algebra/linear-map|Linear map]]
 - [[linear-algebra/linear-operator|Linear operator]]
+- [[linear-algebra/multilinear-map|Multilinear map]]
+- [[linear-algebra/alternating-multilinear-map|Alternating multilinear map]]
+- [[linear-algebra/exterior-power|Exterior power of a vector space]]
 
 ## Eigentheory
 
@@ -37,6 +40,8 @@ Click any term to expand its definition inline.
 - [[linear-algebra/positive-semidefinite-matrix|Positive semidefinite matrix]]
 - [[linear-algebra/symmetric-positive-definite-matrix|Symmetric positive-definite matrix]]
 - [[linear-algebra/trace|Trace]]
+- [[linear-algebra/matrix|Matrix]]
+- [[linear-algebra/rank|Rank]]
 
 ## Inner Products and Norms
 
@@ -89,6 +94,10 @@ Click any term to expand its definition inline.
 - [[linear-algebra/hermitian-matrix|Hermitian matrix]]
 - [[linear-algebra/minkowski-vector-space|Minkowski vector space]]
 - [[linear-algebra/semilinear-map|Semilinear map]]
+- [[linear-algebra/symplectic-form|Symplectic Form]]
+- [[linear-algebra/integral-binary-quadratic-form|Integral binary quadratic form]]
+- [[linear-algebra/proper-equivalence-binary-quadratic-forms|Proper equivalence of binary quadratic forms]]
+- [[linear-algebra/theta-series-of-lattice|Theta series of a positive definite lattice]]
 
 ## Coordinates and calculus additions
 

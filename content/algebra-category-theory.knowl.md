@@ -46,6 +46,8 @@ This section covers the foundations of category theory, providing a unified lang
 - [[algebra-category-theory/natural-transformation|Natural transformation]]
 - [[algebra-category-theory/natural-isomorphism|Natural isomorphism]]
 - [[algebra-category-theory/equivalence-of-categories|Equivalence of categories]]
+- [[algebra-category-theory/faithful-functor|Faithful functor]]
+- [[algebra-category-theory/fully-faithful-functor|Fully faithful functor]]
 
 ## Limits and Colimits
 
@@ -53,6 +55,7 @@ This section covers the foundations of category theory, providing a unified lang
 
 - [[algebra-category-theory/limit|Limit]]
 - [[algebra-category-theory/colimit|Colimit]]
+- [[algebra-category-theory/terminal-object|Terminal object]]
 
 ### Products and Coproducts
 
@@ -135,3 +138,4 @@ The [[algebra-category-theory/fusion-category|fusion category]] definition bundl
 - [[algebra-category-theory/finite-tensor-category|Finite tensor category]]
 - [[algebra-category-theory/multifusion-category|Multifusion category]]
 - [[algebra-category-theory/fusion-category|Fusion category]]
+- [[algebra-category-theory/tannakian-category|Tannakian category]]

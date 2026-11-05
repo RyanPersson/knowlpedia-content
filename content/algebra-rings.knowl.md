@@ -177,3 +177,42 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/associative-algebra-derivation|Derivation of an associative algebra]]
 
 See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
+
+## Semirings and semifields
+
+- [[algebra-rings/commutative-semiring|Commutative semiring]]
+- [[algebra-rings/semiring-homomorphism|Semiring homomorphism]]
+- [[algebra-rings/ordered-semiring|Ordered semiring]]
+- [[algebra-rings/natural-order-of-idempotent-semiring|Natural order of an idempotent semiring]]
+- [[algebra-rings/parasemifield|Parasemifield]]
+- [[algebra-rings/boolean-semifield|Boolean semifield]]
+- [[algebra-rings/idempotent-semifields-and-lattice-ordered-groups|Idempotent semifields and lattice-ordered groups]]
+
+## Central simple algebras
+
+- [[algebra-rings/central-simple-algebra|Central simple algebra]]
+- [[algebra-rings/maximal-subfield|Maximal subfield of an algebra]]
+- [[algebra-rings/brauer-group|Brauer group of a field]]
+
+## Quaternion algebras and orders
+
+- [[algebra-rings/quaternion-algebra|Quaternion algebra over a field]]
+- [[algebra-rings/hilbert-symbol|Local Hilbert symbol]]
+- [[algebra-rings/split-quaternion-algebra|Split quaternion algebra]]
+- [[algebra-rings/definite-quaternion-algebra|Definite quaternion algebra]]
+- [[algebra-rings/pure-quaternion|Pure quaternion]]
+- [[algebra-rings/quaternion-conjugation|Standard conjugation of a quaternion algebra]]
+- [[algebra-rings/quaternion-reduced-norm|Reduced norm in a quaternion algebra]]
+- [[algebra-rings/quaternion-reduced-trace|Reduced trace in a quaternion algebra]]
+- [[algebra-rings/quaternion-discriminant|Discriminant of a quaternion algebra]]
+- [[algebra-rings/quaternion-ramification|Ramification of a quaternion algebra at a place]]
+- [[algebra-rings/quaternion-local-invariant|Local Brauer invariant of a quaternion algebra]]
+- [[algebra-rings/quaternion-real-place-ramification|Ramification of a quaternion algebra at a real place]]
+- [[algebra-rings/order-in-algebra|Order in an algebra]]
+- [[algebra-rings/maximal-order|Maximal order]]
+- [[algebra-rings/quaternion-order|Order in a quaternion algebra]]
+- [[algebra-rings/quaternion-order-discriminant|Reduced discriminant of a quaternion Z-order]]
+- [[algebra-rings/quaternion-fractional-ideal|Fractional ideal of a quaternion order]]
+- [[algebra-rings/locally-principal-quaternion-ideal|Locally principal ideal of a quaternion order]]
+- [[algebra-rings/quaternion-ideal-class-set|Ideal class set of a quaternion order]]
+- [[algebra-rings/quaternion-type-number|Type number of a quaternion algebra]]

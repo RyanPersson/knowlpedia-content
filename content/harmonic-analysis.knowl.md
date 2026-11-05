@@ -51,6 +51,7 @@ Click any term to expand its definition inline.
 - [[harmonic-analysis/plancherel-theorem-lca|Plancherel theorem for locally compact abelian groups]]
 - [[harmonic-analysis/pontryagin-dual|Pontryagin dual]]
 - [[harmonic-analysis/pontryagin-duality-theorem|Pontryagin duality theorem]]
+- [[harmonic-analysis/wiener-transform|Wiener Transform W]]
 
 ### Fractal uncertainty and Beurling–Malliavin theory
 
@@ -121,6 +122,17 @@ for the associated porosity, several-complex-variables, and quantum-chaos knowls
 
 These provide the representation-theoretic input to the
 [[langlands/modern-langlands-index|modern Langlands foundations]].
+- [[harmonic-analysis/test-function-space-local-group|Test-function space on a local group]]
+- [[harmonic-analysis/distribution-local-group|Distribution on a local group]]
+- [[harmonic-analysis/maximal-compact-hyperspecial|Maximal compact and hyperspecial subgroups]]
+- [[harmonic-analysis/parabolic-modulus-character|Parabolic modulus character]]
+- [[harmonic-analysis/jacquet-module|Jacquet module]]
+- [[harmonic-analysis/bernstein-center|Bernstein center]]
+- [[harmonic-analysis/bernstein-decomposition|Bernstein decomposition]]
+- [[harmonic-analysis/spherical-hecke-algebra-satake|Spherical Hecke algebra and Satake isomorphism]]
+- [[harmonic-analysis/harish-chandra-character-p-adic-group|Harish–Chandra character of a p-adic representation]]
+- [[harmonic-analysis/tempered-representation-p-adic-group|Tempered representation of a p-adic group]]
+- [[harmonic-analysis/langlands-classification-p-adic-group|Langlands classification for p-adic groups]]
 
 ### Direct integrals and nonabelian Plancherel theory
 

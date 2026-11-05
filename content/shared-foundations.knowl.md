@@ -47,6 +47,8 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/bijective-function|Bijective function]]
 - [[shared-foundations/sequence|Sequence]]
 - [[shared-foundations/support-of-a-function|Support of a function]]
+- [[shared-foundations/finite-permutation|Finite permutation]]
+- [[shared-foundations/permutation-sign|Permutation sign]]
 
 ## Relations
 
@@ -63,6 +65,7 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/upper-bound|Upper bound]]
 - [[shared-foundations/lower-bound|Lower bound]]
 - [[shared-foundations/well-ordered-set|Well-ordered set]]
+- [[shared-foundations/lattice|Lattice]]
 
 ## Number Systems
 
@@ -70,6 +73,7 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/integers|Integers]]
 - [[shared-foundations/rational-numbers|Rational numbers]]
 - [[shared-foundations/real-numbers|Real numbers]]
+- [[shared-foundations/square-free-integer|Square-free integer]]
 
 ## Cardinality
 

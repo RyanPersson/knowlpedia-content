@@ -24,6 +24,8 @@ Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local
 - [[fiber-bundles/principal-g-bundle|Principal G-bundle]]
 - [[fiber-bundles/topological-principal-bundle|Topological principal bundle]]
 - [[fiber-bundles/associated-bundle|Associated bundle]]
+- [[fiber-bundles/cech-cocycle-groupoid|Čech cocycle groupoid]]
+- [[fiber-bundles/numerable-principal-bundle|Numerable principal bundle]]
 
 ## Definitions
 
@@ -90,6 +92,10 @@ Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local
 - [[fiber-bundles/vector-bundles-and-locally-free-sheaves|Vector bundles and locally free sheaves]]
 - [[fiber-bundles/zero-section|Zero section]]
 - [[fiber-bundles/nonabelian-cech-h1-principal-bundles|Nonabelian Čech H1 and principal bundles]]
+- [[fiber-bundles/topological-real-vector-bundle|Topological real vector bundle]]
+- [[fiber-bundles/topological-complex-vector-bundle|Topological complex vector bundle]]
+- [[fiber-bundles/unit-tangent-bundle|Unit tangent bundle]]
+- [[fiber-bundles/complete-flag-bundle|Complete flag bundle]]
 
 ## Connections and curvature
 
@@ -101,6 +107,9 @@ Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local
 - [[fiber-bundles/pullback-connection-on-a-vector-bundle|Pullback connection on a vector bundle]]
 - [[fiber-bundles/tensor-product-connection|Tensor product connection]]
 - [[fiber-bundles/vector-bundle-valued-differential-form|Vector-bundle-valued differential form]]
+- [[fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle|Exterior covariant derivative on a vector bundle]]
+- [[fiber-bundles/bianchi-identity|Bianchi identity]]
+- [[fiber-bundles/basic-forms-theorem|Basic forms theorem]]
 
 ## Reductions and geometric structures
 
@@ -129,6 +138,7 @@ Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local
 - [[fiber-bundles/thom-isomorphism-theorem|Thom isomorphism theorem]]
 - [[fiber-bundles/universal-characteristic-class|Universal characteristic class]]
 - [[fiber-bundles/whitney-sum-formula|Whitney sum formula]]
+- [[fiber-bundles/integral-chern-classes|Integral Chern classes]]
 
 ## Serre-Swan duality
 

@@ -15,6 +15,8 @@ dependency_review_count = 1
 
 - [[discrete-structures/graph-vertex-edge|Graph (vertex and edge)]]
 - [[discrete-structures/finite-graph|Finite graph]]
+- [[discrete-structures/cayley-graph|Cayley graph]]
+- [[discrete-structures/ramanujan-graph|Ramanujan graph]]
 
 ## Lattice Structures
 
