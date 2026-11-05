@@ -91,8 +91,6 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/filtered-ring|Filtered ring]]
 - [[algebra-modules/associated-graded-ring|Associated graded ring]]
 
----
-
 ## Theorems
 
 ### Isomorphism Theorems
@@ -109,8 +107,6 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/jordan-canonical-form-theorem|Jordan canonical form theorem]]
 - [[algebra-modules/krull-schmidt-azumaya-theorem|Krull-Schmidt-Azumaya theorem]]
 
----
-
 ## Lemmas
 
 - [[algebra-modules/splitting-lemma|Splitting lemma]]
@@ -121,8 +117,6 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/tensor-hom-adjunction-lemma|Tensor-Hom adjunction lemma]]
 - [[algebra-modules/quotient-module-universal-property|Universal property of quotient modules]]
 - [[algebra-modules/kernels-are-submodules|Kernels are submodules]]
-
----
 
 ## Propositions
 
@@ -139,8 +133,6 @@ This section collects definitions and results on modules over rings: submodules,
 - [[algebra-modules/fg-projective-locally-free|f.g. projective are locally free]]
 - [[algebra-modules/semisimple-direct-summand|Semisimple iff every submodule is direct summand]]
 - [[algebra-modules/artinian-noetherian-finite-length|Artinian + Noetherian implies finite length]]
-
----
 
 ## Corollaries
 

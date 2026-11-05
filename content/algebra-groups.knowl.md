@@ -113,8 +113,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/central-extension|Central extension]]
 - [[algebra-groups/exact-sequence-groups|Exact sequence of groups]]
 
----
-
 ## Theorems
 
 ### Isomorphism Theorems
@@ -149,8 +147,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/burnsides-pq-theorem|Burnside's p^a q^b theorem]]
 - [[algebra-groups/krull-remak-schmidt-theorem-groups|Krull-Remak-Schmidt theorem]]
 
----
-
 ## Lemmas
 
 - [[algebra-groups/subgroup-test-one-step|Subgroup test (one-step)]]
@@ -166,8 +162,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/cosets-partition|Cosets partition a group]]
 - [[algebra-groups/quotient-group-universal-property|Universal property of quotient groups]]
 - [[algebra-groups/kernels-are-normal|Kernels are normal subgroups]]
-
----
 
 ## Propositions
 
@@ -212,8 +206,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 ### Extensions
 - [[algebra-groups/semidirect-product-splitting|Semidirect product from splitting exact sequence]]
 
----
-
 ## Corollaries
 
 - [[algebra-groups/fermats-little-theorem|Fermat's little theorem]]
@@ -223,7 +215,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/sylow-congruence|n_p ≡ 1 mod p]]
 - [[algebra-groups/classification-finite-abelian-groups|Classification of finite abelian groups]]
 - [[algebra-groups/jordan-holder-uniqueness|Jordan-Hölder uniqueness]]
----
 
 ## Uncategorized
 
@@ -231,8 +222,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-groups/loop|Loop]]
 - [[algebra-groups/magma|Magma]]
 - [[algebra-groups/quasigroup|Quasigroup]]
-
----
 
 ## Torsion
 

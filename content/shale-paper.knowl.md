@@ -13,8 +13,6 @@ dependency_review_count = 1
 
 Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fields"*, which characterizes which symplectic transformations are unitarily implementable in bosonic Fock space.
 
----
-
 ## Symplectic Structures
 
 ### Basic Definitions
@@ -30,8 +28,6 @@ Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fiel
 - [[lie-groups/symplectic-group-spk|Symplectic group Sp(K)]]
 - [[lie-groups/restricted-symplectic-group-rspk|Restricted symplectic group rSp(K)]]
 
----
-
 ## Operator Ideals and Groups
 
 ### Schatten Classes
@@ -45,8 +41,6 @@ Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fiel
 - [[shale-paper/glh0-glh1-glh2|Shale's subgroups GL(H)₀, GL(H)₁, GL(H)₂]]
 - [[lie-groups/restricted-general-linear-group-rgl|Restricted general linear group rGL(H)]]
 - [[functional-analysis/polar-decomposition|Polar decomposition]]
-
----
 
 ## Gaussian Measures and L₂ Spaces
 
@@ -62,8 +56,6 @@ Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fiel
 - [[shale-paper/segal-unitary-representation-Ufrak|Segal/Shale representation 𝔘(T)]]
 - [[harmonic-analysis/wiener-transform|Wiener transform W]]
 
----
-
 ## Fock Space Quantization
 
 ### Symmetric Fock Space
@@ -78,8 +70,6 @@ Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fiel
 - [[mathematical-physics/fock-cook-quantization|Fock–Cook quantization]]
 - [[mathematical-physics/duality-transform-D|Duality transform D (Segal)]]
 
----
-
 ## Representations and Continuity
 
 ### Operator Topologies
@@ -91,8 +81,6 @@ Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fiel
 ### Spectral Theory
 
 - [[functional-analysis/spectral-theorem-compact-selfadjoint|Spectral theorem for compact selfadjoint operators]]
-
----
 
 ## C*-Algebras and States
 

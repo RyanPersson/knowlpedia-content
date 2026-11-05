@@ -56,8 +56,6 @@ dependency_review_count = 1
 
 References
 
----
-
 # 1. A Review of Vector Spaces, Metric Spaces, and Normed Vector Spaces
 
 This chapter presents definitions, examples, and basic properties of vector spaces, normed vector spaces, and linear functions between normed vector spaces.
@@ -355,8 +353,6 @@ Now, assume that \(S,T:X\to Y\) are two linear operators and \(\alpha\in K\). We
 
 where \(x\in X\). It can be shown that \(S+T\) and \(\alpha T\) are linear operators from \(X\) to \(Y\). Denote by \(L(X,Y)\) the set of all linear operators from \(X\) to \(Y\). Then with the above-defined operations, \(L(X,Y)\) forms a vector space.
 
----
-
 ## 1.2 Metric Spaces
 
 ### 1.2.1 Definitions, Basic Concepts, and Properties
@@ -611,8 +607,6 @@ A subset \(E\subset X\) is called **complete** if \((E,d)\) is a complete metric
 (ii) If \(X\) is complete and \(E\) is closed, then \(E\) is complete.
 
 **Theorem 1.65.** ([[convex-analysis/completeness-of-rk|Completeness of R^k]]) \(\mathbb{R}^k\) is complete for any positive integer \(k\).
-
----
 
 ## 1.3 Normed Vector Spaces
 
@@ -876,8 +870,6 @@ Thus \(x_n+y_n\to x_0+y_0\).
 \]
 
 Thus \(\alpha_n x_n\to \alpha_0 x_0\). \(\square\)
-
----
 
 ## 2 Convex Sets and Convex Functions
 
@@ -1885,8 +1877,6 @@ and therefore \(\lambda y_1+(1-\lambda)y_2\in F(\lambda x_1+(1-\lambda)x_2)\). T
 \]
 
 Letting now \(\varepsilon\downarrow 0\) ensures the convexity of the optimal value function \(\mu\). \(\square\)
-
----
 
 ## 3 Convex Separation
 

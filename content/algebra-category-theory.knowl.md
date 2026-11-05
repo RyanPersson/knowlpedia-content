@@ -100,8 +100,6 @@ This section covers the foundations of category theory, providing a unified lang
 
 - [[algebra-category-theory/yoneda-lemma|Yoneda lemma]]
 
----
-
 ## Triangles and shifts
 
 - [[algebra-category-theory/preadditive-category|Preadditive category]]

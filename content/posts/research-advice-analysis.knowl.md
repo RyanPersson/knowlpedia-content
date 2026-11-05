@@ -15,8 +15,6 @@ dependency_review_count = 1
 
 This analysis synthesizes advice from 22 source documents by Fields Medalists, Nobel laureates, Abel Prize winners, and other highly successful researchers in mathematics and physics.
 
----
-
 ## Corpus Overview
 
 | Author | Field | Awards | Year |
@@ -40,8 +38,6 @@ This analysis synthesizes advice from 22 source documents by Fields Medalists, N
 | Peter Medawar | Biology | Nobel Prize | 1979 |
 | Jean-Pierre Serre | Mathematics | Fields Medal, Abel Prize | various |
 
----
-
 ## Theme Frequency Analysis
 
 Based on tags assigned to each document:
@@ -60,8 +56,6 @@ Based on tags assigned to each document:
 | **communication** | 7 | Hamming, Thurston, Feynman, Medawar, Atiyah |
 | **mentorship** | 6 | Atiyah, Manin, Thurston, Wiles, Medawar, Serre |
 | **interdisciplinary** | 5 | Tao, Manin, Hopfield, Gromov |
-
----
 
 ## Core Patterns: Advice That Appears Across Multiple Sources
 
@@ -146,8 +140,6 @@ Multiple sources explicitly disavow long-term planning:
 
 **Counterpoint:** Wiles worked on Fermat for 7 years with a specific goal. The difference may be passion-driven focus vs. imposed programmatic structure.
 
----
-
 ## Surprising or Counter-Intuitive Advice
 
 ### 1. Too Much Success Can Be Harmful
@@ -182,8 +174,6 @@ Multiple sources explicitly disavow long-term planning:
 
 **Tao:** Avoid "premature obsession with 'big problems'"—master fundamentals first.
 
----
-
 ## Typological Frameworks
 
 ### Birds vs. Frogs (Dyson)
@@ -201,8 +191,6 @@ Similar to Dyson's framework:
 - Problem-solvers: "The point of understanding mathematics is to become better able to solve problems."
 
 The hierarchy that privileges theory-building over problem-solving is a cultural bias, not objective truth.
-
----
 
 ## Tensions and Contradictions
 
@@ -227,8 +215,6 @@ The hierarchy that privileges theory-building over problem-solving is a cultural
 - **Serre/Atiyah:** No grand programs; follow immediate interests.
 
 **Resolution:** Passion-driven long-term focus differs from externally-imposed programmatic planning. Both modes can work, depending on the person and problem.
-
----
 
 ## Practical Synthesis: Actionable Recommendations
 
@@ -257,8 +243,6 @@ Based on frequency and consistency across sources:
 13. **Forgetting is healthy**—don't try to retain everything
 14. **Be humble about giving advice**—what works for you may not generalize
 
----
-
 ## Meta-Observations
 
 ### 1. Consistent Themes Across 100+ Years
@@ -284,10 +268,7 @@ Multiple sources (Serre, Atiyah, Manin) express reluctance to prescribe their me
 
 This suggests the advice should be taken as data points, not rules.
 
----
-
 ## Literature
-
 
 | # | Source | Author |
 |---|--------|--------|

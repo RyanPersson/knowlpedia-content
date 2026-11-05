@@ -99,8 +99,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/fraction-field|Fraction field]]
 - [[algebra-rings/total-ring-of-fractions|Total ring of fractions]]
 
----
-
 ## Theorems
 
 ### Isomorphism Theorems
@@ -128,8 +126,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/pid-implies-ufd|PID ⇒ UFD]]
 - [[algebra-rings/ufd-polynomial-ring|Gauss's theorem (UFD ⇒ polynomial ring is UFD)]]
 
----
-
 ## Lemmas
 
 - [[algebra-rings/gauss-content-lemma|Gauss lemma (content multiplicativity)]]
@@ -139,8 +135,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/prime-iff-quotient-domain|Prime ideal iff quotient is integral domain]]
 - [[algebra-rings/quotient-ring-universal-property|Universal property of quotient rings]]
 - [[algebra-rings/kernels-are-ideals|Kernels are two-sided ideals]]
-
----
 
 ## Propositions
 
@@ -158,8 +152,6 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 - [[algebra-rings/nilradical-intersection-primes|Nilradical = intersection of prime ideals]]
 - [[algebra-rings/idempotent-product-decomposition|Idempotents ↔ product decompositions]]
 - [[algebra-rings/chinese-remainder-decomposition|Chinese remainder decomposition]]
-
----
 
 ## Corollaries
 

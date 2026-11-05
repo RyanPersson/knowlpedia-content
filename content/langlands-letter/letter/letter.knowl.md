@@ -318,8 +318,6 @@ Let \(G=\mathrm{GL}(2)\) and let \(G\) act trivially on \({}^cG\). Define \(\ome
 
 \(G_{\mathbb{A}}^{\delta^0}\) is just the idele group of \(K\). Take \(\phi^0\) to be a [[algebra-fields-galois/ideles-artin-reciprocity-hecke-character|Grossencharakter]]. It is not inconceivable that the work of Hecke and Maass on the relation between L-series with Grossencharakter from a quadratic field and automorphic forms will provide an affirmative answer to the second question in this case.
 
----
-
 [^1]: This is probably true and the materials for a proof are probably available in the literature. However it is not so obvious as I thought when writing the letter.
 
 [^2]: It should also be checked that the series converges for \(\mathrm{Re}(s)\) sufficiently large. There is a method of doing this; but I have yet to verify that it works for all groups.

@@ -70,7 +70,6 @@ Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local
 - [[fiber-bundles/tangent-space-at-a-point|Tangent Space At A Point]]
 - [[fiber-bundles/vector-field|Vector Field]]
 - [[fiber-bundles/wedge-product-of-differential-forms|Wedge Product Of Differential Forms]]
----
 ## Vector bundles, sections, and bundle operations
 
 - [[fiber-bundles/compactly-supported-section|Compactly supported section]]
@@ -185,8 +184,6 @@ Start with a [[fiber-bundles/bundle|bundle]] and its projection to a base. Local
 - [[fiber-bundles/representation-variety|Representation variety]]
 - [[fiber-bundles/tangent-space-to-flat-connection-moduli|Tangent space to flat-connection moduli]]
 - [[fiber-bundles/local-system|Local system]]
-
----
 
 ## Uncategorized
 

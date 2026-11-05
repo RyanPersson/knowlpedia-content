@@ -31,8 +31,6 @@ the current program.
 - [[langlands/fargues-scholze-parameter-map|Local geometrization]]
 - [[langlands/geometric-langlands-index|Geometric Langlands]]
 
----
-
 ## Definitions
 
 Click any term to expand its definition inline.

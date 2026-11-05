@@ -13,8 +13,6 @@ dependency_review_count = 1
 
 Click any term to expand its definition inline.
 
----
-
 ## Metric Spaces
 
 ### Definitions
@@ -53,8 +51,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/completeness-of-rk|Completeness of R^k]]
 - [[real-analysis/reverse-triangle-inequality|Reverse triangle inequality]]
 
----
-
 ## Normed Vector Spaces
 
 ### Definitions
@@ -72,8 +68,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/algebra-of-limits-in-normed-spaces|Algebra of limits]]
 - [[convex-analysis/existence-of-a-functional-attaining-its-norm-at-a-point|Existence of a norming functional]]
 - [[convex-analysis/continuity-of-linear-functionals-via-closed-level-sets|Continuity via closed level sets]]
-
----
 
 ## Vector Spaces and Linear Algebra
 
@@ -105,8 +99,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions|Codimension-one subspaces]]
 - [[convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one|Kernel has codimension one]]
 
----
-
 ## Convex Sets
 
 ### Definitions
@@ -131,8 +123,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/closure-of-intersections-under-interior-point-condition|Closure of intersections]]
 - [[convex-analysis/basic-operations-preserving-convexity|Operations preserving convexity]]
 
----
-
 ## Affine Sets
 
 ### Definitions
@@ -149,8 +139,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/characterization-of-affine-mappings|Characterization of affine mappings]]
 - [[convex-analysis/affine-images-and-preimages-of-convex-sets-are-convex|Affine images preserve convexity]]
 
----
-
 ## Algebraic Interior (Core)
 
 ### Definitions
@@ -165,8 +153,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/idempotence-of-the-core-operator|Idempotence of core]]
 - [[convex-analysis/linear-closure-of-a-convex-set-is-convex|Linear closure is convex]]
 - [[convex-analysis/linear-closure-equals-closure-for-solid-convex-sets|Linear closure equals topological closure]]
-
----
 
 ## Convex Functions
 
@@ -193,8 +179,6 @@ Click any term to expand its definition inline.
 - [[convex-analysis/supremum-of-convex-functions-is-convex|Supremum is convex]]
 - [[convex-analysis/convexity-of-the-marginal-optimal-value-function|Marginal function is convex]]
 
----
-
 ## Minkowski Gauge and Sublinear Functions
 
 ### Definitions
@@ -204,8 +188,6 @@ Click any term to expand its definition inline.
 ### Properties
 - [[convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set|Properties of the Minkowski gauge]]
 - [[convex-analysis/continuity-and-level-sets-of-the-minkowski-functional|Continuity and level sets]]
-
----
 
 ## Hyperplanes and Separation
 
@@ -227,16 +209,12 @@ Click any term to expand its definition inline.
 - [[convex-analysis/strict-separation-by-a-closed-hyperplane|Strict separation (closed hyperplane)]]
 - [[convex-analysis/strict-separation-of-compact-and-closed-convex-sets|Strict separation (compact and closed)]]
 
----
-
 ## Hahn-Banach Theorems
 
 - [[convex-analysis/hahn-banach-theorem-in-real-vector-spaces|Hahn-Banach (real vector spaces)]]
 - [[convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case|Hahn-Banach (seminorm domination)]]
 - [[convex-analysis/hahn-banach-theorem-in-complex-vector-spaces|Hahn-Banach (complex vector spaces)]]
 - [[convex-analysis/hahn-banach-theorem-in-normed-spaces|Hahn-Banach (normed spaces)]]
-
----
 
 ## Inequalities
 
@@ -245,20 +223,15 @@ Click any term to expand its definition inline.
 - [[convex-analysis/youngs-inequality|Young's inequality]]
 - [[convex-analysis/holder-inequality-finite-sums|Hölder inequality (finite sums)]]
 - [[convex-analysis/holder-inequality-integrals|Hölder inequality (integrals)]]
----
 
 ## Uncategorized
 
 - [[convex-analysis/convex-lecture-notes|Modern Analysis: Lecture Notes and Further Reading Materials]]
 
----
-
 ## Real algebraic and piecewise-polynomial geometry
 
 - [[convex-analysis/semialgebraic-set|Semialgebraic set]]
 - [[convex-analysis/piecewise-polynomial-function|Piecewise-polynomial function]]
-
----
 
 ## Convex bodies, mixed volumes, and valuations
 

@@ -13,8 +13,6 @@ dependency_review_count = 1
 
 Click any term to expand its definition inline.
 
----
-
 ## Order and Completeness
 
 ### Definitions
@@ -40,8 +38,6 @@ Click any term to expand its definition inline.
 - [[real-analysis/supremum-approximation-lemma|Supremum approximation lemma]]
 - [[real-analysis/uniqueness-of-sup-inf|Uniqueness of sup and inf]]
 - [[real-analysis/sup-inf-algebra|Sup/inf algebra]]
-
----
 
 ## Sequences and Series
 
@@ -90,8 +86,6 @@ Click any term to expand its definition inline.
 - [[real-analysis/cauchy-hadamard-theorem|Cauchy–Hadamard theorem]]
 - [[real-analysis/abels-theorem|Abel's theorem]]
 
----
-
 ## Limits and Continuity
 
 ### Limits
@@ -104,8 +98,6 @@ Click any term to expand its definition inline.
 ### Monotone Functions
 - [[real-analysis/monotone-function|Monotone function]]
 - [[real-analysis/monotone-sequence-of-functions|Monotone sequence of functions]]
-
----
 
 ## Differentiation
 
@@ -144,8 +136,6 @@ Click any term to expand its definition inline.
 - [[real-analysis/second-derivative-tests|Second derivative tests]]
 - [[real-analysis/intermediate-value-theorem|Intermediate value theorem]]
 
----
-
 ## Multivariable Differentiation
 
 ### Definitions
@@ -179,8 +169,6 @@ Click any term to expand its definition inline.
 ### Theorems
 - [[real-analysis/sufficient-condition-for-differentiability|C¹ ⟹ differentiable]]
 - [[real-analysis/schwarz-clairaut-theorem|Schwarz–Clairaut theorem]]
-
----
 
 ## Riemann Integration
 
@@ -224,8 +212,6 @@ Click any term to expand its definition inline.
 - [[real-analysis/fubini-theorem-riemann|Fubini theorem (Riemann)]]
 - [[real-analysis/change-of-variables-formula|Change of variables formula]]
 
----
-
 ## Riemann–Stieltjes Integration
 
 - [[real-analysis/integrator-function|Integrator function]]
@@ -236,8 +222,6 @@ Click any term to expand its definition inline.
 - [[real-analysis/bounded-variation-function|Bounded variation]]
 - [[real-analysis/total-variation|Total variation]]
 - [[real-analysis/jordan-decomposition-lemma|Jordan decomposition]]
-
----
 
 ## Function Sequences and Series
 
@@ -278,8 +262,6 @@ Click any term to expand its definition inline.
 - [[real-analysis/subalgebra-of-continuous-functions|Subalgebra of C(X)]]
 - [[real-analysis/polynomial|Polynomial]]
 
----
-
 ## Function Spaces
 
 - [[real-analysis/space-of-continuous-functions|Space of continuous functions]]
@@ -293,12 +275,9 @@ Click any term to expand its definition inline.
 - [[real-analysis/equicontinuity-boundedness-criterion|Equicontinuity boundedness criterion]]
 - [[real-analysis/equicontinuity-dense-set-lemma|Equicontinuity dense set lemma]]
 
----
-
 ## Cauchy Criterion
 
 - [[real-analysis/cauchy-criterion-in-rk|Cauchy criterion in ℝᵏ]]
----
 
 ## Uncategorized
 

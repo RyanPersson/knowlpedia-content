@@ -72,8 +72,6 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/primitive-root-of-unity|Primitive root of unity]]
 - [[algebra-fields-galois/cyclotomic-extension|Cyclotomic extension]]
 
----
-
 ## Theorems
 
 - [[algebra-fields-galois/tower-law|Tower law (degree formula)]]
@@ -87,16 +85,12 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/finite-field-multiplicative-group-cyclic|Cyclicity of multiplicative group of finite field]]
 - [[algebra-fields-galois/finite-field-galois-group-cyclic|Galois group of finite field is cyclic (Frobenius)]]
 
----
-
 ## Lemmas
 
 - [[algebra-fields-galois/dedekind-independence-lemma|Dedekind's independence lemma]]
 - [[algebra-fields-galois/separable-distinct-roots|Separable polynomial has distinct roots]]
 - [[algebra-fields-galois/separability-towers|Separability preserved under towers]]
 - [[algebra-fields-galois/normality-splitting-field|Normality = being a splitting field]]
-
----
 
 ## Propositions
 
@@ -105,8 +99,6 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/separable-normal-galois|Separable + normal ⇔ Galois]]
 - [[algebra-fields-galois/trace-norm-towers|Trace/norm in towers]]
 - [[algebra-fields-galois/splitting-field-degree-bounds|Splitting field degree bounds]]
-
----
 
 ## Corollaries
 

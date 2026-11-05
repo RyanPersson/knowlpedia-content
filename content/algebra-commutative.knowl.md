@@ -48,8 +48,6 @@ This section covers commutative algebra: localization of rings and modules, loca
 - [[algebra-commutative/dedekind-domain|Dedekind domain]]
 - [[algebra-commutative/dvr|Discrete valuation ring (DVR)]]
 
----
-
 ## Theorems
 
 - [[algebra-commutative/localization-prime-correspondence|Correspondence of primes under localization]]
@@ -60,8 +58,6 @@ This section covers commutative algebra: localization of rings and modules, loca
 - [[algebra-commutative/going-down-theorem|Going-down theorem]]
 - [[algebra-commutative/nullstellensatz-variety-correspondence|Nullstellensatz (ideal–variety correspondence)]]
 
----
-
 ## Lemmas
 
 - [[algebra-commutative/localization-inverts-multiplicative-set|Localization inverts precisely the multiplicative set]]
@@ -69,8 +65,6 @@ This section covers commutative algebra: localization of rings and modules, loca
 - [[algebra-commutative/prime-avoidance-lemma|Prime avoidance lemma]]
 - [[algebra-commutative/noether-normalization-lemma|Noether normalization lemma]]
 - [[algebra-commutative/jacobson-radical-intersection-maximals|Jacobson radical = intersection of maximal ideals]]
-
----
 
 ## Propositions
 
@@ -80,8 +74,6 @@ This section covers commutative algebra: localization of rings and modules, loca
 - [[algebra-commutative/jacobson-annihilates-simples|Jacobson radical annihilates simple modules]]
 - [[algebra-commutative/simple-artinian-matrix-ring|Simple Artinian = matrix ring over division ring]]
 - [[algebra-commutative/semisimple-artinian-product|Semisimple Artinian = product of matrix rings]]
-
----
 
 ## Corollaries
 

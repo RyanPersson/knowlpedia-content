@@ -13,21 +13,15 @@ dependency_review_count = 1
 
 Click any term to expand its definition inline.
 
----
-
 ## Vector Spaces
 
 - [[linear-algebra/vector-space|Vector space]]
 - [[linear-algebra/euclidean-space|Euclidean space]]
 
----
-
 ## Linear Maps
 
 - [[linear-algebra/linear-map|Linear map]]
 - [[linear-algebra/linear-operator|Linear operator]]
-
----
 
 ## Eigentheory
 
@@ -37,16 +31,12 @@ Click any term to expand its definition inline.
 - [[linear-algebra/characteristic-polynomial|Characteristic polynomial]]
 - [[linear-algebra/minimal-polynomial|Minimal polynomial]]
 
----
-
 ## Matrix Invariants
 
 - [[linear-algebra/determinant|Determinant]]
 - [[linear-algebra/positive-semidefinite-matrix|Positive semidefinite matrix]]
 - [[linear-algebra/symmetric-positive-definite-matrix|Symmetric positive-definite matrix]]
 - [[linear-algebra/trace|Trace]]
-
----
 
 ## Inner Products and Norms
 
@@ -59,15 +49,11 @@ Click any term to expand its definition inline.
 - [[linear-algebra/euclidean-norm|Euclidean norm]]
 - [[linear-algebra/operator-norm|Operator norm]]
 
----
-
 ## Function Spaces
 
 - [[linear-algebra/banach-space|Banach space]]
 - [[linear-algebra/hilbert-space|Hilbert space]]
 - [[linear-algebra/compact-operator|Compact operator]]
-
----
 
 ## Theorems
 
@@ -75,8 +61,6 @@ Click any term to expand its definition inline.
 - [[linear-algebra/rank-nullity-theorem|Rank-nullity theorem]]
 - [[linear-algebra/cayley-hamilton-theorem|Cayley–Hamilton theorem]]
 - [[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz inequality]]
-
----
 
 ## Conjecture dependencies
 

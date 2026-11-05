@@ -13,8 +13,6 @@ dependency_review_count = 1
 
 Click any term to expand its definition inline.
 
----
-
 ## Topological Spaces
 
 ### Basic Definitions
@@ -36,8 +34,6 @@ Click any term to expand its definition inline.
 - [[topology/subspace-topology|Subspace topology]]
 - [[topology/product-topology|Product topology]]
 - [[topology/quotient-topology|Quotient topology]]
-
----
 
 ## Metric Spaces
 
@@ -65,8 +61,6 @@ Click any term to expand its definition inline.
 - [[topology/epsilon-net|ε-net]]
 - [[topology/totally-bounded-cauchy-subsequence|Totally bounded ⟹ Cauchy subsequence]]
 
----
-
 ## Continuity
 
 - [[topology/continuous-map|Continuous map]]
@@ -75,8 +69,6 @@ Click any term to expand its definition inline.
 - [[topology/lipschitz-continuity|Lipschitz continuity]]
 - [[topology/holder-continuity|Hölder continuity]]
 - [[topology/isometry|Isometry]]
-
----
 
 ## Compactness
 
@@ -110,8 +102,6 @@ Click any term to expand its definition inline.
 - [[topology/compact-to-hausdorff-homeomorphism-criterion|Bijection from compact to Hausdorff]]
 - [[topology/compactness-of-graphs-lemma|Compactness of graphs lemma]]
 
----
-
 ## Connectedness
 
 ### Definitions
@@ -128,8 +118,6 @@ Click any term to expand its definition inline.
 - [[topology/connectedness-criteria-r|Connectedness criteria in ℝ]]
 - [[topology/image-compact-connected-is-interval|Image of compact connected is interval]]
 
----
-
 ## Separation Axioms
 
 - [[topology/t0-space|T₀ space]]
@@ -138,8 +126,6 @@ Click any term to expand its definition inline.
 - [[topology/uniqueness-of-limits-hausdorff|Uniqueness of limits in Hausdorff]]
 - [[topology/sequential-characterization-closed|Sequential characterization of closed]]
 - [[topology/sequential-characterization-closure|Sequential characterization of closure]]
-
----
 
 ## Baire Category
 
@@ -154,7 +140,6 @@ Click any term to expand its definition inline.
 - [[topology/complete-metric-space-is-baire|Complete metric space is Baire]]
 - [[topology/intersection-of-dense-open-is-dense|Intersection of dense open is dense]]
 - [[topology/category-argument-template|Category argument template]]
----
 
 ## Uncategorized
 
@@ -168,8 +153,6 @@ Click any term to expand its definition inline.
 - [[topology/heine-cantor-theorem|Continuous function on a compact set is uniformly continuous]]
 - [[topology/nested-interval-theorem|Nested interval theorem]]
 - [[topology/open-sets-form-a-topology|Open sets form a topology]]
-
----
 
 ## Manifolds, groups, and homotopy
 

@@ -13,8 +13,6 @@ dependency_review_count = 1
 
 This section contains foundational definitions from set theory and mathematical logic used throughout analysis and algebra.
 
----
-
 ## Sets and Set Operations
 
 - [[shared-foundations/set|Set]]
@@ -31,8 +29,6 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/ordered-pair|Ordered pair]]
 - [[shared-foundations/indexed-family-of-sets|Indexed family of sets]]
 - [[shared-foundations/partition|Partition]]
-
----
 
 ## Functions
 
@@ -52,8 +48,6 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/sequence|Sequence]]
 - [[shared-foundations/support-of-a-function|Support of a function]]
 
----
-
 ## Relations
 
 - [[shared-foundations/relation|Relation]]
@@ -61,8 +55,6 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/equivalence-class|Equivalence class]]
 - [[shared-foundations/quotient-set|Quotient set]]
 - [[shared-foundations/pointed-set|Pointed set]]
-
----
 
 ## Order
 
@@ -72,8 +64,6 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/lower-bound|Lower bound]]
 - [[shared-foundations/well-ordered-set|Well-ordered set]]
 
----
-
 ## Number Systems
 
 - [[shared-foundations/natural-numbers|Natural numbers]]
@@ -81,20 +71,14 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/rational-numbers|Rational numbers]]
 - [[shared-foundations/real-numbers|Real numbers]]
 
----
-
 ## Cardinality
 
 - [[shared-foundations/cardinality|Cardinality]]
 - [[shared-foundations/countable-set|Countable set]]
 
----
-
 ## Operations
 
 - [[shared-foundations/binary-operation|Binary operation]]
-
----
 
 ## Axioms and Principles
 
@@ -104,7 +88,6 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/well-ordering-principle|Well-ordering principle]]
 - [[shared-foundations/well-ordering-theorem|Well-ordering theorem]]
 - [[shared-foundations/zorns-lemma|Zorn's lemma]]
----
 
 ## Uncategorized
 
@@ -115,8 +98,6 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/contraction-mapping|Contraction mapping]]
 - [[algebra-category-theory/morphism|Morphism]]
 - [[shared-foundations/total-order-linear-order|Total order (linear order)]]
-
----
 
 ## Arithmetic constructions
 

@@ -14,8 +14,6 @@ Complex analysis studies functions governed by complex differentiability. Its on
 
 Click any term to expand its definition inline.
 
----
-
 ## Complex differentiability
 
 ### Basic objects and criteria
@@ -43,16 +41,12 @@ Click any term to expand its definition inline.
 - [[complex-analysis/analytic-continuation|Analytic continuation]]
 - [[complex-analysis/monodromy-theorem|Monodromy theorem]]
 
----
-
 ## Contours and integral formulas
 
 - [[complex-analysis/complex-contour-integral|Complex contour integral]]
 - [[complex-analysis/winding-number|Winding number]]
 - [[complex-analysis/cauchy-integral-theorem|Cauchy integral theorem]]
 - [[complex-analysis/cauchy-integral-formula|Cauchy integral formula]]
-
----
 
 ## Laurent theory and meromorphic functions
 
@@ -69,8 +63,6 @@ Click any term to expand its definition inline.
 - [[complex-analysis/argument-principle|Argument principle]]
 - [[complex-analysis/rouche-theorem|Rouché's theorem]]
 
----
-
 ## Conformal mapping
 
 - [[differential-geometry/conformal-map|Conformal map]]
@@ -78,8 +70,6 @@ Click any term to expand its definition inline.
 - [[differential-geometry/riemann-surface|Riemann surface]]
 - [[differential-geometry/complex-manifold|Complex manifold]]
 - [[differential-geometry/category-of-complex-manifolds|Category of complex manifolds]]
-
----
 
 ## Riemann sphere and Möbius geometry
 
@@ -102,8 +92,6 @@ Click any term to expand its definition inline.
 - [[complex-analysis/complex-projective-structure|Complex projective structure]]
 - [[complex-analysis/projective-connection|Holomorphic projective connection]]
 - [[complex-analysis/projective-connections-form-an-affine-space|Projective connections form an affine space]]
-
----
 
 ## Adjacent geometric structures
 

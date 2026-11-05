@@ -152,7 +152,6 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/example-upper-triangular|Upper triangular (solvable)]]
 - [[lie-groups/example-strictly-upper-triangular|Strictly upper triangular (nilpotent)]]
 - [[lie-groups/example-sphere-homogeneous|S² as homogeneous space]]
----
 
 ## Uncategorized
 

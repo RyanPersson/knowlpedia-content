@@ -84,8 +84,6 @@ This section covers the foundations of homological algebra, providing tools for 
 - [[algebra-homological/five-lemma-corollary|Five lemma corollary]]
 - [[algebra-homological/ext1-classifies-extensions|Ext¹ classifies extensions]]
 
----
-
 ## Triangulated constructions
 
 - [[algebra-homological/mapping-cone|Mapping cone]]
