@@ -2,6 +2,79 @@
   "baseline_content_ref": "ea7256bd",
   "batches": [
     {
+      "id": "maximal-order-ideal-arithmetic-2026-11-06",
+      "entries": [
+        {
+          "id": "algebra-rings/maximal-order",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "9b6d5516a748179c78eb7c27c3c3c9a4794a6abdc42e765c2b8b65d6f11f8ff7",
+          "evidence": "Reviewed added ideal-arithmetic comparison: explicit matrix-unit calculation and typed inverse identities; direct two-sided inverse proof of tensor multiplication; localization proof; distinction between right-module classes and bimodule classes. Structural checks: reviews/ideal-arithmetic/check.py; results: reviews/ideal-arithmetic/validation.json. Existing sections are not claimed as fully reviewed.",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_18",
+              "locator": "Theorem 18.1.2 and section 18.1 (two-sided factorization and bimodule classes)"
+            },
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_16",
+              "locator": "Sections 16.2–16.3 (compatible lattices and invertibility)"
+            }
+          ]
+        },
+        {
+          "id": "algebra-rings/quaternion-fractional-ideal",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "c06f3da6c8cfa2956bd6b089a7ce7e4f0508e8708bb926222d5e26667818141d",
+          "evidence": "Reviewed added ideal-arithmetic comparison: explicit matrix-unit calculation and typed inverse identities; direct two-sided inverse proof of tensor multiplication; localization proof; distinction between right-module classes and bimodule classes. Structural checks: reviews/ideal-arithmetic/check.py; results: reviews/ideal-arithmetic/validation.json. Existing sections are not claimed as fully reviewed.",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_18",
+              "locator": "Theorem 18.1.2 and section 18.1 (two-sided factorization and bimodule classes)"
+            },
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_16",
+              "locator": "Sections 16.2–16.3 (compatible lattices and invertibility)"
+            }
+          ]
+        },
+        {
+          "id": "algebra-rings/quaternion-ideal-class-set",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "35db49f61e1d867e418caeb47a86620218522ff9f92404c6421a63981f56c091",
+          "evidence": "Reviewed added ideal-arithmetic comparison: explicit matrix-unit calculation and typed inverse identities; direct two-sided inverse proof of tensor multiplication; localization proof; distinction between right-module classes and bimodule classes. Structural checks: reviews/ideal-arithmetic/check.py; results: reviews/ideal-arithmetic/validation.json. Existing sections are not claimed as fully reviewed.",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_18",
+              "locator": "Theorem 18.1.2 and section 18.1 (two-sided factorization and bimodule classes)"
+            },
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_16",
+              "locator": "Sections 16.2–16.3 (compatible lattices and invertibility)"
+            }
+          ]
+        },
+        {
+          "id": "algebra-rings/ideal-tensor-multiplication-isomorphism",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "50b9a126300a4a9e9746d2c43e5c34479ef4ddbe3d9bb8cb6bad0b230ef44ea2",
+          "evidence": "Reviewed added ideal-arithmetic comparison: explicit matrix-unit calculation and typed inverse identities; direct two-sided inverse proof of tensor multiplication; localization proof; distinction between right-module classes and bimodule classes. Structural checks: reviews/ideal-arithmetic/check.py; results: reviews/ideal-arithmetic/validation.json. Existing sections are not claimed as fully reviewed.",
+          "sources": [
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_18",
+              "locator": "Theorem 18.1.2 and section 18.1 (two-sided factorization and bimodule classes)"
+            },
+            {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_16",
+              "locator": "Sections 16.2–16.3 (compatible lattices and invertibility)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dirac-representation-worked-example-2026-11-04",
       "entries": [
         {

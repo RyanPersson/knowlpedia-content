@@ -1,0 +1,21 @@
+{
+  "base_commit": "978d7d43085f85813f8529e39aeef261c6780988",
+  "checks": [
+    "All 4965 content knowls: valid TOML and unique IDs",
+    "All four proposed knowls: valid knowl links and balanced math delimiters; existing front matter unchanged",
+    "All 4965 content prerequisite lists: existing targets and acyclic graph",
+    "Exact rational matrix checks: two displayed matrix-unit identities and both inverse-product lattice bases",
+    "git diff --check"
+  ],
+  "source_sha256": {
+    "content/algebra-rings/maximal-order.knowl.md": "9b6d5516a748179c78eb7c27c3c3c9a4794a6abdc42e765c2b8b65d6f11f8ff7",
+    "content/algebra-rings/quaternion-fractional-ideal.knowl.md": "c06f3da6c8cfa2956bd6b089a7ce7e4f0508e8708bb926222d5e26667818141d",
+    "content/algebra-rings/quaternion-ideal-class-set.knowl.md": "35db49f61e1d867e418caeb47a86620218522ff9f92404c6421a63981f56c091",
+    "content/algebra-rings/ideal-tensor-multiplication-isomorphism.knowl.md": "50b9a126300a4a9e9746d2c43e5c34479ef4ddbe3d9bb8cb6bad0b230ef44ea2"
+  },
+  "limitations": [
+    "No general content compiler or site renderer is present in this checkout; rendered-page validation unavailable.",
+    "scripts/review_progress.py is absent; progress regeneration unavailable.",
+    "Mathematical review is targeted to the additions; automated checks do not prove the factorization theorem."
+  ]
+}
