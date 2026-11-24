@@ -9,7 +9,7 @@ section_mode = "progressive"
 prerequisites = ["algebra-fields-galois/ring-of-integers", "algebra-fields-galois/finite-field"]
 +++
 
-A rational prime \(p\) is **inert** in a quadratic number field \(K\) when \(p\mathcal O_K\) is still a prime ideal in its [[algebra-fields-galois/ring-of-integers|ring of integers]]. There is one prime above \(p\), its ramification index is one and its residue field is the [[algebra-fields-galois/finite-field|finite field]] with \(p^2\) elements.
+A [[analytic-number-theory/prime-number|rational prime]] \(p\) is **inert** in a quadratic number field \(K\) when \(p\mathcal O_K\) is still a prime ideal in its [[algebra-fields-galois/ring-of-integers|ring of integers]]. There is one prime above \(p\), its ramification index is one and its [[algebra-commutative/residue-field|residue field]] is the [[algebra-fields-galois/finite-field|finite field]] with \(p^2\) elements.
 
 ## In the Gaussian integers
 

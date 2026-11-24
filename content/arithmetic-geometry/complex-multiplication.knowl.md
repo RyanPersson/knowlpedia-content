@@ -13,7 +13,7 @@ An [[algebraic-geometry-foundations/elliptic-curve|elliptic curve]] \(E\) in cha
 
 ## An extra symmetry
 
-For \(E=\mathbb C/(\mathbb Z+i\mathbb Z)\), multiplication by \(i\) preserves the lattice. It descends to an endomorphism of \(E\), and \(\operatorname{End}(E)=\mathbb Z[i]\). The generalization to an abelian variety of dimension \(g\) uses a commutative semisimple subalgebra of rational endomorphisms of dimension \(2g\).
+For \(E=\mathbb C/(\mathbb Z+i\mathbb Z)\), multiplication by \(i\) preserves the lattice. It descends to an endomorphism of \(E\), and \(\operatorname{End}(E)=\mathbb Z[i]\). The generalization to an [[arithmetic-geometry/abelian-variety|abelian variety]] of dimension \(g\) uses a commutative semisimple subalgebra of rational endomorphisms of dimension \(2g\).
 
 ## References
 

@@ -6,10 +6,10 @@ summary = "The meromorphic continuation of the sum of n to the power −s over p
 aliases = ["Riemann zeta", "zeta function"]
 domains = ["analytic-number-theory"]
 section_mode = "progressive"
-prerequisites = ["complex-analysis/analytic-continuation", "langlands/euler-product-and-local-factor"]
+prerequisites = ["analytic-number-theory/dirichlet-series", "complex-analysis/analytic-continuation", "langlands/euler-product-and-local-factor"]
 +++
 
-For a complex variable \(s\) with \(\operatorname{Re}s>1\), the **Riemann zeta function** is
+For a complex variable \(s\) with \(\operatorname{Re}s>1\), the **Riemann zeta function** is given by the [[analytic-number-theory/dirichlet-series|Dirichlet series]]
 \[
 \zeta(s)=\sum_{n=1}^{\infty}n^{-s}=\prod_{p\ {\rm prime}}(1-p^{-s})^{-1}.
 \]

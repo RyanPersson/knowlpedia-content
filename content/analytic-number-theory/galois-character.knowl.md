@@ -9,7 +9,7 @@ section_mode = "progressive"
 prerequisites = ["algebra-fields-galois/galois-group", "algebra-groups/group-homomorphism"]
 +++
 
-For a finite abelian extension \(E/\mathbb Q\), a **character of the field** here means a [[algebra-groups/group-homomorphism|homomorphism]] \(\chi:\operatorname{Gal}(E/\mathbb Q)\to\mathbb C^\times\). Its argument is an automorphism of \(E\). At an unramified prime \(p\), the associated prime weight is \(\chi(\operatorname{Frob}_p)\), the value at the [[algebra-fields-galois/frobenius-unramified|Frobenius element]].
+For a finite abelian extension \(E/\mathbb Q\), a **complex Galois character** is a [[algebra-groups/group-homomorphism|homomorphism]] from its [[algebra-fields-galois/galois-group|Galois group]] to the nonzero complex numbers, \(\chi:\operatorname{Gal}(E/\mathbb Q)\to\mathbb C^\times\). Its argument is an automorphism of \(E\). At an unramified prime \(p\), the associated prime weight is \(\chi(\operatorname{Frob}_p)\), the value at the [[algebra-fields-galois/frobenius-unramified|Frobenius element]].
 
 ## A two-element example
 

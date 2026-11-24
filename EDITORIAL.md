@@ -10,6 +10,13 @@ subject, state variants, introduce indispensable auxiliary notation, and
 compare neighboring concepts; they must not serve as hidden homes for other
 concepts that readers may need to link directly.
 
+Write every part of a mathematical knowl for a reader who could open it from
+any document, including its title, summary, examples, and section headings.
+Link prerequisites where the reader first needs them. Keep a source passage’s
+choices of parameters, analogies, and use of a theorem in that document’s own
+annotations. A theorem with specific hypotheses can still have a reusable
+knowl that states those hypotheses.
+
 In particular, do not send labels for distinct terms to an umbrella knowl that
 defines each term in a different section. Give each term a canonical knowl and
 link the relationship between them. Genuine surveys, source transcripts,

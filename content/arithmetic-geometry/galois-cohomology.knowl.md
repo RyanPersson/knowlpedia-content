@@ -13,7 +13,7 @@ Let \(G\) be a [[algebra-fields-galois/galois-group|Galois group]], with its pro
 
 ## What a class in degree one records
 
-A 1-cocycle is a continuous function \(c\) satisfying \(c(gh)=c(g)+g\,c(h)\). Two cocycles give the same \(H^1\) class if their difference is \(g\mapsto g\,m-m\) for some \(m\in M\). Restricting a class to a local Galois group tests it at a place. The kernel of a family of such restrictions can contain global information invisible to those local tests.
+A 1-cocycle is a continuous function \(c\) satisfying \(c(gh)=c(g)+g\,c(h)\). Two cocycles give the same \(H^1\) class if their difference is \(g\mapsto g\,m-m\) for some \(m\in M\). Restricting a class to a local Galois group tests it at a place. The [[arithmetic-geometry/galois-localization-kernel|kernel of a family of such restrictions]] can contain global information invisible to those local tests.
 
 ## References
 

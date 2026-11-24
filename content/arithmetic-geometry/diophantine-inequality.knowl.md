@@ -6,11 +6,20 @@ summary = "An inequality in which the unknowns are restricted to integers, ratio
 aliases = []
 domains = ["arithmetic-geometry"]
 section_mode = "progressive"
-prerequisites = []
+prerequisites = ["shared-foundations/integers", "shared-foundations/rational-numbers"]
 +++
 
-A **Diophantine inequality** constrains quantities built from arithmetic inputs, such as integers or rational numbers of bounded denominator. The allowed inputs matter. For example, \(|a/b-\sqrt{2}|<1/b^2\) asks for integers \(a,b\) with \(b>0\) that approximate \(\sqrt{2}\) to a precision tied to their denominator.
+A **Diophantine inequality** asks which values in a specified arithmetic domain, often the [[shared-foundations/integers|integers]] or the [[shared-foundations/rational-numbers|rational numbers]], satisfy an inequality. For example, with integers \(a,b\) and \(b>0\), the condition
+\[
+\left|\sqrt{2}-\frac{a}{b}\right|<\frac{1}{b^2}
+\]
+asks how closely a fraction can approximate \(\sqrt{2}\) for a given denominator.
 
-## The inequality in the post
+## Approximating a square root
 
-The arithmetic inputs here include integral values of automorphic forms. Their divisibility at finite primes puts a lower bound on their size at the real and complex embeddings. A [[arithmetic-geometry/slope-inequality|slope inequality]] compares the two estimates.
+The fraction \(7/5\) satisfies the inequality. Since \(2\cdot5^2-7^2=1\), factoring a difference of squares gives
+\[
+\left|\sqrt{2}-\frac75\right|
+=\frac{1}{25(\sqrt{2}+7/5)}<\frac{1}{25}.
+\]
+The [[real-analysis/absolute-value|absolute value]] measures the distance between the two numbers. Doubling the denominator divides the permitted error by four.

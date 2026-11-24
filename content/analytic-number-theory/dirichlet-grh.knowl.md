@@ -13,9 +13,8 @@ In the Dirichlet setting, the **generalized Riemann hypothesis** (GRH) states th
 
 ## Other moduli
 
-An imprimitive character is induced by a primitive one. Its \(L\)-function differs by finitely many Euler factors whose zeros have real part zero. This is why the open-strip assertion for primitive characters covers all moduli.
+An imprimitive character is induced by a primitive one. Its \(L\)-function differs by finitely many [[langlands/euler-product-and-local-factor|Euler factors]] whose zeros have real part zero. This is why the open-strip assertion for primitive characters covers all moduli.
 
 ## References
 
 - NIST Digital Library of Mathematical Functions, [§25.15(i)–(ii), induction and zeros](https://dlmf.nist.gov/25.15).
-- Manvir Jaswal, [Theorem 1.1, statements in the released archive](https://manvirjaswal.github.io/papers/rh-dirichlet-after-alpoge/jaswal-rh-dirichlet-after-alpoge.pdf).

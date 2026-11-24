@@ -6,16 +6,16 @@ summary = "A Dirichlet series with nonnegative coefficients has a singularity at
 aliases = ["Landau's theorem", "Landau’s singularity theorem"]
 domains = ["analytic-number-theory"]
 section_mode = "progressive"
-prerequisites = ["complex-analysis/analytic-continuation"]
+prerequisites = ["analytic-number-theory/dirichlet-series", "complex-analysis/analytic-continuation"]
 +++
 
-Let \(F(s)=\sum_{n\ge1}a_n n^{-s}\) with \(a_n\ge0\). Suppose the boundary of its half-plane of convergence is \(\operatorname{Re}s=\sigma_c\), with \(\sigma_c\) finite. **Landau’s theorem** says that \(F\) has a singularity at the real point \(\sigma_c\). No holomorphic [[complex-analysis/analytic-continuation|continuation]] through a neighborhood of that point exists.
+Let \(F(s)=\sum_{n\ge1}a_n n^{-s}\) be a [[analytic-number-theory/dirichlet-series|Dirichlet series]] with \(a_n\ge0\). Suppose the boundary of its half-plane of convergence is \(\operatorname{Re}s=\sigma_c\), with \(\sigma_c\) finite. **Landau’s theorem** says that \(F\) has a singularity at the real point \(\sigma_c\). No holomorphic [[complex-analysis/analytic-continuation|continuation]] through a neighborhood of that point exists.
 
 ## How positivity helps
 
 For a real \(s_0>\sigma_c\), expand \(n^{s_0-s}=\exp((s_0-s)\log n)\). When \(s<s_0\) is real, all the terms in the resulting double sum are nonnegative. If \(F\) were holomorphic across \(\sigma_c\), its Taylor expansion could then force convergence of the original series to the left of \(\sigma_c\).
 
-Chojecki invokes this idea to explain a reduction from zeros to an estimate. The specific prime sum and the quantifiers on its range belong to the [[analytic-number-theory/windowed-landau-criterion|windowed criterion]].
+For the [[analytic-number-theory/riemann-zeta-function|Riemann zeta function]], all the coefficients equal \(1\) and the abscissa of convergence is \(1\). Its simple pole at \(s=1\) is the singularity predicted by the theorem.
 
 ## References
 

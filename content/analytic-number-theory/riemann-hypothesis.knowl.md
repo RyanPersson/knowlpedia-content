@@ -13,7 +13,7 @@ The **Riemann hypothesis** (RH) states that each zero \(\rho\) of the [[analytic
 
 ## What this says about primes
 
-Put \(\psi(x)=\sum_{n\le x}\Lambda(n)\), using the [[analytic-number-theory/von-mangoldt-function|von Mangoldt function]]. RH is equivalent to the estimate \(\psi(x)=x+O(\sqrt{x}\log^2 x)\) as \(x\to\infty\). The error measures how far the weighted count of prime powers deviates from \(x\). The [[analytic-number-theory/windowed-landau-criterion|estimate on windows]] in Chojecki’s post uses a different weight.
+Put \(\psi(x)=\sum_{n\le x}\Lambda(n)\), using the [[analytic-number-theory/von-mangoldt-function|von Mangoldt function]]. RH is equivalent to the estimate \(\psi(x)=x+O(\sqrt{x}\log^2 x)\) as \(x\to\infty\). The error measures how far the weighted count of [[analytic-number-theory/prime-power|prime powers]] deviates from \(x\).
 
 ## References
 

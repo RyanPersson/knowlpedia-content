@@ -9,21 +9,20 @@ section_mode = "progressive"
 prerequisites = ["analytic-number-theory/weighted-prime-sum", "analytic-number-theory/l-logarithmic-derivative-at-one"]
 +++
 
-A **centered prime-power ramp sum** subtracts the main term from a [[analytic-number-theory/weighted-prime-sum|weighted prime sum]] with weight \(x/n-1\) for \(n\le x\). For the zeta function the normalization used here is
+A **centered prime-power ramp sum** removes an explicit main term from a [[analytic-number-theory/weighted-prime-sum|weighted prime sum]] with weight \(x/n-1\) for \(n\le x\). For the [[analytic-number-theory/riemann-zeta-function|Riemann zeta function]] and real \(x\ge1\), one normalization is
 \[
-G(x)=\sum_{n\le x}\Lambda(n)(x/n-1)-x\log x+(1+\gamma)x,
+G(x)=\sum_{n\le x}\Lambda(n)(x/n-1)-x\log x+(1+\gamma)x.
 \]
-where \(\gamma\) is Euler’s constant. This is the meaning of “regularised” in the post. The input sum is already finite.
+Here \(\Lambda\) is the [[analytic-number-theory/von-mangoldt-function|von Mangoldt function]], and \(\gamma=\lim_{m\to\infty}(\sum_{j=1}^m1/j-\log m)\) is Euler’s constant. The centering subtracts \(x\log x-(1+\gamma)x\) from a finite sum.
 
-## The character term
+## Twisting by a character
 
-For a nonprincipal primitive character \(\chi\), the corresponding expression is
+For a nonprincipal primitive [[analytic-number-theory/dirichlet-character|Dirichlet character]] \(\chi\), the corresponding normalization is
 \[
 G(\chi,x)=\sum_{n\le x}\Lambda(n)\chi(n)(x/n-1)+x\,\frac{L'(1,\chi)}{L(1,\chi)}.
 \]
-The [[analytic-number-theory/l-logarithmic-derivative-at-one|logarithmic derivative]] supplies the correction. An upper bound applies to a real-valued combination of such sums.
+The [[analytic-number-theory/l-logarithmic-derivative-at-one|logarithmic derivative at one]] specifies the linear correction. If \(\chi\) is complex-valued, \(G(\chi,x)\) can also be complex-valued.
 
 ## References
 
-- Levent Alpöge, [announcement, p. 3, item 5](https://alpo.ge/remark.pdf).
-- Manvir Jaswal, [§3.1, equations (3.1)–(3.2)](https://manvirjaswal.github.io/papers/rh-dirichlet-after-alpoge/jaswal-rh-dirichlet-after-alpoge.pdf).
+- Manvir Jaswal, [§3.1, equations (3.1)–(3.2), the two ramp sums](https://manvirjaswal.github.io/papers/rh-dirichlet-after-alpoge/jaswal-rh-dirichlet-after-alpoge.pdf).

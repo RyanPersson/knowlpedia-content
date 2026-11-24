@@ -13,4 +13,4 @@ A **square-root bound** controls the error in a quantity of scale \(x\) by about
 
 ## Balancing two errors
 
-For \(m>0\), the expression \(m+x/m\) has minimum \(2\sqrt{x}\) at \(m=\sqrt{x}\). If \(m\) must be integral one can take a nearby integer. This calculation explains the choice of [[arithmetic-geometry/iterated-theta-lifts|chain length]] when a comparison contains these two competing terms. Controlling the other errors is a separate mathematical step.
+For \(m>0\), the expression \(m+x/m\) has minimum \(2\sqrt{x}\) at \(m=\sqrt{x}\). For \(x\ge1\), the integer \(m=\lceil\sqrt{x}\rceil\) satisfies \(m\le\sqrt{x}+1\) and \(x/m\le\sqrt{x}\). The same choice therefore gives \(m+x/m\le2\sqrt{x}+1\).

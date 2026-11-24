@@ -9,7 +9,7 @@ section_mode = "progressive"
 prerequisites = ["arithmetic-geometry/cm-point", "arithmetic-geometry/integral-automorphic-form"]
 +++
 
-If a geometric automorphic form \(s\) is a section of a bundle \(\mathcal V\), its **evaluation at a CM point** \(P\) is \(s(P)\in\mathcal V_P\), the fiber at that point. To regard a line-valued evaluation as a number one chooses a basis. An [[arithmetic-geometry/integral-automorphic-form|integral form]] and an integral extension of \(P\) supply a lattice in the fiber on which divisibility has a meaning.
+If a geometric [[langlands/automorphic-form|automorphic form]] \(s\) is a section of a bundle \(\mathcal V\), its **evaluation** at a [[arithmetic-geometry/cm-point|CM point]] \(P\) is the vector \(s(P)\) in the fiber \(\mathcal V_P\). To regard a line-valued evaluation as a number one chooses a basis. An [[arithmetic-geometry/integral-automorphic-form|integral form]] and an integral extension of \(P\) supply a lattice in the fiber on which divisibility has a meaning.
 
 ## Changing a basis
 

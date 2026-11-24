@@ -18,7 +18,7 @@ Here \(F\) is the base number field and \(\mathbb A_F\) its [[algebra-fields-gal
 
 ## Unitary partners
 
-A Hermitian space and a skew-Hermitian space over a quadratic extension give a unitary dual pair. The lift can vanish. Using a series of nonzero lifts with controlled norms and integral structures is additional work in an [[arithmetic-geometry/iterated-theta-lifts|iterated construction]].
+A Hermitian space and a skew-Hermitian space over a quadratic extension give a unitary dual pair. The lift can vanish. Changing the partner group or the theta kernel can change whether the lift is nonzero.
 
 ## References
 

@@ -9,7 +9,7 @@ section_mode = "progressive"
 prerequisites = ["langlands/automorphic-form", "algebra-modules/full-lattice"]
 +++
 
-An **integral automorphic form** is an [[langlands/automorphic-form|automorphic form]] in a chosen integral structure. For a space of forms defined over a number field, this can be a [[algebra-modules/full-lattice|lattice]] over its ring of integers, or over a localization at a prime. In a geometric realization one uses sections of an automorphic bundle extending over the chosen integral model.
+An **integral automorphic form** is an [[langlands/automorphic-form|automorphic form]] in a chosen integral structure. For a space of forms defined over a number field, this can be a [[algebra-modules/full-lattice|lattice]] over its [[algebra-fields-galois/ring-of-integers|ring of integers]], or over a localization at a prime. In a geometric realization one uses sections of an automorphic bundle extending over the chosen integral model.
 
 ## Why choose a lattice?
 

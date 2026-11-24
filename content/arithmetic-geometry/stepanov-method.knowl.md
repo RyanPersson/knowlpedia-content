@@ -13,9 +13,8 @@ prerequisites = ["arithmetic-geometry/order-of-vanishing", "arithmetic-geometry/
 
 ## The finite-field problem
 
-For a smooth projective geometrically connected curve of genus \(g\) over \(\mathbb F_q\), the Hasse–Weil bound is \(\bigl|\#C(\mathbb F_q)-(q+1)\bigr|\le2g\sqrt q\). Stepanov’s construction and its refinements give a route to this estimate. In the post, [[arithmetic-geometry/iterated-theta-lifts|repeated theta lifts]] take up the role of increasing multiplicity in a different arithmetic setting.
+For a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective]] geometrically connected curve of genus \(g\) over \(\mathbb F_q\), the Hasse–Weil bound is \(\bigl|\#C(\mathbb F_q)-(q+1)\bigr|\le2g\sqrt q\). Stepanov’s construction and its refinements give a route to this estimate.
 
 ## References
 
 - Enrico Bombieri, [Counting points on curves over finite fields, §§1–2](https://www.numdam.org/item/SB_1972-1973__15__234_0.pdf).
-- Levent Alpöge, [announcement, p. 1, comparison with Stepanov](https://alpo.ge/remark.pdf).

@@ -6,10 +6,10 @@ summary = "The meromorphic continuation of a Dirichlet series weighted by a Diri
 aliases = ["Dirichlet L-series"]
 domains = ["analytic-number-theory"]
 section_mode = "progressive"
-prerequisites = ["analytic-number-theory/dirichlet-character", "complex-analysis/analytic-continuation"]
+prerequisites = ["analytic-number-theory/dirichlet-character", "analytic-number-theory/dirichlet-series", "complex-analysis/analytic-continuation"]
 +++
 
-The **Dirichlet \(L\)-function** of a [[analytic-number-theory/dirichlet-character|Dirichlet character]] \(\chi\) is given for \(\operatorname{Re}s>1\) by
+The **Dirichlet \(L\)-function** of a [[analytic-number-theory/dirichlet-character|Dirichlet character]] \(\chi\) is represented for \(\operatorname{Re}s>1\) by the [[analytic-number-theory/dirichlet-series|Dirichlet series]] and [[langlands/euler-product-and-local-factor|Euler product]]
 \[
 L(s,\chi)=\sum_{n\ge1}\frac{\chi(n)}{n^s}
 =\prod_p(1-\chi(p)p^{-s})^{-1}.

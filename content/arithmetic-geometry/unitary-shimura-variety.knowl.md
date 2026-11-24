@@ -6,10 +6,10 @@ summary = "A Shimura variety whose defining group comes from a Hermitian space o
 aliases = ["unitary Shimura varieties"]
 domains = ["arithmetic-geometry"]
 section_mode = "progressive"
-prerequisites = ["arithmetic-geometry/cm-field", "algebraic-geometry-foundations/reductive-algebraic-group"]
+prerequisites = ["arithmetic-geometry/cm-field", "arithmetic-geometry/shimura-variety", "algebraic-geometry-foundations/reductive-algebraic-group"]
 +++
 
-A **unitary Shimura variety** is a Shimura variety attached to a unitary group or a group of unitary similitudes for a Hermitian space over a [[arithmetic-geometry/cm-field|CM extension]] of a totally real field. A Hermitian form pairs vectors using complex conjugation in one variable. Its unitary group preserves the form, and a similitude may multiply it by a scalar. The Shimura datum also specifies the allowed complex structures at infinity.
+A **unitary Shimura variety** is a [[arithmetic-geometry/shimura-variety|Shimura variety]] attached to a unitary group or a group of unitary similitudes for a Hermitian space over a [[arithmetic-geometry/cm-field|CM extension]] of a totally real field. A Hermitian form pairs vectors using complex conjugation in one variable. The unitary group is the [[algebraic-geometry-foundations/reductive-algebraic-group|reductive algebraic group]] preserving the form. A unitary similitude may multiply the form by a scalar. The [[arithmetic-geometry/shimura-datum|Shimura datum]] also specifies the allowed complex structures at infinity.
 
 ## What a point can represent
 

@@ -17,4 +17,4 @@ Indeed, [[algebra-representation-theory/character-orthogonality|character orthog
 
 ## Selecting inert primes
 
-If \(G=\{1,c\}\) and \(\chi(c)=-1\), then \(\mathbf 1_{\{c\}}(g)=(1-\chi(g))/2\). At an unramified prime in a quadratic field, inserting Frobenius for \(g\) turns this identity into the indicator that the prime is [[arithmetic-geometry/inert-prime|inert]]. The longer [[analytic-number-theory/prime-sum-balance|balance identity]] uses the character expansion on a larger field.
+If \(G=\{1,c\}\) and \(\chi(c)=-1\), then \(\mathbf 1_{\{c\}}(g)=(1-\chi(g))/2\). At an unramified prime in a quadratic field, inserting the [[algebra-fields-galois/frobenius-unramified|Frobenius element]] for \(g\) turns this identity into the indicator that the prime is [[arithmetic-geometry/inert-prime|inert]]. Summing this indicator with weights gives a [[analytic-number-theory/frobenius-prime-sum|character decomposition of a prime sum]].

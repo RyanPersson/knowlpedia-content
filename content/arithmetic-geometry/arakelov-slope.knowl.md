@@ -6,10 +6,10 @@ summary = "The normalized arithmetic degree of a nonzero Hermitian vector bundle
 aliases = ["Arakelov slopes", "arithmetic slope"]
 domains = ["arithmetic-geometry"]
 section_mode = "progressive"
-prerequisites = ["algebra-modules/full-lattice", "arithmetic-geometry/archimedean-size"]
+prerequisites = ["arithmetic-geometry/arakelov-degree", "algebra-modules/projective-module"]
 +++
 
-A Hermitian vector bundle \(\overline V\) over the ring of integers of \(K\) consists of a finite projective module \(V\) equipped with compatible Hermitian norms at the complex embeddings. Its **Arakelov slope** is \(\widehat\mu(\overline V)=\widehat{\deg}_{\mathrm n}(\det\overline V)/\operatorname{rank}V\), for positive rank. Here the arithmetic degree is normalized by \([K:\mathbb Q]\). It measures the integral determinant lattice together with its [[arithmetic-geometry/archimedean-size|archimedean norms]].
+A Hermitian vector bundle \(\overline V\) over the ring of integers of \(K\) consists of a finitely generated [[algebra-modules/projective-module|projective module]] \(V\) equipped with compatible Hermitian norms at the complex embeddings. Its **Arakelov slope** is \(\widehat\mu(\overline V)=\widehat{\deg}_{\mathrm n}(\det\overline V)/\operatorname{rank}V\), for positive rank. The numerator is the [[arithmetic-geometry/arakelov-degree|normalized Arakelov degree]] of the determinant line, the top exterior power of \(V\) with its induced norms. It measures the integral determinant lattice together with its [[arithmetic-geometry/archimedean-size|archimedean norms]].
 
 ## A lattice you can measure
 

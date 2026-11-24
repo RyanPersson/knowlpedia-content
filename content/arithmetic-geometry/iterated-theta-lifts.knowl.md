@@ -1,21 +1,20 @@
 +++
 id = "arithmetic-geometry/iterated-theta-lifts"
-title = "The theta-lift chain in Alpöge’s announcement"
+title = "Iterated global theta lifts"
 kind = "construction"
-summary = "Successive lifts between unitary groups accumulate a gain analogous to multiplicity, with chain length near the square root of the prime-sum scale."
-aliases = ["iterated theta lifts", "square-root-length chain"]
+summary = "A succession of global theta lifts in which the output on each group supplies the input on the next dual pair."
+aliases = ["chain of theta lifts", "iterated theta lift"]
 domains = ["arithmetic-geometry"]
 section_mode = "progressive"
-prerequisites = ["arithmetic-geometry/theta-lift", "analytic-number-theory/square-root-bound", "arithmetic-geometry/stepanov-method"]
+prerequisites = ["arithmetic-geometry/theta-lift", "langlands/automorphic-form"]
 +++
 
-The **theta-lift chain** in Alpöge’s announcement successively applies [[arithmetic-geometry/theta-lift|global theta lifts]] along unitary groups \(U(V_0),\ldots,U(V_m)\). The proposal uses the accumulated gain from \(m\) steps in the role played by [[arithmetic-geometry/order-of-vanishing|vanishing multiplicity]] in Stepanov’s method. For a prime-sum cutoff \(x\), the chosen integer \(m\) has scale \(\sqrt{x}\).
+An **iterated global theta lift** applies a sequence of [[arithmetic-geometry/theta-lift|global theta lifts]] to an [[langlands/automorphic-form|automorphic form]]. Choose groups \(G_0,\ldots,G_m\) such that each adjacent pair admits the theta correspondence, together with a theta kernel for each pair. Starting with \(f_0\) on \(G_0\), set \(f_j=\Theta_j(f_{j-1})\) on \(G_j\) whenever the defining pairing exists. The integer \(m\) counts the lifts.
 
-## Why that length?
+## Two successive lifts
 
-In the comparison, the chain contributes competing error terms of sizes \(x/m\) and \(m\), up to mild power losses. If \(x=10^4\), then \(m=100\) makes both terms \(100\). Making the chain ten times longer reduces the first term to \(10\) and increases the second to \(1000\). This balance explains one appearance of the [[analytic-number-theory/square-root-bound|square-root exponent]]. The argument also needs estimates for the remaining twisted prime sums.
+For three compatible unitary groups \(G_0,G_1,G_2\), the first integral pairs \(f_0\) with a kernel on \(G_0\times G_1\), leaving a form \(f_1\) on \(G_1\). The second pairs \(f_1\) with a kernel on \(G_1\times G_2\). If \(f_1\) vanishes, the second lift is zero as well. Even when \(f_1\ne0\), convergence of the second pairing and nonvanishing of its output require hypotheses.
 
 ## References
 
-- Levent Alpöge, [announcement, p. 1 and p. 4, items 8–10](https://alpo.ge/remark.pdf).
-- Manvir Jaswal, [Remark 3.6, the two square-root estimates](https://manvirjaswal.github.io/papers/rh-dirichlet-after-alpoge/jaswal-rh-dirichlet-after-alpoge.pdf).
+- Wee Teck Gan, [Automorphic forms and the theta correspondence, §§3.6–3.9, global theta lifting and nonvanishing](https://swc-math.github.io/aws/2022/2022GanNotes.pdf).
