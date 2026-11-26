@@ -22,7 +22,7 @@ proof_status = "full"
 
 *Powers of coordinates.* In characteristic \(p\) the congruence of a Frobenius cycle is an equality \(\iota_{s+j}(u)=\iota_s(u)^{P^{j}}\), and \(P^{j}\)-th powers are additive, so for \(v=x_{b,s}\)
 \[
-z_y(v)^{P^{j}}=\sum_tx(\epsilon(v,t))^{P^{j}}\,x(\iota_{s+j}(\tilde y_t)).\tag{$*$}
+z_y(v)^{P^{j}}=\sum_tx(\epsilon(v,t))^{P^{j}}\,x(\iota_{s+j}(\tilde y_t)).\tag{*}
 \]
 *Spanning.* Fix \(i\). Let \(\Lambda_i\subseteq L^{\mathcal{P}}\) be the span of the vectors \(\lambda_{v,j}=\bigl(x(\epsilon(v,t))^{P^{j}}\bigr)_t\) over the pairs \((v,j)\), \(v=x_{b,s}\), with \(s+j=i\) and \(P^{j}<\kappa(v)\). We claim \(\Lambda_i=L^{\mathcal{P}}\).
 
