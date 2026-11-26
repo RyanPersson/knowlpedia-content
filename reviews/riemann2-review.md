@@ -1,5 +1,7 @@
 # First review of the GRH proof translation
 
+The subsequent audit covers all 644 pages through content commit `b92603a3`, including the repaired spanning files. [Full audit and findings](riemann2-audit/README.md)
+
 The translation and the authors’ reports were reviewed at content commit `1e9a4864` and Knowlpedia commit `562a1cc`, against `grh-lean` commit `72fead10`. The inventory covers all seven finished chapters. The mathematical review samples statements and proof steps, with particular attention to questions raised by their authors.
 
 **Update after the review.** Content commit `06b4ec57` changes only `upper-elementary-divisors`. The translators now mark that eighth chapter finished. Its 67 knowls include 44 marked `full` and one marked `outline`. The author identifies the numerical lemmas behind “Consequences of large degree” as the part read at statement level. [New chapter](https://github.com/RyanPersson/knowlpedia-content/tree/06b4ec57260b008a006c535c509b8a930ff63c35/content/proofs/grh/upper-elementary-divisors) · [Author’s report](https://github.com/RyanPersson/knowlpedia/blob/9fff20ccf0bb87dc423ab161a1cea9b2705d79fb/docs/riemann2/reports/upper-elementary-divisors.md#L24)
