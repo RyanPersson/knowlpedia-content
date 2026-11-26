@@ -31,3 +31,7 @@ Analytic number theory studies questions about integers and primes using analysi
 - [[analytic-number-theory/frobenius-prime-sum|Character decomposition of a Frobenius prime sum]]
 
 For splitting of primes in number fields and divisibility of algebraic values, see the [arithmetic geometry index](/arithmetic-geometry/).
+
+## Guided proof
+
+[[grh-lean|The Riemann hypothesis and Dirichlet GRH]] · [[grh-lean/dependencies|Proof steps and mathematical dependencies]]

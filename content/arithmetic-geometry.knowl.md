@@ -37,3 +37,5 @@ Arithmetic geometry studies geometric objects over fields such as the rational n
 - [[algebra-fields-galois/ideal-class-group|Ideal class groups]] and [[arithmetic-geometry/vandiver-conjecture|Vandiver’s conjecture]]
 
 For prime sums, characters and zeros of \(L\)-functions, see the [analytic number theory index](/analytic-number-theory/).
+
+The [[grh-lean/main-inequality|covolume comparison in the Dirichlet GRH proof]] has three inputs. Open [[grh-lean/short-forms|short forms]], [[grh-lean/enough-forms|enough forms]] or [[grh-lean/long-forms|the lower bound for integral forms]] for the corresponding argument.
