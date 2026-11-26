@@ -1,0 +1,69 @@
++++
+id = "proofs/grh/upper-divisibility"
+title = "Upper bound: divisibility and size of the composite lift"
+kind = "page"
+summary = "Prime-by-prime divisibility of the composite of m theta lifts on ramified source forms, its archimedean size, and the spanning of the ramified source forms by short forms."
+aliases = ["divisibility of the composite lift", "size of the composite lift"]
+domains = ["proofs"]
+section_mode = "continuous"
+prerequisites = []
+lean_files = ["src/New/UpperBound/Size/ShortColumns.lean", "src/New/UpperBound/Size/ClassCount.lean", "src/New/UpperBound/Size/Estimates.lean", "src/New/UpperBound/Size/ArchimedeanSize.lean", "src/New/UpperBound/Divisibility/JetExponent.lean", "src/New/UpperBound/Divisibility/MarkedPrimes.lean", "src/New/UpperBound/Divisibility/HeckeEdges.lean", "src/New/UpperBound/Divisibility/MarkOperator.lean", "src/New/UpperBound/Divisibility/ChainValuation.lean", "src/New/UpperBound/Divisibility/ChainDatumExpansion.lean", "src/New/UpperBound/Divisibility/SetupAtLevel.lean", "src/New/UpperBound/Divisibility/ColengthAtLevel.lean", "src/New/UpperBound/Divisibility/ValuationAtLevel.lean", "src/New/UpperBound/Divisibility/ValuationAtNonSplitPrimes.lean", "src/New/UpperBound/Divisibility/LocalDivisibility.lean"]
++++
+
+This chapter translates the folders `New/UpperBound/Divisibility` and `New/UpperBound/Size` of the Lean development. Its subject is the [[?lean:New.Data.compositeLift|composite lift]]: a finite combination of chains of \(m\) theta lifts \(X_0\to X_1\to\dots\to X_m\) between definite hermitian spaces over \(E=K(\zeta)\), glued in pairs and restricted to \(Y_m\subset X_m\), applied to [[?lean:New.Data.SourceForm|source forms]] on \(X_0\). Three things are proved:
+
+1. the ramified source forms are spanned by *short* forms (integral at every prime, bounded at every conjugate);
+2. at every prime \(p\), the composite lift of an integral ramified source form is divisible by \(p\) to the exponent \(\operatorname{gain}(p)\), up to an error, on a submodule of small colength;
+3. at every conjugate, the composite lift for the trivial twist enlarges squared norms by at most \(\exp\bigl(h_{\mathrm{main}}-m\,\mathrm{rem}+2\sum_p\operatorname{gain}(p)\log p+\mathrm{err}\bigr)\).
+
+In the product formula the gains of 2 cancel against those of 3; what is left is the main amount and the remainder of the [[?lean:New.star_inequality|main inequality]]. All statements are outlines relative to results of other chapters, which are quoted by name in each knowl; the honest status of each proof is recorded in its front matter.
+
+## Notation
+
+Throughout, \(D\) is [[?lean:New.Data|admissible data]] for the parameters \((q_0,d)\): \(K=\mathbb{Q}(\sqrt{-d})\), \(E=K(\zeta_{q_1})\) with \(f\) infinite places forming the group \(\Phi\cong(\mathbb{Z}/q_1)^\times\); a-places \(\Phi_a\) (class \(1\) modulo \(q_0\)) and b-places (class \(-1\)); weight \(w(\tau)\) (\(b\) at b-places, \(a/x_1\) elsewhere); \(a=xb\); \(m\) lifts, ranks \(n_j=k+j(t+1)\); level primes \(M=p_0p_1\) and \(N=\pi_N\bar\pi_N\); \(\chi_K\) the Legendre symbol modulo \(d\); \(u(\nu)\in\Phi\) the place named by the integer \(\nu\); \(\mathrm{err}=fa(\log b)^3\) the error unit. For a prime \(p\) and an embedding \(\iota\colon\mathbb{C}\to\mathbb{C}_p\), the *gauge* of a value \(\varphi(g)\) at \(g\) is the largest \(p\)-adic absolute value of a coordinate of \(g^{-1}\iota\varphi(g)\); "integral" means gauge at most \(1\), and "valuation at least \(\beta\)" means gauge at most \(p^{-\beta}\).
+
+## 1. What is asked at each prime
+
+The [[proofs/grh/upper-divisibility/local-prime-sum|local prime sum]] \(s_p(y,\sigma)\) is the part at \(p\) of the von Mangoldt sum that counts, with the factor \(1-\chi_K\), how far a derivative of order \(y\) at the place \(\sigma\) exceeds the weight at the partner places \(u(-p^{e})\sigma\). The [[proofs/grh/upper-divisibility/gain|gain]] \(\operatorname{gain}(p)=m(\sum_{\tau\in\Phi_a}s_p(a,\tau)+kF(p))\) is the exponent asked of the chain. It vanishes at split primes and at primes \(p\ge x_1\), and \(2\sum_p\operatorname{gain}(p)\log p\) is \(m\) times the prime sums: see [[proofs/grh/upper-divisibility/prime-sum-grouped-by-primes|the prime sum grouped by primes]] and [[proofs/grh/upper-divisibility/gains-add-up-to-the-prime-sums|the gains add up to the prime sums]].
+
+The primes are sorted into [[proofs/grh/upper-divisibility/classes-of-primes|classes]]: small non-split primes, primes \(\equiv\pm1\bmod m\), and *exceptional* primes; each carries a [[proofs/grh/upper-divisibility/allowed-loss|loss and an allowed loss]], and the allowed losses weighted by \(\log p\) sum to at most \(\mathrm{err}\).
+
+## 2. One lift at a non-split prime: only collisions lose
+
+The chapter on derivatives of theta functions shows that a lift with standard data is divisible to the *predicted divisibility* of its Young diagrams. Here this is compared with the gain. The [[proofs/grh/upper-divisibility/divisibility-bound|divisibility bound]] \(\operatorname{db}_{p,j}(S)\) of stage \(j\) allows the long rows at a set \(S\) of places to be removed. The theorem [[proofs/grh/upper-divisibility/only-collisions-lose|"only collisions lose"]] states
+\[
+\operatorname{db}_{p,j}(S)\ \ge\ \frac{\operatorname{gain}(p)}m-\operatorname{coll}_p(S)+v(\pi_p)\lvert\Phi_a\cap S\rvert\frac a{x_1}-\frac{f(\log b)^2a}{mp},
+\]
+where a [[proofs/grh/upper-divisibility/collisions|collision]] is a pair \((\tau,e)\) with \(\tau\) and its partner \(u(-p^{e})\tau\) both a-places outside \(S\). At a non-exceptional prime the collisions are within the loss ([[proofs/grh/upper-divisibility/collision-sum-bound|collision sum bound]]).
+
+## 3. Exceptional primes: marks and scaled Hecke operators
+
+At an exceptional prime the collisions are too many. Fix \(\iota\colon\mathbb{C}\to\mathbb{C}_p\); each place induces a prime above \(p\). A [[proofs/grh/upper-divisibility/marked-set-of-primes|marked set]] \(\Lambda\) consists of primes induced by a-places, no two conjugate; a full mark meets every conjugate pair. The arithmetic of such primes is in [[proofs/grh/upper-divisibility/orbits-at-an-exceptional-prime|orbits at an exceptional prime]] and [[proofs/grh/upper-divisibility/properties-of-marked-sets|properties of marked sets]]; [[proofs/grh/upper-divisibility/full-mark-exists|full marks exist]], and removing the long rows at the places inducing a full mark leaves no collision. The price of removing rows is paid by the [[proofs/grh/upper-divisibility/scaled-hecke-operator|scaled Hecke operators]] \(\widetilde T_{\mathfrak l}=p^{A_{\mathfrak l}}T_{\mathfrak l,\mathfrak r}\), \(\mathfrak l\in\Lambda\), in two ways.
+
+*Valuation.* A Hecke operator at \(\mathfrak l\) applied to the source can be moved through the lifts ([[proofs/grh/upper-divisibility/hecke-transfer-through-the-chain|Hecke transfer]]) and then onto the data of a lift, where it evaluates the lift at neighbours; [[proofs/grh/upper-divisibility/one-lift-evaluated-at-a-neighbor|one lift evaluated at a neighbour]] loses at most \(\sum A_{\mathfrak l}\) plus the [[proofs/grh/upper-divisibility/neighbor-exponents-and-lift-loss|lift loss]]. Iterating over \(\Lambda\) and over the \(m\) lifts gives the [[proofs/grh/upper-divisibility/valuation-of-a-chain-at-a-non-split-prime|valuation of the chain on the image of \(Y^{m}\)]], \(Y=\prod_{\mathfrak l}\widetilde T_{\mathfrak l}\); with [[proofs/grh/upper-divisibility/cost-of-low-columns-at-marked-places|the cost of the low columns]] this is at least \(\operatorname{gain}-2\operatorname{loss}\).
+
+*Colength.* The image of \(Y^{m}\) on integral source forms is large. The cosets of \(T_{\mathfrak l,\mathfrak r}\) are [[proofs/grh/upper-divisibility/hecke-cosets-as-edges|edges]], the operator is a [[proofs/grh/upper-divisibility/hecke-operator-as-a-sum-over-edges|sum over edges]], each edge [[proofs/grh/upper-divisibility/action-of-an-edge-on-the-variables|acts on monomials by letter matrices and powers of \(p\)]], and [[proofs/grh/upper-divisibility/integral-source-forms-as-families-of-integral-vectors|integral source forms are families of integral vectors]]. So \(\widetilde T_{\mathfrak l}\) is an edge Hecke operator, to which the theorem on elementary divisors (another chapter) applies [[proofs/grh/upper-divisibility/elementary-divisors-of-the-scaled-hecke-operator-given-a-frobenius-cycle|given a Frobenius cycle]]. The [[proofs/grh/upper-divisibility/frobenius-cycle-of-a-marked-prime|Frobenius cycle]] comes from the orbit of a-places inducing \(\mathfrak l\) or \(\bar{\mathfrak l}\), and the result is the [[proofs/grh/upper-divisibility/mark-operator|bound for one scaled Hecke operator]]. Both halves are combined in [[proofs/grh/upper-divisibility/valuation-and-colength-at-a-full-mark|valuation and colength at a full mark]].
+
+## 4. Chains, chain data and the restriction
+
+The general tools: [[proofs/grh/upper-divisibility/chain-of-lifts-as-a-sum-over-classes|a chain of lifts is a plain sum over classes]]; hence a [[proofs/grh/upper-divisibility/gauge-bound-for-a-chain-of-lifts|gauge bound for chains with modified data]]; the [[proofs/grh/upper-divisibility/data-of-a-weak-chain-datum-are-standard|data are standard above \(p\)]]; [[proofs/grh/upper-divisibility/gauge-and-size-of-the-restriction-to-y-m|restriction to \(Y_m\)]] keeps gauges and has controlled size; and [[proofs/grh/upper-divisibility/integral-values-of-source-forms-as-polynomials|integral values of source forms are integral polynomials]]. A chain datum has a glued tensor; [[proofs/grh/upper-divisibility/expanding-the-gluing|expanding the gluing]] and projecting on vacua above \(N\) give [[proofs/grh/upper-divisibility/chain-datum-as-a-weak-chain-datum|two weak chain data]], one for sizes and the primes \(p\ne N\), one for \(p=N\). Without Hecke operators one gets [[proofs/grh/upper-divisibility/valuation-of-chains-at-unmarked-primes|integrality away from \(N\) and \(d\), and gain minus loss minus collisions at small non-split primes]].
+
+## 5. The level prime N
+
+At \(p=N\) the glued data have poles. The [[proofs/grh/upper-divisibility/setup-at-the-level-prime|set-up at \(N\)]] introduces the places \(\Sigma_N\), the lattices \(L_j\) and the module \(\mathcal A'\) of forms that \(U^{m/2}\) makes integral for \(L_0\). The [[proofs/grh/upper-divisibility/level-at-n-as-a-mirabolic-group|level is a mirabolic group]] in a basis of \(L_j\), and [[proofs/grh/upper-divisibility/up-operator-preserves-source-forms|\(U\) preserves the source forms]]. *Colength*: by the [[proofs/grh/upper-divisibility/mean-degree-in-one-variable|mean degree in one variable]], [[proofs/grh/upper-divisibility/colength-of-the-up-integral-forms|\(\mathcal A'\) has colength at most \(mfb\) per dimension]]. *Valuation*: on ramified forms [[proofs/grh/upper-divisibility/all-lifts-become-direct|all lifts become direct lifts after \(U^{m/2}\)]], [[proofs/grh/upper-divisibility/direct-lifts-lose-little|direct lifts lose at most \(fb\) each]], and so [[proofs/grh/upper-divisibility/valuation-of-the-composite-lift-at-n|the composite lift loses at most \(2mfb\) powers of \(N\)]].
+
+## 6. The divisibility theorem
+
+The four cases (split or large \(p\ne N\); small non-split, not exceptional; exceptional; \(p=N\)) are assembled in [[proofs/grh/upper-divisibility/divisibility-at-one-prime|divisibility at one prime]], and the final statement is the theorem on the [[proofs/grh/upper-divisibility/local-divisibility-of-the-composite-lift|divisibility of the composite lift]]: errors \(\operatorname{err}(p)\ge0\) with \(\sum\operatorname{err}(p)\log p\le\mathrm{err}\), and at each \(p\) a submodule of the integral ramified source forms, of colength at most \(\operatorname{err}(p)\dim\mathcal S\), on which the composite lift has valuation at least \(\operatorname{gain}(p)-\operatorname{err}(p)\), for all twists of modulus prime to \(p\).
+
+## 7. Size
+
+Counting classes: an [[proofs/grh/upper-divisibility/class-number-bound-for-the-standard-lattice|explicit class number bound]] and its [[proofs/grh/upper-divisibility/class-count-at-levels-containing-a-principal-level|consequence for the levels of the data]]. Rows and jets: [[proofs/grh/upper-divisibility/row-lengths-and-jet-sizes|row lengths and jet sizes]], [[proofs/grh/upper-divisibility/size-of-one-kernel|the size of one kernel and of the rows]]. The choice of \(\log N\) makes [[proofs/grh/upper-divisibility/level-compensates-the-excess|the level compensate the archimedean excess]]. Together: the [[proofs/grh/upper-divisibility/size-of-the-composite-lift|archimedean size of the composite lift]]. Finally [[proofs/grh/upper-divisibility/passage-to-the-good-part|passage to the good part]] transports integrality and size from forms of principal level on \(Y_0\) to target forms.
+
+## 8. Short forms
+
+A [[proofs/grh/upper-divisibility/short-form|short form]] is integral at every \(p\)-adic embedding and has all conjugates of its values bounded. [[proofs/grh/upper-divisibility/short-forms-span-at-a-free-level|Short forms span at a free level]], by delta forms of images of evaluation vectors under short bases. The [[proofs/grh/upper-divisibility/ramified-source-forms|ramified source forms]] are defined by the [[proofs/grh/upper-divisibility/scaling-generator|scaling generators]] at the primes dividing \(\pi_N\); they are [[proofs/grh/upper-divisibility/ramified-source-forms-are-the-image-of-the-ramifying-operator|the image of \(\prod(1-z_w)\)]] (an instance of a [[proofs/grh/upper-divisibility/mean-zero-vectors-are-the-image-of-one-minus-translation|general lemma]]) and make up all but a proportion \(f/(N-1)\) of the source forms. Hence [[proofs/grh/upper-divisibility/short-ramified-source-forms-span|short ramified source forms span]], the first half of Theorem A.
+
+## References
+
+1. Lean: the files listed in the front matter, under `documents/grh-lean/grh/src/`.

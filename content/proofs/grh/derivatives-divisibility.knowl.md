@@ -1,0 +1,55 @@
++++
+id = "proofs/grh/derivatives-divisibility"
+title = "Derivatives of theta functions: divisibility at non-split primes"
+kind = "page"
+summary = "The p-adic divisibility of Taylor coefficients of products of theta functions of a CM curve along products of minors, at primes that do not split in K, with the arithmetic of the field E = K(zeta) that it uses."
+aliases = ["derivatives that count primes", "the count"]
+domains = ["proofs"]
+section_mode = "continuous"
+prerequisites = []
+lean = []
+lean_files = ["src/New/Derivatives/Divisibility/NormalForm.lean", "src/New/Derivatives/Divisibility/NullFrames.lean", "src/New/Derivatives/Divisibility/Count.lean", "src/New/Derivatives/FormalGroup/FrobeniusCongruence.lean", "src/New/Derivatives/FormalGroup/Exponent.lean", "src/New/Derivatives/FormalGroup/Resolution.lean", "src/New/Derivatives/FormalGroup/ThetaProducts.lean", "src/New/Derivatives/Field/PrimeDecomposition.lean", "src/New/Derivatives/Field/WeilData.lean", "src/New/Derivatives/Field/ChosenPlaces.lean"]
++++
+
+This chapter proves that certain Taylor coefficients ("jets") of products of theta functions of a curve with complex multiplication by \(K=\mathbb{Q}(\sqrt{-d})\) are divisible by explicit powers of every prime \(p\) that does not split in \(K\). In the whole argument this is the source of the *prime sums*: the theta lifts of the upper bound differentiate theta functions, and the divisibility of the derivatives at inert primes is what the composite lift gains. The chapter also sets up the arithmetic of the field \(E=K(\zeta)\): its different, the decomposition of primes, its Weil data, and the chosen places.
+
+## 1. Conventions
+
+Three notation knowls fix the language: the [[proofs/grh/derivatives-divisibility/p-adic-setting|\(p\)-adic setting]] (the valuation ring \(\mathcal{O}\) of \(\mathbb{C}_p\), integral series, jets \(Q(\partial)F(0)\), the numbers \(\pi_p,q_p,\rho_p,\gamma_p\) and the exponent sets \(I_p^\circ,I_p\)); the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]] (the functions \(\theta,x,y\), the series \(g=-\log\theta\), the ring \(\mathcal{O}[[y]]\), and the facts imported from the library); and the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]] with its group \(\Phi\) of infinite places, identified with \(\operatorname{Gal}(E/K)\cong(\mathbb{Z}/q_1)^\times\).
+
+## 2. The normal form
+
+The variables are \(z_{(\tau,i)}\), indexed by a place \(\tau\) and a coordinate \(i\). A partner rule assigns to each place a partner for each exponent \(e\), and the [[proofs/grh/derivatives-divisibility/coupling|coupling]] \(\Gamma_e=\sum z_{(\tau,i)}^{p^e}z_{(\operatorname{pr}_e\tau,i)}\) pairs the variables at a place with those at its partner. A series \(F\) has the [[proofs/grh/derivatives-divisibility/normal-form|normal form]] if
+\[
+F(\varpi z)=W\cdot\exp\Bigl(\frac{\varpi^{p+1}}{p}\sum_{e\in S}\sum_j\lambda_{e,j}\Gamma_e^{p^j}\Bigr)
+\]
+with \(W\) integral; the exponent is a [[proofs/grh/derivatives-divisibility/coupling-sum|coupling sum]]. Formal properties: the exponent [[proofs/grh/derivatives-divisibility/normal-form-modulo-pi|need only be known modulo \(\pi\)]]; the form is stable under [[proofs/grh/derivatives-divisibility/normal-form-substitution|substitution]] and [[proofs/grh/derivatives-divisibility/normal-form-valuation|depends only on the valuation of \(\varpi\)]]. The key consequence is the [[proofs/grh/derivatives-divisibility/normal-form-integrality|integrality criterion]]: if a substitution \(Z\) makes the couplings \(\Gamma_e(Z)\), \(e\le\log_pB\), divisible by \(\pi\), then \(F(\varpi Z)\) is integral in the degrees \(\le B\). (The [[proofs/grh/derivatives-divisibility/coupling-sum-derivatives|derivatives of a coupling sum modulo \(p\)]] are recorded for the sharpness of the bound, treated elsewhere.)
+
+## 3. Theta functions have the normal form
+
+On one curve, the [[proofs/grh/derivatives-divisibility/frobenius-congruence-for-theta|Frobenius congruence]] \(\theta(\pi_pz)=\theta(z)^{q_p}(1+\pi_pH)\), \(H\in\mathcal{O}[[y]]\), comes from the isogeny \(z\mapsto\pi_pz\) and the integrality of torsion values. Averaging over roots of unity isolates the [[proofs/grh/derivatives-divisibility/exponent-series|exponent series]] \(\Xi_1\), the part of \(-\log\theta\) in the degrees \(\equiv p+1\pmod{q_p-1}\); the Frobenius congruence becomes a functional equation for it, which is solved degree by degree. The result is the [[proofs/grh/derivatives-divisibility/exponent-on-one-curve|exponent on one curve]]: \(\theta(\varpi z)=W\exp(c_\varpi\Xi)\) with \(\Xi\equiv\sum_{e\in I_p^\circ}\sum_j\lambda_{e,j}(z^{p^e}z)^{p^j}\pmod{\pi_p}\). At an inert prime the \(\lambda_{e,0}\) are units, because [[proofs/grh/derivatives-divisibility/supersingular-coefficient-unit|the coefficient of \(z^{p-1}\) in \(x\) is a unit]].
+
+In several variables one takes vectors \(u_j\in E^n\) forming a [[proofs/grh/derivatives-divisibility/resolution-of-the-identity|resolution of the identity]], [[proofs/grh/derivatives-divisibility/integral-above-p|integral above \(p\)]], and the [[proofs/grh/derivatives-divisibility/theta-product|theta product]] \(\prod_j\theta(u_j^\dagger z)^{m_j}\). The [[proofs/grh/derivatives-divisibility/partner-of-a-place|partner]] of a place \(\tau\) is \(-p^e\tau\): modulo \(\pi_p\), the \(p^e\)-th power at \(\tau\) is complex conjugation at the partner, for \(e\in I_p^\circ\). This turns the resolution identity into the congruence \(\sum_jm_j(u_j^\dagger z)^{p^e}(u_j^\dagger z)\equiv\Gamma_e\), and gives the [[proofs/grh/derivatives-divisibility/normal-form-of-theta-products|normal form of theta products]].
+
+## 4. The count
+
+The jets of interest are taken along [[proofs/grh/derivatives-divisibility/product-of-minors|products of minors]] \(P_y\) attached to fillings of diagrams with column counts \(\kappa\); entries of the Schur matrix [[proofs/grh/derivatives-divisibility/schur-entry-to-minor-product|reduce to these]]. The proof of the bound has three ingredients. First, the [[proofs/grh/derivatives-divisibility/change-of-directions|change of directions]]: integral matrices \(g_{\tau,h}\), found by [[proofs/grh/derivatives-divisibility/elimination-of-congruences|elimination]], make the pairings \(\sum_a\beta_a^{p^e}\beta'_a\) of the new directions divisible by \(\pi_p\), at a cost \(\prod\lvert\det g\rvert\) bounded by the sum of the [[proofs/grh/derivatives-divisibility/deduction-term|deduction terms]]. Second, the integrality criterion of §2, applied to the linear substitution built from the new directions. Third, [[proofs/grh/derivatives-divisibility/legendre-bound-for-jets|Legendre's bound]] for jets of integral series. Together with the chain rule they give the [[proofs/grh/derivatives-divisibility/count-with-charges|count with charges]] and, as the case without marked places, [[proofs/grh/derivatives-divisibility/the-count|the count]]:
+\[
+v\bigl(P_y(\partial)F(0)\bigr)\ \ge\ \operatorname{pd}(\kappa)-f\,N^3\bigl(1+\log_p\max(B,1)\bigr),
+\]
+where \(\operatorname{pd}(\kappa)\) is the [[proofs/grh/derivatives-divisibility/predicted-divisibility|predicted divisibility]], equal to \(\gamma_pB\) minus the total deduction. The version with charges removes the columns of height one at a set of marked places from the prediction and lets powers of \(p\) on the rows pay for them.
+
+## 5. The field \(E=K(\zeta)\)
+
+[[proofs/grh/derivatives-divisibility/different-of-e|The different]]: \(P'(\zeta)=\Phi_{q_1}'(\zeta)\) generates \(\mathfrak{D}_{E/K}\), \(\mathcal{O}_E=\mathbb{Z}[\beta_K,\zeta]\), and \(\mathfrak{D}_{E/\mathbb{Q}}\) has a purely imaginary generator \(\delta_E\) with \(\prod_v\lvert\delta_E\rvert_v=\mathrm{rd}_E^f\); its [[proofs/grh/derivatives-divisibility/size-of-the-different|size]] at each infinite place is between \(x^{10}\) and \(x^{12}\). The [[proofs/grh/derivatives-divisibility/frobenius-on-generators|criterion on generators]] identifies when a Galois element acts as a power of Frobenius (possibly after conjugation) modulo a prime; it yields the [[proofs/grh/derivatives-divisibility/decomposition-of-primes-in-e|decomposition of primes in \(E\)]] through the Frobenius element \((\chi_K(p)p,\chi_K(p))\), and it is also what proves the congruence at partners in §3. Automorphisms of \(\mathbb{C}\) over \(K\) [[proofs/grh/derivatives-divisibility/place-permutation|permute the CM type]].
+
+For primes \(p\equiv1\pmod{q_1d}\) the [[proofs/grh/derivatives-divisibility/places-above-split-primes|places above \(p\)]] are described explicitly. The [[proofs/grh/derivatives-divisibility/weil-data-of-e|Weil data of \(E\)]] are \(\jmath=-1/\sqrt{-d}\), the idele \(\alpha\) built from \(P'(\zeta)\), and a splitting character; from them comes the number [[proofs/grh/derivatives-divisibility/vacuum-root|\(s_0\)]], all of whose conjugates over \(K\) have \(\lvert\sigma s_0\rvert^2=\mathrm{rd}_E/\sqrt d\). Finally, for admissible data, the [[proofs/grh/derivatives-divisibility/chosen-places-and-characters|chosen places]] (the primes dividing \(\pi_M\)) carry residue characters \(\omega_w\) of order \(q_2\); characters \(\chi_0,\chi_M\) of \(U(1)\) of prescribed weight exist; and the set of [[proofs/grh/derivatives-divisibility/critical-pair|pairs]] is finite.
+
+## 6. Dependencies on other chapters
+
+From the library: integrality of torsion values of theta functions and the expansion of even sections; the ring \(\mathcal{O}[[y]]\), its formal parameter and the scaled parameter \(Y\); bounds for exponentials of \(p\)-adic series; the Schur matrix and its expansion in products of minors; splitting characters and characters of given weight. From the data: the parameters, the field \(E\) and its places, and the admissible data \(D\). All are linked where they are used.
+
+## References
+
+1. Lean: the files `src/New/Derivatives/Divisibility/*.lean`, `src/New/Derivatives/FormalGroup/*.lean`, `src/New/Derivatives/Field/*.lean`.
+2. Related work named in the source (not used in the proofs): N. Katz, *Divisibilities, congruences, and Cartier duality* (1981); M. Chellali, *Congruences entre nombres de Bernoulli–Hurwitz dans le cas supersingulier* (1990); Y. Fujiwara, *On divisibilities of special values of real analytic Eisenstein series* (1988); K. Bannai, S. Kobayashi, S. Yasuda, *The radius of convergence of the p-adic sigma function* (2017).

@@ -1,0 +1,45 @@
++++
+id = "proofs/grh/upper-objects/gauge-bounds-for-one-lift"
+title = "p-adic gauge bounds for one theta lift between definite spaces"
+kind = "theorem"
+summary = "Data that raise the p-adic gauge of forms by at most a factor; standard data raise it by an explicit power of the scale, and at a prime not split in K by p to minus the predicted divisibility up to an error; a suitable integer multiple of a datum does not increase gauges."
+aliases = ["gauge bound for one lift"]
+domains = ["proofs"]
+section_mode = "progressive"
+prerequisites = []
+lean = ["New.Parameters.pairWeil_mem_standardData", "New.Parameters.omega_mem_raises_of_schurJet_le", "New.Parameters.omega_mem_raises_of_jet_minorProd_le", "New.Parameters.mem_raises_of_standardData", "New.Parameters.mem_raises_predictedDivisibility", "New.Parameters.smul_mem_raises_of_dvd"]
+lean_files = ["src/New/UpperBound/Kernels/ThetaLiftGauge.lean"]
+proof_status = "outline"
++++
+
+Let \(E=E_s\), \(p\) a prime with \(\iota_p\colon\mathbb C\to\mathbb C_p\), \(n,n'\) finite index sets, \(a,b\) characters of \(U(1)(\mathbb A)\) with exponents \(e_a,e_b\) and tame parts, and \(\kappa\) column numbers forming a [[?lean:New.IsLiftWeight|lift weight]] from rank \(\lvert n\rvert\) to \(\lvert n'\rvert\) (source determinant exponent \(e\), target \(e_a\)). Let \(k_c\) be the [[?lean:New.thetaKernel|theta kernel]] of scale \(c\) of the standard definite spaces, at any level: its data space is the finite part of \(V=\operatorname{Hom}(I_n,I_{n'})\), \(\omega=\omega_{a,b}\), and \(\operatorname{jet}(f)\) is the Schur jet matrix \(\operatorname{SJ}_\kappa(\operatorname{Jet}_c f)\). For an integer \(\delta\) of \(K\), the [[?lean:New.Parameters.standardData|standard data for \(\delta\)]] (at \(p\)) are the combinations, with coefficients \(z\) such that \(\lvert\iota_pz\rvert\le1\), of the translates \(\varrho^{\mathrm{fin}}(x)v^{\mathrm{int}}\) of the integral vacuum by the finite vectors \(x\) with \(\delta x\) integral above \(p\). A finite point is *integral above \(p\)* if its components at all primes above \(p\) are integral invertible matrices. Let \(\mathrm{bx}\) be the number of boxes of \(\kappa\) in columns of height \(<\lvert n'\rvert\), \(c_0\) the jet scale, \(f_E\) the number of infinite places. See [[proofs/grh/upper-objects/gauge-raising-data|data raising gauges]] for the notion and the diagonal weight \(\operatorname{dw}\) (with \(e'=e_a\)).
+
+**Theorem.**
+
+1. If \(f\) is standard for \(\delta\) and \(g,h\) are integral above \(p\), then \(\omega_{a,b}(g,h)f\) is standard for \(\delta\).
+2. *(Criterion.)* Let \(\Psi\) be standard for \(\delta\), let \(x,y\in U(I_{n'})(\mathbb A_f)\) be integral above \(p\), and let \(d\) be a finite point which, for every infinite place \(\tau\), is sent by the embedding \(z\mapsto\iota_p(\tau(\bar z))\) (applied entrywise to finite adelic matrices) to a diagonal matrix \(\operatorname{diag}(u_\tau)\). Suppose that for every standard \(f\) for \(\delta\) and all basis indices \(i',i\): \(\operatorname{dw}(u,i')\cdot\lvert\iota_p(\operatorname{SJ}_\kappa(\operatorname{Jet}_cf)_{i',i})\rvert\le B\). Then \(\omega(1,xdy)\Psi\) raises gauges by at most \(B\) from \(1\) to \(1\) for \(k_c\).
+3. *(Criterion with minors.)* The same conclusion holds if instead, for every standard \(f\), every \(i'\) and every family \(w\) of elements of the valuation ring of \(\mathbb C_p\) (indexed by place, \(n\), \(\mathbb N\)): \(\operatorname{dw}(u,i')\cdot\lvert\operatorname{jet}_{m_{i',w}}(\iota_p\operatorname{Jet}_cf)\rvert\le B\), where \(m_{i',w}\) is the [[?lean:New.minorProd|product of minors]]: over the places and the columns of height \(h<\lvert n'\rvert\) of \(\kappa\), the minor of \(Z_\tau w_\tau\) on the rows listed in that column of \(i'\) and the columns \(l<h\).
+4. *(Standard data.)* If \(\delta\ne0\) and \(\Phi\) is standard for \(\delta\), then \(\Phi\) raises gauges by at most \(\big(\lvert\iota_pc\rvert/\lvert\iota_p(\bar\delta\,d_K)\rvert\big)^{\mathrm{bx}}\) from \(1\) to \(1\) for \(k_{c\,c_0}\) (\(d_K\) is the prime of the parameters, \(K=\mathbb Q(\sqrt{-d_K})\)).
+5. *(Predicted divisibility.)* If \(\chi_K(p)\ne1\), \(\lvert\iota_pc\rvert\le1\) and \(\Phi\) is standard for \(\delta=1\), then \(\Phi\) raises gauges for \(k_{c\,c_0}\) by at most \(p^{-(D-f_EN^3(1+\log_p\max(\mathrm{bx},1)))}\), \(N=\lvert n'\rvert\), with \(D\) the [[?lean:New.predictedDivisibility|predicted divisibility]] of \((d_K,p,\kappa,N)\) for the [[?lean:New.Parameters.partner|partner permutation]] of the places at \(p\).
+6. *(Clearing.)* Let \(\lvert\iota_pc\rvert\le1\), \(N_0\ge1\), and let \(f\) be a datum such that \(d_0f\) is standard for \(N_0\) (\(d_0\in\mathbb N\)). If \(d_0(N_0d_K)^{\mathrm{bx}}\mid M\), then \(Mf\) raises gauges by at most \(1\) for \(k_{c\,c_0}\).
+
+## Proof
+
+Cited from other areas, with their content: (i) `omega_mem_standardData`: \(\omega(k)\) preserves standard data for finite points \(k\) of \(U(V)\) integral above \(p\); (ii) `weylGauge_embFin`: \(\operatorname{gauge}_{\gamma g}(\rho(\gamma)\xi)=\operatorname{gauge}_g(\xi)\) for rational \(\gamma\); (iii) `weylGauge_mul_of_mem_integralAbove`: \(\operatorname{gauge}_{gk}=\operatorname{gauge}_g\) for \(k\) integral above \(p\); (iv) `exists_mul_mem_integralAbove` (weak approximation): for finite points \(g,d\) there is a rational \(\gamma\) with \(\gamma g\) and \(d(\gamma g)d^{-1}\) integral above \(p\); (v) `exists_norm_schurJet_le_norm_jet_minorProd`: each entry of a Schur jet matrix over \(\mathbb C_p\) is bounded in norm by the jet along some product of minors with the same rows and \(p\)-integral \(w\); (vi) `norm_jet_jetSeries_le_pow`: for \(f\) standard for \(\delta\ne0\) and \(Q\) homogeneous of degree \(L\) with \(p\)-integral coefficients, \(\lvert\iota_p\operatorname{jet}_Q(\operatorname{Jet}_{cc_0}f)\rvert\le(\lvert\iota_pc\rvert/\lvert\iota_p(\bar\delta d_K)\rvert)^L\); (vii) `norm_jet_minorProd_jetSeries_le`: the bound of 5 for jets along products of minors (the main divisibility theorem for derivatives of theta functions).
+
+*1.* \(\omega_{a,b}(g,h)\) is the character value \(a(\det h)b(\det g)^{-1}\), a \(p\)-adic unit for points integral above \(p\), times \(\omega(k)\) for the induced point \(k\), which is integral above \(p\); use (i).
+
+*2.* Fix \(g,g',\xi\). By (iv) choose rational \(\gamma\), \(\varepsilon\) with \(g_0=\gamma g\), \(g_1=\varepsilon g'xd\) and \(dg_1d^{-1}\) integral above \(p\). Put \(\Psi'=\omega(g_0,g_1y)\Psi\), standard by 1, and \(\eta=\rho(\gamma)\xi\). By equivariance of the jet map under rational points and (ii),
+\(\operatorname{gauge}_{g'}(\operatorname{jet}(\omega(g,g')\omega(1,xdy)\Psi)\xi)=\operatorname{gauge}_{\varepsilon g'}(\operatorname{jet}(\Psi')\eta)\); and \(d^{-1}=\varepsilon g'\cdot k\) with \(k=x\,(dg_1d^{-1})^{-1}\) integral above \(p\) (indeed \(\varepsilon g'x\,d\,g_1^{-1}d^{-1}=g_1g_1^{-1}d^{-1}\)), so by (iii) the gauge at \(\varepsilon g'\) equals the gauge at \(d^{-1}\). The gauge at \(d^{-1}\) of a vector \(v\) is the sup norm of \(\rho_p(d)(\iota_pv)\), and \(\rho_p(d)\) is diagonal in the basis of fillings with entries \(\prod_\tau(\prod_bu_{\tau,b})^{e_a(\tau)}\prod_{\text{boxes}}u_{\tau,\cdot}\). Hence it is the sup norm of \(A(\iota_p\eta)\) for the matrix \(A\) with \(\lvert A_{i',i}\rvert=\operatorname{dw}(u,i')\lvert\iota_p\operatorname{SJ}_\kappa(\operatorname{Jet}_c\Psi')_{i',i}\rvert\le B\); ultrametrically \(\lVert A\iota_p\eta\rVert\le\max(B,0)\lVert\iota_p\eta\rVert=\max(B,0)\operatorname{gauge}_1(\eta)\), and \(\operatorname{gauge}_1(\eta)=\operatorname{gauge}_{g_0}(\eta)=\operatorname{gauge}_g(\xi)\) by (iii), (ii).
+
+*3.* From 2 and (v).
+
+*4.* Apply 2 with \(x=d=y=1\), \(u=1\): the entries of the Schur matrix are homogeneous polynomials of degree \(\mathrm{bx}\) with integral coefficients; use (vi).
+
+*5.* Apply 3 with \(x=d=y=1\) and (vii).
+
+*6.* Write \(M=d_0(N_0d_K)^{\mathrm{bx}}q\). By 4 (with \(\delta=N_0\)) \(d_0f\) raises by at most \((\lvert\iota_pc\rvert/\lvert\iota_p(N_0d_K)\rvert)^{\mathrm{bx}}\le\lvert\iota_p(N_0d_K)\rvert^{-\mathrm{bx}}\); multiply by \((N_0d_K)^{\mathrm{bx}}q\), whose \(p\)-adic norm is at most \(\lvert\iota_p(N_0d_K)\rvert^{\mathrm{bx}}\), and use the scaling rule. \(\square\)
+
+## References
+
+1. Lean: `New.Parameters.omega_mem_raises_of_schurJet_le`, `New.Parameters.omega_mem_raises_of_jet_minorProd_le`, `New.Parameters.mem_raises_of_standardData`, `New.Parameters.mem_raises_predictedDivisibility`, `New.Parameters.smul_mem_raises_of_dvd` in `src/New/UpperBound/Kernels/ThetaLiftGauge.lean`.
