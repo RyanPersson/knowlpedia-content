@@ -80,8 +80,6 @@ prerequisites = []
 
 Browse the [analytic number theory index](/analytic-number-theory/) or the [arithmetic geometry index](/arithmetic-geometry/) for the individual concepts.
 
-The [[grh-lean|guided proof of the shorter Lean edition]] follows the later argument from an estimate valid at every sufficiently large cutoff.
-
 ## References
 
 - Przemek Chojecki (@prz_chojecki), post reproduced from the supplied screenshot.

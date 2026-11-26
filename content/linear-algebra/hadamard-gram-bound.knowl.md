@@ -15,7 +15,7 @@ If \(v_1,\ldots,v_n\) are vectors in an [[linear-algebra/inner-product-space|inn
 
 ## Proof
 
-If the vectors are dependent the [[linear-algebra/determinant|determinant]] is zero. Otherwise subtract from \(v_i\) its [[linear-algebra/orthogonal-projection|orthogonal projection]] onto the span of the earlier vectors. This triangular change of family has determinant one, so it preserves the Gram determinant. The new Gram matrix is diagonal, and each diagonal entry is at most \(\|v_i\|^2\).
+If the vectors are dependent the [[linear-algebra/determinant|determinant]] is zero. Otherwise [[linear-algebra/gram-schmidt-orthogonalization|orthogonalize the family]] by subtracting from \(v_i\) its [[linear-algebra/orthogonal-projection|orthogonal projection]] onto the span of the earlier vectors. This triangular change of family has determinant one, so it preserves the Gram determinant. The new Gram matrix is diagonal, and each diagonal entry is at most \(\|v_i\|^2\).
 
 ## References
 

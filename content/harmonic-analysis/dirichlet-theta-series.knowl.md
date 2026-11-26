@@ -15,7 +15,7 @@ For a [[analytic-number-theory/dirichlet-character|Dirichlet character]] \(\chi\
 
 ## Change of variables
 
-Positive and two-sided summation conventions differ by a constant and sometimes the term at zero. A [[harmonic-analysis/mellin-transform|Mellin transform]] turns the Gaussian weight into a [[real-analysis/gamma-function|gamma factor]] and the character sum into the [[analytic-number-theory/dirichlet-l-function|Dirichlet \(L\)-function]].
+Positive and two-sided summation conventions differ by a constant and sometimes the term at zero. A [[harmonic-analysis/mellin-transform|Mellin transform]] turns the Gaussian weight into a [[complex-analysis/complex-gamma-function|gamma factor]] and the character sum into the [[analytic-number-theory/dirichlet-l-function|Dirichlet \(L\)-function]].
 
 ## References
 

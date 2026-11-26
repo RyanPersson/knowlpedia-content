@@ -36,6 +36,6 @@ Arithmetic geometry studies geometric objects over fields such as the rational n
 - [[arithmetic-geometry/integral-lattice-comparison|Comparing integral lattices]], [[arithmetic-geometry/galois-cohomology|Galois cohomology]] and [[arithmetic-geometry/galois-localization-kernel|localization kernels]]
 - [[algebra-fields-galois/ideal-class-group|Ideal class groups]] and [[arithmetic-geometry/vandiver-conjecture|Vandiver’s conjecture]]
 
-For prime sums, characters and zeros of \(L\)-functions, see the [analytic number theory index](/analytic-number-theory/).
+The [[arithmetic-geometry/covolume-bound-from-twist-estimates|lower covolume bound from twist estimates]] follows from a [[arithmetic-geometry/twisted-lattice-determinant-inequality|determinant inequality for twisted Hermitian lattices]].
 
-The [[grh-lean/main-inequality|covolume comparison in the Dirichlet GRH proof]] has three inputs. Open [[grh-lean/short-forms|short forms]], [[grh-lean/enough-forms|enough forms]] or [[grh-lean/long-forms|the lower bound for integral forms]] for the corresponding argument.
+For prime sums, characters and zeros of \(L\)-functions, see the [analytic number theory index](/analytic-number-theory/).

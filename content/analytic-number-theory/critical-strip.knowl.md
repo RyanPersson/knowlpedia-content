@@ -8,7 +8,7 @@ section_mode = "progressive"
 prerequisites = ["analytic-number-theory/dirichlet-l-function"]
 +++
 
-The **open critical strip** of a [[analytic-number-theory/dirichlet-l-function|Dirichlet \(L\)-function]] in classical normalization is \(\{s\in\mathbb C:0<\Re s<1\}\). Its **critical line** is \(\Re s=1/2\), the line about which the real parts pair under \(s\mapsto1-s\).
+The **open critical strip** of a [[analytic-number-theory/dirichlet-l-function|Dirichlet \(L\)-function]] in classical normalization is \(\{s\in\mathbb C:0<\Re s<1\}\). Its [[analytic-number-theory/critical-line|critical line]] is \(\Re s=1/2\), the line about which the real parts pair under \(s\mapsto1-s\).
 
 ## References
 

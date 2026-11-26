@@ -32,6 +32,4 @@ Analytic number theory studies questions about integers and primes using analysi
 
 For splitting of primes in number fields and divisibility of algebraic values, see the [arithmetic geometry index](/arithmetic-geometry/).
 
-## Guided proof
-
-[[grh-lean|The Riemann hypothesis and Dirichlet GRH]] · [[grh-lean/dependencies|Proof steps and mathematical dependencies]]
+The [[analytic-number-theory/dirichlet-and-theta-glossary|index of Dirichlet L-functions and theta lifts]] includes definitions from harmonic analysis and arithmetic geometry.

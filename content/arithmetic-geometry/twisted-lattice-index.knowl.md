@@ -8,7 +8,7 @@ section_mode = "progressive"
 prerequisites = ["arithmetic-geometry/twisted-hermitian-lattice", "arithmetic-geometry/padic-comparison-place", "linear-algebra/determinant"]
 +++
 
-For a family \(y_1,\ldots,y_n\) in [[arithmetic-geometry/twisted-hermitian-lattice|twisted Hermitian lattice data]], **index at most \(\delta\)** means that there are \(e_p\ge0\) with \(\sum_{p\in S} e_p\log p\le\delta\) for every [[shared-foundations/finite-set|finite set]] of primes \(S\). For each [[arithmetic-geometry/padic-comparison-place|comparison]] \(\iota\) over \(p\), a single matrix \(U\in M_n(\mathcal O_\iota)\) must make every row combination \(\sum_j U_{ij}y_j\) integral for all allowed twists and satisfy \(|\iota(\det U)|_p\ge p^{-e_p}\).
+For a family \(y_1,\ldots,y_n\) in [[arithmetic-geometry/twisted-hermitian-lattice|twisted Hermitian lattice data]], **index at most \(\delta\)** means that there are \(e_p\ge0\) with \(\sum_{p\in S} e_p\log p\le\delta\) for every [[shared-foundations/finite-set|finite set]] of primes \(S\). For each [[arithmetic-geometry/padic-comparison-place|comparison]] \(\iota\) over \(p\), a single [[arithmetic-geometry/matrix-clearing-an-index|clearing matrix]] \(U\in M_n(\mathcal O_\iota)\) must make every row combination \(\sum_j U_{ij}y_j\) [[arithmetic-geometry/integral-vectors-for-a-family-of-twists|integral for all allowed twists]] and satisfy \(|\iota(\det U)|_p\ge p^{-e_p}\).
 
 ## Why the determinant matters
 
