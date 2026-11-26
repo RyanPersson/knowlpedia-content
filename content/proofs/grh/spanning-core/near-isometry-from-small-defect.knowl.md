@@ -33,7 +33,3 @@ So \(\lVert Ap\rVert^2_{\mathrm{HS}}\ge\dim U-\varepsilon\dim S\). \(\blacksquar
 ## References
 
 1. Lean: `New.isNearIsometry_of_hilbertSchmidtNorm_le` in `src/New/Spanning/SecondMoment/FewTranslates.lean`.
-
-## References
-
-1. Lean: `New.isNearIsometry_of_hilbertSchmidtNorm_le` in `src/New/UpperBound/ElementaryDivisors/.lean`.

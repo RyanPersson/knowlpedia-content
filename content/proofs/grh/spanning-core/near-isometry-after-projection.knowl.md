@@ -35,7 +35,3 @@ and the last term is at most \(\lVert(1-p)A\rVert_{\mathrm{HS}}^2\le\delta\dim S
 ## References
 
 1. Lean: `New.IsNearIsometry.proj_comp`, `New.hilbertSchmidtNorm_one_sub_mul_comp_sq_le` in `src/New/Spanning/SecondMoment/FewTranslates.lean`.
-
-## References
-
-1. Lean: `New.IsNearIsometry.proj_comp`, `New.hilbertSchmidtNorm_one_sub_mul_comp_sq_le`, `New.norm_sq_eq_add_of_isSymmetricProjection` in `src/New/UpperBound/ElementaryDivisors/.lean`.

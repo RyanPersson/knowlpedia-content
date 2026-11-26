@@ -49,7 +49,3 @@ This is used in [[?lean:New.Filling.HasAmplitudeBlocks.sum_hilbertSchmidtNorm_sq
 ## References
 
 1. Lean: `New.card_mul_sum_det_eq_zero_le` in `src/New/Spanning/SecondMoment/PositiveType.lean`.
-
-## References
-
-1. Lean: `New.card_mul_sum_det_eq_zero_le`, `New.card_le_card_filter_vecMul_eq_zero` in `src/New/UpperBound/ElementaryDivisors/.lean`.

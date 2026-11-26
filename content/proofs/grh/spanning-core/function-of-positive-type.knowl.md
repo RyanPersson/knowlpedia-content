@@ -44,7 +44,3 @@ In the Lean source the notion is not a named definition: it appears as the hypot
 ## References
 
 1. Lean: `New.inner_sum_sum_eq_card_mul`, `New.norm_sq_sum_tmul_eq_card_mul_sum` in `src/New/Spanning/SecondMoment/PositiveType.lean`.
-
-## References
-
-1. Lean: `New.inner_sum_sum_eq_card_mul`, `New.norm_sq_sum_tmul_eq_card_mul_sum` in `src/New/UpperBound/ElementaryDivisors/.lean`.
