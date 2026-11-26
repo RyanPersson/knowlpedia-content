@@ -19,8 +19,6 @@ Use [[grh-lean/admissibility|existence of admissible data]] with \(m\ge\sqrt x,\
 \]
 The first term has size at most \(64\varphi(q_0)x^{-1/2+6\delta}\). For fixed \(d,q_0\), [[grh-lean/tail-bound|the prime number theorem at the larger cutoff]] makes both errors smaller than the remaining allowance. All three estimates apply at the same \(x\).
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.OneSidedBound:125).
-
 ## References
 
 - [New/Reduction/OneSidedBound.lean, eventually_primeRemainder_natCast_le](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/OneSidedBound.lean#L125)

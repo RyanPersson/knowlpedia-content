@@ -16,8 +16,6 @@ A zero forces a large integral of two [[harmonic-analysis/dirichlet-theta-series
 
 Average the squares of the short theta sums over twists. The diagonal terms have square product of odd parts. For the other terms the [[analytic-number-theory/polya-vinogradov|Pólya–Vinogradov character-sum bound]] gives cancellation. [[analytic-number-theory/quadratic-reciprocity|Quadratic reciprocity]] turns the estimate into \(O(X^{1-\eta})\) exceptional primes up to \(X\) for some \(\eta>0\). Such a set has finite \(\sum_d(\log d)/d\), whereas this sum diverges in the allowed class by the [[analytic-number-theory/prime-number-theorem-progressions|prime number theorem in progressions]].
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=Lib.Analytic.QuadraticTwist:796).
-
 ## References
 
 - [Lib/Analytic/QuadraticTwist.lean, exists_entireL_quadTwist_ne_zero](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/Lib/Analytic/QuadraticTwist.lean#L796)

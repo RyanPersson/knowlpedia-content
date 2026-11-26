@@ -19,8 +19,6 @@ Fix an integer \(n\) in the prime-power sum. Multiplication by its place class s
 
 Sum over \(n\) and subtract the expected main term. The logarithms and the constant for modulus \(1\) cancel against it. The two copies of the constant for \(q_0\) cancel between cutoffs. Finally \(f=\varphi(q_0)|\Phi_a|\) and \(|\Phi_a|/|\Phi_b|\le\log b\). Dividing by \(a|\Phi_b|\) converts a one-sided bound for \(R\) into one for \(R_{q_0}(x)\).
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.PrimeSums:177).
-
 ## References
 
 - [New/Reduction/PrimeSums.lean, totalRemainder_eq](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/PrimeSums.lean#L177)

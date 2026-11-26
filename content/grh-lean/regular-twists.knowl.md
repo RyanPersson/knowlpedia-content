@@ -14,8 +14,6 @@ For [[grh-lean/arithmetic-data|admissible data]] there is a family \(\xi_\iota\)
 
 Describe the finitely many relevant systems of [[harmonic-analysis/hecke-eigensystem|Hecke eigenvalues]] by [[grh-lean/attached-representations|attached Galois summands]]. For each \(\iota\), use [[grh-lean/selmer-twisting|the simultaneous twisting theorem]] on these representations and on the systems controlling special values. Small Selmer lengths then give [[grh-lean/projection-denominators|a denominator bound for the projection to genuine lifts]]. The bounds can be summed over rational primes, and choosing one of the allowed twists at each \(\iota\) produces the family.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Congruences.FitTwistsExist:517).
-
 ## References
 
 - [New/Congruences/FitTwistsExist.lean, New.exists_isRegularFamily](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Congruences/FitTwistsExist.lean#L517)

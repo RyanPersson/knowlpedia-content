@@ -21,8 +21,6 @@ Apply [[grh-lean/long-forms|Theorem C]] to the same family. It gives \(d_T(H-3\e
 \]
 Here \(n\le d_T\), and \(H\ge0\) allows the first term to be dropped. Since \(n\ge d_T/2>0\), the scale bounds absorb \(2(4\ell+2I)\) into \(fa(\log b)^5\).
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.MainInequality:87).
-
 ## References
 
 - [New/Reduction/MainInequality.lean, star_inequality](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/MainInequality.lean#L87)

@@ -20,8 +20,6 @@ away from \(0,1\), where \(F_\psi\) is the [[analytic-number-theory/entire-diric
 
 The hypothesis supplies the one-sided exponential bound needed by [[grh-lean/landau|Landau’s argument]]. It gives \(r(\rho)=0\). The numerator is a sum of nonnegative [[complex-analysis/analytic-zero-order|orders of vanishing]], so each order is zero. Since \(\rho\ne1\), this gives the assertion for the original \(L\)-function.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.Zeros.Criterion:37).
-
 ## References
 
 - [New/Reduction/Zeros/Criterion.lean, New.LFunction_ne_zero_of_primeRemainder_le](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/Zeros/Criterion.lean#L37)

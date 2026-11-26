@@ -14,8 +14,6 @@ Suppose \(E\) is measurable, \(|E(v)|\le Ce^v\) for \(v\ge0\), and its weighted 
 
 Increase a constant \(A\) until \(Ae^{(\beta-1)v}-E(v)\) is nonnegative for all \(v\ge0\). Integrating against this density gives a positive measure. Its transform equals an explicit rational term minus the original transform. Any real singularity strictly to the right of \(\beta\) would have [[complex-analysis/residue|residue]] of the wrong sign for a transform of a positive measure approached from the right. A removable real singularity cannot be the abscissa of convergence by [[analytic-number-theory/landau-laplace-singularity|Landau’s singularity principle for positive transforms]]: expansion at a regular point, with nonnegative terms, extends exponential integrability a little to the left. Thus the transform converges and is analytic throughout the required half-plane.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=Lib.Analytic.Landau:217).
-
 ## References
 
 - [Lib/Analytic/Landau.lean, IsPolar.landau](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/Lib/Analytic/Landau.lean#L217)

@@ -16,8 +16,6 @@ Complete the family to a basis by [[grh-lean/auxiliary-forms|auxiliary forms]] w
 
 Apply the [[grh-lean/gram-bound|Gram determinant product inequality]] to the full basis. The missing \(d_T-n\) vectors cost at most the allowed fraction of the total error. The bounds on the single lifts supply the main amount \(d_TH\). Accounting for the auxiliary vectors and the prime losses gives \(3d_T\ell\) as the total allowance.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Determinant.Twist.LongForms:214).
-
 ## References
 
 - [New/Determinant/Twist/LongForms.lean, integral_forms_long](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Determinant/Twist/LongForms.lean#L214)

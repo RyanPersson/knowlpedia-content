@@ -17,8 +17,6 @@ For the [[analytic-number-theory/prime-remainder-in-progression|quadratic prime 
 
 In a right half-plane integrate the ramp weight \(1/n-1/x\) explicitly. The resulting [[analytic-number-theory/dirichlet-series|Dirichlet series]] is a difference of logarithmic derivatives because [[analytic-number-theory/von-mangoldt-function|von Mangoldt coefficients]] occur in \(-L'/L\). [[algebra-representation-theory/character-orthogonality|Character orthogonality]] restricts it to the identity class. The logarithmic and constant terms in the definition of \(R\) cancel the singular terms at \(1\). Now continue the expression from the right. A logarithmic derivative has a simple pole at a zero with [[complex-analysis/residue|residue]] its [[complex-analysis/analytic-zero-order|order]], which gives the numerator with the displayed sign.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.Zeros.PrimeError:414).
-
 ## References
 
 - [New/Reduction/Zeros/PrimeError.lean, isPolar_primeRemainder](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/Zeros/PrimeError.lean#L414)

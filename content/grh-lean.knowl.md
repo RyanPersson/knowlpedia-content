@@ -38,7 +38,7 @@ In the [[grh-lean/main-inequality|comparison]], the main size term cancels. What
 
 ## Reading further
 
-The [[grh-lean/dependencies|dependency index]] collects the proof steps and their mathematical prerequisites. The [Lean declaration index](/grh-lean/declarations/) follows the formal development down to individual statements. This reading follows the 803-module edition in `grh/` at commit `72fead10`. Luke Sernau credits his colleagues at Anthropic and Claude for this shorter rewriting. The compact edition in the same repository uses different intermediate proofs.
+The [[grh-lean/dependencies|dependency index]] collects the proof steps and their mathematical prerequisites. This reading follows the 803-module edition in `grh/` at commit `72fead10`. Luke Sernau credits his colleagues at Anthropic and Claude for this shorter rewriting. The compact edition in the same repository uses different intermediate proofs.
 
 ## Verification
 

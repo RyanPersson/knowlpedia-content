@@ -159,9 +159,9 @@ The reader and glossary use 533 existing knowls through their linked terms and r
 - [[grh-lean/prerequisites-shared-foundations|Shared Foundations]] (52)
 - [[grh-lean/prerequisites-topology|Topology]] (35)
 
-## Formal sources and dependencies
+## Source edition
 
-The [Lean declaration index](/grh-lean/declarations/) follows the five public theorems through their proof terms and the declarations they use in the readable edition, Mathlib and Lean. Each project module also has its own import list and source text. The package pins, three logical axioms and downloadable declaration list are available there.
+The mathematical statements and proof steps follow the readable edition of Alpöge’s proof in `grh/`. Each knowl gives its mathematical prerequisites inline.
 
 ## References
 

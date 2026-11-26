@@ -14,8 +14,6 @@ For a main pair and a prime away from the twist modulus there is an integral tes
 
 Build the form from class sums on four blocks. The [[grh-lean/jet-sharpness|sharpness of the jet estimate]] supplies local factors attaining the required [[harmonic-analysis/theta-jet|jet valuation]], so the pairing survives to the predicted precision. Orthogonality removes the false lifted types. Project onto the line of the actual lift and use the known denominator of its projection. Comparing that pairing with the squared norm of the lifted line bounds the inverse special-value ratio at the chosen prime. Combining the local bounds with the conjugate size estimate gives its height bound.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.OneLift.HeckeValues.TwistedValueHeights:700).
-
 ## References
 
 - [New/OneLift/HeckeValues/TwistedValueHeights.lean, exists_isTestForm_le_norm_inner_trivialLift](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/OneLift/HeckeValues/TwistedValueHeights.lean#L700)

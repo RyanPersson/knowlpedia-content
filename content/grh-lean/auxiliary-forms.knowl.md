@@ -14,8 +14,6 @@ For the target there are nonzero scalars \(\gamma_\xi\), with \(\gamma_1=1\), an
 
 Start with restrictions of short forms. Pair their chain of lifts with delta forms, which read off individual values. Use successive [[harmonic-analysis/theta-seesaw|exchanges of theta lifts]] on a square grid to express each pairing as a scalar times a final [[harmonic-analysis/automorphic-period|period]]. Bound the denominators of this period away from the modulus and its conjugate size at the trivial twist. The product of the exchange factors gives \(\gamma_\xi\). Project to the good target. Linear algebra can now complete any independent family by exactly the missing number of these vectors.
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#module=New.Determinant.AuxiliaryForms.SpanningForms).
-
 ## References
 
 - [New/Determinant/AuxiliaryForms/SpanningForms.lean](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Determinant/AuxiliaryForms/SpanningForms.lean)

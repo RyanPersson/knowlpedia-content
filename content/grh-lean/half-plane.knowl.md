@@ -16,8 +16,6 @@ For \(\rho=1\) use the classical nonvanishing of the nonprincipal values \(L(1,\
 
 For each prime \(d\) in this class the [[grh-lean/real-cutoffs|arithmetic estimate for every large real cutoff]] gives \(R_{d,q_0}(x)\le x^{\beta-1}\), by taking \(\epsilon=\beta-1/2\). The [[grh-lean/zero-criterion|one-sided zero criterion]] rules out a zero at \(\rho\) for every character modulo \(q_0\). Apply it to the character induced by \(\chi\). Changing the level multiplies \(L(\rho,\chi)\) by finitely many [[langlands/euler-product-and-local-factor|Euler factors]], so nonvanishing of the product implies nonvanishing of \(L(\rho,\chi)\).
 
-[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.OneSidedBound:239).
-
 ## References
 
 - [New/Reduction/OneSidedBound.lean, grh](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/OneSidedBound.lean#L239)
