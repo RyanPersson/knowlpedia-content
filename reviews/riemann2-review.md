@@ -2,6 +2,8 @@
 
 The translation and the authors’ reports were reviewed at content commit `1e9a4864` and Knowlpedia commit `562a1cc`, against `grh-lean` commit `72fead10`. The inventory covers all seven finished chapters. The mathematical review samples statements and proof steps, with particular attention to questions raised by their authors.
 
+**Update after the review.** Content commit `06b4ec57` changes only `upper-elementary-divisors`. The translators now mark that eighth chapter finished. Its 67 knowls include 44 marked `full` and one marked `outline`. The author identifies the numerical lemmas behind “Consequences of large degree” as the part read at statement level. [New chapter](https://github.com/RyanPersson/knowlpedia-content/tree/06b4ec57260b008a006c535c509b8a930ff63c35/content/proofs/grh/upper-elementary-divisors) · [Author’s report](https://github.com/RyanPersson/knowlpedia/blob/9fff20ccf0bb87dc423ab161a1cea9b2705d79fb/docs/riemann2/reports/upper-elementary-divisors.md#L24)
+
 ## Where to start
 
 Each report records how closely the author read the Lean files and which steps they left open. The area links open the individual knowls directly on GitHub. To follow work after this snapshot, use the two comparisons. [Subsequent translation changes](https://github.com/RyanPersson/knowlpedia-content/compare/1e9a486456f7a631e9492ceb29b305431faea78d...riemann2) · [Subsequent report and tooling changes](https://github.com/RyanPersson/knowlpedia/compare/562a1cc4cbfbe001a0edde6fb8c710e333def9ac...riemann2)
