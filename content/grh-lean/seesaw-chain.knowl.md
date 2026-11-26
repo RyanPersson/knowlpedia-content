@@ -12,7 +12,7 @@ For the ramified source and the chosen normalization of the [[harmonic-analysis/
 
 ## Proof
 
-Pair the lower chain with a test form on its last definite unitary group. Unfold the Poincaré series and move the [[harmonic-analysis/automorphic-period|period integral]] across the first pair using the [[harmonic-analysis/theta-seesaw|theta seesaw identity]]. At each step the finite variables give a weighted sum over classes and the real integral is evaluated separately. Repeat through all \(m\) pairs. At the top the pairing reads the restriction of the source-side composite. The common scalar is incorporated in the normalization. Equality against every test form identifies the two vectors.
+Pair the lower chain with a test form on its last definite [[arithmetic-geometry/unitary-group-hermitian-space|unitary group]]. Unfold the Poincaré series in the [[harmonic-analysis/adelic-theta-kernel|theta kernel]] and move the [[harmonic-analysis/automorphic-period|period integral]] across the first pair using the [[harmonic-analysis/theta-seesaw|theta seesaw identity]]. Each period pairs a [[linear-algebra/matrix-coefficient|matrix coefficient]] with a test form. At each step the finite variables give a weighted sum over classes and the real integral is evaluated separately. Repeat through all \(m\) pairs. At the top the pairing reads the restriction of the source-side composite. The common scalar is incorporated in the normalization. Equality against every test form identifies the two vectors.
 
 ## References
 

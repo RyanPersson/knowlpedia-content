@@ -12,7 +12,7 @@ For any [[analytic-number-theory/dirichlet-character|Dirichlet character]] \(\ch
 
 ## Proof
 
-The [[analytic-number-theory/dirichlet-functional-equation|functional equation]], together with the change of level for an imprimitive character, sends the zero to a zero of \(L(1-s,\chi^{-1})\). In the open strip the [[real-analysis/gamma-function|gamma factor]] is finite and nonzero. Apply [[grh-lean/half-plane|half-plane nonvanishing]] to both zeros. The first gives \(\Re s\le1/2\), the second \(1-\Re s\le1/2\).
+The [[analytic-number-theory/dirichlet-functional-equation|functional equation]], together with the change of level for an imprimitive character, sends the zero to a zero of \(L(1-s,\chi^{-1})\). In the [[analytic-number-theory/critical-strip|open critical strip]] the [[real-analysis/gamma-function|gamma factor]] is finite and nonzero. Apply [[grh-lean/half-plane|half-plane nonvanishing]] to both zeros. The first gives \(\Re s\le1/2\), the second \(1-\Re s\le1/2\).
 
 ## References
 

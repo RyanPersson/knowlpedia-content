@@ -65,6 +65,8 @@ Open a proof step or a mathematical term below. The [[grh-lean|guided proof]] fo
 
 ## New mathematical knowls
 
+- [[linear-algebra/spread-family-of-linear-maps|A spreading family of linear maps]]
+- [[harmonic-analysis/adelic-theta-kernel|Adelic theta kernel of a dual pair]]
 - [[arithmetic-geometry/anticyclotomic-character|Anticyclotomic Hecke character]]
 - [[harmonic-analysis/automorphic-period|Automorphic period integral]]
 - [[harmonic-analysis/automorphic-poincare-series|Automorphic Poincaré series]]
@@ -75,9 +77,11 @@ Open a proof step or a mathematical term below. The [[grh-lean|guided proof]] fo
 - [[analytic-number-theory/dirichlet-conductor|Conductor of a Dirichlet character]]
 - [[linear-algebra/lattice-covolume|Covolume of a Euclidean lattice]]
 - [[analytic-number-theory/critical-strip|Critical strip of a Dirichlet L-function]]
+- [[linear-algebra/projector-denominator|Denominator of a lattice projection]]
 - [[harmonic-analysis/theta-jet|Differential jet of a theta function]]
 - [[harmonic-analysis/hecke-operator|Double-coset Hecke operator]]
 - [[analytic-number-theory/euler-totient|Euler’s totient function]]
+- [[harmonic-analysis/false-lift-subspace|False lifts at a split place]]
 - [[algebra-fields-galois/field-isomorphism|Field isomorphism]]
 - [[linear-algebra/tight-frame|Finite tight frame]]
 - [[analytic-number-theory/dirichlet-functional-equation|Functional equation of a primitive Dirichlet L-function]]
@@ -89,6 +93,7 @@ Open a proof step or a mathematical term below. The [[grh-lean|guided proof]] fo
 - [[linear-algebra/hermitian-space|Hermitian space over a field with involution]]
 - [[algebra-fields-galois/field-involution|Involution of a field]]
 - [[arithmetic-geometry/ell-adic-galois-representation|ℓ-adic Galois representation]]
+- [[analytic-number-theory/landau-laplace-singularity|Landau’s theorem for positive Laplace transforms]]
 - [[analytic-number-theory/legendre-symbol|Legendre symbol]]
 - [[analytic-number-theory/legendre-factorial-valuation|Legendre’s factorial valuation formula]]
 - [[linear-algebra/linear-functional|Linear functional]]
@@ -100,6 +105,7 @@ Open a proof step or a mathematical term below. The [[grh-lean|guided proof]] fo
 - [[harmonic-analysis/laplace-transform|One-sided Laplace transform]]
 - [[complex-analysis/analytic-zero-order|Order of an analytic zero]]
 - [[analytic-number-theory/partial-summation|Partial summation]]
+- [[analytic-number-theory/polar-laplace-transform|Polar continuation of a weighted Laplace transform]]
 - [[analytic-number-theory/entire-dirichlet-l-function|Pole-removed Dirichlet L-function]]
 - [[analytic-number-theory/polya-vinogradov|Pólya–Vinogradov inequality]]
 - [[analytic-number-theory/prime-number-theorem-progressions|Prime number theorem in arithmetic progressions]]
@@ -117,38 +123,41 @@ Open a proof step or a mathematical term below. The [[grh-lean|guided proof]] fo
 - [[harmonic-analysis/dirichlet-theta-series|Theta series of a Dirichlet character]]
 - [[discrete-structures/behrend-progression-free-set|Three-term-progression-free set]]
 - [[algebra-fields-galois/uniformizer|Uniformizer]]
+- [[arithmetic-geometry/unitary-group-hermitian-space|Unitary group of a Hermitian space]]
+- [[harmonic-analysis/unramified-hecke-polynomial|Unramified Hecke polynomial for the general linear group]]
 - [[harmonic-analysis/weil-representation|Weil representation]]
 
 ## Existing mathematical prerequisites
 
-The reader and glossary use 485 existing knowls through their linked terms and recursively declared prerequisites.
+The reader and glossary use 533 existing knowls through their linked terms and recursively declared prerequisites.
 
+- [[grh-lean/prerequisites-algebra-category-theory|Category Theory]] (7)
 - [[grh-lean/prerequisites-algebra-commutative|Algebra: Commutative Algebra]] (15)
 - [[grh-lean/prerequisites-algebra-fields-galois|Algebra: Fields and Galois Theory]] (47)
-- [[grh-lean/prerequisites-algebra-groups|Algebra: Groups]] (22)
+- [[grh-lean/prerequisites-algebra-groups|Algebra: Groups]] (23)
 - [[grh-lean/prerequisites-algebra-homological|Homological Algebra]] (1)
-- [[grh-lean/prerequisites-algebra-modules|Algebra: Module Theory]] (24)
+- [[grh-lean/prerequisites-algebra-modules|Algebra: Module Theory]] (25)
 - [[grh-lean/prerequisites-algebra-representation-theory|Representation Theory]] (8)
-- [[grh-lean/prerequisites-algebra-rings|Algebra: Rings]] (19)
+- [[grh-lean/prerequisites-algebra-rings|Algebra: Rings]] (21)
 - [[grh-lean/prerequisites-algebraic-geometry-foundations|Algebraic geometry]] (37)
 - [[grh-lean/prerequisites-analytic-number-theory|Analytic number theory]] (10)
-- [[grh-lean/prerequisites-arithmetic-geometry|Arithmetic geometry]] (8)
+- [[grh-lean/prerequisites-arithmetic-geometry|Arithmetic geometry]] (9)
 - [[grh-lean/prerequisites-asymptotics|Asymptotics]] (1)
 - [[grh-lean/prerequisites-complex-analysis|Complex Analysis]] (15)
-- [[grh-lean/prerequisites-convex-analysis|Convex Analysis]] (10)
+- [[grh-lean/prerequisites-convex-analysis|Convex Analysis]] (19)
 - [[grh-lean/prerequisites-differential-geometry|Differential Geometry]] (4)
 - [[grh-lean/prerequisites-discrete-structures|Discrete Structures]] (1)
 - [[grh-lean/prerequisites-fiber-bundles|Fiber Bundles]] (17)
-- [[grh-lean/prerequisites-functional-analysis|Functional Analysis]] (12)
-- [[grh-lean/prerequisites-harmonic-analysis|Harmonic Analysis]] (8)
+- [[grh-lean/prerequisites-functional-analysis|Functional Analysis]] (23)
+- [[grh-lean/prerequisites-harmonic-analysis|Harmonic Analysis]] (13)
 - [[grh-lean/prerequisites-langlands|Langlands program]] (7)
 - [[grh-lean/prerequisites-lie-groups|Lie Groups and Lie Algebras]] (25)
-- [[grh-lean/prerequisites-linear-algebra|Linear Algebra]] (29)
+- [[grh-lean/prerequisites-linear-algebra|Linear Algebra]] (30)
 - [[grh-lean/prerequisites-measure-theory|Measure Theory]] (30)
 - [[grh-lean/prerequisites-operator-algebras|Operator Algebras]] (10)
-- [[grh-lean/prerequisites-real-analysis|Real Analysis]] (45)
-- [[grh-lean/prerequisites-shared-foundations|Shared Foundations]] (50)
-- [[grh-lean/prerequisites-topology|Topology]] (30)
+- [[grh-lean/prerequisites-real-analysis|Real Analysis]] (48)
+- [[grh-lean/prerequisites-shared-foundations|Shared Foundations]] (52)
+- [[grh-lean/prerequisites-topology|Topology]] (35)
 
 ## Formal sources and dependencies
 

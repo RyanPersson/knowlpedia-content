@@ -37,5 +37,6 @@ The proof reader and its prerequisite knowls use the following entries in Linear
 - [[linear-algebra/orthogonal-projection|Orthogonal projection]]
 - [[linear-algebra/orthogonality|Orthogonality]]
 - [[linear-algebra/orthonormal-basis|Orthonormal basis]]
+- [[linear-algebra/rank-nullity-theorem|Rank–nullity theorem]]
 - [[linear-algebra/trace|Trace]]
 - [[linear-algebra/vector-space|Vector space]]

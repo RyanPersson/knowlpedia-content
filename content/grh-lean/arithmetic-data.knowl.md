@@ -8,7 +8,7 @@ section_mode = "continuous"
 prerequisites = ["arithmetic-geometry/abelian-cm-field", "arithmetic-geometry/root-discriminant", "arithmetic-geometry/theta-lift"]
 +++
 
-Fix a modulus \(q_0\) divisible by \(18480\) and a prime \(d\equiv q_0/2-1\bmod q_0\). The construction starts with \(K=\mathbb Q(\sqrt{-d})\). An auxiliary [[arithmetic-geometry/abelian-cm-field|abelian CM field]] \(E\) has \(f\) infinite places. Its place classes distinguish a set \(\Phi_a\) above \(1\bmod q_0\) and a chosen sparse set \(\Phi_b\) above \(-1\bmod q_0\).
+Fix a modulus \(q_0\) divisible by \(18480\) and a prime \(d\equiv q_0/2-1\bmod q_0\). The construction starts with \(K=\mathbb Q(\sqrt{-d})\). An auxiliary [[arithmetic-geometry/abelian-cm-field|abelian CM field]] \(E\) has \(f\) infinite places. A [[arithmetic-geometry/cm-type|CM type]] chooses one complex embedding over each infinite place. Its place classes distinguish a set \(\Phi_a\) above \(1\bmod q_0\) and a chosen sparse set \(\Phi_b\) above \(-1\bmod q_0\).
 
 ## The two cutoffs
 

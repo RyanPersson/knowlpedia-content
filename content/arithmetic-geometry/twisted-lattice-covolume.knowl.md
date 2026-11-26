@@ -14,6 +14,10 @@ In [[arithmetic-geometry/twisted-hermitian-lattice|twisted Hermitian lattice dat
 
 If each conjugate has squared length at most \(e^u\), [[linear-algebra/hadamard-gram-bound|Hadamard’s inequality]] gives \(c=nu\) for a family of \(n\) vectors. The use of a Gram [[linear-algebra/determinant|determinant]] accounts for measuring squared volume.
 
+## Squared volume
+
+For a full [[linear-algebra/euclidean-lattice|Euclidean lattice]] with a basis of vectors, the Gram determinant is the square of its [[linear-algebra/lattice-covolume|ordinary covolume]]. Taking its logarithm explains the squared convention.
+
 ## References
 
 - [New/Reduction/Lattices/TwistedLattice.lean, CovolumeLe](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/Lattices/TwistedLattice.lean#L275)

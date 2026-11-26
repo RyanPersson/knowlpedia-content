@@ -8,7 +8,7 @@ section_mode = "progressive"
 prerequisites = ["harmonic-analysis/theta-jet", "harmonic-analysis/hecke-eigensystem"]
 +++
 
-For a main pair and a prime away from the twist modulus there is an integral test form, orthogonal to the false lifts, whose pairing with the rank-one lift has bounded [[algebra-fields-galois/valuation-on-a-field|valuation]].
+For a main pair and a prime away from the twist modulus there is an integral test form, orthogonal to the [[harmonic-analysis/false-lift-subspace|false lifts]], whose pairing with the rank-one lift has bounded [[algebra-fields-galois/valuation-on-a-field|valuation]].
 
 ## Proof
 

@@ -22,6 +22,7 @@ The proof reader and its prerequisite knowls use the following entries in Algebr
 - [[algebra-modules/finitely-generated-module|Finitely generated module]]
 - [[algebra-modules/flat-module|Flat module]]
 - [[algebra-modules/free-module|Free module]]
+- [[algebra-modules/full-lattice|Full lattice over an integral domain]]
 - [[algebra-modules/graded-ring|Graded ring]]
 - [[algebra-modules/image-module|Image of a module homomorphism]]
 - [[algebra-modules/kernel-module|Kernel of a module homomorphism]]

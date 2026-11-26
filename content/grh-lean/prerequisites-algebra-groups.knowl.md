@@ -18,6 +18,7 @@ The proof reader and its prerequisite knowls use the following entries in Algebr
 - [[algebra-groups/conjugacy-class|Conjugacy class]]
 - [[algebra-groups/coset|Coset]]
 - [[algebra-groups/exact-sequence-groups|Exact Sequence of Groups]]
+- [[algebra-groups/generated-subgroup|Generated Subgroup]]
 - [[algebra-groups/group|Group]]
 - [[algebra-groups/group-action|Group Action]]
 - [[algebra-groups/group-homomorphism|Group homomorphism]]

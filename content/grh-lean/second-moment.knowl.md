@@ -8,7 +8,10 @@ section_mode = "progressive"
 prerequisites = ["harmonic-analysis/automorphic-poincare-series", "functional-analysis/hilbert-schmidt-operator"]
 +++
 
-Let a subspace occupy a fraction \(\alpha\) of the good target. For the [[harmonic-analysis/automorphic-poincare-series|Poincaré map]] some translate has a preimage of that subspace of dimension at most approximately \((1+\alpha)\dim S/2\), with the explicit loss in the spread estimate.
+Let \(S_0\) be the full space of source forms and let \(F\) occupy a fraction \(\alpha\) of the good target. The translates of the projected [[harmonic-analysis/automorphic-poincare-series|Poincaré series]] form a [[linear-algebra/spread-family-of-linear-maps|spreading family]]. For some translate \(B_s\),
+\[
+ \dim B_s^{-1}(F)\le\frac{1+\alpha+3/(8b^2)}{2}\dim S_0 .
+\]
 
 ## Proof
 

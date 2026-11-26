@@ -17,4 +17,5 @@ The proof reader and its prerequisite knowls use the following entries in Arithm
 - [[arithmetic-geometry/complex-multiplication|Complex multiplication of an elliptic curve]]
 - [[arithmetic-geometry/galois-cohomology|Galois cohomology with abelian coefficients]]
 - [[arithmetic-geometry/theta-lift|Global theta lift]]
+- [[arithmetic-geometry/integral-automorphic-form|Integral automorphic form]]
 - [[arithmetic-geometry/galois-localization-kernel|Localization kernel in Galois cohomology]]
