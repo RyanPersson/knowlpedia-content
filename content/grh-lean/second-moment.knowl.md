@@ -17,6 +17,8 @@ Let \(S_0\) be the full space of source forms and let \(F\) occupy a fraction \(
 
 Unfold pairings of translates into finite blocks. Bound the part removed by the two level projections and establish near-isometry for the projected map. A bound on the sum of squared [[functional-analysis/hilbert-schmidt-operator|Hilbert–Schmidt norms]] controls the second moment of these blocks. If every translate mapped too much of the source into the prescribed subspace, its first-moment contribution and this second-moment bound would be incompatible by [[linear-algebra/cauchy-schwarz-inequality|Cauchy–Schwarz]]. A translate with the required rank gain must exist.
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Spanning.SecondMoment.SpanningTheorem:339).
+
 ## References
 
 - [New/Spanning/SecondMoment/SpanningTheorem.lean, isSpread_goodPoincare](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Spanning/SecondMoment/SpanningTheorem.lean#L339)

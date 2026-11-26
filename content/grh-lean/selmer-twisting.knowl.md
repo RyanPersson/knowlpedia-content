@@ -14,6 +14,8 @@ For the finite collection of main summands and special-value data in the twist c
 
 A [[arithmetic-geometry/selmer-group|Selmer condition]] selects global [[arithmetic-geometry/galois-cohomology|cohomology classes]] by their restrictions at the places of the field. Present the main summands as lattices with local conditions, and add the systems encoding the special values. The [[grh-lean/twist-polynomials|polynomial specialization argument]] chooses auxiliary ramification and a single character for this finite list. Its restriction estimates give bounds for the lengths with divisible coefficients. Read the resulting Galois character as the local realization of the tame character used by the lifts. The same choice works for the required powers.
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Congruences.Selmer.TwistingTheorem:370).
+
 ## References
 
 - [New/Congruences/Selmer/TwistingTheorem.lean, exists_mFoldTwist_hasDivisibleSelmerLengthLe](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Congruences/Selmer/TwistingTheorem.lean#L370)

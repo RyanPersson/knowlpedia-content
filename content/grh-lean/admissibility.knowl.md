@@ -16,6 +16,8 @@ Choose a dyadic chain length between \(\sqrt x\) and \(2\sqrt x\). Choose the fi
 
 The [[analytic-number-theory/prime-number-theorem-progressions|prime number theorem in progressions]] supplies level primes in the required ranges. The scale inequalities allow these choices and the sparsity requirements to hold simultaneously. The construction starts from the prescribed integer \(x\), which supplies the quantifier needed for the [[grh-lean/real-cutoffs|real-cutoff estimate]].
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.Data.Existence:898).
+
 ## References
 
 - [New/Reduction/Data/Existence.lean, eventually_exists_data](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/Data/Existence.lean#L898)

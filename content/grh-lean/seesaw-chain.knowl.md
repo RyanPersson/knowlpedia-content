@@ -14,6 +14,8 @@ For the ramified source and the chosen normalization of the [[harmonic-analysis/
 
 Pair the lower chain with a test form on its last definite [[arithmetic-geometry/unitary-group-hermitian-space|unitary group]]. Unfold the Poincaré series in the [[harmonic-analysis/adelic-theta-kernel|theta kernel]] and move the [[harmonic-analysis/automorphic-period|period integral]] across the first pair using the [[harmonic-analysis/theta-seesaw|theta seesaw identity]]. Each period pairs a [[linear-algebra/matrix-coefficient|matrix coefficient]] with a test form. At each step the finite variables give a weighted sum over classes and the real integral is evaluated separately. Repeat through all \(m\) pairs. At the top the pairing reads the restriction of the source-side composite. The common scalar is incorporated in the normalization. Equality against every test form identifies the two vectors.
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#module=New.UpperBound.Seesaw.SeesawIdentity).
+
 ## References
 
 - [New/UpperBound/Seesaw/SeesawIdentity.lean](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/UpperBound/Seesaw/SeesawIdentity.lean)

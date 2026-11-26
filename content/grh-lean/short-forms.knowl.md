@@ -16,6 +16,8 @@ Start with the short integral generators of the source. The [[grh-lean/seesaw-ch
 
 For the index, at each prime change the source lattice by a matrix of controlled [[linear-algebra/determinant|determinant]] that makes the images integral. The bound on its [[algebra-modules/elementary-divisor-theorem|elementary divisors]] adds over translates and scales with the source dimension. The prime-weighted sum of the local losses is at most \(fa(\log b)^3\) before the factor \(2|T|\dim(S)\).
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.ShortAndEnough:254).
+
 ## References
 
 - [New/Reduction/ShortAndEnough.lean, span_short_integralRamified_eq_top](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/ShortAndEnough.lean#L254)

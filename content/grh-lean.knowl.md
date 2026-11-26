@@ -38,7 +38,7 @@ In the [[grh-lean/main-inequality|comparison]], the main size term cancels. What
 
 ## Reading further
 
-The [[grh-lean/dependencies|dependency index]] collects the proof steps and their mathematical prerequisites. The [Lean declaration index](/grh-lean/declarations/) follows the formal development down to individual statements. This reading follows the 803-module edition in `grh/` at commit `72fead10`. The repository also contains a compact edition with different intermediate proofs.
+The [[grh-lean/dependencies|dependency index]] collects the proof steps and their mathematical prerequisites. The [Lean declaration index](/grh-lean/declarations/) follows the formal development down to individual statements. This reading follows the 803-module edition in `grh/` at commit `72fead10`. Luke Sernau credits his colleagues at Anthropic and Claude for this shorter rewriting. The compact edition in the same repository uses different intermediate proofs.
 
 ## Verification
 
@@ -50,3 +50,4 @@ Andrew Sutherland’s published checks for this exact revision report that both 
 - [Statements.lean](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/Statements.lean)
 - [Alpöge with Claude, reading guide for the pinned readable edition](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/GUIDE.md)
 - [Andrew Sutherland, verification files and checker logs for the shorter proof](https://math.mit.edu/~drew/shortgrh/)
+- [Luke Sernau, introduction and attribution for the shorter proof](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/README.md)

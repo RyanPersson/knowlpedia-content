@@ -16,6 +16,8 @@ Complete the given vectors to a basis. At each finite [[arithmetic-geometry/padi
 
 The integral twisted Gram determinant has bounded denominators. The [[arithmetic-geometry/product-formula|product formula]], expressed through the simultaneous height inequality, compares it to the untwisted determinant. At the infinite places use the covolume bound for the original vectors and [[linear-algebra/hadamard-gram-bound|Hadamard’s inequality]] for the added vectors. Combining the finite and infinite estimates gives the stated cost.
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Reduction.Lattices.TwistedLattice:477).
+
 ## References
 
 - [New/Reduction/Lattices/TwistedLattice.lean, covolume_add_index_nonneg](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Reduction/Lattices/TwistedLattice.lean#L477)

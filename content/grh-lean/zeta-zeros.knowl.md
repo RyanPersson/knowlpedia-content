@@ -16,6 +16,8 @@ Since \(\zeta(0)=-1/2\), this zero is also different from zero. The excluded neg
 
 Zeta is the [[analytic-number-theory/dirichlet-l-function|\(L\)-function]] of the unique character modulo one. By [[grh-lean/half-plane|half-plane nonvanishing]], \(\Re s\le1/2\) and \(1-\Re s\le1/2\), so equality holds.
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#source=New.Main:47).
+
 ## References
 
 - [New/Main.lean, New.zeta_zeros_on_line](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/Main.lean#L47)

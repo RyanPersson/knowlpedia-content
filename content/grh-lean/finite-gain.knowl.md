@@ -14,6 +14,8 @@ At a prime \(p\), after a source-lattice change of controlled [[arithmetic-geome
 
 Expand the chain into products of [[harmonic-analysis/theta-jet|theta jets]]. At a nonsplit prime the [[grh-lean/jet-count|local jet count]] gives the gain unless several places impose the same condition. Sparsity bounds the cost of collisions. At exceptional primes one marks the colliding places and changes the source using normalized [[harmonic-analysis/hecke-operator|Hecke operators]]. Their [[algebra-modules/elementary-divisor-theorem|elementary divisors]] control the resulting [[arithmetic-geometry/twisted-lattice-index|index loss]]. Handle the level prime separately, and add the errors with weights \(\log p\). This produces the single budget valid for all finite sets of primes.
 
+[Unfold the Lean statements and subproofs](/grh-lean/declarations/#module=New.UpperBound.Divisibility.LocalDivisibility).
+
 ## References
 
 - [New/UpperBound/Divisibility/LocalDivisibility.lean](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/New/UpperBound/Divisibility/LocalDivisibility.lean)
