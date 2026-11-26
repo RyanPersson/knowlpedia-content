@@ -24,7 +24,3 @@ Since \(\dim(F+B_s(V))=\dim F+\dim V-\dim B_s^{-1}(F)\) in finite dimension, the
 ## References
 
 1. Lean: `New.IsSpread` in `src/New/Spanning/SecondMoment/FewTranslates.lean`.
-
-## References
-
-1. Lean: `New.IsSpread` in `src/New/UpperBound/ElementaryDivisors/.lean`.

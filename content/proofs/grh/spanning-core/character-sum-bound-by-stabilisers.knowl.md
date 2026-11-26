@@ -53,7 +53,3 @@ The Lean statement assumes \(\psi\) primitive in Mathlib's sense; for a finite f
 ## References
 
 1. Lean: `New.re_sum_addChar_dotProduct_mul_le` in `src/New/Spanning/SecondMoment/PositiveType.lean`.
-
-## References
-
-1. Lean: `New.re_sum_addChar_dotProduct_mul_le`, `New.orthonormal_addChar_div_sqrt`, `New.inner_addChar_invTranspose_smul_single`, `New.expect_addChar_dotProduct` in `src/New/UpperBound/ElementaryDivisors/.lean`.

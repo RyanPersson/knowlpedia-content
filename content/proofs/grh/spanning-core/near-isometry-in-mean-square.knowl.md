@@ -29,7 +29,3 @@ where \(\mathrm{pr}_U\) is the orthogonal projection onto \(U\) and \(\lVert\cdo
 ## References
 
 1. Lean: `New.IsNearIsometry`, `New.IsNearIsometry.mono`, `New.IsNearIsometry.finrank_range_pos` in `src/New/Spanning/SecondMoment/FewTranslates.lean`.
-
-## References
-
-1. Lean: `New.IsNearIsometry`, `New.IsNearIsometry.mono`, `New.IsNearIsometry.finrank_range_pos` in `src/New/UpperBound/ElementaryDivisors/.lean`.

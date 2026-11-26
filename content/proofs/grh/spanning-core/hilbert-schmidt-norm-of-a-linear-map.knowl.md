@@ -44,7 +44,3 @@ In the Lean source the vector \((Ab_i)_i\in T^d\) is `hilbertSchmidtVector A`, f
 ## References
 
 1. Lean: `New.hilbertSchmidtNorm` and the lemmas after it in `src/New/Spanning/SecondMoment/FewTranslates.lean`.
-
-## References
-
-1. Lean: `New.hilbertSchmidtVector`, `New.hilbertSchmidtNorm`, `New.inner_hilbertSchmidtVector`, `New.hilbertSchmidtNorm_sq_eq_trace`, `New.hilbertSchmidtNorm_sq_eq_sum`, `New.hilbertSchmidtNorm_sq_eq_sum_entries`, `New.hilbertSchmidtNorm_adjoint`, `New.hilbertSchmidtNorm_le_of_norm_le`, `New.orthoProj`, `New.hilbertSchmidtNorm_orthoProj_sq`, `New.hilbertSchmidtNorm_comp_orthoProj_le`, `New.hilbertSchmidtNorm_orthoProj_comp_sq` in `src/New/UpperBound/ElementaryDivisors/.lean`.
