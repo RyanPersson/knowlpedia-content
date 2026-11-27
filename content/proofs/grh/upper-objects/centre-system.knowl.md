@@ -15,10 +15,10 @@ For \(d\ge0\) and \(e\in\mathbb Z\) let \(e+[d]=\{e+\tfrac{d-1}2,e+\tfrac{d-3}2,
 
 **Definition.** A **centre system** \(X\) (at one infinite place) consists of
 
-* a finite set \(C\) of *centres*, and for each centre \(c\): a *value* \(c\in\mathbb Z\) (written like the centre), a *length* \(l_c\in\mathbb N\) and a *kind*, **up** or **down**;
+* an index set \(I\) of *labels* and a distinguished finite subset \(C\subseteq I\), the *centres*; and for each label \(c\in I\): a *value* \(c\in\mathbb Z\) (written like the centre), a *length* \(l_c\in\mathbb N\) and a *kind*, **up** or **down**;
 * a finite set \(S\subset\tfrac12\mathbb Z\), the *stem*.
 
-For \(B\subseteq C\) define
+For a finite set of labels \(B\subseteq I\) (in the results on gaps and insertions \(B\subseteq C\) is assumed; the definitions do not need it) define
 
 * the set of entries \(\lambda^+_B=S\cup\bigcup_{c\in B}(c+[l_c])\);
 * the rank \(n_B=\lvert S\rvert+\sum_{c\in B}l_c\);
@@ -33,7 +33,7 @@ The system is **separated with bound \(h\)** (\(h\in\mathbb N\)) if
 3. \(\lvert y-c\rvert\ge(h+l_c)/2\) for all \(c\in C\), \(y\in S\);
 4. \(\lvert y-c\rvert\ge(h+l_c)/2\) for all \(c\ne c'\) in \(C\) and \(y\in c'+[l_{c'}]\).
 
-Let \(V\) be a space with a finite coordinate set \(n\) and signs \(s\colon n\to\{\pm1\}\), and \(\lambda\colon n\to\tfrac12\mathbb Z\) (a [[?lean:New.HCParam|Harish-Chandra parameter]] on \(V\), stored doubled). For \(B\subseteq C\) and \(\sigma\in\{\pm1\}\), **\(\lambda\) is the parameter \(\lambda_B\) with common sign \(\sigma\)** if
+Let \(V\) be a space with a finite coordinate set \(n\) and signs \(s\colon n\to\{\pm1\}\), and \(\lambda\colon n\to\tfrac12\mathbb Z\) (a [[?lean:New.HCParam|Harish-Chandra parameter]] on \(V\), stored doubled). For a finite \(B\subseteq I\) and \(\sigma\in\{\pm1\}\), **\(\lambda\) is the parameter \(\lambda_B\) with common sign \(\sigma\)** if
 
 * \(\lvert n\rvert=n_B\);
 * \(\{\lambda_x+\delta_B: x\in n\}=\lambda^+_B\);

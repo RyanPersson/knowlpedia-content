@@ -43,7 +43,11 @@ Throughout, the data satisfy \(k+t+1\le\Delta/2\), \(\Delta\le w_{l+1}\) and \(w
 \[
 \varphi(s)\le\operatorname{count}_{\tilde Y}-\operatorname{count}_Y\le\varphi(-s-1).
 \]
-For \(m'=0\): the entries \(-2\varsigma_n-1\), \(n<k\), of \(\tilde Y\) are the rising block \(1-k,\dots,k-3\) and \(-s-1\); those of \(Y\) are the falling block \(k-2,\dots,2-k\); and \(s=\Delta-2w_1\) lies far below. For the step, the two new base entries and the two new pairs of blocks contribute: the down blocks at \(-w_{m'+1}\) (lengths \(t+1\) on \(\tilde Y\), \(t\) on \(Y\)) a difference between \(\varphi(2\varsigma_{k+m'})\) and \(\varphi(2\varsigma_{k-1+m'})\), and the up blocks at \(w_{m'+1}\) (lengths \(t\) on \(Y\), \(t-1\) on \(\tilde Y\)) a difference between \(\varphi(-2\varsigma_{k-1+m'}-1)\) and \(\varphi(-2\varsigma_{k+m'}-1)\); adding these to the induction hypothesis and to the new base entries \(\varphi(-2\varsigma_{k+m'}-1)\) (on \(\tilde Y\)) and \(\varphi(2\varsigma_{k-1+m'})\) (on \(Y\)) telescopes to the claim for \(m'+1\). For \(m'=m\), with \(r=k-1+m\), the counts are those of the nodes \((m,m)\), and \(0\le\varphi\le1\).
+For \(m'=0\): the entries \(-2\varsigma_n-1\), \(n<k\), of \(\tilde Y\) are the rising block \(1-k,\dots,k-3\) and \(-s-1\); those of \(Y\) are the falling block \(k-2,\dots,2-k\); and \(s=\Delta-2w_1\) lies far below. For the step put \(s=2\varsigma_{k-1+m'}\), \(s'=2\varsigma_{k+m'}\) and \(D=\operatorname{count}_{\tilde Y}-\operatorname{count}_Y\). The down blocks at \(-w_{m'+1}\) (lengths \(t+1\) on \(\tilde Y\), \(t\) on \(Y\)) give \(D_{\mathrm{down}}=\mathrm{down}_{\tilde Y}-\mathrm{down}_Y\in[\varphi(s'),\varphi(s)]\); the up blocks at \(w_{m'+1}\) (lengths \(t\) on \(Y\), \(t-1\) on \(\tilde Y\)) give \(D_{\mathrm{up}}=\mathrm{up}_{Y}-\mathrm{up}_{\tilde Y}\in[\varphi(-s-1),\varphi(-s'-1)]\); the new base entries contribute \(\varphi(-s'-1)\) on \(\tilde Y\) and \(\varphi(s)\) on \(Y\). Hence
+\[
+D_{\mathrm{new}}=D_{\mathrm{old}}+D_{\mathrm{down}}-D_{\mathrm{up}}+\varphi(-s'-1)-\varphi(s),
+\]
+and with \(\varphi(s)\le D_{\mathrm{old}}\le\varphi(-s-1)\) this gives \(\varphi(s')\le D_{\mathrm{new}}\le\varphi(-s'-1)\), the claim for \(m'+1\). For \(m'=m\), with \(r=k-1+m\), the counts are those of the nodes \((m,m)\), and \(0\le\varphi\le1\).
 
 The verifications by linear integer arithmetic in (d), in the parity cases, in 5 and in the induction step of 6 are stated here with their inputs but not expanded; the Lean proofs discharge them with `omega`/`grind`. \(\square\)
 

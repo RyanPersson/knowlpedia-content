@@ -19,7 +19,7 @@ Let \(O\) be a [[proofs/grh/upper-objects/descent-pair|descent pair]] with place
 \]
 where \((X_w)_u\) is the \(r\times r\) matrix of the rows of \(X_w\) indexed by \(u\) (and \(\psi_w(0)=0\)).
 
-The **block datum** \(\Psi_{\mathrm{bl}}\otimes\mathrm{vac}\) is the element of the finite part of the [[?lean:New.Space.hom|Schwartz space of \(\operatorname{Hom}(W,V)\)]] that is the [[?lean:New.vacuumDatum|vacuum datum]] of the function "apply \(\Psi_{\mathrm{bl}}\) to the reductions at the places of \(M\) and \(Q\)" of matrices modulo \(M^2Q\): it is this function on integral matrices at \(M,Q\), tensored with the vacuum (the indicator of the integral lattice) at all other finite places.
+The **block datum** \(\Psi_{\mathrm{bl}}\otimes\mathrm{vac}\) is the element of the finite part of the [[?lean:New.Space.hom|Schwartz space of \(\operatorname{Hom}(W,V)\)]] that is the [[?lean:New.vacuumDatum|vacuum datum]] of the function "apply \(\Psi_{\mathrm{bl}}\) to the reductions at the places of \(M\) and \(Q\)" of matrices modulo \(M^2Q\): it is this function on integral matrices at \(M,Q\), tensored with the finite vacuum at all other finite places (in the Heisenberg model of the development the finite vacuum vanishes off the lattice and equals a semicharacter, a root-of-unity phase, on it; it is not the plain indicator).
 
 The **identity block indicator** \(\Psi^1\) is the indicator of the matrices \(y\) modulo \(MQ\) with \(y\equiv\iota_u\) at every place of \(M\) and \((y)_u\equiv1\) at every place of \(Q\).
 

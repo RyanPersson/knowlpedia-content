@@ -7,7 +7,7 @@ aliases = ["a chain of lifts is a plain sum"]
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.IsJointlyInvariant.sum_chain_eq_sum_kernelProduct", "New.IsJointlyInvariant.sum_chain_mem_nsmul", "New.kernelProduct_induction", "New.apply_kernelProduct_le_prod_mul", "New.sum_classPoints_succ"]
+lean = ["New.IsJointlyInvariant.sum_chain_eq_sum_kernelProduct", "New.IsJointlyInvariant.sum_chain_mem_nsmul", "New.kernelProduct_induction", "New.apply_kernelProduct_le_prod_mul", "New.sum_classPoints_succ", "New.classPoints", "New.classPoints_of_le"]
 lean_files = ["src/New/UpperBound/Objects/LiftChains.lean"]
 proof_status = "full"
 +++

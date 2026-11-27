@@ -22,7 +22,7 @@ Notation as in [[proofs/grh/upper-objects/grid-nodes|grid nodes]]: for the grid 
 
 ## Proof
 
-By the [[proofs/grh/upper-objects/grid-centres|centre system of the grid]], for \(o+j\le m\) and (\(o=0\) or \(i=0\)) the doubled parameter of the node \((i,j)\) with offset \(o\) is the parameter \(\lambda_{B_{o,i,j}}\) of \(\mathcal C_{\tau,z}\), separated with bound \(\Delta-t-2\ge500(N+N')^3\), with common sign \((-1)^o\).
+By the [[proofs/grh/upper-objects/grid-centres|centre system of the grid]], for \(o+j\le m\) and (\(o=0\) or \(i=0\)) the doubled parameter of the node \((i,j)\) with offset \(o\) is twice the parameter \(\lambda_{B_{o,i,j}}\) of \(\mathcal C_{\tau,z}\), with common sign \((-1)^o\); below "is \(\lambda_B\)" is said of the halved vector, and the insertion theorem is applied to the halved vectors. The system is separated with bound \(\Delta-t-2\), and \(\Delta-t-2\ge500(N+N')^3\) for the ranks \(N,N'\) of two nodes all four of whose coordinates are at most \(m\); in each of the three statements the hypotheses give these bounds for both end nodes (and then \(B\subseteq C\)).
 
 *1.* \(B_{0,i+1,j}=B_{0,i,j}\cup\{u_i\}\) with \(u_i\) an up centre of value \(w_{i+1}\), both nodes with common sign \(+1\). The [[proofs/grh/upper-objects/inserting-a-block-satisfies-the-block-rule|insertion theorem]] (up case) gives the block rule for the negatives with \(\gamma=-w_{i+1}+\lceil N/2\rceil\). This equals \(\operatorname{gw}_{z,i}\): for \(z=0\) the weight is defined with the ceiling, and for \(z=1\) the rank is even, so floor and ceiling agree.
 

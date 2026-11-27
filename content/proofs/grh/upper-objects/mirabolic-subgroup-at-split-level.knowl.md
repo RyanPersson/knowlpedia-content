@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-objects/mirabolic-subgroup-at-split-level"
 title = "Mirabolic subgroup at a split level"
 kind = "definition"
-summary = "The integral invertible matrices at a split level whose last column is the last basis vector modulo N; it fixes the direct and the mirror datum."
+summary = "The integral invertible matrices at a split level whose last column is the last basis vector modulo N; it fixes the direct datum and the mirror datum shifted by diag(1,...,1,N)."
 aliases = ["mirabolic subgroup modulo N", "stabiliser of a marked lattice"]
 domains = ["proofs"]
 section_mode = "progressive"

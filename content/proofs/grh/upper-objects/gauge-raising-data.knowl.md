@@ -18,7 +18,7 @@ Let \(E=E_s\) be the field of [[?lean:New.Parameters|parameters]] \(P\), \(p\) a
 \operatorname{gauge}_{hd'}\big(\operatorname{jet}(\omega(g,h)\Phi)\,\xi\big)\le\max(c,0)\cdot\operatorname{gauge}_{gd}(\xi).
 \]
 
-For a diagonal family \(u=(u_\tau)\), \(u_\tau\in\mathbb C_p^{\,n'}\), and a basis index \(i'\) of \(\mathcal V'\) (a family of fillings \(i'_\tau\)), the **diagonal weight** is \(\operatorname{dw}(u,i')=\prod_\tau\big(\prod_{b\in n'}\lvert u_{\tau,b}\rvert\big)^{e'_\tau}\cdot\prod_{\text{boxes of }i'_\tau}\lvert u_{\tau,\text{entry of the box}}\rvert\). It is \(\ge0\), and \(1\) for \(u=1\).
+For a diagonal family \(u=(u_\tau)\), \(u_\tau\in\mathbb C_p^{\,n'}\), and a basis index \(i'\) of \(\mathcal V'\) (a family of fillings \(i'_\tau\)), the **diagonal weight** is \(\operatorname{dw}(u,i')=\prod_\tau\Big[\big(\prod_{b\in n'}\lvert u_{\tau,b}\rvert\big)^{e'_\tau}\cdot\prod_{\text{boxes of }i'_\tau}\lvert u_{\tau,\text{entry of the box}}\rvert\Big]\). It is \(\ge0\), and \(1\) for \(u=1\).
 
 ## Properties
 

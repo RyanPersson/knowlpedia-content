@@ -34,7 +34,7 @@ Moreover a bijection \(\beta\colon\mathcal R\to\{0,\dots,r-1\}\) (the **basis nu
 
 ## Remarks
 
-For \(j>0\) the Lean text also fixes a bijection of \(Y_j^{\mathrm{idx}}\) with \(\alpha\sqcup(\{0,\dots,j-1\}\times\{0,\dots,t-1\})\) for any bijection \(\mathcal R\cong\alpha\); it is an arbitrary bijection which need not respect the blocks, used only for counting.
+For \(j>0\) the Lean text also fixes a bijection of \(Y_j^{\mathrm{idx}}\) with \(\alpha\sqcup(\{0,\dots,j-1\}\times\{0,\dots,t-1\})\) for any bijection \(\mathcal R\cong\alpha\); it is an arbitrary bijection which need not respect the blocks. It is used for counting, and the same arbitrary relabelling assigns the base and block coordinates through which the [[proofs/grh/upper-objects/grid-nodes|signs and parameters of the grid nodes]] are defined.
 
 ## References
 

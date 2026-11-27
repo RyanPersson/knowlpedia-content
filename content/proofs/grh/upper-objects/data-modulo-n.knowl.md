@@ -43,7 +43,7 @@ Indeed, if \(T\) is not integral both sides vanish; if \(T\) is integral exactly
 
 ## Remarks
 
-In terms of *marked lattices* (a lattice \(L\) at \(P\) with a vector \(\varepsilon\in L/NL\) that is nonzero at every place), written in bases whose last vector lifts \(\varepsilon\): the direct datum is \(\mathbf 1[SL\subseteq L',\ S\varepsilon=\varepsilon']\); in bases of the enlarged lattices \(L^+=L+\mathcal O\varepsilon/N\) and \(L'^+\) it becomes the last-row datum (this is the change-of-lattice identity); and the mirror datum is \(\mathbf 1[SL\subseteq L'^+]\,\psi_N(u'(S\varepsilon))\), where \(u'\) is the linear form on \(L'^+\) with kernel \(L'\) and \(u'(\varepsilon'/N)=1\). This interpretation is the comment at the head of the Lean file; only the matrix definitions above are used in proofs.
+In terms of *marked lattices* (a lattice \(L\) at \(P\) with a vector \(\varepsilon\in L/NL\) that is nonzero at every place), written in bases whose last vector lifts \(\varepsilon\): the direct datum is \(\mathbf 1[SL\subseteq L',\ S\varepsilon=\varepsilon']\); in bases of the enlarged lattices \(L^+=L+\mathcal O\varepsilon/N\) and \(L'^+\) it becomes the last-row datum (this is the change-of-lattice identity); and the mirror datum, for a matrix written in a basis of the original source lattice \(L\) and of the enlarged target lattice \(L'^+\) (in original bases a matrix \(T\) must first be replaced by \(D_N^{-1}T\)), is \(\mathbf 1[SL\subseteq L'^+]\,\psi_N(u'(S\varepsilon))\), with \(u'\) read modulo \(N\), where \(u'\) is the linear form on \(L'^+\) with kernel \(L'\) and \(u'(\varepsilon'/N)=1\). This interpretation is the comment at the head of the Lean file; only the matrix definitions above are used in proofs.
 
 ## References
 

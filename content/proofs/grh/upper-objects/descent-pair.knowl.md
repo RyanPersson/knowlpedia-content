@@ -15,7 +15,7 @@ Let \(E\) be a [[?c:CM field|CM field]] with [[?lean:New.WeilData|Weil data]] (i
 
 **Definition.** A **descent pair** \(O\) (for \(E,r,n\)) consists of
 
-1. [[?lean:New.LevelPlaces|level places]]: two finite families of split finite places of \(E\), the *chosen places* \(M\) and the *places of the twist* \(Q\) (with residue fields \(k_w\));
+1. [[?lean:New.LevelPlaces|level places]]: two finite families of split finite places of \(E\), the *chosen places* \(M\) and the *places of the twist* \(Q\) (with residue fields \(k_w\)), such that all the listed places are pairwise distinct and the conjugate of a listed place is in neither list;
 2. signs \(s\colon r\to\{\pm1\}\) and a hermitian space \(W\) of rank \(\lvert r\rvert\) with these signs at the infinite places (a [[?lean:New.Space|space]] in the sense of the proof);
 3. an injection \(u\colon r\hookrightarrow n\) of index sets and a map \(\nu\colon r\to\mathbb N\), the *numbering*;
 4. column numbers \(k^+,k^-\colon\{\text{infinite places of }E\}\times\mathbb N\to\mathbb N\);

@@ -16,7 +16,7 @@ Notation as in [[proofs/grh/upper-objects/grid-nodes|grid nodes]]. Fix an infini
 
 **Definition.** The [[proofs/grh/upper-objects/centre-system|centre system]] \(\mathcal C_{\tau,z}\) of the grid \(z\) has
 
-* centres: for each \(l<m\) an **up** centre \(u_l\) of value \(w_{l+1}\) and length \(t+z\), and a **down** centre \(d_l\) of value \(-w_{l+1}\) and length \(t-z\);
+* labels: for each natural number \(l\) an **up** label \(u_l\) and a **down** label \(d_l\); the centres \(C\) are the \(u_l\), \(d_l\) with \(l<m\). For each \(l\): the **up** label \(u_l\) has value \(w_{l+1}\) and length \(t+z\), and the **down** label \(d_l\) has value \(-w_{l+1}\) and length \(t-z\);
 * stem: \(\{\lambda^Y_{\tau,n}+z/2:\ n<r+z\}\) (it has \(r+z\) elements).
 
 The set of centres **present at the node \((i,j)\) with offset \(o\)** is \(B_{o,i,j}=\{u_l:l<i\}\cup\{d_l:o\le l<o+j\}\).
@@ -25,7 +25,7 @@ The set of centres **present at the node \((i,j)\) with offset \(o\)** is \(B_{o
 
 1. \(B_{o,i+1,j}=B_{o,i,j}\cup\{u_i\}\); \(B_{o,i,j+1}=B_{o,i,j}\cup\{d_{j+o}\}=B_{o+1,i,j}\cup\{d_o\}\).
 2. \(\mathcal C_{\tau,z}\) is separated with bound \(\Delta-t-2\).
-3. If \(o+j\le m\), and \(o=0\) or \(i=0\), then the doubled parameter of the node \((i,j)\) with offset \(o\) at \(\tau\) is the parameter \(\lambda_{B_{o,i,j}}\) of \(\mathcal C_{\tau,z}\) with common sign \((-1)^o\), on the index set of the node with its signs.
+3. If \(o+j\le m\), and \(o=0\) or \(i=0\), then the doubled parameter \(l\) of the node \((i,j)\) with offset \(o\) at \(\tau\) is *twice* the parameter of \(B_{o,i,j}\): \(l/2\) is the parameter \(\lambda_{B_{o,i,j}}\) of \(\mathcal C_{\tau,z}\) with common sign \((-1)^o\), on the index set of the node with its signs. (No bound on \(i\) is needed here, the labels \(u_l\) being defined for all \(l\); but \(B_{o,i,j}\subseteq C\) holds only if moreover \(i\le m\), and this is needed whenever the gap lemma or the insertion theorem is applied.)
 4. For \(i,j,i',j'\le m\) and nodes of ranks \(N,N'\): \(500(N+N')^3\le\Delta-t-2\).
 
 ## Proof

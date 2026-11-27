@@ -7,7 +7,7 @@ aliases = ["chain of lifts", "kernel product", "double lift chain"]
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.chain", "New.doubleLiftChain", "New.twoKernelAction", "New.kernelProduct", "New.kernelProduct_succ", "New.classPoints", "New.exists_linearMap_chain_eq_apply_pure"]
+lean = ["New.chain", "New.doubleLiftChain", "New.twoKernelAction", "New.kernelProduct", "New.kernelProduct_succ", "New.exists_linearMap_chain_eq_apply_pure"]
 lean_files = ["src/New/UpperBound/Objects/LiftChains.lean"]
 +++
 

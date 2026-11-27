@@ -18,7 +18,7 @@ Notation as in [[proofs/grh/upper-objects/weights-of-the-definite-spaces|paramet
 
 1. For all \(j,p\ge0\): \(\mu^+_{j+1,\tau,p}=\sum_{p<u<n_{j+1}}c_\tau(u)\). That is, the diagram of lift \(j+1\) is a Young diagram with \(c_\tau(u)\) columns of height \(u\) for each \(u<n_{j+1}\).
 2. For \(p<n_j\): \(\mu(X_j)_{\tau,p}=\ell_j(\tau)+\sum_{p<u<n_j}c_\tau(u)\); and \(\ell_j(\tau)=n_{j+1}/2-\kappa_{j+1}(\tau)+c_\tau(n_j)\).
-3. For all \(p\): \(\mu(Y_m)_{\tau,p}=\mu(X_m)_{\tau,p+1}+\operatorname{kept}(p+1)\), and \(\operatorname{kept}(u)\le c_\tau(u)\) for all \(u\). Hence \(\mu(X_m)_{p+1}\le\mu(Y_m)_p\le\mu(X_m)_p\) for \(p+1<n_m\): the weights interlace.
+3. For all \(p\) with \(p+1<n_m\): \(\mu(Y_m)_{\tau,p}=\mu(X_m)_{\tau,p+1}+\operatorname{kept}(p+1)\) (the Lean statement holds for every \(p\ge0\) when both sides are continued by the same formulas \(\lambda^X_{p}-[n_m]_p\), \(\lambda^{Y,\mathrm{sorted}}_p-[n_m-1]_p\) from the infinite sequences; beyond the ranks these are not entries of the weights), and \(\operatorname{kept}(u)\le c_\tau(u)\) for all \(u\). Hence \(\mu(X_m)_{p+1}\le\mu(Y_m)_p\le\mu(X_m)_p\) for \(p+1<n_m\): the weights interlace.
 4. For \(p<n_m-1\): \(\mu(Y_m)_{\tau,p}=\ell_m(\tau)+\sum_{p<u<n_m-1}c^Y_\tau(u)\).
 5. *(Bounds.)* For \(j<m\): \(\mu^+_{j+1,\tau,0}\le a_\tau+\kappa_{j+1}(\tau)\); \(\mu^+_{j+1,\tau,p}\le\kappa_{j+1}(\tau)\) for \(0<p<k\); and \(\mu^+_{j+1,\tau,p}\le m\Delta\) for \(p\ge k\). Moreover \(c^Y_\tau(u)\le\Delta\) for \(u\ge k\), and \(c_\tau(h)\le\kappa_1(\tau)[h=k]+\Delta\) for \(h\ne1\).
 

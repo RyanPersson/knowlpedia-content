@@ -15,7 +15,7 @@ Let \(D\) be [[?lean:New.Data|admissible data]] and let \(V\) be a [[?lean:New.S
 
 **Definition.**
 
-* The **forms of principal level** on \(V\) are the [[?lean:New.Space.Form|forms on \(U(V)(\mathbb A)\) of type \(\Theta_{\lambda,s}\)]] that are fixed by the principal level at the chosen places: the integral finite adelic points reducing to \(1\) at every chosen place above \(p_0,p_1\). (No condition at \(N\) or at a twist.)
+* The **forms of principal level** on \(V\) are the [[?lean:New.Space.Form|forms on \(U(V)(\mathbb A)\) of type \(\Theta_{\lambda,s}\)]] that are fixed by the principal level at the chosen places: the integral finite adelic points reducing to \(1\) at every chosen place above \(p_0,p_1\). (The level is contained in the standard maximal compact subgroup and imposes no congruence at \(N\) or at the places of a twist: the forms are invariant under the full local maximal compact subgroups at all finite places other than the chosen places and their conjugates.)
 * The [[proofs/grh/upper-objects/good-idempotent|group \(\bar G\) of the chosen places]] acts on them: an element acts through an integral lift with the given reductions.
 * The **good forms** on \(V\) are the image of the [[proofs/grh/upper-objects/good-idempotent|good idempotent]] \(e_0\in\mathbb C[\bar G]\) on the forms of principal level.
 * The **target forms** are the good forms on [[proofs/grh/upper-objects/spaces-y-and-w|\(Y_0\)]]; their dimension is the **target dimension** \(d\).
