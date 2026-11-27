@@ -50,7 +50,7 @@ and \(r(1)=0\).
 
 * The twisted \(L\)-functions enter the residue with a minus sign, so their zeros could cancel zeros of the \(L(s,\chi)\) or spoil the sign at real points. Step 2 removes them from the relevant box for one well-chosen \(d\); this is why the hypothesis is asked for all primes \(d\) of a class.
 * A real zero \(x\in(\beta,1)\) of some \(E_\chi\) gives a residue \(\ge0\), which is the sign that Landau's lemma tolerates. So no hypothesis on real zeros is needed.
-* In [[?lean:New.grh|the half-plane theorem]] the criterion is applied with \(q_0\) the first parameter of the construction and the bound \(R_{q_0}(x)\le(64\varphi(q_0)+3)x^{-1/2+6\varepsilon}\) from [[?lean:New.eventually_primeRemainder_natCast_le|the one-sided bound]].
+* In [[?lean:New.grh|the half-plane theorem]], for a character modulo \(q\), the criterion is applied with \(q_0=18480\,q\), \(d_0=q_0/2-1\), and the real-variable bound \(R_{q_0}(x)\le x^{-1/2+\varepsilon}\) for all large real \(x\), with \(\varepsilon=\beta-\tfrac12\), which is [[?lean:New.eventually_primeRemainder_le_rpow|the one-sided bound in the real variable]]. (That theorem is derived in the other chapter from a bound at integers, `New.eventually_primeRemainder_natCast_le`.) The \(L\)-function modulo \(q\) differs from the one of the induced character modulo \(q_0\) by Euler factors.
 
 ## References
 

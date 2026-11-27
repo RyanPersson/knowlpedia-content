@@ -27,7 +27,7 @@ proof_status = "full"
 
 2. \(\lvert\chi(n)\mu(n)\rvert\le1\) and \(\sum\chi(n)\mu(n)n^{-s}=1/L(s,\chi)\) for \(\operatorname{Re}s>1\).
 
-3. The integrand \(f(t)t^{s-1}\) is dominated near \(0\) by \(Dt^{\operatorname{Re}s-1}\) and at infinity by \(De^{-t}t^{\operatorname{Re}s-1}\). On the strip, \(t^{\operatorname{Re}s-1}\le t^{-1/2}+t\), which gives a bound independent of \(s\). \(\blacksquare\)
+3. On a compact subset of \(\operatorname{Re}s>0\) choose \(0<a\le\operatorname{Re}s\le b\). Then \(\lvert f(t)t^{s-1}\rvert\le Dt^{a-1}\) on \((0,1]\) and \(\le De^{-t}t^{b-1}\) on \([1,\infty)\), an integrable majorant independent of \(s\). So the integral converges absolutely, and it is holomorphic by [[complex-analysis/holomorphic-parameter-integral|holomorphic dependence of a parameter integral]], the integrand being entire in \(s\) for each \(t\). On the strip \(\tfrac12\le\operatorname{Re}s\le2\), \(t^{\operatorname{Re}s-1}\le t^{-1/2}+t\), which gives a bound independent of \(s\). \(\blacksquare\)
 
 ## References
 

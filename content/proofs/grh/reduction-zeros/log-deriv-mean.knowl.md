@@ -8,7 +8,7 @@ domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
 lean = ["New.logDerivMean", "New.analyticAt_logDerivMean_of_one_le_re", "New.analyticAt_logDerivMean"]
-lean_files = ["src/New/Reduction/Zeros/PrimeError.lean"]
+lean_files = ["src/New/Reduction/Zeros/PrimeError.lean", "src/New/Reduction/Zeros/PrimeNumberTheorem.lean"]
 +++
 
 Let \(d\) be a prime and \(q\ge1\). For a complex [[?c:Dirichlet character|Dirichlet character]] \(\psi\) modulo \(q\) let \(E_\psi\) be [[?lean:New.entireL|its \(L\)-function with the pole removed]] and \(\psi\chi_K\) its [[?lean:New.quadTwist|quadratic twist]] by the Legendre symbol \((\cdot/d)\), a character modulo \(qd\). The function \(G_q=G_{d,q}\) is the [[complex-analysis/meromorphic-function|meromorphic function]]

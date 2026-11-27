@@ -7,7 +7,7 @@ aliases = ["Riemann hypothesis", "RiemannZetaZerosOnLine"]
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["RiemannZetaZerosOnLine", "RiemannHypothesis"]
+lean = ["RiemannZetaZerosOnLine"]
 lean_files = ["src/Statements.lean"]
 +++
 

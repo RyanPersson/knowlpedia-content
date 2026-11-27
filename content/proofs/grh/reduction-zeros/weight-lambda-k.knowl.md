@@ -1,6 +1,6 @@
 +++
 id = "proofs/grh/reduction-zeros/weight-lambda-k"
-title = "The weight on prime powers in the class 1 that do not split"
+title = "The weight on prime powers in the class 1 with Legendre symbol different from 1"
 kind = "definition"
 summary = "The function Lambda(n)(1 - (n/d)) on integers n congruent to 1 modulo q, and 0 elsewhere."
 aliases = []
@@ -22,7 +22,7 @@ Since \(\chi_K(n)\in\{0,1,-1\}\), we have \(0\le1-\chi_K(n)\le2\). Hence, for al
 \[
 0\le\lambda(n)\le2\Lambda(n)\le2\log n\le2n\qquad(n\ge1),\qquad \lambda(0)=0 .
 \]
-The weight is supported on prime powers \(p^k\equiv1\pmod q\) with \(\chi_K(p^k)\neq1\): it vanishes when \(p\) splits in \(K\), and when \(p\) is inert and \(k\) is even.
+The weight is supported on prime powers \(p^k\equiv1\pmod q\) with \(\chi_K(p^k)\neq1\), for every prime \(d\). When \(d\equiv3\pmod4\), so that \(\chi_K\) is the character of \(K=\mathbb{Q}(\sqrt{-d})\), this means: it vanishes when \(p\) splits in \(K\), and when \(p\) is inert and \(k\) is even. For other \(d\) this reading fails (for \(d=5\) the prime \(3\) splits in \(\mathbb{Q}(\sqrt{-5})\) but \((3/5)=-1\)).
 
 ## References
 

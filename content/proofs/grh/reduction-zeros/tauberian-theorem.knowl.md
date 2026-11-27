@@ -7,7 +7,7 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.eventually_abs_le_inv_pow_of_transform", "New.eventually_log_pow_le_and_pow_le_exp_sqrt"]
+lean = ["New.eventually_abs_le_inv_pow_of_transform", "New.norm_taylorCoeff_dslope_le_inv_pow", "New.eventually_log_pow_le_and_pow_le_exp_sqrt"]
 lean_files = ["src/Lib/Analytic/PrimeNumberTheorem/Tauberian.lean"]
 proof_status = "full"
 +++
@@ -35,7 +35,7 @@ and \(T=\dfrac{(-H)^{k}H}{k!}g^{(k)}(1+H)\). For large \(u\): \(l\ge\max(1,l_0)\
 \lvert T-R(u)\rvert\le L\Bigl(u^{-(B+1)}+\frac{u^{2}}{k+1}\,u^{B+1}\Bigr)\le L\bigl(u^{-(B+1)}+u^{2-(2B+4)+(B+1)}\bigr)=2L\,u^{-(B+1)}.
 \]
 
-*\(T\) is small.* Every \(s\) in the closed disc of radius \(H+\eta\) about \(1+H\) has \(\operatorname{Re}s\ge1-\eta=1-l^{-A}\) and \(\lvert s\rvert\le2H+\eta+1\le4u^{2B+4}+2\le u^{2B+5}=e^{l}\) (as \(u\ge8\)). So \(F\) is holomorphic there with \(\lvert F\rvert\le M=l^{A}\), and the Cauchy estimate for a slope gives
+*\(T\) is small.* Every \(s\) in the closed disc of radius \(H+\eta\) about \(1+H\) has \(\operatorname{Re}s\ge1-\eta=1-l^{-A}\) and \(\lvert s\rvert\le2H+\eta+1\le4u^{2B+4}+2\le u^{2B+5}=e^{l}\) (as \(u\ge8\)). So \(F\) is complex differentiable at every point of this closed disc, with \(\lvert F\rvert\le M=l^{A}\) there; this is exactly the hypothesis of the Cauchy estimate for a slope (holomorphy on a neighbourhood of the boundary is neither assumed nor needed), which gives
 \[
 \lvert T\rvert\le4\,l^{A}\,H\,l^{A}\exp\Bigl(-\frac{(k+1)\,l^{-A}}{2H}\Bigr)=l^{2A}\cdot4H\cdot\exp\Bigl(-\frac{u}{2\,l^{A}}\Bigr).
 \]
@@ -49,5 +49,5 @@ The theorem replaces the contour integration usual in proofs of the prime number
 
 ## References
 
-1. Lean: `New.eventually_abs_le_inv_pow_of_transform` in `src/Lib/Analytic/PrimeNumberTheorem/Tauberian.lean`.
+1. Lean: `New.eventually_abs_le_inv_pow_of_transform`, with the computation of the step "\(T\) is small" in `New.norm_taylorCoeff_dslope_le_inv_pow`, in `src/Lib/Analytic/PrimeNumberTheorem/Tauberian.lean`.
 2. H. L. Montgomery, R. C. Vaughan, *Multiplicative Number Theory I*, 2007, Section 6.2 (cited in the head of the Lean file for the result, proved there by a contour integral).

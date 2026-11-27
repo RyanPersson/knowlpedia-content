@@ -12,7 +12,7 @@ lean_files = ["src/Lib/Analytic/QuadraticTwist.lean"]
 proof_status = "full"
 +++
 
-**Lemma.** Let \((v/m)\) denote the [[?c:Jacobi symbol|Jacobi symbol]], and for an integer \(n\ge1\) let \(n^{\circ}\) be its odd part (\(n=2^{e}n^{\circ}\), \(n^\circ\) odd).
+**Lemma.** Let \((v/m)\) denote the [[?c:Jacobi symbol|Jacobi symbol]], extended to all integers \(m\ge1\) as the product over the prime factors \(p\) of \(m\), with multiplicity, of the Legendre symbols \((v/p)\), where for \(p=2\) the symbol \((v/2)\) is the quadratic character of \(\mathbb{Z}/2\): \(1\) for odd \(v\) and \(0\) for even \(v\). (This is not the Kronecker symbol; for odd \(m\) it is the usual Jacobi symbol, and only odd \(m\) occur in parts 2–4.) Also, for an integer \(n\ge1\) let \(n^{\circ}\) be its odd part (\(n=2^{e}n^{\circ}\), \(n^\circ\) odd).
 
 1. For every integer \(b\ge1\) there is a complex [[?c:Dirichlet character|Dirichlet character]] \(\psi_b\) modulo \(b\) with \(\psi_b(v)=(v/b)\) for all integers \(v\).
 2. If \(m\) is odd and not a square, such a character is not principal.

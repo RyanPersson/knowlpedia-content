@@ -12,7 +12,7 @@ lean_files = ["src/Lib/Analytic/PrimeNumberTheorem/Tauberian.lean"]
 proof_status = "full"
 +++
 
-**Lemma.** Let \(R\colon\mathbb{R}\to\mathbb{R}\) be [[measure-theory/measurable-function|measurable]] with \(\lvert R(v)\rvert\le Ce^{v}\) for \(v\ge0\), and let \(\Phi\) be a function with \(\Phi(s)=\int_0^\infty R(v)e^{(1-s)v}dv\) for \(\operatorname{Re}s>2\). For \(H>1\) and an integer \(k\ge0\) put
+**Lemma.** Let \(R\colon\mathbb{R}\to\mathbb{R}\) be [[measure-theory/measurable-function|measurable]]. In parts 1–3 let \(\Phi\) be a function with \(\Phi(s)=\int_0^\infty R(v)e^{(1-s)v}dv\) for \(\operatorname{Re}s>2\); in parts 1 and 2 assume moreover \(\lvert R(v)\rvert\le Ce^{v}\) for \(v\ge0\) (in part 3 this follows from the Lipschitz hypothesis). Part 4 uses neither \(\Phi\) nor a growth bound nor measurability. For \(H>1\) and an integer \(k\ge0\) put
 \[
 T_k(H)=\frac{(-H)^{k}H}{k!}\,\Phi^{(k)}(1+H).
 \]
@@ -35,7 +35,7 @@ the mean of \(R\) for the [[?c:Gamma distribution|Gamma density]] of mean \((k+1
 
 2. The moments \(\int_0^\infty v^{j}e^{-Hv}dv=j!/H^{j+1}\) show that the density has total mass \(1\), mean \((k+1)/H\) and second moment \((k+1)(k+2)/H^2\), so variance \((k+1)/H^2\). Then \(T_k(H)-c\) is the mean of \(R-c\), bounded by the mean of \(a+b(v-(k+1)/H)^2\).
 
-3. For \(v>0\): \(\lvert R(v)-R(u)\rvert\le L\lvert v-u\rvert\le L\bigl(\delta+(v-u)^2/\delta\bigr)\), since \(t\le\delta+t^{2}/\delta\) for \(t\ge0\). Also \(\lvert R(v)\rvert\le(\lvert R(0)\rvert+L)e^{v}\). Apply 2 with \(c=R(u)\), \(a=L\delta\), \(b=L/\delta\), and \((k+1)/H=u\), \((k+1)/H^{2}=u^{2}/(k+1)\).
+3. For \(v>0\): \(\lvert R(v)-R(u)\rvert\le L\lvert v-u\rvert\le L\bigl(\delta+(v-u)^2/\delta\bigr)\), since \(t\le\delta+t^{2}/\delta\) for \(t\ge0\). Also \(\lvert R(v)\rvert\le\lvert R(0)\rvert+Lv\le(\lvert R(0)\rvert+L)e^{v}\) for \(v\ge0\), so parts 1 and 2 apply. Apply 2 with \(c=R(u)\), \(a=L\delta\), \(b=L/\delta\), and \((k+1)/H=u\), \((k+1)/H^{2}=u^{2}/(k+1)\).
 
 4. For \(x\le y\) cut \([x,y]\) into \(n>y-x\) equal steps of length \(\le1\) and add the bounds. \(\blacksquare\)
 
