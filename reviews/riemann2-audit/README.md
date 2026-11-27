@@ -1,6 +1,6 @@
 # Audit of the Riemann2 translation
 
-The next review covers 95 pages added or revised through `b4aa180e`, including the completed Bessel continuation and the first 11 unfolding files. [Incremental review and findings](updates/b4aa180e/README.md)
+The latest review verifies 61 author fixes and the second half of unfolding through `9712a76c`. The preceding update covers the Bessel continuation and the first 11 unfolding files. [Author responses and unfolding B](updates/9712a76c/README.md) · [Earlier incremental review](updates/b4aa180e/README.md)
 
 All **644 pages** added on `riemann2` through `b92603a3` were compared with the readable Lean edition. The scope includes 635 individual knowls and nine chapter pages in 17 areas. There are **353 page-level findings on 279 pages**. The review assigns 29 high, 172 medium, and 152 low priority. A recurring issue counts once on each affected page. Compiler diagnostics and the cross-area declaration-name checks are listed separately. [Findings with proposed edits](findings.tsv) · [Compiler and link results](structural-checks.md)
 

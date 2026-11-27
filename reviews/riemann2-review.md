@@ -1,6 +1,6 @@
 # First review of the GRH proof translation
 
-The subsequent audit covers all 644 pages through content commit `b92603a3`, including the repaired spanning files. A further review covers the 95 pages added or revised through `b4aa180e`. [Full audit](riemann2-audit/README.md) · [Incremental review and findings](riemann2-audit/updates/b4aa180e/README.md)
+The subsequent audit covers all 644 pages through `b92603a3`, including the repaired spanning files. Later reviews cover the Bessel continuation, both halves of unfolding and the three author responses. [Full audit](riemann2-audit/README.md) · [First incremental review](riemann2-audit/updates/b4aa180e/README.md) · [Author responses and unfolding B through `9712a76c`](riemann2-audit/updates/9712a76c/README.md)
 
 The translation and the authors’ reports were reviewed at content commit `1e9a4864` and Knowlpedia commit `562a1cc`, against `grh-lean` commit `72fead10`. The inventory covers all seven finished chapters. The mathematical review samples statements and proof steps, with particular attention to questions raised by their authors.
 

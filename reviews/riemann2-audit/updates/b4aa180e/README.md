@@ -1,5 +1,7 @@
 # Review of changes through `b4aa180e`
 
+The next review verifies the three author responses and covers the second half of unfolding. [Review through `9712a76c`](../9712a76c/README.md)
+
 Two translation commits added 90 individual knowls and one chapter and revised four existing pages since `b92603a3`. This update compares all **95 changed pages** with the readable Lean source at `72fead10`. It records **95 new page findings on 56 pages**. The review assigns 12 high, 38 medium and 45 low priority. Each finding links the translation and the relevant Lean declaration and gives a proposed correction. [All findings as a table](findings.tsv) · [Translation diff](https://github.com/RyanPersson/knowlpedia-content/compare/b92603a3a52816e176d8237255fd9e572f9cbdbe...b4aa180eb8c6458b06da8af94de844de0e5e2d91) · [Report and tooling diff](https://github.com/RyanPersson/knowlpedia/compare/8e8b0ea628a689eaa11435adec77acaf51002668...d1e5326095b2b9484172c8129e0aed23b5456711)
 
 | Area | New knowls | New chapters | Revised pages | Changed pages reviewed |
