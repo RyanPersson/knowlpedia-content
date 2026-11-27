@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Sharpness/OneCurve.lean"]
 proof_status = "outline"
 +++
 
-Notation as in [[proofs/grh/derivatives-vacuum/greatest-norm-of-derivatives|the definition of \(c_C\)]]. Let \(q_p\) be the [[?lean:New.primeNorm|norm of a prime of \(K\) above \(p\)]], \(\rho_p=1/(e(q_p-1))\) the [[?lean:New.varpiValuation|valuation of \(\varpi\)]] (\(e\) the ramification index of \(p\) in \(K\)), \(\gamma_p=1/(p-1)-\rho_p\) the [[?lean:New.gammaPrime|rate]], and \(\Upsilon\) the [[?lean:New.CMLattice.formalParam|formal parameter]] of \(C\) (the part of \(y\) in degrees \(\equiv1\bmod q_p-1\)).
+Notation as in [[proofs/grh/derivatives-vacuum/greatest-norm-of-derivatives|the definition of \(c_C\)]]. Let \(q_p\) be the [[?lean:New.primeNorm|norm of a prime of \(K\) above \(p\)]], \(\rho_p=1/(e(q_p-1))\) the [[?lean:New.varpiValuation|valuation threshold]] (\(e\) the ramification index of \(p\) in \(K\)), \(\gamma_p=1/(p-1)-\rho_p\) the [[?lean:New.gammaPrime|rate]], and \(\Upsilon\) the [[?lean:New.CMLattice.formalParam|formal parameter]] of \(C\) (the part of \(y\) in degrees \(\equiv1\bmod q_p-1\)).
 
 **Lemma.** If \(n+1=q_p^{\,j}\) for some \(j\ge0\), then
 

@@ -21,7 +21,7 @@ Notation as in [[proofs/grh/derivatives-vacuum/hermitian-product-of-lattice-vect
 
 ## Proof
 
-Let \(g=P'(\zeta)\) generate the relative different and \(\beta=(1+\sqrt{-d})/2\in K\subset E\). By [[?lean:New.Parameters.α|definition]], the component of \(\alpha\) at a finite place \(w\) is \(g^{-1}\) if \(\beta\in w\) and \(1\) otherwise. Hence for any embedding \(\varphi\colon E\to\mathbb{C}_p\), inducing the prime \(w_\varphi\),
+Let \(g=\Phi_{q_1}'(\zeta)\) generate the relative different and \(\beta=(1+\sqrt{-d})/2\in K\subset E\). By [[?lean:New.Parameters.α|definition]], the component of \(\alpha\) at a finite place \(w\) is \(g^{-1}\) if \(\beta\in w\) and \(1\) otherwise. Hence for any embedding \(\varphi\colon E\to\mathbb{C}_p\), inducing the prime \(w_\varphi\),
 \[ \widehat\varphi(\alpha)=\begin{cases}\varphi(g)^{-1}&\beta\in w_\varphi,\\ 1&\text{otherwise.}\end{cases}\tag{*} \]
 
 *Independence of \(\tau\).* The condition \(\beta\in w_{\varphi_\tau}\) reads \(\lvert\iota_p(\overline{\Phi_\tau(\beta)})\rvert_p<1\), and \(\Phi_\tau(\beta)=(1+i\sqrt d)/2\) for all \(\tau\) because \(\beta\in K\); so the condition does not depend on \(\tau\). Moreover \(\Phi_\tau(g)=\Phi_1(\gamma_\tau g)\) for the element \(\gamma_\tau\in\operatorname{Gal}(E/K)\) corresponding to \(\tau\), and \(\gamma_\tau g\) and \(g\) generate the same ideal, the different being Galois-stable ([[?lean:New.Parameters.valuation_map_relDifferentGen|all conjugates of \(g\) over \(K\) have the same valuation at every place]]). Therefore \(\lvert\varphi_\tau(g)\rvert_p=\lvert\varphi_1(g)\rvert_p\), and by \((*)\), \(\lvert\widehat\varphi_u(\alpha)\rvert_p=\lvert\widehat\varphi_\tau(\alpha)\rvert_p\) for all infinite places \(u\).

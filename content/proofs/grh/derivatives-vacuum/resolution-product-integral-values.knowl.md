@@ -20,7 +20,7 @@ where \(y_f\) is the adelic vector with finite part \(\alpha y\) and real part \
 
 ## Proof
 
-*Reduction to a rational translate.* The value \(F(y_f)\) equals \(\theta(\varrho(y_f)F)\) (the theta functional of the translate; Lean `theta_rho`). Since \(F\) is in the finite part, it is fixed by an open subgroup of finite translations, and \(E^n\) is dense in the finite adelic vectors, so there is \(\gamma\in E^n\) with \(\varrho(\gamma_f)F=\varrho(y_f)F\) ([[?lean:New.Space.exists_finiteImage_approx|approximation by a rational vector]]). By [[proofs/grh/derivatives-vacuum/resolution-product-theta-values-and-jets|the formula for theta values]],
+*Reduction to a rational translate.* The value \(F(y_f)\) equals \(\theta(\varrho(y_f)F)\) (the theta functional of the translate; Lean `theta_rho`). Since \(F\) is in the finite part, it is fixed by an open subgroup of finite translations, and \(E^n\) is dense in the finite adelic vectors, so there is \(\gamma\in E^n\) with \(\varrho(\gamma_f)F=\varrho(y_f)F\) ([[?lean:New.exists_finiteImage_approx|approximation by a rational vector]]). By [[proofs/grh/derivatives-vacuum/resolution-product-theta-values-and-jets|the formula for theta values]],
 \[ F(y_f)=\prod_{i=(j,k)}\bigl(\tau^{(m_j)}_{l_i(\gamma)}s_i\bigr)(0),\qquad s_i=\text{monomial section of }x_i. \]
 It suffices to bound each factor.
 

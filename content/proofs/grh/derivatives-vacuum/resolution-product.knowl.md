@@ -23,7 +23,7 @@ A vector \(F\in\mathcal{S}(V)\) is the **resolution product of the \(f_i\) along
 3. for every \(\gamma\in E^n\) and every \(z\in\mathbb{C}^{\Sigma\times n}\),
 \[ \Theta_{\varrho(\gamma_f)F}(z)=\prod_{i=(j,k)\in I\times n}\bigl(\tau^{(m_j)}_{l_i(\gamma)}f_i\bigr)\bigl(A_i^{\,b/c_A}(z)\bigr). \]
 
-Here \(\Theta\) is the [[?lean:New.Space.entireTheta|entire theta function]], \(\varrho(\gamma_f)F\) is the translate of \(F\) under the Heisenberg representation by the [[?lean:New.finiteImage|finite image]] \(\alpha^{-1}\gamma\) of \(\gamma\) (the adelic vector with finite part \(\gamma\) and real part \(0\)), and \(\tau^{(m)}_l\) is the [[?lean:New.CMLattice.twistedTranslate|twisted translation]] of degree \(m\) on \(C\):
+Here \(\Theta\) is the [[?lean:New.Space.entireTheta|entire theta function]], \(\varrho(\gamma_f)F\) is the translate of \(F\) under the Heisenberg representation by the [[?lean:New.finiteImage|finite image]] \(\alpha^{-1}\gamma\) of \(\gamma\) (the adelic vector with finite part \(\gamma\) and real part \(0\)), and \(\tau^{(m)}_l\) is the [[?lean:New.CMLattice.twistedTranslate|twisted translation]] of degree \(m\) on \(C\) (the translation operator of the form \(mH_C\), \(H_C(l,z)=\pi\bar lz/A\); see [[proofs/grh/derivatives-divisibility/cm-curve-setting|the CM lattice and its functions]] for \(C\), \(\theta\), \(x\), \(y\)):
 \[ (\tau^{(m)}_lg)(z)=\exp\!\Bigl(-\frac{m\pi}{A}\bigl(z\bar l+\tfrac12\lvert l\rvert^2\bigr)\Bigr)\,g(z+l). \]
 
 ## Properties

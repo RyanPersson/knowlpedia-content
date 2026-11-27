@@ -19,7 +19,7 @@ For a commutative ring \(R\), a polynomial \(Q\) and a power series \(F\) in var
 1. If \(Q\) is homogeneous of degree \(l\) and \(a\in R\), then the jet along \(Q\) of \(F(aX)\) (all variables rescaled by \(a\)) is \(a^l\) times the jet of \(F\).
 2. Let \(E\) be a CM field with CM type and [[?lean:New.WeilData|Weil data]], \(V\) a [[?lean:New.Space|hermitian space]] over \(E\) with index set \(n\) and signs \(\varepsilon\), \(f\in\mathcal{S}(V)\), \(a\in\mathbb{C}\), and \(Q\in\mathbb{C}[X_p:p\in\Sigma\times n]\) homogeneous of degree \(l\). Then the jet along \(Q\) of the [[?lean:New.Space.jetSeries|jet series]] \(J_a(f)\) is
 \[ a^{\,l}\;\theta\bigl(v_Q\otimes f\bigr), \]
-where \(v_Q\) is the Fock vector of \(Q\) (for the signs \(\varepsilon\) at the real places) and \(v\otimes f\) is the [[?lean:New.Space.integrated|integrated action]] of the real Heisenberg group on \(f\) against \(v\).
+where \(\Sigma\) is the set of infinite places of \(E\), the pair \((v,i)\in\Sigma\times n\) carries the sign \(\varepsilon_i\), \(v_Q\) is the Fock vector of \(Q\) for these signs, and \(v\otimes f\) is the [[?lean:New.Space.integrated|integrated action]] of the real Heisenberg group on \(f\) against \(v\).
 
 ## Proof
 

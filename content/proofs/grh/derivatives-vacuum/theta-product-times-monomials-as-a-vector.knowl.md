@@ -26,7 +26,7 @@ Apply [[proofs/grh/derivatives-vacuum/existence-of-resolution-product-along-tigh
 
 For 1, use the jet series of the translate by \(\gamma=0\) ([[proofs/grh/derivatives-vacuum/resolution-product-theta-values-and-jets|jets of resolution products]]): the shifts vanish, and at the scale \(c=\pi_M\lambda\) the linear form of the factor \((i,b)\) has coefficients
 \[ \frac{\Omega_0}{\pi_M}\cdot\frac{1}{c_A}\cdot\pi_M\frac{\varpi c_A}{\Omega_0}\,\overline{\Phi_\tau(w_i)}=\varpi\,\overline{\Phi_\tau(w_i)} \]
-in the variables \(z_{\tau,b}\): it is the resolution form \(\mu_i\) in the copy \(b\). So \(\mathcal{T}(F)=\prod_{i,b}(y^{e_{b,i}}\theta^{c_i})(\mu_iz_b)\); apply \(\iota_p\) to the coefficients and group by \(b\).
+in the variables \(z_{\tau,b}\). Write \(\tilde\mu_i\) for this complex linear form, \(\tilde\mu_i(z)=\varpi\sum_\tau\overline{\Phi_\tau(w_i)}z_\tau\); the resolution form is its image, \(\mu_i=\iota_p(\tilde\mu_i)\). So, over \(\mathbb{C}\), \(\mathcal{T}(F)=\prod_{i,b}T(y^{e_{b,i}}\theta^{c_i})(\tilde\mu_iz_b)\), with \(T\) the complex Taylor series at \(0\) of the functions \(y\), \(\theta\) of \(\mathcal{E}\). Applying \(\iota_p\) to all coefficients commutes with products and with substitution of linear forms; it turns \(T(y)\), \(T(\theta)\) into the \(p\)-adic series \(y\), \(\theta\) and \(\tilde\mu_i\) into \(\mu_i\). Grouping the factors by \(b\) gives 1.
 
 ## References
 

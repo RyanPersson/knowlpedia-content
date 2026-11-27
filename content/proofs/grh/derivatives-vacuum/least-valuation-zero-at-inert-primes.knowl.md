@@ -1,6 +1,6 @@
 +++
 id = "proofs/grh/derivatives-vacuum/least-valuation-zero-at-inert-primes"
-title = "Least valuation zero along a tight frame at an inert prime"
+title = "Nonpositive least valuation along a tight frame at an inert prime"
 kind = "lemma"
 summary = "At an inert prime the least valuation over six copies along a tight frame of length M is at most zero in every degree."
 aliases = []

@@ -7,7 +7,7 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.Data.exists_le_norm_coeff_indicatorDatum", "New.Data.norm_natCast_prod_eq_rpow_neg_sum"]
+lean = ["New.Data.exists_le_norm_coeff_indicatorDatum"]
 lean_files = ["src/New/Derivatives/Sharpness/BoundAttained.lean"]
 proof_status = "full"
 +++
@@ -25,4 +25,4 @@ Apply [[proofs/grh/derivatives-vacuum/expansion-in-indicator-data|the expansion 
 
 ## References
 
-1. Lean: `New.Data.exists_le_norm_coeff_indicatorDatum`, `New.Data.norm_natCast_prod_eq_rpow_neg_sum` in `src/New/Derivatives/Sharpness/BoundAttained.lean`.
+1. Lean: `New.Data.exists_le_norm_coeff_indicatorDatum` in `src/New/Derivatives/Sharpness/BoundAttained.lean`.

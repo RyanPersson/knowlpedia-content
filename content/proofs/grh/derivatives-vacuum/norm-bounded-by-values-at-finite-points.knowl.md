@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Vacuum/IntegralVacuum.lean"]
 proof_status = "full"
 +++
 
-Let \(V\) be a [[?lean:New.Space.IsStd|standard]] space over \(E\) with index set \(n\). A vector \(f\in\mathcal{S}(V)\) is read as the function \(f(y)=\theta(\varrho(y)f)\) of adelic vectors \(y\in\mathbb{A}_E^{\,n}\), and \(\langle f,f\rangle\) denotes the [[?lean:New.Space.dataInner|inner product]] of \(V\), which is the mean of \(\lvert f(y)\rvert^2\) over adelic vectors modulo rational ones (Lean `New.Space.dataInner_eq_quotMean`).
+Let \(V\) be a [[?lean:New.Space.IsStd|standard]] space over \(E\) with index set \(n\). A vector \(f\in\mathcal{S}(V)\) is read as the function \(f(y)=\theta(\varrho(y)f)\) of adelic vectors \(y\in\mathbb{A}_E^{\,n}\), and \(\langle f,f\rangle\) denotes the [[?lean:New.Space.dataInner|inner product]] on \(\mathcal{S}(V)\) (not the hermitian form of \(V\)), which is the mean of \(\lvert f(y)\rvert^2\) over adelic vectors modulo rational ones (Lean `New.Space.dataInner_eq_quotMean`).
 
 **Lemma.** If \(\lvert f(x_f)\rvert\le M\) for all finite adelic vectors \(x\), then \(\lvert\langle f,f\rangle\rvert\le M^2\).
 

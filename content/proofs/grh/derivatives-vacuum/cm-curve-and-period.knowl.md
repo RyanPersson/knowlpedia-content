@@ -7,7 +7,7 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.Parameters.cmCurve", "New.Parameters.cmPeriod", "New.Parameters.latticeModule_cmCurve"]
+lean = ["New.Parameters.cmCurve", "New.Parameters.cmPeriod", "New.Parameters.latticeModule_cmCurve", "New.Parameters.cmPeriod_mem_cmCurve_lattice"]
 lean_files = ["src/New/Derivatives/Vacuum/TightFrames.lean"]
 +++
 
@@ -16,8 +16,8 @@ Let \(P\) be [[?lean:New.Parameters|parameters]], with prime \(d\), and let \(K=
 
 ## Remarks
 
-The pair \((\mathcal{E},\Omega_0)\) is obtained by choice from the existence statement [[?lean:New.QuadField.exists_cmLattice_latticeModule_eq_scaledIdeal|every scaled ideal of \(K\) is the lattice of a CM lattice]], applied to the unit ideal. A CM lattice carries more data than its lattice (a marked point of order two); only the displayed equality is used about the choice. In particular \(\Omega_0\in\Lambda_{\mathcal{E}}\).
+The pair \((\mathcal{E},\Omega_0)\) is obtained by choice from the existence statement [[?lean:New.QuadField.exists_cmLattice_latticeModule_eq_scaledIdeal|every nonzero fractional ideal \(\mathfrak{a}\) of \(K\) has a complex multiple \(u\mathfrak{a}\), \(u\in\mathbb{C}^\times\), that is the lattice of a CM lattice]], applied to the unit ideal; the scale \(u=\Omega_0\) is produced by that statement (a CM lattice is normalised at its marked point, so the scale cannot be prescribed). A CM lattice carries more data than its lattice (a marked point of order two); only the displayed equality is used about the choice. In particular \(\Omega_0\in\Lambda_{\mathcal{E}}\), since \(1\in\mathcal{O}_K\).
 
 ## References
 
-1. Lean: `New.Parameters.cmCurve`, `New.Parameters.cmPeriod`, `New.Parameters.latticeModule_cmCurve` in `src/New/Derivatives/Vacuum/TightFrames.lean`.
+1. Lean: `New.Parameters.cmCurve`, `New.Parameters.cmPeriod`, `New.Parameters.latticeModule_cmCurve`, `New.Parameters.cmPeriod_mem_cmCurve_lattice` in `src/New/Derivatives/Vacuum/TightFrames.lean`.

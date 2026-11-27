@@ -21,7 +21,7 @@ Consequently, if \(C\) is a [[?lean:New.CMLattice|CM lattice]] for \(d\) with la
 
 ## Proof
 
-Let \(g=P'(\zeta)\) be the [[?lean:New.Parameters.relDifferentGen|generator of the relative different]] of \(E/K\) (the value at \(\zeta\) of the derivative of the \(q_1\)-th cyclotomic polynomial).
+Let \(g=\Phi_{q_1}'(\zeta)\) be the [[?lean:New.Parameters.relDifferentGen|generator of the relative different]] of \(E/K\) (the value at \(\zeta\) of the derivative of the \(q_1\)-th cyclotomic polynomial).
 
 *Step 1: \(x\bar y g\) is an algebraic integer.* In the finite adeles,
 \[ x\,\bar y\,g=(\alpha\bar\alpha g)\cdot(\alpha^{-1}x)\cdot\overline{(\alpha^{-1}y)} . \]

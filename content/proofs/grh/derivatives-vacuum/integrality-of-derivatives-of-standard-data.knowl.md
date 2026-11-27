@@ -1,6 +1,6 @@
 +++
 id = "proofs/grh/derivatives-vacuum/integrality-of-derivatives-of-standard-data"
-title = "Integrality and divisibility of the derivatives of standard data at all primes"
+title = "Integrality and divisibility of the derivatives of standard data at any prime"
 kind = "theorem"
 summary = "Jets of the jet series of standard data of level delta at scale c times the jet scale, along a homogeneous p-integral polynomial of degree l, have p-adic absolute value at most that of c / (conj(delta) d) to the power l."
 aliases = []

@@ -11,7 +11,7 @@ lean = ["New.Parameters.IsVacuumExpansion"]
 lean_files = ["src/New/Derivatives/Vacuum/StandardDataProducts.lean"]
 +++
 
-Let \(V\) be a [[?lean:New.Space.IsStd|standard]] space over \(E=K(\zeta)\) with finite index set \(n\), \(p\) a prime and \(\iota_p\) a \(p\)-adic place of \(\mathbb{C}\) with valuation ring \(R_p\). A **vacuum expansion** at \(p\) consists of \(b\in\mathbb{N}\), a finite family \((w_i)_{i\in I}\) in \(E\), a vector \(F\in\mathcal{S}(V)\), finitely many finite adelic vectors \((y_j)_{j\in J}\) and coefficients \(a_j\in R_p\) such that
+Let \(V\) be a [[?lean:New.Space.IsStd|standard]] space over \(E=K(\zeta)\) with finite index set \(n\), \(p\) a prime and \(\iota_p\) a \(p\)-adic place of \(\mathbb{C}\) with valuation ring \(R_p\). A **vacuum expansion** at \(p\) consists of \(b\in\mathbb{N}\), a finite family \((w_i)_{i\in I}\) in \(E\), a vector \(F\in\mathcal{S}(V)\), finitely many finite adelic vectors \((y_j)_{j\in J}\) and coefficients \(a_j\in R_p\) such that the conditions below hold. In them, for a finite adelic vector \(y\), \(y_f\) is the adelic vector with real part \(0\) and finite part \(\alpha y\) (\(\alpha\) the idele of the Weil data), while for a rational vector \(\gamma\in E^n\), \(\gamma_f\) is the adelic vector with real part \(0\) and finite part \(\gamma\) (it is \((\alpha^{-1}\gamma)_f\) in the first notation).
 
 1. \(p\nmid b\);
 2. \((w_i)\) with multiplicities \(1\) is a [[?lean:New.IsTightFrame|tight frame]] of length \(b^2\);

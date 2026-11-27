@@ -19,8 +19,8 @@ Notation as in [[proofs/grh/derivatives-vacuum/least-valuation-relation|the leas
 
 ## Proof
 
-By [[proofs/grh/derivatives-vacuum/katz-divisibility-limit|the limit of Katz divisibility]] there is \(g\in\mathcal{O}[\![y]\!]\) with \(\lvert\lvert\nu\rvert!\,[z^{\lvert\nu\rvert}]g\rvert_p\ge p^{-\gamma_p\lvert\nu\rvert}\). Put \(G=g(\mu_{i_0}z)\in\mathcal{O}[\![y(\mu z)]\!]\). By [[proofs/grh/derivatives-vacuum/six-scaled-copies-are-a-unit|the theorem on six scaled copies]] choose \(\delta\in\mathbb{Z}_p^6\) with \(\delta_1=1\) and an inverse \(V\) of \(\Theta_\delta\) in \(\mathcal{O}[\![y(\mu z)]\!]\). Take \(H_1=GV\) and \(H_c=1\) for \(c\ge2\). Then
-\[ \prod_{c=1}^6(H_c\Theta)(\delta_cz)=G(z)V(z)\,\Theta_\delta(z)=G(z). \]
+By [[proofs/grh/derivatives-vacuum/katz-divisibility-limit|the limit of Katz divisibility]] there is \(g\in\mathcal{O}[\![y]\!]\) with \(\lvert\lvert\nu\rvert!\,[z^{\lvert\nu\rvert}]g\rvert_p\ge p^{-\gamma_p\lvert\nu\rvert}\). Put \(G=g(\mu_{i_0}z)\in\mathcal{O}[\![y(\mu z)]\!]\). By [[proofs/grh/derivatives-vacuum/six-scaled-copies-are-a-unit|the theorem on six scaled copies]] choose \(\delta=(\delta_0,\dots,\delta_5)\in\mathbb{Z}_p^6\) with \(\delta_0=1\) and an inverse \(V\) of \(\Theta_\delta\) in \(\mathcal{O}[\![y(\mu z)]\!]\). Take \(H_0=GV\) and \(H_c=1\) for \(1\le c\le5\). Then
+\[ \prod_{c=0}^5(H_c\Theta)(\delta_cz)=G(z)V(z)\,\Theta_\delta(z)=G(z). \]
 The coefficient of \(z^\nu\) in \(G=g(\sum_x\mu_{i_0,x}z_x)\) is \(\frac{\lvert\nu\rvert!}{\nu!}\prod_x\mu_{i_0,x}^{\nu_x}\,[z^{\lvert\nu\rvert}]g\), of absolute value \(\lvert\lvert\nu\rvert!\,[z^{\lvert\nu\rvert}]g\rvert_p\cdot p^{v_p(\nu!)}\ge p^{-(\gamma_p\lvert\nu\rvert-v_p(\nu!))}\). Conclude by rule 3 of [[proofs/grh/derivatives-vacuum/least-valuation-rules|the rules]] (the \(\delta_c\) are integral).
 
 ## References

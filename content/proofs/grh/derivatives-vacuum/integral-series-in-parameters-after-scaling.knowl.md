@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Sharpness/LeastValuation.lean"]
 proof_status = "outline"
 +++
 
-Notation as in [[proofs/grh/derivatives-vacuum/least-valuation-relation|the least valuation relation]]; \(d\) is a prime \(\equiv7\bmod8\), \(\rho_p\) the [[?lean:New.varpiValuation|valuation of \(\varpi\)]].
+Notation as in [[proofs/grh/derivatives-vacuum/least-valuation-relation|the least valuation relation]]; \(d\) is a prime \(\equiv7\bmod8\), \(\rho_p=v(\pi_p)/(q_p-1)\) the [[?lean:New.varpiValuation|valuation threshold]] (\(1/(p-1)\), \(1/(p^2-1)\), \(1/(2p-2)\) for \(p\) split, inert, ramified in \(K\)); the scale \(\varpi\) below is quantified independently of it.
 
 **Lemma.** If \(\lvert\mu_{i,x}\rvert_p\le1\) for all \(i,x\) and \(\varpi\in\mathbb{C}_p\) has \(\lvert\varpi\rvert_p\le p^{-\rho_p}\), then for every \(H\in\mathcal{O}[\![y(\mu z)]\!]\) the series \(H(\varpi z)\) has coefficients in \(\mathcal{O}_{\mathbb{C}_p}\).
 

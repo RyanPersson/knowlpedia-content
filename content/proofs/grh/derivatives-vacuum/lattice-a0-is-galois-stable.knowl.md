@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Vacuum/ShortVectors.lean"]
 proof_status = "full"
 +++
 
-Let \(P\) be [[?lean:New.Parameters|parameters]], \(s\in\mathbb{N}\), \(E=K(\zeta)\), \(g=P'(\zeta)\) the [[?lean:New.Parameters.relDifferentGen|generator of the different]] of \(E/K\), \(\beta=(1+\sqrt{-d})/2\), and \(\mathfrak{a}_0=E\cap\alpha\widehat{\mathcal{O}}_E\) for the [[?lean:New.Parameters.α|idele \(\alpha\)]].
+Let \(P\) be [[?lean:New.Parameters|parameters]], \(s\in\mathbb{N}\), \(E=K(\zeta)\), \(g=\Phi_{q_1}'(\zeta)\), \(\Phi_{q_1}\) the \(q_1\)-th cyclotomic polynomial, the [[?lean:New.Parameters.relDifferentGen|generator of the different]] of \(E/K\), \(\beta=(1+\sqrt{-d})/2\), and \(\mathfrak{a}_0=E\cap\alpha\widehat{\mathcal{O}}_E\) for the [[?lean:New.Parameters.α|idele \(\alpha\)]].
 
 **Lemma.**
 

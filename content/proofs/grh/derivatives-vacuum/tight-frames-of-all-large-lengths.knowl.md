@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Vacuum/ShortVectors.lean"]
 proof_status = "full"
 +++
 
-**Lemma.** Let \((v_i)_{i\in I}\) be a tight frame of length \(h\) with multiplicities \(1\), \(\gcd(h,q_1)=1\), and let \(m,R\in\mathbb{N}\) with \(q_1h+R(q_1+h)\le m\). Then there are multiplicities \(c\), all \(\ge R\), such that the family consisting of \(\zeta^i\) (\(0\le i<q_1\)) and the \(v_i\), with multiplicities \(c\), is a tight frame of length \(m\).
+**Lemma.** Let \(P\) be [[?lean:New.Parameters|parameters]], \(s\in\mathbb{N}\), and \(E=K(\zeta)\) with \(\zeta\) the chosen primitive \(q_1\)-th root of unity, so that the powers \(\zeta^i\), \(0\le i<q_1\), are a [[proofs/grh/derivatives-vacuum/roots-of-unity-tight-frame|tight frame of length \(q_1\)]] in \(\mathfrak{a}_0\). Let \((v_i)_{i\in I}\) be a tight frame in \(E\) of length \(h\) with multiplicities \(1\), \(\gcd(h,q_1)=1\), and let \(m,R\in\mathbb{N}\) with \(q_1h+R(q_1+h)\le m\). Then there are multiplicities \(c\), all \(\ge R\), such that the family consisting of \(\zeta^i\) (\(0\le i<q_1\)) and the \(v_i\), with multiplicities \(c\), is a tight frame of length \(m\).
 
 ## Proof
 

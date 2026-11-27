@@ -19,7 +19,7 @@ proof_status = "full"
 
 ## Proof
 
-1. By [[?c:Legendre's formula|Legendre's formula]], \(v_p(n!)=(n-s_p(n))/(p-1)\) with \(s_p(n)\) the digit sum; if \(n<p^D\) then \(1\le s_p(n)\le D(p-1)\) for \(n\ge1\), giving \(n/(p-1)-D\le v_p(n!)\le n/(p-1)\) (Mathlib: `padicValNat_factorial_mem_Icc`). Here \(n\le2b<e\cdot e^{\log b}\le3^{\lceil\log b\rceil+1}\le p^{\lceil\log b\rceil+1}\), so \(D=\lceil\log b\rceil+1\le\log b+2\).
+1. By [[?c:Legendre's formula|Legendre's formula]], \(v_p(n!)=(n-s_p(n))/(p-1)\) with \(s_p(n)\) the digit sum; if \(n<p^D\) then \(1\le s_p(n)\le D(p-1)\) for \(n\ge1\), giving \(n/(p-1)-D\le v_p(n!)\le n/(p-1)\) (in the Lean development this interval estimate is the lemma `New.padicValNat_factorial_mem_Icc` of `src/Lib/General/Algebra/IntegralPowerSeries.lean`, proved there from the digit-sum formula). Here \(n\le2b<e\cdot e^{\log b}\le3^{\lceil\log b\rceil+1}\le p^{\lceil\log b\rceil+1}\), so \(D=\lceil\log b\rceil+1\le\log b+2\).
 
 2. Apply the upper bound to \(n_1+n_2+n_3\) and the lower bound to each \(n_i\); the main terms cancel.
 

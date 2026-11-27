@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Sharpness/NearPairs.lean"]
 proof_status = "full"
 +++
 
-Let \(D\) be [[?lean:New.Data|admissible data]] over parameters \(P\). The infinite places of \(E\) form the group \(\Phi=(\mathbb{Z}/q_1)^\times\); for an integer \(\nu\) prime to \(q_1\) write \([\nu]\in\Phi\) for [[?lean:New.Data.placeOfInt|the place named by \(\nu\)]]. Let \(\Phi_b\subset\Phi\) be the [[?lean:New.Data.bPlaces|\(b\)-places]], \(k\) the rank parameter and \(l_0\) [[?lean:New.l₀|the least power of \(3\) above \(27s\)]].
+Let \(D\) be [[?lean:New.Data|admissible data]] over parameters \(P\). The infinite places of \(E\) form the group \(\Phi=(\mathbb{Z}/q_1)^\times\); for an integer \(\nu\) write \([\nu]\in\Phi\) for [[?lean:New.Data.placeOfInt|the place named by \(\nu\)]]: the class of \(\nu\) if \(\nu\) is prime to \(q_1\), and the identity place otherwise. Let \(\Phi_b\subset\Phi\) be the [[?lean:New.Data.bPlaces|\(b\)-places]], \(k\) the rank parameter and \(l_0\) [[?lean:New.l₀|the least power of \(3\) above \(27s\)]].
 
 **Lemma.**
 

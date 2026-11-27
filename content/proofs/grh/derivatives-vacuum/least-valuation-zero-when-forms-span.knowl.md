@@ -1,6 +1,6 @@
 +++
 id = "proofs/grh/derivatives-vacuum/least-valuation-zero-when-forms-span"
-title = "Least valuation zero when the forms span the coordinates"
+title = "Least valuation at most zero when the forms span the coordinates"
 kind = "lemma"
 summary = "If every coordinate is, up to one common unit, an integral combination of the linear forms, then the least valuation over six copies is at most zero in every degree."
 aliases = []

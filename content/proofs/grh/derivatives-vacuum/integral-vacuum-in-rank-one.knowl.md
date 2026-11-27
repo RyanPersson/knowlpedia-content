@@ -7,8 +7,8 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.Parameters.exists_mul_vacElem_integral_bounded", "New.Parameters.exists_norm_gal_torsion_value_le", "New.Parameters.sq_q₁_pow_card_infinitePlace_le"]
-lean_files = ["src/New/Derivatives/Vacuum/IntegralVacuum.lean"]
+lean = ["New.Parameters.exists_mul_vacElem_integral_bounded", "New.Parameters.exists_norm_gal_torsion_value_le", "New.Parameters.sq_q₁_pow_card_infinitePlace_le", "New.Parameters.norm_map_selfDualAddChar"]
+lean_files = ["src/New/Derivatives/Vacuum/IntegralVacuum.lean", "src/New/Derivatives/Vacuum/TightFrames.lean"]
 proof_status = "outline"
 +++
 
@@ -28,7 +28,7 @@ Indeed, by [[?lean:New.CMLattice.complex_multiplication_theta|complex multiplica
 
 *The vector \(F\).* Fix \(s\), write \(N=q_1\), and let \(F\) be a [[proofs/grh/derivatives-vacuum/existence-of-theta-products|theta product]] of level one for \((\mathcal{E},\Omega_0)\) on the rank-one standard space. By [[proofs/grh/derivatives-vacuum/vacuum-as-sum-of-translates|the vacuum as a sum of translates]], \(c\cdot\mathrm{vac}=\sum_{j\in\Gamma}h(a_j)\varrho(b_f)F\) with \(c\ne0\), \(\lvert\Gamma\rvert=(N^2)^{f}\). Evaluating at \(x_f\) (Lean `New.Space.exists_sum_finHeisenbergOp_apply_eq`): there are finite adeles \(w_j,y_j\) with
 \[ c\cdot\mathrm{vac}(x_f)=\sum_{j\in\Gamma}\psi(w_j)\,F((y_j)_f), \]
-where \(\psi\) is the self-dual additive character of the finite adeles, whose values are roots of unity.
+where \(\psi\) is the self-dual additive character of the finite adeles. Its values have finite order, so they are roots of unity, and their images under any multiplicative map to a normed field (such as \(\iota_p\), or an automorphism \(\sigma\) of \(\mathbb{C}\) followed by the absolute value) have norm one.
 
 *(a).* The values \(F(y_f)\) are \(p\)-integral (condition 4 of a theta product) and roots of unity are units, so the sum is \(p\)-integral.
 
@@ -40,4 +40,4 @@ The number of infinite places is \(f\le N\) (it is at most \(\varphi(q_1)\)) and
 
 ## References
 
-1. Lean: `New.Parameters.exists_mul_vacElem_integral_bounded`, `New.Parameters.exists_norm_gal_torsion_value_le`, `New.Parameters.sq_q₁_pow_card_infinitePlace_le` in `src/New/Derivatives/Vacuum/IntegralVacuum.lean`.
+1. Lean: `New.Parameters.exists_mul_vacElem_integral_bounded`, `New.Parameters.exists_norm_gal_torsion_value_le`, `New.Parameters.sq_q₁_pow_card_infinitePlace_le`, `New.Parameters.norm_map_selfDualAddChar` in `src/New/Derivatives/Vacuum/IntegralVacuum.lean`, `src/New/Derivatives/Vacuum/TightFrames.lean`.

@@ -7,7 +7,7 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.Parameters.exists_isResolutionProduct_of_isTightFrame", "New.Parameters.normalizedShift_prod_comp_of_mem_lattice", "New.Parameters.cmPeriod_mem_cmCurve_lattice", "New.Parameters.norm_map_selfDualAddChar"]
+lean = ["New.Parameters.exists_isResolutionProduct_of_isTightFrame", "New.Parameters.normalizedShift_prod_comp_of_mem_lattice"]
 lean_files = ["src/New/Derivatives/Vacuum/TightFrames.lean"]
 proof_status = "outline"
 +++
@@ -37,11 +37,11 @@ Put \(b=a/\bar\delta\), \(A_i=A_i^{\,b/c_A}\) and
 
 *Fourier inversion.* By [[?lean:New.Space.exists_entireTheta_eq_of_isThetaFunction|the characterisation of entire theta functions]] (applied with the integer \(\delta\) of \(E\), \(\delta\bar\delta=N\ne0\)), every theta function for \(\bar\delta\mathfrak{a}_0^{\,n}\) is \(\Theta_F\) for some \(F\) in the finite part of \(V\). Take such an \(F\) with \(\Theta_F=S\); this gives 3.
 
-*Translates (1).* Translation of \(F\) by the finite image of \(\gamma\in E^n\) translates \(\Theta_F\) by the \(B\)-translation operator at \(-\operatorname{realImage}\gamma\) ([[?lean:New.Space.entireTheta_translate_finiteImage|theta functions of finite translates]]); acting factor by factor as above, it replaces \(s_i\) by \(\tau^{(m_j)}_{l}s_i\) with \(l=-A_i(\operatorname{realImage}\gamma)=l_i(\gamma)\). This is condition 3 of the definition; conditions 1 and 2 hold by construction.
+*Translates (1).* Translation of \(F\) by the finite image of \(\gamma\in E^n\) translates \(\Theta_F\) by the \(B\)-translation operator at \(-\operatorname{realImage}\gamma\) ([[?lean:New.entireTheta_translate_finiteImage|theta functions of finite translates]]); acting factor by factor as above, it replaces \(s_i\) by \(\tau^{(m_j)}_{l}s_i\) with \(l=-A_i(\operatorname{realImage}\gamma)=l_i(\gamma)\). This is condition 3 of the definition; conditions 1 and 2 hold by construction.
 
 *Integrality (2).* Apply [[proofs/grh/derivatives-vacuum/resolution-product-integral-values|the integrality lemma]]: the \(w_j\) lie in \(\mathfrak{a}_0\) since they form a tight frame, and \(b\bar\delta=a\in\Lambda_C\).
 
 ## References
 
-1. Lean: `New.Parameters.exists_isResolutionProduct_of_isTightFrame`, `New.Parameters.normalizedShift_prod_comp_of_mem_lattice`, `New.Parameters.cmPeriod_mem_cmCurve_lattice`, `New.Parameters.norm_map_selfDualAddChar` in `src/New/Derivatives/Vacuum/TightFrames.lean`.
+1. Lean: `New.Parameters.exists_isResolutionProduct_of_isTightFrame`, `New.Parameters.normalizedShift_prod_comp_of_mem_lattice` in `src/New/Derivatives/Vacuum/TightFrames.lean`.
 2. The Lean file head names as related work: J. H. Conway and N. J. A. Sloane, Low-dimensional lattices V, 1989; T. Finis, Divisibility of anticyclotomic L-functions and theta functions with CM, 2006; D. Mumford, On the equations defining abelian varieties I, 1966 (no locators are given there).
