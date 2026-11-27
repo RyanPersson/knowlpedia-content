@@ -31,9 +31,10 @@ The proof is complete relative to four results of other chapters, quoted with th
 
 By (i) it suffices to show that every \(\varphi\) as in (i) lies in the set of the theorem. Such \(\varphi\) is in \(\mathcal S^{\mathrm{int}}\). Fix \(s,\sigma\) and put \(z=c_{ss}^{-1}\mathcal P\varphi\). By (ii) for the trivial twist, \(\iota_1z=B_{1,\Psi}\varphi\); by (iii) with \(B=E\) its conjugate values have squared norm \(\le\exp(E+\beta)\); by (iv), \(\lVert\Theta_1(\#\bar Ge_0sz)\rVert^2_\sigma\le\exp(x^{99}+E+\beta)\). Since \(s\mathfrak p\varphi=c_B\cdot\#\bar Ge_0sz\) with \(c_B\in\mathbb Q_{>0}\),
 \[
-\log\lVert\Theta_1s\mathfrak p\varphi\rVert_\sigma^2\le2\log c_B+x^{99}+E+\beta .
+\lVert\Theta_1s\mathfrak p\varphi\rVert_\sigma^2=c_B^{\,2}\,\lVert\Theta_1(\#\bar Ge_0sz)\rVert_\sigma^2\le\exp\bigl(2\log c_B+x^{99}+E+\beta\bigr)
 \]
-By property (3) of [[proofs/grh/reduction-main/gain-normalisation|the gain normalisation]], \(2\log c_B\le-2\sum_{\ell\in\mathcal P}\operatorname{gain}_\ell\log\ell+2E+2b\). The gains cancel, leaving
+(no logarithm of the norm is taken, so the case of a zero image is included). It remains to compare exponents.
+By property (3) of [[proofs/grh/reduction-main/gain-normalisation|the gain normalisation]], \(2\log c_B\le-2\sum_{\ell\in\mathcal P}\operatorname{gain}_\ell\log\ell+2E+2b\). The gains cancel, and the exponent is at most
 \[
 h_{\mathrm{main}}-m\,\mathrm{rem}+x^{99}+4E+2b\ \le\ h_{\mathrm{main}}-m\,\mathrm{rem}+fa\log^4b ,
 \]

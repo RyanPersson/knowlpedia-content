@@ -18,9 +18,9 @@ Let \(S\) be a [[proofs/grh/spanning-unfolding-b/filling-data|filling datum]] wi
 \[
 \bar G=\prod_{i\in\{0,1\}}\ \prod_{w\in C_i}\mathrm{GL}_r(\mathbb{F}_w),
 \]
-where \(\mathrm{GL}_r(\mathbb{F}_w)\) is the [[?c:general linear group|general linear group]] of matrices indexed by the basis of \(V\).
+where \(\mathrm{GL}_r(\mathbb{F}_w)\) is the [[?c:General linear group|general linear group]] of matrices indexed by the basis of \(V\).
 * The **reduction** \(K\to\bar G\), \(g\mapsto\bar g\), reduces the entries of \(g\) modulo each chosen place. It is a [[algebra-groups/group-homomorphism|group homomorphism]].
-* The **principal level** \(K(M)\subset G_{\mathrm{fin}}\) is the [[?c:kernel of a group homomorphism|kernel]] of the reduction.
+* The **principal level** \(K(M)\subset G_{\mathrm{fin}}\) is the [[?c:Kernel of a group homomorphism|kernel]] of the reduction.
 * For a subgroup \(A\subset G_{\mathrm{fin}}\), the **reduced image** \(\bar A\subset\bar G\) is the image of \(A\cap K\) under the reduction.
 
 ## Remarks

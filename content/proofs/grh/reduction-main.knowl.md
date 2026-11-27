@@ -52,7 +52,7 @@ The instance is the [[proofs/grh/reduction-main/target-lattice|target lattice]]:
 
 ## 5. Theorems A, B, C
 
-Source forms are mapped to target forms by the translates \(s\mathfrak p\) of the [[proofs/grh/reduction-main/normalized-poincare|normalised Poincaré map]] \(\mathfrak p=c_B\,c_{ss}^{-1}\,\#\bar G\,e_0\,\mathcal P\), where \(c_B\) is the [[proofs/grh/reduction-main/gain-normalisation|product of \(\ell^{-g_\ell}\)]] that divides out the guaranteed divisibility.
+Throughout this section the **source** \(\mathcal S\) is the space of *ramified* source forms, a subspace of the space \(\mathcal S_X\) of all source forms on \(\mathrm U(X_0)\); \(\dim\mathcal S\) always means the dimension of this subspace, and \(d_T\) is the dimension of the target. Ramified source forms are mapped to target forms by the translates \(s\mathfrak p\) of the [[proofs/grh/reduction-main/normalized-poincare|normalised Poincaré map]] \(\mathfrak p=c_B\,c_{ss}^{-1}\,\#\bar G\,e_0\,\mathcal P\), where \(c_B\) is the [[proofs/grh/reduction-main/gain-normalisation|product of \(\ell^{-g_\ell}\)]] that divides out the guaranteed divisibility.
 
 - [[proofs/grh/reduction-main/theorem-a-short-forms|Theorem A (a)]]: the source is spanned by integral forms \(\varphi\) with \(\lVert\Theta_1s\mathfrak p\varphi\rVert_\sigma^2\le\exp(h_{\mathrm{main}}-m\,\mathrm{rem}+fa\log^4b)\). Inputs: the seesaw identity, the size of the composite lift, short source forms.
 - [[proofs/grh/reduction-main/theorem-a-index|Theorem A (b)]]: such images, for \(s\) in a set \(t\), have index at most \(\#t\dim\mathcal S\cdot2fa\log^3b\). Input: the divisibility of the composite lift.
@@ -61,7 +61,7 @@ Source forms are mapped to target forms by the translates \(s\mathfrak p\) of th
 
 ## 6. The main inequality and the conclusion
 
-In the [[proofs/grh/reduction-main/star-inequality|main inequality]], Theorems A and B produce a family with \(n\ge d_T/2\) members, covolume \(\le n(h_{\mathrm{main}}-m\,\mathrm{rem}+F)\) and index \(\le d_T\cdot10\log(1+2b^2)fa\log^3b\); Theorem C bounds the same quantity below by \(d_T(h_{\mathrm{main}}-3F)\). The main amount cancels and \(m\,\mathrm{rem}\le fa\log^5b\) remains.
+In the [[proofs/grh/reduction-main/star-inequality|main inequality]], Theorems A and B produce a linearly independent family with \((1-4/b^2)d_T\le n\le d_T\) members (the lower bound is what Theorem C requires), covolume \(\le n(h_{\mathrm{main}}-m\,\mathrm{rem}+F)\) and index \(\le d_T\cdot10\log(1+2b^2)fa\log^3b\); Theorem C bounds the same quantity below by \(d_T(h_{\mathrm{main}}-3F)\). Since \(n\le d_T\) and \(h_{\mathrm{main}}+F\ge0\), the main amount cancels, leaving \(n\,m\,\mathrm{rem}\le d_T(4F+2I)\); only then is \(n\ge d_T/2\) used, to divide by \(n\), and \(m\,\mathrm{rem}\le fa\log^5b\) remains.
 
 Dividing by \(m\,a\,\#\Phi_b\) and using the formula for \(\mathrm{rem}\) gives [[proofs/grh/reduction-main/prime-remainder-bound-from-data|\(R_{q_0}(x)\le\varphi(q_0)\log^6b/m+\lvert R_{q_0}(x_1)\rvert+\log b\,\lvert R_1(x_1)\rvert\)]]. With \(\log b\le2x^\varepsilon\), \(m\ge\sqrt x\) and the prime number theorem at the much larger point \(x_1\), this is \(O(x^{-1/2+6\varepsilon})\) at integers \(x\); the slow variation \(\lvert R(z)-R(y)\rvert\le13(z-y)/y\) passes from integers to real arguments, giving the [[proofs/grh/reduction-main/one-sided-bound|one-sided bound]], and the criterion gives [[proofs/grh/reduction-main/grh|the theorem]].
 

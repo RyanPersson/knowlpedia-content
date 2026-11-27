@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Field/PrimeDecomposition.lean"]
 proof_status = "full"
 +++
 
-**Lemma.** Let \(E=K(\zeta)\) with the embeddings \(\Phi_v\) (see the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]]) and let \(\sigma\) be a field automorphism of \(\mathbb{C}\) fixing \(K\). Let \(v_0\in\Phi\) be the place induced by \(\sigma\circ\Phi_1\), and \(\operatorname{perm}_\sigma\colon\Phi\to\Phi\), \(v\mapsto v_0v\). Then
+**Lemma.** Let \(E=K(\zeta)\) with the embeddings \(\Phi_v\) (see the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]]) and let \(\sigma\) be a field automorphism of \(\mathbb{C}\) fixing \(K\). Let \(v_0\in\Phi\) be the place induced by \(\sigma\circ\Phi_1\), and \(\operatorname{perm}_\sigma\colon\Phi\to\Phi\), \(v\mapsto v_0v\). Then
 \[
 \sigma\bigl(\Phi_v(x)\bigr)=\Phi_{\operatorname{perm}_\sigma(v)}(x)\qquad(v\in\Phi,\ x\in E).
 \]

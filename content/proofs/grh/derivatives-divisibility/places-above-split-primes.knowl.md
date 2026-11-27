@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Field/WeilData.lean"]
 proof_status = "full"
 +++
 
-**Proposition.** Let \(E=K(\zeta)\) be as in the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]], \(p\) a prime with \(p\equiv1\pmod{q_1d}\), and \(a\in\mathcal{O}_E\) with \(a\bar a=p\,c\) for a natural number \(c\) prime to \(p\). Let \(w\) be a finite place of \(E\) above \(p\).
+**Proposition.** Let \(E=K(\zeta)\) be as in the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]], \(p\) a prime with \(p\equiv1\pmod{q_1d}\), and \(a\in\mathcal{O}_E\) with \(a\bar a=p\,c\) for a natural number \(c\) prime to \(p\). Let \(w\) be a finite place of \(E\) above \(p\).
 
 1. \(Nw=p\); and \(v\bullet w=w\) only for \(v=1\).
 2. Exactly one of \(a\), \(\bar a\) lies in \(w\); if \(a\in w\), then \(v_w(a)=1\).

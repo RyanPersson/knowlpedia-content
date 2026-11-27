@@ -2,7 +2,7 @@
 id = "proofs/grh/reduction-zeros/zero-free-disc-uniform"
 title = "A zero-free disc about 1, uniform in powers of a fixed modulus"
 kind = "proposition"
-summary = "For 4 | M and fixed A, for large X all L-functions modulo M^k <= X^A (k > 1) are zero-free on |s - 1| <= 1/X with logarithmic derivative at most X."
+summary = "For 4 | M and fixed A, for large X all L-functions modulo M^k <= X^A (k > 1), with the pole at 1 removed for principal characters, are zero-free on |s - 1| <= 1/X, and the logarithmic derivatives of these pole-removed functions are at most X there."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"

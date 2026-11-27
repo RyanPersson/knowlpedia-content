@@ -11,7 +11,7 @@ lean = ["New.couplingSum", "New.hasSum_couplingSum", "New.constantCoeff_coupling
 lean_files = ["src/New/Derivatives/Divisibility/NormalForm.lean"]
 +++
 
-**Definition (coupling sum).** Let \(p\) be a prime, \(\mathcal{O}\) the valuation ring of \(\mathbb{C}_p\), \(\Phi\) and \(c\) finite sets, \(\operatorname{pr}\) a partner rule on \(\Phi\) with [[proofs/grh/derivatives-divisibility/coupling|couplings]] \(\Gamma_e\in\mathcal{O}[[z_x : x\in\Phi\times c]]\), \(S\subseteq\mathbb{N}\) a set of exponents and \(\lambda=(\lambda_{e,j})_{e,j\ge 0}\) a family of elements of \(\mathcal{O}\). The **coupling sum** is the integral power series
+**Definition (coupling sum).** Let \(p\) be a prime, \(\mathcal{O}\) the valuation ring of \(\mathbb{C}_p\), \(\Phi\) and \(c\) finite sets, \(\operatorname{pr}\) a partner rule on \(\Phi\) with [[proofs/grh/derivatives-divisibility/coupling|couplings]] \(\Gamma_e\in\mathcal{O}[\![z_x : x\in\Phi\times c]\!]\), \(S\subseteq\mathbb{N}\) a set of exponents and \(\lambda=(\lambda_{e,j})_{e,j\ge 0}\) a family of elements of \(\mathcal{O}\). The **coupling sum** is the integral power series
 \[
 \Xi_{S,\operatorname{pr},\lambda}=\sum_{e\in S}\ \sum_{j\ge 0}\lambda_{e,j}\,\Gamma_e^{\,p^j}.
 \]

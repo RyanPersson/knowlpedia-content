@@ -26,7 +26,7 @@ D_{\mathrm{ev}}(\sigma,\sigma',e)=\min\Bigl(\frac{t(\sigma)}{p^e},\,r(\sigma')+t
 
 ## Remarks
 
-Columns of height \(0\), if \(\kappa(\sigma,0)\ne0\), are counted in \(r(\sigma)\); a diagram has none. The term is the cost of the cheapest choice of congruences in the [[proofs/grh/derivatives-divisibility/change-of-directions|change of directions]]; summed over the places and the exponents and multiplied by \(v(\pi_p)\) it is the deduction in [[proofs/grh/derivatives-divisibility/count-with-charges|the count]].
+Columns of height \(0\), if \(\kappa(\sigma,0)\ne0\), are counted in \(r(\sigma)\); a diagram has none. The term is the cost of one specific choice of congruences that covers all non-exempt pairs, constructed in the [[proofs/grh/derivatives-divisibility/change-of-directions|change of directions]]; it is an upper bound for the loss in determinants, not claimed to be the minimal cost (cheaper covering choices can exist). Summed over the places and the exponents and multiplied by \(v(\pi_p)\) it is the deduction in [[proofs/grh/derivatives-divisibility/count-with-charges|the count]].
 
 ## References
 

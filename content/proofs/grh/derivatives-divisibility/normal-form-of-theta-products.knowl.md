@@ -12,13 +12,13 @@ lean_files = ["src/New/Derivatives/FormalGroup/ThetaProducts.lean"]
 proof_status = "full"
 +++
 
-**Theorem (normal form of theta products).** Let \(E=K(\zeta)\) with its group \(\Phi\) of infinite places and CM type \((\Phi_\tau)\) (see the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]]), and let \(C\) be the [[?lean:New.Parameters.cmCurve|CM lattice of the parameters]], with theta function \(\theta\) and coordinate \(y\). Let \(p\) be a prime with \(\chi_K(p)\ne1\) and a \(p\)-adic place \(\iota_p\). Then there are \(\varpi\in\mathbb{C}_p\) and \(\lambda_{e,j}\in\mathcal{O}\) \((e,j\ge0)\) with
+**Theorem (normal form of theta products).** Let \(E=K(\zeta)\) with its group \(\Phi\) of infinite places and CM type \((\Phi_\tau)\) (see the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]]), and let \(C\) be the [[?lean:New.Parameters.cmCurve|CM lattice of the parameters]], with theta function \(\theta\) and coordinate \(y\). Let \(p\) be a prime with \(\chi_K(p)\ne1\) and a \(p\)-adic place \(\iota_p\). Then there are \(\varpi\in\mathbb{C}_p\) and \(\lambda_{e,j}\in\mathcal{O}\) \((e,j\ge0)\) with
 
 * \(\lvert\varpi\rvert=p^{-\rho_p}\), and, if \(p\) is inert, \(\lambda_{e,0}\in\mathcal{O}^\times\) for all odd \(e\),
 
-such that the following holds for all finite sets \(n\), \(J\). Let \((u_j)_{j\in J}\), \(u_j\in E^n\), with multiplicities \(m_j\), be a [[proofs/grh/derivatives-divisibility/resolution-of-the-identity|resolution of the identity]] all of whose coordinates \(u_{j,c}\) are [[proofs/grh/derivatives-divisibility/integral-above-p|integral above \(p\)]]. Let \(\mu_j\) be the coefficient vector of the dagger form \(u_j^\dagger z\), read in \(\mathbb{C}_p\) through \(\iota_p\), and let \(H\in\mathcal{O}[[y(\mu z)]]\) (see the [[proofs/grh/derivatives-divisibility/theta-product|theta product]]). Then the series
+such that the following holds for all finite sets \(n\), \(J\). Let \((u_j)_{j\in J}\), \(u_j\in E^n\), with multiplicities \(m_j\), be a [[proofs/grh/derivatives-divisibility/resolution-of-the-identity|resolution of the identity]] all of whose coordinates \(u_{j,c}\) are [[proofs/grh/derivatives-divisibility/integral-above-p|integral above \(p\)]]. Let \(\mu_j\) be the coefficient vector of the dagger form \(u_j^\dagger z\), read in \(\mathbb{C}_p\) through \(\iota_p\), and let \(H\in\mathcal{O}[\![y(\mu z)]\!]\) (see the [[proofs/grh/derivatives-divisibility/theta-product|theta product]]). Then the series
 \[
-F(z)=\prod_{j\in J}\theta(u_j^\dagger z)^{m_j}\cdot H(z)\ \in\ \mathbb{C}_p[[z_{(\tau,c)}:(\tau,c)\in\Phi\times n]]
+F(z)=\prod_{j\in J}\theta(u_j^\dagger z)^{m_j}\cdot H(z)\ \in\ \mathbb{C}_p[\![z_{(\tau,c)}:(\tau,c)\in\Phi\times n]\!]
 \]
 has the [[proofs/grh/derivatives-divisibility/normal-form|normal form]] with the data \((I_p^\circ,\operatorname{pr},\varpi,\lambda)\), where \(\operatorname{pr}_e\tau=-p^e\tau\) is the [[proofs/grh/derivatives-divisibility/partner-of-a-place|partner]].
 
@@ -26,9 +26,13 @@ Note that \(\varpi\) and \(\lambda\) depend only on the parameters, the level an
 
 ## Proof
 
-Take \(\varpi\), \(\lambda\) and one-variable integral series \(\Xi,W\) from the [[proofs/grh/derivatives-divisibility/exponent-on-one-curve|exponent on one curve]]: \(\theta(\varpi t)=W(t)\exp(c_\varpi\Xi(t))\), \(\Xi(0)=0\), \(\Xi\equiv\sum_{e\in I_p^\circ}\sum_j\lambda_{e,j}(t^{p^e}t)^{p^j}\pmod{\pi_p}\). Fix a resolution as in the statement. The numbers \(\mu_{j,x}\) are integral; let \(L_j=\sum_x\mu_{j,x}z_x\in\mathcal{O}[[z]]\).
+Take \(\varpi\), \(\lambda\) and one-variable integral series \(\Xi,W\) from the [[proofs/grh/derivatives-divisibility/exponent-on-one-curve|exponent on one curve]]: \(\theta(\varpi t)=W(t)\exp(c_\varpi\Xi(t))\), \(\Xi(0)=0\), \(\Xi\equiv\sum_{e\in I_p^\circ}\sum_j\lambda_{e,j}(t^{p^e}t)^{p^j}\pmod{\pi_p}\). Fix a resolution as in the statement. The numbers \(\mu_{j,x}\) are integral; let \(L_j=\sum_x\mu_{j,x}z_x\in\mathcal{O}[\![z]\!]\).
 
-**Step 1: the shape of \(F(\varpi z)\).** Scaling all variables of \(f(L_j)\) by \(\varpi\) is the same as substituting \(L_j\) into \(f(\varpi t)\). Hence \(\theta(L_j)(\varpi z)=W(L_j)\exp\bigl(c_\varpi\Xi(L_j)\bigr)\), and, since \(\exp(g)^m=\exp(mg)\) and \(\exp\) turns sums into products,
+**Step 1: the shape of \(F(\varpi z)\).** For a one-variable series \(f=\sum_kf_kt^k\) over \(\mathbb{C}_p\) and a linear form \(\sum_xc_xz_x\), the multinomial theorem gives the coefficients
+\[
+[z^D]\,f\Bigl(\sum_xc_xz_x\Bigr)=f_{\lvert D\rvert}\cdot\frac{\lvert D\rvert!}{\prod_xD_x!}\cdot\prod_xc_x^{D_x}.
+\]
+In particular scaling all variables of \(f(L_j)\) by \(\varpi\) is the same as substituting \(L_j\) into \(f(\varpi t)\). Hence \(\theta(L_j)(\varpi z)=W(L_j)\exp\bigl(c_\varpi\Xi(L_j)\bigr)\), and, since \(\exp(g)^m=\exp(mg)\) and \(\exp\) turns sums into products,
 \[
 \prod_j\theta(L_j)^{m_j}(\varpi z)=\prod_jW(L_j)^{m_j}\cdot\exp\Bigl(c_\varpi\sum_jm_j\,\Xi(L_j)\Bigr).
 \]

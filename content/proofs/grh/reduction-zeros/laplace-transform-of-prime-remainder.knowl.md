@@ -8,7 +8,7 @@ domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
 lean = ["New.integral_primeRemainder", "New.laplace_pow"]
-lean_files = ["src/New/Reduction/Zeros/PrimeError.lean"]
+lean_files = ["src/New/Reduction/Zeros/PrimeError.lean", "src/Lib/Analytic/EntireLFunction.lean"]
 proof_status = "full"
 +++
 

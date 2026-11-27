@@ -21,7 +21,7 @@ The **generalized Riemann hypothesis for primitive characters** is the same stat
 
 ## Remarks
 
-The first statement includes imprimitive characters; their \(L\)-functions have further zeros on the line \(\operatorname{Re}s=0\), which is why the strip is open. The case \(N=1\) concerns the [[?c:Riemann zeta function|Riemann zeta function]] in the strip.
+The first statement includes imprimitive characters. If \(\chi\) modulo \(N\) is induced by the primitive character \(\psi\), then \(L(s,\chi)=L(s,\psi)\prod_{p}(1-\psi(p)p^{-s})\), the product being over the primes \(p\) dividing \(N\) and not the conductor; each such factor with \(\psi(p)\ne0\) has zeros on the line \(\operatorname{Re}s=0\), which is why the strip is open. When there is no such prime (for example the character modulo \(9\) induced from the non-principal character modulo \(3\)), the two \(L\)-functions coincide. The case \(N=1\) concerns the [[?c:Riemann zeta function|Riemann zeta function]] in the strip.
 
 ## References
 

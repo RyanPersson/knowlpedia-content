@@ -14,7 +14,7 @@ proof_status = "full"
 
 **Theorem (poles).** Let \(d\) be a prime with \(d\equiv7\pmod8\) and let \(q\ge1\) be prime to \(d\). Then the function \(v\mapsto R_q(e^{v})\), with \(R_q\) the [[proofs/grh/reduction-zeros/prime-remainder|remainder]], is [[proofs/grh/reduction-zeros/polar-function|polar]] with residues
 \[
-r(s)=\begin{cases}\dfrac{1}{\varphi(q)\,s(1-s)}\displaystyle\sum_{\psi\bmod q}\bigl(\operatorname{ord}_sE_\psi-\operatorname{ord}_sE_{\psi\chi_K}\bigr)&s\ne1,\\[8pt]0&s=1,\end{cases}
+r(s)=\begin{cases}\dfrac{1}{\varphi(q)\,s(1-s)}\displaystyle\sum_{\psi\bmod q}\bigl(\operatorname{ord}_sE_\psi-\operatorname{ord}_sE_{\psi\chi_K}\bigr)&s\notin\{0,1\},\\[8pt]0&s\in\{0,1\},\end{cases}
 \]
 where \(\psi\) runs over the [[?c:Dirichlet character|Dirichlet characters]] modulo \(q\), \(E_\chi\) is [[?lean:New.entireL|the \(L\)-function of \(\chi\) with the pole removed]], and \(\psi\chi_K\) is the [[?lean:New.quadTwist|twist]] by \((\cdot/d)\).
 
@@ -34,7 +34,7 @@ Only \(d\ne2\) and \(\gcd(q,d)=1\) are used. Let \(F(s)=G_q(s)/s-c_q\) and \(\Ph
 
 ## Remarks
 
-In the source the residue is written by the single formula with \(s(1-s)\) in the denominator; at \(s=1\) this is a division by zero, which has the value \(0\) there.
+In the source the residue is written by the single formula with \(s(1-s)\) in the denominator; at \(s=0\) and \(s=1\) this is a division by zero, which has the value \(0\) there. Only the values of \(r\) on \(\operatorname{Re}s>0\) enter the definition of a polar function.
 
 ## References
 

@@ -32,7 +32,7 @@ a_*\le\bigl(1+b^{-9}\bigr)\,\mathcal{M}_{\mathrm{main}}\cdot\deg\cdot c_G^{\,f}\
 
 ## Remarks
 
-Condition 9 is the only place where the mass of the genus of rank \(r\) is compared with the local constants; for the data of the main argument it is verified through the Siegel mass formula in [[proofs/grh/spanning-unfolding-b/filling-of-admissible-data-is-admissible|the admissibility of the filling datum of admissible data]].
+Condition 9 is the only place where the mass of the genus of rank \(r\) is compared with the local constants; for the data of the main argument it is verified through the Siegel mass formula in [[?lean:New.Data.scaledSiegelConst_le|the bound for the scaled Siegel constant of admissible data]].
 
 ## References
 

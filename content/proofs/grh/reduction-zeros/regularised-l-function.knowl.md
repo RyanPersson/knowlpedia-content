@@ -13,9 +13,9 @@ lean_files = ["src/Lib/Analytic/PrimeNumberTheorem/LFunctionGrowth.lean"]
 
 Let \(\chi\) be a complex [[?c:Dirichlet character|Dirichlet character]] modulo \(N\ge1\) and \(E_\chi\) [[?lean:New.entireL|its \(L\)-function with the pole removed]]. The **regularised \(L\)-function** is
 \[
-\mathfrak{f}_\chi(s)=\begin{cases}E_\chi(s)/s&\text{if }\chi\text{ is principal},\\ E_\chi(s)=L(s,\chi)&\text{otherwise,}\end{cases}
+\mathfrak{f}_\chi(s)=\begin{cases}E_\chi(s)/s&\text{if }\chi\text{ is principal and }s\ne0,\\ E_\chi(s)=L(s,\chi)&\text{if }\chi\text{ is not principal (all }s\in\mathbb{C}).\end{cases}
 \]
-for \(s\neq0\). The **mean value** of \(\chi\) is \(\kappa_\chi=\frac1N\sum_{a\bmod N}\chi(a)\).
+(In the source the principal branch has the value \(0\) at \(s=0\), by the convention for division by zero; this value is not used.) The **mean value** of \(\chi\) is \(\kappa_\chi=\frac1N\sum_{a\bmod N}\chi(a)\).
 
 ## Properties
 

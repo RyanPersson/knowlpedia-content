@@ -2,7 +2,7 @@
 id = "proofs/grh/derivatives-divisibility/exponent-on-one-curve"
 title = "The exponent on one curve"
 kind = "theorem"
-summary = "At a non-split prime, theta(varpi z) is an integral series times exp(c_varpi Xi), where Xi is integral and congruent modulo pi_p to a combination of the monomials (z^(p^e) z)^(p^j) with e in I_p; at an inert prime the leading coefficients are units."
+summary = "At a non-split prime, theta(varpi z) is an integral series times exp(c_varpi Xi), where Xi is integral and congruent modulo pi_p to a combination of the monomials (z^(p^e) z)^(p^j) with e in the set I_p-circle of partner exponents (including e = 0 at the ramified prime); at an inert prime the leading coefficients are units."
 aliases = ["exponent on one curve"]
 domains = ["proofs"]
 section_mode = "progressive"
@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/FormalGroup/Exponent.lean"]
 proof_status = "full"
 +++
 
-**Theorem (the exponent on one curve).** Let \(d\equiv 7\pmod 8\) be a prime, \(C\) a CM lattice for \(K=\mathbb{Q}(\sqrt{-d})\) with theta function \(\theta\) (see the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]]), and \(p\) a prime with \(\chi_K(p)\ne1\) and a \(p\)-adic place \(\iota_p\). In the notation of the [[proofs/grh/derivatives-divisibility/p-adic-setting|\(p\)-adic setting]], there are \(\varpi\in\mathbb{C}_p\), integral series \(\Xi,W\in\mathcal{O}[[z]]\) in one variable, and numbers \(\lambda_{e,j}\in\mathcal{O}\) \((e,j\ge 0)\) such that
+**Theorem (the exponent on one curve).** Let \(d\equiv 7\pmod 8\) be a prime, \(C\) a CM lattice for \(K=\mathbb{Q}(\sqrt{-d})\) with theta function \(\theta\) (see the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]]), and \(p\) a prime with \(\chi_K(p)\ne1\) and a \(p\)-adic place \(\iota_p\). In the notation of the [[proofs/grh/derivatives-divisibility/p-adic-setting|\(p\)-adic setting]], there are \(\varpi\in\mathbb{C}_p\), integral series \(\Xi,W\in\mathcal{O}[\![z]\!]\) in one variable, and numbers \(\lambda_{e,j}\in\mathcal{O}\) \((e,j\ge 0)\) such that
 
 1. \(\lvert\varpi\rvert=p^{-\rho_p}\) and \(\Xi(0)=0\);
 2. \(\theta(\varpi z)=W\cdot\exp(c_\varpi\,\Xi)\), with \(c_\varpi=\varpi^{p+1}/p\);
@@ -25,13 +25,13 @@ More precisely one can take \(\lambda_{e,j}=\lambda\) for all \(e,j\) with one u
 
 Write \(\pi=\iota_p\pi_p\), \(q=q_p\), and let \(g^\flat\), \(i_0\), \(\Xi_1\) be as in the [[proofs/grh/derivatives-divisibility/exponent-series|exponent series]]. By fact 4 of the setting choose \(\varpi\) with \(\lvert\varpi\rvert=p^{-\rho_p}\) and an integral \(Y\) with \(T(\varpi z)=\varpi Y\) and \(Y\equiv\sum_{j}z^{q^j}\pmod\pi\). Then \(\lvert\varpi\rvert^{q-1}=\lvert\pi\rvert\). By property 3 of the exponent series, \(\theta(\varpi z)=W\exp(c_\varpi\Xi_1)\) with \(W\) integral. It remains to show that \(\Xi_1\) is integral (then \(\Xi=\Xi_1\); it has no constant term) and to determine it modulo \(\pi\).
 
-**Step 2: the functional equation.** By the [[proofs/grh/derivatives-divisibility/frobenius-congruence-for-theta|Frobenius congruence]], \(q\,g(z)-g(\pi z)=\pi G\) with \(G\in\mathcal{O}[[y]]=\mathcal{O}[[T]]\). Taking on both sides the parts in the degrees \(\equiv p+1\equiv i_0\pmod{q-1}\) gives \(q\,g^\flat(z)-g^\flat(\pi z)=\pi G^\flat\). Write \(G=F(T)\) with \(F\) integral. Since \(T\) has terms only in degrees \(\equiv1\pmod{q-1}\), \(G^\flat=F^\flat(T)\), where \(F^\flat\) is the part of \(F\) in the degrees \(\equiv i_0\); and as \(i_0<q-1\), \(F^\flat=l\,X^{i_0}+X^{i_0+q-1}F'\) with \(l\in\mathcal{O}\), \(F'\) integral. So
+**Step 2: the functional equation.** By the [[proofs/grh/derivatives-divisibility/frobenius-congruence-for-theta|Frobenius congruence]], \(q\,g(z)-g(\pi z)=\pi G\) with \(G\in\mathcal{O}[\![y]\!]=\mathcal{O}[\![T]\!]\). Taking on both sides the parts in the degrees \(\equiv p+1\equiv i_0\pmod{q-1}\) gives \(q\,g^\flat(z)-g^\flat(\pi z)=\pi G^\flat\). Write \(G=F(T)\) with \(F\) integral. Since \(T\) has terms only in degrees \(\equiv1\pmod{q-1}\), \(G^\flat=F^\flat(T)\), where \(F^\flat\) is the part of \(F\) in the degrees \(\equiv i_0\); and as \(i_0<q-1\), \(F^\flat=l\,X^{i_0}+X^{i_0+q-1}F'\) with \(l\in\mathcal{O}\), \(F'\) integral. So
 \[
-q\,g^\flat(z)-g^\flat(\pi z)=\pi\bigl(l\,T^{i_0}+T^{i_0+q-1}H'\bigr),\qquad H'\in\mathcal{O}[[T]] .
+q\,g^\flat(z)-g^\flat(\pi z)=\pi\bigl(l\,T^{i_0}+T^{i_0+q-1}H'\bigr),\qquad H'\in\mathcal{O}[\![T]\!] .
 \]
 Replace \(z\) by \(\varpi z\); with \(f=g^\flat(\varpi z)\), \(T(\varpi z)=\varpi Y\), and \(H'(\varpi z)\) integral (fact 3),
 \[
-q\,f(z)-f(\pi z)=\pi\varpi^{i_0}\bigl(l\,Y^{i_0}+\varpi^{q-1}R\bigr),\qquad R=Y^{i_0+q-1}H'(\varpi z)\in\mathcal{O}[[z]] .
+q\,f(z)-f(\pi z)=\pi\varpi^{i_0}\bigl(l\,Y^{i_0}+\varpi^{q-1}R\bigr),\qquad R=Y^{i_0+q-1}H'(\varpi z)\in\mathcal{O}[\![z]\!] .
 \]
 Divide by \(-q\,c_\varpi\) and compare coefficients of \(z^n\): with \(u=-\pi\varpi^{i_0}/(q\,c_\varpi)\),
 \[

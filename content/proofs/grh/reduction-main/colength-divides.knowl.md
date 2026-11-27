@@ -25,7 +25,7 @@ if for every integer \(n\ge 0\) and every family \(\Phi_1,\dots,\Phi_n\in M\) th
 
 ## Remarks
 
-The symbol \(\operatorname{colen}(M,N)\) has no meaning on its own; only the relation "\(\operatorname{colen}(M,N)\mid z\)" is defined. Over a [[algebra-commutative/dvr|discrete valuation ring]] with valuation \(v\) the relation bounds the [[algebra-modules/length-module|length]] of \(M/(M\cap N)\) by \(v(z)\); see [[proofs/grh/reduction-main/colength-bounds-length|colength bounds a length]].
+The symbol \(\operatorname{colen}(M,N)\) has no meaning on its own; only the relation "\(\operatorname{colen}(M,N)\mid z\)" is defined. Over a [[algebra-commutative/dvr|discrete valuation ring]] with valuation \(v\) and for finitely generated \(M\), the relation bounds the [[algebra-modules/length-module|length]] of \(M/(M\cap N)\) by \(v(z)\); see [[proofs/grh/reduction-main/colength-bounds-length|colength bounds a length]].
 
 ## Properties
 
