@@ -12,7 +12,7 @@ lean_files = ["src/New/Determinant/Twist/LongForms.lean"]
 proof_status = "full"
 +++
 
-Let \(D\) be [[proofs/grh/reduction-main/data|data]], \(d_T\) the dimension of the target, \(Z(\vartheta)\) the [[?lean:New.Data.chainDeterminant|chain determinant]] and \(Z_j(\vartheta^j)\) the [[?lean:New.Data.liftDeterminant|determinant of the \(j\)-th single lift]] for an [[proofs/grh/reduction-main/m-fold-twist|\(m\)-fold twist]] \(\vartheta\). Put \(F=f\,a\,(\log b)^4\).
+Let \(D\) be [[proofs/grh/reduction-main/data|data]], \(d_T\) the dimension of the target, \(Z(\vartheta)\) the [[?lean:New.Data.chainDeterminant|chain determinant]] and \(Z_j(\vartheta^j):=\det(u^*u)\) the [[?lean:New.Data.liftDeterminant|lift determinant]], where \(u\) is the \(j\)-th single lift \(W_j\to V_j\) for the character \(\vartheta^j\) *restricted to the good forms on \(W_j\)* (the [[proofs/grh/reduction-main/regular-family-of-twists|good lift]]; the same restriction at the trivial twist), for an [[proofs/grh/reduction-main/m-fold-twist|\(m\)-fold twist]] \(\vartheta\). Put \(F=f\,a\,(\log b)^4\).
 
 **Theorem.**
 

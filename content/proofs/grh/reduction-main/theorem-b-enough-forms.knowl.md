@@ -19,9 +19,9 @@ proof_status = "full"
 
 ## Proof
 
-Complete relative to: \(d_T\ne0\) (`New.Data.finrank_targetForms_ne_zero`); the spanning theorem [[?lean:New.Data.isSpread_goodPoincare|the good Poincaré maps spread]] with error \(\tfrac32\varepsilon_0\), \(\varepsilon_0=(8b^2)^{-1}\) (for every subspace \(F\subseteq\mathcal T\) of share \(\alpha=\dim F/d_T\) some \(\mathrm{gp}_s^{-1}(F)\) has dimension \(\le(\tfrac{1+\alpha}2+\tfrac32\varepsilon_0)D_X\)); the linear-algebra theorem [[?lean:New.IsSpread.exists_few_le_finrank_iSup_range|few maps span almost everything]]; and the dimension bound \(D_X-\dim\mathcal S\le\frac f{N-1}D_X\le b^{-8}D_X\) ([[?lean:New.Data.le_finrank_ramifiedSourceForms|dimension of the ramified forms]]).
+Complete relative to: \(\mathcal S_X\ne0\) (`New.Data.sourceFormCoords`); \(d_T\ne0\) (`New.Data.finrank_targetForms_ne_zero`); the spanning theorem [[?lean:New.Data.isSpread_goodPoincare|the good Poincaré maps spread]] with error \(\tfrac32\varepsilon_0\), \(\varepsilon_0=(8b^2)^{-1}\) (for every subspace \(F\subseteq\mathcal T\) of share \(\alpha=\dim F/d_T\) some \(\mathrm{gp}_s^{-1}(F)\) has dimension \(\le(\tfrac{1+\alpha}2+\tfrac32\varepsilon_0)D_X\)); the linear-algebra theorem [[?lean:New.IsSpread.exists_few_le_finrank_iSup_range|few maps span almost everything]]; and the dimension bound \(D_X-\dim\mathcal S\le\frac f{N-1}D_X\le b^{-8}D_X\) ([[?lean:New.Data.le_finrank_ramifiedSourceForms|dimension of the ramified forms]]).
 
-Since \(0<\varepsilon_0<1/16\), the theorem on few maps gives \(t\subseteq\bar G\) with
+The theorem on few maps needs both spaces nonzero: \(d_T>0\) as quoted, and \(\mathcal S_X\ne0\) because the source coordinate isomorphism (`New.Data.sourceFormCoords`, another area) identifies \(\mathcal S_X\) with a nonzero coordinate space. Since \(0<\varepsilon_0<1/16\), the theorem gives \(t\subseteq\bar G\) with
 \[
 \#t\cdot D_X\le\tfrac52\bigl(1+\log\tfrac1{16\varepsilon_0}\bigr)d_T,\qquad\dim\sum_{s\in t}\mathrm{gp}_s(\mathcal S_X)\ge(1-16\varepsilon_0)d_T=\bigl(1-\tfrac2{b^2}\bigr)d_T .
 \]

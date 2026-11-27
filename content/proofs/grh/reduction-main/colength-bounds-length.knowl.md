@@ -41,4 +41,4 @@ the last step because \(\prod_ja_j\) is \(\det m\) up to the units \(\det Q,\det
 
 ## References
 
-1. Lean: `New.ColengthDvd.relLength_le`, `New.IsOntoUpToColength.exists_relLength_le` in `src/New/Reduction/Lattices/Colength.lean`. The module `M/(M\cap N)` is `relLength M N` of `Lib/General/Algebra/FittingIdealsAndLengths.lean`.
+1. Lean: `New.ColengthDvd.relLength_le`, `New.IsOntoUpToColength.exists_relLength_le` in `src/New/Reduction/Lattices/Colength.lean`. The length of \(M/(M\cap N)\), an extended natural number, is `relLength M N` of `Lib/General/Algebra/FittingIdealsAndLengths.lean`.

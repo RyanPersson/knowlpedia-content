@@ -3,16 +3,16 @@ id = "proofs/grh/reduction-main/grh"
 title = "Main theorem in half-plane form: Dirichlet L-functions do not vanish to the right of the critical line"
 kind = "theorem"
 summary = "No Dirichlet L-function vanishes at a point with real part greater than 1/2, the pole of the principal characters excepted."
-aliases = ["grh", "generalized Riemann hypothesis in half-plane form", "DirichletLNonvanishingRightOfHalf"]
+aliases = ["grh", "generalized Riemann hypothesis in half-plane form"]
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.grh", "DirichletLNonvanishingRightOfHalf"]
-lean_files = ["src/New/Reduction/OneSidedBound.lean", "src/Statements.lean"]
+lean = ["New.grh"]
+lean_files = ["src/New/Reduction/OneSidedBound.lean"]
 proof_status = "full"
 +++
 
-**Theorem.** Let \(q\ge1\), let \(\chi\) be a [[?c:Dirichlet character|Dirichlet character]] modulo \(q\) with values in \(\mathbb C\), and let \(\rho\in\mathbb C\) with \(\operatorname{Re}\rho>\tfrac12\). Assume \(\chi\ne1\) or \(\rho\ne1\) (here \(1\) is the trivial character modulo \(q\)). Then
+**Theorem.** The proposition [[?lean:DirichletLNonvanishingRightOfHalf|Dirichlet \(L\)-functions do not vanish to the right of the critical line]] holds. Explicitly: let \(q\ge1\), let \(\chi\) be a [[?c:Dirichlet character|Dirichlet character]] modulo \(q\) with values in \(\mathbb C\), and let \(\rho\in\mathbb C\) with \(\operatorname{Re}\rho>\tfrac12\). Assume \(\chi\ne1\) or \(\rho\ne1\) (here \(1\) is the trivial character modulo \(q\)). Then
 \[
 L(\rho,\chi)\ne0 ,
 \]
@@ -34,4 +34,4 @@ The remaining forms of the theorem (zeros in the critical strip on the line, the
 
 ## References
 
-1. Lean: `New.grh` in `src/New/Reduction/OneSidedBound.lean`; the statement `DirichletLNonvanishingRightOfHalf` in `src/Statements.lean`.
+1. Lean: `New.grh` in `src/New/Reduction/OneSidedBound.lean`; the proposition proved is `DirichletLNonvanishingRightOfHalf` of `src/Statements.lean` (its knowl belongs to the chapter on zeros).

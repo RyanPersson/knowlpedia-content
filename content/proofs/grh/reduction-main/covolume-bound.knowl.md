@@ -23,7 +23,7 @@ the coordinate vector of \(\Theta_1y\) with \(\sigma\) applied to every coordina
 \Bigl\lvert\det\bigl(\langle\sigma\Theta_1y_i,\sigma\Theta_1y_k\rangle_G\bigr)_{i,k\in S}\Bigr\rvert\le e^{c}.
 \]
 
-For \(\sigma=\mathrm{id}\) the determinant is the [[?c:Gram determinant|Gram determinant]] of the vectors \(\Theta_1y_k\) in \(S_1\), i.e. the squared covolume of the lattice they span; \(c\) thus bounds the logarithm of a *squared* covolume, at every conjugate. Rules are in [[proofs/grh/reduction-main/covolume-calculus|the calculus of covolumes]].
+For \(\sigma=\mathrm{id}\) the determinant is the hermitian [[?c:Gram determinant|Gram determinant]] of the vectors \(\Theta_1y_k\) in \(S_1\), i.e. the squared norm of \(\Theta_1y_1\wedge\dots\wedge\Theta_1y_n\) in the exterior power; \(c\) bounds its logarithm at every conjugate. The word "covolume" is the name used in the source; the hermitian Gram determinant of a family is in general *not* the squared covolume of the \(\mathbb Z\)-lattice it spans (for \(1,i\in\mathbb C\) it is \(0\)), and no such identification is used. Rules are in [[proofs/grh/reduction-main/covolume-calculus|the calculus of covolumes]].
 
 ## References
 

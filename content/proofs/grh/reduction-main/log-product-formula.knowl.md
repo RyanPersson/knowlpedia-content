@@ -18,7 +18,7 @@ proof_status = "full"
 \]
 where \(\lvert\cdot\rvert_p\) is the [[?c:p-adic absolute value|\(p\)-adic absolute value]] with \(\lvert p\rvert_p=p^{-1}\), and where \(\log 0:=0\) (so the statement is \(0=0\) for \(q=0\)).
 
-This is the [[?c:product formula for the rational numbers|product formula for \(\mathbb Q\)]] restricted to a finite set of primes containing all those dividing \(u\) or \(w\).
+For \(q\ne0\) this is the [[?c:product formula for the rational numbers|product formula for \(\mathbb Q\)]] restricted to a finite set of primes containing all those dividing \(u\) or \(w\); for \(q=0\) it is the identity \(0=0\) under the convention.
 
 ## Proof
 

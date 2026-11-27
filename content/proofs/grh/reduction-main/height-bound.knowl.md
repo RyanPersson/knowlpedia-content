@@ -28,7 +28,7 @@ such that
 - The multiplier \(H\), and so the bound at infinity, does not depend on \(\iota\), while \(y_\iota\) may. This is what allows a different twist at each prime in [[proofs/grh/reduction-main/covolume-add-index-nonneg|the lower bound for a twisted lattice]].
 - "\(\operatorname{ht}(y)\le c\)" is a relation; no number \(\operatorname{ht}(y)\) is defined. The bound \(c\) may be negative.
 - Condition (1) forces \(H\) to be algebraic over \(\mathbb Q\) (a transcendental number has conjugates of arbitrarily large absolute value under \(\operatorname{Aut}(\mathbb C)\)); the proof of the [[proofs/grh/reduction-main/height-product-formula|product formula for heights]] uses the analogous fact at the prime \(2\).
-- For a constant family \(y_\iota=z\) with \(z\) a nonzero algebraic number, this is a one-sided form of a bound for the (unnormalized, multiplied by the degree) logarithmic Weil height; see Bombieri–Gubler in the references. No comparison with the Weil height is proved or used.
+- The relation is *not* a bound for the Weil height. Example: for the constant family \(y_\iota=2\) take \(H=\tfrac12\), \(\alpha=-\log2\), \(h_\ell=0\); then \(\operatorname{ht}(y)\le-\log2\), whereas the logarithmic Weil height of \(2\) is \(\log2\). For a rational constant \(z\ne0\) the least admissible \(c\) is \(-\log\lvert z\rvert\): it is attained with \(H=1/z\), and \(c\ge-\log\lvert z\rvert\) by part (2) of the [[proofs/grh/reduction-main/height-product-formula|product formula for heights]].
 
 ## References
 

@@ -2,7 +2,7 @@
 id = "proofs/grh/reduction-main/data-derived-quantities"
 title = "Derived quantities of the data"
 kind = "notation"
-summary = "The numbers k, t, n_j, the gap, a, M, f, the a-places, the shifted weights and the lift weights read off from the data."
+summary = "The numbers k, t, n_j, the gap, a, M, f, the a-places, the shifted weights and the numbers kappa_j (minus the weights of the lift characters) read off from the data."
 aliases = ["a-places", "lift weight", "gap", "long order"]
 domains = ["proofs"]
 section_mode = "progressive"
@@ -28,7 +28,7 @@ Let \(D\) be [[proofs/grh/reduction-main/data|data]] for the parameters \(P=(q_0
 | \(M\) | \(p_0p_1\) | principal level |
 | \(\Phi_a\) | \(\{\tau\in\Phi:\tau\equiv1\bmod q_0\}\) | the \(a\)-places |
 | \(\kappa^{(i)}(\sigma)\) | \(\kappa(\sigma)+(i+1)\Delta/2\) | shifted weight |
-| \(\kappa_j(\sigma)\) | \(\kappa^{(2j)}(\sigma)=\kappa(\sigma)+(j+\tfrac12)\Delta\) | weight of the character of lift \(j\) |
+| \(\kappa_j(\sigma)\) | \(\kappa^{(2j)}(\sigma)=\kappa(\sigma)+(j+\tfrac12)\Delta\) | minus the weight of the character of lift \(j\) (that character has weight \(-\kappa_j\), see [[proofs/grh/reduction-main/lift-characters|the characters of the lifts]]) |
 | \(-\nu\sigma\) | \(\operatorname{place}(-\nu)\cdot\sigma\) for \(\nu\in\mathbb Z\) | |
 
 The lifts are indexed by \(1\le j\le m\). Further, \(q_1d\) is called the cyclotomic conductor (\(E\subseteq\mathbb Q(\zeta_{q_1d})\)), \(k+j-1\) is the number of plus signs of the space \(W_j\), and \(\Delta/2-(t+1)/2\) is the reduced half gap.
