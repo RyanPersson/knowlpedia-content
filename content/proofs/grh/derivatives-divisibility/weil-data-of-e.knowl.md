@@ -12,11 +12,11 @@ lean_files = ["src/New/Derivatives/Field/WeilData.lean"]
 proof_status = "full"
 +++
 
-**Construction.** Let \(E=K(\zeta)\) be as in the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]], \(\beta_K=(1+\sqrt{-d})/2\), and \(P'(\zeta)\) the generator of \(\mathfrak{D}_{E/K}\) from the [[proofs/grh/derivatives-divisibility/different-of-e|theorem on the different]]. The **idele \(\alpha\)** is the [[catalog/arithmetic/ideles-number-field-finite|finite idele]] of \(E\) with components
+**Construction.** Let \(E=K(\zeta)\) be as in the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]], \(\beta_K=(1+\sqrt{-d})/2\), and \(P'(\zeta)\) the generator of \(\mathfrak{D}_{E/K}\) from the [[proofs/grh/derivatives-divisibility/different-of-e|theorem on the different]]. The **idele \(\alpha\)** is the [[catalog/arithmetic/ideles-number-field-finite|finite idele]] of \(E\) with components
 \[
 \alpha_w=\begin{cases}P'(\zeta)^{-1}&\text{if }\beta_K\in w,\\ 1&\text{otherwise.}\end{cases}
 \]
-The **Weil data of \(E\)** are the triple \((\jmath,\alpha,\upsilon)\) with \(\jmath=-1/\sqrt{-d}\in E\) and \(\upsilon\) a chosen [[?lean:New.SplittingChar|splitting character]] of \(E\) (a unitary Hecke character with \(\upsilon(\bar x)=\upsilon(x)^{-1}\) and \(\upsilon(x)=\prod_\tau x_\tau/\lvert x_\tau\rvert\) on ideles whose finite part is a unit). They satisfy the axioms of [[?lean:New.WeilData|Weil data]]:
+The **Weil data of \(E\)** are the triple \((\jmath,\alpha,\upsilon)\) with \(\jmath=-1/\sqrt{-d}\in E\) and \(\upsilon\) a chosen [[?lean:New.SplittingChar|splitting character]] of \(E\) (a unitary Hecke character with \(\upsilon(\bar x)=\upsilon(x)^{-1}\) and \(\upsilon(x)=\prod_\tau x_\tau/\lvert x_\tau\rvert\) for ideles \(x\) whose component at every finite place \(w\) is a unit of the ring of integers of \(E_w\)). They satisfy the axioms of [[?lean:New.WeilData|Weil data]]:
 
 1. \(\bar\jmath=-\jmath\), and \(\Phi_\tau(\jmath)=i/\sqrt d\) has positive imaginary part for every \(\tau\in\Phi\);
 2. (*self-duality*) at every finite place \(w\), \(v_w(\jmath\alpha\bar\alpha)=-v_w(\mathfrak{D}_{E/\mathbb{Q}})\);
@@ -31,7 +31,7 @@ Moreover \(\alpha^{-1}\) and \(q_1\alpha\) are integral at every finite place, a
 
 *Axioms.* 1: \(\Phi_\tau(\sqrt{-d})=i\sqrt d\), as \(\Phi_\tau\) is the inclusion on \(K\). 2: \(\mathfrak{D}_{E/\mathbb{Q}}=(P'(\zeta)\sqrt{-d})\) and \(v_w(\alpha\bar\alpha)=-v_w(P'(\zeta))\). 3: \(\jmath^{-1}=-\sqrt{-d}\). 4 holds for [[?lean:New.Cohomology.upsilon_atUniformizer_eq_neg_one|every splitting character]].
 
-*Existence of \(\upsilon\).* By the [[?lean:New.nonempty_splittingChar|existence theorem for splitting characters]] it suffices that every root of unity \(y\in E\) is \(\delta/\bar\delta\) for a unit \(\delta\) of \(\mathcal{O}_E\) with \(N_{E/K}(\delta)=\prod_w\Phi_w(\delta)=1\). The roots of unity of \(E\) are the powers of \(\zeta\); write \(y=\zeta^k\) and \(q_1=4m\) (\(12\mid q_1\)). Let \(i=\zeta^m\), so \(i^2=-1\), \(\bar i=-i\), and \(\eta=i(\zeta-1)\). Then \(\zeta\bar\eta=\zeta\cdot(-i)(\zeta^{-1}-1)=i(\zeta-1)=\eta\). Also \(N_{E/K}(\zeta)=1\) and \(N_{E/K}(\zeta-1)=\Phi_{q_1}(1)=1\), because \(q_1\) is not a prime power; so \(\eta\) is a unit of norm \(1\), and \(\delta=\eta^k\) works. \(\blacksquare\)
+*Existence of \(\upsilon\).* By the [[?lean:New.nonempty_splittingChar|existence theorem for splitting characters]] it suffices that every root of unity \(y\in E\) is \(\delta/\bar\delta\) for a unit \(\delta\) of \(\mathcal{O}_E\) with \(N_{E/K}(\delta)=\prod_w\Phi_w(\delta)=1\). The roots of unity of \(E\) are the powers of \(\zeta\) ([[proofs/grh/reduction-main/field-e-properties|properties of the field \(E\)]], part 6); write \(y=\zeta^k\) and \(q_1=4m\) (\(12\mid q_1\)). Let \(i=\zeta^m\), so \(i^2=-1\), \(\bar i=-i\), and \(\eta=i(\zeta-1)\). Then \(\zeta\bar\eta=\zeta\cdot(-i)(\zeta^{-1}-1)=i(\zeta-1)=\eta\). Also \(N_{E/K}(\zeta)=1\) and \(N_{E/K}(\zeta-1)=\Phi_{q_1}(1)=1\), because \(q_1\) is not a prime power; so \(\eta\) is a unit of norm \(1\), and \(\delta=\eta^k\) works. \(\blacksquare\)
 
 ## References
 

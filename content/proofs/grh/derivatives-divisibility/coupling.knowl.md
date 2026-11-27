@@ -13,7 +13,7 @@ lean_files = ["src/New/Derivatives/Divisibility/NormalForm.lean"]
 
 **Definition (coupling).** Let \(p\) be a prime, \(\mathcal{O}\) the valuation ring of \(\mathbb{C}_p\) (see the [[proofs/grh/derivatives-divisibility/p-adic-setting|\(p\)-adic setting]]), \(\Phi\) and \(c\) finite sets, and \(\operatorname{pr}\colon\mathbb{N}\times\Phi\to\Phi\) any map, called a **partner rule**: \(\operatorname{pr}_e\tau\) is the partner of the *place* \(\tau\in\Phi\) for the exponent \(e\). In the variables \(z_x\) indexed by the pairs \(x=(\tau,i)\in\Phi\times c\), the **coupling** for the exponent \(e\ge 0\) is the polynomial
 \[
-\Gamma_e=\sum_{(\tau,i)\in\Phi\times c} z_{(\tau,i)}^{\,p^e}\; z_{(\operatorname{pr}_e\tau,\;i)}\;\in\;\mathcal{O}[[z]] .
+\Gamma_e=\sum_{(\tau,i)\in\Phi\times c} z_{(\tau,i)}^{\,p^e}\; z_{(\operatorname{pr}_e\tau,\;i)}\;\in\;\mathcal{O}[\![z]\!] .
 \]
 
 ## Properties

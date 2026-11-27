@@ -19,7 +19,7 @@ that is, for each column, the minor of the product \(z_\tau y_\tau\) on the rows
 
 ## Remarks
 
-In the source, fillings are the members of [[?lean:New.WeylIndex|the index set of the standard fillings]], a chosen set of fillings whose minor products form a basis of the corresponding space of semi-invariants; the definition above uses only the underlying map \(i'\). The entries of the Schur matrix are combinations of such products; see [[proofs/grh/derivatives-divisibility/schur-entry-to-minor-product|from Schur entries to products of minors]].
+In the source, fillings are the members of [[?lean:New.WeylIndex|the index set of the standard fillings]], a chosen set of fillings whose minor products form a basis of the corresponding space of semi-invariants; the definition above uses only the underlying map \(i'\). Conversely to what one might expect, it is \(P_y\) that expands as a linear combination of the entries of a row of the Schur matrix, with coefficients given by minors evaluated at \(y\); over a general ring the entries are not combinations of the \(P_y\). Over \(\mathbb{C}_p\) one still finds, for each entry, an integral \(y\) for which the jet along \(P_y\) is at least as large in norm; see [[proofs/grh/derivatives-divisibility/schur-entry-to-minor-product|from Schur entries to products of minors]].
 
 ## References
 

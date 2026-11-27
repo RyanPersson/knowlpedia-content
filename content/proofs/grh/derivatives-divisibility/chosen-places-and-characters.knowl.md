@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Field/ChosenPlaces.lean"]
 proof_status = "full"
 +++
 
-**Setting.** Let \(D\) be [[?lean:New.Data|admissible data]] for the parameters, with level \(s\) and field \(E=K(\zeta)\) (see the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]]). Among its components are two distinct primes \(p_0,p_1\) with \(p_i\equiv1\pmod{q_1d}\) and \(q_2^2\mid p_i-1\), where \(q_2=(q_0d)^{s+6}\), and an integer \(\bar\pi_M\in\mathcal{O}_K\) with \(\bar\pi_M\pi_M=M:=p_0p_1\), where \(\pi_M\in\mathcal{O}_E\) denotes the complex conjugate of (the image of) \(\bar\pi_M\).
+**Setting.** Let \(D\) be [[?lean:New.Data|admissible data]] for the parameters, with level \(s\) and field \(E=K(\zeta)\) (see the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]]). Among its components are two distinct primes \(p_0,p_1\) with \(p_i\equiv1\pmod{q_1d}\) and \(q_2^2\mid p_i-1\), where \(q_2=(q_0d)^{s+6}\), and an integer \(\bar\pi_M\in\mathcal{O}_K\) with \(\bar\pi_M\pi_M=M:=p_0p_1\), where \(\pi_M\in\mathcal{O}_E\) denotes the complex conjugate of (the image of) \(\bar\pi_M\).
 
 **Definition (chosen place).** A finite place \(w\) of \(E\) is **chosen** if \(\pi_M\in w\).
 
@@ -37,7 +37,7 @@ One fixes \(\chi_0\) with \((a,n)=(1,0)\) (weight \(-w_0\), trivial tame part) a
 
 2. \(T_w^{q_2}\) has order \(q_2^2/q_2\). Since \(q_1\mid q_1d\mid q_2\), \(x^{q_1}=1\) gives \(x^{q_2}=1\) and \(\omega_w(x)=T_w(x^{q_2})=1\).
 
-*Existence of \(\mu\).* By the [[?lean:New.AutChar.exists_hasWeight_of_prod_eq_one|existence criterion for characters of given weight]], it suffices that the formula gives \(1\) at every \(\gamma\in\mathcal{O}_E\) with \(\gamma\bar\gamma=1\). Such \(\gamma\) has absolute value \(1\) at every infinite place, so it is a root of unity, hence \(\gamma=\zeta^k\) and \(\gamma^{q_1}=1\). At infinity: \(w_0(v)\equiv r^8\pmod{q_1}\), so \(\prod_v\Phi_v(\gamma)^{w_0(v)}=\prod_v\Phi_v(\gamma^{r^8})=N_{E/K}(\gamma^{r^8})=1\), as \(N_{E/K}(\zeta)=1\). At a finite place the residue of \(\gamma\) is a \(q_1\)-th root of unity, on which \(\omega_w\) is trivial by 2. \(\blacksquare\)
+*Existence of \(\mu\).* By the [[?lean:New.AutChar.exists_hasWeight_of_prod_eq_one|existence criterion for characters of given weight]], it suffices that the formula gives \(1\) at every \(\gamma\in\mathcal{O}_E\) with \(\gamma\bar\gamma=1\). Such \(\gamma\) is an algebraic integer of absolute value \(1\) under every complex embedding (complex conjugation commutes with the embeddings of the CM field \(E\)), so it is a root of unity by [[?c:Kronecker's theorem on algebraic integers of absolute value one|Kronecker's theorem]]. Every root of unity of \(E\) is a power of \(\zeta\) ([[proofs/grh/reduction-main/field-e-properties|properties of the field \(E\)]], part 6; this is special to \(E\)); hence \(\gamma=\zeta^k\) and \(\gamma^{q_1}=1\). At infinity: \(w_0(v)\equiv r^8\pmod{q_1}\), so \(\prod_v\Phi_v(\gamma)^{w_0(v)}=\prod_v\Phi_v(\gamma^{r^8})=N_{E/K}(\gamma^{r^8})=1\), by part 7 of the same lemma (\(\prod_v\Phi_v=N_{E/K}\) and \(N_{E/K}(\zeta)=1\)). At a finite place the residue of \(\gamma\) is a \(q_1\)-th root of unity, on which \(\omega_w\) is trivial by 2. \(\blacksquare\)
 
 ## References
 

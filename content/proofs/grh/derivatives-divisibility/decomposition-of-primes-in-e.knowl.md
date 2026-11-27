@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Field/PrimeDecomposition.lean"]
 proof_status = "full"
 +++
 
-**Theorem.** Let \(E=K(\zeta)\) be as in the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]], \(p\) a prime, and \(w,w'\) finite places of \(E\) above \(p\). Let \(v\bullet w\) and \(\operatorname{Frob}_p\) be as in the [[proofs/grh/derivatives-divisibility/frobenius-on-generators|criterion on generators]].
+**Theorem.** Let \(E=K(\zeta)\) be as in the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]], \(p\) a prime, and \(w,w'\) finite places of \(E\) above \(p\). Let \(v\bullet w\) and \(\operatorname{Frob}_p\) be as in the [[proofs/grh/derivatives-divisibility/frobenius-on-generators|criterion on generators]].
 
 1. (*Transitivity.*) There is \(v\in\Phi\) with \(w'=v\bullet w\) or \(w'=\overline{v\bullet w}\).
 
@@ -38,11 +38,11 @@ Suppose \(p\nmid q_1d\). Then:
 
 4. If \(p\in w^2\), then \(w\) divides \(\mathfrak{D}_{E/\mathbb{Q}}\) ([[?c:ramified primes divide the different|ramified primes divide the different]]), which contains \(q_1d\) by the [[proofs/grh/derivatives-divisibility/different-of-e|theorem on the different]]; then \(q_1d\in w\cap\mathbb{Z}=p\mathbb{Z}\), a contradiction.
 
-*Inert primes.* Primes dividing \(q_1\) have \(\chi_K=1\) and \(\chi_K(d)=0\), so \(p\nmid q_1d\); \(\operatorname{Frob}_p^n=(\nu_{-p}^n,(-1)^n)\), and the order of a pair is the lcm of the orders. The congruence is part 1 of the criterion with \(R=\mathcal{O}_E/p\mathcal{O}_E\), conjugation, \(v=\nu_{-p^n}\): the first condition is trivial and \(\chi_K(p)^n(-1)=1\).
+*Inert primes.* [[?lean:New.Parameters.chiK_eq_one_of_dvd|Primes dividing \(q_1\) have \(\chi_K=1\)]] and \(\chi_K(d)=0\), so \(p\nmid q_1d\); \(\operatorname{Frob}_p^n=(\nu_{-p}^n,(-1)^n)\), and the order of a pair is the lcm of the orders. The congruence is part 1 of the criterion with \(R=\mathcal{O}_E/p\mathcal{O}_E\), conjugation, \(v=\nu_{-p^n}\): the first condition is trivial and \(\chi_K(p)^n(-1)=1\).
 
 *Primes \(\equiv1\).* Then \(\chi_K(p)=1\) and \(\nu_p=1\).
 
-*Self-conjugate places.* \(\bar\beta_K=1-\beta_K\); if \(\beta_K\bar\beta_K\in w=\bar w\), both factors lie in \(w\), and so does their sum \(1\). Every prime dividing \(q_1\) divides \((d+1)/4=\beta_K\bar\beta_K\); hence \(p\nmid q_1\). For the congruence note \(1\bullet w=w=\bar w\). If \(p\) splits (\(p\neq d\)), part 2 gives \(-1=1^n\), impossible. If \(p=d\): as in 2, \(x\equiv\bar x^{\,d^n}\pmod w\) for some \(n\), and part 1 of the criterion with the injectivity at \(\zeta\) gives \(1=\nu_{-d^n}\), so \(d^n\equiv-1\pmod{q_0}\), which is [[?lean:New.Parameters.d_pow_ne_neg_one|impossible for the parameters]]. So \(p\) is inert and \(1=\nu_{-p}^{\,n}\) with \(n\) odd. The class \(u\) of \(-p\) in \((\mathbb{Z}/2^{s+1})^\times\), a group of order \(2^s\), then satisfies \(u^n=1=u^{2^s}\) with \(\gcd(n,2^s)=1\), so \(u=1\). \(\blacksquare\)
+*Self-conjugate places.* \(\bar\beta_K=1-\beta_K\); if \(\beta_K\bar\beta_K\in w=\bar w\), both factors lie in \(w\), and so does their sum \(1\). [[?lean:New.Parameters.dvd_d_add_one_div_four_of_dvd_q₁|Every prime dividing \(q_1\) divides \((d+1)/4\)]]\(\,=\beta_K\bar\beta_K\); hence \(p\nmid q_1\). For the congruence note \(1\bullet w=w=\bar w\). If \(p\) splits (\(p\neq d\)), part 2 gives \(-1=1^n\), impossible. If \(p=d\): as in 2, \(x\equiv\bar x^{\,d^n}\pmod w\) for some \(n\), and part 1 of the criterion with the injectivity at \(\zeta\) gives \(1=\nu_{-d^n}\), so \(d^n\equiv-1\pmod{q_0}\), which is [[?lean:New.Parameters.d_pow_ne_neg_one|impossible for the parameters]]. So \(p\) is inert and \(1=\nu_{-p}^{\,n}\) with \(n\) odd. The class \(u\) of \(-p\) in \((\mathbb{Z}/2^{s+1})^\times\), a group of order \(2^s\), then satisfies \(u^n=1=u^{2^s}\) with \(\gcd(n,2^s)=1\), so \(u=1\). \(\blacksquare\)
 
 ## References
 

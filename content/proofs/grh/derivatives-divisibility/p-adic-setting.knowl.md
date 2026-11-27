@@ -21,7 +21,7 @@ lean_files = ["src/New/Derivatives/Divisibility/NormalForm.lean", "src/New/Deriv
 Q(\partial)F(0)=\sum_{d} d!\,Q_d\,F_d ,
 \]
 the sum over all multi-indices \(d\), where \(Q_d,F_d\) are the coefficients of the monomial \(z^d\) and \(d!=\prod_x d_x!\).
-5. A **\(p\)-adic place of \(\mathbb{C}\)** is a ring homomorphism \(\iota_p\colon\mathbb{C}\to\mathbb{C}_p\). One such homomorphism is fixed; a complex number is read in \(\mathbb{C}_p\) through it, and the Taylor series at \(0\) of a function holomorphic near \(0\) is read in \(\mathbb{C}_p[[z]]\) by applying \(\iota_p\) to its coefficients.
+5. A **\(p\)-adic place of \(\mathbb{C}\)** is a ring homomorphism \(\iota_p\colon\mathbb{C}\to\mathbb{C}_p\). One such homomorphism is fixed; a complex number is read in \(\mathbb{C}_p\) through it, and the Taylor series at \(0\) of a function holomorphic near \(0\) is read in \(\mathbb{C}_p[\![z]\!]\) by applying \(\iota_p\) to its coefficients.
 
 Let moreover \(d\) be a prime with \(d\equiv 7\pmod 8\), \(K=\mathbb{Q}(\sqrt{-d})\) the [[algebra-fields-galois/imaginary-quadratic-field|imaginary quadratic field]], and \(\chi_K(p)=\left(\frac{p}{d}\right)\) the [[?c:Legendre symbol|Legendre symbol]], which is \(1\), \(-1\), \(0\) according as \(p\) is split, inert or ramified (\(p=d\)) in \(K\). The numbers attached to \(p\) are:
 

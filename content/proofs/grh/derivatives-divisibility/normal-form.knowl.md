@@ -11,7 +11,7 @@ lean = ["New.HasNormalForm"]
 lean_files = ["src/New/Derivatives/Divisibility/NormalForm.lean"]
 +++
 
-**Definition (normal form).** Let \(p\) be a prime, \(\mathcal{O}\) the valuation ring of \(\mathbb{C}_p\), \(\Phi\) and \(c\) finite sets, \(\operatorname{pr}\) a partner rule on \(\Phi\), \(S\subseteq\mathbb{N}\), \(\varpi\in\mathbb{C}_p\) and \(\lambda=(\lambda_{e,j})\) a family in \(\mathcal{O}\). A power series \(F\in\mathbb{C}_p[[z_x:x\in\Phi\times c]]\) **has the normal form** with the data \((S,\operatorname{pr},\varpi,\lambda)\) if there is an integral series \(W\in\mathcal{O}[[z]]\) with
+**Definition (normal form).** Let \(p\) be a prime, \(\mathcal{O}\) the valuation ring of \(\mathbb{C}_p\), \(\Phi\) and \(c\) finite sets, \(\operatorname{pr}\) a partner rule on \(\Phi\), \(S\subseteq\mathbb{N}\), \(\varpi\in\mathbb{C}_p\) and \(\lambda=(\lambda_{e,j})\) a family in \(\mathcal{O}\). A power series \(F\in\mathbb{C}_p[\![z_x:x\in\Phi\times c]\!]\) **has the normal form** with the data \((S,\operatorname{pr},\varpi,\lambda)\) if there is an integral series \(W\in\mathcal{O}[\![z]\!]\) with
 \[
 F(\varpi z)=W(z)\cdot\exp\bigl(c_\varpi\,\Xi_{S,\operatorname{pr},\lambda}(z)\bigr),\qquad c_\varpi=\frac{\varpi^{p+1}}{p},
 \]

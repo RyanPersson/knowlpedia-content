@@ -11,7 +11,7 @@ lean = ["New.CMLattice.negLogThetaPart", "New.CMLattice.exponentSeries", "New.le
 lean_files = ["src/New/Derivatives/FormalGroup/Exponent.lean"]
 +++
 
-**Definition (exponent series).** Let \(d\equiv7\pmod 8\) be a prime, \(C\) a CM lattice with theta function \(\theta\) and \(g=-\log\theta\in\mathbb{C}_p[[z]]\) (see the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]]), and \(p\) a prime with a \(p\)-adic place; \(q_p\), \(\rho_p\), \(c_\varpi=\varpi^{p+1}/p\) are as in the [[proofs/grh/derivatives-divisibility/p-adic-setting|\(p\)-adic setting]].
+**Definition (exponent series).** Let \(d\equiv7\pmod 8\) be a prime, \(C\) a CM lattice with theta function \(\theta\) and \(g=-\log\theta\in\mathbb{C}_p[\![z]\!]\) (see the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]]), and \(p\) a prime with a \(p\)-adic place; \(q_p\), \(\rho_p\), \(c_\varpi=\varpi^{p+1}/p\) are as in the [[proofs/grh/derivatives-divisibility/p-adic-setting|\(p\)-adic setting]].
 
 * The **flat part** \(g^\flat\) of \(g\) is the series whose coefficient of \(z^n\) is that of \(g\) if \(n\equiv p+1\pmod{q_p-1}\), and \(0\) otherwise.
 * For \(\varpi\in\mathbb{C}_p\), \(\varpi\ne0\), the **exponent series** is \(\Xi_1=\Xi_1(\varpi)=-c_\varpi^{-1}\,g^\flat(\varpi z)\), so that \(c_\varpi\Xi_1=-g^\flat(\varpi z)\).
@@ -19,11 +19,9 @@ lean_files = ["src/New/Derivatives/FormalGroup/Exponent.lean"]
 
 ## Properties
 
-Let \(\chi_K(p)\ne1\).
-
-1. \(i_0<q_p-1\) and \(i_0\equiv p+1\pmod{q_p-1}\); so \(i_0\) is the least positive degree in which \(g^\flat\), and \(\Xi_1\), can have a nonzero coefficient.
-2. \(\exp(g^\flat-g)\in\mathcal{O}[[y]]\). (This holds for every prime \(p\).)
-3. If \(0<\lvert\varpi\rvert\le p^{-\rho_p}\), there is an integral series \(W\in\mathcal{O}[[z]]\) with
+1. If \(\chi_K(p)\ne1\): \(i_0<q_p-1\) and \(i_0\equiv p+1\pmod{q_p-1}\); so \(i_0\) is the least positive degree in which \(g^\flat\), and \(\Xi_1\), can have a nonzero coefficient.
+2. For every prime \(p\): \(\exp(g^\flat-g)\in\mathcal{O}[\![y]\!]\).
+3. For every prime \(p\): if \(0<\lvert\varpi\rvert\le p^{-\rho_p}\), there is an integral series \(W\in\mathcal{O}[\![z]\!]\) with
 \[
 \theta(\varpi z)=W\cdot\exp\bigl(c_\varpi\,\Xi_1(\varpi)\bigr).
 \]
@@ -36,7 +34,7 @@ Let \(\chi_K(p)\ne1\).
 \[
 \exp(g^\flat-g)^{\,q_p-1}=\prod_{i<q_p-1}\exp\bigl(\zeta^{-i(p+1)}g(\zeta^iz)-g(z)\bigr),
 \]
-and each factor lies in \(\mathcal{O}[[y]]\) by fact 6 of the setting. As \(q_p-1\) is prime to \(p\), fact 7 gives \(\exp(g^\flat-g)\in\mathcal{O}[[y]]\).
+and each factor lies in \(\mathcal{O}[\![y]\!]\) by fact 6 of the setting. As \(q_p-1\) is prime to \(p\), fact 7 gives \(\exp(g^\flat-g)\in\mathcal{O}[\![y]\!]\).
 
 3. Since \(\theta=\exp(-g)=\exp(g^\flat-g)\cdot\exp(-g^\flat)\), scaling the variable by \(\varpi\) gives \(\theta(\varpi z)=\exp(g^\flat-g)(\varpi z)\cdot\exp(-g^\flat(\varpi z))\). The first factor is integral by 2 and fact 3 of the setting; the second is \(\exp(c_\varpi\Xi_1)\). \(\blacksquare\)
 

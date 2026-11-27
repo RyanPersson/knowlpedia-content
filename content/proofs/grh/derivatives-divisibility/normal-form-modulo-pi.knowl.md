@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Divisibility/NormalForm.lean"]
 proof_status = "full"
 +++
 
-**Lemma.** In the notation of the [[proofs/grh/derivatives-divisibility/normal-form|normal form]], let \(\pi\in\mathcal{O}\) satisfy \(\lvert c_\varpi\pi\rvert\le p^{-1/(p-1)}\), where \(c_\varpi=\varpi^{p+1}/p\). Let \(W,\Xi\in\mathcal{O}[[z]]\) with \(\Xi(0)=0\),
+**Lemma.** In the notation of the [[proofs/grh/derivatives-divisibility/normal-form|normal form]], let \(\pi\in\mathcal{O}\) satisfy \(\lvert c_\varpi\pi\rvert\le p^{-1/(p-1)}\), where \(c_\varpi=\varpi^{p+1}/p\). Let \(W,\Xi\in\mathcal{O}[\![z]\!]\) with \(\Xi(0)=0\),
 \[
 \Xi\equiv\Xi_{S,\operatorname{pr},\lambda}\pmod{\pi}\qquad\text{and}\qquad F(\varpi z)=W\cdot\exp(c_\varpi\,\Xi).
 \]

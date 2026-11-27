@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/Field/PrimeDecomposition.lean"]
 proof_status = "full"
 +++
 
-**Theorem.** Let \(E=K(\zeta)\), \(K=\mathbb{Q}(\sqrt{-d})\), \(\zeta\) of order \(q_1\), be as in the [[proofs/grh/derivatives-divisibility/field-setting|field \(E\)]], with \(f\) infinite places. Let \(\Phi_{q_1}\) be the [[algebra-fields-galois/cyclotomic-polynomial|cyclotomic polynomial]], \(\beta_K=(1+\sqrt{-d})/2\), and
+**Theorem.** Let \(E=K(\zeta)\), \(K=\mathbb{Q}(\sqrt{-d})\), \(\zeta\) of order \(q_1\), be as in the [[proofs/grh/reduction-main/field-e-and-its-places|field \(E\)]], with \(f\) infinite places. Let \(\Phi_{q_1}\) be the [[algebra-fields-galois/cyclotomic-polynomial|cyclotomic polynomial]], \(\beta_K=(1+\sqrt{-d})/2\), and
 \[
 P'(\zeta):=\Phi_{q_1}'(\zeta)\in\mathcal{O}_E .
 \]

@@ -12,7 +12,7 @@ lean_files = ["src/New/Derivatives/FormalGroup/FrobeniusCongruence.lean"]
 proof_status = "full"
 +++
 
-**Proposition.** Let \(d\equiv 7\pmod 8\) be a prime, \(C\) a CM lattice for \(K=\mathbb{Q}(\sqrt{-d})\), and \(p\) a prime inert in \(K\) (\(\chi_K(p)=-1\)), with a \(p\)-adic place \(\iota_p\). Let \(x\in\mathbb{C}_p[[z]]\) be the Taylor series of \(\wp(z+t)-\wp(t)\) (notation of the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]]). Then the coefficient of \(z^{p-1}\) in \(x\) has norm \(1\).
+**Proposition.** Let \(d\equiv 7\pmod 8\) be a prime, \(C\) a CM lattice for \(K=\mathbb{Q}(\sqrt{-d})\), and \(p\) a prime inert in \(K\) (\(\chi_K(p)=-1\)), with a \(p\)-adic place \(\iota_p\). Let \(x\in\mathbb{C}_p[\![z]\!]\) be the Taylor series of \(\wp(z+t)-\wp(t)\) (notation of the [[proofs/grh/derivatives-divisibility/cm-curve-setting|CM lattice]]). Then the coefficient of \(z^{p-1}\) in \(x\) has norm \(1\).
 
 ## Proof
 
@@ -20,11 +20,11 @@ From \(x'=2y+a_1x\), \(y'=1+3x^2-a_1y\) and the curve equation \(y^2+a_1xy=x^3+x
 \[
 x'^2=4x^3+a_1^2x^2+4x,\qquad x''=6x^2+a_1^2x+2,
 \]
-and therefore, for \(n\ge0\),
+and therefore, for \(n\ge0\) (by the product rule \((x^nx')'=nx^{n-1}x'^2+x^nx''\) for \(n\ge1\), and directly from the formula for \(x''\) for \(n=0\)),
 \[
-(x^nx')'=nx^{n-1}x'^2+x^nx''=(4n+6)\,x^{n+2}+(n+1)a_1^2\,x^{n+1}+(4n+2)\,x^n .
+(x^nx')'=(4n+6)\,x^{n+2}+(n+1)a_1^2\,x^{n+1}+(4n+2)\,x^n .
 \]
-Let \(h_n\) be the coefficient of \(z^{p-1}\) in \(x^n\). The coefficient of \(z^{p-1}\) in \((x^nx')'\) is \(p\) times the coefficient of \(z^p\) in \(x^nx'\). The latter series lies in \(\mathcal{O}[[y]]\) (facts 1 of the setting) and \(p<p^2=q_p\), so that coefficient is integral (fact 2). Hence
+Let \(h_n\) be the coefficient of \(z^{p-1}\) in \(x^n\). The coefficient of \(z^{p-1}\) in \((x^nx')'\) is \(p\) times the coefficient of \(z^p\) in \(x^nx'\). The latter series lies in \(\mathcal{O}[\![y]\!]\) (facts 1 of the setting) and \(p<p^2=q_p\), so that coefficient is integral (fact 2). Hence
 \[
 \bigl\lvert(4n+6)h_{n+2}+(n+1)a_1^2h_{n+1}+(4n+2)h_n\bigr\rvert\le p^{-1}<1 .\tag{*}
 \]
