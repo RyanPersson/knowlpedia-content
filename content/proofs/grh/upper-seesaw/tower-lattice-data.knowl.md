@@ -32,7 +32,7 @@ Weil data, and \(a=\alpha/\bar\varpi\) the [[?lean:New.Data.ideleA|idele \(a\)]]
    [[proofs/grh/upper-seesaw/graded-lattice-basis|spans the lattice]] of
    \((a,\pi_N,u_k)\), where \(u_k\) is the [[?lean:New.Data.latticeScale|lattice scale]]
    \((a/\bar a)^{\lceil(m-k)/2\rceil}\).
-6. For a tame character \(\vartheta\) with ramification set \(Q\): a finite unitary element that
+6. For a tame character \(\vartheta\) with chosen modulus \(Q\) (a finite set of places outside which its tame part is trivial; the tame part may also be trivial at places of \(Q\), and \(Q\) is the exact support only for a [[?lean:New.Data.Twist|twist]]): a finite unitary element that
    is integral with reduction \(1\) at the chosen places and has component \(1\) at the places of
    \(Q\) is integral with reduction \(1\) at all [[?lean:New.Data.levelPlaces|level places of
    \(\vartheta\)]] (the chosen places and those of \(Q\)).

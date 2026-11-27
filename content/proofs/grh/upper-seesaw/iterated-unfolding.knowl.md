@@ -28,8 +28,8 @@ A **conjugate form** on \(Y_j\) is a form of the complex conjugate archimedean t
 \[
 (\ell_j^{\top}z)(g)=[K_j:J_j]\int_{[G_{j+1}]}\theta\bigl(\omega_{\mu_{j+1}}(g,h)F_j\bigr)\,z(h)\,dh .
 \]
-The **unfolded period** is
-\(\Xi_{k+1}(\xi,y;z)=\int_{R_{k+1}(E)\backslash G_{k+1}}\mathcal{W}_{k+1}(h)z(h)\,dh\).
+Here and below \(R_{k+1}(F)\) is the group of rational points of the Bessel subgroup (its intersection with the rational unitary group, defined over \(F=E^{+}\)). The **unfolded period** is
+\(\Xi_{k+1}(\xi,y;z)=\int_{R_{k+1}(F)\backslash G_{k+1}}\mathcal{W}_{k+1}(h)z(h)\,dh\).
 
 **Proposition.**
 
@@ -42,7 +42,7 @@ The **unfolded period** is
    \(\int_{[G_1]}z\cdot\ell_0(\mathcal{P}_{g,t}\varphi)=[K_0:K_0^{M}]\sum_{c\in\Omega_0}\Xi_1\bigl((g,1,\dots),(\tilde c,1,\dots);z\bigr)\),
    where \(K_0^{M}\) is the chosen level and \(\tilde c\) a representative of \(c\).
 4. (**All steps.**) Let \(k\le m-1\), \(Y\) a grading of \(Y_{k+1}\) with a string of length
-   \(m-2-k\), and \(a\) a function of the archimedean tuples \(\xi\). There is a constant \(c\)
+   \(\max(0,m-2-k)\) (that is, \(m-2-k\) for \(k\le m-2\), and \(0\) for \(k=m-1\): the empty-string case, used with the last grading of \(Y_m\)), and \(a\) a function of the archimedean tuples \(\xi\). There is a constant \(c\)
    (depending on \(t,g,k,Y,a\) only) such that for every tame \(\vartheta\), every ramified source
    form \(\varphi\), every conjugate form \(z\) on \(Y_{k+1}\) and every function \(S\) of tuples of
    classes: if
@@ -119,8 +119,8 @@ recursive definition of the cut sum. To prove the displayed identity, apply the 
   ([[proofs/grh/upper-seesaw/stage-cuts|stage cut]]);
 * if \(f(x)\ne0\) then \(\mathcal{W}_{k+1}(x)\ne0\), so by
   [[proofs/grh/upper-seesaw/support-of-unfolding-stages|the support theorem]] (here \(\varphi\)
-  ramified and \(y_0\) in the chosen level are used) every graded translate of \(x_f\) has the
-  bounds \((\mathfrak q,k+1)\), hence the orbit of \(x_f\) is bounded and the multiplicity is
+  ramified and \(y_0\) in the chosen level are used) every translate of \(x_f\) by the finite Bessel subgroup with graded lattice has the
+  bounds \((\mathfrak q,k+1)\); a graded translate exists by [[proofs/grh/upper-seesaw/lattice-bounds-induction-step|part 3 of the sandwich proposition]] (which uses the primitive \(5040\)-th root of unity in \(E\)), hence the orbit of \(x_f\) is bounded and the multiplicity is
   nonzero (property 4 of a stage cut);
 * the Bessel periods factor: for every \(x\in G_{k+1}\),
   \[
@@ -134,7 +134,7 @@ recursive definition of the cut sum. To prove the displayed identity, apply the 
   \(k+1\ne0,m\), so \(y^{x}_0=y_0\) and \(y^{x}_m=1\)).
 
 The cut theorem then gives
-\(\Xi_{k+1}(\xi,y;z')=\int_{R_{k+1}(E)\backslash G_{k+1}}f=a'(\xi)\sum_{x\in\Omega_{k+1}}\mu_{k+1}(x)^{-1}S(\dots,x,\dots)\).
+\(\Xi_{k+1}(\xi,y;z')=\int_{R_{k+1}(F)\backslash G_{k+1}}f=a'(\xi)\sum_{x\in\Omega_{k+1}}\mu_{k+1}(x)^{-1}S(\dots,x,\dots)\).
 \(\blacksquare\)
 
 ## References

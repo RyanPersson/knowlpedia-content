@@ -34,10 +34,7 @@ for some family \(r\) of admissible coefficients for \((A,n,d,p,B)\).
 
 ## Remarks
 
-The proposition \(p\) switches the size condition on and off. In the applications \(n\) is the
-norm of the [[?c:Conductor of a Hecke character|conductor]] of a twist (times fixed primes), and \(p\) is "the modulus of the twist is
-empty": the coefficients of the composite lift are integral away from the modulus of the twist
-always, and are bounded in size only for the untwisted lift.
+The proposition \(p\) switches the size condition on and off. In the seesaw application, for a tame character with chosen modulus \(Q\): \(n=q=\prod_{w\in Q}\mathrm{N}w\); \(p\) is "\(Q=\emptyset\)"; and the denominator is \(d=\mathcal{C}^{2m}\), a power of the norm of \(\pi_M\), for the [[proofs/grh/upper-seesaw/seesaw-datum|seesaw datum]] before rescaling, and \(d=1\) for the coefficients of the chain datum after the rescaling in the proof of the [[proofs/grh/upper-seesaw/seesaw-identity|seesaw identity]]. So the coefficients are integral away from \(q\) always, and bounded in size only when the modulus is empty.
 
 The coefficients are not required to be unique, and the \(v_x\) need not be linearly independent.
 

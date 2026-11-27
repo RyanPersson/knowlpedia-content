@@ -22,7 +22,7 @@ c=-\bigl(j\cdot M\cdot\delta_E\bigr)^{-1},
 \]
 independent of \(k\), where \(j\) is the purely imaginary element of the Weil data, \(M=p_0p_1\)
 and \(\delta_E\) the chosen purely imaginary generator of the [[?c:Different of a number field|different]]. The space \(Y_m\), whose
-Gram matrix is \(1\), carries the **last grading** with an empty string.
+Gram matrix is \(1\), carries the **last grading**: definite part \(X_m^{\circ}\), the \(n_m-1\) basis vectors of \(X_m\) other than the last, an empty string, and constant \(1\). So the description "\(X_k\) plus a string" holds for \(k<m\) only; \(Y_m\) sits inside \(X_m\) with codimension one.
 
 **Evaluation of pair \(i\).** The pair of lifts \(Y_{2i}\to Y_{2i+1}\to Y_{2i+2}\) has strings of
 lengths \(m-1-2i\) (odd), \(m-2-2i\), \(\max(m-3-2i,0)\). The map
@@ -41,9 +41,9 @@ moved by the finite Weil action twisted by the character
 of pair \(i\) is
 \[
 \operatorname{ev}_i\bigl(\Phi_{2i}^{y}\ast\Phi_{2i+1}^{y}\bigr)\in
-\mathcal{S}_f(\operatorname{Hom}(X_{2i},X_{2i+1}))\otimes\mathcal{S}_f(\operatorname{Hom}(X_{2i+1},X_{2i+2}'')),
+\mathcal{S}_f(\operatorname{Hom}(X_{2i},X_{2i+1}))\otimes\mathcal{S}_f(\operatorname{Hom}(X_{2i+1},X_{2i+2})).
 \]
-where the last index set is that of the double lift data. The number
+The second factor really is the datum space of the next definite lift: for \(i<\varrho\) the target index set of the middle double lift is the definite part \(X_{2i+2}\) of \(Y_{2i+2}\); for \(i=\varrho\) the last grading has definite part \(X_m^{\circ}\) (the \(n_m-1\) basis vectors of \(X_m\) other than the last), and the last double lift adjoins one vector, restoring \(X_m=X_m^{\circ}\sqcup\{\ast\}\). The number
 \(M^{f\,n_m^{2}}\) (\(f\) the number of infinite places, \(n_m\) the rank of \(X_m\)) is the
 **residue matrix count** used as a denominator bound later.
 

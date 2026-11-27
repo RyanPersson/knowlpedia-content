@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-seesaw/neighbour-vacuum"
 title = "The vacuum of the neighbour lattice as a combination of glued translates"
 kind = "theorem"
-summary = "The sum of the translates of the vacuum over representatives of the neighbour lattice, translated by a vector away from N and read on the two edges, is an admissible combination of glued translates of the vacua of the edges."
+summary = "The explicitly indexed sum of the translates of the vacuum by neighbour translations plus representatives of the away quotient (a full system of representatives of the neighbour lattice when the level is split), translated by a vector away from N and read on the two edges, is an admissible combination of glued translates of the vacua of the edges."
 aliases = ["glued translate", "admissible evaluation", "IsAdmissibleEval"]
 domains = ["proofs"]
 section_mode = "progressive"
@@ -37,10 +37,10 @@ two standard edges is an **admissible evaluation** (for \(N,P,\beta,d\)) if ther
 \(d\)), the vector \(L(\varrho_f(y)v_0)\) is an
 [[proofs/grh/upper-seesaw/admissible-combination|admissible combination]] of the vectors
 \(C\cdot\mathrm{gl}(t_1,t_2)\), \(t_1,t_2\in T_n(\bar\beta)\), with denominator
-\(\lvert\widehat{\mathcal{O}}_E/(\beta)\rvert^{\lvert I\times X'\rvert}\) away from \(n\) and size
+\(D_\beta\) away from \(n\) (here \(D_\beta\) is the number of \(I\times X'\)-matrices over \(\widehat{\mathcal{O}}_E/(\beta)\) if finite, and \(0\) otherwise, as in [[proofs/grh/upper-seesaw/neighbour-lattice-representatives|the representatives theorem]]; with \(D_\beta=0\) the denominator condition is empty) and size
 \(1\) under \(p\).
 
-**Theorem.** Let \(x\in T_n\bigl((\beta_i)\bigr)\) (\(\beta_i=\beta\) on the first block of rows,
+**Theorem.** (Only the split squarefree factorisation is used here; that the vectors \(n(y)+t_q\) represent all classes of \(\mathcal{N}\) modulo integral points needs in addition the split level hypothesis, i.e. residue degree one above \(N\).) Let \(x\in T_n\bigl((\beta_i)\bigr)\) (\(\beta_i=\beta\) on the first block of rows,
 \(\bar\beta\) on the second) vanish at all places of \(P\cup\bar P\), and let \(K\) be the order of
 the away quotient. Then
 \[
@@ -48,13 +48,15 @@ the away quotient. Then
 \]
 (sum over residue families \(y\) and classes \(q\) of the away quotient) is an admissible
 combination of the vectors \(K\cdot\mathrm{gl}(t_1,t_2)\), \(t_1,t_2\in T_n(\bar\beta)\), with
-denominator \(\lvert\widehat{\mathcal{O}}_E/(\beta)\rvert^{\lvert I\times X'\rvert}\) away from
+denominator \(D_\beta\) away from
 \(n\) and size \(1\) under an arbitrary proposition.
 
 ## Proof
 
 The proof uses the following facts about the finite Heisenberg operators and the join (linked Lean
 statements of the library):
+
+In the formulas below, for matrices \(x,y\) the expression \(y^{*}x\) inside \(\psi\) or the semicharacter denotes the scalar pairing \(\langle y,x\rangle=\sum_{i,j}\bar y_{ij}x_{ij}=\operatorname{tr}(y^{*}x)\) of the vectors of all entries.
 
 * (**composition**)
   \(\varrho_f(x)\varrho_f(y)=\psi\bigl(\bar c_0\,y^{*}x\bigr)\,\varrho_f(x+y)\) and
@@ -114,8 +116,8 @@ theorem]]). By Step 3 the term of \(q\) is \(\xi_q\zeta_q\,\mathrm{gl}(t^{q})^{\
 \ast^{-1}(\dots)=\sum_q\frac{1}{K}\cdot\Bigl(\xi_q\zeta_q\cdot K\,\mathrm{gl}(t^{q})\Bigr).
 \]
 The \(K\) coefficients \(1/K\) have absolute sum \(1\) at every conjugate, and
-\(\lvert\widehat{\mathcal{O}}_E/(\beta)\rvert^{\lvert I\times X'\rvert}/K\) is an integer by the
-same part 2, hence [[proofs/grh/upper-seesaw/integral-away|integral away from \(n\)]]. By rules 1
+\(K\) divides \(D_\beta\) by the
+same part 2, so \(D_\beta\cdot(1/K)\) is an integer (zero if \(D_\beta=0\)), hence [[proofs/grh/upper-seesaw/integral-away|integral away from \(n\)]]. By rules 1
 and 5 of the [[proofs/grh/upper-seesaw/admissible-combination-calculus|calculus]] (finite sums;
 change of family up to roots of unity) the claim follows. \(\blacksquare\)
 

@@ -22,7 +22,7 @@ forms on \(Y_m\), read on [[langlands/automorphic-form|automorphic]] forms.
 **Lemma.** For every linear form \(t\) on the values of forms on \(X_m\) there is a constant
 \(C_t\in\mathbb{C}\) such that for every form \(x\) on \(Y_m\), every form \(\psi\) on \(X_m\) and
 every function \(F\) on \(U(Y_m)(\mathbb{A})\) with
-\(F(k)=t\bigl(\psi(\operatorname{diag}(k,1))\bigr)\) for all \(k\):
+\(F(k)=t\bigl(\psi(\operatorname{diag}(k,1))\bigr)\) for all adelic points \(k\) of \(U(Y_m)\) — where, for \(h=\operatorname{diag}(k,1)=(h_\infty,h_f)\), the symbol \(t(\psi(h))\) denotes the adelic coefficient \(t\bigl(\rho(h_\infty)^{-1}\psi(h_f)\bigr)\) of the algebraic form \(\psi\) (a vector-valued function on finite points; \(\rho\) the conjugate Weyl representation):
 \[
 \int_{[U(Y_m)]}F(g)\,\overline{x(g)}\,dg=C_t\,\langle x,\operatorname{res}\psi\rangle .
 \]
@@ -37,7 +37,7 @@ forms.
 
 *Reduction.* The space \(Y_m\) is standard (its point is \(1\), its signs are \(+\)), and the last
 grading has an empty string; so its Bessel subgroup is the whole group, the quotient
-\(R(E)\backslash G_m\) is \([U(Y_m)]\), and the hypothesis describes \(F\) at every point:
+\(R(F)\backslash G_m\) is \([U(Y_m)]\), and the hypothesis describes \(F\) at every point:
 \(F(g)=t\bigl(\psi(\operatorname{diag}(g,1))\bigr)\), in the sense of coefficients of algebraic
 forms.
 

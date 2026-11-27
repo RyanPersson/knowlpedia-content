@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-seesaw/evaluated-data-admissible"
 title = "The evaluated data are admissible combinations of glued vacua"
 kind = "theorem"
-summary = "The tensor of the evaluated data of all pairs of edges is a combination of glued translates of the vacuum with coefficients integral away from the conductor norm up to a fixed power of the norm of pi_M, and of size one for the trivial twist."
+summary = "The tensor of the evaluated data of all pairs of edges is a combination of glued translates of the vacuum with coefficients integral away from the norm of the chosen modulus up to a fixed power of the norm of pi_M, and of size one when the chosen modulus is empty."
 aliases = ["good datum", "chosen ratio"]
 domains = ["proofs"]
 section_mode = "progressive"
@@ -55,10 +55,8 @@ scaling, are scalings at \(M\) for \((N,\pi_M,\delta)\): \(\pi_M\) is a unit abo
 (2) By part 4 of the point data lemma, the join \(\Phi^{y}_{2i}\ast\Phi^{y}_{2i+1}\) is an
 admissible combination of translates of the vacuum with weights as in (1); \(\operatorname{ev}_i\)
 is linear and by (1) sends each such translate to an admissible combination of the
-\(C_i\,\mathrm{gl}(t_1,t_2)\) (here \(q\) is coprime to \(N\), since places above \(\pi_N\) are not
-in \(Q\)). [[proofs/grh/upper-seesaw/admissible-combination-substitution|Substitution]] multiplies
-the three denominators, all powers of \(\mathrm{N}\pi_M=M^{f}\) with exponents at most
-\(n_m^{2}\) each (the third is at most two such), so their product divides \(\mathcal{C}^{4}\).
+\(C_i\,\mathrm{gl}(t_1,t_2)\) (here \(q\) is coprime to \(N\): the definition of a tame character requires \(\gcd(MN,q)=1\)). [[proofs/grh/upper-seesaw/admissible-combination-substitution|Substitution]] multiplies
+the three denominators, all powers of \(\mathrm{N}\pi_M=M^{f}\): the exponents are \(\lvert Y_{2i+1}\rvert\lvert Y_{2i}\rvert\le n_m^{2}\), \(\lvert Y_{2i+2}\rvert\lvert Y_{2i+1}\rvert\le n_m^{2}\) and \((n_{2i}+n_{2i+2})\,n_{2i+1}\le2n_m^{2}\), with sum at most \(4n_m^{2}\); so their product divides \(\mathcal{C}^{4}=M^{4fn_m^{2}}\).
 
 (3) The [[proofs/grh/upper-seesaw/admissible-combination-calculus|rule for pure tensors]] with
 \(\varrho+1\) factors gives denominator \((\mathcal{C}^{4})^{\varrho+1}=\mathcal{C}^{2m}\) and size

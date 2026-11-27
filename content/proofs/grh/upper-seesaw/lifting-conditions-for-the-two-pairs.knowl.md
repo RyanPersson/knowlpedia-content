@@ -16,6 +16,8 @@ Notation as in [[proofs/grh/upper-seesaw/admissible-evaluation-of-edge-pairs|the
 evaluation of edge pairs]]: flip scale \(s_E\), unit \(\eta\) of norm \(-1\), conditions "lifts
 neighbours" and "matches denominators".
 
+In both cases \((Y,Y',Y'')\) [[proofs/grh/upper-seesaw/double-lift-data|have consecutive strings]]; this includes that \(Y\) and \(Y'\) have the same constant, \(c_Y=c_{Y'}\), which is needed for the double lifts to be defined.
+
 **Lemma.**
 
 1. (**Middle double lift.**) Let \(Y,Y',Y''\) have consecutive strings of lengths \(m\ne1\) odd,
@@ -23,7 +25,7 @@ neighbours" and "matches denominators".
    [[proofs/grh/upper-seesaw/graded-lattice-basis|span the lattices]] of \((a,\pi,u)\) and
    \((a,\pi,u'')\), and \(s_Eu=\bar\eta\,\delta\,u''\). Then the middle double lift lifts neighbours
    for \((\pi,u,\kappa=1,\delta)\), and matches denominators for \(\kappa=1\) and every \(\beta\).
-2. (**Last double lift.**) Let the strings have lengths \(1,0,0\), \(V''\) be standard,
+2. (**Last double lift.**) Let \((Y,Y',Y'')\) have consecutive strings of lengths \(1,0,0\) (in particular \(c_Y=c_{Y'}\)), \(V''\) be standard,
    \(\dim V+\dim V''\) even and \(N=p\bar p\) with \(\pi\) the principal idele of \(p\). Suppose
    \(Y\) spans the lattice of \((a,\pi,u)\) and \(s_Eu=\bar\eta\delta\). Let \(\kappa\) be the
    **last scaling**: \(\delta\) at \(e''\) and \(1\) elsewhere. Then the last double lift lifts

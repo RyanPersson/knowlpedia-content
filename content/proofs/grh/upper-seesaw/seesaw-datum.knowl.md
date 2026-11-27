@@ -31,7 +31,7 @@ data]]). The **seesaw datum** is the [[proofs/grh/upper-seesaw/cut-sum|cut sum]]
 
 1. (**Invariance.**) \(\varphi_\vartheta\) is
    [[?lean:New.Data.ChainTensor.IsInvariant|jointly invariant]] for \(\vartheta\): it is fixed by
-   every tuple \(b=(b_j)\) with \(b_j\) in the level of \(U(X_j)\) and \(b_m=1\).
+   every tuple \(b=(b_j)\) with \(b_j\) in the level of \(U(X_j)\) for \(j<m\) and \(b_m=1\).
 2. (**Admissibility.**) There is a constant \(C\) such that for every tame \(\vartheta\), with
    \(q=\mathrm{N}Q\) and \(\mathcal{C}=M^{fn_m^{2}}\): \(\varphi_\vartheta\) is an
    [[proofs/grh/upper-seesaw/admissible-combination|admissible combination]] of the
@@ -57,9 +57,9 @@ last grading, \(\epsilon(1)=1\), and \(b_m=1\).
 
 (2) By [[proofs/grh/upper-seesaw/evaluated-data-admissible|admissibility of the evaluated data]],
 each value \(E(\vartheta,[y])\) at a tuple \(y\) integral away from \(q\) is an admissible
-combination of the \(C\,\mathrm{gv}(x)\) with denominator \(\mathcal{C}^{2m}\) and size \(1\). By
+combination of the \(C\,\mathrm{gv}(x)\) with denominator \(\mathcal{C}^{2m}\) (for every \(Q\)) and, when \(Q=\emptyset\), size \(1\). By
 part 3 of the cut sum lemma, \(\varphi_\vartheta\) is an admissible combination of these values with
-denominator \(1\) and size \(\mathcal{C}^{m}\).
+denominator \(1\) (for every \(Q\)) and, when \(Q=\emptyset\), size \(\mathcal{C}^{m}\).
 [[proofs/grh/upper-seesaw/admissible-combination-substitution|Substitution]] gives the claim.
 \(\blacksquare\)
 

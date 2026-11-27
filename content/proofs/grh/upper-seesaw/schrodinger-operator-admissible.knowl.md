@@ -21,12 +21,12 @@ proof_status = "full"
 \(\Psi\colon(\mathcal{O}_E/\mathfrak{m})^{n}\to\mathbb{C}\) take values
 [[proofs/grh/upper-seesaw/integral-away|integral away from \(q\)]], let \(u\in\mathcal{S}(V)\) and
 let \(v=P^{\mathfrak{m}}u\) be its image under the
-[[?lean:New.Space.projOn|projection at the places dividing \(\mathfrak{m}\)]]. Let \(B\) be real
+[[?lean:New.Space.projOn|projection \(P^{\mathfrak m}\)]]: with \(S\) the set of primes dividing \(\mathfrak{m}\), it is the normalised mean of the finite Heisenberg operators over the integral vectors supported on \(S\cup\bar S\) (the conjugate places are included). Let \(B\) be real
 and \(p\) a proposition such that, under \(p\),
 \(\sum_{x}\lvert\sigma\Psi(x)\rvert\le B\) for all automorphisms \(\sigma\) of \(\mathbb{C}\).
 
 Then the value at \(u\) of the [[?lean:New.Space.schrodingerOp|Schrödinger operator]] attached to
-\(\Psi\) (read on integral [[?c:Finite adele ring of a number field|finite adelic]] vectors by reduction modulo \(\mathfrak{m}\)) is an
+\(\Psi\) (read on [[?c:Finite adele ring of a number field|finite adelic]] vectors \(x\) as \(\Psi(1_Sx\bmod\mathfrak{m})\) when the part \(1_Sx\) at \(S\) is integral, and as \(0\) otherwise; coordinates off \(S\) are ignored) is an
 [[proofs/grh/upper-seesaw/admissible-combination|admissible combination]] of the translates
 \(\varrho_f(y)v\), over \(y\) in the
 [[proofs/grh/upper-seesaw/translation-groups|translation group]] \(T^{n}_q(\bar d)\), with
@@ -44,11 +44,11 @@ Hence \(\mathrm{N}(g)^{\lvert n\rvert}/\lvert(\mathcal{O}_E/\mathfrak{m})^{n}\rv
 away from \(q\).
 
 *Indices.* Choose integral lifts \(z_b\in\widehat{\mathcal{O}}_E^{\,n}\) of the residue vectors
-\(b\), and let \(y_b\) be the conjugate of \(\varpi_{\mathfrak{m}}^{-1}z_b\) restricted to the
-places dividing \(\mathfrak{m}\) (zero elsewhere), where \(\varpi_{\mathfrak{m}}\) is the chosen
-idele generating \(\mathfrak{m}\widehat{\mathcal{O}}\). Then \(y_b\in T^{n}_q(\bar d)\): if \(t\) is
+\(b\), and let \(y_b=\overline{1_S\,\varpi_{\mathfrak{m}}^{-1}z_b}\), where \(1_S\) is the idempotent of the
+places dividing \(\mathfrak{m}\) and \(\varpi_{\mathfrak{m}}\) is the chosen
+idele generating \(\mathfrak{m}\widehat{\mathcal{O}}\) (so \(y_b\) is supported at \(\bar S\)). Then \(y_b\in T^{n}_q(\bar d)\): if \(t\) is
 \(\bar d\) times an entry of \(y_b\), then \(qt\) is the conjugate of the integral adele
-\(\varpi_{\mathfrak{m}}^{-1}(dq)\,z_{b,i}\) (integral since \(dq\in\mathfrak{m}\widehat{\mathcal{O}}\)),
+\(1_S\,\varpi_{\mathfrak{m}}^{-1}(dq)\,z_{b,i}\) (integral since \(dq\in\mathfrak{m}\widehat{\mathcal{O}}\)),
 and \(q\) is a unit at every place \(w\nmid q\).
 
 *Fourier inversion.* By linearity in \(\Psi\), the operator applied to \(u\) is

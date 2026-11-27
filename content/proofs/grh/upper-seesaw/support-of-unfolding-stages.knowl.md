@@ -13,8 +13,7 @@ proof_status = "full"
 +++
 
 Notation as in [[proofs/grh/upper-seesaw/unfolding-stages|the functions of the unfolding]]
-\(\mathcal{W}_j\) on \(G_j=U(Y_j)(\mathbb{A})\). Let \(Q\) be the set of places where the tame
-character \(\vartheta\) ramifies and \(\mathfrak{q}\) the **twist idele**: the chosen generator of
+\(\mathcal{W}_j\) on \(G_j=U(Y_j)(\mathbb{A})\). Let \(Q\) be the chosen modulus of the tame character \(\vartheta\) (its tame part is trivial outside \(Q\) but may also be trivial at places of \(Q\); the bounds below use this \(Q\), not the set of places of actual ramification) and \(\mathfrak{q}\) the **twist idele**: the chosen generator of
 the [[?lean:New.Data.twistModulus|modulus of the twist]] (the chosen places times \(Q\)) divided by
 the [[?lean:New.Data.chosenIdele|chosen idele]]; it is a [[?c:Uniformizer|uniformiser]] at the places of \(Q\) and a
 unit elsewhere.

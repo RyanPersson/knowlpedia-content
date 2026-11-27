@@ -12,8 +12,7 @@ lean_files = ["src/New/UpperBound/Seesaw/Cut.lean"]
 proof_status = "outline"
 +++
 
-Let \(D\) be the [[?lean:New.Data|data]], \(\vartheta\) a tame character with ramification set
-\(Q\), \(q=\mathrm{N}Q\), and \(\mathfrak{q}\) the
+Let \(D\) be the [[?lean:New.Data|data]], \(\vartheta\) a tame character with chosen modulus \(Q\) (a finite set of places outside which its tame part is trivial; the tame part may also be trivial at places of \(Q\), and \(Q\) is the exact support only for a [[?lean:New.Data.Twist|twist]]); below \(Q\) always means this chosen set, \(q=\mathrm{N}Q\), and \(\mathfrak{q}\) the
 [[proofs/grh/upper-seesaw/support-of-unfolding-stages|twist idele]]. For \(j\le m-1\) let
 \(G_{j,f}\) be the [[?c:Finite adele ring of a number field|finite adelic]] unitary group of \(Y_j\), \(K_j\) the stabiliser of the standard
 lattice, \(J_j\le K_j\) the [[?lean:New.Data.levelY|level]] of elements reducing to \(1\) at the
@@ -58,9 +57,9 @@ integral away from \(q\). Apply
 = "the orbit is bounded".
 
 *Properties.* For \(j=0\) the image of the compact chosen level in the discrete quotient is finite.
-The image of \(U(X_j)\) lies in the Bessel subgroup, and the image of the level of \(X_j\) lies in
-\(K_j\) ([[proofs/grh/upper-seesaw/glued-level-congruences|glued level]]), so stability and
-invariance of the multiplicity follow from the properties of cuts and cover multiplicities. If
+For \(j=0\): \(xJ_0\in\Omega_0\) iff \(x\) lies in the chosen level (as \(J_0\) is contained in the chosen level), and the image of the level of \(X_0\) lies in the chosen level ([[proofs/grh/upper-seesaw/unfolding-stages|property 4 of the functions of the unfolding]]), a group; so translation by it permutes \(\Omega_0\), and the multiplicity is identically \(1\). For \(j\ge1\): the image of \(U(X_j)\) lies in the Bessel subgroup, and the image of the level of \(X_j\) lies in
+\(K_j\) ([[proofs/grh/upper-seesaw/glued-level-congruences|glued level]]), so stability is property 1 of a stage cut, and the
+invariance of the multiplicity under every element of the Bessel subgroup is property 1 of the [[proofs/grh/upper-seesaw/cover-multiplicity|cover multiplicity]]. If
 \(Q=\emptyset\), the points lie in \(K_k\) and \(J_k\) contains the principal congruence subgroup
 modulo \(\pi_M\), so the set injects into \(K_k\) modulo that subgroup, of order at most the number
 of matrices modulo \(\pi_M\). \(\blacksquare\)

@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-seesaw"
 title = "Upper bound: the seesaw identity"
 kind = "page"
-summary = "On ramified source forms, the chain of indefinite theta lifts of a Poincaré series equals a nonzero constant times a definite chain of lifts with integral, bounded finite data."
+summary = "On ramified source forms, the chain of indefinite theta lifts of a Poincaré series equals a nonzero constant times a definite chain of lifts whose finite data are integral away from the modulus of the twist and bounded in size when the modulus is empty."
 aliases = ["seesaw", "the seesaw identity chapter"]
 domains = ["proofs"]
 section_mode = "continuous"
@@ -23,7 +23,7 @@ where the left side is the [[?lean:New.Data.lowerChain|lower chain]] of \(m\)
 [[?lean:New.Data.compositeLift|composite lift]]: a finite combination of chains of lifts between
 the *definite* spaces \(X_0\to\dots\to X_m\), restricted to \(Y_m\subset X_m\), whose coefficients
 \(\Psi_\vartheta\) form a [[?lean:New.Data.IsChainDatum|chain datum]] — integral away from the
-conductor of \(\vartheta\), bounded for the trivial modulus, supported at the level, invariant
+modulus of \(\vartheta\), bounded for the empty modulus, supported at the level, invariant
 under the levels. The identity is what lets the upper bound of the main argument be read off from
 theta series of definite lattices. It does not say that either side is nonzero.
 
@@ -32,11 +32,15 @@ theta series of definite lattices. It does not say that either side is nonzero.
 \(E=K(\zeta)\) is the CM field of the data, with complex conjugation \(x\mapsto\bar x\);
 \(\mathbb{A}_{E,f}\) its finite adeles and \(\widehat{\mathcal{O}}\) the integral ones.
 \(M=p_0p_1=\pi_M\bar\pi_M\) and \(N=\pi_N\bar\pi_N\) are the level integers, \(m=2\varrho+2\) the
-number of lifts. \(X_j\) are the definite spaces of the upper chain; \(Y_j\) is \(X_j\) plus a
-*string* of \(m-1-j\) further basis vectors paired antidiagonally, with \(-N\) in the middle
-([[proofs/grh/upper-seesaw/tower-gradings-and-evaluated-data|gradings of the tower]]). \(\varrho_f(x)\)
+number of lifts. \(X_j\) are the definite spaces of the upper chain. For \(j<m\), \(Y_j\) is \(X_j\) plus a
+*string* of \(m-1-j\) further basis vectors paired antidiagonally; when the string length is odd
+its middle vector has norm \(-N\) (an even string has no middle vector)
+([[proofs/grh/upper-seesaw/tower-gradings-and-evaluated-data|gradings of the tower]]). At the top,
+\(Y_m\) is a standard definite space of rank \(n_m-1\) with an empty string: it is the span of the
+basis vectors of \(X_m\) other than the last, so \(Y_m\subset X_m\) has codimension one, and forms
+on \(X_m\) are restricted to it. \(\varrho_f(x)\)
 is the finite Heisenberg operator of the Weil representation, \(v_0\) the vacuum. A tame character
-\(\vartheta\) ramifies on a finite set \(Q\) of places, \(q=\mathrm{N}Q\), and
+\(\vartheta\) carries a chosen finite modulus \(Q\): its tame part is trivial outside \(Q\), and for a twist it is nontrivial at every place of \(Q\); the levels, cuts and bounds of the intermediate statements use this chosen \(Q\). \(q=\mathrm{N}Q\) is the product of the norms of its places, and
 \(\mathcal{C}=M^{fn_m^2}\).
 
 ## 1. Bookkeeping: admissible combinations
@@ -149,8 +153,7 @@ bound \(M^{3fmn_m^2}\) for the trivial modulus.
 
 ## Status
 
-The chapter has 51 items; of its 42 lemmas, propositions and theorems, 35 have complete proofs and
-7 are outlines. Every Lean file of the folder has been read in full, proofs included. The outlines
+The chapter has 51 items; of the 42 items with a proof-status label, 35 are full and 7 are outlines. Every Lean file of the folder has been read in full, proofs included. The outlines
 are: the [[proofs/grh/upper-seesaw/finite-zero-term|finite zero term]] (mixed model inputs),
 [[proofs/grh/upper-seesaw/double-lift-evaluation-equivariant|equivariance of the finite
 evaluation]] (two library statements and a comparison of exponents),

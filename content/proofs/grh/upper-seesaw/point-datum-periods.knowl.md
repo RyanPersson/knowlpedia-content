@@ -12,8 +12,7 @@ lean_files = ["src/New/UpperBound/Seesaw/UnfoldingStages.lean"]
 proof_status = "full"
 +++
 
-Let \(D\) be the [[?lean:New.Data|data]], \(\vartheta\) a tame character with ramification set
-\(Q\), \(\mathfrak{m}\) the [[?lean:New.Data.twistModulus|modulus of the twist]] (the product of
+Let \(D\) be the [[?lean:New.Data|data]], \(\vartheta\) a tame character with chosen modulus \(Q\) (a finite set of places outside which its tame part is trivial; the tame part may also be trivial at places of \(Q\), and \(Q\) is the exact support only for a [[?lean:New.Data.Twist|twist]]), \(\mathfrak{m}\) the [[?lean:New.Data.twistModulus|modulus of the twist]] (the product of
 the chosen places and the places of \(Q\)), \(\varpi_{\mathfrak m}\) its chosen idele generator, and
 \(\Phi_k\) the [[?lean:New.Data.pointDatumY|point datum]] on
 \(H_k=\operatorname{Hom}(Y_k,Y_{k+1})\).

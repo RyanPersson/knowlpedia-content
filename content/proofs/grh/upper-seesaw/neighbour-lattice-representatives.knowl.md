@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-seesaw/neighbour-lattice-representatives"
 title = "Representatives of the neighbour lattice modulo its integral points"
 kind = "theorem"
-summary = "Sums of a neighbour translation and a representative of the away quotient represent the neighbour lattice modulo the standard lattice uniquely; the away quotient has order dividing the number of matrices modulo beta."
+summary = "Sums of a neighbour translation and a representative of the away quotient represent the neighbour lattice modulo the standard lattice uniquely; the order of the away quotient divides the number of matrices modulo beta when that number is finite."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
@@ -27,7 +27,7 @@ Notation as in [[proofs/grh/upper-seesaw/neighbour-lattice|the neighbour lattice
 2. \(\mathcal{N}^{\mathrm{aw}}\subseteq T_n\bigl((\beta_i)_{(i,a)}\bigr)\) for every \(n\), where
    \(\beta_i=\beta\) on the first block and \(\bar\beta\) on the second
    ([[proofs/grh/upper-seesaw/translation-groups|weighted translations]]); and the order of the
-   away quotient divides \(\lvert\widehat{\mathcal{O}}_E/(\beta)\rvert^{\lvert I\times X'\rvert}\).
+   away quotient divides \(D_\beta\), where \(D_\beta\) is the number of \(I\times X'\)-matrices with entries in \(\widehat{\mathcal{O}}_E/(\beta)\) if this number is finite, and \(D_\beta=0\) otherwise. (The hypotheses only make \(\beta\) a unit above \(N\); \(\widehat{\mathcal{O}}_E/(\beta)\) can be infinite, for instance if a component of \(\beta\) vanishes, and then this divisibility is empty. In the application \(\beta=\pi_M\ne0\) and \(D_\beta=\mathrm{N}(\pi_M)^{\lvert I\times X'\rvert}\).)
 3. Every neighbour translation \(n(y)\) lies in \(\mathcal{N}\).
 4. For every \(x\in\mathcal{N}\) there is exactly one residue family \(y\) such that \(x+n(y)\) is
    integral at all places of \(P\cup\bar P\).
@@ -51,10 +51,11 @@ r\colon\mathcal{N}^{\mathrm{aw}}\to(\widehat{\mathcal{O}}_E/(\beta))^{I\times X'
 \]
 If \(r(x)=0\) then \(\overline{\bar\kappa_ix_{i,a}}=\beta z\) with \(z\) integral, hence
 \(x_{i,a}=\bar\beta\kappa_i\bar z\), which is integral since \(\bar\beta\kappa_i\) is. So
-\(\ker r\subseteq\mathcal{N}^{\mathrm{aw}}\cap L\), and the order of
+\(\ker r\subseteq\mathcal{N}^{\mathrm{aw}}\cap L\). If the target of \(r\) is infinite,
+\(D_\beta=0\) and there is nothing to prove. Otherwise the order of
 \(\mathcal{N}^{\mathrm{aw}}/(\mathcal{N}^{\mathrm{aw}}\cap L)\) divides the index of \(\ker r\),
 which is the order of the image of \(r\), a subgroup of the finite group of matrices modulo
-\(\beta\); conclude by [[?c:Lagrange's theorem|Lagrange's theorem]]. (The away quotient is finite
+\(\beta\), of order \(D_\beta\); conclude by [[?c:Lagrange's theorem|Lagrange's theorem]]. (The away quotient is finite
 because \(\mathcal{N}\cap L\) has finite index in \(\mathcal{N}=uL\); see
 [[proofs/grh/upper-seesaw/zero-term-lattice|the zero term lattice]], part 2.)
 

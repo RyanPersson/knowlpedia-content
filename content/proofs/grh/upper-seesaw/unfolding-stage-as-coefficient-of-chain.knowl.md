@@ -50,13 +50,12 @@ operation acts separately on the real and finite factors of a [[?c:Tensor produc
 ([[proofs/grh/upper-seesaw/finite-zero-term|property 2 of the finite zero term]]); on the real
 factor the characters act through their weights, which do not depend on \(\vartheta\). Hence the
 datum is \(v\otimes E_i(\vartheta,y)^{\ast}\) with a real [[?c:Fock model of the Weil representation|Fock vector]] \(v\) independent of
-\(\vartheta\) and \(y\). By the complement to the double unfolding integral, the double theta
-integral against \(l\circ\psi\) is a coefficient \(l''\) of the composite of the two lifts applied
+\(\vartheta\) and \(y\). The double unfolding integral gives \(z\) times the double theta integral with datum \(v\otimes E_i^{\ast}\), where the constant \(z\) depends only on the double lift data; so apply the complement to the double unfolding integral to the Fock vector \(zv\) (still independent of \(\vartheta\) and \(y\)): the result is a coefficient \(l''\) of the composite of the two lifts applied
 to \(\psi\), evaluated at \(\epsilon(g)\).
 
 (1) Induction on \(i\); \(i=0\) is the definition with \(l_0=t\). For the step, the function
-\(\mathcal{W}^{R}_{2i+2}\) is equivariant, hence determined by its values on the image of
-\(U(X_{2i+2})\), which are given by the one-step statement with \(x=\xi_{2i+2}\) (for the middle
+\(\mathcal{W}^{R}_{2i+2}\) is equivariant, and the string of \(Y_{2i+2}\) has odd length \(m-1-(2i+2)\); for an odd string every element of the unipotent radical raises grades by at least two, so an equivariant function is determined by its values on the image of
+\(U(X_{2i+2})\) ([[?lean:New.Grading.IsEquivariant.eq_sourceFn|uniqueness for odd strings]]), which are given by the one-step statement with \(x=\xi_{2i+2}\) (for the middle
 double lift \(\epsilon\) is the identity). (2) in general follows from (1) and the one-step
 statement.
 

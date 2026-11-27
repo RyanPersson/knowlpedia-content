@@ -58,8 +58,7 @@ unfolding]] with \(k=m-1\), the last grading, \(a(\xi)=C_{l_\xi}\) and
 =c_0\,\Sigma_m\bigl(L_x\circ E(\vartheta,\cdot)\bigr)=c_0\,L_x\bigl(\Sigma_m(E(\vartheta,\cdot))\bigr)=c_0\,L_x(\varphi_\vartheta),
 \]
 using the linearity of the cut sum. (The pairing \(\int z\cdot f\) with \(z=\bar x\) is the inner
-product with \(x\).) As this holds for all \(x\) in the finite-dimensional space of forms on
-\(Y_m\), the two forms agree. \(\blacksquare\)
+product with \(x\).) As this holds for every form \(x\) on \(Y_m\) (of the given archimedean type, of any level), take \(x\) to be the difference \(v\) of the two sides of the theorem: then \(\langle v,v\rangle=0\), so \(v=0\) by positive definiteness of the Petersson inner product. \(\blacksquare\)
 
 ## References
 

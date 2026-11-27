@@ -26,7 +26,7 @@ the rank twist of \(\mu_{k+1}\)); acting on it by \((g,h)\) is acting on \(F_k\)
 The **functions of the unfolding** are defined recursively:
 
 * \(\mathcal{W}^{R}_0\) on \(R_0\) is the [[?lean:New.Grading.sourceFn|source function]] of
-  \((t,\varphi)\): \(\mathcal{W}^{R}_0(u\,g)=\psi_U(u)\,t\bigl(\varphi(g)\bigr)\) for \(u\) in the unipotent radical and \(g\in U(X_0)(\mathbb{A})\), where \(\psi_U\) is the unipotent character of the grading and \(t(\varphi(g))\) stands for the coefficient \(t\bigl(\rho(g_\infty)^{-1}\varphi(g_f)\bigr)\) of the algebraic form;
+  \((t,\varphi)\): \(\mathcal{W}^{R}_0(u\,g)=\psi_U(u)\,t\bigl(\varphi(g)\bigr)\) for \(u\) in the unipotent radical and \(g\in U(X_0)(\mathbb{A})\) (the string of \(Y_0\) has odd length \(m-1\), so here every element of the unipotent radical raises grades by at least two), where \(\psi_U\) is the unipotent character of the grading and \(t(\varphi(g))\) stands for the coefficient \(t\bigl(\rho(g_\infty)^{-1}\varphi(g_f)\bigr)\) of the algebraic form;
 * \(\mathcal{W}_{k+1}\) on \(G_{k+1}\) is the [[?lean:New.Grading.unfoldStep|unfolding step]]
   applied to \(\mathcal{W}^{R}_k\) and the moved datum:
   \[
@@ -37,19 +37,21 @@ The **functions of the unfolding** are defined recursively:
   [[?lean:New.Grading.constTermAtStringMap|constant term at the shift]] \(T\colon Y_k\to Y_{k+1}\):
   the mean, over adelic matrices \(v\) modulo rational ones, of the theta value of
   \(\varrho(T)\,\omega_{\mu_{k+1}}(r,h)F\) translated by the part of \(v\) of positive degree;
-* \(\mathcal{W}^{R}_{k+1}(\gamma)=\mathcal{W}_{k+1}(\gamma g_{k+1})\) for \(\gamma\in R_{k+1}\).
+* \(\mathcal{W}^{R}_{k+1}(\gamma)=\mathcal{W}_{k+1}(\gamma g_{k+1})\) for \(\gamma\in R_{k+1}\), as long as \(k+1\le m-1\).
+
+Thus \(\mathcal{W}^{R}_k\) is defined for \(0\le k\le m-1\) and \(\mathcal{W}_{k+1}\) for \(0\le k\le m-1\); in the step to \(\mathcal{W}_{k+1}\) the target \(Y_{k+1}\) carries the grading \(\mathcal{Y}_{k+1}\) for \(k+1\le m-1\) and, for the terminal function \(\mathcal{W}_m\), the last grading of \(Y_m\) (empty string), for which no restricted function is formed.
 
 ## Properties
 
 1. \(\mathcal{W}_{k+1}\) depends only on \(g_0,\dots,g_k\).
-2. \(\mathcal{W}^{R}_k\) is equivariant on \(R_k\): invariant under rational points and transforming
-   by the unipotent character. \(\mathcal{W}_{k+1}\) is continuous and left invariant under the
+2. \(\mathcal{W}^{R}_k\) is [[?lean:New.Grading.IsEquivariant|equivariant]] on \(R_k\): continuous, left invariant under the rational points, and
+   \(\mathcal{W}^{R}_k(ur)=\psi_U(u)\,\mathcal{W}^{R}_k(r)\) for \(u\) in the subgroup \(U^{\ge2}\) of elements \(u\in R_k\) such that \(u-1\) (in rational coordinates) raises grades by at least two. When the string length is odd, \(U^{\ge2}\) is the whole unipotent radical; for a positive even string length there are directions of degree one, for which no transformation law is asserted. \(\mathcal{W}_{k+1}\) is continuous and left invariant under the
    rational points of \(R_{k+1}\).
-3. (**One unfolding step.**) Let \(z\) be an [[langlands/automorphic-form|automorphic]], [[?c:Rapidly decreasing automorphic function|rapidly decreasing]] function on
-   \(G_{k+1}\). Then \(\mathcal{W}_{k+1}z\) is integrable on \(R_{k+1}(E)\backslash G_{k+1}\) and
+3. (**One unfolding step.**) Here \(R_{k+1}(F)=\Gamma_{Y_{k+1}}\cap R_{k+1}\) denotes the rational points of the Bessel subgroup: the intersection with the rational unitary group, which is defined over the totally real field \(F=E^{+}\). Let \(z\) be an [[langlands/automorphic-form|automorphic]], [[?c:Rapidly decreasing automorphic function|rapidly decreasing]] function on
+   \(G_{k+1}\). Then \(\mathcal{W}_{k+1}z\) is integrable on \(R_{k+1}(F)\backslash G_{k+1}\) and
    \[
    \int_{[R_k]}\mathcal{W}^{R}_k(r)\int_{[G_{k+1}]}\theta\bigl(\omega_{\mu_{k+1}}(rg_k,h)F_k\bigr)z(h)\,dh\,dr
-   =\int_{R_{k+1}(E)\backslash G_{k+1}}\mathcal{W}_{k+1}(h)z(h)\,dh .
+   =\int_{R_{k+1}(F)\backslash G_{k+1}}\mathcal{W}_{k+1}(h)z(h)\,dh .
    \]
    That is: pairing the previous function with the [[?c:Theta lift|theta lift]] of \(z\) to \(G_k\), translated by
    \(g_k\), unfolds to pairing \(\mathcal{W}_{k+1}\) with \(z\). (This is the general unfolding

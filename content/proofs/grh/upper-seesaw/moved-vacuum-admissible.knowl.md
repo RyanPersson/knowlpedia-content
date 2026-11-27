@@ -48,7 +48,7 @@ nonzero because \(\Delta_f(g)\ne0\). Two facts about the Weil representation are
 
 By the [[?lean:New.Space.finHeisenbergOp_finHeisenbergOp|composition law]],
 \(\varrho_f(gx)\varrho_f(g\tilde z)=\zeta_z\,\varrho_f(g(x+\tilde z))\) with
-\(\zeta_z=\psi\bigl(\bar c_0\,(g\tilde z)^{*}(gx)\bigr)\) a root of unity. Put
+\(\zeta_z=\psi\bigl(\bar c_0\,(g\tilde z)^{*}(gx)\bigr)\) a root of unity; here \(\psi\) is the fixed self-dual additive character of the finite adeles and \(c_0\) the fixed integral adele with \(c_0+\bar c_0=1\) of the Weil data, and \(u^{*}v=\sum_i\bar u_iv_i\). Put
 \(a=c/\lvert\Delta_f(g)\rvert^{2}\), so \(aC=\Delta_f(g)/\lvert\Delta_f(g)\rvert^{2}\). Then
 \[
 \omega(1,g)\,\varrho_f(x)v_0=\sum_{z\in L/H}a\cdot\zeta_z\,C\,\varrho_f\bigl(g(x+\tilde z)\bigr)v_0 .

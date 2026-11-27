@@ -23,12 +23,12 @@ the [[?lean:New.Space.lattice|lattice of \(V\)]] and define the **line ideles**
 \]
 
 **Lemma.** A vector \(y\in\mathbb{A}_{E,f}^{\iota}\), with coordinates \(y_i\) (\(i\in X\)),
-\(y_{0}\) (at \(y_0\)) and \(y_b\) (at \(z_b\)), lies in \(\Lambda\) if and only if
+\(y_e\) (at the distinguished vector \(y_0\); the subscript \(e\) keeps it apart from the string coordinate \(y_b\) at \(b=0\)) and \(y_b\) (at \(z_b\)), lies in \(\Lambda\) if and only if
 
 1. \(y_i\in\widehat{\mathcal{O}}\) for all \(i\in X\);
-2. \(\bar\pi\,y_0\in\widehat{\mathcal{O}}\) if \(s\) is odd, \(y_0\in\widehat{\mathcal{O}}\) if \(s\) is even;
+2. \(\bar\pi\,y_e\in\widehat{\mathcal{O}}\) if \(s\) is odd, \(y_e\in\widehat{\mathcal{O}}\) if \(s\) is even;
 3. for every \(b\): \(\lambda_b^{-1}y_b\in\widehat{\mathcal{O}}\) if \(b\neq s-1-b\), and
-   \(\lambda_b^{-1}y_b-\pi^{-1}y_0\in\widehat{\mathcal{O}}\) for the middle index \(b=s-1-b\).
+   \(\lambda_b^{-1}y_b-\pi^{-1}y_e\in\widehat{\mathcal{O}}\) for the middle index \(b=s-1-b\).
 
 Consequently \(\Lambda\) is *graded*: it contains the component in each grade of each of its
 vectors.
@@ -38,16 +38,16 @@ vectors.
 Since \(x_f=\mathcal{B}k\) with \(k\in\mathrm{GL}(\widehat{\mathcal{O}})\), we have
 \(\Lambda=\mathcal{B}\,\widehat{\mathcal{O}}^{\iota}\): every \(y\) is \(\mathcal{B}c\) for a
 unique \(c\), and \(y\in\Lambda\) iff \(c\) is integral. Reading off the columns of \(\mathcal{B}\):
-\(y_i=c_i\) on \(X\); \(y_0=\bar\pi^{-1}c_0\) (odd \(s\)) or \(c_0\) (even \(s\)); and
-\(y_b=\lambda_bc_b\), plus \(u(\pi\bar\pi)^{-1}c_0\) at the middle index. Solving,
-\(c_0=\bar\pi y_0\) resp. \(y_0\), and at the middle index (which exists only for odd \(s\), where
+\(y_i=c_i\) on \(X\); \(y_e=\bar\pi^{-1}c_e\) (odd \(s\)) or \(c_e\) (even \(s\)); and
+\(y_b=\lambda_bc_b\), plus \(u(\pi\bar\pi)^{-1}c_e\) at the middle index. Solving,
+\(c_e=\bar\pi y_e\) resp. \(y_e\), and at the middle index (which exists only for odd \(s\), where
 \(\lambda_b=u\))
 \[
-c_b=\lambda_b^{-1}y_b-(\pi\bar\pi)^{-1}\bar\pi\,y_0=\lambda_b^{-1}y_b-\pi^{-1}y_0 .
+c_b=\lambda_b^{-1}y_b-(\pi\bar\pi)^{-1}\bar\pi\,y_e=\lambda_b^{-1}y_b-\pi^{-1}y_e .
 \]
 This is the criterion.
 
-*Graded.* The only condition linking two coordinates links \(y_0\) and the middle coordinate, both
+*Graded.* The only condition linking two coordinates links \(y_e\) and the middle coordinate, both
 of grade \(0\) (the middle vector has grade \(s-1-2b=0\)). The component of \(y\) in grade \(d\)
 keeps the coordinates of grade \(d\) and replaces the others by \(0\); the three conditions are
 preserved. \(\blacksquare\)

@@ -32,14 +32,14 @@ tensor of finite data is the [[?lean:New.Data.gluedTensor|glued tensor]]
 
 That \(\Psi\) — a finitely supported function on the tuples \(x\) of [[?c:Finite adele ring of a number field|finite adelic]] matrices, one
 for each lift of the upper chain — is a *chain datum for \(\vartheta\)* means, with \(Q\) the
-ramification set of \(\vartheta\) and \(q=\mathrm{N}Q\):
+modulus of \(\vartheta\) (for a twist, the set of places where its tame part is nontrivial) and \(q=\mathrm{N}Q\):
 
 * its support consists of tuples that are admissible for \(q\) (\(\bar\pi_Mx_k\) integral away from
-  \(q\)) and [[?lean:New.Data.supportedTranslations|supported at the level \(Mq\)]];
+  \(q\)) and [[?lean:New.Data.supportedTranslations|supported at the level \(Mq\)]] (each \(x_k\) vanishes at every finite place not dividing \(Mq\));
 * its values are [[proofs/grh/upper-seesaw/integral-away|integral away from \(q\)]];
 * if \(Q=\emptyset\), then \(\sum_x\lvert\sigma\Psi(x)\rvert\le M^{3fmn_m^{2}}\) for every
   automorphism \(\sigma\) of \(\mathbb{C}\);
-* its glued tensor is jointly invariant under the levels of the \(U(X_j)\).
+* its glued tensor is [[?lean:New.Data.ChainTensor.IsInvariant|jointly invariant]]: it is fixed by every tuple \(b=(b_j)\) with \(b_j\) in the level of \(U(X_j)\) for \(j<m\) and \(b_m=1\) (the level of \(X_m\) is not required to act trivially; cf. [[proofs/grh/upper-seesaw/seesaw-datum|property 1 of the seesaw datum]]).
 
 The constant \(c\) does not depend on \(\vartheta\) or \(\varphi\). The theorem does not assert
 that either side is nonzero.
@@ -96,8 +96,8 @@ part of this theorem.
 The head of the Lean file describes the result as an iterated seesaw identity: the transfer of a
 Bessel or Fourier–Jacobi period under one theta lift, applied \(m\) times, where each period is a
 constant times a finite sum over cosets of a small level weighted by reciprocals of stabiliser
-indices dividing powers of the norm of the [[?c:Conductor of a Hecke character|conductor]] of the twist; hence no new denominators
-away from the conductor.
+indices dividing powers of \(q\), the norm of the modulus of the twist; hence no new denominators
+away from the modulus.
 
 ## References
 

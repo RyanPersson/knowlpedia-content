@@ -14,8 +14,8 @@ proof_status = "outline"
 
 Let \(\mathcal{D}\) be [[proofs/grh/upper-seesaw/double-lift-data|double lift data]] for gradings
 \(Y,Y',Y''\) of \(V,V',V''\) with definite parts \(X\sqcup e\), \(X'\sqcup e'\) and target index set
-\(X''\sqcup e''\), planes indexed by \(q\). Let \(N\) be prime with places above it \(P\cup\bar P\)
-([[?lean:New.IsSplitLevel|split level]]), \((P,N,\pi)\) a
+\(X''\sqcup e''\), planes indexed by \(q\). Let \(N\) be a prime that splits completely in \(E\), with \(P\) containing exactly one place of each conjugate pair above \(N\): the places above \(N\) are those of \(P\cup\bar P\), each unramified of residue degree one, so that its residue field is \(\mathbb{Z}/N\) and \(N\) is a uniformiser there
+([[?lean:New.IsSplitLevel|split level]]); let \((P,N,\pi)\) a
 [[proofs/grh/upper-seesaw/split-squarefree-factorisation|split squarefree factorisation]], and
 \(\kappa\) a [[proofs/grh/upper-seesaw/neighbour-lattice|scaling at \(M\)]] for \((N,\beta,\delta)\).
 Let \(s_E\) be the **flip scale**, the [[?c:Idele group|finite idele]] \(\bar\eta\,\bar\alpha\alpha^{-1}\) by which
@@ -112,7 +112,7 @@ and equality holds since both lattices are self-dual.
 theorem]] (the \(n(y)+t_q\) lie in \(\mathcal{N}\) and represent it uniquely modulo integral
 points): \(Z^{f}(v_0)=c\sum_{(y,q)}\varrho_f(n(y)+t_q)v_0\) with \(c\ne0\).
 
-(3) Take \(C=c\cdot K\). Let \(n\) be coprime to \(N\), \(p\) a proposition and
+(3) Let \(K\) be the order of the away quotient of \(\mathcal{N}\) (for the column set \(X'\sqcup e'\)), a finite number, and take \(C=c\cdot K\). Let \(n\) be coprime to \(N\), \(p\) a proposition and
 \(y\in T_n((\beta_i))\). By [[proofs/grh/upper-seesaw/vacuum-translate-away-from-level|moving a translate away from \(N\)]],
 \(\varrho_f(y)v_0=\xi\,\varrho_f(y')v_0\) with \(\xi\) a root of unity and \(y'\in T_n((\beta_i))\)
 vanishing above \(N\). By definition,
@@ -133,9 +133,9 @@ the stated denominator and size \(1\). Multiplying by \(\xi\xi'\zeta\) preserves
 
 ## Remarks
 
-Status: the argument is complete except for the block identity (c), and it rests on
-[[proofs/grh/upper-seesaw/zero-term-lattice|the zero term lattice lemma]], which is itself an
-outline.
+Status: the argument is complete except for the block identity (c). It rests on
+[[proofs/grh/upper-seesaw/zero-term-lattice|the zero term lattice lemma]], and through it on the
+[[proofs/grh/upper-seesaw/finite-zero-term|finite zero term]], which is an outline.
 
 ## References
 

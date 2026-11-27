@@ -37,7 +37,7 @@ with: \(\langle x_i,x_j\rangle=\delta_{ij}\); \(\langle z_b,z_{b'}\rangle=1\) if
 \(b\ne b'\); \(\langle z_c,z_c\rangle=-p\) for the middle vector (odd \(s\)); all other pairings of
 string vectors \(0\); \(\langle y,y\rangle=q\) and \(\langle y,z_c\rangle=\langle z_c,y\rangle=-1\)
 if \(s\) is odd; \(\langle y,y\rangle=1\) and \(y\perp z_b\) if \(s\) is even; \(y\perp x_i\),
-\(x_i\perp z_b\).
+\(x_i\perp z_b\); and all pairings not listed are \(0\), in particular \(\langle y,z_b\rangle=\langle z_b,y\rangle=0\) for \(b\ne c\) when \(s\) is odd.
 
 **The frame spans the glued lattice.** Let \(E\) be a [[?c:CM field|CM field]], \(V\) a
 [[?lean:New.Space|hermitian space with a point]] over \(E\), and \(Y\) a
@@ -55,8 +55,7 @@ that is, the columns of \(x_f\) and of \(\mathcal{B}(a,\pi,u)\) span the same
 
 The [[?lean:New.gradedGram|graded Gram matrix]] is the form with \(\langle x,x\rangle=1\) on all of
 \(X\), the string paired antidiagonally with \(-N\) in the middle, and \(X\perp\) string. For odd
-\(s\) the lattice spanned by the standard basis is not [[?c:Self-dual lattice|self-dual]] (the middle vector has norm
-\(-N\)); gluing \(y\) to \(z_c\) repairs this when \(N=\pi\bar\pi\); see
+\(s\) the lattice spanned by the standard basis fails to be [[?c:Self-dual lattice|self-dual]] exactly at the places where \(N\) is not a unit (the middle vector has norm \(-N\); all other blocks are unimodular; for \(N\) a unit, e.g. \(N=1\), it is already unimodular) — in the application, at the places above the level prime \(N\). Gluing \(y\) to \(z_c\) repairs this when \(N=\pi\bar\pi\); see
 [[proofs/grh/upper-seesaw/graded-lattice-basis-unimodular|unimodularity of the glued lattice]].
 
 ## References

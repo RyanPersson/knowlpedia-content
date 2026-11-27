@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-seesaw/point-data-admissible"
 title = "Translated point data are admissible combinations of translates of the vacuum"
 kind = "lemma"
-summary = "The point data of the chain, moved by finite points integral away from the conductor norm q, and their joins, are admissible combinations of translates of the vacuum with denominators bounded by powers of the norm of pi_M."
+summary = "The point data of the chain, moved by finite points integral away from the norm q of the chosen modulus, and their joins, are admissible combinations of translates of the vacuum with denominators bounded by powers of the norm of pi_M."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
@@ -12,8 +12,7 @@ lean_files = ["src/New/UpperBound/Seesaw/GoodDatum.lean"]
 proof_status = "full"
 +++
 
-Let \(D\) be the [[?lean:New.Data|data]], \(\vartheta\) a tame character with ramification set
-\(Q\), and \(q=\mathrm{N}Q\) the product of the norms of the places of \(Q\)
+Let \(D\) be the [[?lean:New.Data|data]], \(\vartheta\) a tame character with chosen modulus \(Q\) (a finite set of places outside which its tame part is trivial; the tame part may also be trivial at places of \(Q\), and \(Q\) is the exact support only for a [[?lean:New.Data.Twist|twist]]), and \(q=\mathrm{N}Q\) the product of the norms of the places of \(Q\)
 ([[?lean:New.Data.TameChar.normQ|Lean: the norm of \(Q\)]]). Let \(\beta=\pi_M\) and
 \(\mathrm{N}\beta=\mathrm{N}((\pi_M))\). Let \(\Phi_k\) be the
 [[?lean:New.Data.pointDatumY|point datum]] on \(H_k=\operatorname{Hom}(Y_k,Y_{k+1})\): the indicator

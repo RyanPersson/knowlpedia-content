@@ -60,8 +60,7 @@ into the hyperbolic planes. The **finite evaluation** is the linear map
 \operatorname{ev}\colon\mathcal{S}\bigl(\operatorname{Hom}(V',V^-\oplus V'')\bigr)\to
 \mathcal{S}_f\bigl(\operatorname{Hom}(X,X')\bigr)\otimes\mathcal{S}_f\bigl(\operatorname{Hom}(X',X'')\bigr)
 \]
-that translates by the finite part of the stacked string map
-(\(\varrho_f\) of [[proofs/grh/upper-seesaw/double-lift-data|its coordinates]]), applies the
+that applies the translation \(\varrho_f(\tau)\), \(\tau=\alpha^{-1}\bigl(S^{\flat}\bigr)_f\), where \(S=(T^{*},T')\) is the stacked string map, \(S^{\flat}\) its adelic coordinate vector in the frame of \(\operatorname{Hom}(V',V^{-}\oplus V'')\) (the points of the spaces, not the rational bases), \((\cdot)_f\) the finite part and \(\alpha\) the finite idele of the Weil data (so \(\tau\) is not simply the finite part of the matrix of \(S\)); then applies the
 [[proofs/grh/upper-seesaw/finite-zero-term|finite zero term]] of this splitting, and splits the
 result by a left inverse of the [[?lean:New.Seesaw.arrowTensor|join of finite data]]
 \(\mathcal{S}_f\otimes\mathcal{S}_f\to\mathcal{S}(\operatorname{Hom}(X',X^-\oplus X''))\). On joined

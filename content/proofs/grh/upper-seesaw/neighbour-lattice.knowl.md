@@ -48,7 +48,7 @@ of \(P\cup\bar P\); the **away quotient** is \(\mathcal{N}^{\mathrm{aw}}\) modul
 elements, a finite group.
 
 **Neighbour translations.** For residues \(y\colon X'\to(\mathbb{Z}/N)^{P}\), let
-\(y/N\in\mathbb{A}_{E,f}^{X'}\) be the adele vector with component \(y_w/N\) at \(w\in P\) and \(0\)
+\(y/N\in\mathbb{A}_{E,f}^{X'}\) be the adele vector with component \(\tilde y_w/N\) at \(w\in P\), where \(\tilde y_w\in\{0,\dots,N-1\}\) is the integer representative of \(y_w\), and \(0\)
 elsewhere. The **neighbour translation** \(n(y)\) is the \(I\times X'\)-matrix with row
 \(\eta\,\overline{y/N}\) at \(e\), row \(-\overline{y/N}\) at \(e''\), and zero rows elsewhere; it is
 supported at \(\bar P\). For a class \(q\) of the away quotient with chosen representative
@@ -76,8 +76,9 @@ support of \(A\); \(\gamma_{i,m}=\delta_{i,m}\) for \(i\ne e,e''\) since \(\rho_
 
 ## Remarks
 
-The neighbour lattice is the [[proofs/grh/upper-seesaw/zero-term-lattice|zero term lattice]] of the
-splitting of a pair of edges; see
+For a pair of edges at a split level whose middle grading spans the prescribed glued lattice and which lifts neighbour vectors, the neighbour lattice is the [[proofs/grh/upper-seesaw/zero-term-lattice|zero term lattice]] of the
+splitting of the pair: this is part 1 of
+[[proofs/grh/upper-seesaw/admissible-evaluation-of-edge-pairs|the admissible evaluation of edge pairs]], where the hypotheses are stated; see also
 [[proofs/grh/upper-seesaw/neighbour-vacuum|the vacuum of the neighbour lattice]].
 
 ## References

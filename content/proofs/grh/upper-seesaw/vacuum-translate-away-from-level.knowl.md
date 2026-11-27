@@ -8,7 +8,7 @@ domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
 lean = ["New.Seesaw.exists_finHeisenbergOp_vacElem_eq_of_coprime", "New.Seesaw.v_selfOrConj_eq_one", "New.Seesaw.exists_finHeisenbergOp_add_vacElem"]
-lean_files = ["src/New/UpperBound/Seesaw/NeighbourVacuum.lean"]
+lean_files = ["src/New/UpperBound/Seesaw/NeighbourVacuum.lean", "src/New/UpperBound/Seesaw/EdgePairEvaluation.lean"]
 proof_status = "full"
 +++
 

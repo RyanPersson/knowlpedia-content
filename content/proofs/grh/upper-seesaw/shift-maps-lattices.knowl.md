@@ -51,9 +51,9 @@ acting on \(\operatorname{Hom}(V,V')\). The vector \(\omega(1,g)f\) is fixed by 
 \(b\,g\widehat{\mathcal{O}}\). By property 5 of the finite zero term (with
 \(M=bg\), \(M'=\bar b^{-1}g\), \(MM'^{*}=1\)), there is an integral \(l\) with
 \(z-\bar b^{-1}gl\) orthogonal to the isotropic frame. Read \(l\) as an \(\iota'\times\iota\) matrix \([l]\) and put
-\(W=(x'_f\,p')\,[l]\,(x_f\,p)^{-1}\), where \(x_f,x'_f\) are the finite frames of \(V,V'\) and
-\(p,p'\) the finite parts of the points \(x,x'\). Then \(W\) maps
-\(\Lambda_{p}=x_fp\,\widehat{\mathcal{O}}^{\iota}\) into \(\Lambda'_{p'}\), because \([l]\) is
+\(W=(B'p')\,[l]\,(Bp)^{-1}\), where \(B,B'\) are the fixed finite frames of \(V,V'\) (they need not be unitary) and
+\(p=x_f\), \(p'=x'_f\) the finite parts of the variable points. Then \(W\) maps
+\(\Lambda_{p}=Bp\,\widehat{\mathcal{O}}^{\iota}\) into \(\Lambda'_{p'}\), because \([l]\) is
 integral. In rational coordinates the vector \(z-\bar b^{-1}gl\) is the matrix
 \(\alpha^{-1}\operatorname{sh}_f-\bar b^{-1}W\) (the finite coordinates of a map \(M\) are
 \(\alpha^{-1}\) times its matrix in the frames, and \(g\) acts by \(m\mapsto p'mp^{-1}\)).

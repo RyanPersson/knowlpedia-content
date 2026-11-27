@@ -39,7 +39,7 @@ adelic points modulo rational points.
 
 **Complement (double theta integrals are composite lifts).** Let families \(k_o,k'_o\) compute the
 [[?lean:New.Space.IsThetaLift|theta lifts]] of algebraic forms \(X\to X'\) and \(X'\to X''\) for the
-characters \(a_o,b_o\), and let \(L_o(\Phi\otimes\Phi')=k'_o(\Phi')\circ k_o(\Phi)\). For every Fock
+rank twists of the characters \(a_o,b_o\) (the lift between spaces uses \(a_o\upsilon^{\lfloor r/2\rfloor}\), resp. \(b_o\upsilon^{\lfloor r/2\rfloor}\), at a space of rank \(r\), \(\upsilon\) the fixed character of the Weil data), and let \(L_o(\Phi\otimes\Phi')=k'_o(\Phi')\circ k_o(\Phi)\). For every Fock
 vector \(u\) of \(\operatorname{Hom}(X',X^-\oplus X'')\) and every linear form \(t\) on the values of
 forms on \(U(X)\) there is a linear form \(t''\) such that, for all \(o\), finite data \(y\), forms
 \(\varphi\) and \(g\in U(X'')(\mathbb{A})\),
@@ -47,7 +47,7 @@ forms on \(U(X)\) there is a linear form \(t''\) such that, for all \(o\), finit
 \int_{[U(X)]}t(\varphi(x))\int_{[U(X')]}\theta\bigl(W_{a_o,b_o}(x,r,g)\,(u\otimes y^{\ast})\bigr)\,dr\,dx
 =t''\bigl(L_o(y)\varphi\,(g)\bigr),
 \]
-where \(y^{\ast}\) is the join of \(y\).
+where \(y^{\ast}\) is the join of \(y\), and for an adelic point \(x=(x_\infty,x_f)\) the symbol \(t(\varphi(x))\) denotes the adelic coefficient \(t\bigl(\rho(x_\infty)^{-1}\varphi(x_f)\bigr)\) of the algebraic form \(\varphi\) (a vector-valued function on finite points; \(\rho\) the conjugate Weyl representation at infinity); likewise \(t''(\cdot(g))\) on the right.
 
 ## Proof
 
@@ -79,8 +79,7 @@ moves the group action out as the triple Weil operator at \((g,r,\epsilon(k))\).
 *Complement.* The families given by a linear form \(t''\) form a finite-dimensional, hence closed,
 space, and the left side is continuous in \(u\); so it suffices to treat Fock polynomials, which are
 sums of products \(PQ\) of a polynomial on \(\operatorname{Hom}(X,X')\) and one on
-\(\operatorname{Hom}(X',X'')\). For such a product the datum is the join of two [[?c:Tensor product of vector spaces|pure tensors]], the
-theta kernel factors, and the double integral is an iterated [[?c:Theta lift|theta lift]]. \(\blacksquare\)
+\(\operatorname{Hom}(X',X'')\). For a product \(PQ\) and a pure finite tensor \(y=\Phi\otimes\Phi'\), the datum \(PQ\otimes y^{\ast}\) is the join of the two pure tensors \(P\otimes\Phi\) and \(Q\otimes\Phi'\); the theta functional of a join is \(z_0\) times the product of the theta functionals, the triple Weil operator is the join of the two pair actions, and the double integral becomes the iterated [[?c:Theta lift|theta lift]] \(k'_o(\Phi')\circ k_o(\Phi)\) with \(Q\) replaced by \(z_0Q\). Both sides are additive in \(y\), so the identity extends from pure tensors to all finite tensors. \(\blacksquare\)
 
 ## References
 
