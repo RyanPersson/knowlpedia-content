@@ -1,6 +1,6 @@
 # First review of the GRH proof translation
 
-The subsequent audit covers all 644 pages through content commit `b92603a3`, including the repaired spanning files. [Full audit and findings](riemann2-audit/README.md)
+The subsequent audit covers all 644 pages through content commit `b92603a3`, including the repaired spanning files. A further review covers the 95 pages added or revised through `b4aa180e`. [Full audit](riemann2-audit/README.md) · [Incremental review and findings](riemann2-audit/updates/b4aa180e/README.md)
 
 The translation and the authors’ reports were reviewed at content commit `1e9a4864` and Knowlpedia commit `562a1cc`, against `grh-lean` commit `72fead10`. The inventory covers all seven finished chapters. The mathematical review samples statements and proof steps, with particular attention to questions raised by their authors.
 
