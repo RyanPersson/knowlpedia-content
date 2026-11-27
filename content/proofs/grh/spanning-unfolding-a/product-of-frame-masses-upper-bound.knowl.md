@@ -12,7 +12,7 @@ lean_files = ["src/New/Spanning/Unfolding/FrameMass.lean"]
 proof_status = "full"
 +++
 
-**Theorem.** Let \(D\) be [[?lean:New.Data|admissible data]] with field \(E\) having \(f\) infinite places, level prime \(N\), scale \(b\) and ranks \(k\le r\). Let \(\operatorname{fr}_v\) be the [[proofs/grh/spanning-unfolding-a/frame-mass|frame mass]] at the infinite place \(v\) and \(\operatorname{mass}_l\) the [[?lean:New.mass|mass]] of the genus of \(\mathcal{O}_E^l\). Then
+**Theorem.** Let \(D\) be [[?lean:New.Data|admissible data]] with field \(E\) having \(f\) [[?c:Infinite place of a number field|infinite places]], level prime \(N\), scale \(b\) and ranks \(k\le r\). Let \(\operatorname{fr}_v\) be the [[proofs/grh/spanning-unfolding-a/frame-mass|frame mass]] at the infinite place \(v\) and \(\operatorname{mass}_l\) the [[?lean:New.mass|mass]] of the genus of \(\mathcal{O}_E^l\). Then
 \[
 \Bigl(\prod_{v}\operatorname{fr}_v\Bigr)\cdot\operatorname{mass}_r\cdot\Bigl(\frac{N^k}{N^k-1}\Bigr)^{2f}\;\le\;\bigl(1+b^{-9}\bigr)\,N^{kf}\,\operatorname{mass}_k .
 \]

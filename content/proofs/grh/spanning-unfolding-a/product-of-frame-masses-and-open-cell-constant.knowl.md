@@ -12,7 +12,7 @@ lean_files = ["src/New/Spanning/Unfolding/FrameMass.lean"]
 proof_status = "full"
 +++
 
-**Theorem.** Let \(D\) be [[?lean:New.Data|admissible data]] with field \(E\) (with \(f\) infinite places and [[algebra-fields-galois/number-field-discriminant|discriminant]] \(\operatorname{disc}E\)), level prime \(N\), ranks \(k\le r=k+2\varrho+1\). Let
+**Theorem.** Let \(D\) be [[?lean:New.Data|admissible data]] with field \(E\) (with \(f\) [[?c:Infinite place of a number field|infinite places]] and [[algebra-fields-galois/number-field-discriminant|discriminant]] \(\operatorname{disc}E\)), level prime \(N\), ranks \(k\le r=k+2\varrho+1\). Let
 
 - \(\operatorname{fr}_v\) be the [[proofs/grh/spanning-unfolding-a/frame-mass|frame mass]] at the infinite place \(v\);
 - \(c_G=\dfrac{\operatorname{vol}U(k)}{\operatorname{vol}U(r)}\cdot\dfrac{2\pi^k}{(k-1)!}\) be the [[?lean:New.Shape.openCellConst|open cell constant]], where \(\operatorname{vol}U(j)=\prod_{i=1}^{j}2\pi^{i}/(i-1)!\) is the [[?lean:New.volU|volume of the compact unitary group]] \(U(j)\);
