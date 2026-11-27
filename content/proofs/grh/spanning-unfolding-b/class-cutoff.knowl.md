@@ -28,7 +28,7 @@ where \(\mathrm{GS}(y_v)\) is the [[?lean:New.gramSchmidtMatrix|Gram–Schmidt m
 
 ## Remarks
 
-The function \(\beta^0_c\) is a choice; only the two stated properties (measurability and the sum over \(\mathsf{U}^0_c(M)\)) are used. That \(\beta_c\) is a cutoff for the whole group \(\mathsf{U}_c(M)\), so that integrals over \(\mathsf{U}_c(M)\backslash G_\infty\) can be written with \(\beta_c\), is proved in [[?lean:New.Filling.isCutoff_classCutoff|the cutoff property of the class cutoff]]; it uses that a residue domain exists.
+The function \(\beta^0_c\) is a choice; only the two stated properties (measurability and the sum over \(\mathsf{U}^0_c(M)\)) are used. That \(\beta_c\) is a cutoff for the whole group \(\mathsf{U}_c(M)\), so that integrals over \(\mathsf{U}_c(M)\backslash G_\infty\) can be written with \(\beta_c\), is proved in [[?lean:New.Filling.tsum_classCutoff_eq_one|the summation property of the class cutoff]]; it uses that a residue domain exists.
 
 ## References
 

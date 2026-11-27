@@ -11,15 +11,15 @@ lean = ["New.Filling", "New.Filling.M", "New.Filling.ratMiddle", "New.Filling.la
 lean_files = ["src/New/Spanning/Unfolding/Setup.lean"]
 +++
 
-Let \(E\) be a [[?c:CM field|CM field]] with a fixed [[?c:CM type|CM type]], that is, one complex embedding \(\Phi_v\colon E\to\mathbb{C}\) for each [[?c:infinite place of a number field|infinite place]] \(v\) of \(E\); write \(x\mapsto\bar x\) for complex conjugation on \(E\), \(f\) for the number of infinite places, \(\mathbb{A}_f\) for the [[?c:finite adele ring|finite adeles]] of \(E\) and \(\widehat{\mathcal{O}}\subset\mathbb{A}_f\) for the integral finite adeles. Let \(\mathfrak{s}=(\varrho,\kappa,k_0)\) be a [[?lean:New.Shape|shape]]: a number \(\varrho\ge 0\), a finite set \(\kappa\) and an element \(k_0\in\kappa\); put \(k=\lvert\kappa\rvert\), \(n=\varrho+1\) and \(r=2\varrho+k+1\).
+Let \(E\) be a [[?c:CM field|CM field]] with a fixed [[?c:CM type|CM type]], that is, one complex embedding \(\Phi_v\colon E\to\mathbb{C}\) for each [[?c:Infinite place of a number field|infinite place]] \(v\) of \(E\); write \(x\mapsto\bar x\) for complex conjugation on \(E\), \(f\) for the number of infinite places, \(\mathbb{A}_f\) for the [[?c:Finite adele ring|finite adeles]] of \(E\) and \(\widehat{\mathcal{O}}\subset\mathbb{A}_f\) for the integral finite adeles. Let \(\mathfrak{s}=(\varrho,\kappa,k_0)\) be a [[?lean:New.Shape|shape]]: a number \(\varrho\ge 0\), a finite set \(\kappa\) and an element \(k_0\in\kappa\); put \(k=\lvert\kappa\rvert\), \(n=\varrho+1\) and \(r=2\varrho+k+1\).
 
 A **filling datum** \(S\) over \(E\) of shape \(\mathfrak{s}\) consists of
 
 * a natural number \(N\) and a finite idele \(\pi\in\mathbb{A}_f^\times\);
-* two natural numbers \(p_0,p_1\), with product \(M=p_0p_1\), and for \(i=0,1\) a finite set \(C_i\) of [[?c:finite place of a number field|finite places]] of \(E\) (the *chosen places*);
+* two natural numbers \(p_0,p_1\), with product \(M=p_0p_1\), and for \(i=0,1\) a finite set \(C_i\) of [[?c:Finite place of a number field|finite places]] of \(E\) (the *chosen places*);
 * an element \(\varpi\) of the [[algebra-fields-galois/ring-of-integers|ring of integers]] \(\mathcal{O}_E\);
 * a real number \(b\);
-* a subgroup \(L\) (the *source level*) of the group \(U(X_0)(\mathbb{A}_f)\) of finite adelic points of the [[?c:unitary group of a hermitian form|unitary group]] of the standard hermitian form \(\sum_{i\in\kappa}\bar x_i y_i\) on \(X_0=E^\kappa\);
+* a subgroup \(L\) (the *source level*) of the group \(U(X_0)(\mathbb{A}_f)\) of finite adelic points of the [[?c:Unitary group of a hermitian form|unitary group]] of the standard hermitian form \(\sum_{i\in\kappa}\bar x_i y_i\) on \(X_0=E^\kappa\);
 * for each infinite place \(v\) a [[?lean:New.BesselSystem|Bessel system]] \(\mathcal{B}_v\) of shape \(\mathfrak{s}\) with parameters \(b\) and \(f\), with finite index set \(I_v\);
 
 subject to the following conditions.
@@ -30,10 +30,10 @@ subject to the following conditions.
 2. \(p_0,p_1\) are primes different from \(N\), and \(b^{10}\le p_i\le b^{11}\).
 3. Every place in \(C_i\) has residue cardinality \(p_i\); \(C_0\cap C_1=\varnothing\); if \(w\in C_i\) then \(\bar w\notin C_j\) for all \(i,j\); and \(\lvert C_i\rvert=f\).
 4. For \(x\in\widehat{\mathcal{O}}\): \(M\mid x\) if and only if \(x\) and \(\bar x\) vanish modulo every chosen place.
-5. \(\bar\varpi=-\varpi\), and \(\varpi\) generates the [[?c:different ideal|different]] of \(E/\mathbb{Q}\). (In particular \(\varpi\ne0\).)
+5. \(\bar\varpi=-\varpi\), and \(\varpi\) generates the [[?c:Different ideal|different]] of \(E/\mathbb{Q}\). (In particular \(\varpi\ne0\).)
 6. \(L\) satisfies the conditions of a [[?lean:New.IsLevel|level]], and it is *free*: for every \(g\in U(X_0)(\mathbb{A}_f)\) the group \(U(X_0)(E^+)\cap gLg^{-1}\) of rational points in the conjugate is trivial ([[?lean:New.classAut|automorphism group of a class]]).
 
-**Size conditions.** With \(\mathrm{rd}_E\) the [[?c:root discriminant|root discriminant]] of \(E\):
+**Size conditions.** With \(\mathrm{rd}_E\) the [[?c:Root discriminant|root discriminant]] of \(E\):
 
 \[
 \begin{gathered}
@@ -53,7 +53,7 @@ b^{19}\le M\le b^{23},\qquad 5\le N,\\
 
 ## Remarks
 
-Several size conditions are redundant with one another (for instance \(1\le b\) is also a field of the Lean structure); they are stored separately because the proofs quote them separately. The conditions on \(\varrho\), \(k\), \(f\) and \(b\) are those that the data of the main argument satisfy; see [[proofs/grh/spanning-unfolding-b/filling-of-admissible-data|the filling datum of admissible data]].
+Several size conditions are redundant with one another (for instance \(1\le b\) is also a field of the Lean structure); they are stored separately because the proofs quote them separately. The conditions on \(\varrho\), \(k\), \(f\) and \(b\) are those that the data of the main argument satisfy; see [[?lean:New.Data.filling|the filling datum of admissible data]].
 
 ## References
 

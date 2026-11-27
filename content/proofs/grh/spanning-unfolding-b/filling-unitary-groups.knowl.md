@@ -7,7 +7,7 @@ aliases = ["ratToInf", "ratToFin", "lattice basis of the filling datum"]
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.Filling.G", "New.Filling.GFin", "New.Filling.latticeBasis", "New.Filling.toLatticeBasis", "New.Filling.ratToAdelic", "New.Filling.adelicToInf", "New.Filling.adelicToFin", "New.Filling.ratToInf", "New.Filling.ratToFin", "New.Filling.inclHFin", "New.Filling.basisScale", "New.Filling.basisScaleGL", "New.Filling.realM", "New.Filling.coe_realM", "New.Filling.conjTranspose_basisScaleGL_mul_splitGram_mul", "New.Filling.ratToInf_apply", "New.Filling.adelicToInf_apply", "New.Filling.coe_ratToFin", "New.Filling.map_splitGram_ratMiddle"]
+lean = ["New.Filling.G", "New.Filling.GFin", "New.Filling.latticeBasis", "New.Filling.toLatticeBasis", "New.Filling.ratToAdelic", "New.Filling.adelicToInf", "New.Filling.adelicToFin", "New.Filling.ratToInf", "New.Filling.ratToFin", "New.Filling.inclHFin", "New.Filling.basisScale", "New.Filling.basisScaleGL", "New.Filling.basisScale_ne_zero", "New.Filling.realM", "New.Filling.coe_realM", "New.Filling.conjTranspose_basisScaleGL_mul_splitGram_mul", "New.Filling.ratToInf_apply", "New.Filling.adelicToInf_apply", "New.Filling.coe_ratToFin", "New.Filling.map_splitGram_ratMiddle"]
 lean_files = ["src/New/Spanning/Unfolding/Setup.lean"]
 +++
 
@@ -17,7 +17,7 @@ e_0,\dots,e_{\varrho-1};\quad x_i\ (i\in\kappa),\ z;\quad e_0^*,\dots,e_{\varrho
 \]
 and let \(J\) be the [[?lean:New.Shape.Form.splitGram|split Gram matrix]] with \(h(e_a,e_a^*)=h(e_a^*,e_a)=1\), \(h(x_i,x_i)=1\), \(h(z,z)=-N\) and all other products of basis vectors zero. The *frame* is \((f_0,\dots,f_\varrho)=(e_0,\dots,e_{\varrho-1},z)\).
 
-**The groups.** For a commutative ring \(R\) with involution, \(G(R)\) is the [[?c:unitary group of a hermitian form|unitary group]] of \(J\) over \(R\): the invertible matrices \(g\) over \(R\) with \(g^{*}Jg=J\), where \(g^*\) is the conjugate transpose. The group \(G_{\mathrm{fin}}\) is the unitary group over the finite adeles \(\mathbb{A}_f\) of the Gram matrix \(J^{\mathrm{lat}}\) of the same form in the *lattice basis*, obtained from the standard basis by replacing \(x_{k_0}\) with \(x_{k_0}/\bar\pi+z/N\). If \(B\) denotes the matrix whose columns are the lattice basis ([[?lean:New.besselLatticeBasis|lattice basis matrix]]; \(B^{*}JB=J^{\mathrm{lat}}\) by [[?lean:New.gram_besselLatticeBasis|its Gram matrix]]), then \(g\mapsto B^{-1}gB\) is an isomorphism \(G(\mathbb{A}_f)\to G_{\mathrm{fin}}\).
+**The groups.** For a commutative ring \(R\) with involution, \(G(R)\) is the [[?c:Unitary group of a hermitian form|unitary group]] of \(J\) over \(R\): the invertible matrices \(g\) over \(R\) with \(g^{*}Jg=J\), where \(g^*\) is the conjugate transpose. The group \(G_{\mathrm{fin}}\) is the unitary group over the finite adeles \(\mathbb{A}_f\) of the Gram matrix \(J^{\mathrm{lat}}\) of the same form in the *lattice basis*, obtained from the standard basis by replacing \(x_{k_0}\) with \(x_{k_0}/\bar\pi+z/N\). If \(B\) denotes the matrix whose columns are the lattice basis ([[?lean:New.besselLatticeBasis|lattice basis matrix]]; \(B^{*}JB=J^{\mathrm{lat}}\) by [[?lean:New.gram_besselLatticeBasis|its Gram matrix]]), then \(g\mapsto B^{-1}gB\) is an isomorphism \(G(\mathbb{A}_f)\to G_{\mathrm{fin}}\).
 
 **Scales.** For an infinite place \(v\) put
 \[

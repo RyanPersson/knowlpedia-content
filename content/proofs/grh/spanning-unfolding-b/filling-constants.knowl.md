@@ -32,7 +32,7 @@ The numbers \(\lambda_{v,a}\), \(\Lambda\), \(\operatorname{cov}_{\mathsf U}\) a
 
 ## Remarks
 
-The exponent in \(\operatorname{cov}_{\mathsf U}\) arises as \(d=\sum_{a<\varrho}(2a+k+1)=\varrho(\varrho+k)\), with \(2d+\varrho=\varrho(2\varrho+2k+1)\). The name of \(\operatorname{cov}_{\mathsf U}\) records its role: for every class \(c\) it is the covolume of \(\mathsf{U}_c(M)\) in the real unipotent group ([[?lean:New.Filling.covolume_classUnipotent|covolume of the class unipotent group]]); the definition itself is just the displayed number. Positivity: \(\kappa_v\ne0\) and the exponent \(2(\varrho-a)\) is even, \(N>0\), \(M>0\), \(D_E\neq0\), and each Bessel system has positive degree.
+The exponent in \(\operatorname{cov}_{\mathsf U}\) arises as \(d=\sum_{a<\varrho}(2a+k+1)=\varrho(\varrho+k)\), with \(2d+\varrho=\varrho(2\varrho+2k+1)\). The name of \(\operatorname{cov}_{\mathsf U}\) records its role: for every class \(c\) it is the covolume of \(\mathsf{U}_c(M)\) in the real unipotent group ([[?lean:New.Filling.lintegral_classCutoff_eq_unipotentCovolume|covolume of the class unipotent group]]); the definition itself is just the displayed number. Positivity: \(\kappa_v\ne0\) and the exponent \(2(\varrho-a)\) is even, \(N>0\), \(M>0\), \(D_E\neq0\), and each Bessel system has positive degree.
 
 With \(\lvert D_E\rvert=\mathrm{rd}_E^{2f}\) and \(\operatorname{vol}(\widehat{\mathcal{O}})=(2/\mathrm{rd}_E)^f\) for the totally complex field \(E\), one has \(c_S=\bigl((2\pi)^k\,\mathrm{rd}_E^{1/2-k}/((k-1)!\,N^k)\bigr)^f\).
 

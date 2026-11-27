@@ -13,7 +13,7 @@ lean_files = ["src/New/Spanning/Unfolding/Setup.lean"]
 
 Let \(S\) be a [[proofs/grh/spanning-unfolding-b/filling-data|filling datum]] with source level \(L\), and use the [[proofs/grh/spanning-unfolding-b/filling-unitary-groups|groups and maps]] \(G(E)\), \(G_{\mathrm{fin}}\), \(\gamma\mapsto\gamma_{\mathrm{fin}}\), \(\iota_H\) and the [[proofs/grh/spanning-unfolding-b/filling-level-and-reduction|subgroups \(K\), \(K(M)\) and the reduction]] \(K\to\bar G\).
 
-* A **class** is a [[?c:double coset|double coset]] in \(U(X_0)(E^+)\backslash U(X_0)(\mathbb{A}_f)/L\), where \(U(X_0)(E^+)\) is the group of rational points of the unitary group of \(X_0\). The set \(\mathcal{C}\) of classes is finite and nonempty. For each class \(c\) fix a representative \(g_c\) and put \(h_c=\iota_H(g_c)\in G_{\mathrm{fin}}\).
+* A **class** is a [[?c:Double coset|double coset]] in \(U(X_0)(E^+)\backslash U(X_0)(\mathbb{A}_f)/L\), where \(U(X_0)(E^+)\) is the group of rational points of the unitary group of \(X_0\). The set \(\mathcal{C}\) of classes is finite and nonempty. For each class \(c\) fix a representative \(g_c\) and put \(h_c=\iota_H(g_c)\in G_{\mathrm{fin}}\).
 * For classes \(c,c'\) and \(s\in\bar G\), the set of **terms over the block \((c,s,c')\)** is
 \[
 \mathcal{T}(c,s,c')=\bigl\{\gamma\in G(E)\ :\ h_c^{-1}\gamma_{\mathrm{fin}}h_{c'}\in K\ \text{and}\ \overline{h_c^{-1}\gamma_{\mathrm{fin}}h_{c'}}=s\bigr\}.

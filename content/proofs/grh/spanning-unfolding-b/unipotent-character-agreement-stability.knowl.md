@@ -13,7 +13,7 @@ lean_files = ["src/New/Spanning/Unfolding/Setup.lean"]
 
 Let \(S\) be a [[proofs/grh/spanning-unfolding-b/filling-data|filling datum]], with [[proofs/grh/spanning-unfolding-b/filling-unitary-groups|groups]] \(G(E)\), \(G_{\mathrm{fin}}\), [[proofs/grh/spanning-unfolding-b/filling-level-and-reduction|lattice stabiliser \(K\), residue group \(\bar G\) and reduction]] \(u\mapsto\bar u\), and let \(\mathsf{U}\) denote the [[?lean:New.Shape.Form.besselU|Bessel unipotent group]] in each of these groups. Let \(\psi_f\) be the [[?lean:New.ψf|standard additive character of the finite adeles]] of \(E\) (trivial on \(\widehat{\mathcal{O}}\), equal to \(e^{2\pi i\operatorname{Tr}_{E/\mathbb{Q}}a}\) on \(a\in E\)).
 
-* The **self-dual character** is \(\psi_S(x)=\psi_f(-x/\varpi)\), an [[?c:additive character|additive character]] of \(\mathbb{A}_f\) with values in \(\mathbb{C}\).
+* The **self-dual character** is \(\psi_S(x)=\psi_f(-x/\varpi)\), an [[?c:Additive character|additive character]] of \(\mathbb{A}_f\) with values in \(\mathbb{C}\).
 * For \(u\in G_{\mathrm{fin}}\), let \(\sigma(u)=\sum_{a=0}^{\varrho-1}u_{f_a,f_{a+1}}\) be the [[?lean:New.simpleRootSum|sum of the entries just above the diagonal]] of the frame block of \(u\). The **unipotent character** is
 \[
 \psi_{\mathsf U}(u)=\psi_S\bigl(\sigma(u)/M\bigr)=\psi_f\bigl(-\sigma(u)/(M\varpi)\bigr).
