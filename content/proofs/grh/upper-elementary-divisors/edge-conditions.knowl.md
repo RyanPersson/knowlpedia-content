@@ -12,13 +12,13 @@ lean_files = ["src/New/UpperBound/ElementaryDivisors/ElementaryDivisorTheorem.le
 proof_status = "full"
 +++
 
-Let \(O\) be a valuation ring and a domain with residue field \(\bar O\), \(T\) a [[proofs/grh/upper-elementary-divisors/frobenius-cycle|Frobenius cycle]] for \((N,W,O)\), \(N\ge1\), and \(r,c\in\mathbb{N}\), \(\theta\in\mathbb{R}\), \(b\in O^{\mathcal{E}}\) (\(\mathcal{E}=\mathcal{E}(N,k,n)\)). A triple \((C,S,\mathrm{Av})\) of an \(O\)-submodule \(C\subseteq O^{\mathcal{E}}\), an \(\bar O\)-subspace \(S\subseteq\bar O^{\mathcal{E}}\) and a matrix \(\mathrm{Av}\in M_{\mathcal{E}}(O)\) is an **edge condition** for \((r,c,\theta,b)\) if
+Let \(O\) be a valuation ring and a domain with residue field \(\bar O\), \(T\) a [[proofs/grh/upper-elementary-divisors/frobenius-cycle|Frobenius cycle]] for \((N,W,O)\), \(N\ge1\), and \(r,c\in\mathbb{N}\), \(\theta\in\mathbb{R}\), \(b\in O^{\mathcal{E}}\) (\(\mathcal{E}=\mathcal{E}(N,k,n)\)); put \(c_0=k^{2}fN\), where \(P=p^{f}\). A triple \((C,S,\mathrm{Av})\) of an \(O\)-submodule \(C\subseteq O^{\mathcal{E}}\), an \(\bar O\)-subspace \(S\subseteq\bar O^{\mathcal{E}}\) and a matrix \(\mathrm{Av}\in M_{\mathcal{E}}(O)\) is an **edge condition** for \((r,c,\theta,b)\) if
 
 1. \(\mathcal{A}(k,n,r)\subseteq C\) ([[proofs/grh/upper-elementary-divisors/edges-and-halfway-lattices|forms in all halfway lattices]]);
 2. \(w^{c}h\in C\) for all \(h\);
 3. \(\mathrm{Av}\,h\in C\) for all \(h\);
 4. \(\langle\mathrm{Av}\,h,h'\rangle_b\equiv p^{Nc_0}\langle h,h'\rangle_b\pmod{w^{c}}\) for all \(h\) and all \(h'\in\mathcal{A}(k,n,r)\);
-5. if \(w^{c-1}h\in C\), then the reduction of \(h\) lies in \(S\);
+5. if \(w^{\max(c-1,0)}h\in C\), then the reduction of \(h\) lies in \(S\);
 6. \([\mathrm{GL}_k(W):\mathrm{Par}_r(W)]\cdot\dim_{\bar O}S\le(1+\theta)\,\#\mathcal{E}\).
 
 **Theorem.** Assume moreover that \(O\) has characteristic \(0\), \(p\) is not a unit of \(O\), the degree is [[proofs/grh/upper-elementary-divisors/large-degree-conditions|large]] for \((k,n,r,\theta)\), and \((b,b')\) is an [[proofs/grh/upper-elementary-divisors/edge-pairing|edge pairing]]. Then an edge condition for \((r,c,\theta,b)\) exists with \(c=5Nc_0\) the congruence precision.

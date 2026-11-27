@@ -27,7 +27,7 @@ By [[proofs/grh/upper-elementary-divisors/bounded-defect-dimension-by-lattice-po
 \[
 [\mathrm{GL}_k(W):\mathrm{Par}_{a'}]\dim S\le\Bigl(\prod_{l<k}\tfrac{q^{l+1}-1}{q-1}\Bigr)\operatorname{vol}\bigl(\mathcal{K}(a,0)\cap\mathrm{Slab}_k(D)\bigr)=\operatorname{vol}\mathrm{Slab}_k(D).
 \]
-*Volume of the slab.* Write \(k=k'+1\). The set \(\{y\in\mathbb{R}_{\ge0}^{k'+1}:d-1\le\sum y\le d\}\), \(d\le B\), has volume at most \(B^{k'}/k'!\) (induction on \(k'\): slice along the first coordinate \(x\in[0,B]\) and integrate \((B-x)^{k'-1}/(k'-1)!\)). The slab is contained in a product of such sets over the letters, so with \(B=n+E\le e^{E/n}n\): \(\operatorname{vol}\mathrm{Slab}_k(D)\le e^{x}(n^{k'}/k'!)^{N}\), \(x=Nk'E/n\). The hypothesis gives \(2x\le2NkE/n\le\theta\le1\), so \(e^{x}\le1+2x\le1+\theta\) (\(0\le x\le1\)). Finally \(n^{k'}/k'!\le\binom{n+k'}{k'}\), the number of monomials of degree \(n\) in \(k\) variables, and \(\#\mathcal{E}(N,k,n)=\binom{n+k'}{k'}^{N}\). \(\square\)
+*Volume of the slab.* Write \(k=k'+1\). The set \(\{y\in\mathbb{R}_{\ge0}^{k'+1}:d-1\le\sum y\le d\}\), \(d\le B\), \(B\ge0\), has volume at most \(B^{k'}/k'!\) (induction on \(k'\): slice along the first coordinate \(x\in[0,B]\) and integrate \((B-x)^{k'-1}/(k'-1)!\)). The slab is contained in a product of such sets over the letters, so with \(B=n+E\le e^{E/n}n\): \(\operatorname{vol}\mathrm{Slab}_k(D)\le e^{x}(n^{k'}/k'!)^{N}\), \(x=Nk'E/n\). The hypothesis gives \(2x\le2NkE/n\le\theta\le1\), so \(e^{x}\le1+2x\le1+\theta\) (\(0\le x\le1\)). Finally \(n^{k'}/k'!\le\binom{n+k'}{k'}\), the number of monomials of degree \(n\) in \(k\) variables, and \(\#\mathcal{E}(N,k,n)=\binom{n+k'}{k'}^{N}\). \(\square\)
 
 ## References
 

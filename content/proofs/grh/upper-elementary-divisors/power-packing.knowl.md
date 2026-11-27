@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-elementary-divisors/power-packing"
 title = "Packing forms into powers of the variables"
 kind = "construction"
-summary = "A family of forms, one for each class of exponents modulo m, is packed into one polynomial by substituting m-th powers and multiplying by a monomial of the class; for m a power of q this commutes with the twisted action."
+summary = "A family of forms, one for each class of exponents modulo m, is packed into one polynomial by substituting m-th powers and multiplying by a monomial of the class; for m a power of q the substitution of m-th powers commutes with the twisted action, and a translate of the packed polynomial is the sum of the translated forms in m-th powers times the translated class monomials."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"

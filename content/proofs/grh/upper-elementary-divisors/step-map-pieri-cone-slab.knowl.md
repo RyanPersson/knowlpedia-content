@@ -25,7 +25,7 @@ P\,\nu(b+1,j+1)\le\nu(b,j)\ \text{ if }v_j=+,\qquad \nu(b+1,j)\le P\,\nu(b,j+1)\
 \]
 (In the formal source this is written as \((\mathrm{St}\,\nu)(b^{*},j)\le\nu(b,j)-\nu(b+1,j)\) with \(b^{*}=b+1\) for \(v_j=+\) and \(b^{*}=b\) for \(v_j=-\), which is the same.)
 - **Positive step sets.** For families \(\sigma,\tau\) of permutations and a set \(Y\): \(\mathrm{Pos}_D(\sigma,\tau,Y)\) is the set of \(\nu\) such that \(\sum_b(\mathrm{St}\,\nu)(b,j)\in[D_j-1,D_j]\) for all \(j\), and \(\mathrm{St}_\sigma(\nu^{\tau})\) has all entries \(>0\) and lies in \(Y\), where \(\nu^{\tau}(b,j)=\nu(\tau_j(b),j)\).
-- For \(q\in\mathbb{R}\) and a permutation \(\pi\) of \(\{0,\dots,k-1\}\): \(\Delta_q(\pi)=\det(1-q^{-1}\Pi_\pi)\), with \(\Pi_\pi\) the map \(x\mapsto x\circ\pi\) on \(\mathbb{R}^{k}\).
+- For real \(q\ne0\) and a permutation \(\pi\) of \(\{0,\dots,k-1\}\): \(\Delta_q(\pi)=\det(1-q^{-1}\Pi_\pi)\), with \(\Pi_\pi\) the map \(x\mapsto x\circ\pi\) on \(\mathbb{R}^{k}\).
 
 ## Remarks
 

@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-elementary-divisors/existence-of-average"
 title = "Existence of an average for a Levi subgroup"
 kind = "theorem"
-summary = "Over a valuation domain of characteristic 0 in which p is not a unit, there is a conjugation-invariant linear form that kills monomials of large row weight and equals p^(k^2 f) times evaluation at 1 on polynomials of degree below p^f without such monomials."
+summary = "Over a valuation domain of characteristic 0 in which p is not a unit, there is a conjugation-invariant linear form that kills monomials of large row weight and agrees modulo an ideal J with p^(k^2 f) times evaluation at 1 on every polynomial of degree at most D < p^f all of whose Levi conjugates have their bad coefficients in J."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"

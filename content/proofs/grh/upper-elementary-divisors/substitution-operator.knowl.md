@@ -29,7 +29,7 @@ where \((\cdot)^{(P^{d})}\) raises every entry to the power \(P^{d}\). For \(h=1
 
 ## Remarks
 
-The twists \(\iota_s(g)\) are not algebraic in \(g\), but modulo \(p\) they are entrywise powers of one another; so one takes one generic matrix per letter and lets the copy \(s-d\), \(0\le d\le\ell\), act on the letter \(s\) through its entrywise \(P^{d}\)-th power, the last factor (\(d=\ell\)) acting on the deep variables only. Matrices act on coefficient vectors, so they are the transposes of the matrices substituted in the variables.
+For a general cycle the twists \(\iota_s(g)\) need not be polynomial in \(g\); the relation that is guaranteed is that modulo \(p\) they are entrywise powers of one another. So one takes one generic matrix per letter and lets the copy \(s-d\), \(0\le d\le\ell\), act on the letter \(s\) through its entrywise \(P^{d}\)-th power, the last factor (\(d=\ell\)) acting on the deep variables only. Matrices act on coefficient vectors, so they are the transposes of the matrices substituted in the variables.
 
 ## References
 

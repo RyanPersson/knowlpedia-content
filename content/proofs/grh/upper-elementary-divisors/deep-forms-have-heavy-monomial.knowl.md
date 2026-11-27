@@ -14,8 +14,9 @@ proof_status = "full"
 
 **Theorem.** Let \(T\) be a [[proofs/grh/upper-elementary-divisors/frobenius-cycle|Frobenius cycle]] for \((N,W,K)\), \(N\ge1\), with \(K\) a field of characteristic \(p\), and let \(k,n,r,\tau\ge0\) with \(2r\le k\). Let \(F\ne0\) lie in the space \(\mathcal{D}_n(r,\tau)\) of [[proofs/grh/upper-elementary-divisors/translate-conditions|deep forms]]. Then there is an exponent \(\beta\in\mathcal{E}(N,k,n)\) with \(F_\beta\ne0\) and
 \[
-\tau\le\sum_{v\ \text{deep for }r}\frac{\beta(v)}{\kappa(v)},\qquad\kappa(x_{b,s})=\begin{cases}P^{2r}&b\ge2r\\ P&b<2r.\end{cases}
+\tau\le\sum_{v\ \text{deep for }r}\frac{\beta(v)}{\kappa(v)},\qquad\kappa(x_{b,s})=\begin{cases}P^{2r}&x_{b,s}\text{ deep},\ b\ge2r\\ P&x_{b,s}\text{ deep},\ b<2r\\ 1&x_{b,s}\text{ not deep.}\end{cases}
 \]
+Only deep variables enter the sum; the value \(\kappa=1\) on the other variables is used in the proof.
 
 ## Proof
 

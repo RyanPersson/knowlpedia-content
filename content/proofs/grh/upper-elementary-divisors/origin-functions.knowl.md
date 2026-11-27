@@ -18,7 +18,7 @@ Let \(T\) be a [[proofs/grh/upper-elementary-divisors/frobenius-cycle|Frobenius 
 (\mathrm{Res}\,\varphi)(e,\cdot)=\Delta_r\,\rho_n(g_e)\,\varphi(\operatorname{src}e,\cdot),
 \]
 with \(\Delta_r\) the [[proofs/grh/upper-elementary-divisors/edges-and-halfway-lattices|depth scaling]]: the vector of normalised coefficients of the translate by \(g_e\) of the value of \(\varphi\) at the origin of \(e\).
-- The module of **origin functions** is \(\mathcal{O}=\{\psi\in O^{E\times\mathcal{E}}:\ w^{m}\psi\in\operatorname{im}\mathrm{Res}\text{ for some }m\ge0\}\), an \(O\)-submodule: the functions on edges, with values in the halfway lattices, that depend only on the origin.
+- The module of **origin functions** is the \(w\)-power saturation of the image of \(\mathrm{Res}\): \(\mathcal{O}=\{\psi\in O^{E\times\mathcal{E}}:\ w^{m}\psi\in\operatorname{im}\mathrm{Res}\text{ for some }m\ge0\}\), an \(O\)-submodule. When \(w\) is not a zero divisor of \(O\) (the geometric case) these are the functions on edges, with values in the halfway lattices, that become restrictions of functions on origins after inverting \(w\), i.e. that depend only on the origin. For \(w=0\) the definition gives all of \(O^{E\times\mathcal{E}}\) and has no such interpretation.
 
 ## Remarks
 

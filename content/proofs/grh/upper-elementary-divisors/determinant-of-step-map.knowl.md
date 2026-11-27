@@ -16,7 +16,7 @@ proof_status = "full"
 
 1. \(\det\mathrm{St}_\sigma\ne0\) for every family \(\sigma\).
 2. There is \(c\in\mathbb{R}\), independent of \(\sigma\), with \(\det\mathrm{St}_\sigma=c\cdot\Delta_{P^{m+1}}(\sigma_0\sigma_1\cdots\sigma_m)\) for all \(\sigma\).
-3. For all \(D,\sigma,\tau\) and every set \(Y\): \(\operatorname{vol}\mathrm{Pos}_D(\sigma,\tau,Y)=\lvert\det\mathrm{St}_\sigma\rvert^{-1}\operatorname{vol}\bigl(Y\cap\mathrm{Slab}_k(D)\bigr)\) for [[measure-theory/lebesgue-measure|Lebesgue measure]].
+3. For all \(D,\sigma,\tau\) and every set \(Y\): \(\operatorname{vol}\mathrm{Pos}_D(\sigma,\tau,Y)=\lvert\det\mathrm{St}_\sigma\rvert^{-1}\operatorname{vol}\bigl(Y\cap\mathrm{Slab}_k(D)\bigr)\), where \(\operatorname{vol}\) is [[measure-theory/lebesgue-measure|Lebesgue measure]] for measurable sets and Lebesgue outer measure in general (all sets to which this is applied later are measurable).
 
 ## Proof
 

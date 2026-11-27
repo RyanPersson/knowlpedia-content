@@ -20,7 +20,7 @@ proof_status = "full"
 
 ## Proof
 
-(1) Put \(D_s=\nu(a,s)-\nu(a',s)\). In every letter \(s\),
+(1) If \(a=a'\), then \(X_s=Y_s=(a,s)\) and the two weights add up to \(0\) for \(s\ne i\) and to \(1\) for \(s=i\), so both sides equal \((\mathrm{St}\nu)(a,i)\). Let \(a\ne a'\). Put \(D_s=\nu(a,s)-\nu(a',s)\). In every letter \(s\),
 \[
 (\mathrm{St}\nu)(Y_s)-(\mathrm{St}\nu)(X_s)=D_s-P\,D_{s+1}:
 \]

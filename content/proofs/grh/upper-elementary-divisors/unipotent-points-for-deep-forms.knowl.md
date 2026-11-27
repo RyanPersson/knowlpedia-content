@@ -7,7 +7,7 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.FrobeniusCycle.entryRow", "New.FrobeniusCycle.entryCol", "New.FrobeniusCycle.entryCoeff", "New.FrobeniusCycle.entryFormValue", "New.FrobeniusCycle.deepOrder", "New.FrobeniusCycle.specializeShallow", "New.FrobeniusCycle.lowPowerForms", "New.FrobeniusCycle.prod_deepOrder_le", "New.FrobeniusCycle.sum_deepIndicator", "New.FrobeniusCycle.exists_specializeShallow_polyAction_X_eq_sub", "New.FrobeniusCycle.specializeShallow_injective"]
+lean = ["New.FrobeniusCycle.entryRow", "New.FrobeniusCycle.entryCol", "New.FrobeniusCycle.entryCoeff", "New.FrobeniusCycle.entryFormValue", "New.FrobeniusCycle.deepOrder", "New.FrobeniusCycle.specializeShallow", "New.FrobeniusCycle.prod_deepOrder_le", "New.FrobeniusCycle.sum_deepIndicator", "New.FrobeniusCycle.exists_specializeShallow_polyAction_X_eq_sub", "New.FrobeniusCycle.specializeShallow_injective"]
 lean_files = ["src/New/UpperBound/ElementaryDivisors/Depth.lean"]
 +++
 
@@ -33,4 +33,4 @@ For each index \(b\), the variable \(x_{b,s}\) is deep for exactly \(\lfloor N/2
 
 ## References
 
-1. Lean: `New.FrobeniusCycle.entryRow`, `New.FrobeniusCycle.entryCol`, `New.FrobeniusCycle.entryCoeff`, `New.FrobeniusCycle.entryFormValue`, `New.FrobeniusCycle.deepOrder`, `New.FrobeniusCycle.specializeShallow`, `New.FrobeniusCycle.lowPowerForms`, `New.FrobeniusCycle.prod_deepOrder_le`, `New.FrobeniusCycle.sum_deepIndicator`, `New.FrobeniusCycle.exists_specializeShallow_polyAction_X_eq_sub`, `New.FrobeniusCycle.specializeShallow_injective` in `src/New/UpperBound/ElementaryDivisors/Depth.lean`.
+1. Lean: `New.FrobeniusCycle.entryRow`, `New.FrobeniusCycle.entryCol`, `New.FrobeniusCycle.entryCoeff`, `New.FrobeniusCycle.entryFormValue`, `New.FrobeniusCycle.deepOrder`, `New.FrobeniusCycle.specializeShallow`, `New.FrobeniusCycle.prod_deepOrder_le`, `New.FrobeniusCycle.sum_deepIndicator`, `New.FrobeniusCycle.exists_specializeShallow_polyAction_X_eq_sub`, `New.FrobeniusCycle.specializeShallow_injective` in `src/New/UpperBound/ElementaryDivisors/Depth.lean`.

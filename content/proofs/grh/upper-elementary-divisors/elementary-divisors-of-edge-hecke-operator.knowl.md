@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-elementary-divisors/elementary-divisors-of-edge-hecke-operator"
 title = "Theorem on elementary divisors of the edge Hecke operator"
 kind = "theorem"
-summary = "Under large degree, an operator Y intertwined with the edge Hecke operator maps the image lattice L into itself, and the colength of Y L + p^m L in L divides p^l with l at most (3 c_div + theta m) |X| |I|."
+summary = "Under large degree, an operator Y intertwined with the edge Hecke operator maps the image submodule L into itself, and the colength of Y L + p^m L in L divides p^l with l at most (3 c_div + theta m) |X| |I|."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"

@@ -7,7 +7,7 @@ aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
 prerequisites = []
-lean = ["New.FrobeniusCycle.exists_eval_entryFormValue_eq_pow_deepOrder", "New.FrobeniusCycle.exists_eval_entryFormValue_eq_dotProduct", "New.FrobeniusCycle.mem_lowPowerForms", "New.FrobeniusCycle.single_mem_lowPowerForms_of_ne_zero", "New.FrobeniusCycle.single_zero_mem_lowPowerForms", "New.FrobeniusCycle.entryFormValue_pow", "New.FrobeniusCycle.entryFormValue_injective", "New.det_X_pow_ne_zero", "New.exists_eval_eq_dotProduct_of_mem_span", "New.FrobeniusCycle.exists_div_two_eq_and_isEven_sub", "New.FrobeniusCycle.residue_eq_of_embedding_eq"]
+lean = ["New.FrobeniusCycle.lowPowerForms", "New.FrobeniusCycle.exists_eval_entryFormValue_eq_pow_deepOrder", "New.FrobeniusCycle.exists_eval_entryFormValue_eq_dotProduct", "New.FrobeniusCycle.mem_lowPowerForms", "New.FrobeniusCycle.single_mem_lowPowerForms_of_ne_zero", "New.FrobeniusCycle.single_zero_mem_lowPowerForms", "New.FrobeniusCycle.entryFormValue_pow", "New.FrobeniusCycle.entryFormValue_injective", "New.det_X_pow_ne_zero", "New.exists_eval_eq_dotProduct_of_mem_span", "New.FrobeniusCycle.exists_div_two_eq_and_isEven_sub", "New.FrobeniusCycle.residue_eq_of_embedding_eq"]
 lean_files = ["src/New/UpperBound/ElementaryDivisors/Depth.lean"]
 proof_status = "full"
 +++
@@ -24,7 +24,7 @@ proof_status = "full"
 \[
 z_y(v)^{P^{j}}=\sum_tx(\epsilon(v,t))^{P^{j}}\,x(\iota_{s+j}(\tilde y_t)).\tag{*}
 \]
-*Spanning.* Fix \(i\). Let \(\Lambda_i\subseteq L^{\mathcal{P}}\) be the span of the vectors \(\lambda_{v,j}=\bigl(x(\epsilon(v,t))^{P^{j}}\bigr)_t\) over the pairs \((v,j)\), \(v=x_{b,s}\), with \(s+j=i\) and \(P^{j}<\kappa(v)\). We claim \(\Lambda_i=L^{\mathcal{P}}\).
+*Spanning.* Fix \(i\). Let \(\Lambda_i\subseteq L^{\mathcal{P}}\) (the space of **low power forms** at the letter \(i\)) be the span of the vectors \(\lambda_{v,j}=\bigl(x(\epsilon(v,t))^{P^{j}}\bigr)_t\) over the pairs \((v,j)\), \(v=x_{b,s}\), with \(s+j=i\) and \(P^{j}<\kappa(v)\). We claim \(\Lambda_i=L^{\mathcal{P}}\).
 
 (a) *Unit vector at \((b,l)\), \(l\ge1\).* Let \(c=k-l\ge2r\); the positions with column \(c\) are exactly \((b',l)\), \(b'<r\). Since parities alternate, for each \(u<r\) one of \(J\in\{2u,2u+1\}\) has \(i-J\) even; call it \(J_u\). The variable \(v_u=x_{c,\,i-J_u}\) is deep with \(\kappa(v_u)=P^{2r}>P^{J_u}\), so \(\lambda_{v_u,J_u}\in\Lambda_i\); its entry at \((b',l)\) is \(x\bigl(x_{b',\,i-J_u}^{P^{J_u}}\bigr)\) and its other entries vanish. The \(r\times r\) matrix \(M=(x_{b',\,i-J_u}^{P^{J_u}})_{u,b'}\) over \(K[x]\) has nonzero determinant: in the Leibniz expansion the permutation \(\pi\) contributes the monomial \(\prod_{b'}x_{b',\,i-J_{\pi(b')}}^{P^{J_{\pi(b')}}}\), and these monomials are pairwise distinct because the exponents \(P^{J_u}\) are positive and distinct (\(u=\lfloor J_u/2\rfloor\)); in particular the monomial of the identity has coefficient \(1\). As \(x\) is injective, \(x(M)\) is invertible over \(L\), and the unit vector at \((b,l)\) is a combination of its rows.
 
@@ -38,4 +38,4 @@ z_y(v)^{P^{j}}=\sum_tx(\epsilon(v,t))^{P^{j}}\,x(\iota_{s+j}(\tilde y_t)).\tag{*
 
 ## References
 
-1. Lean: `New.FrobeniusCycle.exists_eval_entryFormValue_eq_pow_deepOrder`, `New.FrobeniusCycle.exists_eval_entryFormValue_eq_dotProduct`, `New.FrobeniusCycle.mem_lowPowerForms`, `New.FrobeniusCycle.single_mem_lowPowerForms_of_ne_zero`, `New.FrobeniusCycle.single_zero_mem_lowPowerForms`, `New.FrobeniusCycle.entryFormValue_pow`, `New.FrobeniusCycle.entryFormValue_injective`, `New.det_X_pow_ne_zero`, `New.exists_eval_eq_dotProduct_of_mem_span`, `New.FrobeniusCycle.exists_div_two_eq_and_isEven_sub`, `New.FrobeniusCycle.residue_eq_of_embedding_eq` in `src/New/UpperBound/ElementaryDivisors/Depth.lean`.
+1. Lean: `New.FrobeniusCycle.lowPowerForms`, `New.FrobeniusCycle.exists_eval_entryFormValue_eq_pow_deepOrder`, `New.FrobeniusCycle.exists_eval_entryFormValue_eq_dotProduct`, `New.FrobeniusCycle.mem_lowPowerForms`, `New.FrobeniusCycle.single_mem_lowPowerForms_of_ne_zero`, `New.FrobeniusCycle.single_zero_mem_lowPowerForms`, `New.FrobeniusCycle.entryFormValue_pow`, `New.FrobeniusCycle.entryFormValue_injective`, `New.det_X_pow_ne_zero`, `New.exists_eval_eq_dotProduct_of_mem_span`, `New.FrobeniusCycle.exists_div_two_eq_and_isEven_sub`, `New.FrobeniusCycle.residue_eq_of_embedding_eq` in `src/New/UpperBound/ElementaryDivisors/Depth.lean`.

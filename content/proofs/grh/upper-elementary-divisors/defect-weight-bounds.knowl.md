@@ -19,9 +19,9 @@ proof_status = "full"
 
 ## Proof
 
-Let \(e(s)=N\) if \(s=i\) and \(e(s)=[s-i]\) otherwise, so that \(\omega(Y_s)=P^{e(s)}/(q-1)\) and \(\omega(X_s)=-P^{[s-i]}/(q-1)\). Since \(P\ge5\) and \([s-i]\le N-1\), we have \(5P^{[s-i]}\le P^{N}=q\), and \(q\ge 5\).
+Let \(e(s)=N\) if \(s=i\) and \(e(s)=[s-i]\) otherwise. For every variable \(x=x_{b,s}\), \((q-1)\,\omega(x)=[x=Y_s]\,P^{e(s)}-[x=X_s]\,P^{[s-i]}\) (indicator contributions, which add when \(a=a'\)); for \(a\ne a'\) this means \(\omega(Y_s)=P^{e(s)}/(q-1)\) and \(\omega(X_s)=-P^{[s-i]}/(q-1)\). Since \(P\ge5\) and \([s-i]\le N-1\), we have \(5P^{[s-i]}\le P^{N}=q\), and \(q\ge 5\).
 
-(1) \(\omega(Y_s)-\omega(X_s)=(P^{e(s)}+P^{[s-i]})/(q-1)\ge0\), and \(P^{e(s)}+P^{[s-i]}\le q+q/5\le\tfrac32(q-1)\) because \(q\ge5\).
+(1) Here \(a\ne a'\), and \(\omega(Y_s)-\omega(X_s)=(P^{e(s)}+P^{[s-i]})/(q-1)\ge0\), and \(P^{e(s)}+P^{[s-i]}\le q+q/5\le\tfrac32(q-1)\) because \(q\ge5\).
 
 (2) For every variable \(x=x_{b,s}\), \(\lvert\omega(x)\rvert\le P^{e(s)}/(q-1)\), since the numerator of \(\omega(x)\) is a difference of two numbers in \([0,P^{e(s)}]\) (note \([s-i]\le e(s)\)). Hence
 \[

@@ -12,11 +12,11 @@ lean_files = ["src/New/UpperBound/ElementaryDivisors/Depth.lean"]
 proof_status = "full"
 +++
 
-For a [[proofs/grh/upper-elementary-divisors/frobenius-cycle|Frobenius cycle]] \(T\) and integers \(k,n,r\), the **divisor constant** is the real number
+For a [[proofs/grh/upper-elementary-divisors/frobenius-cycle|Frobenius cycle]] \(T\) and natural numbers \(k>0\), \(n\), \(r\), the **divisor constant** is the real number
 \[
 \Delta_T(k,n,r)=N\,n\Bigl(\frac1{P^{2r}}+\frac{r^{2}}{k\,P}\Bigr).
 \]
-It depends on \(T\) only through \(P\) (and \(N\)), so it is unchanged by base change of the cycle.
+It depends on \(T\) only through \(P\) (and \(N\)), so it is unchanged by base change of the cycle. (For \(k=0\) the formal source reads the second summand as \(0\); this case is not used.)
 
 **Theorem.** Let \(T\) be a Frobenius cycle for \((N,W,K)\), \(N\ge1\), with \(K\) a field of characteristic \(p\), and let \(0<2r\le k\), \(n\ge0\). For every \(M\ge0\),
 \[
