@@ -25,14 +25,14 @@ By [[proofs/grh/upper-divisibility/chain-datum-as-a-weak-chain-datum|expanding t
 1. *Sum over classes.* The value at \(\operatorname{diag}(y,1)\) of the \(\Psi\)-combination \(\psi\) of chains is a sum over tuples of classes \(c\) and \(t\in\operatorname{supp}\Psi\) of \(\Psi(t)\) times a product of \(m\) kernels applied to a value of \(\varphi\) ([[proofs/grh/upper-divisibility/chain-of-lifts-as-a-sum-over-classes|plain sum]]).
 2. *One term.* By the bound for [[proofs/grh/upper-divisibility/size-of-one-kernel|one kernel]], applied \(m\) times, each product has \(\lVert\sigma(\cdot)\rVert\le R=\prod_{j<m}\exp(x^{50}+\tfrac12\operatorname{rs}(j))\cdot e^{B/2}\).
 3. *Count.* There are at most \(\exp(x^{30})^{m}\) tuples of classes ([[proofs/grh/upper-divisibility/class-count-at-levels-containing-a-principal-level|class count]]; the levels contain the principal level \(\pi_M\pi_N\) and the ranks are at most \(n_m\)), and \(\sum_t\lvert\sigma\Psi(t)\rvert\le\exp(x^{60})\) (weak chain datum, trivial twist). By the triangle inequality, \(\lVert\sigma\psi(\operatorname{diag}(y,1))\rVert\le\exp(mx^{30}+x^{60})R\).
-4. *Restriction.* By the [[proofs/grh/upper-divisibility/gauge-and-size-of-the-restriction-to-y-m|size of the restriction]], the squared norm is multiplied by at most \(\exp(x^{70}-\sum_\tau n_\tau\log N)\), and \(\sum_\tau n_\tau\ge\lvert\Phi_a\rvert a-fm\Delta/2\) ([[?lean:New.Data.sum_branchExponent|`sum_branchExponent`]], quoted).
+4. *Restriction.* By the [[proofs/grh/upper-divisibility/gauge-and-size-of-the-restriction-to-y-m|size of the restriction]], the squared norm is multiplied by at most \(\exp(x^{70}-\sum_\tau n_\tau\log N)\), and \(\sum_\tau n_\tau=\lvert\Phi_a\rvert a-fm\Delta/2\) ([[?lean:New.Data.sum_branchExponent|formula for the branching exponents]], quoted).
 5. *Exponent.* Altogether the exponent is
 \[
 B+x^{70}-\bigl(\lvert\Phi_a\rvert a-fm\tfrac\Delta2\bigr)\log N+2mx^{30}+2x^{60}+2mx^{50}+\sum_{j<m}\operatorname{rs}(j).
 \]
 By the bound for the rows, \(\sum_j\operatorname{rs}(j)\le\operatorname{cs}+\tfrac12\mathrm{err}\); by the lemma that [[proofs/grh/upper-divisibility/level-compensates-the-excess|the level compensates the excess]], \(\operatorname{cs}-\lvert\Phi_a\rvert a\log N\le h_{\mathrm{main}}-m\,\mathrm{rem}+2\sum\operatorname{gain}(p)\log p+32fa\log b\); and \(x^{70}+fm\tfrac\Delta2\log N+2(mx^{30}+x^{60}+mx^{50})+32fa\log b\le\tfrac12\mathrm{err}\) (size comparison, quoted). \(\blacksquare\)
 
-*Status.* Complete relative to the cited knowls and the quoted comparisons; I use `sum_branchExponent` in the direction "at least" as its use in the Lean calculation shows (the term enters with a minus sign), without having opened its statement.
+*Status.* Complete relative to the cited knowls and the quoted comparisons.
 
 ## Remarks
 

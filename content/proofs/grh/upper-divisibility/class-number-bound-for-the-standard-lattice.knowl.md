@@ -21,7 +21,7 @@ proof_status = "outline"
 
 For each class fix a representative \(g\in G_f\).
 
-*Short basis.* By [[?lean:New.exists_short_basis_stdSpace|`exists_short_basis_stdSpace`]] (quoted; this uses that \(N\) lies in the different) there is \(Y_g\in\mathrm{GL}_n(E)\) with \(A_g:=g^{-1}Y_g\) integral (entries in \(\widehat{\mathcal O}_E\)) and with every entry of every complex conjugate of \(Y_g\) of absolute value at most \(c\).
+*Short basis.* By [[?lean:New.Space.exists_short_basis_stdSpace|`exists_short_basis_stdSpace`]] (quoted; this uses that \(N\) lies in the different) there is \(Y_g\in\mathrm{GL}_n(E)\) with \(A_g:=g^{-1}Y_g\) integral (entries in \(\widehat{\mathcal O}_E\)) and with every entry of every complex conjugate of \(Y_g\) of absolute value at most \(c\).
 
 *Rational approximation.* By [[?lean:New.exists_principal_near_of_mem_differentIdeal|`exists_principal_near_of_mem_differentIdeal`]] (quoted) every finite adele \(y\) has an \(\alpha\in E\) with \(y-\alpha\in\widehat{\mathcal O}_E\) and \(\lvert\alpha\rvert_w\le(2f)^2N\) at every infinite place \(w\). Applying this to the entries of \(A_g^{-1}\) gives a matrix \(X_g\) over \(E\) with \(A_g^{-1}-X_g\) integral and entries of size at most \((2f)^2N\).
 

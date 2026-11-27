@@ -26,7 +26,7 @@ the [[?lean:New.Data.errorUnit|error unit]].
 
 ## Proof
 
-Put \(T=4fa(\log b)^2\log x_1\). We show that each term is at most \(T/c\) for some integer \(1\le c\le x_1\), in such a way that each \(c\) is used by at most four values of \(p\), namely \(N\), \(mc-1\), \(c\), \(mc+1\).
+Put \(T=4fa(\log b)^2\log x_1\). A term with \(\operatorname{al}(p)=0\) contributes \(0\) (also for \(p=0\), where \(\log0=0\) by convention) and is discarded; \(U\) may be arbitrarily large, but only the small non-split primes and \(N\) remain. We show that each remaining term is at most \(T/c\) for some integer \(1\le c\le x_1\), in such a way that each \(c\) is used by at most four values of \(p\), namely \(N\), \(mc-1\), \(c\), \(mc+1\).
 
 *A non-split prime \(p<x_1\), \(p\not\equiv\pm1\bmod m\).* Take \(c=p\): \(2\operatorname{loss}(p)\log p\le 2f(\log b)^2(a/p)\log x_1\le T/p\).
 
@@ -38,7 +38,7 @@ Summing, and using \(\sum_{c\le x_1}1/c\le1+\log x_1\),
 \[
 \sum_{p\in U}\operatorname{al}(p)\log p\le4T\sum_{1\le c\le x_1}\frac1c\le4T(1+\log x_1)\le\mathrm{err},
 \]
-the last step being the comparison \(16fa(\log b)^2\log x_1(1+\log x_1)\le fa(\log b)^3\), which holds since \((\log x_1)^6\le\log b\) (quoted from [[?lean:New.Data.le_of_hasLogBound|`le_of_hasLogBound`]] with [[?lean:New.Data.scale_inequalities|the scale inequalities]]). \(\blacksquare\)
+the last step being the comparison \(16fa(\log b)^2\log x_1(1+\log x_1)\le fa(\log b)^3\), which is a size comparison of the data: \((\log x_1)^6\le\log b\) together with the lower bounds for \(\log x_1\) (quoted from [[?lean:New.Data.le_of_hasLogBound|`le_of_hasLogBound`]] with [[?lean:New.Data.scale_inequalities|the scale inequalities]]). \(\blacksquare\)
 
 ## References
 

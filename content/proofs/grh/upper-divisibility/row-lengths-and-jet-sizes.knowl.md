@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-divisibility/row-lengths-and-jet-sizes"
 title = "Row lengths of the lift diagrams and growth of the jet size"
 kind = "lemma"
-summary = "Each row of the Young diagram of a lift is at most its main length plus an explicit slack; the jet size grows at most linearly; the conjugates of the level element have squared absolute value M."
+summary = "Each row of the Young diagram of a lift is at most its main length plus an explicit slack; adding e boxes to a row of length r raises the jet size by at most e(log(r+e+1) + log(M/Omega)); the conjugates of the level element have squared absolute value M."
 aliases = ["row main length", "row slack"]
 domains = ["proofs"]
 section_mode = "progressive"

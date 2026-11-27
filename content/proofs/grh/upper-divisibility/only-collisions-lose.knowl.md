@@ -43,7 +43,7 @@ Adding (a) and (b) with \(z=p^{e}\) and inserting \(\pm c_j(\tau)/p^{e}\):
 [\tau\in\Phi_a]\Bigl(\frac a{p^{e}}-w(\tau')\Bigr)^{+}+k\Bigl(\frac{w(\tau)}{p^{e}}-w(\tau')\Bigr)^{+}+[e=1,\tau\in\Phi_a\cap S]\frac a{x_1}
 \le T(\tau,e)+\frac{c_j(\tau)+[\tau\in\Phi_a\cap S]a}{p^{e}}+[\text{collision}]\frac a{p^{e}}+2x^{60}.
 \]
-If \(p^{e}\ge x_1\) the left side is \(0\) (every weight is at least \(a/x_1\), and \(e\ne1\)), while \(T(\tau,e)+c_j(\tau)/p^{e}\ge0\); so the term \(2x^{60}\) is needed only for the fewer than \(\lceil\log_p\lceil x_1\rceil\rceil\) exponents with \(p^{e}<x_1\). For \(e\notin I_p\) both sides vanish except for nonnegative terms on the right (note \(1\in I_p\) as \(p\) is non-split).
+If \(p^{e}\ge x_1\) the left side is \(0\) (every weight is at least \(a/x_1\), and \(e\ne1\)), while \(T(\tau,e)+c_j(\tau)/p^{e}\ge0\); so the term \(2x^{60}\) is needed only for the fewer than \(\lceil\log_p\lceil x_1\rceil\rceil\) exponents with \(p^{e}<x_1\). The displayed inequality is used only for \(e\in I_p\): in the series of Step 2 every term on both sides carries the indicator of \(I_p\) (the local prime sums, the partner terms and \(\gamma_p\) are sums over \(I_p\)); for \(e\notin I_p\) the left term is \(0\) (also the surplus, as \(1\in I_p\) for non-split \(p\)) and the right terms are nonnegative.
 
 *Step 2 (sum over \(e\)).* All series converge (terms are \(O(p^{-e})\)). Summing Step 1 over \(e\), multiplying by \(v\), and using \(v\sum_{e\in I_p}p^{-e}=\gamma_p\):
 \[

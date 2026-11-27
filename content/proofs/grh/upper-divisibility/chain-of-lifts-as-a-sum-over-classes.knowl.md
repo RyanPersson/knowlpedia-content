@@ -24,9 +24,15 @@ where \(c_j\) runs over the classes \(\Gamma_j\backslash G_f(X_j)/K_j\), and \(h
 
 ## Proof
 
-Each single lift is by definition a sum over classes of the lower group weighted by the reciprocal of the order of the automorphism group \(\Gamma\cap hK_jh^{-1}\) of the class. For \(j<m\) the level \(K_j\) lies in the principal congruence subgroup at the chosen places and the rank \(n_j\le2n_m\), so these groups are trivial ([[?lean:New.Data.classAut_eq_bot_of_le_chosenLevel|`classAut_eq_bot_of_le_chosenLevel`]], quoted): the sums are plain. That, for jointly invariant data, the iterated class sums combine into the displayed sum over tuples of classes is [[?lean:New.IsJointlyInvariant.sum_chain_eq_sum_kernelProduct|`IsJointlyInvariant.sum_chain_eq_sum_kernelProduct`]] (quoted; individual terms \(\Phi_{x,j}\) need not be invariant, only the combination, and the intermediate forms are fixed by the levels only after summation over \(x\)). \(\blacksquare\)
+A single lift is a class integral: the value of the lift of a form \(\psi\) at \(g'\) is the integral over \(\Gamma_j\backslash G_f(X_j)\) of \(h\mapsto\mathcal K_j(\Phi;h,g')\psi(h)\). For a single \(x\) the integrand of the composite need not be invariant under the level \(K_j\) on the right, because \(\Phi_{x,j}\) is not assumed invariant. So one proceeds as follows ([[?lean:New.IsJointlyInvariant.sum_chain_eq_sum_kernelProduct|`IsJointlyInvariant.sum_chain_eq_sum_kernelProduct`]], quoted from the chapter on the objects of the upper bound).
 
-*Status.* This file only specialises the quoted general statement to the data, supplying the freeness of the levels.
+1. Write the value \(C_\Psi(\varphi)(g_m)\) as an iterated class integral of the integrand \(\sum_{x}\Psi(x)\,\mathcal K_{m-1}(\Phi_{x,m-1};h_{m-1},g_m)\cdots\mathcal K_0(\Phi_{x,0};h_0,h_1)\varphi(h_0)\), the sum over \(x\in\operatorname{supp}\Psi\) taken inside, with the last kernel included.
+2. Joint invariance of the tensor \(\sum_x\Psi(x)\Phi_{x,m-1}\otimes\cdots\otimes\Phi_{x,0}\), together with the invariance of \(\varphi\) under \(K_0\), shows that this summed integrand is invariant under right translation of each variable \(h_j\) by \(K_j\), \(j<m\).
+3. For \(j<m\) the level \(K_j\) lies in the principal congruence subgroup at the chosen places and \(n_j\le2n_m\), so the groups \(\Gamma_j\cap hK_jh^{-1}\) are trivial ([[?lean:New.Data.classAut_eq_bot_of_le_chosenLevel|`classAut_eq_bot_of_le_chosenLevel`]], quoted). Hence the integral of a right \(K_j\)-invariant function is the unweighted sum of its values at the representatives of the classes.
+
+This gives the displayed sum over tuples of classes. \(\blacksquare\)
+
+*Status.* This file only specialises the quoted general statement to the data, supplying the freeness of the levels; the three steps describe the quoted proof.
 
 ## References
 

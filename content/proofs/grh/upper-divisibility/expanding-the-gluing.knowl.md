@@ -15,7 +15,7 @@ proof_status = "outline"
 Let \(D\) be [[?lean:New.Data|admissible data]]; \(m=2(\varrho+1)\) lifts are grouped in \(\varrho+1\) double lifts \(X_{2i}\to X_{2i+1}\to X_{2i+2}\). For a tuple of translations \(t=(t_j)\) let \(\Phi^{0}_{t,j}\) be the [[?lean:New.Data.translateDatum|integral vacuum of \(\operatorname{Hom}(X_j,X_{j+1})\) translated by \(t_j\)]].
 
 - A **gluing class** is a family \(y=(y_i)_{i\le\varrho}\), where \(y_i\) assigns to each basis index of the middle space \(X_{2i+1}\) and each prime \(w\mid\pi_N\) a residue modulo \(N\).
-- The **gluing tuple** \(z(y)\) is the tuple of translations with \(z(y)_{2i}\) the matrix with last column \(-y_i/N\) at the places \(w\mid\pi_N\) and zero elsewhere ([[?lean:New.poleColumn|pole column]]), \(z(y)_{2i+1}\) the matrix with last row \(-\bar y_i/N\) at the conjugate places ([[?lean:New.poleRow|pole row]]), and all other entries \(0\).
+- The **gluing tuple** \(z(y)\) is the tuple of translations with \(z(y)_{2i}\) the matrix with last column \(-\tilde y_i/N\) at the places \(w\mid\pi_N\) and zero elsewhere, where \(\tilde y\in\{0,\dots,N-1\}\) is the representative of the residue \(y\) ([[?lean:New.Seesaw.poleColumn|pole column]]), \(z(y)_{2i+1}\) the matrix with last row the conjugate of the adelic vector \(-\tilde y_i/N\), supported at the conjugate places ([[?lean:New.Seesaw.poleRow|pole row]]), and all other entries \(0\).
 - The **unglued vacuum** of \(t\) is \(\Omega(t)=\bigotimes_{i\le\varrho}\bigl(\Phi^{0}_{t,2i}\otimes\Phi^{0}_{t,2i+1}\bigr)\).
 - The [[?lean:New.Data.gluedDoubleLiftDatum|gluing of the \(i\)-th double lift]] replaces \(v_{2i}\otimes v_{2i+1}\) by the sum over \(y_i\) of its Heisenberg translates by the pole column and the pole row of \(y_i\); the [[?lean:New.Data.gluedTensor|glued tensor]] of a coefficient function \(\Psi\) is \(\sum_x\Psi(x)\cdot\mathrm{Glue}\,\Omega(x)\), and the [[?lean:New.Data.plainTensor|plain tensor]] is \(\sum_x\Psi(x)\,\Omega(x)\).
 
@@ -35,7 +35,7 @@ A tuple \(x\) in the support of a chain datum vanishes at the places prime to \(
 
 *Count.* The \(i\)-th double lift has \(N^{f n_{2i+1}}\le N^{fn_m}\) classes (there are \(f\) primes dividing \(\pi_N\)), and there are \(\varrho+1=m/2\) double lifts. The support statement is clear from the definition of pole columns and rows. \(\blacksquare\)
 
-*Status.* The composition law of finite Heisenberg operators ([[?lean:New.finHeisenbergOp_finHeisenbergOp|`finHeisenbergOp_finHeisenbergOp`]]) and the support condition in the definition of a chain datum are quoted.
+*Status.* The composition law of finite Heisenberg operators ([[?lean:New.Space.finHeisenbergOp_finHeisenbergOp|`finHeisenbergOp_finHeisenbergOp`]]) and the support condition in the definition of a chain datum are quoted.
 
 ## References
 

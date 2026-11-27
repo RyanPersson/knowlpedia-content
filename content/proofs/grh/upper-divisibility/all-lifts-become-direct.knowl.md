@@ -22,13 +22,13 @@ where \(\mathrm{pr}\) is the projection on the vacuum at the places above \(N\).
 
 ## Proof
 
-*Step 1 (values of lift characters).* For \(i\le2m\) and any \(j,r,S\): \(\lvert\iota\chi_{i,r}(D_S)\rvert_N\le\prod_{\tau:\ \overline{w_\tau}\in S}N^{2b}\). Indeed the absolute value decreases with \(r\) ([[?lean:New.norm_detCharAt_diagN_anti|`norm_detCharAt_diagN_anti`]], quoted), so take \(r=0\); \(\chi_i\) has weight \(\kappa_i(\tau)\) at \(\tau\), so the \(N\)-adic absolute value of its value at the determinant of the unitary point \(\delta(S)\) is \(\prod_\tau\lvert(\det)_\tau\rvert^{\kappa_i(\tau)}\) with \((\det)_\tau\in\{N^{-1},1\}\), and \(\kappa_i(\tau)\le2b\) ([[?lean:New.Data.liftWeight_le_two_mul_b|`liftWeight_le_two_mul_b`]], quoted).
+*Step 1 (values of lift characters).* For \(i\le2m\) and any \(j,r,S\): \(\lvert\iota\chi_{i,r}(D_S)\rvert_N\le\prod_{\tau:\ \overline{w_\tau}\in S}N^{2b}\). Indeed the absolute value decreases with \(r\) ([[?lean:New.IsSplitLevel.norm_detCharAt_diagN_anti|`norm_detCharAt_diagN_anti`]], quoted), so take \(r=0\); \(\chi_i\) has weight \(\kappa_i(\tau)\) at \(\tau\), so the \(N\)-adic absolute value of its value at the determinant of the unitary point \(\delta(S)\) is \(\prod_\tau\lvert(\det)_\tau\rvert^{\kappa_i(\tau)}\) with \((\det)_\tau\in\{N^{-1},1\}\), and \(\kappa_i(\tau)\le2b\) ([[?lean:New.Data.liftWeight_le_two_mul_b|`liftWeight_le_two_mul_b`]], quoted).
 
 *Step 2 (equivariance of a lift in the function at \(\Sigma_N\)).* For a function \(F\) of matrices modulo \(N\) (read on integral matrices, zero elsewhere), \(g\in\mathrm{GL}(X_j)\), \(k\in\mathrm{GL}(X_{j+1})\) at \(\Sigma_N\), the lift \(\theta_F\) with function \(F\) at \(\Sigma_N\) satisfies
 \[
 \theta_{T\mapsto F(k^{-1}Tg)}(\varphi)=\frac{\chi_{j+1,n_{j+1}}(g)}{\chi_{j+1,n_j}(k)}\;k\cdot\theta_F(g^{-1}\varphi),
 \]
-by the formula for the Weil action of the pair of general linear groups on functions and the equivariance of the theta lift (quoted: [[?lean:New.IsSplitLevel.pairWeilFinite_schrodingerOpAt|`pairWeilFinite_schrodingerOpAt`]], `lift_equivariant`).
+by the formula for the Weil action of the pair of general linear groups on functions and the equivariance of the theta lift (quoted: [[?lean:New.IsSplitLevel.pairWeilFinite_schrodingerOpAt|`pairWeilFinite_schrodingerOpAt`]] in `New/UpperBound/Objects/Columns.lean`, and the equivariance of the lift).
 
 *Step 3 (lift laws).* Write \(L_j(F)\) for the lift with function \(F\) in bases of \(L_j,L_{j+1}\). From Step 2: (i) \(b\circ L_j(T\mapsto F(bTa))\circ a=L_j(F)\) for integral invertible \(a,b\), because the lift characters are unramified above \(N\); (ii) with \(d=\operatorname{diag}(1,\dots,1,N^{-1})\), \(d\circ L_j(\text{last-row datum})=\gamma_j\,L_j(\text{direct datum})\circ d\), where \(\gamma_j=\chi_{j+1,n_{j+1}}(D_{\Sigma_N})/\chi_{j+1,n_j}(D_{\Sigma_N})\) is the **commutation factor**; \(\lvert\iota\gamma_j\rvert\le1\) since \(n_j\le n_{j+1}\). These are the two rules of a [[?lean:New.IsSplitLevel.LiftLaw|lift law]].
 
@@ -38,13 +38,13 @@ G_i=\chi_{2i+2,n_{2i+1}}\bigl(D_{\Sigma_N\setminus\{w\mid\pi_N\}}\bigr)\cdot\chi
 \]
 and the points \(\delta_{2i+1}\) cancel between the two lifts. So the double lift is \(G_i\cdot d\circ\sum_yL_{2i+1}(\text{char}_y)\circ L_{2i}(\text{col}_y)\). By Step 1, \(\lvert\iota G_i\rvert\le N^{2fb}\) for \(i\le\varrho\): each \(\tau\) contributes to exactly one of the two factors.
 
-*Step 5 (the chain).* By the general statement on chains of glued lifts obeying lift laws, applied to ramified vectors ([[?lean:New.IsSplitLevel.compUpTo_gluedLift_eq_smul|`compUpTo_gluedLift_eq_smul`]], quoted from the file on characters at the level; ramified source forms are ramified vectors by [[proofs/grh/upper-divisibility/up-operator-preserves-source-forms|the earlier proposition]]), the composite of the \(\varrho+1\) double lifts equals
+*Step 5 (the chain).* By the general statement on chains of glued lifts obeying lift laws, applied to ramified vectors ([[?lean:New.IsSplitLevel.compUpTo_gluedLift_eq_smul|`compUpTo_gluedLift_eq_smul`]], quoted from `New/UpperBound/Objects/LiftLawsModuloN.lean`; ramified source forms are ramified vectors by [[proofs/grh/upper-divisibility/up-operator-preserves-source-forms|the earlier proposition]]), the composite of the \(\varrho+1\) double lifts equals
 \[
 c=\prod_{i\le\varrho}\Bigl(G_i\cdot\#\{\text{primitive vectors on }X_{2i+1}\text{ modulo }N\}\cdot\prod_{l<2i+2}\gamma_l\Bigr)
 \]
 times the chain of the \(m\) direct lifts after \(U^{\varrho+1}\). Natural numbers and the \(\gamma_l\) have \(N\)-adic absolute value at most \(1\), so \(\lvert\iota c\rvert\le(N^{2fb})^{\varrho+1}=N^{mfb}\). \(\blacksquare\)
 
-*Status.* Steps 1, 3 and the bound on \(c\) were followed in the Lean text. The inputs of Steps 2, 4 and 5, in particular the combinatorial identity `compUpTo_gluedLift_eq_smul` that trades the gluing for powers of \(U\) on ramified vectors, belong to `New/UpperBound/Objects/CharactersAtLevel.lean` (another area) and are quoted.
+*Status.* Steps 1, 3 and the bound on \(c\) were followed in the Lean text. The inputs of Steps 2, 4 and 5, in particular the combinatorial identity `compUpTo_gluedLift_eq_smul` that trades the gluing for powers of \(U\) on ramified vectors, belong to another area and are quoted: the Weil action on functions at \(\Sigma_N\) and the expansion of the gluing (`pairWeilFinite_schrodingerOpAt`, `doubleLiftGluing_eq_sum_schrodingerOpAt`) and the monotonicity `norm_detCharAt_diagN_anti` are in `New/UpperBound/Objects/Columns.lean`; the lift laws and `compUpTo_gluedLift_eq_smul` are in `New/UpperBound/Objects/LiftLawsModuloN.lean`.
 
 ## References
 

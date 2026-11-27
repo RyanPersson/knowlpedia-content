@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-divisibility/ramified-source-forms-are-the-image-of-the-ramifying-operator"
 title = "Ramified source forms are the image of the ramifying operator"
 kind = "proposition"
-summary = "The ramified source forms are the image of the product of 1 - z_w over all primes w dividing pi_N, and form all but a proportion f/(N-1) of the source forms."
+summary = "The ramified source forms are the image of the product of 1 - z_w over all primes w dividing pi_N, and their codimension is at most a proportion f/(N-1) of the dimension of the source forms."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"

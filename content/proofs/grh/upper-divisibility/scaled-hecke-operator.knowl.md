@@ -19,7 +19,7 @@ where \(A_{\mathfrak l}=a\cdot\lvert\{\tau\in\Phi_a:w_\tau=\mathfrak l\}\rvert\)
 
 ## Remarks
 
-The scaling by \(p^{A_{\mathfrak l}}\) makes the operator preserve the integral source forms and gives its cokernel on them a controlled length; see [[proofs/grh/upper-divisibility/mark-operator|the mark operator]].
+The scaling by \(p^{A_{\mathfrak l}}\) makes the operator preserve the module \(\mathcal M\) of integral source forms, and for every \(j\) the colength of \(\widetilde T_{\mathfrak l}\mathcal M+p^{j}\mathcal M\) in \(\mathcal M\) is bounded, with a bound that grows with \(j\); see [[proofs/grh/upper-divisibility/mark-operator|the bound for one scaled Hecke operator]]. No bound for the full cokernel of \(\widetilde T_{\mathfrak l}\) on \(\mathcal M\) is claimed.
 
 ## References
 

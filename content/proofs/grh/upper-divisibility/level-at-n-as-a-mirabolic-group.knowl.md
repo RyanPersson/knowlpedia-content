@@ -12,7 +12,7 @@ lean_files = ["src/New/UpperBound/Divisibility/SetupAtLevel.lean"]
 proof_status = "outline"
 +++
 
-Notation of the [[proofs/grh/upper-divisibility/setup-at-the-level-prime|set-up at \(N\)]]. The **mirabolic group** is the group of matrices over \(\prod_{w\in\Sigma_N}\mathcal O_w\) that are invertible and whose last column is \((0,\dots,0,1)^{T}\) modulo \(N\) ([[?lean:New.mirabolic|`mirabolic`]]).
+Notation of the [[proofs/grh/upper-divisibility/setup-at-the-level-prime|set-up at \(N\)]]. The **mirabolic group** is the group of matrices over \(\prod_{w\in\Sigma_N}\mathcal O_w\) that are invertible and whose last column is \((0,\dots,0,1)^{T}\) modulo \(N\) ([[?lean:New.IsSplitLevel.mirabolic|`mirabolic`]]).
 
 **Lemma.** Let \(k\in G_f(X_j)\).
 
@@ -28,7 +28,7 @@ Notation of the [[proofs/grh/upper-divisibility/setup-at-the-level-prime|set-up 
 
 (3) By (1) for \(k\) and \(k^{-1}\), \(k\) is integral with integral inverse at \(\Sigma_N\), hence everywhere (it is unitary and trivial elsewhere); it lies in the principal congruence subgroup at the chosen places because it is trivial away from \(N\); and for \(w\mid\pi_N\) either \(w\in\Sigma_N\), where (1) gives the congruence for the last row of \(k_w\), or \(\bar w\in\Sigma_N\), where (1) applied to \(k^{-1}\) at \(\bar w\) gives it. \(\blacksquare\)
 
-*Status.* The Lean proof phrases (1) through the non-vanishing of a "direct datum" (the indicator of integral matrices with prescribed last column, [[?lean:New.directDatum|`directDatum`]]); the entrywise case analysis above follows its proof. The passage between "integral with last column of 1" for \(k\) and \(k^{-1}\) and membership in the mirabolic group uses [[?lean:New.exists_inclGL_eq|`exists_inclGL_eq`]], quoted.
+*Status.* The Lean proof phrases (1) through the non-vanishing of a "direct datum" (the indicator of integral matrices with prescribed last column, [[?lean:New.IsSplitLevel.directDatum|`directDatum`]]); the entrywise case analysis above follows its proof. The passage between "integral with last column of 1" for \(k\) and \(k^{-1}\) and membership in the mirabolic group uses [[?lean:New.IsSplitLevel.exists_inclGL_eq|`exists_inclGL_eq`]], quoted.
 
 ## References
 

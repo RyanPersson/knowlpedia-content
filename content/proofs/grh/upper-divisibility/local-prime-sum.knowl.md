@@ -24,7 +24,7 @@ F(p)\;=\;\sum_{\sigma\in\Phi}s_p\bigl(w(\sigma),\sigma\bigr).
 
 ## Remarks
 
-The sum over \(e\) is a sum of nonnegative terms that vanish as soon as \(p^{e}>y/\min w\) (for \(p\ge2\)), so it is finite. For a prime \(p\) that splits in \(K\) the set \(I_p\) is empty and \(s_p=0\). The sum of \(2\log p\cdot s_p(y,\sigma)\) over the primes \(p\) is the [[?lean:New.Data.primeSum|prime sum]] at the order \(y\) and the place \(\sigma\) (see the reading guide of the source: the local prime sum is the part at \(p\) of the prime sum divided by \(2\log p\)); that identity is not proved in this file.
+The sum over \(e\) is a sum of nonnegative terms that vanish as soon as \(p^{e}>y/\min w\) (for \(p\ge2\)), so it is finite. For a prime \(p\) that splits in \(K\) the set \(I_p\) is empty and \(s_p=0\). For \(y\le a\), the sum of \(2\log p\cdot s_p(y,\sigma)\) over the primes \(p\) (only primes below \(x_1\) contribute) is the [[?lean:New.Data.primeSum|prime sum]] at the order \(y\) and the place \(\sigma\); see [[proofs/grh/upper-divisibility/prime-sum-grouped-by-primes|the prime sum grouped by primes]]. The hypothesis \(y\le a\) is needed: the prime sum stops at \(\nu=a\), while the local sums run over all prime powers.
 
 ## References
 

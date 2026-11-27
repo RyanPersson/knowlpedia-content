@@ -11,7 +11,7 @@ lean = ["New.Data.IsSmallNonsplit", "New.Data.IsPlusMinusOneModLifts", "New.Data
 lean_files = ["src/New/UpperBound/Size/ShortColumns.lean"]
 +++
 
-Let \(D\) be [[?lean:New.Data|admissible data]] for the parameters \((q_0,d)\), with scales \(x_1\), \(b\), \(a=xb\), number of lifts \(m\), ranks \(n_j=k+j(t+1)\), and \(f\) infinite places of \(E\). Let \(\chi_K\) be the [[?lean:New.chiK|quadratic character]] of \(K=\mathbb{Q}(\sqrt{-d})\). Let \(p\) be a natural number.
+Let \(D\) be [[?lean:New.Data|admissible data]] for the parameters \((q_0,d)\), with scales \(x_1\), \(b\), \(a=xb\), number of lifts \(m\), ranks \(n_j=k+j(t+1)\), and \(f\) infinite places of \(E\). Let \(\chi_K\) be the [[?lean:New.chiK|quadratic character]] of \(K=\mathbb{Q}(\sqrt{-d})\). Let \(p\) be a natural number; the formulas are used for primes. (For \(p\le1\) the source's conventions apply: a quotient by \(0\) is \(0\), and the rounded-up logarithm to a base \(p\le1\) is \(0\).)
 
 - \(p\) is **small non-split** if \(p<x_1\) and \(\chi_K(p)\ne 1\).
 - \(p\) is **\(\pm1\) modulo the number of lifts** if \(m\mid p-1\) (with \(p-1\) read as \(0\) for \(p=0\)) or \(m\mid p+1\).

@@ -30,7 +30,7 @@ such that the [[?lean:New.ColengthDvd|colength]] of \(\widetilde T_{\mathfrak l}
 The statement is the [[?lean:New.FrobeniusCycle.elementary_divisors|theorem on elementary divisors of an edge Hecke operator]] (another area), once \(\widetilde T_{\mathfrak l}\) on \(\mathcal M\) is identified with an edge Hecke operator. This identification is what is proved here.
 
 1. *Preliminaries.* By the [[proofs/grh/upper-divisibility/properties-of-marked-sets|properties of marked sets]], \(\bar{\mathfrak l}\ne\mathfrak l\), \(p\) is a uniformiser at \(\mathfrak l\), and the level \(K_0\) of stage \(0\) is maximal at \(\mathfrak l\); \(K_0\) is free; and \(\mathfrak r<k\) by the size conditions.
-2. *Edges.* Choose [[proofs/grh/upper-divisibility/hecke-cosets-as-edges|edge data]] \((\rho_x,o,\gamma_e,u_e,g_e)\) for \(K_0\), \(\mathfrak l\) and \(r=\mathfrak r\). By the knowl on the [[proofs/grh/upper-divisibility/hecke-operator-as-a-sum-over-edges|sum over edges]], an edge is determined by its origin and the parahoric coset of \(g_e^{T}\), and
+2. *Edges.* Choose [[proofs/grh/upper-divisibility/hecke-cosets-as-edges|edge data]] \((\rho_x,o,\gamma_e,u_e,g_e)\) for \(K_0\), \(\mathfrak l\) and \(r=\mathfrak r\). By the knowl on the [[proofs/grh/upper-divisibility/hecke-operator-as-a-sum-over-edges|sum over edges]], an edge is determined by its origin \(o(e)\) and the coset \(g_e^{-T}\mathcal P_r\) of the inverse transpose of its change of basis (equivalently by the coset \(\mathcal P_rg_e^{T}\) on the other side), and
 \[
 (\widetilde T_{\mathfrak l}\varphi)(\rho_x)=p^{A_{\mathfrak l}}\sum_b\varrho(\gamma_{(x,b)})\varphi(\rho_{o(x,b)}).
 \]

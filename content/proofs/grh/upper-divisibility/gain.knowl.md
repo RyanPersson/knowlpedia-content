@@ -19,7 +19,7 @@ where \(s_p\) is the [[proofs/grh/upper-divisibility/local-prime-sum|local prime
 
 ## Remarks
 
-The gain is the exponent of \(p\) that the [[proofs/grh/upper-divisibility/local-divisibility-of-the-composite-lift|local divisibility theorem]] shows, up to an explicit error, to divide the [[?lean:New.Data.compositeLift|composite lift]] of an integral source form. The first summand comes from the derivatives of order \(a\) at the a-places; the second from the \(k\) further directions in which each lift differentiates.
+The [[proofs/grh/upper-divisibility/local-divisibility-of-the-composite-lift|local divisibility theorem]] shows that, for each prime \(p\) and each embedding \(\mathbb{C}\to\mathbb{C}_p\), the [[?lean:New.Data.compositeLift|composite lift]] has valuation at least \(\operatorname{gain}(p)\) less an explicit error on a submodule, of controlled colength, of the integral ramified source forms, for twists of modulus prime to \(p\); it does not assert this for every integral source form. The first summand comes from the derivatives of order \(a\) at the a-places; the second from the \(k\) further directions in which each lift differentiates.
 
 ## References
 

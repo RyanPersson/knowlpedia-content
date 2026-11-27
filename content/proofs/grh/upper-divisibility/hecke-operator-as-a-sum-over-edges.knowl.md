@@ -2,7 +2,7 @@
 id = "proofs/grh/upper-divisibility/hecke-operator-as-a-sum-over-edges"
 title = "The Hecke operator as a sum over edges; an edge is determined by its origin"
 kind = "proposition"
-summary = "At a representative of a class the Hecke operator sums the rational parts of the edges into it applied to the values at their origins, and at a free level an edge is determined by its origin and the parahoric coset of its transposed change of basis."
+summary = "At a representative of a class the Hecke operator sums the rational parts of the edges into it applied to the values at their origins, and at a free level an edge is determined by its origin and the parahoric coset of the inverse transpose of its change of basis."
 aliases = []
 domains = ["proofs"]
 section_mode = "progressive"
@@ -20,11 +20,11 @@ Notation and [[proofs/grh/upper-divisibility/hecke-cosets-as-edges|edge data]] \
 \[
 \bigl(T_{\mathfrak l,r}\varphi\bigr)(\rho_x)=\sum_{b\in\mathrm{GL}_k(W)/\mathcal P_r}\varrho(\gamma_{(x,b)})\,\varphi\bigl(\rho_{o(x,b)}\bigr).
 \]
-2. Suppose moreover that \(K\) is free (\(\Gamma\cap gKg^{-1}=1\) for all \(g\)). If two edges \(e,e'\) have \(o(e)=o(e')\) and \(g_e^{T}(g_{e'}^{T})^{-1}\in\mathcal P_r\), then \(e=e'\).
+2. Suppose moreover that \(K\) is free (\(\Gamma\cap gKg^{-1}=1\) for all \(g\)). If two edges \(e,e'\) have \(o(e)=o(e')\) and \(g_e^{T}(g_{e'}^{T})^{-1}\in\mathcal P_r\), that is \(g_e^{-T}\mathcal P_r=g_{e'}^{-T}\mathcal P_r\) in \(\mathrm{GL}_k(W)/\mathcal P_r\), then \(e=e'\). So an edge is determined by the pair \((o(e),\,g_e^{-T}\mathcal P_r)\).
 
 ## Proof
 
-(1) \(\varphi\) is spherical at \(\mathfrak l\), and by definition \(T_{\mathfrak l,r}\varphi\) is the sum of the right translates of \(\varphi\) by representatives of the right cosets in the double coset ([[?lean:New.heckeFun_eq_sum_pullback|`heckeFun_eq_sum_pullback`]], quoted); by part 2 of the knowl on edges these are the \(\delta_{\rho_x}(\beta_b)\), one for each \(b\), when evaluating at \(\rho_x\). Hence \((T\varphi)(\rho_x)=\sum_b\varphi(\rho_x\delta_{\rho_x}(\beta_b))=\sum_b\varphi(\gamma_e\rho_{o(e)}u_e)=\sum_b\varrho(\gamma_e)\varphi(\rho_{o(e)})\), using the equivariance of \(\varphi\) under \(\Gamma\) and its invariance under \(K\).
+(1) \(\varphi\) is spherical at \(\mathfrak l\), and by definition \(T_{\mathfrak l,r}\varphi\) is the sum of the right translates of \(\varphi\) by representatives \(\delta\) of the left cosets \(\delta K_{\mathfrak l}\) in the double coset (the translate by \(\delta\) depends only on \(\delta K_{\mathfrak l}\), as \(\varphi\) is fixed by \(K_{\mathfrak l}\)) ([[?lean:New.heckeFun_eq_sum_pullback|`heckeFun_eq_sum_pullback`]], quoted); by part 2 of the knowl on edges these are the \(\delta_{\rho_x}(\beta_b)\), one for each \(b\), when evaluating at \(\rho_x\). Hence \((T\varphi)(\rho_x)=\sum_b\varphi(\rho_x\delta_{\rho_x}(\beta_b))=\sum_b\varphi(\gamma_e\rho_{o(e)}u_e)=\sum_b\varrho(\gamma_e)\varphi(\rho_{o(e)})\), using the equivariance of \(\varphi\) under \(\Gamma\) and its invariance under \(K\).
 
 (2) Write \(e=(x,b)\), \(e'=(x',b')\) with representatives \(\beta,\beta'\). Put \(\eta=\gamma_e\gamma_{e'}^{-1}=\beta\,\bigl(d\,g_e^{-1}g_{e'}\,d^{-1}\bigr)\beta'^{-1}\in\Gamma\). The inverse transpose preserves integrality and exchanges \(d\) and \(d^{-1}\), and the inverse transpose of \(d\,g_e^{-1}g_{e'}\,d^{-1}\) is \(d^{-1}g_e^{T}(g_{e'}^{T})^{-1}d\), which is integral at \(\mathfrak l\) by the hypothesis and part 1 of the knowl on edges. So \(\eta\) is integral at \(\mathfrak l\). Let \(y=\rho_x^{-1}\eta\rho_{x'}\) and \(u=u_{e'}^{-1}u_e\in K\). Using \(o(e)=o(e')\), the representatives of the origin cancel:
 \[

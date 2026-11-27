@@ -24,7 +24,7 @@ proof_status = "full"
 
 ## Proof
 
-(1) Each prime of \(\Lambda\) is \(w_\tau\) for some place \(\tau\), which gives the first two claims; \(\bar{\mathfrak l}\notin\Lambda\ni\mathfrak l\) gives the third. \(p\) is inert in \(K\), so \(p\nmid q_1d\) and \(p\) is unramified in \(E\) (the discriminant of \(E\) is supported on \(q_1d\); Lean: [[?lean:New.intValuation_natCast_eq_exp_neg_one|`intValuation_natCast_eq_exp_neg_one`]]). \(p\nmid MN\) by the [[proofs/grh/upper-divisibility/orbits-at-an-exceptional-prime|theorem on orbits]].
+(1) Each prime of \(\Lambda\) is \(w_\tau\) for some place \(\tau\), which gives the first two claims; \(\bar{\mathfrak l}\notin\Lambda\ni\mathfrak l\) gives the third. \(p\) is inert in \(K\); every prime dividing \(q_1\) splits in \(K\) and \(d\) ramifies, so \(p\nmid q_1d\) ([[?lean:New.Parameters.not_dvd_q₁_mul_d_of_inert|`not_dvd_q₁_mul_d_of_inert`]]), and \(p\) is unramified in \(E\) (the discriminant of \(E\) is supported on \(q_1d\); Lean: [[?lean:New.Parameters.intValuation_natCast_eq_exp_neg_one|`intValuation_natCast_eq_exp_neg_one`]]). \(p\nmid MN\) by the [[proofs/grh/upper-divisibility/orbits-at-an-exceptional-prime|theorem on orbits]].
 
 (2) Suppose \(\sigma\) is a b-place. Some a-place \(\tau\) induces \(w_\sigma\) or \(\bar w_\sigma\), so \(\tau=g^{i}\sigma\) with \(g=u(-p)\). Modulo \(q_0\), with \(c\) the class of \(g\): a-places have class \(1\), b-places class \(-1\), so \(-c^{i}=1\). Raising to the odd power \(o_0\) (the order of \(c\)): \(1=(-c^{i})^{o_0}=-(c^{o_0})^{i}=-1\) in \((\mathbb{Z}/q_0)^\times\), which is false as \(q_0>2\). The weight of a place that is not a b-place is \(a/x_1\).
 
